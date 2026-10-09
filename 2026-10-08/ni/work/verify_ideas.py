@@ -57,17 +57,19 @@ def tile_b(cells,K):
 
 def tile(cells,K):
     M=max(x for x,y in cells)+1; H=max(y for x,y in cells)+1
-    phases=[-1]*H; ans=0
+    phases=[-1]*H; ans=0; last=0
     for x in range(M+1):
         ps=set(phases)-{-1}
         if len(ps)==1:
-            p=next(iter(ps)); ans=max(ans,x-(x-p)%K)
+            p=next(iter(ps)); t=x-(x-p)%K
+            if t>=last: ans=max(ans,t)
         elif not ps: ans=x
         old={(y) for y in range(H) if phases[y]>=0}
         new={y for y in range(H) if (x,y) in cells}
         if any(phases[y]!=x%K for y in old-new): return ans
         for y in old-new: phases[y]=-1
         for y in new-old: phases[y]=x%K
+        if old!=new: last=x
         i=0
         while i<H:
             j=i+1
@@ -77,6 +79,8 @@ def tile(cells,K):
     return ans
 
 random.seed(1708)
+cells={(x,y) for x in range(6) for y in range(4)} | {(x,y) for x in range(1,5) for y in range(4,8)}
+assert tile(cells,4)==tile_b(cells,4)==0
 for z in range(1000):
     n=random.randint(1,10); a=sorted(random.sample(range(-20,30),n)); L=random.randint(1,12); R=random.randint(L,20)
     assert watch(a,L,R)==watch_b(a,L,R),(a,L,R)

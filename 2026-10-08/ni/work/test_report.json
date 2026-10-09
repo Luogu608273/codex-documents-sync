@@ -1,0 +1,24 @@
+{
+  "compiled": 10,
+  "comparisons": {
+    "U1708_code": 205,
+    "U1708_partial_20": 205,
+    "U1708_partial_40": 205,
+    "U1709_code": 101,
+    "U1709_partial_14": 101,
+    "U1709_partial_68": 101,
+    "U1710_code": 201,
+    "U1710_partial_66": 201,
+    "U1711_code": 602,
+    "U1711_partial_20": 602
+  },
+  "large_case_seconds": {
+    "watch_n200000": 0.06261690007522702,
+    "merge_nq150000": 0.07513260003179312,
+    "sect_chain_n150000": 0.35355919995345175,
+    "tile_n200000": 0.05922610010020435,
+    "sect_binary_tree_n150000": 0.0816711001098156,
+    "tile_199996_vertices_many_phases": 0.08087869989685714
+  },
+  "judge_status": "Not submitted; local tests only."
+}
