@@ -1,0 +1,24 @@
+HTTP/1.1 307 Temporary Redirect
+Date: Sat, 10 Oct 2026 09:09:04 GMT
+Content-Length: 0
+Connection: keep-alive
+Location: /search?gacha=ssr-0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2BNnhiUiUol%2Fkhb8wJtAXwoalo5xqvgE95n8YgD9wMZcB2F94tTFW1C7opggflYDjDV9zSv0q0JUNVWEA23J8RY4FmjivsO9dmpTq%2BWGRHOaG2mgbfzvVFcQditHc6hBFFd9aUc9r22mg"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a4847bf0ebb7a0e9-HKG
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 200 OK
+Date: Sat, 10 Oct 2026 09:09:04 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Cache-Status: HIT
+Cache-Control: public, max-age=0, must-revalidate
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8FHxzOEPAOuzMcqaRLR8tVKOBJPg45xqsmwxRtTD2DKn3%2FavyhW7wnUI11R9rzowbEMhVwYpm9R4P3iUo8I9IooMBmGT1cH9T5nMKdLesTnJYmdoZO8BFQIcrwk5O87PS8ZOqgMj06Nk"}]}
+Server: cloudflare
+CF-RAY: a4847bf16ce2a0e9-HKG
+alt-svc: h3=":443"; ma=86400
+

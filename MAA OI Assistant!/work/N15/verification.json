@@ -1,0 +1,103 @@
+{
+  "seed": 20261013,
+  "compiler": "C:/TDM-GCC-64/bin/g++.exe",
+  "flags": "-std=c++17 -O2 -Wall -Wextra -DLOCAL",
+  "tests": [
+    {
+      "program": "G123907_std",
+      "test": "all ABC strings of lengths 1..10, original-operation exhaustive oracle",
+      "cases": 88572,
+      "answers": 88572,
+      "seconds": 0.028,
+      "result": "PASS"
+    },
+    {
+      "program": "G123907_partial_57",
+      "test": "all ABC strings of lengths 1..8",
+      "cases": 9840,
+      "answers": 9840,
+      "seconds": 0.016,
+      "result": "PASS"
+    },
+    {
+      "program": "G123907_partial_5",
+      "test": "all AB strings of lengths 1..10",
+      "cases": 2046,
+      "answers": 2046,
+      "seconds": 0.008,
+      "result": "PASS"
+    },
+    {
+      "program": "G123908_std",
+      "test": "enumerate every edge subset, compare all-pairs distances; includes zero edges, parallel edges, disconnected graphs",
+      "cases": 500,
+      "answers": 500,
+      "seconds": 0.007,
+      "result": "PASS"
+    },
+    {
+      "program": "G123908_partial_20",
+      "test": "all edge lengths zero",
+      "cases": 100,
+      "answers": 100,
+      "seconds": 0.006,
+      "result": "PASS"
+    },
+    {
+      "program": "G123909_std",
+      "test": "all intervals, enumerate subsequence index masks including empty",
+      "cases": 600,
+      "answers": 14115,
+      "seconds": 0.015,
+      "result": "PASS"
+    },
+    {
+      "program": "G123909_partial_24",
+      "test": "same independent exhaustive oracle",
+      "cases": 600,
+      "answers": 14115,
+      "seconds": 0.011,
+      "result": "PASS"
+    },
+    {
+      "program": "G123909_std",
+      "test": "larger intervals and modular wraparound, ordinary linear DP oracle",
+      "cases": 100,
+      "answers": 2600,
+      "seconds": 0.01,
+      "result": "PASS"
+    },
+    {
+      "program": "G123909_partial_24",
+      "test": "same linear DP oracle",
+      "cases": 100,
+      "answers": 2600,
+      "seconds": 0.025,
+      "result": "PASS"
+    },
+    {
+      "program": "G123910_std",
+      "test": "grid DP oracle; negative/zero/positive scores, equal deadlines; tiny cases also enumerate schedules",
+      "cases": 2500,
+      "answers": 2500,
+      "seconds": 0.025,
+      "result": "PASS"
+    },
+    {
+      "program": "G123910_partial_10",
+      "test": "same oracle",
+      "cases": 2500,
+      "answers": 2500,
+      "seconds": 0.019,
+      "result": "PASS"
+    },
+    {
+      "program": "G123910_partial_5",
+      "test": "equal-deadline cases, including negative scores",
+      "cases": 500,
+      "answers": 500,
+      "seconds": 0.013,
+      "result": "PASS"
+    }
+  ]
+}

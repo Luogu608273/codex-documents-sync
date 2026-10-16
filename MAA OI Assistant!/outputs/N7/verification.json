@@ -1,0 +1,242 @@
+{
+  "date": "2026-10-15",
+  "status": "PASS",
+  "official_submission": false,
+  "compiler": "g++.exe (tdm64-1) 10.3.0",
+  "flags": [
+    "-std=c++17",
+    "-O2",
+    "-Wall",
+    "-Wextra"
+  ],
+  "io_modes": [
+    "default statement file IO",
+    "-DLOCAL standard IO"
+  ],
+  "seed_core": 16701669,
+  "seed_stress": 20261015,
+  "seed_all_queries": 71999,
+  "platform": "Windows-10-10.0.19044-SP0",
+  "samples": [
+    {
+      "problem": "U1667",
+      "program": "std",
+      "default_compile": "PASS, no warnings",
+      "file_io": "PASS",
+      "local_compile": "PASS, no warnings",
+      "sample": "PASS"
+    },
+    {
+      "problem": "U1667",
+      "program": "partial",
+      "default_compile": "PASS, no warnings",
+      "file_io": "PASS",
+      "local_compile": "PASS, no warnings",
+      "sample": "PASS: first two in-scope cases"
+    },
+    {
+      "problem": "U1668",
+      "program": "std",
+      "default_compile": "PASS, no warnings",
+      "file_io": "PASS",
+      "local_compile": "PASS, no warnings",
+      "sample": "PASS"
+    },
+    {
+      "problem": "U1668",
+      "program": "partial",
+      "default_compile": "PASS, no warnings",
+      "file_io": "PASS",
+      "local_compile": "PASS, no warnings",
+      "sample": "PASS"
+    },
+    {
+      "problem": "U1669",
+      "program": "std",
+      "default_compile": "PASS, no warnings",
+      "file_io": "PASS",
+      "local_compile": "PASS, no warnings",
+      "sample": "PASS"
+    },
+    {
+      "problem": "U1669",
+      "program": "partial",
+      "default_compile": "PASS, no warnings",
+      "file_io": "PASS",
+      "local_compile": "PASS, no warnings",
+      "sample": "PASS"
+    },
+    {
+      "problem": "U1670",
+      "program": "std",
+      "default_compile": "PASS, no warnings",
+      "file_io": "PASS",
+      "local_compile": "PASS, no warnings",
+      "sample": "PASS"
+    },
+    {
+      "problem": "U1670",
+      "program": "partial",
+      "default_compile": "PASS, no warnings",
+      "file_io": "PASS",
+      "local_compile": "PASS, no warnings",
+      "sample": "PASS"
+    }
+  ],
+  "core": [
+    {
+      "name": "U1667 全部 n,m<=4 与无序集合划分穷举一致",
+      "cases": 16,
+      "partial_seconds": 0.072
+    },
+    {
+      "name": "U1667 大整数精确计数公式交叉验证",
+      "cases": 250
+    },
+    {
+      "name": "U1668 含全部 3^8 个八位三色串的序列，穷举所有长度<=8询问",
+      "n": 6568,
+      "queries": 52516
+    },
+    {
+      "name": "U1668 随机及全同色/三周期/双色/分段数组所有区间，与二次DP一致",
+      "arrays": 32,
+      "queries": 207626
+    },
+    {
+      "name": "U1669 随机修改询问，与逐起点正向函数复合暴力一致",
+      "operations": 18000,
+      "queries": 10774
+    },
+    {
+      "name": "U1669 零值/上界及全部区间边界测试",
+      "arrays": 35,
+      "queries": 2980
+    },
+    {
+      "name": "U1670 所有 3~5 点简单连通图，与 Prüfer/边子集穷举一致",
+      "graphs": 770
+    },
+    {
+      "name": "U1670 六点随机连通图，与 Prüfer/边子集穷举一致",
+      "graphs": 100
+    },
+    {
+      "name": "U1670 树图恒为1（链/星/随机树）",
+      "cases": 9
+    }
+  ],
+  "stress": [
+    {
+      "problem": "U1667",
+      "case": "stress_median",
+      "seconds": 0.076,
+      "output_lines": 100000,
+      "output_first": [
+        "500001 1",
+        "500001 1"
+      ]
+    },
+    {
+      "problem": "U1668",
+      "case": "stress_three_random",
+      "seconds": 0.712,
+      "output_lines": 200000,
+      "output_first": [
+        "321968",
+        "535840"
+      ]
+    },
+    {
+      "problem": "U1668",
+      "case": "stress_three_periodic",
+      "seconds": 0.446,
+      "output_lines": 200000,
+      "output_first": [
+        "0",
+        "0"
+      ]
+    },
+    {
+      "problem": "U1669",
+      "case": "stress_func",
+      "seconds": 0.541,
+      "output_lines": 166666,
+      "output_first": [
+        "831352842444503",
+        "667699867743550"
+      ]
+    },
+    {
+      "problem": "U1670",
+      "case": "stress_ndfs_complete",
+      "seconds": 2.966,
+      "output_lines": 1,
+      "output_first": [
+        "737001825"
+      ]
+    },
+    {
+      "problem": "U1670",
+      "case": "stress_ndfs_0.25",
+      "seconds": 2.838,
+      "output_lines": 1,
+      "output_first": [
+        "459848179"
+      ]
+    },
+    {
+      "problem": "U1670",
+      "case": "stress_ndfs_0.5",
+      "seconds": 2.908,
+      "output_lines": 1,
+      "output_first": [
+        "74887230"
+      ]
+    },
+    {
+      "problem": "U1670",
+      "case": "stress_ndfs_0.75",
+      "seconds": 3.004,
+      "output_lines": 1,
+      "output_first": [
+        "933446389"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "problem": "U1669",
+      "case": "stress_func_all_queries",
+      "seconds": 0.736,
+      "queries": 500000,
+      "oracle": "prefix sums, every answer checked"
+    },
+    {
+      "problem": "U1667",
+      "case": "stress_median",
+      "peak_working_set_mib": 11.54
+    },
+    {
+      "problem": "U1668",
+      "case": "stress_three_random",
+      "peak_working_set_mib": 64.95
+    },
+    {
+      "problem": "U1669",
+      "case": "stress_func_all_queries",
+      "peak_working_set_mib": 27.55
+    },
+    {
+      "problem": "U1670",
+      "case": "stress_ndfs_complete",
+      "peak_working_set_mib": 37.15
+    }
+  ],
+  "limitations": [
+    "No official submission or AC claim.",
+    "Only samples actually present in the four supplied PDFs were available.",
+    "Partial programs are tested only within their documented constraints.",
+    "Stress timings are single-machine observations, not judge guarantees."
+  ]
+}

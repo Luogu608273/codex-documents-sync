@@ -1,0 +1,4 @@
+interface:
+  display_name: "MAA 自动战斗与观察"
+  short_description: "使用 MAA Python 接口运行作业、代理刷关，并通过 ADB 低频观察模拟器"
+  default_prompt: "使用 $maa-battle 检查 MAA 与模拟器连接，并按本次关卡要求准备自动战斗。"

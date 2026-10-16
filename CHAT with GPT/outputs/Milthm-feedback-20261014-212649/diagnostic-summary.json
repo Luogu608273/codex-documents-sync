@@ -1,0 +1,50 @@
+{
+  "export_time": "2026-10-14T21:26:49.672355+08:00",
+  "save_version": 7,
+  "save_update_time": "2026-10-14T21:21:11.5319848+08:00",
+  "song_record_count": 31,
+  "chapter1_immersion": [
+    {
+      "Tag": "chapter1",
+      "Value": 1.0
+    }
+  ],
+  "chapter1_marks": [
+    {
+      "MarkName": "episode_main_story_1_1_read",
+      "Mark": true
+    },
+    {
+      "MarkName": "episode_main_story_1_2_read",
+      "Mark": true
+    },
+    {
+      "MarkName": "episode_main_story_1_3_read",
+      "Mark": true
+    },
+    {
+      "MarkName": "episode_main_story_1_4_read",
+      "Mark": true
+    },
+    {
+      "MarkName": "episode_main_story_1_5_read",
+      "Mark": true
+    }
+  ],
+  "fragment_record": [
+    {
+      "BeatmapID": "6b478cca-035d-4297-b34a-ae75658d81bd",
+      "BestScore": 696871,
+      "BestAccuracy": 0.9005154371261597,
+      "BestLevel": 5,
+      "AchievedStatus": [
+        0,
+        3
+      ]
+    }
+  ],
+  "log_redaction_counts": {
+    "Player.log": 0,
+    "Player-prev.log": 5
+  }
+}

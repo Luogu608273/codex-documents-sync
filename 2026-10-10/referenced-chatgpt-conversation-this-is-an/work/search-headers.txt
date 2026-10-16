@@ -1,0 +1,11 @@
+HTTP/1.1 307 Temporary Redirect
+Date: Sat, 10 Oct 2026 09:08:00 GMT
+Content-Length: 0
+Connection: keep-alive
+Location: /search
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=beIfvhCiqI9Paxx2sDZPJEAoM%2FO9VRCJT9M53ltdmTCbkvA%2FnBv7KdljqfcYM8%2Bj37m3fDJhh1hp4NOwhAfrNgRivG%2BCZ7uuOg422GGRcN2tFc0t01EWjRe4CYNtFAGu6rtVgQEquaWX"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a4847a617e11dd40-HKG
+alt-svc: h3=":443"; ma=86400
+

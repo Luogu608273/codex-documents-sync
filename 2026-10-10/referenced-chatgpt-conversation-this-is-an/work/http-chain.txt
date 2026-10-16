@@ -1,0 +1,25 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 10 Oct 2026 09:06:08 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Location: https://www.xn--qvrw50dh7j.com/
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=nGFKTIWTN7OhCilRtoEJ3puc4JE4cZ7ENGtY8YLIkeGQDapZnTD1L%2FeGY6t8PfxE2enoJ1eLlQCFBXUWo9TXSw3VcnvAyIj%2Bf05TNgA%2FKSxXp25nZDMgs6m8GJvI1wI%2BXqDvYcgObva6"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a484779ff84e09ed-HKG
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 200 OK
+Date: Sat, 10 Oct 2026 09:06:13 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Cache-Status: HIT
+Cache-Control: public, max-age=0, must-revalidate
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=2obkpWnUTtuLyMMpcjeUSRHCfocXlgFlbxj2jB0bz%2F%2BolFYD4gp5GXgKfUPz3EmzV621eRjHuz7riYUknIhcrW7xmAGvsbGDiY%2F2U%2F1sQFtpMUSSFRlyJctbZE%2B6fYFIuBNe6HQErhBU"}]}
+Server: cloudflare
+CF-RAY: a48477c12fb10dad-HKG
+alt-svc: h3=":443"; ma=86400
+

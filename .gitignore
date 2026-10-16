@@ -1,0 +1,4 @@
+# FileSync: large installers begin
+# Installers larger than 100 MiB; local files are retained
+/2026-10-10/codex/work/codex-update/ChatGPT-x64.msix
+# FileSync: large installers end

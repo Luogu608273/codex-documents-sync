@@ -1,0 +1,226 @@
+[
+  {
+    "case": 0,
+    "density": 0.9,
+    "order": 0,
+    "answer": "Yes",
+    "seconds": 0.28,
+    "stats": "phase=0 result=-1 relax=5000000 edges=7961270\nphase=1 result=-1 relax=5000000 edges=8526192\nphase=2 result=1 relax=677450 edges=1119844"
+  },
+  {
+    "case": 1,
+    "density": 0.7,
+    "order": 0,
+    "answer": "Yes",
+    "seconds": 0.408,
+    "stats": "phase=0 result=-1 relax=5000000 edges=8192235\nphase=1 result=-1 relax=5000000 edges=8929530\nphase=2 result=1 relax=658130 edges=1129055"
+  },
+  {
+    "case": 2,
+    "density": 0.5,
+    "order": 0,
+    "answer": "Yes",
+    "seconds": 0.402,
+    "stats": "phase=0 result=-1 relax=5000000 edges=8416803\nphase=1 result=-1 relax=5000000 edges=9396277\nphase=2 result=1 relax=642260 edges=1132928"
+  },
+  {
+    "case": 3,
+    "density": 0.3,
+    "order": 0,
+    "answer": "Yes",
+    "seconds": 0.457,
+    "stats": "phase=0 result=-1 relax=5000000 edges=9292012\nphase=1 result=-1 relax=4745087 edges=10000000\nphase=2 result=1 relax=621028 edges=1115603"
+  },
+  {
+    "case": 4,
+    "density": 0.1,
+    "order": 0,
+    "answer": "Yes",
+    "seconds": 0.245,
+    "stats": "phase=0 result=1 relax=4205841 edges=8362781"
+  },
+  {
+    "case": 5,
+    "density": 0.01,
+    "order": 0,
+    "answer": "Yes",
+    "seconds": 0.161,
+    "stats": "phase=0 result=1 relax=747537 edges=1500870"
+  },
+  {
+    "case": 6,
+    "density": 0.0001,
+    "order": 0,
+    "answer": "Yes",
+    "seconds": 0.174,
+    "stats": "phase=0 result=1 relax=754642 edges=1491892"
+  },
+  {
+    "case": 7,
+    "density": 0.9,
+    "order": 1,
+    "answer": "Yes",
+    "seconds": 0.241,
+    "stats": "phase=0 result=-1 relax=5000000 edges=7896122\nphase=1 result=-1 relax=5000000 edges=8141743\nphase=2 result=1 relax=678311 edges=1120599"
+  },
+  {
+    "case": 8,
+    "density": 0.7,
+    "order": 1,
+    "answer": "Yes",
+    "seconds": 0.295,
+    "stats": "phase=0 result=-1 relax=5000000 edges=8096082\nphase=1 result=-1 relax=5000000 edges=8713038\nphase=2 result=1 relax=657969 edges=1128493"
+  },
+  {
+    "case": 9,
+    "density": 0.5,
+    "order": 1,
+    "answer": "Yes",
+    "seconds": 0.367,
+    "stats": "phase=0 result=-1 relax=5000000 edges=8364521\nphase=1 result=-1 relax=5000000 edges=9366112\nphase=2 result=1 relax=642026 edges=1133510"
+  },
+  {
+    "case": 10,
+    "density": 0.3,
+    "order": 1,
+    "answer": "Yes",
+    "seconds": 0.391,
+    "stats": "phase=0 result=-1 relax=5000000 edges=9449189\nphase=1 result=-1 relax=4700692 edges=10000000\nphase=2 result=1 relax=619897 edges=1115232"
+  },
+  {
+    "case": 11,
+    "density": 0.1,
+    "order": 1,
+    "answer": "Yes",
+    "seconds": 0.203,
+    "stats": "phase=0 result=1 relax=2860191 edges=5663003"
+  },
+  {
+    "case": 12,
+    "density": 0.01,
+    "order": 1,
+    "answer": "Yes",
+    "seconds": 0.146,
+    "stats": "phase=0 result=1 relax=753739 edges=1500954"
+  },
+  {
+    "case": 13,
+    "density": 0.0001,
+    "order": 1,
+    "answer": "Yes",
+    "seconds": 0.127,
+    "stats": "phase=0 result=1 relax=696265 edges=1499897"
+  },
+  {
+    "case": 14,
+    "density": 0.9,
+    "order": 2,
+    "answer": "Yes",
+    "seconds": 0.241,
+    "stats": "phase=0 result=-1 relax=5000000 edges=7992208\nphase=1 result=-1 relax=5000000 edges=8637354\nphase=2 result=1 relax=677357 edges=1120624"
+  },
+  {
+    "case": 15,
+    "density": 0.7,
+    "order": 2,
+    "answer": "Yes",
+    "seconds": 0.326,
+    "stats": "phase=0 result=-1 relax=5000000 edges=8270308\nphase=1 result=-1 relax=5000000 edges=9064060\nphase=2 result=1 relax=658005 edges=1128626"
+  },
+  {
+    "case": 16,
+    "density": 0.5,
+    "order": 2,
+    "answer": "Yes",
+    "seconds": 0.353,
+    "stats": "phase=0 result=-1 relax=5000000 edges=8444540\nphase=1 result=-1 relax=5000000 edges=9406249\nphase=2 result=1 relax=642224 edges=1133309"
+  },
+  {
+    "case": 17,
+    "density": 0.3,
+    "order": 2,
+    "answer": "Yes",
+    "seconds": 0.397,
+    "stats": "phase=0 result=-1 relax=5000000 edges=9119796\nphase=1 result=-1 relax=4804448 edges=10000000\nphase=2 result=1 relax=619355 edges=1114964"
+  },
+  {
+    "case": 18,
+    "density": 0.1,
+    "order": 2,
+    "answer": "Yes",
+    "seconds": 0.216,
+    "stats": "phase=0 result=1 relax=3774806 edges=7500779"
+  },
+  {
+    "case": 19,
+    "density": 0.01,
+    "order": 2,
+    "answer": "Yes",
+    "seconds": 0.13,
+    "stats": "phase=0 result=1 relax=749546 edges=1500461"
+  },
+  {
+    "case": 20,
+    "density": 0.0001,
+    "order": 2,
+    "answer": "Yes",
+    "seconds": 0.136,
+    "stats": "phase=0 result=1 relax=746779 edges=1491654"
+  },
+  {
+    "case": 21,
+    "density": 0.9,
+    "order": 3,
+    "answer": "Yes",
+    "seconds": 0.241,
+    "stats": "phase=0 result=-1 relax=5000000 edges=7978379\nphase=1 result=-1 relax=5000000 edges=8619290\nphase=2 result=1 relax=677558 edges=1120494"
+  },
+  {
+    "case": 22,
+    "density": 0.7,
+    "order": 3,
+    "answer": "Yes",
+    "seconds": 0.319,
+    "stats": "phase=0 result=-1 relax=5000000 edges=8251228\nphase=1 result=-1 relax=5000000 edges=9039577\nphase=2 result=1 relax=657587 edges=1128760"
+  },
+  {
+    "case": 23,
+    "density": 0.5,
+    "order": 3,
+    "answer": "Yes",
+    "seconds": 0.349,
+    "stats": "phase=0 result=-1 relax=5000000 edges=8402447\nphase=1 result=-1 relax=5000000 edges=9356760\nphase=2 result=1 relax=642167 edges=1133160"
+  },
+  {
+    "case": 24,
+    "density": 0.3,
+    "order": 3,
+    "answer": "Yes",
+    "seconds": 0.374,
+    "stats": "phase=0 result=-1 relax=5000000 edges=9125752\nphase=1 result=-1 relax=4815302 edges=10000000\nphase=2 result=1 relax=621028 edges=1116607"
+  },
+  {
+    "case": 25,
+    "density": 0.1,
+    "order": 3,
+    "answer": "Yes",
+    "seconds": 0.133,
+    "stats": "phase=0 result=1 relax=986081 edges=1928228"
+  },
+  {
+    "case": 26,
+    "density": 0.01,
+    "order": 3,
+    "answer": "Yes",
+    "seconds": 0.128,
+    "stats": "phase=0 result=1 relax=753218 edges=1501307"
+  },
+  {
+    "case": 27,
+    "density": 0.0001,
+    "order": 3,
+    "answer": "Yes",
+    "seconds": 0.202,
+    "stats": "phase=0 result=1 relax=744059 edges=1499801"
+  }
+]

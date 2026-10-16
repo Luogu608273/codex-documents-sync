@@ -1,0 +1,76 @@
+imports []
+exports [
+  { name: 'memory', kind: 'memory' },
+  { name: 'alloc', kind: 'function' },
+  { name: 'dealloc', kind: 'function' },
+  { name: 'dispatch', kind: 'function' },
+  { name: 'output_len', kind: 'function' }
+]
+{
+  "request": {
+    "event": "metadata"
+  },
+  "response": {
+    "storageKey": "buwanyuanshen.gacha.v2"
+  }
+}
+{
+  "request": {
+    "event": "init",
+    "liveStatus": null,
+    "now": 1791623000000,
+    "state": null,
+    "storageBroken": false,
+    "search": "",
+    "entropy": 123456
+  },
+  "response": {
+    "commands": [
+      {
+        "key": "buwanyuanshen.gacha.v2",
+        "op": "save",
+        "state": {
+          "guaranteeUp": false,
+          "lastStandardUrl": null,
+          "limitedHits": {},
+          "lossStreak": 0,
+          "pity4": 1,
+          "pity5": 1,
+          "totalPulls": 1,
+          "version": 2
+        }
+      },
+      {
+        "op": "redirect",
+        "url": "https://madosoft.net/hamidashi/#gacha-r-0"
+      }
+    ],
+    "rng": 1199853599,
+    "state": {
+      "guaranteeUp": false,
+      "lastStandardUrl": null,
+      "limitedHits": {},
+      "lossStreak": 0,
+      "pity4": 1,
+      "pity5": 1,
+      "totalPulls": 1,
+      "version": 2
+    }
+  }
+}
+{
+  "request": {
+    "event": "start"
+  },
+  "response": {
+    "commands": []
+  }
+}
+{
+  "request": {
+    "event": "ended"
+  },
+  "response": {
+    "commands": []
+  }
+}

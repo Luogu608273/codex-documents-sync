@@ -1,0 +1,3 @@
+interface:
+  display_name: "明日方舟作业匹配"
+  short_description: "结合一图流干员快照，在 PRTS Plus 查找作业并复核阵容、练度和助战需求"

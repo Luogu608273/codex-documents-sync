@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-15",
+  "destination": "CKK/N7",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 2363,
+      "sha256": "81c06c27f9def05826034dc1aa268bff2ff1e854eb0532e1156022f1019e5287"
+    },
+    {
+      "path": "U1667/partial.cpp",
+      "bytes": 1123,
+      "sha256": "e665249e89a381cfceef954f02145ca961a0d4879be629292f3978917251847f"
+    },
+    {
+      "path": "U1667/solution.md",
+      "bytes": 3927,
+      "sha256": "20a50f35980e65baa694df3057b2db37371c4e9cf672f367cd990768f81063d4"
+    },
+    {
+      "path": "U1667/std.cpp",
+      "bytes": 1071,
+      "sha256": "9743cf7df96a457bf36c4879969600e7a4f9d945bc283bd98183a0611aa13f0f"
+    },
+    {
+      "path": "U1668/partial.cpp",
+      "bytes": 900,
+      "sha256": "68880dbf8a3a323b6d1552adbc9c0c2ce21444ab46b086296900e861e3e15c9e"
+    },
+    {
+      "path": "U1668/solution.md",
+      "bytes": 6001,
+      "sha256": "a2b946caaf2f49fdf9d2f30b729a4990b7c399a5249374200c6519533ef146e2"
+    },
+    {
+      "path": "U1668/std.cpp",
+      "bytes": 2531,
+      "sha256": "4f681f15a94ca492d67800e209bb74e52c549485f501a1b9cc49928351e3ba36"
+    },
+    {
+      "path": "U1669/partial.cpp",
+      "bytes": 1069,
+      "sha256": "402c90fef3ad91e2c02a397d5c7cdee9bdf8ca548213d4d6b188c316e95f1063"
+    },
+    {
+      "path": "U1669/solution.md",
+      "bytes": 4250,
+      "sha256": "12e23bbd11794de1dc6306ebd345975678b2dbbaddc345074b6b014887ae41e9"
+    },
+    {
+      "path": "U1669/std.cpp",
+      "bytes": 2073,
+      "sha256": "33568610f32dfd2b3f5d053264fd1ddf137d2f44eac02db3869f04e82e6a920f"
+    },
+    {
+      "path": "U1670/partial.cpp",
+      "bytes": 2232,
+      "sha256": "f299b4f240fdeaf4b1796ed2ab8e21d06f25480a333f54a9f73a91ea4c7f2af0"
+    },
+    {
+      "path": "U1670/solution.md",
+      "bytes": 8842,
+      "sha256": "7b617795cbcc1d4dd6a3ced35d5a92695341fc51964f62e17a86ded139171357"
+    },
+    {
+      "path": "U1670/std.cpp",
+      "bytes": 2966,
+      "sha256": "774838dcf5a47d26888a96df57dae0747cacb5d8e471c912d2345f9ae872cd9d"
+    },
+    {
+      "path": "verification.json",
+      "bytes": 5911,
+      "sha256": "1c7ac66974deb052d9bfd6d45de3d6192c80bfa63267100afb22716aa79d421c"
+    },
+    {
+      "path": "验证说明.md",
+      "bytes": 4024,
+      "sha256": "ec53f41802dd656d0187d745002d340824778825c43aaf522bff6405a6dbc692"
+    }
+  ],
+  "manifest_self_excluded": true,
+  "artifact_count_including_manifest": 16
+}

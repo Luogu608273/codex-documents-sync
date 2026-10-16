@@ -1,0 +1,66 @@
+[
+  {
+    "problem": "U1667",
+    "program": "std",
+    "default_compile": "PASS, no warnings",
+    "file_io": "PASS",
+    "local_compile": "PASS, no warnings",
+    "sample": "PASS"
+  },
+  {
+    "problem": "U1667",
+    "program": "partial",
+    "default_compile": "PASS, no warnings",
+    "file_io": "PASS",
+    "local_compile": "PASS, no warnings",
+    "sample": "PASS: first two in-scope cases"
+  },
+  {
+    "problem": "U1668",
+    "program": "std",
+    "default_compile": "PASS, no warnings",
+    "file_io": "PASS",
+    "local_compile": "PASS, no warnings",
+    "sample": "PASS"
+  },
+  {
+    "problem": "U1668",
+    "program": "partial",
+    "default_compile": "PASS, no warnings",
+    "file_io": "PASS",
+    "local_compile": "PASS, no warnings",
+    "sample": "PASS"
+  },
+  {
+    "problem": "U1669",
+    "program": "std",
+    "default_compile": "PASS, no warnings",
+    "file_io": "PASS",
+    "local_compile": "PASS, no warnings",
+    "sample": "PASS"
+  },
+  {
+    "problem": "U1669",
+    "program": "partial",
+    "default_compile": "PASS, no warnings",
+    "file_io": "PASS",
+    "local_compile": "PASS, no warnings",
+    "sample": "PASS"
+  },
+  {
+    "problem": "U1670",
+    "program": "std",
+    "default_compile": "PASS, no warnings",
+    "file_io": "PASS",
+    "local_compile": "PASS, no warnings",
+    "sample": "PASS"
+  },
+  {
+    "problem": "U1670",
+    "program": "partial",
+    "default_compile": "PASS, no warnings",
+    "file_io": "PASS",
+    "local_compile": "PASS, no warnings",
+    "sample": "PASS"
+  }
+]

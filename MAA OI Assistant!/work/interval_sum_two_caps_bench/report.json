@@ -1,0 +1,122 @@
+[
+  {
+    "name": "all_adjacent",
+    "n": 500000,
+    "m": 499999,
+    "expected": "Yes",
+    "results": {
+      "interval_sum_two_original_caps.exe": {
+        "answer": "Yes",
+        "seconds": 0.216,
+        "stats": "priority=1 count=1000000",
+        "exit": 0
+      },
+      "interval_sum_two_fast.exe": {
+        "answer": "Yes",
+        "seconds": 0.112,
+        "stats": "phase=0 result=1 relax=749999 edges=1499996",
+        "exit": 0
+      }
+    }
+  },
+  {
+    "name": "long_negative_cycle",
+    "n": 500000,
+    "m": 500000,
+    "expected": "No",
+    "results": {
+      "interval_sum_two_original_caps.exe": {
+        "answer": "No",
+        "seconds": 0.335,
+        "stats": "priority=0 count=3999989 stack=0 count=1200000",
+        "exit": 0
+      },
+      "interval_sum_two_fast.exe": {
+        "answer": "No",
+        "seconds": 0.166,
+        "stats": "phase=0 result=0 relax=1499997 edges=1499999",
+        "exit": 0
+      }
+    }
+  },
+  {
+    "name": "known_yes_0.5",
+    "n": 500000,
+    "m": 500000,
+    "expected": "Yes",
+    "results": {
+      "interval_sum_two_original_caps.exe": {
+        "answer": "Yes",
+        "seconds": 0.598,
+        "stats": "priority=1 count=1390666",
+        "exit": 0
+      },
+      "interval_sum_two_fast.exe": {
+        "answer": "Yes",
+        "seconds": 0.436,
+        "stats": "phase=0 result=-1 relax=5000000 edges=8398956\nphase=1 result=-1 relax=5000000 edges=9386828\nphase=2 result=1 relax=642972 edges=1134287",
+        "exit": 0
+      }
+    }
+  },
+  {
+    "name": "known_yes_0.02",
+    "n": 500000,
+    "m": 500000,
+    "expected": "Yes",
+    "results": {
+      "interval_sum_two_original_caps.exe": {
+        "answer": "Yes",
+        "seconds": 0.646,
+        "stats": "priority=1 count=1644070",
+        "exit": 0
+      },
+      "interval_sum_two_fast.exe": {
+        "answer": "Yes",
+        "seconds": 0.19,
+        "stats": "phase=0 result=1 relax=755066 edges=1502718",
+        "exit": 0
+      }
+    }
+  },
+  {
+    "name": "known_yes_0.0002",
+    "n": 500000,
+    "m": 500000,
+    "expected": "Yes",
+    "results": {
+      "interval_sum_two_original_caps.exe": {
+        "answer": "Yes",
+        "seconds": 0.51,
+        "stats": "priority=1 count=1815760",
+        "exit": 0
+      },
+      "interval_sum_two_fast.exe": {
+        "answer": "Yes",
+        "seconds": 0.177,
+        "stats": "phase=0 result=1 relax=740911 edges=1495409",
+        "exit": 0
+      }
+    }
+  },
+  {
+    "name": "nested_two_ones",
+    "n": 500000,
+    "m": 500000,
+    "expected": "Yes",
+    "results": {
+      "interval_sum_two_original_caps.exe": {
+        "answer": "No",
+        "seconds": 1.777,
+        "stats": "priority=0 count=5000000 stack=0 count=10000000",
+        "exit": 0
+      },
+      "interval_sum_two_fast.exe": {
+        "answer": "Yes",
+        "seconds": 0.209,
+        "stats": "phase=0 result=1 relax=250001 edges=1000000",
+        "exit": 0
+      }
+    }
+  }
+]

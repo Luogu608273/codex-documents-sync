@@ -1,0 +1,128 @@
+{
+  "seed": 20261013,
+  "checks": [
+    {
+      "game_exhaustive_inputs": 900,
+      "search_bound": 70
+    },
+    {
+      "nlp_against_rule_first_brute": 1760
+    },
+    {
+      "card_against_deleted_coordinate_brute": 1343
+    }
+  ],
+  "stress": [
+    {
+      "problem": "nlp",
+      "program": "std",
+      "case": "n=m=1000000_duplicate_rules_full_merge",
+      "seconds": 0.436,
+      "input_bytes": 8000017
+    },
+    {
+      "problem": "nlp",
+      "program": "std",
+      "case": "n=m=1000000_distinct_reverse_rules_full_merge",
+      "seconds": 0.496,
+      "input_bytes": 17777809
+    },
+    {
+      "problem": "card",
+      "program": "std",
+      "case": "n=1000_m=2000_same",
+      "seconds": 0.433,
+      "input_bytes": 8001013
+    },
+    {
+      "problem": "card",
+      "program": "std",
+      "case": "n=1000_m=2000_distinct",
+      "seconds": 0.459,
+      "input_bytes": 11787013
+    },
+    {
+      "problem": "card",
+      "program": "std",
+      "case": "n=1000_m=2000_last_pair",
+      "seconds": 0.441,
+      "input_bytes": 11785013
+    },
+    {
+      "problem": "card",
+      "program": "std",
+      "case": "n=1000_m=2000_alternating",
+      "seconds": 0.482,
+      "input_bytes": 9894013
+    },
+    {
+      "problem": "card",
+      "program": "std",
+      "case": "n=2_m=200000_same",
+      "seconds": 0.061,
+      "input_bytes": 1600014
+    },
+    {
+      "problem": "card",
+      "program": "std",
+      "case": "n=2_m=200000_distinct",
+      "seconds": 0.061,
+      "input_bytes": 1600014
+    },
+    {
+      "problem": "card",
+      "program": "std",
+      "case": "n=2_m=200000_alternating",
+      "seconds": 0.062,
+      "input_bytes": 1600014
+    },
+    {
+      "problem": "card",
+      "program": "std",
+      "case": "n=1_m=200000",
+      "seconds": 0.03,
+      "input_bytes": 800013
+    },
+    {
+      "problem": "card",
+      "program": "partial_scalar",
+      "case": "partial_n=200_m=1000_distinct",
+      "seconds": 0.064,
+      "input_bytes": 1092212
+    },
+    {
+      "problem": "game",
+      "program": "std",
+      "case": "T=100000_max_boundary",
+      "seconds": 0.083,
+      "input_bytes": 1000007
+    },
+    {
+      "problem": "card",
+      "program": "std",
+      "case": "n=200_m=1000_K=2000000_disjoint_sets",
+      "seconds": 0.186,
+      "input_bytes": 9493212
+    },
+    {
+      "problem": "card",
+      "program": "partial_scalar",
+      "case": "n=200_m=1000_K=2000000_disjoint_sets",
+      "seconds": 0.2,
+      "input_bytes": 9493212
+    },
+    {
+      "problem": "card",
+      "program": "std",
+      "case": "n=1000_m=1_K=2000000_reverse_sets",
+      "seconds": 0.231,
+      "input_bytes": 14893906
+    }
+  ],
+  "memory_bound": {
+    "card_word_count_n1000": 8664,
+    "card_two_matrices_bytes_n1000_m2000": 277248000
+  },
+  "compiler": "TDM-GCC 10.3.0, C++17, -O2",
+  "sample_file_io": "All 7 programs compiled without LOCAL and passed original first sample via .in/.out; both NLP samples also tested via stdin/stdout."
+}

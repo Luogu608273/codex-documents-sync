@@ -1,0 +1,80 @@
+[
+  {
+    "program": "G123907_std",
+    "sample": 1,
+    "result": "PASS",
+    "mode": "default file IO"
+  },
+  {
+    "program": "G123907_std",
+    "sample": 2,
+    "result": "PASS",
+    "mode": "default file IO"
+  },
+  {
+    "program": "G123908_std",
+    "sample": 1,
+    "result": "PASS",
+    "mode": "default file IO"
+  },
+  {
+    "program": "G123909_std",
+    "sample": 1,
+    "result": "PASS",
+    "mode": "default file IO"
+  },
+  {
+    "program": "G123910_std",
+    "sample": 1,
+    "result": "PASS",
+    "mode": "default file IO"
+  },
+  {
+    "program": "G123910_std",
+    "sample": 2,
+    "result": "PASS",
+    "mode": "default file IO"
+  },
+  {
+    "program": "G123910_std",
+    "sample": 3,
+    "result": "PASS",
+    "mode": "default file IO"
+  },
+  {
+    "program": "G123907_partial_5",
+    "case": "sample or valid subtask edge case",
+    "result": "PASS",
+    "mode": "default file IO"
+  },
+  {
+    "program": "G123907_partial_57",
+    "case": "sample or valid subtask edge case",
+    "result": "PASS",
+    "mode": "default file IO"
+  },
+  {
+    "program": "G123908_partial_20",
+    "case": "sample or valid subtask edge case",
+    "result": "PASS",
+    "mode": "default file IO"
+  },
+  {
+    "program": "G123909_partial_24",
+    "case": "sample or valid subtask edge case",
+    "result": "PASS",
+    "mode": "default file IO"
+  },
+  {
+    "program": "G123910_partial_5",
+    "case": "sample or valid subtask edge case",
+    "result": "PASS",
+    "mode": "default file IO"
+  },
+  {
+    "program": "G123910_partial_10",
+    "case": "sample or valid subtask edge case",
+    "result": "PASS",
+    "mode": "default file IO"
+  }
+]

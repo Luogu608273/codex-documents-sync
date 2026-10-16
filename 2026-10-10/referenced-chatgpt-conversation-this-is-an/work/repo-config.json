@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "gacha": {
+    "fiveStar": {
+      "baseRate": 0.04,
+      "softPityStart": 12,
+      "softPityStep": 0.08,
+      "hardPity": 20,
+      "limitedRate": 0.5,
+      "radiance": {
+        "lossThreshold": 3,
+        "limitedRate": 0.8
+      }
+    },
+    "fourStar": {
+      "baseRate": 0.3,
+      "hardPity": 10
+    },
+    "maxPulls": 10,
+    "weightCurve": 0,
+    "emptyRPoolUpgradeRate": 0.6
+  },
+  "pools": {
+    "UR": {
+      "cards": [
+        {
+          "url": "https://ys.mihoyo.com/",
+          "video": "video/startup-01.mp4",
+          "weight": 1,
+          "title": "原神国服官网（限定5★，出货播启动动画）"
+        }
+      ],
+      "featuredCards": [],
+      "featuredRate": 0.5
+    },
+    "SSR": {
+      "repeatDamping": 0.5,
+      "cards": [
+        {
+          "url": "https://game.bilibili.com/fgo/",
+          "title": "FGO 国服官网（常驻5★）"
+        },
+        {
+          "url": "./search.html",
+          "title": "纯静态搜索页（常驻池）"
+        }
+      ]
+    },
+    "SR": {
+      "cards": [
+        {
+          "url": "https://www.bilibili.com/video/BV1fy4y1L7Rq/",
+          "title": "《明日方舟》夏日嘉年华限时活动宣传PV"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV18E4m1d7b7/",
+          "title": "《原神》纳塔交响音乐现场"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1HfKiz3Ezf/",
+          "title": "《崩坏：星穹铁道》白厄角色PV——「日冕」"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1EBcFznE2H/",
+          "title": "《明日方舟》EP - 铁花飞"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1L4421S7Kr/",
+          "title": "千恋＊万花OP动画"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1x5411o7Kn/",
+          "title": "烂苹果"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1n8iEBGEYJ/",
+          "title": "【原创曲】ウィマーマ・サーガ（羽衣妈妈·物语）"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1osSEYGEMd/",
+          "title": "Mili - Hero（英雄）【边狱巴士公司】"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV12HJBzHERG/",
+          "title": "《崩坏：星穹铁道》EP：「拂晓」"
+        },
+        {
+          "url": "https://www.bilibili.com/bangumi/play/ep1185679",
+          "title": "春日影"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1Cg411u7Xr/",
+          "title": "「Moon Halo」——《崩坏3》印象曲（演唱者：茶理理/TetraCalyx/Hanser）"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1ds411y7Qc/",
+          "title": "【崩坏学园2】德丽莎角色歌《星与你消失之日》PV"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1q7411T7Eh/",
+          "title": "【60FPS补帧】Poppin'Party/キズナミュージック♪ Full Size MV(1080p+)"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV19Pad6fEhG/",
+          "title": "《鸣潮 3.7 OST》心月狐主题曲 | 月声尽，心灯明"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1NdFCesESc/",
+          "title": "愛♡スクリ～ム!-AiScReam——LoveLive!"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV11FpeenE6D/",
+          "title": "斯科特单曲《不许踏上旅途》Don't take the Journey"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV13mGFzeECS/",
+          "title": "绝区零周年庆同人节目｜艾莲・乔印象曲｜モエチャッカファイア / エレン・ジョー （CV：若山詩音）｜HoYoFair"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV18X4y1N7Yh/",
+          "title": "【原神拜年纪】让风告诉你"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1rY4y1g7qF/",
+          "title": "【中文CC字幕】【25時、ナイトコードで。 × 鏡音レン】バグ（故障）"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV12K411K7cp/",
+          "title": "HIMEHINA『Mr.VIRTUALIZER』MV"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1Z34y157D7",
+          "title": "【歌ってみた】ティアドロップス covered by 燈"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1SKLD6NEdC",
+          "title": "【本家投稿】 TAK - 'numb numb' feat. Hatsune Miku, Kasane Teto"
+        }
+      ],
+      "featuredCards": [],
+      "featuredRate": 0.5
+    },
+    "R": {
+      "cards": [
+        {
+          "url": "https://www.qq.com/",
+          "title": "腾讯网"
+        },
+        {
+          "url": "https://mc.kurogames.com/download/",
+          "title": "鸣潮官方下载网页"
+        },
+        {
+          "url": "https://endfield.hypergryph.com/",
+          "title": "明日方舟终末地"
+        },
+        {
+          "url": "https://career.hypergryph.com/",
+          "title": "鹰角网络招聘"
+        },
+        {
+          "url": "https://yh.wanmei.com/index.html",
+          "title": "异环官网"
+        },
+        {
+          "url": "https://gf2.sunborngame.com/",
+          "title": "少前二追放"
+        },
+        {
+          "url": "https://klbq.idreamsky.com/",
+          "title": "卡拉彼丘官网"
+        },
+        {
+          "url": "https://bdon.biligames.com/",
+          "title": "our notes官网"
+        },
+        {
+          "url": "https://se.feimogames.com/home",
+          "title": "吉星派对官网"
+        },
+        {
+          "url": "https://space.bilibili.com/75806856/",
+          "title": "中国反邪教B站主页"
+        },
+        {
+          "url": "https://space.bilibili.com/3546861952567358/",
+          "title": "米哈游法务部"
+        },
+        {
+          "url": "https://space.bilibili.com/3546379781671377/",
+          "title": "库洛游戏法务部"
+        },
+        {
+          "url": "https://space.bilibili.com/3546893747489397/",
+          "title": "鹰角网络法务部（高仿）"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1GJ411x7h7/",
+          "title": "Never Gonna Give You Up - Rick Astley"
+        },
+        {
+          "url": "https://game.granbluefantasy.jp/",
+          "title": "碧蓝幻想官网"
+        },
+        {
+          "url": "https://wow.blizzard.cn/h5/20260913/resads/?channel=ua_bzsz&project_id=8c0da45f60a49f9656c466ca5a8a5ae4",
+          "title": "魔兽世界无限国服"
+        },
+        {
+          "url": "https://limbuscompany.com/",
+          "title": "边狱巴士公司"
+        },
+        {
+          "url": "https://game.bilibili.com/blhx/",
+          "title": "碧蓝航线官网"
+        },
+        {
+          "url": "https://store.steampowered.com/app/1150080/",
+          "title": "碧蓝航线 交汇的航迹"
+        },
+        {
+          "url": "https://bluearchive-cn.com/",
+          "title": "蔚蓝档案"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1Ks421P7ZF/",
+          "title": "黑暗剑22"
+        },
+        {
+          "url": "https://hikarifield.co.jp/senren/",
+          "title": "千恋万花中文官网"
+        },
+        {
+          "url": "https://madosoft.net/hamidashi/",
+          "title": "富婆妹官网"
+        }
+      ],
+      "featuredCards": [
+        {
+          "url": "https://space.bilibili.com/730732",
+          "title": "瓶子君152"
+        },
+        {
+          "url": "https://www.bilibili.com/video/BV1S8pK6xEci/",
+          "title": "买量网址？抹黑游戏？最近掀起二游社区风浪的米哈游.com的注册人到底是谁？本期视频带你了解！"
+        },
+        {
+          "url": "https://live.bilibili.com/1854314111",
+          "title": "哔哩哔哩直播间 1854314111"
+        }
+      ],
+      "featuredRate": 0.5
+    }
+  },
+  "media": {
+    "defaultVideo": null,
+    "timeoutSeconds": 25,
+    "muted": false,
+    "skipHint": "点击此处跳过",
+    "showProgress": true
+  },
+  "storage": {
+    "key": "buwanyuanshen.gacha.v2"
+  },
+  "redirect": {
+    "appendPullMark": true,
+    "fallbackUrl": "./search.html"
+  }
+}

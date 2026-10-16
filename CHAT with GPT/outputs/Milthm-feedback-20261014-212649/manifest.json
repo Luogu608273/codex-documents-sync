@@ -1,0 +1,42 @@
+[
+  {
+    "name": "data/data.db",
+    "size": 32768,
+    "sha256": "154949488edf05e4d737a0ec6733cf45feb0d8df85ab05ea27eb4cd61dc53cb4"
+  },
+  {
+    "name": "data/saves.db",
+    "size": 40960,
+    "sha256": "edb9d881103419bf863f9ab32b66078ea9c02419cd3a37fff0cb4728dca8d57b"
+  },
+  {
+    "name": "diagnostic-summary.json",
+    "size": 1053,
+    "sha256": "b305e5e06ce67f5e320e517800cf041c31d266dba642850dfad28f5e881865e6"
+  },
+  {
+    "name": "logs/Player-prev.log",
+    "size": 451453,
+    "sha256": "16cf76f599316e7c322ee8fb37652704fc2eeeac5e5094f0ed269def2b2726ad"
+  },
+  {
+    "name": "logs/Player.log",
+    "size": 481135,
+    "sha256": "58012e66d268b1c5ad3fe95918d52c78927f8420f7f79412b0bd683522a06340"
+  },
+  {
+    "name": "screenshots/cloud-save-selection.png",
+    "size": 264003,
+    "sha256": "330ae28fdc6e55afa13f04a4b8f9d59ca4df77cda33513a67771edab46e5f55a"
+  },
+  {
+    "name": "screenshots/song-score-and-reality.png",
+    "size": 304751,
+    "sha256": "accd3e58e9b85a6ac5f0798f43334abb485e6a1f7fdb863ce20d206e00e6ad01"
+  },
+  {
+    "name": "说明.md",
+    "size": 2112,
+    "sha256": "873e623128df927da084869a521c408b44e0828213c517a1716cf3e3d22884bf"
+  }
+]

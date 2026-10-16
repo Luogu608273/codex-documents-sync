@@ -1,0 +1,29 @@
+[
+  {
+    "problem": "U1669",
+    "case": "stress_func_all_queries",
+    "seconds": 0.736,
+    "queries": 500000,
+    "oracle": "prefix sums, every answer checked"
+  },
+  {
+    "problem": "U1667",
+    "case": "stress_median",
+    "peak_working_set_mib": 11.54
+  },
+  {
+    "problem": "U1668",
+    "case": "stress_three_random",
+    "peak_working_set_mib": 64.95
+  },
+  {
+    "problem": "U1669",
+    "case": "stress_func_all_queries",
+    "peak_working_set_mib": 27.55
+  },
+  {
+    "problem": "U1670",
+    "case": "stress_ndfs_complete",
+    "peak_working_set_mib": 37.15
+  }
+]

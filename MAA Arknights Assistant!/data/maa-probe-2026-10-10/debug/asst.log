@@ -1,0 +1,333 @@
+[2026-10-10 10:53:32.893][TRC][Px58328][Tx3577] -----------------------------
+[2026-10-10 10:53:32.893][TRC][Px58328][Tx3577] MaaCore Process Start
+[2026-10-10 10:53:32.893][TRC][Px58328][Tx3577] Version v6.18.0
+[2026-10-10 10:53:32.893][TRC][Px58328][Tx3577] Built at Sep 23 2026 21:04:42
+[2026-10-10 10:53:32.893][TRC][Px58328][Tx3577] User Dir C:\Users\605\Documents\Codex\MAA Arknights Assistant!\data\maa-probe-2026-10-10
+[2026-10-10 10:53:32.893][TRC][Px58328][Tx3577] -----------------------------
+[2026-10-10 10:53:32.893][TRC][Px58328][Tx3577] asst::ResourceLoader::load | enter
+[2026-10-10 10:53:32.962][TRC][Px58328][Tx3577] asst::OnnxSessions::load | enter
+[2026-10-10 10:53:32.962][INF][Px58328][Tx3577] record path 
+[2026-10-10 10:53:32.962][TRC][Px58328][Tx3577] asst::OnnxSessions::load | leave, 0 ms
+[2026-10-10 10:53:32.962][TRC][Px58328][Tx3577] asst::OnnxSessions::load | enter
+[2026-10-10 10:53:32.962][INF][Px58328][Tx3577] record path 
+[2026-10-10 10:53:32.962][TRC][Px58328][Tx3577] asst::OnnxSessions::load | leave, 0 ms
+[2026-10-10 10:53:32.962][TRC][Px58328][Tx3577] asst::OnnxSessions::load | enter
+[2026-10-10 10:53:32.962][INF][Px58328][Tx3577] record path 
+[2026-10-10 10:53:32.962][TRC][Px58328][Tx3577] asst::OnnxSessions::load | leave, 0 ms
+[2026-10-10 10:53:32.962][TRC][Px58328][Tx3577] asst::OcrPack::load | enter
+[2026-10-10 10:53:32.962][INF][Px58328][Tx3577] load 
+[2026-10-10 10:53:32.962][TRC][Px58328][Tx3577] asst::OcrPack::load | leave, 0 ms
+[2026-10-10 10:53:32.962][TRC][Px58328][Tx3577] asst::OcrPack::load | enter
+[2026-10-10 10:53:32.962][INF][Px58328][Tx3577] load 
+[2026-10-10 10:53:32.962][TRC][Px58328][Tx3577] asst::OcrPack::load | leave, 0 ms
+[2026-10-10 10:53:32.963][TRC][Px58328][Tx3577] asst::GeneralConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:32.964][TRC][Px58328][Tx3577] asst::GeneralConfig::parse | enter
+[2026-10-10 10:53:32.965][TRC][Px58328][Tx3577] asst::GeneralConfig::parse | leave, 0 ms
+[2026-10-10 10:53:32.965][TRC][Px58328][Tx3577] asst::GeneralConfig :: asst::AbstractConfig::load | leave, 1 ms
+[2026-10-10 10:53:32.965][TRC][Px58328][Tx3577] asst::RecruitConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:32.966][TRC][Px58328][Tx3577] asst::RecruitConfig::parse | enter
+[2026-10-10 10:53:32.966][TRC][Px58328][Tx3577] asst::RecruitConfig::clear | enter
+[2026-10-10 10:53:32.966][TRC][Px58328][Tx3577] asst::RecruitConfig::clear | leave, 0 ms
+[2026-10-10 10:53:32.966][TRC][Px58328][Tx3577] asst::RecruitConfig::parse | leave, 0 ms
+[2026-10-10 10:53:32.966][TRC][Px58328][Tx3577] asst::RecruitConfig :: asst::AbstractConfig::load | leave, 1 ms
+[2026-10-10 10:53:32.966][TRC][Px58328][Tx3577] asst::BattleDataConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:32.977][TRC][Px58328][Tx3577] asst::BattleDataConfig::parse | enter
+[2026-10-10 10:53:32.979][TRC][Px58328][Tx3577] asst::BattleDataConfig::parse | leave, 2 ms
+[2026-10-10 10:53:32.980][TRC][Px58328][Tx3577] asst::BattleDataConfig :: asst::AbstractConfig::load | leave, 13 ms
+[2026-10-10 10:53:32.980][TRC][Px58328][Tx3577] asst::OcrConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:32.980][TRC][Px58328][Tx3577] asst::OcrConfig::parse | enter
+[2026-10-10 10:53:32.980][TRC][Px58328][Tx3577] asst::OcrConfig::parse | leave, 0 ms
+[2026-10-10 10:53:32.980][TRC][Px58328][Tx3577] asst::OcrConfig :: asst::AbstractConfig::load | leave, 0 ms
+[2026-10-10 10:53:32.982][TRC][Px58328][Tx3577] asst::AvatarCacheManager::load | enter
+[2026-10-10 10:53:32.982][INF][Px58328][Tx3577] load cache\avatars
+[2026-10-10 10:53:32.982][TRC][Px58328][Tx3577] asst::AvatarCacheManager::load | leave, 0 ms
+[2026-10-10 10:53:32.982][TRC][Px58328][Tx42771] asst::AvatarCacheManager::_load | enter
+[2026-10-10 10:53:32.982][TRC][Px58328][Tx42771] asst::AvatarCacheManager::_load | leave, 0 ms
+[2026-10-10 10:53:32.982][TRC][Px58328][Tx3577] TaskData::load | enter
+[2026-10-10 10:53:33.027][TRC][Px58328][Tx3577] asst::TaskData::parse | enter
+[2026-10-10 10:53:33.027][TRC][Px58328][Tx3577] asst::TaskData::lazy_parse | enter
+[2026-10-10 10:53:33.032][TRC][Px58328][Tx3577] asst::TaskData::lazy_parse | leave, 5 ms
+[2026-10-10 10:53:33.107][TRC][Px58328][Tx3577] asst::TaskData::parse | leave, 81 ms
+[2026-10-10 10:53:33.112][TRC][Px58328][Tx3577] TaskData::load | leave, 130 ms
+[2026-10-10 10:53:33.112][TRC][Px58328][Tx3577] asst::TemplResource::load | enter
+[2026-10-10 10:53:33.112][INF][Px58328][Tx3577] load 
+[2026-10-10 10:53:33.148][TRC][Px58328][Tx3577] asst::TemplResource::load | leave, 36 ms
+[2026-10-10 10:53:33.148][TRC][Px58328][Tx3577] asst::InfrastConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.151][TRC][Px58328][Tx3577] asst::InfrastConfig::parse | enter
+[2026-10-10 10:53:33.151][TRC][Px58328][Tx3577] asst::InfrastConfig::clear | enter
+[2026-10-10 10:53:33.151][TRC][Px58328][Tx3577] asst::InfrastConfig::clear | leave, 0 ms
+[2026-10-10 10:53:33.154][TRC][Px58328][Tx3577] asst::InfrastConfig::parse | leave, 2 ms
+[2026-10-10 10:53:33.154][TRC][Px58328][Tx3577] asst::InfrastConfig :: asst::AbstractConfig::load | leave, 5 ms
+[2026-10-10 10:53:33.154][TRC][Px58328][Tx3577] asst::TemplResource::load | enter
+[2026-10-10 10:53:33.154][INF][Px58328][Tx3577] load 
+[2026-10-10 10:53:33.157][TRC][Px58328][Tx3577] asst::TemplResource::load | leave, 3 ms
+[2026-10-10 10:53:33.157][TRC][Px58328][Tx3577] asst::ItemConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.160][TRC][Px58328][Tx3577] asst::ItemConfig::parse | enter
+[2026-10-10 10:53:33.160][TRC][Px58328][Tx3577] asst::ItemConfig::parse | leave, 0 ms
+[2026-10-10 10:53:33.160][TRC][Px58328][Tx3577] asst::ItemConfig :: asst::AbstractConfig::load | leave, 2 ms
+[2026-10-10 10:53:33.160][TRC][Px58328][Tx3577] asst::TemplResource::load | enter
+[2026-10-10 10:53:33.160][INF][Px58328][Tx3577] load 
+[2026-10-10 10:53:33.163][TRC][Px58328][Tx3577] asst::TemplResource::load | leave, 2 ms
+[2026-10-10 10:53:33.163][TRC][Px58328][Tx3577] asst::StageDropsConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.171][TRC][Px58328][Tx3577] asst::StageDropsConfig::parse | enter
+[2026-10-10 10:53:33.174][TRC][Px58328][Tx3577] asst::StageDropsConfig::parse | leave, 2 ms
+[2026-10-10 10:53:33.175][TRC][Px58328][Tx3577] asst::StageDropsConfig :: asst::AbstractConfig::load | leave, 12 ms
+[2026-10-10 10:53:33.175][TRC][Px58328][Tx3577] asst::TilePack :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.193][TRC][Px58328][Tx3577] asst::TilePack::parse | enter
+[2026-10-10 10:53:33.197][TRC][Px58328][Tx3577] asst::TilePack::parse | leave, 3 ms
+[2026-10-10 10:53:33.200][TRC][Px58328][Tx3577] asst::TilePack :: asst::AbstractConfig::load | leave, 23 ms
+[2026-10-10 10:53:33.200][TRC][Px58328][Tx3577] asst::RoguelikeCopilotConfig::load | enter
+[2026-10-10 10:53:33.214][TRC][Px58328][Tx3577] asst::RoguelikeCopilotConfig::load | leave, 14 ms
+[2026-10-10 10:53:33.214][TRC][Px58328][Tx3577] asst::RoguelikeCopilotConfig::load | enter
+[2026-10-10 10:53:33.234][TRC][Px58328][Tx3577] asst::RoguelikeCopilotConfig::load | leave, 19 ms
+[2026-10-10 10:53:33.234][TRC][Px58328][Tx3577] asst::RoguelikeCopilotConfig::load | enter
+[2026-10-10 10:53:33.252][TRC][Px58328][Tx3577] asst::RoguelikeCopilotConfig::load | leave, 18 ms
+[2026-10-10 10:53:33.252][TRC][Px58328][Tx3577] asst::RoguelikeCopilotConfig::load | enter
+[2026-10-10 10:53:33.260][TRC][Px58328][Tx3577] asst::RoguelikeCopilotConfig::load | leave, 7 ms
+[2026-10-10 10:53:33.260][TRC][Px58328][Tx3577] asst::RoguelikeCopilotConfig::load | enter
+[2026-10-10 10:53:33.272][TRC][Px58328][Tx3577] asst::RoguelikeCopilotConfig::load | leave, 12 ms
+[2026-10-10 10:53:33.272][TRC][Px58328][Tx3577] asst::RoguelikeCopilotConfig::load | enter
+[2026-10-10 10:53:33.272][TRC][Px58328][Tx3577] asst::RoguelikeCopilotConfig::load | leave, 0 ms
+[2026-10-10 10:53:33.273][TRC][Px58328][Tx3577] asst::RoguelikeRecruitConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.275][TRC][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse | enter
+[2026-10-10 10:53:33.275][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 佩佩 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.276][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Stormeye has multiple roles, but still not specific any
+[2026-10-10 10:53:33.276][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 图耶 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.277][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 图耶 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.277][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 异客 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.278][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Mon3tr has multiple roles, but still not specific any
+[2026-10-10 10:53:33.278][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 佩佩 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.278][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 森蚺 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.278][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 断罪者 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.279][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 红隼 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.279][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 异客 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.279][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Stormeye has multiple roles, but still not specific any
+[2026-10-10 10:53:33.279][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 阿米娅 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.280][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 狮蝎 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.280][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Mon3tr has multiple roles, but still not specific any
+[2026-10-10 10:53:33.281][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 可露希尔 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.282][TRC][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse | leave, 7 ms
+[2026-10-10 10:53:33.282][TRC][Px58328][Tx3577] asst::RoguelikeRecruitConfig :: asst::AbstractConfig::load | leave, 9 ms
+[2026-10-10 10:53:33.282][TRC][Px58328][Tx3577] asst::RoguelikeRecruitConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.284][TRC][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse | enter
+[2026-10-10 10:53:33.285][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 狮蝎 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.285][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 图耶 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.286][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 森蚺 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.286][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 异客 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.286][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 阿米娅 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.286][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Stormeye has multiple roles, but still not specific any
+[2026-10-10 10:53:33.286][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Mon3tr has multiple roles, but still not specific any
+[2026-10-10 10:53:33.286][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 佩佩 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.287][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 森蚺 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.287][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 断罪者 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.288][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 图耶 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.289][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 红隼 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.289][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 异客 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.289][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Stormeye has multiple roles, but still not specific any
+[2026-10-10 10:53:33.289][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 阿米娅 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.290][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Mon3tr has multiple roles, but still not specific any
+[2026-10-10 10:53:33.290][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 可露希尔 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.291][TRC][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse | leave, 6 ms
+[2026-10-10 10:53:33.291][TRC][Px58328][Tx3577] asst::RoguelikeRecruitConfig :: asst::AbstractConfig::load | leave, 8 ms
+[2026-10-10 10:53:33.291][TRC][Px58328][Tx3577] asst::RoguelikeRecruitConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.294][TRC][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse | enter
+[2026-10-10 10:53:33.294][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 佩佩 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.295][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Stormeye has multiple roles, but still not specific any
+[2026-10-10 10:53:33.295][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 图耶 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.296][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 红隼 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.296][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 异客 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.297][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Mon3tr has multiple roles, but still not specific any
+[2026-10-10 10:53:33.298][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 森蚺 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.298][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 红隼 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.298][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 断罪者 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.299][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 图耶 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.299][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 红隼 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.299][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 异客 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.300][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Stormeye has multiple roles, but still not specific any
+[2026-10-10 10:53:33.300][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 阿米娅 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.300][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 狮蝎 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.300][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Mon3tr has multiple roles, but still not specific any
+[2026-10-10 10:53:33.301][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 可露希尔 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.302][TRC][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse | leave, 7 ms
+[2026-10-10 10:53:33.302][TRC][Px58328][Tx3577] asst::RoguelikeRecruitConfig :: asst::AbstractConfig::load | leave, 10 ms
+[2026-10-10 10:53:33.302][TRC][Px58328][Tx3577] asst::RoguelikeRecruitConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.307][TRC][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse | enter
+[2026-10-10 10:53:33.307][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 佩佩 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.308][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Stormeye has multiple roles, but still not specific any
+[2026-10-10 10:53:33.308][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 图耶 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.309][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Mon3tr has multiple roles, but still not specific any
+[2026-10-10 10:53:33.309][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 红隼 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.309][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 异客 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.310][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Mon3tr has multiple roles, but still not specific any
+[2026-10-10 10:53:33.311][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 森蚺 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.311][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 红隼 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.311][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 断罪者 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.312][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 图耶 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.312][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 红隼 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.312][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 异客 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.313][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Stormeye has multiple roles, but still not specific any
+[2026-10-10 10:53:33.313][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 阿米娅 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.313][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 狮蝎 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.313][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Mon3tr has multiple roles, but still not specific any
+[2026-10-10 10:53:33.314][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 可露希尔 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.314][TRC][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse | leave, 8 ms
+[2026-10-10 10:53:33.314][TRC][Px58328][Tx3577] asst::RoguelikeRecruitConfig :: asst::AbstractConfig::load | leave, 12 ms
+[2026-10-10 10:53:33.314][TRC][Px58328][Tx3577] asst::RoguelikeRecruitConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.320][TRC][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse | enter
+[2026-10-10 10:53:33.320][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 佩佩 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.321][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Stormeye has multiple roles, but still not specific any
+[2026-10-10 10:53:33.321][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 图耶 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.322][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Mon3tr has multiple roles, but still not specific any
+[2026-10-10 10:53:33.322][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 红隼 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.322][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 异客 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.323][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Mon3tr has multiple roles, but still not specific any
+[2026-10-10 10:53:33.324][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 森蚺 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.324][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 红隼 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.324][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 断罪者 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.325][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 图耶 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.325][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 红隼 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.326][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 异客 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.326][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Stormeye has multiple roles, but still not specific any
+[2026-10-10 10:53:33.326][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 阿米娅 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.326][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 狮蝎 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.326][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Mon3tr has multiple roles, but still not specific any
+[2026-10-10 10:53:33.327][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 可露希尔 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.328][TRC][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse | leave, 8 ms
+[2026-10-10 10:53:33.328][TRC][Px58328][Tx3577] asst::RoguelikeRecruitConfig :: asst::AbstractConfig::load | leave, 13 ms
+[2026-10-10 10:53:33.329][TRC][Px58328][Tx3577] asst::RoguelikeRecruitConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.333][TRC][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse | enter
+[2026-10-10 10:53:33.333][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 佩佩 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.334][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Stormeye has multiple roles, but still not specific any
+[2026-10-10 10:53:33.334][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 图耶 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.335][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Mon3tr has multiple roles, but still not specific any
+[2026-10-10 10:53:33.335][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 红隼 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.335][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 异客 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.336][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Mon3tr has multiple roles, but still not specific any
+[2026-10-10 10:53:33.337][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 森蚺 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.337][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 红隼 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.337][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 断罪者 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.338][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 图耶 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.338][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 红隼 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.339][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 异客 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.339][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Stormeye has multiple roles, but still not specific any
+[2026-10-10 10:53:33.339][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 阿米娅 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.339][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 狮蝎 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.339][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: Mon3tr has multiple roles, but still not specific any
+[2026-10-10 10:53:33.340][WRN][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse oper: 可露希尔 has multiple roles, but still not specific any
+[2026-10-10 10:53:33.341][TRC][Px58328][Tx3577] asst::RoguelikeRecruitConfig::parse | leave, 8 ms
+[2026-10-10 10:53:33.341][TRC][Px58328][Tx3577] asst::RoguelikeRecruitConfig :: asst::AbstractConfig::load | leave, 12 ms
+[2026-10-10 10:53:33.342][TRC][Px58328][Tx3577] asst::RoguelikeShoppingConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.343][TRC][Px58328][Tx3577] asst::RoguelikeShoppingConfig::parse | enter
+[2026-10-10 10:53:33.343][TRC][Px58328][Tx3577] asst::RoguelikeShoppingConfig::parse | leave, 0 ms
+[2026-10-10 10:53:33.343][TRC][Px58328][Tx3577] asst::RoguelikeShoppingConfig :: asst::AbstractConfig::load | leave, 1 ms
+[2026-10-10 10:53:33.343][TRC][Px58328][Tx3577] asst::RoguelikeShoppingConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.343][TRC][Px58328][Tx3577] asst::RoguelikeShoppingConfig::parse | enter
+[2026-10-10 10:53:33.344][TRC][Px58328][Tx3577] asst::RoguelikeShoppingConfig::parse | leave, 0 ms
+[2026-10-10 10:53:33.344][TRC][Px58328][Tx3577] asst::RoguelikeShoppingConfig :: asst::AbstractConfig::load | leave, 0 ms
+[2026-10-10 10:53:33.344][TRC][Px58328][Tx3577] asst::RoguelikeShoppingConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.345][TRC][Px58328][Tx3577] asst::RoguelikeShoppingConfig::parse | enter
+[2026-10-10 10:53:33.345][TRC][Px58328][Tx3577] asst::RoguelikeShoppingConfig::parse | leave, 0 ms
+[2026-10-10 10:53:33.345][TRC][Px58328][Tx3577] asst::RoguelikeShoppingConfig :: asst::AbstractConfig::load | leave, 1 ms
+[2026-10-10 10:53:33.345][TRC][Px58328][Tx3577] asst::RoguelikeShoppingConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.346][TRC][Px58328][Tx3577] asst::RoguelikeShoppingConfig::parse | enter
+[2026-10-10 10:53:33.346][TRC][Px58328][Tx3577] asst::RoguelikeShoppingConfig::parse | leave, 0 ms
+[2026-10-10 10:53:33.346][TRC][Px58328][Tx3577] asst::RoguelikeShoppingConfig :: asst::AbstractConfig::load | leave, 0 ms
+[2026-10-10 10:53:33.346][TRC][Px58328][Tx3577] asst::RoguelikeShoppingConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.347][TRC][Px58328][Tx3577] asst::RoguelikeShoppingConfig::parse | enter
+[2026-10-10 10:53:33.347][TRC][Px58328][Tx3577] asst::RoguelikeShoppingConfig::parse | leave, 0 ms
+[2026-10-10 10:53:33.347][TRC][Px58328][Tx3577] asst::RoguelikeShoppingConfig :: asst::AbstractConfig::load | leave, 0 ms
+[2026-10-10 10:53:33.347][TRC][Px58328][Tx3577] asst::RoguelikeShoppingConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.347][TRC][Px58328][Tx3577] asst::RoguelikeShoppingConfig::parse | enter
+[2026-10-10 10:53:33.347][TRC][Px58328][Tx3577] asst::RoguelikeShoppingConfig::parse | leave, 0 ms
+[2026-10-10 10:53:33.347][TRC][Px58328][Tx3577] asst::RoguelikeShoppingConfig :: asst::AbstractConfig::load | leave, 0 ms
+[2026-10-10 10:53:33.347][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.348][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig::parse | enter
+[2026-10-10 10:53:33.348][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig::parse | leave, 0 ms
+[2026-10-10 10:53:33.348][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig :: asst::AbstractConfig::load | leave, 0 ms
+[2026-10-10 10:53:33.348][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.349][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig::parse | enter
+[2026-10-10 10:53:33.349][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig::parse | leave, 0 ms
+[2026-10-10 10:53:33.349][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig :: asst::AbstractConfig::load | leave, 0 ms
+[2026-10-10 10:53:33.349][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.350][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig::parse | enter
+[2026-10-10 10:53:33.350][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig::parse | leave, 0 ms
+[2026-10-10 10:53:33.350][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig :: asst::AbstractConfig::load | leave, 0 ms
+[2026-10-10 10:53:33.350][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.350][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig::parse | enter
+[2026-10-10 10:53:33.350][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig::parse | leave, 0 ms
+[2026-10-10 10:53:33.350][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig :: asst::AbstractConfig::load | leave, 0 ms
+[2026-10-10 10:53:33.351][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.351][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig::parse | enter
+[2026-10-10 10:53:33.351][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig::parse | leave, 0 ms
+[2026-10-10 10:53:33.351][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig :: asst::AbstractConfig::load | leave, 0 ms
+[2026-10-10 10:53:33.351][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.351][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig::parse | enter
+[2026-10-10 10:53:33.351][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig::parse | leave, 0 ms
+[2026-10-10 10:53:33.351][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig :: asst::AbstractConfig::load | leave, 0 ms
+[2026-10-10 10:53:33.351][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.352][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig::parse | enter
+[2026-10-10 10:53:33.352][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig::parse | leave, 0 ms
+[2026-10-10 10:53:33.352][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig :: asst::AbstractConfig::load | leave, 0 ms
+[2026-10-10 10:53:33.352][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.352][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig::parse | enter
+[2026-10-10 10:53:33.352][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig::parse | leave, 0 ms
+[2026-10-10 10:53:33.352][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig :: asst::AbstractConfig::load | leave, 0 ms
+[2026-10-10 10:53:33.352][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.352][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig::parse | enter
+[2026-10-10 10:53:33.352][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig::parse | leave, 0 ms
+[2026-10-10 10:53:33.352][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig :: asst::AbstractConfig::load | leave, 0 ms
+[2026-10-10 10:53:33.352][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.353][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig::parse | enter
+[2026-10-10 10:53:33.353][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig::parse | leave, 0 ms
+[2026-10-10 10:53:33.353][TRC][Px58328][Tx3577] asst::RoguelikeStageEncounterConfig :: asst::AbstractConfig::load | leave, 0 ms
+[2026-10-10 10:53:33.353][TRC][Px58328][Tx3577] asst::RoguelikeMapConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.353][TRC][Px58328][Tx3577] asst::RoguelikeMapConfig::parse | enter
+[2026-10-10 10:53:33.353][TRC][Px58328][Tx3577] asst::RoguelikeMapConfig::parse | leave, 0 ms
+[2026-10-10 10:53:33.353][TRC][Px58328][Tx3577] asst::RoguelikeMapConfig :: asst::AbstractConfig::load | leave, 0 ms
+[2026-10-10 10:53:33.353][TRC][Px58328][Tx3577] asst::RoguelikeMapConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.353][TRC][Px58328][Tx3577] asst::RoguelikeMapConfig::parse | enter
+[2026-10-10 10:53:33.353][TRC][Px58328][Tx3577] asst::RoguelikeMapConfig::parse | leave, 0 ms
+[2026-10-10 10:53:33.353][TRC][Px58328][Tx3577] asst::RoguelikeMapConfig :: asst::AbstractConfig::load | leave, 0 ms
+[2026-10-10 10:53:33.353][TRC][Px58328][Tx3577] asst::BlackFlowStrategyConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.356][TRC][Px58328][Tx3577] asst::BlackFlowStrategyConfig :: asst::AbstractConfig::load | leave, 2 ms
+[2026-10-10 10:53:33.356][TRC][Px58328][Tx3577] asst::BlackFlowNodeExecutionConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.356][TRC][Px58328][Tx3577] asst::BlackFlowNodeExecutionConfig::parse | enter
+[2026-10-10 10:53:33.357][TRC][Px58328][Tx3577] asst::BlackFlowNodeExecutionConfig::parse | leave, 0 ms
+[2026-10-10 10:53:33.357][TRC][Px58328][Tx3577] asst::BlackFlowNodeExecutionConfig :: asst::AbstractConfig::load | leave, 1 ms
+[2026-10-10 10:53:33.357][TRC][Px58328][Tx3577] asst::BlackFlowMapPerceptionResource::load | enter
+[2026-10-10 10:53:33.358][TRC][Px58328][Tx3577] asst::OnnxSessions::load | enter
+[2026-10-10 10:53:33.358][INF][Px58328][Tx3577] record path 
+[2026-10-10 10:53:33.358][TRC][Px58328][Tx3577] asst::OnnxSessions::load | leave, 0 ms
+[2026-10-10 10:53:33.358][TRC][Px58328][Tx3577] asst::BlackFlowMapPerceptionResource::load | leave, 0 ms
+[2026-10-10 10:53:33.358][TRC][Px58328][Tx3577] asst::RoguelikeFoldartalConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.358][TRC][Px58328][Tx3577] asst::RoguelikeFoldartalConfig::parse | enter
+[2026-10-10 10:53:33.358][TRC][Px58328][Tx3577] asst::RoguelikeFoldartalConfig::parse | leave, 0 ms
+[2026-10-10 10:53:33.358][TRC][Px58328][Tx3577] asst::RoguelikeFoldartalConfig :: asst::AbstractConfig::load | leave, 0 ms
+[2026-10-10 10:53:33.358][TRC][Px58328][Tx3577] asst::RoguelikeCollapsalParadigmConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.358][TRC][Px58328][Tx3577] asst::RoguelikeCollapsalParadigmConfig::parse | enter
+[2026-10-10 10:53:33.358][TRC][Px58328][Tx3577] asst::RoguelikeCollapsalParadigmConfig::parse | leave, 0 ms
+[2026-10-10 10:53:33.358][TRC][Px58328][Tx3577] asst::RoguelikeCollapsalParadigmConfig :: asst::AbstractConfig::load | leave, 0 ms
+[2026-10-10 10:53:33.358][TRC][Px58328][Tx3577] asst::RoguelikeCoppersConfig :: asst::AbstractConfig::load | enter
+[2026-10-10 10:53:33.359][TRC][Px58328][Tx3577] asst::RoguelikeCoppersConfig::parse | enter
+[2026-10-10 10:53:33.359][TRC][Px58328][Tx3577] asst::RoguelikeCoppersConfig::parse | leave, 0 ms
+[2026-10-10 10:53:33.359][TRC][Px58328][Tx3577] asst::RoguelikeCoppersConfig :: asst::AbstractConfig::load | leave, 1 ms
+[2026-10-10 10:53:33.360][INF][Px58328][Tx3577] asst::ResourceLoader::load ret 1
+[2026-10-10 10:53:33.360][TRC][Px58328][Tx3577] asst::ResourceLoader::load | leave, 467 ms
+[2026-10-10 10:53:33.360][TRC][Px58328][Tx3577] asst::Assistant::Assistant | enter
+[2026-10-10 10:53:33.360][TRC][Px58328][Tx3577] asst::Controller::Controller | enter
+[2026-10-10 10:53:33.360][TRC][Px58328][Tx3577] asst::Controller::Controller | leave, 0 ms
+[2026-10-10 10:53:33.360][TRC][Px58328][Tx3577] asst::Assistant::Assistant | leave, 0 ms
+[2026-10-10 10:53:33.360][TRC][Px58328][Tx8754] asst::Assistant::call_proc | enter
+[2026-10-10 10:53:33.360][TRC][Px58328][Tx32438] asst::Assistant::working_proc | enter
+[2026-10-10 10:53:33.360][TRC][Px58328][Tx65046] asst::Assistant::msg_proc | enter
+[2026-10-10 10:53:33.360][TRC][Px58328][Tx3577] asst::Assistant::~Assistant | enter
+[2026-10-10 10:53:33.360][TRC][Px58328][Tx8754] asst::Assistant::call_proc | leave, 0 ms
+[2026-10-10 10:53:33.360][TRC][Px58328][Tx32438] asst::Assistant::working_proc | leave, 0 ms
+[2026-10-10 10:53:33.360][TRC][Px58328][Tx65046] asst::Assistant::msg_proc | leave, 0 ms
+[2026-10-10 10:53:33.360][TRC][Px58328][Tx3577] asst::Assistant::~Assistant | leave, 0 ms
+[2026-10-10 10:53:33.360][TRC][Px58328][Tx3577] asst::Controller::~Controller | enter
+[2026-10-10 10:53:33.360][TRC][Px58328][Tx3577] asst::Controller::~Controller | leave, 0 ms
+[2026-10-10 10:53:33.368][TRC][Px58328][Tx3577] asst::OcrPack::~OcrPack | enter
+[2026-10-10 10:53:33.368][TRC][Px58328][Tx3577] asst::OcrPack::~OcrPack | leave, 0 ms
+[2026-10-10 10:53:33.368][TRC][Px58328][Tx3577] asst::OcrPack::~OcrPack | enter
+[2026-10-10 10:53:33.368][TRC][Px58328][Tx3577] asst::OcrPack::~OcrPack | leave, 0 ms

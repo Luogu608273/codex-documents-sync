@@ -1,0 +1,247 @@
+{
+  "snapshot_date": "2026-10-12",
+  "arknights": [
+    {
+      "rank": 1,
+      "id": 3342981041,
+      "name": "铁花飞"
+    },
+    {
+      "rank": 2,
+      "id": 1403774122,
+      "name": "Speed of Light"
+    },
+    {
+      "rank": 3,
+      "id": 3410744228,
+      "name": "酸橙色信笺"
+    },
+    {
+      "rank": 4,
+      "id": 3413072220,
+      "name": "直到大地变成一颗酸橙"
+    },
+    {
+      "rank": 5,
+      "id": 2731325796,
+      "name": "Little Wish"
+    },
+    {
+      "rank": 6,
+      "id": 2122534120,
+      "name": "浸春芜"
+    },
+    {
+      "rank": 7,
+      "id": 3423857646,
+      "name": "凡常恩典"
+    },
+    {
+      "rank": 8,
+      "id": 3413072224,
+      "name": "连烦恼也融入天空"
+    },
+    {
+      "rank": 9,
+      "id": 2612747239,
+      "name": "Mystic Light Quest"
+    },
+    {
+      "rank": 10,
+      "id": 1990154664,
+      "name": "Running In The Dark"
+    },
+    {
+      "rank": 11,
+      "id": 1890402858,
+      "name": "Radiant"
+    },
+    {
+      "rank": 12,
+      "id": 2070351310,
+      "name": "Misty Memory (Night Version)"
+    },
+    {
+      "rank": 13,
+      "id": 1460626792,
+      "name": "Everything's Alright"
+    },
+    {
+      "rank": 14,
+      "id": 2700386313,
+      "name": "Somniomancer [null set]"
+    },
+    {
+      "rank": 15,
+      "id": 1485858993,
+      "name": "秋绪"
+    },
+    {
+      "rank": 16,
+      "id": 3375918502,
+      "name": "Innocence"
+    },
+    {
+      "rank": 17,
+      "id": 3407446672,
+      "name": "戏中身"
+    },
+    {
+      "rank": 18,
+      "id": 2124415181,
+      "name": "赴大荒"
+    },
+    {
+      "rank": 19,
+      "id": 3440323218,
+      "name": "拟生态"
+    },
+    {
+      "rank": 20,
+      "id": 3443145320,
+      "name": "大地之盐"
+    }
+  ],
+  "cross_game_category_candidates": [
+    {
+      "rank": 1,
+      "source_rank": 1,
+      "id": 3440655477,
+      "name": "月声尽，心灯明",
+      "game": "鸣潮"
+    },
+    {
+      "rank": 2,
+      "source_rank": 2,
+      "id": 1965623491,
+      "name": "天上掉下个林妹妹",
+      "game": "绝对演绎"
+    },
+    {
+      "rank": 3,
+      "source_rank": 4,
+      "id": 3442131349,
+      "name": "Rendezvous",
+      "game": "边狱巴士"
+    },
+    {
+      "rank": 4,
+      "source_rank": 7,
+      "id": 3346496288,
+      "name": "远航星的告别",
+      "game": "鸣潮"
+    },
+    {
+      "rank": 5,
+      "source_rank": 8,
+      "id": 3342981041,
+      "name": "铁花飞",
+      "game": "明日方舟"
+    },
+    {
+      "rank": 6,
+      "source_rank": 9,
+      "id": 2122308127,
+      "name": "不眠之夜",
+      "game": "崩坏：星穹铁道"
+    },
+    {
+      "rank": 7,
+      "source_rank": 10,
+      "id": 2722510685,
+      "name": "耀斑",
+      "game": "崩坏：星穹铁道"
+    },
+    {
+      "rank": 8,
+      "source_rank": 11,
+      "id": 3316968660,
+      "name": "昔涟",
+      "game": "崩坏：星穹铁道"
+    },
+    {
+      "rank": 9,
+      "source_rank": 12,
+      "id": 3443145320,
+      "name": "大地之盐",
+      "game": "明日方舟"
+    },
+    {
+      "rank": 10,
+      "source_rank": 13,
+      "id": 2155423468,
+      "name": "希望有羽毛和翅膀",
+      "game": "崩坏：星穹铁道"
+    },
+    {
+      "rank": 11,
+      "source_rank": 14,
+      "id": 2155423467,
+      "name": "在银河中孤独摇摆",
+      "game": "崩坏：星穹铁道"
+    },
+    {
+      "rank": 12,
+      "source_rank": 15,
+      "id": 3443033060,
+      "name": "一诺为家",
+      "game": "明日方舟：终末地"
+    },
+    {
+      "rank": 13,
+      "source_rank": 16,
+      "id": 3409349905,
+      "name": "下一站 Beyond This Station",
+      "game": "崩坏：星穹铁道"
+    },
+    {
+      "rank": 14,
+      "source_rank": 18,
+      "id": 3437047695,
+      "name": "心月辞·长相望",
+      "game": "鸣潮"
+    },
+    {
+      "rank": 15,
+      "source_rank": 19,
+      "id": 3357230091,
+      "name": "痴人说梦",
+      "game": "崩坏：星穹铁道"
+    },
+    {
+      "rank": 16,
+      "source_rank": 20,
+      "id": 2709812973,
+      "name": "拂晓 Proi Proi",
+      "game": "崩坏：星穹铁道"
+    },
+    {
+      "rank": 17,
+      "source_rank": 21,
+      "id": 3445943822,
+      "name": "奔向刹那之后（刹那のその先へ）",
+      "game": "阴阳师"
+    },
+    {
+      "rank": 18,
+      "source_rank": 22,
+      "id": 3410744228,
+      "name": "酸橙色信笺",
+      "game": "明日方舟"
+    },
+    {
+      "rank": 19,
+      "source_rank": 23,
+      "id": 3336080601,
+      "name": "SAIKAI",
+      "game": "边狱巴士"
+    },
+    {
+      "rank": 20,
+      "source_rank": 24,
+      "id": 1403774122,
+      "name": "Speed of Light",
+      "game": "明日方舟"
+    }
+  ]
+}

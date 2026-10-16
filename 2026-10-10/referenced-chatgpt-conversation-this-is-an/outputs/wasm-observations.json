@@ -1,0 +1,604 @@
+{
+  "cases": [
+    {
+      "request": {
+        "event": "metadata"
+      },
+      "response": {
+        "storageKey": "buwanyuanshen.gacha.v2"
+      }
+    },
+    {
+      "request": {
+        "event": "init",
+        "search": "?seed=42",
+        "state": null,
+        "entropy": 0
+      },
+      "response": {
+        "commands": [
+          {
+            "key": "buwanyuanshen.gacha.v2",
+            "op": "save",
+            "state": {
+              "guaranteeUp": false,
+              "lastStandardUrl": null,
+              "limitedHits": {},
+              "lossStreak": 0,
+              "pity4": 1,
+              "pity5": 1,
+              "totalPulls": 1,
+              "version": 2
+            }
+          },
+          {
+            "op": "redirect",
+            "url": "https://live.bilibili.com/1854314111#gacha-r-0"
+          }
+        ],
+        "rng": 1199730185,
+        "state": {
+          "guaranteeUp": false,
+          "lastStandardUrl": null,
+          "limitedHits": {},
+          "lossStreak": 0,
+          "pity4": 1,
+          "pity5": 1,
+          "totalPulls": 1,
+          "version": 2
+        }
+      }
+    },
+    {
+      "request": {
+        "event": "init",
+        "search": "?seed=42&force=ur",
+        "state": null,
+        "entropy": 0
+      },
+      "response": {
+        "commands": [
+          {
+            "key": "buwanyuanshen.gacha.v2",
+            "op": "save",
+            "state": {
+              "guaranteeUp": false,
+              "lastStandardUrl": null,
+              "limitedHits": {
+                "https://ys.mihoyo.com/": 1
+              },
+              "lossStreak": 0,
+              "pity4": 0,
+              "pity5": 0,
+              "totalPulls": 1,
+              "version": 2
+            }
+          },
+          {
+            "html": "<style>\n      :root { color-scheme: light; color: #000; background: #fff; font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif; }\n      * { box-sizing: border-box; }\n      body { margin: 0; min-height: 100vh; min-height: 100svh; display: grid; place-items: center; padding: 48px 24px; }\n      main { width: min(640px, 100%); }\n      .ticket { width: 104px; height: 128px; border: 2px solid #000; border-radius: 14px; display: grid; place-items: center; transform: rotate(-8deg); margin: 0 0 44px 8px; box-shadow: 8px 8px 0 #000; }\n      .ticket span { font: 700 64px/1 monospace; }\n      h1 { margin: 0; font-size: clamp(36px, 7vw, 56px); line-height: 1.25; letter-spacing: -.05em; font-weight: 800; }\n      h1 span { display: block; }\n      p { margin: 24px 0 36px; font-size: 16px; line-height: 1.9; }\n      button { width: 100%; min-height: 64px; display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 18px 24px; border: 2px solid #000; border-radius: 14px; background: #000; color: #fff; font: inherit; font-weight: 700; text-align: left; cursor: pointer; }\n      button:not(:disabled):hover { background: #fff; color: #000; }\n      button:focus-visible { outline: 2px solid #000; outline-offset: 6px; }\n      button:disabled { cursor: wait; }\n      .arrow { font-size: 24px; }\n      .note { margin: 16px 0 0; font-size: 12px; }\n      @media (max-width: 480px) { .ticket { width: 80px; height: 100px; margin-bottom: 36px; } .ticket span { font-size: 48px; } }\n    </style><main>\n      <div class=\"ticket\" aria-hidden=\"true\"><span>?</span></div>\n      <h1><span>金光已经亮了。</span><span>该你启动了。</span></h1>\n      <button id=\"open-surprise\" type=\"button\" disabled><span id=\"open-label\">点击，启动！</span><span class=\"arrow\" aria-hidden=\"true\">↗</span></button>\n    </main>",
+            "op": "guide"
+          }
+        ],
+        "rng": 3663131668,
+        "state": {
+          "guaranteeUp": false,
+          "lastStandardUrl": null,
+          "limitedHits": {
+            "https://ys.mihoyo.com/": 1
+          },
+          "lossStreak": 0,
+          "pity4": 0,
+          "pity5": 0,
+          "totalPulls": 1,
+          "version": 2
+        }
+      }
+    },
+    {
+      "request": {
+        "event": "start"
+      },
+      "response": {
+        "commands": [
+          {
+            "op": "guide_status"
+          },
+          {
+            "hint": "点击此处跳过",
+            "muted": false,
+            "op": "video",
+            "progress": {
+              "BYTES": 607977,
+              "SHOW": true
+            },
+            "url": "./video/startup-01.mp4"
+          },
+          {
+            "id": "load",
+            "ms": 30000,
+            "op": "timer"
+          },
+          {
+            "data": {
+              "muted": false,
+              "video": "./video/startup-01.mp4"
+            },
+            "message": "[启动动画] 开始播放",
+            "op": "log"
+          },
+          {
+            "kind": "initial",
+            "op": "play"
+          }
+        ]
+      }
+    },
+    {
+      "request": {
+        "event": "playing"
+      },
+      "response": {
+        "commands": [
+          {
+            "op": "drop_loader"
+          },
+          {
+            "id": "play",
+            "ms": 25000,
+            "op": "timer"
+          }
+        ]
+      }
+    },
+    {
+      "request": {
+        "event": "ended"
+      },
+      "response": {
+        "commands": [
+          {
+            "op": "cleanup"
+          },
+          {
+            "op": "redirect",
+            "url": "https://ys.mihoyo.com/#gacha-ur-0"
+          }
+        ]
+      }
+    },
+    {
+      "request": {
+        "event": "init",
+        "search": "?seed=42&force=ur",
+        "state": null,
+        "entropy": 0
+      },
+      "response": {
+        "commands": [
+          {
+            "key": "buwanyuanshen.gacha.v2",
+            "op": "save",
+            "state": {
+              "guaranteeUp": false,
+              "lastStandardUrl": null,
+              "limitedHits": {
+                "https://ys.mihoyo.com/": 1
+              },
+              "lossStreak": 0,
+              "pity4": 0,
+              "pity5": 0,
+              "totalPulls": 1,
+              "version": 2
+            }
+          },
+          {
+            "html": "<style>\n      :root { color-scheme: light; color: #000; background: #fff; font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif; }\n      * { box-sizing: border-box; }\n      body { margin: 0; min-height: 100vh; min-height: 100svh; display: grid; place-items: center; padding: 48px 24px; }\n      main { width: min(640px, 100%); }\n      .ticket { width: 104px; height: 128px; border: 2px solid #000; border-radius: 14px; display: grid; place-items: center; transform: rotate(-8deg); margin: 0 0 44px 8px; box-shadow: 8px 8px 0 #000; }\n      .ticket span { font: 700 64px/1 monospace; }\n      h1 { margin: 0; font-size: clamp(36px, 7vw, 56px); line-height: 1.25; letter-spacing: -.05em; font-weight: 800; }\n      h1 span { display: block; }\n      p { margin: 24px 0 36px; font-size: 16px; line-height: 1.9; }\n      button { width: 100%; min-height: 64px; display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 18px 24px; border: 2px solid #000; border-radius: 14px; background: #000; color: #fff; font: inherit; font-weight: 700; text-align: left; cursor: pointer; }\n      button:not(:disabled):hover { background: #fff; color: #000; }\n      button:focus-visible { outline: 2px solid #000; outline-offset: 6px; }\n      button:disabled { cursor: wait; }\n      .arrow { font-size: 24px; }\n      .note { margin: 16px 0 0; font-size: 12px; }\n      @media (max-width: 480px) { .ticket { width: 80px; height: 100px; margin-bottom: 36px; } .ticket span { font-size: 48px; } }\n    </style><main>\n      <div class=\"ticket\" aria-hidden=\"true\"><span>?</span></div>\n      <h1><span>金光已经亮了。</span><span>该你启动了。</span></h1>\n      <button id=\"open-surprise\" type=\"button\" disabled><span id=\"open-label\">点击，启动！</span><span class=\"arrow\" aria-hidden=\"true\">↗</span></button>\n    </main>",
+            "op": "guide"
+          }
+        ],
+        "rng": 3663131668,
+        "state": {
+          "guaranteeUp": false,
+          "lastStandardUrl": null,
+          "limitedHits": {
+            "https://ys.mihoyo.com/": 1
+          },
+          "lossStreak": 0,
+          "pity4": 0,
+          "pity5": 0,
+          "totalPulls": 1,
+          "version": 2
+        }
+      }
+    },
+    {
+      "request": {
+        "event": "start"
+      },
+      "response": {
+        "commands": [
+          {
+            "op": "guide_status"
+          },
+          {
+            "hint": "点击此处跳过",
+            "muted": false,
+            "op": "video",
+            "progress": {
+              "BYTES": 607977,
+              "SHOW": true
+            },
+            "url": "./video/startup-01.mp4"
+          },
+          {
+            "id": "load",
+            "ms": 30000,
+            "op": "timer"
+          },
+          {
+            "data": {
+              "muted": false,
+              "video": "./video/startup-01.mp4"
+            },
+            "message": "[启动动画] 开始播放",
+            "op": "log"
+          },
+          {
+            "kind": "initial",
+            "op": "play"
+          }
+        ]
+      }
+    },
+    {
+      "request": {
+        "event": "skip"
+      },
+      "response": {
+        "commands": [
+          {
+            "op": "cleanup"
+          },
+          {
+            "op": "redirect",
+            "url": "https://ys.mihoyo.com/#gacha-ur-0"
+          }
+        ]
+      }
+    },
+    {
+      "request": {
+        "event": "init",
+        "search": "?seed=42&force=ur",
+        "state": null,
+        "entropy": 0
+      },
+      "response": {
+        "commands": [
+          {
+            "key": "buwanyuanshen.gacha.v2",
+            "op": "save",
+            "state": {
+              "guaranteeUp": false,
+              "lastStandardUrl": null,
+              "limitedHits": {
+                "https://ys.mihoyo.com/": 1
+              },
+              "lossStreak": 0,
+              "pity4": 0,
+              "pity5": 0,
+              "totalPulls": 1,
+              "version": 2
+            }
+          },
+          {
+            "html": "<style>\n      :root { color-scheme: light; color: #000; background: #fff; font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif; }\n      * { box-sizing: border-box; }\n      body { margin: 0; min-height: 100vh; min-height: 100svh; display: grid; place-items: center; padding: 48px 24px; }\n      main { width: min(640px, 100%); }\n      .ticket { width: 104px; height: 128px; border: 2px solid #000; border-radius: 14px; display: grid; place-items: center; transform: rotate(-8deg); margin: 0 0 44px 8px; box-shadow: 8px 8px 0 #000; }\n      .ticket span { font: 700 64px/1 monospace; }\n      h1 { margin: 0; font-size: clamp(36px, 7vw, 56px); line-height: 1.25; letter-spacing: -.05em; font-weight: 800; }\n      h1 span { display: block; }\n      p { margin: 24px 0 36px; font-size: 16px; line-height: 1.9; }\n      button { width: 100%; min-height: 64px; display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 18px 24px; border: 2px solid #000; border-radius: 14px; background: #000; color: #fff; font: inherit; font-weight: 700; text-align: left; cursor: pointer; }\n      button:not(:disabled):hover { background: #fff; color: #000; }\n      button:focus-visible { outline: 2px solid #000; outline-offset: 6px; }\n      button:disabled { cursor: wait; }\n      .arrow { font-size: 24px; }\n      .note { margin: 16px 0 0; font-size: 12px; }\n      @media (max-width: 480px) { .ticket { width: 80px; height: 100px; margin-bottom: 36px; } .ticket span { font-size: 48px; } }\n    </style><main>\n      <div class=\"ticket\" aria-hidden=\"true\"><span>?</span></div>\n      <h1><span>金光已经亮了。</span><span>该你启动了。</span></h1>\n      <button id=\"open-surprise\" type=\"button\" disabled><span id=\"open-label\">点击，启动！</span><span class=\"arrow\" aria-hidden=\"true\">↗</span></button>\n    </main>",
+            "op": "guide"
+          }
+        ],
+        "rng": 3663131668,
+        "state": {
+          "guaranteeUp": false,
+          "lastStandardUrl": null,
+          "limitedHits": {
+            "https://ys.mihoyo.com/": 1
+          },
+          "lossStreak": 0,
+          "pity4": 0,
+          "pity5": 0,
+          "totalPulls": 1,
+          "version": 2
+        }
+      }
+    },
+    {
+      "request": {
+        "event": "start"
+      },
+      "response": {
+        "commands": [
+          {
+            "op": "guide_status"
+          },
+          {
+            "hint": "点击此处跳过",
+            "muted": false,
+            "op": "video",
+            "progress": {
+              "BYTES": 607977,
+              "SHOW": true
+            },
+            "url": "./video/startup-01.mp4"
+          },
+          {
+            "id": "load",
+            "ms": 30000,
+            "op": "timer"
+          },
+          {
+            "data": {
+              "muted": false,
+              "video": "./video/startup-01.mp4"
+            },
+            "message": "[启动动画] 开始播放",
+            "op": "log"
+          },
+          {
+            "kind": "initial",
+            "op": "play"
+          }
+        ]
+      }
+    },
+    {
+      "request": {
+        "event": "error"
+      },
+      "response": {
+        "commands": [
+          {
+            "op": "cleanup"
+          },
+          {
+            "op": "redirect",
+            "url": "https://ys.mihoyo.com/#gacha-ur-0"
+          }
+        ]
+      }
+    },
+    {
+      "request": {
+        "event": "init",
+        "search": "?seed=42&force=ur",
+        "state": null,
+        "entropy": 0
+      },
+      "response": {
+        "commands": [
+          {
+            "key": "buwanyuanshen.gacha.v2",
+            "op": "save",
+            "state": {
+              "guaranteeUp": false,
+              "lastStandardUrl": null,
+              "limitedHits": {
+                "https://ys.mihoyo.com/": 1
+              },
+              "lossStreak": 0,
+              "pity4": 0,
+              "pity5": 0,
+              "totalPulls": 1,
+              "version": 2
+            }
+          },
+          {
+            "html": "<style>\n      :root { color-scheme: light; color: #000; background: #fff; font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif; }\n      * { box-sizing: border-box; }\n      body { margin: 0; min-height: 100vh; min-height: 100svh; display: grid; place-items: center; padding: 48px 24px; }\n      main { width: min(640px, 100%); }\n      .ticket { width: 104px; height: 128px; border: 2px solid #000; border-radius: 14px; display: grid; place-items: center; transform: rotate(-8deg); margin: 0 0 44px 8px; box-shadow: 8px 8px 0 #000; }\n      .ticket span { font: 700 64px/1 monospace; }\n      h1 { margin: 0; font-size: clamp(36px, 7vw, 56px); line-height: 1.25; letter-spacing: -.05em; font-weight: 800; }\n      h1 span { display: block; }\n      p { margin: 24px 0 36px; font-size: 16px; line-height: 1.9; }\n      button { width: 100%; min-height: 64px; display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 18px 24px; border: 2px solid #000; border-radius: 14px; background: #000; color: #fff; font: inherit; font-weight: 700; text-align: left; cursor: pointer; }\n      button:not(:disabled):hover { background: #fff; color: #000; }\n      button:focus-visible { outline: 2px solid #000; outline-offset: 6px; }\n      button:disabled { cursor: wait; }\n      .arrow { font-size: 24px; }\n      .note { margin: 16px 0 0; font-size: 12px; }\n      @media (max-width: 480px) { .ticket { width: 80px; height: 100px; margin-bottom: 36px; } .ticket span { font-size: 48px; } }\n    </style><main>\n      <div class=\"ticket\" aria-hidden=\"true\"><span>?</span></div>\n      <h1><span>金光已经亮了。</span><span>该你启动了。</span></h1>\n      <button id=\"open-surprise\" type=\"button\" disabled><span id=\"open-label\">点击，启动！</span><span class=\"arrow\" aria-hidden=\"true\">↗</span></button>\n    </main>",
+            "op": "guide"
+          }
+        ],
+        "rng": 3663131668,
+        "state": {
+          "guaranteeUp": false,
+          "lastStandardUrl": null,
+          "limitedHits": {
+            "https://ys.mihoyo.com/": 1
+          },
+          "lossStreak": 0,
+          "pity4": 0,
+          "pity5": 0,
+          "totalPulls": 1,
+          "version": 2
+        }
+      }
+    },
+    {
+      "request": {
+        "event": "start"
+      },
+      "response": {
+        "commands": [
+          {
+            "op": "guide_status"
+          },
+          {
+            "hint": "点击此处跳过",
+            "muted": false,
+            "op": "video",
+            "progress": {
+              "BYTES": 607977,
+              "SHOW": true
+            },
+            "url": "./video/startup-01.mp4"
+          },
+          {
+            "id": "load",
+            "ms": 30000,
+            "op": "timer"
+          },
+          {
+            "data": {
+              "muted": false,
+              "video": "./video/startup-01.mp4"
+            },
+            "message": "[启动动画] 开始播放",
+            "op": "log"
+          },
+          {
+            "kind": "initial",
+            "op": "play"
+          }
+        ]
+      }
+    },
+    {
+      "request": {
+        "event": "timeout"
+      },
+      "response": {
+        "commands": [
+          {
+            "op": "cleanup"
+          },
+          {
+            "op": "redirect",
+            "url": "https://ys.mihoyo.com/#gacha-ur-0"
+          }
+        ]
+      }
+    },
+    {
+      "request": {
+        "event": "init",
+        "search": "?seed=42&probe=1",
+        "state": null,
+        "entropy": 0
+      },
+      "response": {
+        "commands": [
+          {
+            "data": {
+              "5★出率": "4.0%",
+              "card": {
+                "地址": "https://live.bilibili.com/1854314111",
+                "标题": "哔哩哔哩直播间 1854314111",
+                "稀有度": "R",
+                "距上次5星": 0
+              }
+            },
+            "message": "[卡池] 本次抽卡",
+            "op": "log"
+          },
+          {
+            "data": {
+              "大保底": false,
+              "总抽数": 1,
+              "距上次4星": 1,
+              "距上次5星": 1,
+              "连续歪": 0
+            },
+            "message": "[卡池] 抽卡进度",
+            "op": "log"
+          },
+          {
+            "data": "https://live.bilibili.com/1854314111#gacha-r-0",
+            "message": "[卡池] 跳转目标",
+            "op": "log"
+          }
+        ],
+        "rng": 1199730185,
+        "state": {
+          "guaranteeUp": false,
+          "lastStandardUrl": null,
+          "limitedHits": {},
+          "lossStreak": 0,
+          "pity4": 1,
+          "pity5": 1,
+          "totalPulls": 1,
+          "version": 2
+        }
+      }
+    }
+  ],
+  "boundaries": [
+    {
+      "pity5": 0,
+      "rate5": 0.04
+    },
+    {
+      "pity5": 1,
+      "rate5": 0.04
+    },
+    {
+      "pity5": 2,
+      "rate5": 0.04
+    },
+    {
+      "pity5": 3,
+      "rate5": 0.04
+    },
+    {
+      "pity5": 4,
+      "rate5": 0.04
+    },
+    {
+      "pity5": 5,
+      "rate5": 0.04
+    },
+    {
+      "pity5": 6,
+      "rate5": 0.04
+    },
+    {
+      "pity5": 7,
+      "rate5": 0.04
+    },
+    {
+      "pity5": 8,
+      "rate5": 0.04
+    },
+    {
+      "pity5": 9,
+      "rate5": 0.04
+    },
+    {
+      "pity5": 10,
+      "rate5": 0.04
+    },
+    {
+      "pity5": 11,
+      "rate5": 0.12
+    },
+    {
+      "pity5": 12,
+      "rate5": 0.2
+    },
+    {
+      "pity5": 13,
+      "rate5": 0.27999999999999997
+    },
+    {
+      "pity5": 14,
+      "rate5": 0.36
+    },
+    {
+      "pity5": 15,
+      "rate5": 0.44
+    },
+    {
+      "pity5": 16,
+      "rate5": 0.52
+    },
+    {
+      "pity5": 17,
+      "rate5": 0.6000000000000001
+    },
+    {
+      "pity5": 18,
+      "rate5": 0.68
+    },
+    {
+      "pity5": 19,
+      "rate5": 1
+    }
+  ]
+}

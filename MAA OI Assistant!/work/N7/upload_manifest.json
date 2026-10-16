@@ -1,0 +1,98 @@
+[
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N7\\manifest.json",
+    "rel": "manifest.json",
+    "bytes": 2484,
+    "md5": "56dcbdd8d24dccdb568ba41222941982"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N7\\README.md",
+    "rel": "README.md",
+    "bytes": 2363,
+    "md5": "bcb9fcb590951fd8a91fc00c1bb26e80"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N7\\U1667\\partial.cpp",
+    "rel": "U1667/partial.cpp",
+    "bytes": 1123,
+    "md5": "44f4713f1d4da3f83c9fa60d48871f02"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N7\\U1667\\solution.md",
+    "rel": "U1667/solution.md",
+    "bytes": 3927,
+    "md5": "d4eeecd38264e3c24dc7aeac820e7226"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N7\\U1667\\std.cpp",
+    "rel": "U1667/std.cpp",
+    "bytes": 1071,
+    "md5": "14e4b05f3af16d57d557c33fdeead1fb"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N7\\U1668\\partial.cpp",
+    "rel": "U1668/partial.cpp",
+    "bytes": 900,
+    "md5": "bac4b62f238337c2928d83983b2168c4"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N7\\U1668\\solution.md",
+    "rel": "U1668/solution.md",
+    "bytes": 6001,
+    "md5": "4f3a1297244f01c161ce3faa18b11e0a"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N7\\U1668\\std.cpp",
+    "rel": "U1668/std.cpp",
+    "bytes": 2531,
+    "md5": "fa99a5b9c34d39d3c950fe68b94e3d73"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N7\\U1669\\partial.cpp",
+    "rel": "U1669/partial.cpp",
+    "bytes": 1069,
+    "md5": "e40a8429695ce0e29e51502b5bfff349"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N7\\U1669\\solution.md",
+    "rel": "U1669/solution.md",
+    "bytes": 4250,
+    "md5": "600e41bf29711b349a53c8d360a56f6f"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N7\\U1669\\std.cpp",
+    "rel": "U1669/std.cpp",
+    "bytes": 2073,
+    "md5": "4a5dba68f0668b208dc69dcaf91007e4"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N7\\U1670\\partial.cpp",
+    "rel": "U1670/partial.cpp",
+    "bytes": 2232,
+    "md5": "451138d486cfd568e020aeab97045823"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N7\\U1670\\solution.md",
+    "rel": "U1670/solution.md",
+    "bytes": 8842,
+    "md5": "00bfce66cab1e3889a866ff9c96cfca4"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N7\\U1670\\std.cpp",
+    "rel": "U1670/std.cpp",
+    "bytes": 2966,
+    "md5": "2868e1668a0c07d9d26d8aea2ae34f6e"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N7\\verification.json",
+    "rel": "verification.json",
+    "bytes": 5911,
+    "md5": "eae83abce3ead6c9549b09e2b1ac3cb8"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N7\\验证说明.md",
+    "rel": "验证说明.md",
+    "bytes": 4024,
+    "md5": "e595ae3efba878f8fec09b31bc61ff70"
+  }
+]

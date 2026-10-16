@@ -1,0 +1,50 @@
+[
+  {
+    "program": "G123910_std",
+    "input": "cookoff_million_random.in",
+    "seconds": 2.249,
+    "peak_working_set_MiB": 96.86,
+    "checked_expected": false,
+    "output_preview": "1701515620453\r\n"
+  },
+  {
+    "program": "G123910_std",
+    "input": "cookoff_million_all_early.in",
+    "seconds": 0.892,
+    "peak_working_set_MiB": 45.19,
+    "checked_expected": true,
+    "output_preview": "-2000000000000000\r\n"
+  },
+  {
+    "program": "G123909_std",
+    "input": "subseq_max_random.in",
+    "seconds": 0.111,
+    "peak_working_set_MiB": 11.2,
+    "checked_expected": false,
+    "output_preview": "611215891\r\n269853672\r\n338506675\r\n549930723\r\n212442760\r\n148791\r\n34660666\r\n1739149"
+  },
+  {
+    "program": "G123909_std",
+    "input": "subseq_max_same.in",
+    "seconds": 0.097,
+    "peak_working_set_MiB": 11.25,
+    "checked_expected": true,
+    "output_preview": "18165451\r\n18165451\r\n18165451\r\n18165451\r\n18165451\r\n18165451\r\n18165451\r\n18165451\r\n"
+  },
+  {
+    "program": "G123908_std",
+    "input": "upkeep_max_cycle.in",
+    "seconds": 0.055,
+    "peak_working_set_MiB": 3.2,
+    "checked_expected": true,
+    "output_preview": "2000000000000\r\n"
+  },
+  {
+    "program": "G123907_std",
+    "input": "erase_max.in",
+    "seconds": 0.013,
+    "peak_working_set_MiB": 1.53,
+    "checked_expected": true,
+    "output_preview": "100000\r\n"
+  }
+]

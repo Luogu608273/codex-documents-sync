@@ -1,0 +1,78 @@
+[
+  {
+    "problem": "U1667",
+    "case": "stress_median",
+    "seconds": 0.076,
+    "output_lines": 100000,
+    "output_first": [
+      "500001 1",
+      "500001 1"
+    ]
+  },
+  {
+    "problem": "U1668",
+    "case": "stress_three_random",
+    "seconds": 0.712,
+    "output_lines": 200000,
+    "output_first": [
+      "321968",
+      "535840"
+    ]
+  },
+  {
+    "problem": "U1668",
+    "case": "stress_three_periodic",
+    "seconds": 0.446,
+    "output_lines": 200000,
+    "output_first": [
+      "0",
+      "0"
+    ]
+  },
+  {
+    "problem": "U1669",
+    "case": "stress_func",
+    "seconds": 0.541,
+    "output_lines": 166666,
+    "output_first": [
+      "831352842444503",
+      "667699867743550"
+    ]
+  },
+  {
+    "problem": "U1670",
+    "case": "stress_ndfs_complete",
+    "seconds": 2.966,
+    "output_lines": 1,
+    "output_first": [
+      "737001825"
+    ]
+  },
+  {
+    "problem": "U1670",
+    "case": "stress_ndfs_0.25",
+    "seconds": 2.838,
+    "output_lines": 1,
+    "output_first": [
+      "459848179"
+    ]
+  },
+  {
+    "problem": "U1670",
+    "case": "stress_ndfs_0.5",
+    "seconds": 2.908,
+    "output_lines": 1,
+    "output_first": [
+      "74887230"
+    ]
+  },
+  {
+    "problem": "U1670",
+    "case": "stress_ndfs_0.75",
+    "seconds": 3.004,
+    "output_lines": 1,
+    "output_first": [
+      "933446389"
+    ]
+  }
+]

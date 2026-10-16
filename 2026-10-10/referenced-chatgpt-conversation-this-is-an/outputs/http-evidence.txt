@@ -1,0 +1,114 @@
+=== https-headers.txt ===
+HTTP/1.1 200 OK
+Date: Sat, 10 Oct 2026 09:05:53 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Cache-Status: HIT
+Cache-Control: public, max-age=0, must-revalidate
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=UMR2TJUdXKBfNRgESOTJoO3q29Zjs1VyQ%2FAGvvsFSMq5lgkqBl%2BxX%2BX2yktxMV6sp0gxoEqurDB4hkCvOl2zQC%2BXk%2BP0q6mrFgi0LOp8zQE5M1hblX0ZFqdkYgfcREja1f39OfyqzRBS"}]}
+Server: cloudflare
+CF-RAY: a4847742aed804b6-HKG
+alt-svc: h3=":443"; ma=86400
+
+
+=== aha-headers.txt ===
+HTTP/1.1 200 OK
+Date: Sat, 10 Oct 2026 09:06:08 GMT
+Content-Type: text/javascript
+Content-Length: 14107
+Connection: keep-alive
+CF-Cache-Status: HIT
+Cache-Control: public, max-age=0, must-revalidate
+ETag: "164bea867c92cfe69228553fd79f744d"
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=tyP05XyD9x3MQRSSldal2ZhwRaSZaLg5snNCYVtIuN63UyucbJ3xry6E9faEdNnkC6GOYSjKk1S%2BM%2FPkLHFtNG3joQqtiZYW2b81d2%2F5gFRUrheBF0DBYh5kGUdJmy3kESj3lPG0JwgX"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a48477a0d8688539-HKG
+alt-svc: h3=":443"; ma=86400
+
+
+=== wasm-headers.txt ===
+HTTP/1.1 200 OK
+Date: Sat, 10 Oct 2026 09:06:49 GMT
+Content-Type: application/wasm
+Content-Length: 178753
+Connection: keep-alive
+CF-Cache-Status: HIT
+Cache-Control: public, max-age=0, must-revalidate
+ETag: "5fe59a86261d680dbc74275b098512c0"
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=zvwODQNaJPpGHKiY6AQnp7SIiexlepFxteNgT64up6Bc0xHuwbUcCM00BiI5KJjfLBWOfaE9AErqu12i7oc9HC2oVuQqegFSijbYmcTlP6lQxF8aoBtsV39W9PJU3cp9SFdpn4pWPIzh"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a48478a5d9a68b27-HKG
+alt-svc: h3=":443"; ma=86400
+
+
+=== http-chain.txt ===
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 10 Oct 2026 09:06:08 GMT
+Content-Type: text/html; charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Location: https://www.xn--qvrw50dh7j.com/
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=nGFKTIWTN7OhCilRtoEJ3puc4JE4cZ7ENGtY8YLIkeGQDapZnTD1L%2FeGY6t8PfxE2enoJ1eLlQCFBXUWo9TXSw3VcnvAyIj%2Bf05TNgA%2FKSxXp25nZDMgs6m8GJvI1wI%2BXqDvYcgObva6"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a484779ff84e09ed-HKG
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 200 OK
+Date: Sat, 10 Oct 2026 09:06:13 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Cache-Status: HIT
+Cache-Control: public, max-age=0, must-revalidate
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=2obkpWnUTtuLyMMpcjeUSRHCfocXlgFlbxj2jB0bz%2F%2BolFYD4gp5GXgKfUPz3EmzV621eRjHuz7riYUknIhcrW7xmAGvsbGDiY%2F2U%2F1sQFtpMUSSFRlyJctbZE%2B6fYFIuBNe6HQErhBU"}]}
+Server: cloudflare
+CF-RAY: a48477c12fb10dad-HKG
+alt-svc: h3=":443"; ma=86400
+
+
+=== bare-chain.txt ===
+HTTP/1.1 200 OK
+Date: Sat, 10 Oct 2026 09:06:18 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Cache-Status: HIT
+Cache-Control: public, max-age=0, must-revalidate
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=QKWYyXyw5sHKWsNt3aiveCSMUMD0B01ELJ1gJsymkI32jqhA8b3FXjo%2FUEhj8nbqkoeHPpl4kIV971NWAxtxqz2Gn3LmjlXAy%2Fj1UX9sODOd7IopoOJqrJP3yaI3hf4YvdP5TUQ%3D"}]}
+Server: cloudflare
+CF-RAY: a48477e3bf1586ad-HKG
+alt-svc: h3=":443"; ma=86400
+
+
+=== search-chain.txt ===
+HTTP/1.1 307 Temporary Redirect
+Date: Sat, 10 Oct 2026 09:09:04 GMT
+Content-Length: 0
+Connection: keep-alive
+Location: /search?gacha=ssr-0
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=%2BNnhiUiUol%2Fkhb8wJtAXwoalo5xqvgE95n8YgD9wMZcB2F94tTFW1C7opggflYDjDV9zSv0q0JUNVWEA23J8RY4FmjivsO9dmpTq%2BWGRHOaG2mgbfzvVFcQditHc6hBFFd9aUc9r22mg"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: a4847bf0ebb7a0e9-HKG
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 200 OK
+Date: Sat, 10 Oct 2026 09:09:04 GMT
+Content-Type: text/html
+Transfer-Encoding: chunked
+Connection: keep-alive
+CF-Cache-Status: HIT
+Cache-Control: public, max-age=0, must-revalidate
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=8FHxzOEPAOuzMcqaRLR8tVKOBJPg45xqsmwxRtTD2DKn3%2FavyhW7wnUI11R9rzowbEMhVwYpm9R4P3iUo8I9IooMBmGT1cH9T5nMKdLesTnJYmdoZO8BFQIcrwk5O87PS8ZOqgMj06Nk"}]}
+Server: cloudflare
+CF-RAY: a4847bf16ce2a0e9-HKG
+alt-svc: h3=":443"; ma=86400
+

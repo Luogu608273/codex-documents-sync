@@ -1,0 +1,13 @@
+{
+  "samples": "All 8 printed sample cases pass in stdin/stdout and official file IO modes.",
+  "seq": "800 random queries checked against full permutation enumeration, seed 20261011.",
+  "combo": "7000 random cases checked by enumerating all text intervals, seed 20261011.",
+  "game": "GAME PASS 6380840",
+  "xor": "XOR PASS 85535",
+  "large_case_seconds": {
+    "seq": 0.124,
+    "xor": 0.12,
+    "combo": 0.197,
+    "game": 0.996
+  }
+}
