@@ -1,0 +1,12 @@
+
+部署映像服务和管理工具
+版本: 10.0.19041.3636
+
+映像版本: 10.0.19044.4529
+
+
+错误: 3
+
+系统找不到指定的路径。
+
+可以在 C:\Users\605\Documents\Codex\MAA Arknights Assistant!\data\repairs\2026-10-17-wpf-config-153147\health-results\dism-detail.log 上找到 DISM 日志文件

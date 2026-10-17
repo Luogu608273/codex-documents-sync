@@ -1,0 +1,13 @@
+{
+  "maa_version": "v6.19.0",
+  "modified_file": "D:\\MAA-Arknights-Assistant\\data\\CHANGELOG.md",
+  "backup_file": "C:\\Users\\605\\Documents\\Codex\\MAA Arknights Assistant!\\data\\repairs\\2026-10-17-changelog-152641\\CHANGELOG.original.md",
+  "contributors_converted": 114,
+  "original_sha256": "9e2924248360a61545417d8f89d6cb5b4e906b1a5690f58b1c6020a8e9f19f09",
+  "modified_sha256": "ddbe749eb459e2da65dfdfa6845a7ec9d192e618739cc59e3918fa1ff497f3dd",
+  "reason": "Avoid WPF contributor avatar insertion and inline atom merging using normal Markdown author links",
+  "configuration_changed": false,
+  "validation": "Local content workaround reverted at user request; investigating Windows configuration. No successful UI validation claimed.",
+  "restore": "Close MAA, copy CHANGELOG.original.md over modified_file. Next application update may replace the cached changelog.",
+  "restored": true
+}

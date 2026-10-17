@@ -1,0 +1,14 @@
+{
+  "SourcePage": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-rx-500-series/radeon-rx-550.html",
+  "ReleaseNotes": "https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-26-5-2-POLARIS-VEGA.html",
+  "DownloadUrl": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-26.5.2-win11-may-vega-polaris.exe",
+  "Path": "C:\\Users\\605\\Documents\\Codex\\MAA Arknights Assistant!\\data\\repairs\\2026-10-17-gpu\\whql-amd-software-adrenalin-edition-26.5.2-win11-may-vega-polaris.exe",
+  "Bytes": 653644328,
+  "Sha256": "2E8755B69DDEA92305AC2399102088248C7E2C0F5C7B024A570797EBBBE50E77",
+  "Revision": "Adrenalin 26.5.2 for Polaris & Vega",
+  "TargetDriverStoreVersion": "31.0.21925.1001",
+  "SignatureStatus": "Valid",
+  "SignatureMessage": "Signature verified.",
+  "Signer": "CN=Advanced Micro Devices, O=Advanced Micro Devices, S=California, C=US",
+  "Installed": false
+}

@@ -1,0 +1,17 @@
+﻿{
+  "CapturedAt": "2026-10-17T15:31:47.7074286+08:00",
+  "Hive": "HKEY_CURRENT_USER",
+  "SubKey": "Software\\Microsoft\\Avalon.Graphics",
+  "ValueName": "DisableHWAcceleration",
+  "KeyExisted": true,
+  "ValueExisted": false,
+  "PreviousValue": null,
+  "PreviousKind": null,
+  "AppliedValue": 1,
+  "AppliedKind": "DWord",
+  "Purpose": "Temporary Windows WPF software-rendering diagnostic; not a confirmed fix",
+  "MaaFilesChanged": false,
+  "DiagnosticResult": "User restarted MAA and still reproduced the same crash",
+  "AppliedSettingReverted": true,
+  "NewEventRecordId": 3790
+}

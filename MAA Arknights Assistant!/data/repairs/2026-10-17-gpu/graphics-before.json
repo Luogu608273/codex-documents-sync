@@ -1,0 +1,49 @@
+{
+  "CapturedAt": "2026-10-17T15:44:18.5986952+08:00",
+  "UserReportedSymptom": "Desktop and multiple applications showed severe rendering corruption before reboot; MAA changelog crash was observed afterwards.",
+  "Drivers": [
+    {
+      "DeviceName": "Intel(R) UHD Graphics 770",
+      "DriverVersion": "31.0.101.3678",
+      "DriverDate": "2022-09-21T08:00:00+08:00",
+      "InfName": "oem11.inf",
+      "DeviceID": "PCI\\VEN_8086&DEV_4690&SUBSYS_30070526&REV_0C\\3&11583659&1&10",
+      "Manufacturer": "Intel Corporation",
+      "IsSigned": true
+    },
+    {
+      "DeviceName": "Radeon RX550/550 Series",
+      "DriverVersion": "30.0.15021.11005",
+      "DriverDate": "2022-04-28T08:00:00+08:00",
+      "InfName": "oem17.inf",
+      "DeviceID": "PCI\\VEN_1002&DEV_699F&SUBSYS_00001002&REV_C7\\4&2BA2138&0&0008",
+      "Manufacturer": "Advanced Micro Devices, Inc.",
+      "IsSigned": true
+    }
+  ],
+  "GraphicsDeviceStatus": [
+    {
+      "Name": "Intel(R) UHD Graphics 770",
+      "Status": "OK",
+      "ConfigManagerErrorCode": 0,
+      "DriverVersion": "31.0.101.3678"
+    },
+    {
+      "Name": "Radeon RX550/550 Series",
+      "Status": "OK",
+      "ConfigManagerErrorCode": 0,
+      "DriverVersion": "30.0.15021.11005"
+    }
+  ],
+  "Events": [
+    {
+      "TimeCreated": "2026-10-17T13:57:00.3360765+08:00",
+      "ProviderName": "EventLog",
+      "Id": 6008,
+      "Message": "上一次系统的 21:31:09 在 ‎2026/‎10/‎16 上的关闭是意外的。"
+    }
+  ],
+  "PreviousAmdPackage": "oem17.inf / u0379219.inf",
+  "PreviousAmdExportSucceeded": true,
+  "InstalledNewDriver": false
+}
