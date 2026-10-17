@@ -1,0 +1,84 @@
+{
+  "CapturedAt": "2026-10-17T15:52:13.4345034+08:00",
+  "Process": [
+    {
+      "ProcessId": 22880,
+      "CreationDate": "2026-10-17T15:47:08.613628+08:00",
+      "KernelModeTime": 30156250,
+      "UserModeTime": 30625000,
+      "ReadTransferCount": 1723299113,
+      "WriteTransferCount": 1694010624
+    }
+  ],
+  "Display": [
+    {
+      "Name": "Intel(R) UHD Graphics 770",
+      "DriverVersion": "31.0.101.3678",
+      "Status": "OK",
+      "ConfigManagerErrorCode": 0
+    },
+    {
+      "Name": "Radeon RX550/550 Series",
+      "DriverVersion": "31.0.21925.1001",
+      "Status": "OK",
+      "ConfigManagerErrorCode": 0
+    }
+  ],
+  "Logs": [
+    {
+      "Name": "Install AMD DVR64 2026_10_17_15.49.02.log",
+      "Length": 458578,
+      "LastWriteTime": "2026-10-17T15:49:03.5413178+08:00"
+    },
+    {
+      "Name": "Install AMD Settings 2026_10_17_15.48.54.log",
+      "Length": 5264250,
+      "LastWriteTime": "2026-10-17T15:49:01.2514608+08:00"
+    },
+    {
+      "Name": "Install Branding64 2026_10_17_15.49.01.log",
+      "Length": 335976,
+      "LastWriteTime": "2026-10-17T15:49:02.3819137+08:00"
+    },
+    {
+      "Name": "Install.log",
+      "Length": 0,
+      "LastWriteTime": "2026-10-17T15:47:08.7089535+08:00"
+    },
+    {
+      "Name": "SetupCD.txt",
+      "Length": 571,
+      "LastWriteTime": "2026-10-17T15:47:08.6163479+08:00"
+    },
+    {
+      "Name": "Uninstall AMD DVR64 1.0.2 2026_10_17_15.47.42.log",
+      "Length": 353016,
+      "LastWriteTime": "2026-10-17T15:47:58.8408288+08:00"
+    },
+    {
+      "Name": "Uninstall AMD Settings 2022.0428.0341.6645 2026_10_17_15.47.40.log",
+      "Length": 1505530,
+      "LastWriteTime": "2026-10-17T15:47:42.7506905+08:00"
+    },
+    {
+      "Name": "Uninstall Branding64 1.00.0009 2026_10_17_15.47.40.log",
+      "Length": 284506,
+      "LastWriteTime": "2026-10-17T15:47:40.6016463+08:00"
+    },
+    {
+      "Name": "report.xml",
+      "Length": 4327,
+      "LastWriteTime": "2026-10-17T15:49:04.132303+08:00"
+    },
+    {
+      "Name": "report.xml.2026_10_17_15.49.04.xml",
+      "Length": 4327,
+      "LastWriteTime": "2026-10-17T15:49:04.132303+08:00"
+    },
+    {
+      "Name": "report.xml.xsl",
+      "Length": 7583,
+      "LastWriteTime": "2026-10-17T15:49:04.1324426+08:00"
+    }
+  ]
+}
