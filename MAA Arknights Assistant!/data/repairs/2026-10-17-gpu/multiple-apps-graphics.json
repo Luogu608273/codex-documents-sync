@@ -1,0 +1,82 @@
+{
+  "CapturedAt": "2026-10-17T16:05:20.0294022+08:00",
+  "Memory": {
+    "TotalVisibleMemorySize": 16490652,
+    "FreePhysicalMemory": 3021596,
+    "TotalVirtualMemorySize": 23221464,
+    "FreeVirtualMemory": 2696544,
+    "LastBootUpTime": "2026-10-17T13:56:50.97249+08:00"
+  },
+  "PageFiles": [
+    {
+      "Name": "C:\\pagefile.sys",
+      "AllocatedBaseSize": 6573,
+      "CurrentUsage": 52,
+      "PeakUsage": 861
+    }
+  ],
+  "Graphics": [
+    {
+      "Name": "Intel(R) UHD Graphics 770",
+      "DriverVersion": "31.0.101.3678",
+      "AdapterRAM": 1073741824,
+      "Status": "OK",
+      "ConfigManagerErrorCode": 0,
+      "VideoModeDescription": null
+    },
+    {
+      "Name": "Radeon RX550/550 Series",
+      "DriverVersion": "31.0.21925.1001",
+      "AdapterRAM": 4293918720,
+      "Status": "OK",
+      "ConfigManagerErrorCode": 0,
+      "VideoModeDescription": "1920 x 1080 x 4294967296 种颜色"
+    }
+  ],
+  "SystemErrors": [],
+  "AppErrors": [],
+  "MuMuProcesses": [
+    {
+      "Name": "RadeonSoftware.exe",
+      "ProcessId": 24368,
+      "ExecutablePath": "C:\\Program Files\\AMD\\CNext\\CNext\\Radeonsoftware.exe",
+      "CreationDate": "2026-10-17T15:58:07.25609+08:00"
+    },
+    {
+      "Name": "AMDRSServ.exe",
+      "ProcessId": 172,
+      "ExecutablePath": null,
+      "CreationDate": "2026-10-17T15:58:15.59956+08:00"
+    },
+    {
+      "Name": "MuMuPlayerService.exe",
+      "ProcessId": 21836,
+      "ExecutablePath": "C:\\Program Files\\YXArkNights-12.0\\shell\\MuMuPlayerService.exe",
+      "CreationDate": "2026-10-17T15:59:23.12095+08:00"
+    },
+    {
+      "Name": "MuMuPlayer.exe",
+      "ProcessId": 18832,
+      "ExecutablePath": "C:\\Program Files\\YXArkNights-12.0\\shell\\MuMuPlayer.exe",
+      "CreationDate": "2026-10-17T16:01:07.578533+08:00"
+    },
+    {
+      "Name": "MuMuVMMSVC.exe",
+      "ProcessId": 14052,
+      "ExecutablePath": "C:\\Program Files\\MuMuVMMVbox\\Hypervisor\\MuMuVMMSVC.exe",
+      "CreationDate": "2026-10-17T16:01:08.202828+08:00"
+    },
+    {
+      "Name": "MuMuVMMHeadless.exe",
+      "ProcessId": 11468,
+      "ExecutablePath": "C:\\Program Files\\MuMuVMMVbox\\Hypervisor\\MuMuVMMHeadless.exe",
+      "CreationDate": "2026-10-17T16:01:08.328659+08:00"
+    },
+    {
+      "Name": "AMDRSSrcExt.exe",
+      "ProcessId": 22708,
+      "ExecutablePath": "C:\\Program Files\\AMD\\CNext\\CNext\\AMDRSSrcExt.exe",
+      "CreationDate": "2026-10-17T16:03:17.493422+08:00"
+    }
+  ]
+}

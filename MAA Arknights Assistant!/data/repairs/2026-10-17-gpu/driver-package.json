@@ -1,4 +1,4 @@
-{
+﻿{
   "SourcePage": "https://www.amd.com/en/support/downloads/drivers.html/graphics/radeon-600-500-400/radeon-rx-500-series/radeon-rx-550.html",
   "ReleaseNotes": "https://www.amd.com/en/resources/support-articles/release-notes/RN-RAD-WIN-26-5-2-POLARIS-VEGA.html",
   "DownloadUrl": "https://drivers.amd.com/drivers/whql-amd-software-adrenalin-edition-26.5.2-win11-may-vega-polaris.exe",
@@ -10,5 +10,55 @@
   "SignatureStatus": "Valid",
   "SignatureMessage": "Signature verified.",
   "Signer": "CN=Advanced Micro Devices, O=Advanced Micro Devices, S=California, C=US",
-  "Installed": false
+  "Installed": true,
+  "ObservedDriverVersion": "31.0.21925.1001",
+  "ObservedDeviceStatus": "OK, ConfigManagerErrorCode=0",
+  "InstallerUiHung": true,
+  "InstallerActivityUnchangedForSeconds": 34.168,
+  "LastMsiTransactionEnded": "2026-10-17 15:49:03",
+  "RebootAndMaaFixVerified": false,
+  "InstallPackages": [
+    {
+      "description": "AMD Display Driver",
+      "result": "Succeed",
+      "version": "31.0.21925.1001",
+      "message": "0x000000 "
+    },
+    {
+      "description": "AMD HDMI Audio Driver",
+      "result": "Succeed",
+      "version": "10.0.1.30",
+      "message": "0x000000 "
+    },
+    {
+      "description": "AMD Streaming Audio Filter Driver",
+      "result": "Succeed",
+      "version": "1.0.0.9",
+      "message": "0x000000 "
+    },
+    {
+      "description": "AMD Settings",
+      "result": "Succeed",
+      "version": "2026.0423.1222.1996",
+      "message": "0x000000 "
+    },
+    {
+      "description": "Branding64",
+      "result": "Succeed",
+      "version": "1.00.0009",
+      "message": "0x000000 "
+    },
+    {
+      "description": "AMD DVR64",
+      "result": "Succeed",
+      "version": "2026.0423.1221.1996",
+      "message": "0x000000 "
+    },
+    {
+      "description": "AMD User Experience Program Installer",
+      "result": "Succeed",
+      "version": "2319.25.01.423",
+      "message": "0x000000 "
+    }
+  ]
 }

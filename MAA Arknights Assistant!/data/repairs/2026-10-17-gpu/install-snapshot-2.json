@@ -1,0 +1,35 @@
+{
+  "CapturedAt": "2026-10-17T15:52:47.6028131+08:00",
+  "Process": [
+    {
+      "ProcessId": 22880,
+      "CreationDate": "2026-10-17T15:47:08.613628+08:00",
+      "KernelModeTime": 30156250,
+      "UserModeTime": 30625000,
+      "ReadTransferCount": 1723299113,
+      "WriteTransferCount": 1694010624
+    }
+  ],
+  "InstallerTree": [
+    {
+      "Name": "AMDSoftwareInstaller.exe",
+      "ProcessId": 22880,
+      "ParentProcessId": 1044
+    }
+  ],
+  "OtherInstallProcesses": [
+    {
+      "Name": "msiexec.exe",
+      "ProcessId": 10576,
+      "CreationDate": "2026-10-17T15:47:35.182373+08:00"
+    }
+  ],
+  "Report": {
+    "Length": 4327,
+    "LastWriteTime": "2026-10-17T15:49:04.132303+08:00"
+  },
+  "SetupApiLog": {
+    "Length": 346919,
+    "LastWriteTime": "2026-10-17T15:48:55.6881304+08:00"
+  }
+}

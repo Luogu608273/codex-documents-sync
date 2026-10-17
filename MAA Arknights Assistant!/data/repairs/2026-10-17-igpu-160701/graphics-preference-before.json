@@ -1,0 +1,26 @@
+{
+  "CapturedAt": "2026-10-17T16:07:01.3084148+08:00",
+  "SubKey": "Software\\Microsoft\\DirectX\\UserGpuPreferences",
+  "Entries": [
+    {
+      "Executable": "C:\\Program Files\\YXArkNights-12.0\\shell\\MuMuPlayer.exe",
+      "Existed": false,
+      "Value": null,
+      "Kind": null
+    },
+    {
+      "Executable": "C:\\Program Files\\MuMuVMMVbox\\Hypervisor\\MuMuVMMHeadless.exe",
+      "Existed": false,
+      "Value": null,
+      "Kind": null
+    },
+    {
+      "Executable": "D:\\MAA-Arknights-Assistant\\MAA.exe",
+      "Existed": false,
+      "Value": null,
+      "Kind": null
+    }
+  ],
+  "Purpose": "Temporary per-application preference for power-saving/integrated GPU; actual adapter selection must be verified in emulator logs",
+  "Applied": true
+}

@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="Report.xml.xsl"?>
+<monetreport xmlns:dt="urn:schemas-microsoft-com:datatypes">
+	<general>
+		<cmdline> </cmdline>
+		<time>2026Äê10ÔÂ17ÈÕ 15:49:04</time>
+		<action>install</action>
+		<download></download>
+	</general>
+	<dcm>
+		<device>
+			<name></name>
+			<manufacture>Advanced Micro Devices, Inc.</manufacture>
+			<chiptype></chiptype>
+			<chipid>0xAAE0 </chipid>
+			<vendorid>0x1002 </vendorid>
+			<ssid>0xAAE0 </ssid>
+			<ssvid>0x1002 </ssvid>
+			<classcode>0x040300 </classcode>
+			<revisionid>0x00 </revisionid>
+		</device>
+		<primary>
+			<name>Radeon RX550/550 Series</name>
+			<manufacture>Advanced Micro Devices, Inc.</manufacture>
+			<chiptype></chiptype>
+			<chipid>0x699F </chipid>
+			<vendorid>0x1002 </vendorid>
+			<ssid>0x0000 </ssid>
+			<ssvid>0x1002 </ssvid>
+			<classcode>0x030000 </classcode>
+			<revisionid>0xC7 </revisionid>
+		</primary>
+		<device>
+			<name></name>
+			<manufacture>Advanced Micro Devices, Inc.</manufacture>
+			<chiptype></chiptype>
+			<chipid>0xAA01 </chipid>
+			<vendorid>0x1002 </vendorid>
+			<ssid>0x00AA </ssid>
+			<ssvid>0x0100 </ssvid>
+			<classcode>0x000000 </classcode>
+			<revisionid>0x1007 </revisionid>
+		</device>
+	</dcm>
+	<exist>
+	</exist>
+	<install>
+		<package>
+			<description>AMD Display Driver</description>
+			<result>Succeed</result>
+			<message>0x000000 </message>
+			<version>31.0.21925.1001</version>
+			<size>90 </size>
+		</package>
+		<package>
+			<description>AMD HDMI Audio Driver</description>
+			<result>Succeed</result>
+			<message>0x000000 </message>
+			<version>10.0.1.30</version>
+			<size>1 </size>
+		</package>
+		<package>
+			<description>AMD Streaming Audio Filter Driver</description>
+			<result>Succeed</result>
+			<message>0x000000 </message>
+			<version>1.0.0.9</version>
+			<size>1 </size>
+		</package>
+		<package>
+			<description>AMD Settings</description>
+			<result>Succeed</result>
+			<message>0x000000 </message>
+			<version>2026.0423.1222.1996</version>
+			<size>150 </size>
+		</package>
+		<package>
+			<description>Branding64</description>
+			<result>Succeed</result>
+			<message>0x000000 </message>
+			<version>1.00.0009</version>
+			<size>1 </size>
+		</package>
+		<package>
+			<description>AMD DVR64</description>
+			<result>Succeed</result>
+			<message>0x000000 </message>
+			<version>2026.0423.1221.1996</version>
+			<size>32 </size>
+		</package>
+		<package>
+			<description>AMD User Experience Program Installer</description>
+			<result>Succeed</result>
+			<message>0x000000 </message>
+			<version>2319.25.01.423</version>
+			<size>20 </size>
+		</package>
+	</install>
+	<uninstall>
+		<package>
+			<description>Branding64</description>
+			<result>Succeed</result>
+			<message>0x000000 </message>
+			<version>1.00.0009</version>
+			<size>1 </size>
+		</package>
+		<package>
+			<description>AMD Settings</description>
+			<result>Succeed</result>
+			<message>0x000000 </message>
+			<version>2022.0428.0341.6645</version>
+			<size>110 </size>
+		</package>
+		<package>
+			<description>AMD DVR64</description>
+			<result>Succeed</result>
+			<message>0x000000 </message>
+			<version>1.0.2</version>
+			<size>43 </size>
+		</package>
+	</uninstall>
+	<resource>
+		<hwinfo>Hardware information</hwinfo>
+		<existpkg>Existing packages</existpkg>
+		<pkg2inst>Packages for install</pkg2inst>
+		<pkg2uninst>Packages for uninstall</pkg2uninst>
+		<otherdev>Other detected devices</otherdev>
+		<errmsg>Error messages</errmsg>
+		<debugmessage>Error Description</debugmessage>
+		<name>Name</name>
+		<manufacture>Manufacturer</manufacture>
+		<chiptype>Chip type</chiptype>
+		<chipid>Device ID</chipid>
+		<otherhw>Other hardware</otherhw>
+		<DownloadFailed>Download Failed</DownloadFailed>
+		<succeed>Success</succeed>
+		<fail>Failed</fail>
+		<vendorid>Vendor ID</vendorid>
+		<classcode>Class Code</classcode>
+		<revisionid>Revision ID</revisionid>
+		<ssid>Subsystem ID</ssid>
+		<ssvid>Subsystem vendor ID</ssvid>
+		<header1>Install Manager</header1>
+		<header2>Installation Report</header2>
+		<finalstatus>Final Status:</finalstatus>
+		<versionofitem>Version of Item:</versionofitem>
+		<size>Size:</size>
+		<bytes>Mbytes</bytes>
+	</resource>
+</monetreport>

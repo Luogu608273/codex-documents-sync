@@ -1,0 +1,27 @@
+{
+  "CapturedAt": "2026-10-17T16:26:52.4729745+08:00",
+  "RestartTriggered": false,
+  "RestoreSoftware": {
+    "Product": "远志易航超霸网络还原系统软件 豪华版V6.0",
+    "Version": "6.0.022(W970)",
+    "ActiveProtectedVolumes": "未能确认",
+    "NextBootRestorePolicy": "未能确认",
+    "BundledManual": "C:/Program Files (x86)/GZYZ/YZchaoba/Help/help.pdf",
+    "ManualPolicyPages": [
+      23,
+      56
+    ]
+  },
+  "AdditionalLoadedFilter": "Shadow Defender diskpt 1.4.0.665; 安装包显示1.4.0.668，加载不代表当前已进入影子模式",
+  "CurrentAMD": {
+    "Version": "31.0.21925.1001",
+    "Inf": "oem46.inf",
+    "InstalledOn": "2026-10-17",
+    "DriverStoreOn": "C:"
+  },
+  "AMDObservedBeforeUpdate": "30.0.15021.11005",
+  "Conclusion": "如果下次启动把C盘还原到安装前的还原点，驱动安装及C盘新增文件通常一起撤销；不能从产品已安装或过滤驱动正在运行断言必定还原。",
+  "ProjectOnC": "C:\\Users\\605\\Documents\\Codex\\MAA Arknights Assistant!",
+  "BackupWarning": "C盘项目、安装包、排查记录也可能被还原；D/E是否受保护未知，不应默认安全。",
+  "OnsetAssessment": "新驱动安装前已出现故障。现存设备安装日志未见故障前的AMD驱动安装记录。长期稳定使用的旧驱动不能据此认定为根因；运行时异常、软件变化、散热/硬件等仍需区分。"
+}
