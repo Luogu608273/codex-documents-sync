@@ -1,8 +1,13 @@
 {
-  "Applied": false,
+  "Applied": true,
   "Candidate": "CHANGELOG.link-only.md",
   "Replacements": 114,
   "OriginalSHA256": "9E2924248360A61545417D8F89D6CB5B4E906B1A5690F58B1C6020A8E9F19F09",
   "CandidateSHA256": "3D5F14C257181F520EC3386EE3D91F3007D0D409AE42E11F6A9CC673855622A6",
-  "Purpose": "仅将贡献者名称预先写成链接，避免展示时插入头像；尚未应用，不能认定有效"
+  "Purpose": "将贡献者名称预先写成链接，跳过自动头像插入及头像昵称组合排版；仅改日志缓存",
+  "AppliedAt": "2026-10-17T16:45:09.8653589+08:00",
+  "MAAValidation": "用户手动打开更新日志，确认能正常打开、不再报错",
+  "VerifiedAt": "2026-10-17T16:46:30.1287883+08:00",
+  "VerificationScope": "更新日志单次打开成功；模拟器随机异常和整机花屏未确认修复",
+  "LatestMAACrashRecordId": 3866
 }

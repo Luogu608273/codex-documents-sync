@@ -1,0 +1,1277 @@
+[
+  {
+    "ModuleName": "MAA.exe",
+    "FileName": "D:\\MAA-Arknights-Assistant\\MAA.exe",
+    "Version": "6.19.0"
+  },
+  {
+    "ModuleName": "ntdll.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\ntdll.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "KERNEL32.DLL",
+    "FileName": "C:\\windows\\System32\\KERNEL32.DLL",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "KERNELBASE.dll",
+    "FileName": "C:\\windows\\System32\\KERNELBASE.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "USER32.dll",
+    "FileName": "C:\\windows\\System32\\USER32.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "win32u.dll",
+    "FileName": "C:\\windows\\System32\\win32u.dll",
+    "Version": "10.0.19041.4529 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "GDI32.dll",
+    "FileName": "C:\\windows\\System32\\GDI32.dll",
+    "Version": "10.0.19041.4474 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "gdi32full.dll",
+    "FileName": "C:\\windows\\System32\\gdi32full.dll",
+    "Version": "10.0.19041.4474 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "msvcp_win.dll",
+    "FileName": "C:\\windows\\System32\\msvcp_win.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "ucrtbase.dll",
+    "FileName": "C:\\windows\\System32\\ucrtbase.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "SHELL32.dll",
+    "FileName": "C:\\windows\\System32\\SHELL32.dll",
+    "Version": "10.0.19041.4123 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "IMM32.DLL",
+    "FileName": "C:\\windows\\System32\\IMM32.DLL",
+    "Version": "10.0.19041.4474 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "hostfxr.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\hostfxr.dll",
+    "Version": "0,0,0,0 @Commit: 8f030f80c0dd2722eb2f618984e9db6784765963"
+  },
+  {
+    "ModuleName": "ADVAPI32.dll",
+    "FileName": "C:\\windows\\System32\\ADVAPI32.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "msvcrt.dll",
+    "FileName": "C:\\windows\\System32\\msvcrt.dll",
+    "Version": "7.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "sechost.dll",
+    "FileName": "C:\\windows\\System32\\sechost.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "RPCRT4.dll",
+    "FileName": "C:\\windows\\System32\\RPCRT4.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "bcrypt.dll",
+    "FileName": "C:\\windows\\System32\\bcrypt.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "shcore.dll",
+    "FileName": "C:\\windows\\System32\\shcore.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "combase.dll",
+    "FileName": "C:\\windows\\System32\\combase.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "hostpolicy.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\hostpolicy.dll",
+    "Version": "10,0,1026,32716 @Commit: f7d90799ce4ef09a0bb257852a57248d2a8fb8dd"
+  },
+  {
+    "ModuleName": "coreclr.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\coreclr.dll",
+    "Version": "10,0,1026,32716 @Commit: f7d90799ce4ef09a0bb257852a57248d2a8fb8dd"
+  },
+  {
+    "ModuleName": "ole32.dll",
+    "FileName": "C:\\windows\\System32\\ole32.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "OLEAUT32.dll",
+    "FileName": "C:\\windows\\System32\\OLEAUT32.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "bcryptPrimitives.dll",
+    "FileName": "C:\\windows\\System32\\bcryptPrimitives.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "kernel.appcore.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\kernel.appcore.dll",
+    "Version": "10.0.19041.3758 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "System.Private.CoreLib.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Private.CoreLib.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "MAA.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\MAA.dll",
+    "Version": "6.19.0"
+  },
+  {
+    "ModuleName": "PresentationFramework.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\PresentationFramework.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "WindowsBase.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\WindowsBase.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Runtime.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Runtime.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Xaml.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Xaml.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "uxtheme.dll",
+    "FileName": "C:\\windows\\system32\\uxtheme.dll",
+    "Version": "10.0.19041.4529 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "libloader.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\libloader.dll",
+    "Version": "1.3.0.0"
+  },
+  {
+    "ModuleName": "clrjit.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\clrjit.dll",
+    "Version": "10,0,1026,32716 @Commit: f7d90799ce4ef09a0bb257852a57248d2a8fb8dd"
+  },
+  {
+    "ModuleName": "System.Runtime.Loader.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Runtime.Loader.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Collections.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Collections.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.IO.Packaging.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.IO.Packaging.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Private.Uri.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Private.Uri.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "PresentationCore.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\PresentationCore.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Runtime.InteropServices.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Runtime.InteropServices.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "Microsoft.Win32.Primitives.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\Microsoft.Win32.Primitives.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "dwrite.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\dwrite.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "DirectWriteForwarder.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\DirectWriteForwarder.dll",
+    "Version": "10,0,1026,32716 @Commit: f7d90799ce4ef09a0bb257852a57248d2a8fb8dd"
+  },
+  {
+    "ModuleName": "System.Runtime.Extensions.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Runtime.Extensions.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Diagnostics.Debug.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Diagnostics.Debug.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Runtime.CompilerServices.VisualC.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Runtime.CompilerServices.VisualC.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Threading.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Threading.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Collections.NonGeneric.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Collections.NonGeneric.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "icu.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\icu.dll",
+    "Version": "64, 2, 0, 0 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "Microsoft.Win32.Registry.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\Microsoft.Win32.Registry.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Collections.Specialized.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Collections.Specialized.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Memory.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Memory.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.ComponentModel.Primitives.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.ComponentModel.Primitives.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Threading.Thread.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Threading.Thread.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "PresentationNative_cor3.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\PresentationNative_cor3.dll",
+    "Version": "10,0,526,30904 @Commit: 04026f6c3ec4ecff7147b72a99f0162d76b5e76c"
+  },
+  {
+    "ModuleName": "System.Configuration.ConfigurationManager.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Configuration.ConfigurationManager.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Xml.ReaderWriter.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Xml.ReaderWriter.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Private.Xml.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Private.Xml.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Net.WebClient.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Net.WebClient.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Text.Encoding.Extensions.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Text.Encoding.Extensions.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Threading.ThreadPool.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Threading.ThreadPool.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.IO.FileSystem.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.IO.FileSystem.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Diagnostics.TraceSource.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Diagnostics.TraceSource.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.ComponentModel.TypeConverter.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.ComponentModel.TypeConverter.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Windows.Extensions.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Windows.Extensions.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.ComponentModel.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.ComponentModel.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Collections.Concurrent.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Collections.Concurrent.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.ObjectModel.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.ObjectModel.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "clbcatq.dll",
+    "FileName": "C:\\windows\\System32\\clbcatq.dll",
+    "Version": "2001.12.10941.16384 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "Windows.UI.dll",
+    "FileName": "C:\\Windows\\System32\\Windows.UI.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "WindowManagementAPI.dll",
+    "FileName": "C:\\Windows\\System32\\WindowManagementAPI.dll",
+    "Version": null
+  },
+  {
+    "ModuleName": "TextInputFramework.dll",
+    "FileName": "C:\\Windows\\System32\\TextInputFramework.dll",
+    "Version": "10.0.19041.4474 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "InputHost.dll",
+    "FileName": "C:\\Windows\\System32\\InputHost.dll",
+    "Version": "10.0.19041.4355 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "wintypes.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\wintypes.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "CoreMessaging.dll",
+    "FileName": "C:\\Windows\\System32\\CoreMessaging.dll",
+    "Version": "10.0.19041.4355"
+  },
+  {
+    "ModuleName": "twinapi.appcore.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\twinapi.appcore.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "CoreUIComponents.dll",
+    "FileName": "C:\\Windows\\System32\\CoreUIComponents.dll",
+    "Version": "10.0.19041.3636"
+  },
+  {
+    "ModuleName": "WS2_32.dll",
+    "FileName": "C:\\windows\\System32\\WS2_32.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "PROPSYS.dll",
+    "FileName": "C:\\Windows\\System32\\PROPSYS.dll",
+    "Version": "7.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "ntmarta.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\ntmarta.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "Windows.UI.Immersive.dll",
+    "FileName": "C:\\Windows\\System32\\Windows.UI.Immersive.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "profapi.dll",
+    "FileName": "C:\\Windows\\System32\\profapi.dll",
+    "Version": "10.0.19041.4355 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "Stylet.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\Stylet.dll",
+    "Version": "1.3.7.0"
+  },
+  {
+    "ModuleName": "System.Net.Requests.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Net.Requests.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Net.Primitives.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Net.Primitives.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Net.WebHeaderCollection.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Net.WebHeaderCollection.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "HandyControl.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\HandyControl.dll",
+    "Version": "3.6.0.0"
+  },
+  {
+    "ModuleName": "Microsoft.Win32.SystemEvents.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\Microsoft.Win32.SystemEvents.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "MSCTF.dll",
+    "FileName": "C:\\windows\\System32\\MSCTF.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "System.ComponentModel.EventBasedAsync.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.ComponentModel.EventBasedAsync.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Windows.Controls.Ribbon.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Windows.Controls.Ribbon.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Linq.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Linq.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Diagnostics.Process.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Diagnostics.Process.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "PresentationFramework.Aero2.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\PresentationFramework.Aero2.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "Serilog.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\Serilog.dll",
+    "Version": "4.3.0.0"
+  },
+  {
+    "ModuleName": "Serilog.Sinks.Debug.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\Serilog.Sinks.Debug.dll",
+    "Version": "3.0.0.0"
+  },
+  {
+    "ModuleName": "Serilog.Sinks.File.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\Serilog.Sinks.File.dll",
+    "Version": "7.0.0.0"
+  },
+  {
+    "ModuleName": "Serilog.Enrichers.Thread.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\Serilog.Enrichers.Thread.dll",
+    "Version": "4.0.0.0"
+  },
+  {
+    "ModuleName": "System.Diagnostics.DiagnosticSource.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Diagnostics.DiagnosticSource.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Diagnostics.Tracing.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Diagnostics.Tracing.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Security.Principal.Windows.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Security.Principal.Windows.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Security.Claims.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Security.Claims.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "Newtonsoft.Json.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\Newtonsoft.Json.dll",
+    "Version": "13.0.4.30916"
+  },
+  {
+    "ModuleName": "System.Linq.Expressions.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Linq.Expressions.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Runtime.Serialization.Formatters.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Runtime.Serialization.Formatters.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Runtime.Serialization.Primitives.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Runtime.Serialization.Primitives.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Runtime.Numerics.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Runtime.Numerics.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Data.Common.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Data.Common.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Reflection.Emit.ILGeneration.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Reflection.Emit.ILGeneration.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Reflection.Emit.Lightweight.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Reflection.Emit.Lightweight.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Reflection.Primitives.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Reflection.Primitives.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Text.Json.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Text.Json.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Text.Encodings.Web.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Text.Encodings.Web.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Numerics.Vectors.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Numerics.Vectors.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "ObservableCollections.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\ObservableCollections.dll",
+    "Version": "3.3.4.0"
+  },
+  {
+    "ModuleName": "System.IO.Pipelines.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.IO.Pipelines.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "GlobalHotKey.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\GlobalHotKey.dll",
+    "Version": "1.1.0.0"
+  },
+  {
+    "ModuleName": "mscorlib.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\mscorlib.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Text.RegularExpressions.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Text.RegularExpressions.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Security.Cryptography.ProtectedData.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Security.Cryptography.ProtectedData.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "windows.storage.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\windows.storage.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "Wldp.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\Wldp.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "shlwapi.dll",
+    "FileName": "C:\\windows\\System32\\shlwapi.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "System.Security.Cryptography.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Security.Cryptography.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.IO.MemoryMappedFiles.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.IO.MemoryMappedFiles.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Net.Http.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Net.Http.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Drawing.Common.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Drawing.Common.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Private.Windows.GdiPlus.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Private.Windows.GdiPlus.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Private.Windows.Core.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Private.Windows.Core.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Drawing.Primitives.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Drawing.Primitives.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "MaaCore.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\MaaCore.dll",
+    "Version": null
+  },
+  {
+    "ModuleName": "MaaUtils.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\MaaUtils.dll",
+    "Version": null
+  },
+  {
+    "ModuleName": "fastdeploy_ppocr_maa.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\fastdeploy_ppocr_maa.dll",
+    "Version": null
+  },
+  {
+    "ModuleName": "CFGMGR32.dll",
+    "FileName": "C:\\windows\\System32\\CFGMGR32.dll",
+    "Version": "10.0.19041.3996 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "dxgi.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\dxgi.dll",
+    "Version": "10.0.19041.4355 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "MSVCP140.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\MSVCP140.dll",
+    "Version": "14.50.35719.0"
+  },
+  {
+    "ModuleName": "VCRUNTIME140.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\VCRUNTIME140.dll",
+    "Version": "14.50.35719.0"
+  },
+  {
+    "ModuleName": "VCRUNTIME140_1.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\VCRUNTIME140_1.dll",
+    "Version": "14.50.35719.0"
+  },
+  {
+    "ModuleName": "d3d12.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\d3d12.dll",
+    "Version": "10.0.19041.4355 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "opencv_world4_maa.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\opencv_world4_maa.dll",
+    "Version": "4.12.0"
+  },
+  {
+    "ModuleName": "CONCRT140.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\CONCRT140.dll",
+    "Version": "14.50.35719.0"
+  },
+  {
+    "ModuleName": "onnxruntime_maa.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\onnxruntime_maa.dll",
+    "Version": "ORT_VERSION"
+  },
+  {
+    "ModuleName": "dbghelp.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\dbghelp.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "MSVCP140_1.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\MSVCP140_1.dll",
+    "Version": "14.50.35719.0"
+  },
+  {
+    "ModuleName": "DirectML.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\DirectML.dll",
+    "Version": "1.15.4+241025-1615.1.dml-1.15.fac7597"
+  },
+  {
+    "ModuleName": "System.Net.WebProxy.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Net.WebProxy.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Net.Security.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Net.Security.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "taskschd.dll",
+    "FileName": "C:\\Windows\\System32\\taskschd.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "SspiCli.dll",
+    "FileName": "C:\\Windows\\System32\\SspiCli.dll",
+    "Version": "10.0.19041.4239 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "crypt32.dll",
+    "FileName": "C:\\windows\\System32\\crypt32.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "DPAPI.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\DPAPI.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "CRYPTBASE.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\CRYPTBASE.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "Semver.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\Semver.dll",
+    "Version": "3.0.0.0"
+  },
+  {
+    "ModuleName": "Microsoft.Extensions.Primitives.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\Microsoft.Extensions.Primitives.dll",
+    "Version": "5.0.521.16609"
+  },
+  {
+    "ModuleName": "urlmon.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\urlmon.dll",
+    "Version": "11.00.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "netutils.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\netutils.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "srvcli.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\srvcli.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "iertutil.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\iertutil.dll",
+    "Version": "11.00.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "wpfgfx_cor3.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\wpfgfx_cor3.dll",
+    "Version": "10,0,1026,32716 @Commit: f7d90799ce4ef09a0bb257852a57248d2a8fb8dd"
+  },
+  {
+    "ModuleName": "D3DCompiler_47_cor3.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\D3DCompiler_47_cor3.dll",
+    "Version": "10.0.26100.7705 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "WindowsCodecs.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\WindowsCodecs.dll",
+    "Version": "10.0.19041.4355 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "DWMAPI.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\DWMAPI.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "d3d9.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\d3d9.dll",
+    "Version": "10.0.19041.4355 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "dxcore.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\dxcore.dll",
+    "Version": "10.0.19041.4474 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "D3D12Core.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\D3D12Core.dll",
+    "Version": "10.0.19041.4355 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "version.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\version.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "SETUPAPI.dll",
+    "FileName": "C:\\windows\\System32\\SETUPAPI.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "DEVOBJ.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\DEVOBJ.dll",
+    "Version": "10.0.19041.4355 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "WINTRUST.dll",
+    "FileName": "C:\\windows\\System32\\WINTRUST.dll",
+    "Version": "10.0.19041.4529 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "MSASN1.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\MSASN1.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "igc64.dll",
+    "FileName": "C:\\windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_b0cddc55fbca74bd\\igc64.dll",
+    "Version": "31.0.101.3678"
+  },
+  {
+    "ModuleName": "D3DSCache.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\D3DSCache.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "USERENV.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\USERENV.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "igd12dxva64.dll",
+    "FileName": "C:\\windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_b0cddc55fbca74bd\\igd12dxva64.dll",
+    "Version": "31.0.101.3678"
+  },
+  {
+    "ModuleName": "System.Runtime.Intrinsics.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Runtime.Intrinsics.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "UIAutomationTypes.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\UIAutomationTypes.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "wtsapi32.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\wtsapi32.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "WINSTA.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\WINSTA.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "powrprof.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\powrprof.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "UMPDC.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\UMPDC.dll",
+    "Version": null
+  },
+  {
+    "ModuleName": "dataexchange.dll",
+    "FileName": "C:\\windows\\system32\\dataexchange.dll",
+    "Version": "10.0.19041.4355 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "d3d11.dll",
+    "FileName": "C:\\windows\\system32\\d3d11.dll",
+    "Version": "10.0.19041.4355 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "dcomp.dll",
+    "FileName": "C:\\windows\\system32\\dcomp.dll",
+    "Version": "10.0.19041.4355 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "System.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Core.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Core.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "WindowsFormsIntegration.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\WindowsFormsIntegration.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "CalcBinding.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\CalcBinding.dll",
+    "Version": "2.5.2.0"
+  },
+  {
+    "ModuleName": "DynamicExpresso.Core.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\DynamicExpresso.Core.dll",
+    "Version": "2.3.1.0"
+  },
+  {
+    "ModuleName": "netstandard.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\netstandard.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "PresentationFramework.resources.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\locales\\zh-Hans\\PresentationFramework.resources.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "PresentationFramework-SystemXml.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\PresentationFramework-SystemXml.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "PresentationCore.resources.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\locales\\zh-Hans\\PresentationCore.resources.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "d3d9on12.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\d3d9on12.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "igd12umd64.dll",
+    "FileName": "C:\\windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_b0cddc55fbca74bd\\igd12umd64.dll",
+    "Version": "31.0.101.3678"
+  },
+  {
+    "ModuleName": "igd12um64xel.dll",
+    "FileName": "C:\\windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_b0cddc55fbca74bd\\igd12um64xel.dll",
+    "Version": "31.0.101.3678"
+  },
+  {
+    "ModuleName": "igdgmm64.dll",
+    "FileName": "C:\\windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_b0cddc55fbca74bd\\igdgmm64.dll",
+    "Version": "31.0.101.3678"
+  },
+  {
+    "ModuleName": "ControlLib.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\ControlLib.dll",
+    "Version": "1.0.111"
+  },
+  {
+    "ModuleName": "IntelControlLib.dll",
+    "FileName": "C:\\windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_b0cddc55fbca74bd\\IntelControlLib.dll",
+    "Version": "1.0.111"
+  },
+  {
+    "ModuleName": "igdinfo64.dll",
+    "FileName": "C:\\windows\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_b0cddc55fbca74bd\\igdinfo64.dll",
+    "Version": null
+  },
+  {
+    "ModuleName": "TextShaping.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\TextShaping.dll",
+    "Version": null
+  },
+  {
+    "ModuleName": "UIAutomationProvider.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\UIAutomationProvider.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "PresentationFramework-SystemData.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\PresentationFramework-SystemData.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "aticfx64.dll",
+    "FileName": "C:\\windows\\System32\\DriverStore\\FileRepository\\u0201039.inf_amd64_89c3272f19eab06b\\B025980\\aticfx64.dll",
+    "Version": "8.17.10.1700"
+  },
+  {
+    "ModuleName": "WINMM.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\WINMM.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "Microsoft.CSharp.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\Microsoft.CSharp.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "atiu9p64.dll",
+    "FileName": "C:\\windows\\System32\\DriverStore\\FileRepository\\u0201039.inf_amd64_89c3272f19eab06b\\B025980\\atiu9p64.dll",
+    "Version": "8.14.01.6564"
+  },
+  {
+    "ModuleName": "atiumd64.dll",
+    "FileName": "C:\\windows\\System32\\DriverStore\\FileRepository\\u0201039.inf_amd64_89c3272f19eab06b\\B025980\\atiumd64.dll",
+    "Version": "9.14.10.01526"
+  },
+  {
+    "ModuleName": "dbgcore.DLL",
+    "FileName": "C:\\windows\\SYSTEM32\\dbgcore.DLL",
+    "Version": "10.0.19041.4355 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "atiumd6a.dll",
+    "FileName": "C:\\windows\\System32\\DriverStore\\FileRepository\\u0201039.inf_amd64_89c3272f19eab06b\\B025980\\atiumd6a.dll",
+    "Version": "8.14.10.0772"
+  },
+  {
+    "ModuleName": "amdihk64.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\amdihk64.dll",
+    "Version": "2,00,00,1788"
+  },
+  {
+    "ModuleName": "System.Windows.Forms.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Windows.Forms.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "winhttp.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\winhttp.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "IPHLPAPI.DLL",
+    "FileName": "C:\\windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "NSI.dll",
+    "FileName": "C:\\windows\\System32\\NSI.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "dhcpcsvc6.DLL",
+    "FileName": "C:\\windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "dhcpcsvc.DLL",
+    "FileName": "C:\\windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "System.Net.NetworkInformation.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Net.NetworkInformation.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "DNSAPI.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\DNSAPI.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "UIAutomationCore.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\UIAutomationCore.dll",
+    "Version": "7.2.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "WINNSI.DLL",
+    "FileName": "C:\\windows\\SYSTEM32\\WINNSI.DLL",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "Microsoft.Toolkit.Uwp.Notifications.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\Microsoft.Toolkit.Uwp.Notifications.dll",
+    "Version": "7.1.3.1"
+  },
+  {
+    "ModuleName": "Microsoft.Windows.SDK.NET.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\Microsoft.Windows.SDK.NET.dll",
+    "Version": "10.0.17763.55"
+  },
+  {
+    "ModuleName": "WinRT.Runtime.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\WinRT.Runtime.dll",
+    "Version": "2.2.0.48161"
+  },
+  {
+    "ModuleName": "appresolver.dll",
+    "FileName": "C:\\Windows\\System32\\appresolver.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "SLC.dll",
+    "FileName": "C:\\Windows\\System32\\SLC.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "Bcp47Langs.dll",
+    "FileName": "C:\\Windows\\System32\\Bcp47Langs.dll",
+    "Version": "10.0.19041.4355 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "sppc.dll",
+    "FileName": "C:\\Windows\\System32\\sppc.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "System.Net.Sockets.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Net.Sockets.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "mswsock.dll",
+    "FileName": "C:\\windows\\system32\\mswsock.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "wshunix.dll",
+    "FileName": "C:\\windows\\system32\\wshunix.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "System.Threading.Overlapped.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Threading.Overlapped.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "IconCodecService.dll",
+    "FileName": "C:\\windows\\system32\\IconCodecService.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "System.Net.NameResolution.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Net.NameResolution.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "gdiplus.dll",
+    "FileName": "C:\\windows\\WinSxS\\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.19041.4355_none_91a3acd0cc88a7e4\\gdiplus.dll",
+    "Version": "10.0.19041.4355 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "System.Security.Cryptography.Algorithms.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Security.Cryptography.Algorithms.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Security.Cryptography.Primitives.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Security.Cryptography.Primitives.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.Reflection.Emit.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Reflection.Emit.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "schannel.DLL",
+    "FileName": "C:\\windows\\system32\\schannel.DLL",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "wpnapps.dll",
+    "FileName": "C:\\Windows\\System32\\wpnapps.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "RMCLIENT.dll",
+    "FileName": "C:\\Windows\\System32\\RMCLIENT.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "XmlLite.dll",
+    "FileName": "C:\\Windows\\System32\\XmlLite.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "usermgrcli.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\usermgrcli.dll",
+    "Version": "10.0.19041.4355 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "OneCoreUAPCommonProxyStub.dll",
+    "FileName": "C:\\Windows\\System32\\OneCoreUAPCommonProxyStub.dll",
+    "Version": "10.0.19041.4474 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "dxva2.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\dxva2.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "GongSolutions.WPF.DragDrop.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\GongSolutions.WPF.DragDrop.dll",
+    "Version": "4.0.0.0"
+  },
+  {
+    "ModuleName": "mskeyprotect.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\mskeyprotect.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "NTASN1.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\NTASN1.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "ncrypt.dll",
+    "FileName": "C:\\windows\\SYSTEM32\\ncrypt.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "ncryptsslp.dll",
+    "FileName": "C:\\windows\\system32\\ncryptsslp.dll",
+    "Version": "10.0.19041.3636 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "System.Threading.Channels.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Threading.Channels.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "msctfui.dll",
+    "FileName": "C:\\windows\\system32\\msctfui.dll",
+    "Version": "10.0.19041.1 (WinBuild.160101.0800)"
+  },
+  {
+    "ModuleName": "System.Windows.Forms.Primitives.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.Windows.Forms.Primitives.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.IO.Compression.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.IO.Compression.dll",
+    "Version": "10.0.1026.32716"
+  },
+  {
+    "ModuleName": "System.IO.Compression.Native.dll",
+    "FileName": "D:\\MAA-Arknights-Assistant\\externals\\System.IO.Compression.Native.dll",
+    "Version": "10,0,1026,32716 @Commit: f7d90799ce4ef09a0bb257852a57248d2a8fb8dd"
+  }
+]

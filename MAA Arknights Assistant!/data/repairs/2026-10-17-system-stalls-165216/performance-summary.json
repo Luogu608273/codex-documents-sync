@@ -1,0 +1,134 @@
+[
+  {
+    "Counter": "\\\\jss-studetn29\\memory\\% committed bytes in use",
+    "Average": 85.087376,
+    "Maximum": 85.688287,
+    "Minimum": 84.627322
+  },
+  {
+    "Counter": "\\\\jss-studetn29\\memory\\available mbytes",
+    "Average": 2822.066667,
+    "Maximum": 2914.0,
+    "Minimum": 2721.0
+  },
+  {
+    "Counter": "\\\\jss-studetn29\\memory\\pages input/sec",
+    "Average": 20245.052328,
+    "Maximum": 124466.211401,
+    "Minimum": 0.0
+  },
+  {
+    "Counter": "\\\\jss-studetn29\\physicaldisk(_total)\\avg. disk sec/read",
+    "Average": 0.000655,
+    "Maximum": 0.005032,
+    "Minimum": 0.0
+  },
+  {
+    "Counter": "\\\\jss-studetn29\\physicaldisk(_total)\\avg. disk sec/write",
+    "Average": 0.006282,
+    "Maximum": 0.010807,
+    "Minimum": 0.000324
+  },
+  {
+    "Counter": "\\\\jss-studetn29\\physicaldisk(_total)\\current disk queue length",
+    "Average": 0.066667,
+    "Maximum": 1.0,
+    "Minimum": 0.0
+  },
+  {
+    "Counter": "\\\\jss-studetn29\\physicaldisk(_total)\\disk bytes/sec",
+    "Average": 87798488.174038,
+    "Maximum": 516677378.362986,
+    "Minimum": 1506568.580109
+  },
+  {
+    "Counter": "\\\\jss-studetn29\\physicaldisk(0 e:)\\avg. disk sec/read",
+    "Average": 0.0,
+    "Maximum": 0.0,
+    "Minimum": 0.0
+  },
+  {
+    "Counter": "\\\\jss-studetn29\\physicaldisk(0 e:)\\avg. disk sec/write",
+    "Average": 0.0,
+    "Maximum": 0.0,
+    "Minimum": 0.0
+  },
+  {
+    "Counter": "\\\\jss-studetn29\\physicaldisk(0 e:)\\current disk queue length",
+    "Average": 0.0,
+    "Maximum": 0.0,
+    "Minimum": 0.0
+  },
+  {
+    "Counter": "\\\\jss-studetn29\\physicaldisk(0 e:)\\disk bytes/sec",
+    "Average": 0.0,
+    "Maximum": 0.0,
+    "Minimum": 0.0
+  },
+  {
+    "Counter": "\\\\jss-studetn29\\physicaldisk(1 c: d:)\\avg. disk sec/read",
+    "Average": 0.000655,
+    "Maximum": 0.005032,
+    "Minimum": 0.0
+  },
+  {
+    "Counter": "\\\\jss-studetn29\\physicaldisk(1 c: d:)\\avg. disk sec/write",
+    "Average": 0.006282,
+    "Maximum": 0.010807,
+    "Minimum": 0.000324
+  },
+  {
+    "Counter": "\\\\jss-studetn29\\physicaldisk(1 c: d:)\\current disk queue length",
+    "Average": 0.066667,
+    "Maximum": 1.0,
+    "Minimum": 0.0
+  },
+  {
+    "Counter": "\\\\jss-studetn29\\physicaldisk(1 c: d:)\\disk bytes/sec",
+    "Average": 87798488.174038,
+    "Maximum": 516677378.362986,
+    "Minimum": 1506568.580109
+  },
+  {
+    "Counter": "\\\\jss-studetn29\\physicaldisk(2 g:)\\avg. disk sec/read",
+    "Average": 0.0,
+    "Maximum": 0.0,
+    "Minimum": 0.0
+  },
+  {
+    "Counter": "\\\\jss-studetn29\\physicaldisk(2 g:)\\avg. disk sec/write",
+    "Average": 0.0,
+    "Maximum": 0.0,
+    "Minimum": 0.0
+  },
+  {
+    "Counter": "\\\\jss-studetn29\\physicaldisk(2 g:)\\current disk queue length",
+    "Average": 0.0,
+    "Maximum": 0.0,
+    "Minimum": 0.0
+  },
+  {
+    "Counter": "\\\\jss-studetn29\\physicaldisk(2 g:)\\disk bytes/sec",
+    "Average": 0.0,
+    "Maximum": 0.0,
+    "Minimum": 0.0
+  },
+  {
+    "Counter": "\\\\jss-studetn29\\processor(_total)\\% dpc time",
+    "Average": 0.143099,
+    "Maximum": 0.390528,
+    "Minimum": 0.0
+  },
+  {
+    "Counter": "\\\\jss-studetn29\\processor(_total)\\% interrupt time",
+    "Average": 0.372868,
+    "Maximum": 0.585794,
+    "Minimum": 0.130164
+  },
+  {
+    "Counter": "\\\\jss-studetn29\\processor(_total)\\% processor time",
+    "Average": 23.921008,
+    "Maximum": 40.666175,
+    "Minimum": 13.833407
+  }
+]

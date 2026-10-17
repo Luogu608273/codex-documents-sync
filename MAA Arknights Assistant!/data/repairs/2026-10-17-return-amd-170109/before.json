@@ -1,0 +1,13 @@
+{
+  "CapturedAt": "2026-10-17T17:01:09.9729727+08:00",
+  "MAAExe": "D:\\MAA-Arknights-Assistant\\MAA.exe",
+  "ConfigPath": "D:/MAA-Arknights-Assistant/config/gui.new.json",
+  "Performance": {
+    "UseGpu": true,
+    "GpuDescription": "",
+    "GpuInstancePath": ""
+  },
+  "WindowsGpuPreferenceExisted": true,
+  "WindowsGpuPreference": "GpuPreference=1;",
+  "RequestedGPU": "Radeon RX550/550 Series"
+}

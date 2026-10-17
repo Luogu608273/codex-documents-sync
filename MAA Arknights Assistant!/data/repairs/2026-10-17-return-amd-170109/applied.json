@@ -1,0 +1,16 @@
+{
+  "time": "2026-10-17T17:02:07.361213+08:00",
+  "before_performance": {
+    "UseGpu": true,
+    "GpuDescription": "",
+    "GpuInstancePath": ""
+  },
+  "after_performance": {
+    "UseGpu": true,
+    "GpuDescription": "Radeon RX550/550 Series",
+    "GpuInstancePath": ""
+  },
+  "original_sha256": "7e4bf207481d5bb29b15d0600a3d46c42b13302e91c0e5729721b16fb2f79bfe",
+  "written_sha256": "d94dae848e5a09009e07fb6495a68ea19f013da8481e16ba739e58791667d65e",
+  "other_configuration_preserved": true
+}
