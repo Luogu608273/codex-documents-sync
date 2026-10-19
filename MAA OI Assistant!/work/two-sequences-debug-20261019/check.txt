@@ -1,0 +1,1 @@
+Counterexample found by exhaustive single-element enumeration a,b in [0,15]. Original boundary-expression logic: 0; brute-force: 2. Corrected boundary logic checked against brute-force on 2000 cases; LCG seed=20261019, n in [1,10], values in [0,2^28). This is a logic-level check, not a C++ executable or official judge result.
