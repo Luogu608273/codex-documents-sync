@@ -1,0 +1,134 @@
+{
+  "scraped_at_china": "2026-10-19T20:06:38+08:00",
+  "song_count": 385,
+  "unique_song_ids": 385,
+  "full_card_count": 385,
+  "site_reported_entrybms": 379,
+  "download_rows": 385,
+  "download_rows_without_song": [],
+  "song_rows_without_download_metadata": [],
+  "team_profile_count": 175,
+  "teams_with_song_records": 137,
+  "final_striker_count_from_card_marker": 97,
+  "disqualified_ids": [
+    247,
+    354,
+    355,
+    356
+  ],
+  "missing_required_fields": [],
+  "replacement_characters": [],
+  "source_field_differences": [],
+  "expected_display_differences": [
+    {
+      "id": 71,
+      "field": "team",
+      "simple": "わちゃわちゃミュージックソリューションズ株式会社",
+      "full": "わちゃわちゃミュージックソリューションズ...",
+      "reason": "Full card truncates long team heading; keep full name from simple list."
+    },
+    {
+      "id": 93,
+      "field": "team",
+      "simple": "わちゃわちゃミュージックソリューションズ株式会社",
+      "full": "わちゃわちゃミュージックソリューションズ...",
+      "reason": "Full card truncates long team heading; keep full name from simple list."
+    },
+    {
+      "id": 379,
+      "field": "team",
+      "simple": "わちゃわちゃミュージックソリューションズ株式会社",
+      "full": "わちゃわちゃミュージックソリューションズ...",
+      "reason": "Full card truncates long team heading; keep full name from simple list."
+    },
+    {
+      "id": 354,
+      "field": "title",
+      "simple": "TO LIVE OR TO DIE THATS QUESTIONS WORTH CONSIDERING (Disq)",
+      "full": "TO LIVE OR TO DIE THATS QUESTIONS WORTH CONSIDERING",
+      "reason": "Simple list appends status to title; keep title and status in separate fields."
+    },
+    {
+      "id": 355,
+      "field": "title",
+      "simple": "Test1 (Disq)",
+      "full": "Test1",
+      "reason": "Simple list appends status to title; keep title and status in separate fields."
+    },
+    {
+      "id": 356,
+      "field": "title",
+      "simple": "Test Final (Disq)",
+      "full": "Test Final",
+      "reason": "Simple list appends status to title; keep title and status in separate fields."
+    },
+    {
+      "id": 247,
+      "field": "title",
+      "simple": "TEMPUS EXiliUM (Disq)",
+      "full": "TEMPUS EXiliUM",
+      "reason": "Simple list appends status to title; keep title and status in separate fields."
+    },
+    {
+      "id": 10,
+      "field": "team",
+      "simple": "絶 狂乱木曜日のスーパーブラスト ~霸道上校が私に恋した! ~極大往生~",
+      "full": "絶 狂乱木曜日のスーパーブラスト ~霸道上...",
+      "reason": "Full card truncates long team heading; keep full name from simple list."
+    },
+    {
+      "id": 78,
+      "field": "team",
+      "simple": "絶 狂乱木曜日のスーパーブラスト ~霸道上校が私に恋した! ~極大往生~",
+      "full": "絶 狂乱木曜日のスーパーブラスト ~霸道上...",
+      "reason": "Full card truncates long team heading; keep full name from simple list."
+    },
+    {
+      "id": 86,
+      "field": "team",
+      "simple": "絶 狂乱木曜日のスーパーブラスト ~霸道上校が私に恋した! ~極大往生~",
+      "full": "絶 狂乱木曜日のスーパーブラスト ~霸道上...",
+      "reason": "Full card truncates long team heading; keep full name from simple list."
+    },
+    {
+      "id": 256,
+      "field": "team",
+      "simple": "絶 狂乱木曜日のスーパーブラスト ~霸道上校が私に恋した! ~極大往生~",
+      "full": "絶 狂乱木曜日のスーパーブラスト ~霸道上...",
+      "reason": "Full card truncates long team heading; keep full name from simple list."
+    }
+  ],
+  "layout_recoveries": [
+    {
+      "id": 356,
+      "note": "Card has no team container in HTML; team URL matched by exact simple-list team name against team profiles."
+    }
+  ],
+  "sources": {
+    "homepage": {
+      "url": "https://bmsoffighters.net/bof22/",
+      "bytes": 36233,
+      "sha256": "e814378db6602e8e188817c054c1cdada7f7e7d01617be27a92769209d160095"
+    },
+    "songs_simple": {
+      "url": "https://manbow.nothing.sh/event/event.cgi?action=sp&event=152",
+      "bytes": 133747,
+      "sha256": "864e7c45bf9f0dd636f3547f5564c147339ea51d1f9a5848298de20f0a74b69c"
+    },
+    "songs_full": {
+      "url": "https://manbow.nothing.sh/event/event.cgi?action=List_def&event=152",
+      "bytes": 1413290,
+      "sha256": "3e54f5256e0a891016ec3bf5e3ca564cb6328ad5cc017d8c818ed4bf831a959d"
+    },
+    "teams": {
+      "url": "https://manbow.nothing.sh/event/event_teamprofile.cgi?event=152",
+      "bytes": 169961,
+      "sha256": "f3bfa84833fe4713ab6ad1d4e5ab882d563aa22093728f0e6806b28efe7d428a"
+    },
+    "downloads_all": {
+      "url": "https://manbow.nothing.sh/event/event.cgi?action=URLList&event=152&end=999",
+      "bytes": 216690,
+      "sha256": "738726d3bcb204e28d6a280a2503d174301e9202572f56466a680ce4576531b8"
+    }
+  }
+}
