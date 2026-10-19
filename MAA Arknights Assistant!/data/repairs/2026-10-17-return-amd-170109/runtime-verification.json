@@ -1,0 +1,15 @@
+{
+  "VerifiedAt": "2026-10-17T17:23:26.5180706+08:00",
+  "ProcessId": 25712,
+  "ProcessStarted": "2026-10-17 17:05:35",
+  "GPU": "Radeon RX550/550 Series",
+  "AdapterLuid": "0000000004485A8E",
+  "CoreDeviceId": 0,
+  "Evidence": [
+    "[2026-10-17 17:10:39.424][INF][Px25712][Tx61137] asst::GpuDeviceSelector::resolve_device_id resolved adapter LUID 0000000004485A8E to device id 0 Radeon RX550/550 Series",
+    "[2026-10-17 17:10:39.836][INF][Px25712][Tx61137] asst::GpuDeviceSelector::resolve_device_id resolved adapter LUID 0000000004485A8E to device id 0 Radeon RX550/550 Series",
+    "[2026-10-17 17:11:47.480][INF][Px25712][Tx61137] asst::GpuDeviceSelector::resolve_device_id resolved adapter LUID 0000000004485A8E to device id 0 Radeon RX550/550 Series"
+  ],
+  "Result": "核心已在实际推理初始化时解析到 AMD RX550，已确认切换生效",
+  "TasksStartedByAssistant": false
+}

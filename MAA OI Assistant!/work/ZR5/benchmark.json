@@ -1,0 +1,65 @@
+[
+  {
+    "program": "buffer_std",
+    "case": "buffer6000equal",
+    "seconds": 0.173,
+    "input_bytes": 12007,
+    "output_lines": 1
+  },
+  {
+    "program": "buffer_std",
+    "case": "buffer6000reverse",
+    "seconds": 0.227,
+    "input_bytes": 12007,
+    "output_lines": 1
+  },
+  {
+    "program": "alphabet_std",
+    "case": "alphabetL200000",
+    "seconds": 0.025,
+    "input_bytes": 250006,
+    "output_lines": 50000
+  },
+  {
+    "program": "alphabet_std",
+    "case": "alphabetdeep",
+    "seconds": 0.028,
+    "input_bytes": 200003,
+    "output_lines": 1
+  },
+  {
+    "program": "counter_std",
+    "case": "counter200000",
+    "seconds": 0.049,
+    "input_bytes": 2977793,
+    "output_lines": 1
+  },
+  {
+    "program": "subsidy_std",
+    "case": "subsidy500000_chain",
+    "seconds": 0.556,
+    "input_bytes": 12166691,
+    "output_lines": 500000
+  },
+  {
+    "program": "subsidy_std",
+    "case": "subsidy500000_binary",
+    "seconds": 0.531,
+    "input_bytes": 12055586,
+    "output_lines": 500000
+  },
+  {
+    "program": "subsidy_std",
+    "case": "subsidy500000_star",
+    "seconds": 0.447,
+    "input_bytes": 9777801,
+    "output_lines": 500000
+  },
+  {
+    "program": "subsidy_std",
+    "case": "subsidy500000_heap",
+    "seconds": 0.216,
+    "input_bytes": 5388918,
+    "output_lines": 1
+  }
+]

@@ -12,6 +12,6 @@ Windows 界面工具未返回可操作的 MAA 窗口，因此没有进行界面�
 
 备份原值为 `before.json`，实际写入前后的设置与校验值为 `applied.json`。`select-amd.py` 包含退出检查、变更范围检查和写后校验，`--dry-run` 可只预览。
 
-配置在 MAA 下次启动生效；实际 GPU 仍需在用户手动重开 MAA 后通过日志确认。当前文档不代表已验证启动后的实际选择。
+用户手动重新打开后，MAA 进程 25712 于 17:05:35 启动。核心日志在 17:10:39 和 17:11:47 明确记录 `resolved adapter LUID 0000000004485A8E to device id 0 Radeon RX550/550 Series`，确认实际推理设备已经切回 AMD RX550。证据见 runtime-verification.json；助手未启动或操作任何作业。
 
 源码依据：https://github.com/MaaAssistantArknights/MaaAssistantArknights/blob/v6.19.0/src/MaaWpfGui/Helper/GpuOption.cs

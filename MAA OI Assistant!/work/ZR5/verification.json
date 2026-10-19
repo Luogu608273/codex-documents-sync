@@ -1,0 +1,14 @@
+{
+  "seed": 20261018,
+  "case_counts": {
+    "counter_std": 175,
+    "counter_partial": 172,
+    "buffer_std": 492,
+    "buffer_partial": 492,
+    "alphabet_std": 103,
+    "alphabet_partial": 103,
+    "subsidy_std": 203,
+    "subsidy_partial": 203
+  },
+  "elapsed_seconds": 7.271
+}
