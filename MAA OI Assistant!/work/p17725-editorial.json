@@ -1,0 +1,49 @@
+{
+  "instance": "main",
+  "template": "article.show",
+  "status": 200,
+  "locale": "zh-CN",
+  "data": {
+    "article": {
+      "lid": "yjb8trzu",
+      "title": "P17725 [SCP-S 2026] 大雨 / rain",
+      "category": 2,
+      "time": 1792253042,
+      "author": {
+        "uid": 696078,
+        "avatar": "https://cdn.luogu.com.cn/upload/usericon/696078.png",
+        "name": "_Yonder_",
+        "slogan": "Morose Dreamer",
+        "badge": null,
+        "isAdmin": false,
+        "isBanned": false,
+        "color": "Red",
+        "ccfLevel": 0,
+        "xcpcLevel": 0,
+        "background": "https://cdn.luogu.com.cn/upload/image_hosting/rk2b6ifa.png"
+      },
+      "upvote": 15,
+      "replyCount": 3,
+      "favorCount": 0,
+      "status": 2,
+      "solutionFor": {
+        "pid": "P17725",
+        "type": "P",
+        "name": "[SCP-S 2026] 大雨 / rain",
+        "difficulty": 8,
+        "fullScore": 100
+      },
+      "promoteStatus": 2,
+      "collection": null,
+      "content": "最后 10min 才会。\n\n发现问题等于找一个序列 $b$ 使得 $a_{i-1}⊕b_{i-1}\\le a_i⊕b_i$ 求 $\\min(\\sum[b_{i-1}=b_i])$。\n\n也就是说问题等价于划分最小段数，使得每一段异或一个值后合法，于是我们设 $1\\sim n$ 最小可以划分为 $g_n$ 段，那么答案为 $g_n$ 或 $g_n-1$。\n\n假设 $a_{i-1},a_i$ 最高不同位为 $k$，则它们所在段一定满足异或的 $x$ 的第 $k$ 位为 $a_{i-1}$ 的第 $k$ 位，于是 $g$ 就可以 $O(n)$ 求了。\n\n我们考虑如何求出是否可以取到 $g_n-1$，相当于判断是否存在一个位置满足 $g_{i-1}=g_n-1\\land a_{i-1}⊕b_{i-1}\\le a_i\\le a_{i+1}\\le\\dots\\le a_n$，于是我们要对 $i$ 维护 $d_i$ 表示在满足 $1\\sim i$ 答案为 $g_i$ 的情况下，$\\min(a_i⊕b_i)$ 是多少。\n\n我们考虑对 $g$ 分层，扫 $i$ 的时候相当于要么进入下一层，要么不动。需要维护两棵字典树支持：保留与 $a_{i-1}$ 第 $k$ 位相同的 $x$，加入 $x⊕a_i\\ge d_{i-1}$ 的 $x$，查询 $\\min(x⊕a_i)$。都是基本操作。\n\n时间复杂度 $O(n\\log V)$。",
+      "contentFull": true,
+      "adminNote": null
+    },
+    "favored": false,
+    "voted": null,
+    "canReply": false,
+    "canEdit": false
+  },
+  "user": null,
+  "time": 1792497768.285459
+}

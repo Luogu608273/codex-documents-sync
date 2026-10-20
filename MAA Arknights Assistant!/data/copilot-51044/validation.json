@@ -1,0 +1,730 @@
+{
+  "json_parsed": true,
+  "unique_operators": true,
+  "deployment_tiles_legal": true,
+  "normal_and_raid_same_tiles": true,
+  "original_deployment_order_preserved": true,
+  "self_owned_requirements_checked": true,
+  "modules_checked_in_snapshot": true,
+  "one_borrowed_operator": "维什戴尔",
+  "deployment_limit": 8,
+  "operators_plus_three_revenants": 8,
+  "makoto_location": [
+    7,
+    4
+  ],
+  "direction": "Down",
+  "substitute_range": [
+    [
+      7,
+      2
+    ],
+    [
+      6,
+      3
+    ],
+    [
+      7,
+      3
+    ],
+    [
+      8,
+      3
+    ],
+    [
+      5,
+      4
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      7,
+      4
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      9,
+      4
+    ],
+    [
+      6,
+      5
+    ],
+    [
+      7,
+      5
+    ],
+    [
+      8,
+      5
+    ],
+    [
+      7,
+      6
+    ]
+  ],
+  "covers_logos": true,
+  "routes": [
+    {
+      "index": 0,
+      "motion": "FLY",
+      "checkpoints_maa": [
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          10,
+          1
+        ]
+      ]
+    },
+    {
+      "index": 1,
+      "motion": "FLY",
+      "checkpoints_maa": [
+        [
+          6,
+          5
+        ],
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          10,
+          1
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "motion": "FLY",
+      "checkpoints_maa": [
+        [
+          7,
+          1
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ]
+    },
+    {
+      "index": 3,
+      "motion": "FLY",
+      "checkpoints_maa": [
+        [
+          2,
+          1
+        ],
+        [
+          8,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ]
+    },
+    {
+      "index": 4,
+      "motion": "WALK",
+      "checkpoints_maa": [
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "index": 5,
+      "motion": "FLY",
+      "checkpoints_maa": [
+        [
+          7,
+          5
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "index": 6,
+      "motion": "FLY",
+      "checkpoints_maa": [
+        [
+          7,
+          6
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "index": 7,
+      "motion": "WALK",
+      "checkpoints_maa": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "index": 8,
+      "motion": "WALK",
+      "checkpoints_maa": [
+        [
+          10,
+          5
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ]
+    },
+    {
+      "index": 9,
+      "motion": "WALK",
+      "checkpoints_maa": [
+        [
+          5,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ]
+    },
+    {
+      "index": 10,
+      "motion": "WALK",
+      "checkpoints_maa": [
+        [
+          10,
+          5
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ]
+    },
+    {
+      "index": 11,
+      "motion": "WALK",
+      "checkpoints_maa": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "index": 12,
+      "motion": "WALK",
+      "checkpoints_maa": [
+        [
+          10,
+          6
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ]
+    },
+    {
+      "index": 13,
+      "motion": "WALK",
+      "checkpoints_maa": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "index": 14,
+      "motion": "WALK",
+      "checkpoints_maa": [
+        [
+          10,
+          6
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ]
+    },
+    {
+      "index": 15,
+      "motion": "WALK",
+      "checkpoints_maa": [
+        [
+          10,
+          5
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ]
+    },
+    {
+      "index": 16,
+      "motion": "WALK",
+      "checkpoints_maa": [
+        [
+          10,
+          5
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ]
+    },
+    {
+      "index": 17,
+      "motion": "WALK",
+      "checkpoints_maa": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    },
+    {
+      "index": 18,
+      "motion": "WALK",
+      "checkpoints_maa": [
+        [
+          10,
+          6
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ]
+    },
+    {
+      "index": 19,
+      "motion": "WALK",
+      "checkpoints_maa": [
+        [
+          10,
+          6
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ]
+    },
+    {
+      "index": 20,
+      "motion": "WALK",
+      "checkpoints_maa": [
+        [
+          5,
+          3
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          9,
+          3
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          1
+        ]
+      ]
+    },
+    {
+      "index": 21,
+      "motion": "FLY",
+      "checkpoints_maa": [
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          10,
+          1
+        ]
+      ]
+    },
+    {
+      "index": 22,
+      "motion": "WALK",
+      "checkpoints_maa": [
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          0,
+          6
+        ]
+      ]
+    }
+  ],
+  "combat_verified": false,
+  "scope": "Static JSON, map, route and roster validation only; no game execution."
+}

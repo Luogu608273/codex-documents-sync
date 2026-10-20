@@ -1,0 +1,93 @@
+[
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\ZR2-2\\bracket\\partial.cpp",
+    "relative": "bracket/partial.cpp",
+    "name": "partial.cpp",
+    "size": 1196,
+    "sha256": "5df7e497c55b77718f90315e13470f743009fb46b380345071e6c07a6a73f335"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\ZR2-2\\bracket\\solution.md",
+    "relative": "bracket/solution.md",
+    "name": "solution.md",
+    "size": 3275,
+    "sha256": "978b61db5254c76cee6757b03197e9aad8577dcfaf2dc2a22eb9589199e13d46"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\ZR2-2\\bracket\\std.cpp",
+    "relative": "bracket/std.cpp",
+    "name": "std.cpp",
+    "size": 973,
+    "sha256": "a7caa10846353fc8fda2bf424a3a2667b06e1c496f9b790f6c2192eb4453ed9d"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\ZR2-2\\poly\\partial.cpp",
+    "relative": "poly/partial.cpp",
+    "name": "partial.cpp",
+    "size": 1131,
+    "sha256": "fa54c14b7dbc9d8c145f8af2c7d96953a653d6eebe5b635c5d08cf5fdffb5816"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\ZR2-2\\poly\\solution.md",
+    "relative": "poly/solution.md",
+    "name": "solution.md",
+    "size": 3381,
+    "sha256": "1a962a36f24db23e0ed70adb5b53d27bc84144c9bf423dc6b1d52b58a62064c4"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\ZR2-2\\poly\\std.cpp",
+    "relative": "poly/std.cpp",
+    "name": "std.cpp",
+    "size": 1303,
+    "sha256": "509a2d27af3377f9718f4610b82ac8c171315e46ab0f2df0983203e446efcd64"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\ZR2-2\\set\\partial.cpp",
+    "relative": "set/partial.cpp",
+    "name": "partial.cpp",
+    "size": 1043,
+    "sha256": "05fc86450c77b998fa1e43b25b54bc20e17cae510bf8788dd2f4edb5e2673874"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\ZR2-2\\set\\solution.md",
+    "relative": "set/solution.md",
+    "name": "solution.md",
+    "size": 6033,
+    "sha256": "5edbe40e53798eb66be576c90e380b3f047dd8397d4a765ac552bc18bf775766"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\ZR2-2\\set\\std.cpp",
+    "relative": "set/std.cpp",
+    "name": "std.cpp",
+    "size": 3905,
+    "sha256": "4932a696e04a218117fb13ec2c9e9e479ab3288a6ebbd5be82f7068c1b78daf6"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\ZR2-2\\transform\\partial.cpp",
+    "relative": "transform/partial.cpp",
+    "name": "partial.cpp",
+    "size": 1318,
+    "sha256": "222afaf13a89ab335d6dc8999b2d205743947d619653c9473766e453cf5c1c54"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\ZR2-2\\transform\\solution.md",
+    "relative": "transform/solution.md",
+    "name": "solution.md",
+    "size": 5212,
+    "sha256": "205365a6e0ec9d326f7bd9d5288a38f7ece5a428872535a64abddb84a2dde561"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\ZR2-2\\transform\\std.cpp",
+    "relative": "transform/std.cpp",
+    "name": "std.cpp",
+    "size": 2545,
+    "sha256": "fca5adc3732dd0ef652f2cae79c0abd0cb464d15ad86f37f293df63381ac676e"
+  },
+  {
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\ZR2-2\\验证记录.md",
+    "relative": "验证记录.md",
+    "name": "验证记录.md",
+    "size": 11059,
+    "sha256": "eb7e30d1725619f841176313f2e74914c6517503b0109cbf695068df41d81445"
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "retrieved_at": "2026-10-20T15:20:14.820943+08:00",
+  "http_status": 200,
+  "code": 200,
+  "count": 228,
+  "raw_sha256": "2fa90fbaf3f3eb26f6ad6038a85f9ca8f5b92047838b32898ac454d182eceb6f",
+  "source": "https://backend.yituliu.cn/open-api/operator/info",
+  "game_sync_time": "not provided by API"
+}

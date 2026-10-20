@@ -1,0 +1,5520 @@
+[
+  {
+    "id": "char_002_amiya",
+    "name": "阿米娅",
+    "level": 1,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skcom_magic_rage[3]",
+        "level": 0
+      },
+      {
+        "id": "skchr_amiya_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_amiya_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_amiya",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_003_kalts",
+    "name": "凯尔希",
+    "level": 1,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_kalts_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_kalts_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_kalts_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_kalts",
+        "type": "X",
+        "level": 0
+      },
+      {
+        "id": "uniequip_003_kalts",
+        "type": "Y",
+        "level": 0
+      },
+      {
+        "id": "uniequip_004_kalts",
+        "type": "A",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_009_12fce",
+    "name": "12F",
+    "level": 30,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [],
+    "equips": [],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_1001_amiya2",
+    "name": "阿米娅（近卫）",
+    "level": 1,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_amiya2_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_amiya2_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_amiya2",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_1011_lava2",
+    "name": "炎狱炎熔",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_lava2_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_lava2_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_lava2",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_1012_skadi2",
+    "name": "浊心斯卡蒂",
+    "level": 60,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_skadi2_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_skadi2_2",
+        "level": 3
+      },
+      {
+        "id": "skchr_skadi2_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_skadi2",
+        "type": "X",
+        "level": 0
+      },
+      {
+        "id": "uniequip_003_skadi2",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_1015_aglna2",
+    "name": "予愿安洁莉娜",
+    "level": 90,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_aglna2_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_aglna2_2",
+        "level": 3
+      },
+      {
+        "id": "skchr_aglna2_3",
+        "level": 3
+      }
+    ],
+    "equips": [],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_1020_reed2",
+    "name": "焰影苇草",
+    "level": 1,
+    "evolvePhase": 2,
+    "mainSkillLevel": 2,
+    "skills": [
+      {
+        "id": "skcom_quickattack[3]",
+        "level": 0
+      },
+      {
+        "id": "skchr_reed2_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_reed2_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_reed2",
+        "type": "X",
+        "level": 0
+      },
+      {
+        "id": "uniequip_003_reed2",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_1021_kroos2",
+    "name": "寒芒克洛丝",
+    "level": 1,
+    "evolvePhase": 2,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_kroos2_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_kroos2_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_kroos2",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_1027_greyy2",
+    "name": "承曦格雷伊",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_quickattack[3]",
+        "level": 0
+      },
+      {
+        "id": "skchr_greyy2_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_greyy2",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_102_texas",
+    "name": "德克萨斯",
+    "level": 1,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skcom_charge_cost[3]",
+        "level": 0
+      },
+      {
+        "id": "skchr_texas_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_texas",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 3
+  },
+  {
+    "id": "char_1030_noirc2",
+    "name": "火龙S黑角",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_noirc2_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_noirc2_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_noirc2",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_1031_slent2",
+    "name": "淬羽赫默",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_slent2_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_slent2_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_slent2_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_slent2",
+        "type": "X",
+        "level": 0
+      },
+      {
+        "id": "uniequip_003_slent2",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_1033_swire2",
+    "name": "琳琅诗怀雅",
+    "level": 50,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_swire2_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_swire2_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_swire2_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_swire2",
+        "type": "X",
+        "level": 0
+      },
+      {
+        "id": "uniequip_003_swire2",
+        "type": "Y",
+        "level": 0
+      },
+      {
+        "id": "uniequip_004_swire2",
+        "type": "A",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_1036_fang2",
+    "name": "历阵锐枪芬",
+    "level": 55,
+    "evolvePhase": 1,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_fang2_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_fang2_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_fang2",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 3
+  },
+  {
+    "id": "char_1037_amiya3",
+    "name": "阿米娅（医疗）",
+    "level": 1,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_amiya3_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_amiya3_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_amiya3",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_1042_phatm2",
+    "name": "酒神",
+    "level": 60,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_phatm2_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_phatm2_2",
+        "level": 3
+      },
+      {
+        "id": "skchr_phatm2_3",
+        "level": 3
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_phatm2",
+        "type": "X",
+        "level": 3
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_1046_sbell2",
+    "name": "圣聆初雪",
+    "level": 60,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_sbell2_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_sbell2_2",
+        "level": 3
+      },
+      {
+        "id": "skchr_sbell2_3",
+        "level": 3
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_sbell2",
+        "type": "Y",
+        "level": 3
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_1048_orchd2",
+    "name": "焰狐龙梓兰",
+    "level": 60,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_orchd2_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_orchd2_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_orchd2_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_orchd2",
+        "type": "X",
+        "level": 3
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_1049_catap2",
+    "name": "雷狼龙S空爆",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_catap2_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_catap2_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_catap2",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_1050_chen3",
+    "name": "赤刃明霄陈",
+    "level": 60,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_chen3_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_chen3_2",
+        "level": 3
+      },
+      {
+        "id": "skchr_chen3_3",
+        "level": 3
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_chen3",
+        "type": "X",
+        "level": 3
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_1052_kalts2",
+    "name": "凯尔希·思衡托",
+    "level": 60,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_kalts2_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_kalts2_2",
+        "level": 3
+      },
+      {
+        "id": "skchr_kalts2_3",
+        "level": 3
+      }
+    ],
+    "equips": [],
+    "potentialRank": 3
+  },
+  {
+    "id": "char_109_fmout",
+    "name": "远山",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_magic_rage[2]",
+        "level": 0
+      },
+      {
+        "id": "skchr_fmout_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_fmout",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_110_deepcl",
+    "name": "深海色",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_deepcl_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_deepcl_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_deepcl",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_117_myrrh",
+    "name": "末药",
+    "level": 20,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_myrrh_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_myrrh_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_myrrh",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_118_yuki",
+    "name": "白雪",
+    "level": 45,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_yuki_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_yuki_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_yuki",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_120_hibisc",
+    "name": "芙蓉",
+    "level": 55,
+    "evolvePhase": 1,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skcom_heal_up[1]",
+        "level": 0
+      }
+    ],
+    "equips": [],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_121_lava",
+    "name": "炎熔",
+    "level": 40,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_magic_rage[1]",
+        "level": 0
+      }
+    ],
+    "equips": [],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_122_beagle",
+    "name": "米格鲁",
+    "level": 55,
+    "evolvePhase": 1,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skcom_def_up[1]",
+        "level": 0
+      }
+    ],
+    "equips": [],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_123_fang",
+    "name": "芬",
+    "level": 55,
+    "evolvePhase": 1,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skcom_charge_cost[1]",
+        "level": 0
+      }
+    ],
+    "equips": [],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_124_kroos",
+    "name": "克洛丝",
+    "level": 55,
+    "evolvePhase": 1,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_kroos_1",
+        "level": 0
+      }
+    ],
+    "equips": [],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_126_shotst",
+    "name": "流星",
+    "level": 45,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_shotst_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_shotst_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_shotst",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_127_estell",
+    "name": "艾丝黛尔",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_atk_up[2]",
+        "level": 0
+      },
+      {
+        "id": "skchr_estell_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_estell",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_128_plosis",
+    "name": "白面鸮",
+    "level": 50,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skcom_heal_up[3]",
+        "level": 0
+      },
+      {
+        "id": "skchr_plosis_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_plosis",
+        "type": "X",
+        "level": 3
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_130_doberm",
+    "name": "杜宾",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_doberm_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_doberm_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_doberm",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_133_mm",
+    "name": "梅",
+    "level": 1,
+    "evolvePhase": 1,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_mm_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_mm_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_mm",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_135_halo",
+    "name": "星源",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_halo_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_halo_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_halo",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_137_brownb",
+    "name": "猎蜂",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_brownb_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_brownb_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_brownb",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_141_nights",
+    "name": "夜烟",
+    "level": 45,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_atk_up[2]",
+        "level": 0
+      },
+      {
+        "id": "skchr_nights_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_nights",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_143_ghost",
+    "name": "幽灵鲨",
+    "level": 50,
+    "evolvePhase": 1,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_atk_up[3]",
+        "level": 0
+      },
+      {
+        "id": "skchr_ghost_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_ghost",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_144_red",
+    "name": "红",
+    "level": 1,
+    "evolvePhase": 1,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_red_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_red_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_red",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_147_shining",
+    "name": "闪灵",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_shining_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_shining_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_shining_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_003_shining",
+        "type": "X",
+        "level": 0
+      },
+      {
+        "id": "uniequip_002_shining",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_149_scave",
+    "name": "清道夫",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_charge_cost[2]",
+        "level": 0
+      },
+      {
+        "id": "skchr_scave_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_scave",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_150_snakek",
+    "name": "蛇屠箱",
+    "level": 60,
+    "evolvePhase": 1,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skcom_def_up[2]",
+        "level": 0
+      },
+      {
+        "id": "skchr_snakek_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_snakek",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_151_myrtle",
+    "name": "桃金娘",
+    "level": 1,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skcom_assist_cost[2]",
+        "level": 3
+      },
+      {
+        "id": "skchr_myrtle_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_myrtle",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_154_morgan",
+    "name": "摩根",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_morgan_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_morgan_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_morgan",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 3
+  },
+  {
+    "id": "char_155_tiger",
+    "name": "因陀罗",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_tiger_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_tiger_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_tiger",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_157_dagda",
+    "name": "达格达",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_dagda_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_dagda_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_dagda",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 3
+  },
+  {
+    "id": "char_163_hpsts",
+    "name": "火神",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_hpsts_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_hpsts_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_hpsts",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_171_bldsk",
+    "name": "华法琳",
+    "level": 1,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_bldsk_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_bldsk_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_bldsk",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_181_flower",
+    "name": "调香师",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_heal_up[2]",
+        "level": 0
+      },
+      {
+        "id": "skchr_flower_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_flower",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_183_skgoat",
+    "name": "地灵",
+    "level": 45,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_atk_up[2]",
+        "level": 0
+      },
+      {
+        "id": "skchr_skgoat_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_skgoat",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_185_frncat",
+    "name": "慕斯",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_frncat_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_frncat_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_frncat",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_187_ccheal",
+    "name": "嘉维尔",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_ccheal_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_ccheal_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_ccheal",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_190_clour",
+    "name": "红云",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_atk_up[2]",
+        "level": 0
+      },
+      {
+        "id": "skchr_clour_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_clour",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_192_falco",
+    "name": "翎羽",
+    "level": 55,
+    "evolvePhase": 1,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skcom_quickattack[1]",
+        "level": 0
+      }
+    ],
+    "equips": [],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_193_frostl",
+    "name": "霜叶",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_frostl_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_frostl_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_frostl",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_194_leto",
+    "name": "烈夏",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_quickattack[3]",
+        "level": 0
+      },
+      {
+        "id": "skchr_leto_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_leto",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_196_sunbr",
+    "name": "古米",
+    "level": 60,
+    "evolvePhase": 1,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_sunbr_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_sunbr_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_sunbr",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_198_blackd",
+    "name": "讯使",
+    "level": 50,
+    "evolvePhase": 1,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_charge_cost[2]",
+        "level": 0
+      },
+      {
+        "id": "skchr_blackd_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_blackd",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_199_yak",
+    "name": "角峰",
+    "level": 45,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_yak_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_yak_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_yak",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_2012_typhon",
+    "name": "提丰",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_quickattack[3]",
+        "level": 0
+      },
+      {
+        "id": "skchr_typhon_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_typhon_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_typhon",
+        "type": "X",
+        "level": 0
+      },
+      {
+        "id": "uniequip_003_typhon",
+        "type": "Y",
+        "level": 0
+      },
+      {
+        "id": "uniequip_004_typhon",
+        "type": "A",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_2027_wang",
+    "name": "望",
+    "level": 90,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_wang_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_wang_2",
+        "level": 3
+      },
+      {
+        "id": "skchr_wang_3",
+        "level": 3
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_wang",
+        "type": "X",
+        "level": 3
+      }
+    ],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_202_demkni",
+    "name": "塞雷娅",
+    "level": 1,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_demkni_1",
+        "level": 3
+      },
+      {
+        "id": "skchr_demkni_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_demkni_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_demkni",
+        "type": "X",
+        "level": 0
+      },
+      {
+        "id": "uniequip_003_demkni",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_208_melan",
+    "name": "玫兰莎",
+    "level": 2,
+    "evolvePhase": 1,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_atk_up[1]",
+        "level": 0
+      }
+    ],
+    "equips": [],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_209_ardign",
+    "name": "卡缇",
+    "level": 55,
+    "evolvePhase": 1,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skcom_heal_self[1]",
+        "level": 0
+      }
+    ],
+    "equips": [],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_210_stward",
+    "name": "史都华德",
+    "level": 55,
+    "evolvePhase": 1,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_stward_1",
+        "level": 0
+      }
+    ],
+    "equips": [],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_211_adnach",
+    "name": "安德切尔",
+    "level": 55,
+    "evolvePhase": 1,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skcom_atk_up[1]",
+        "level": 0
+      }
+    ],
+    "equips": [],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_212_ansel",
+    "name": "安赛尔",
+    "level": 55,
+    "evolvePhase": 1,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skcom_range_extend",
+        "level": 0
+      }
+    ],
+    "equips": [],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_219_meteo",
+    "name": "陨星",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_meteo_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_meteo_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_meteo",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_220_grani",
+    "name": "格拉尼",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_def_up[3]",
+        "level": 0
+      },
+      {
+        "id": "skchr_grani_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_grani",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_222_bpipe",
+    "name": "风笛",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_quickattack[3]",
+        "level": 0
+      },
+      {
+        "id": "skchr_bpipe_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_bpipe_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_bpipe",
+        "type": "X",
+        "level": 0
+      },
+      {
+        "id": "uniequip_003_bpipe",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_226_hmau",
+    "name": "吽",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_hmau_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_hmau_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_hmau",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_230_savage",
+    "name": "暴行",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_savage_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_savage_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_savage",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_235_jesica",
+    "name": "杰西卡",
+    "level": 1,
+    "evolvePhase": 1,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_jesica_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_jesica_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_jesica",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_236_rope",
+    "name": "暗索",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 4,
+    "skills": [
+      {
+        "id": "skchr_rope_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_rope_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_rope",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_237_gravel",
+    "name": "砾",
+    "level": 45,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_gravel_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_gravel_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_gravel",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_240_wyvern",
+    "name": "香草",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_wyvern_1",
+        "level": 0
+      }
+    ],
+    "equips": [],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_243_waaifu",
+    "name": "槐琥",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_waaifu_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_waaifu_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_waaifu",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_253_greyy",
+    "name": "格雷伊",
+    "level": 45,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_magic_rage[2]",
+        "level": 0
+      },
+      {
+        "id": "skchr_greyy_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_greyy",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_258_podego",
+    "name": "波登可",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_podego_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_podego_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_podego",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_260_durnar",
+    "name": "坚雷",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_atk_up[2]",
+        "level": 0
+      },
+      {
+        "id": "skchr_durnar_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_durnar",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_264_f12yin",
+    "name": "山",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_f12yin_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_f12yin_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_f12yin_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_003_f12yin",
+        "type": "X",
+        "level": 0
+      },
+      {
+        "id": "uniequip_002_f12yin",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_265_sophia",
+    "name": "鞭刃",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_sophia_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_sophia_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_sophia",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_271_spikes",
+    "name": "芳汀",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_spikes_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_spikes_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_spikes",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_272_strong",
+    "name": "孑",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_strong_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_strong_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_strong",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_277_sqrrel",
+    "name": "阿消",
+    "level": 1,
+    "evolvePhase": 1,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_sqrrel_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_sqrrel_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_sqrrel",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_278_orchid",
+    "name": "梓兰",
+    "level": 55,
+    "evolvePhase": 1,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skcom_quickattack[1]",
+        "level": 0
+      }
+    ],
+    "equips": [],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_281_popka",
+    "name": "泡普卡",
+    "level": 55,
+    "evolvePhase": 1,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skcom_atk_up[1]",
+        "level": 0
+      }
+    ],
+    "equips": [],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_282_catap",
+    "name": "空爆",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_catap_1",
+        "level": 0
+      }
+    ],
+    "equips": [],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_283_midn",
+    "name": "月见夜",
+    "level": 55,
+    "evolvePhase": 1,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_midn_1",
+        "level": 0
+      }
+    ],
+    "equips": [],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_284_spot",
+    "name": "斑点",
+    "level": 55,
+    "evolvePhase": 1,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_spot_1",
+        "level": 0
+      }
+    ],
+    "equips": [],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_285_medic2",
+    "name": "Lancet-2",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [],
+    "equips": [],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_289_gyuki",
+    "name": "缠丸",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_heal_self[2]",
+        "level": 0
+      },
+      {
+        "id": "skchr_gyuki_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_gyuki",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_290_vigna",
+    "name": "红豆",
+    "level": 45,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_vigna_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_vigna_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_vigna",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_293_thorns",
+    "name": "棘刺",
+    "level": 80,
+    "evolvePhase": 1,
+    "mainSkillLevel": 2,
+    "skills": [
+      {
+        "id": "skcom_atk_up[3]",
+        "level": 0
+      },
+      {
+        "id": "skchr_thorns_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_thorns_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_thorns",
+        "type": "X",
+        "level": 0
+      },
+      {
+        "id": "uniequip_003_thorns",
+        "type": "D",
+        "level": 0
+      }
+    ],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_297_hamoni",
+    "name": "和弦",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_hamoni_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_hamoni_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_hamoni",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_298_susuro",
+    "name": "苏苏洛",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_heal_up[2]",
+        "level": 0
+      },
+      {
+        "id": "skchr_susuro_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_susuro",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_301_cutter",
+    "name": "刻刀",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_cutter_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_cutter_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_cutter",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_302_glaze",
+    "name": "安比尔",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_glaze_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_glaze_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_glaze",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_304_zebra",
+    "name": "暴雨",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_zebra_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_zebra_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_zebra",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_326_glacus",
+    "name": "格劳克斯",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_glacus_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_glacus_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_glacus",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_328_cammou",
+    "name": "卡达",
+    "level": 1,
+    "evolvePhase": 1,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_atk_up[2]",
+        "level": 0
+      },
+      {
+        "id": "skchr_cammou_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_cammou",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_333_sidero",
+    "name": "铸铁",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_heal_self[3]",
+        "level": 0
+      },
+      {
+        "id": "skchr_sidero_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_sidero",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_337_utage",
+    "name": "宴",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_utage_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_utage_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_utage",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_341_sntlla",
+    "name": "寒檀",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_quickattack[3]",
+        "level": 0
+      },
+      {
+        "id": "skchr_sntlla_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_sntlla",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_345_folnic",
+    "name": "亚叶",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_folnic_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_folnic_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_folnic",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_347_jaksel",
+    "name": "杰克",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_jaksel_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_jaksel_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_jaksel",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_348_ceylon",
+    "name": "锡兰",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_ceylon_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_ceylon_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_ceylon",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_355_ethan",
+    "name": "伊桑",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_ethan_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_ethan_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_ethan",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_356_broca",
+    "name": "布洛卡",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_broca_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_broca_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_broca",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_363_toddi",
+    "name": "熔泉",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_toddi_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_toddi_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_toddi",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_366_acdrop",
+    "name": "酸糖",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_acdrop_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_acdrop_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_acdrop",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_376_therex",
+    "name": "THRM-EX",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [],
+    "equips": [],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_379_sesa",
+    "name": "慑砂",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_atk_up[3]",
+        "level": 0
+      },
+      {
+        "id": "skchr_sesa_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_sesa",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_381_bubble",
+    "name": "泡泡",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_def_up[2]",
+        "level": 0
+      },
+      {
+        "id": "skchr_bubble_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_bubble",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_385_finlpp",
+    "name": "清流",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_finlpp_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_finlpp_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_finlpp",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_394_hadiya",
+    "name": "哈蒂娅",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_hadiya_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_hadiya_2",
+        "level": 0
+      }
+    ],
+    "equips": [],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4004_pudd",
+    "name": "布丁",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_magic_rage[2]",
+        "level": 0
+      },
+      {
+        "id": "skchr_pudd_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_pudd",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4010_etlchi",
+    "name": "隐德来希",
+    "level": 60,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_etlchi_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_etlchi_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_etlchi_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_etlchi",
+        "type": "X",
+        "level": 0
+      },
+      {
+        "id": "uniequip_003_etlchi",
+        "type": "Y",
+        "level": 3
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4013_kjera",
+    "name": "耶拉",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_atk_up[3]",
+        "level": 0
+      },
+      {
+        "id": "skchr_kjera_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_kjera",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_4014_lunacu",
+    "name": "子月",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_lunacu_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_lunacu_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_lunacu",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4015_spuria",
+    "name": "空构",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_spuria_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_spuria_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_spuria",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4017_puzzle",
+    "name": "谜图",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_puzzle_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_puzzle_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_puzzle",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4023_rfalcn",
+    "name": "红隼",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_charge_cost[3]",
+        "level": 0
+      },
+      {
+        "id": "skchr_rfalcn_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_rfalcn",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_4025_aprot2",
+    "name": "暮落",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_aprot2_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_aprot2_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_aprot2",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_4026_vulpis",
+    "name": "忍冬",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_vulpis_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_vulpis_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_vulpis_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_vulpis",
+        "type": "X",
+        "level": 0
+      },
+      {
+        "id": "uniequip_003_vulpis",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4031_liesel",
+    "name": "复奏",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_liesel_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_liesel_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_liesel",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_4036_forcer",
+    "name": "见行者",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_forcer_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_forcer_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_forcer",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_4041_chnut",
+    "name": "褐果",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_chnut_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_chnut_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_chnut",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_4045_heidi",
+    "name": "海蒂",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_heidi_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_heidi_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_heidi",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 4
+  },
+  {
+    "id": "char_4051_akkord",
+    "name": "协律",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_akkord_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_akkord_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_akkord",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4052_surfer",
+    "name": "寻澜",
+    "level": 1,
+    "evolvePhase": 1,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_surfer_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_surfer_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_surfer",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_4062_totter",
+    "name": "铅踝",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_totter_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_totter_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_totter",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 5
+  },
+  {
+    "id": "char_4063_quartz",
+    "name": "石英",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_atk_up[2]",
+        "level": 0
+      },
+      {
+        "id": "skchr_quartz_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_quartz",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_4064_mlynar",
+    "name": "玛恩纳",
+    "level": 1,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_mlynar_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_mlynar_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_mlynar_3",
+        "level": 3
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_mlynar",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4066_highmo",
+    "name": "海沫",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_highmo_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_highmo_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_highmo",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_4071_peper",
+    "name": "明椒",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_heal_rage[3]",
+        "level": 0
+      },
+      {
+        "id": "skchr_peper_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_peper",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4077_palico",
+    "name": "泰拉大陆调查团",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [],
+    "equips": [],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_4078_bdhkgt",
+    "name": "截云",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_bdhkgt_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_bdhkgt_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_bdhkgt",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_4079_haini",
+    "name": "海霓",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_haini_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_haini_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_haini",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 3
+  },
+  {
+    "id": "char_4081_warmy",
+    "name": "温米",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_warmy_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_warmy_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_warmy",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4083_chimes",
+    "name": "铎铃",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_atk_up[3]",
+        "level": 0
+      },
+      {
+        "id": "skchr_chimes_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_chimes",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4088_hodrer",
+    "name": "赫德雷",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_hodrer_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_hodrer_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_hodrer_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_hodrer",
+        "type": "X",
+        "level": 0
+      },
+      {
+        "id": "uniequip_003_hodrer",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4093_frston",
+    "name": "Friston-3",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [],
+    "equips": [],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_4100_caper",
+    "name": "跃跃",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_caper_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_caper_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_caper",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4105_almond",
+    "name": "杏仁",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_almond_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_almond_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_almond",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 3
+  },
+  {
+    "id": "char_4107_vrdant",
+    "name": "维荻",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_vrdant_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_vrdant_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_vrdant",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_4110_delphn",
+    "name": "戴菲恩",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_delphn_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_delphn_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_delphn",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 3
+  },
+  {
+    "id": "char_4114_harold",
+    "name": "哈洛德",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_heal_up[3]",
+        "level": 0
+      },
+      {
+        "id": "skchr_harold_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_harold",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_4116_blkkgt",
+    "name": "锏",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_blkkgt_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_blkkgt_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_blkkgt_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_blkkgt",
+        "type": "X",
+        "level": 0
+      },
+      {
+        "id": "uniequip_003_blkkgt",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4119_wanqin",
+    "name": "万顷",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_assist_cost[3]",
+        "level": 0
+      },
+      {
+        "id": "skchr_wanqin_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_wanqin",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_4122_grabds",
+    "name": "小满",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_grabds_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_grabds_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_grabds",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4130_luton",
+    "name": "露托",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_luton_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_luton_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_luton",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_4131_odda",
+    "name": "奥达",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_odda_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_odda_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_odda",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_4133_logos",
+    "name": "逻各斯",
+    "level": 60,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_logos_1",
+        "level": 3
+      },
+      {
+        "id": "skchr_logos_2",
+        "level": 3
+      },
+      {
+        "id": "skchr_logos_3",
+        "level": 3
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_003_logos",
+        "type": "Y",
+        "level": 0
+      },
+      {
+        "id": "uniequip_002_logos",
+        "type": "D",
+        "level": 3
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4134_cetsyr",
+    "name": "魔王",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_cetsyr_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_cetsyr_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_cetsyr_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_cetsyr",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 4
+  },
+  {
+    "id": "char_4136_phonor",
+    "name": "PhonoR-0",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [],
+    "equips": [],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_4140_lasher",
+    "name": "衡沙",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_lasher_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_lasher_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_lasher",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_4145_ulpia",
+    "name": "乌尔比安",
+    "level": 60,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_ulpia_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_ulpia_2",
+        "level": 3
+      },
+      {
+        "id": "skchr_ulpia_3",
+        "level": 3
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_ulpia",
+        "type": "X",
+        "level": 3
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4147_mitm",
+    "name": "渡桥",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_mitm_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_mitm_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_mitm",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_4151_tinman",
+    "name": "锡人",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_tinman_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_tinman_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_tinman",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_4155_talr",
+    "name": "裁度",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_talr_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_talr_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_talr",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_4162_cathy",
+    "name": "凯瑟琳",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_cathy_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_cathy_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_cathy",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_4165_ctrail",
+    "name": "云迹",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_ctrail_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_ctrail_2",
+        "level": 0
+      }
+    ],
+    "equips": [],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4171_wulfen",
+    "name": "钼铅",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_wulfen_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_wulfen_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_wulfen",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_4173_nowell",
+    "name": "诺威尔",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_nowell_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_nowell_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_nowell",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 5
+  },
+  {
+    "id": "char_4177_brigid",
+    "name": "水灯心",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_brigid_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_brigid_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_brigid",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4178_alanna",
+    "name": "阿兰娜",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_alanna_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_alanna_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_alanna",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 4
+  },
+  {
+    "id": "char_4179_monstr",
+    "name": "Mon3tr",
+    "level": 60,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_monstr_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_monstr_2",
+        "level": 3
+      },
+      {
+        "id": "skchr_monstr_3",
+        "level": 3
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_monstr",
+        "type": "X",
+        "level": 3
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4187_graceb",
+    "name": "聆音",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_graceb_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_graceb_2",
+        "level": 0
+      }
+    ],
+    "equips": [],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4191_tippi",
+    "name": "蒂比",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_tippi_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_tippi_2",
+        "level": 0
+      }
+    ],
+    "equips": [],
+    "potentialRank": 3
+  },
+  {
+    "id": "char_4194_rmixer",
+    "name": "信仰搅拌机",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_rmixer_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_rmixer_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_rmixer_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_rmixer",
+        "type": "X",
+        "level": 0
+      },
+      {
+        "id": "uniequip_003_rmixer",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_4195_radian",
+    "name": "电弧",
+    "level": 90,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_radian_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_radian_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_radian_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_radian",
+        "type": "A",
+        "level": 0
+      },
+      {
+        "id": "uniequip_003_radian",
+        "type": "B",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_4198_christ",
+    "name": "Miss.Christine",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_christ_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_christ_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_christ",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 3
+  },
+  {
+    "id": "char_4199_makiri",
+    "name": "松桐",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_makiri_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_makiri_2",
+        "level": 0
+      }
+    ],
+    "equips": [],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_4203_kichi",
+    "name": "吉星",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_kichi_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_kichi_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_kichi",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_4204_mantra",
+    "name": "真言",
+    "level": 60,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_mantra_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_mantra_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_mantra_3",
+        "level": 3
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_mantra",
+        "type": "X",
+        "level": 3
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4207_branch",
+    "name": "折桠",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_branch_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_branch_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_branch",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4208_wintim",
+    "name": "冬时",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_wintim_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_wintim_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_wintim",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_4211_snhunt",
+    "name": "雪猎",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_snhunt_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_snhunt_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_snhunt",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_4214_cairn",
+    "name": "响石",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_cairn_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_cairn_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_cairn",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_4215_buddy",
+    "name": "罗德岛隐秘队",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [],
+    "equips": [],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_4217_makoto",
+    "name": "结城理",
+    "level": 60,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_makoto_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_makoto_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_makoto_3",
+        "level": 3
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_makoto",
+        "type": "Y",
+        "level": 3
+      }
+    ],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_4218_aigis",
+    "name": "埃癸斯",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_aigis_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_aigis_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_aigis",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_421_crow",
+    "name": "羽毛笔",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_crow_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_crow_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_crow",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4220_kormr",
+    "name": "虎狼丸",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [],
+    "equips": [],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4221_ju",
+    "name": "矩",
+    "level": 1,
+    "evolvePhase": 1,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_ju_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_ju_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_ju",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 4
+  },
+  {
+    "id": "char_4222_taraxa",
+    "name": "风絮",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_taraxa_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_taraxa_2",
+        "level": 0
+      }
+    ],
+    "equips": [],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_4223_botany",
+    "name": "伯塔尼",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_botany_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_botany_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_botany",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4224_turdus",
+    "name": "乌啾",
+    "level": 80,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_turdus_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_turdus_2",
+        "level": 3
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_turdus",
+        "type": "X",
+        "level": 3
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4225_tanya",
+    "name": "裂响",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_tanya_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_tanya_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_tanya",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_4226_veen",
+    "name": "维伊",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 4,
+    "skills": [
+      {
+        "id": "skchr_veen_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_veen_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_veen_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_veen",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_4227_gallus",
+    "name": "GALLUS²",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [],
+    "equips": [],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_4228_closur",
+    "name": "可露希尔",
+    "level": 60,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_closur_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_closur_2",
+        "level": 3
+      },
+      {
+        "id": "skchr_closur_3",
+        "level": 3
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_closur",
+        "type": "X",
+        "level": 3
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4230_mcnist",
+    "name": "机械师",
+    "level": 85,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_mcnist_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_mcnist_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_mcnist_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_mcnist",
+        "type": "A",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_4231_clemnt",
+    "name": null,
+    "level": 60,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [],
+    "equips": [],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4232_hbound",
+    "name": null,
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [],
+    "equips": [],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4234_pedro",
+    "name": "佩德洛",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_pedro_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_pedro_2",
+        "level": 0
+      }
+    ],
+    "equips": [],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4235_thumpy",
+    "name": "珊比",
+    "level": 50,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_thumpy_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_thumpy_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_thumpy_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_thumpy",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_4236_tmslot",
+    "name": "时隙",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_atk_up[3]",
+        "level": 0
+      },
+      {
+        "id": "skchr_tmslot_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_tmslot",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 4
+  },
+  {
+    "id": "char_4237_jcinta",
+    "name": "嘉辛塔",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_assist_cost[3]",
+        "level": 0
+      },
+      {
+        "id": "skchr_jcinta_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_jcinta",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_427_vigil",
+    "name": "伺夜",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_vigil_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_vigil_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_vigil_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_vigil",
+        "type": "X",
+        "level": 0
+      },
+      {
+        "id": "uniequip_003_vigil",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_436_whispr",
+    "name": "絮雨",
+    "level": 55,
+    "evolvePhase": 1,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_whispr_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_whispr_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_whispr",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_440_pinecn",
+    "name": "松果",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_pinecn_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_pinecn_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_pinecn",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_445_wscoot",
+    "name": "骋风",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_wscoot_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_wscoot_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_wscoot",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_446_aroma",
+    "name": "阿罗玛",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_aroma_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_aroma_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_aroma",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_449_glider",
+    "name": "蜜莓",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_glider_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_glider_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_glider",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_451_robin",
+    "name": "罗宾",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_robin_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_robin_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_robin",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_452_bstalk",
+    "name": "豆苗",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_bstalk_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_bstalk_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_bstalk",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_464_cement",
+    "name": "洋灰",
+    "level": 43,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_cement_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_cement_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_cement",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_469_indigo",
+    "name": "深靛",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_indigo_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_indigo_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_indigo",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_473_mberry",
+    "name": "桑葚",
+    "level": 70,
+    "evolvePhase": 1,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_mberry_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_mberry_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_mberry",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_474_glady",
+    "name": "歌蕾蒂娅",
+    "level": 60,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_glady_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_glady_2",
+        "level": 0
+      },
+      {
+        "id": "skchr_glady_3",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_glady",
+        "type": "X",
+        "level": 3
+      },
+      {
+        "id": "uniequip_003_glady",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_476_blkngt",
+    "name": "夜半",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_blkngt_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_blkngt_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_blkngt",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_484_robrta",
+    "name": "罗比菈塔",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_robrta_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_robrta_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_robrta",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_487_bobb",
+    "name": "波卜",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_bobb_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_bobb_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_bobb",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_488_buildr",
+    "name": "青枳",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_charge_cost[3]",
+        "level": 0
+      },
+      {
+        "id": "skchr_buildr_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_buildr",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_491_humus",
+    "name": "休谟斯",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_humus_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_humus_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_humus",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_493_firwhl",
+    "name": "火哨",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_firwhl_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_firwhl_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_firwhl",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_494_vendla",
+    "name": "刺玫",
+    "level": 50,
+    "evolvePhase": 1,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skcom_magic_rage[3]",
+        "level": 0
+      },
+      {
+        "id": "skchr_vendla_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_vendla",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_496_wildmn",
+    "name": "野鬃",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_wildmn_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_wildmn_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_wildmn",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_497_ctable",
+    "name": "晓歌",
+    "level": 1,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_ctable_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_ctable_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_ctable",
+        "type": "Y",
+        "level": 0
+      }
+    ],
+    "potentialRank": 2
+  },
+  {
+    "id": "char_498_inside",
+    "name": "隐现",
+    "level": 1,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [
+      {
+        "id": "skchr_inside_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_inside_2",
+        "level": 0
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_inside",
+        "type": "X",
+        "level": 0
+      }
+    ],
+    "potentialRank": 6
+  },
+  {
+    "id": "char_500_noirc",
+    "name": "黑角",
+    "level": 30,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [],
+    "equips": [],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_501_durin",
+    "name": "杜林",
+    "level": 30,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [],
+    "equips": [],
+    "potentialRank": 1
+  },
+  {
+    "id": "char_502_nblade",
+    "name": "夜刀",
+    "level": 30,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [],
+    "equips": [],
+    "potentialRank": 3
+  },
+  {
+    "id": "char_503_rang",
+    "name": "巡林者",
+    "level": 30,
+    "evolvePhase": 0,
+    "mainSkillLevel": 1,
+    "skills": [],
+    "equips": [],
+    "potentialRank": 2
+  }
+]

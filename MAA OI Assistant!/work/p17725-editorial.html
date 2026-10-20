@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="csrf-token" content="1792584168:Pb41mcv6WHQ1cJcdimcvA1SEufe5eDcPtofiH84InTU=">
+    <meta name="renderer" content="webkit">
+    <script>
+        window.__feInitLocalTime = new Date().getTime() / 1000;
+        window.__feConfigVersion = '74d532c6c7861bfe'; window.__feConfigRequest = '\/_lfe\/config'; window.__fePhoneHomeCall = 'https\u003A\/\/moshimoshi\u003Aagltb3noatpwohhuenb5ag1tc2jsnnl3\u0040errtrack.luogu.com.cn\/lotlp1';        window.__luoguTagVersion = 'zh\u002DCN\/2026102019'; window.__luoguTagRequest = '\/_lfe\/tags';
+    </script>
+    <title>P17725 [SCP-S 2026] 大雨 / rain - 洛谷专栏</title>
+    <link rel="icon" href="https://fecdn.luogu.com.cn/favicon.ico">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-eval' 'unsafe-inline' luogu.com *.luogu.com luogu.com.cn *.luogu.com.cn luogu.org *.luogu.org wss: blob: luoguprivate.oss-cn-hangzhou.aliyuncs.com luogu.oss-cn-hangzhou.aliyuncs.com https://challenges.cloudflare.com https://*.dun.163yun.com https://*.dun.163.com https://*.nosdn.126.net https://*.nosdn.127.net https://nos.netease.com https://cstaticdun.126.net https://cstaticdun1.126.net https://cstaticdun-v6.126.net https://acstatic-dun.126.net; img-src * data:; font-src * data:; worker-src data: blob:; frame-src https://fecdn.luogu.com.cn https://player.bilibili.com https://www.bilibili.com https://challenges.cloudflare.com">
+        <script id="lentille-context" type="application/json">{"instance":"main","template":"article.show","status":200,"locale":"zh-CN","data":{"article":{"lid":"yjb8trzu","title":"P17725 [SCP-S 2026] \u5927\u96e8 \/ rain","category":2,"time":1792253042,"author":{"uid":696078,"avatar":"https:\/\/cdn.luogu.com.cn\/upload\/usericon\/696078.png","name":"_Yonder_","slogan":"Morose Dreamer","badge":null,"isAdmin":false,"isBanned":false,"color":"Red","ccfLevel":0,"xcpcLevel":0,"background":"https:\/\/cdn.luogu.com.cn\/upload\/image_hosting\/rk2b6ifa.png"},"upvote":15,"replyCount":3,"favorCount":0,"status":2,"solutionFor":{"pid":"P17725","type":"P","name":"[SCP-S 2026] \u5927\u96e8 \/ rain","difficulty":8,"fullScore":100},"promoteStatus":2,"collection":null,"content":"\u6700\u540e 10min \u624d\u4f1a\u3002\n\n\u53d1\u73b0\u95ee\u9898\u7b49\u4e8e\u627e\u4e00\u4e2a\u5e8f\u5217 $b$ \u4f7f\u5f97 $a_{i-1}\u2295b_{i-1}\\le a_i\u2295b_i$ \u6c42 $\\min(\\sum[b_{i-1}=b_i])$\u3002\n\n\u4e5f\u5c31\u662f\u8bf4\u95ee\u9898\u7b49\u4ef7\u4e8e\u5212\u5206\u6700\u5c0f\u6bb5\u6570\uff0c\u4f7f\u5f97\u6bcf\u4e00\u6bb5\u5f02\u6216\u4e00\u4e2a\u503c\u540e\u5408\u6cd5\uff0c\u4e8e\u662f\u6211\u4eec\u8bbe $1\\sim n$ \u6700\u5c0f\u53ef\u4ee5\u5212\u5206\u4e3a $g_n$ \u6bb5\uff0c\u90a3\u4e48\u7b54\u6848\u4e3a $g_n$ \u6216 $g_n-1$\u3002\n\n\u5047\u8bbe $a_{i-1},a_i$ \u6700\u9ad8\u4e0d\u540c\u4f4d\u4e3a $k$\uff0c\u5219\u5b83\u4eec\u6240\u5728\u6bb5\u4e00\u5b9a\u6ee1\u8db3\u5f02\u6216\u7684 $x$ \u7684\u7b2c $k$ \u4f4d\u4e3a $a_{i-1}$ \u7684\u7b2c $k$ \u4f4d\uff0c\u4e8e\u662f $g$ \u5c31\u53ef\u4ee5 $O(n)$ \u6c42\u4e86\u3002\n\n\u6211\u4eec\u8003\u8651\u5982\u4f55\u6c42\u51fa\u662f\u5426\u53ef\u4ee5\u53d6\u5230 $g_n-1$\uff0c\u76f8\u5f53\u4e8e\u5224\u65ad\u662f\u5426\u5b58\u5728\u4e00\u4e2a\u4f4d\u7f6e\u6ee1\u8db3 $g_{i-1}=g_n-1\\land a_{i-1}\u2295b_{i-1}\\le a_i\\le a_{i+1}\\le\\dots\\le a_n$\uff0c\u4e8e\u662f\u6211\u4eec\u8981\u5bf9 $i$ \u7ef4\u62a4 $d_i$ \u8868\u793a\u5728\u6ee1\u8db3 $1\\sim i$ \u7b54\u6848\u4e3a $g_i$ \u7684\u60c5\u51b5\u4e0b\uff0c$\\min(a_i\u2295b_i)$ \u662f\u591a\u5c11\u3002\n\n\u6211\u4eec\u8003\u8651\u5bf9 $g$ \u5206\u5c42\uff0c\u626b $i$ \u7684\u65f6\u5019\u76f8\u5f53\u4e8e\u8981\u4e48\u8fdb\u5165\u4e0b\u4e00\u5c42\uff0c\u8981\u4e48\u4e0d\u52a8\u3002\u9700\u8981\u7ef4\u62a4\u4e24\u68f5\u5b57\u5178\u6811\u652f\u6301\uff1a\u4fdd\u7559\u4e0e $a_{i-1}$ \u7b2c $k$ \u4f4d\u76f8\u540c\u7684 $x$\uff0c\u52a0\u5165 $x\u2295a_i\\ge d_{i-1}$ \u7684 $x$\uff0c\u67e5\u8be2 $\\min(x\u2295a_i)$\u3002\u90fd\u662f\u57fa\u672c\u64cd\u4f5c\u3002\n\n\u65f6\u95f4\u590d\u6742\u5ea6 $O(n\\log V)$\u3002","contentFull":true,"adminNote":null},"favored":false,"voted":null,"canReply":false,"canEdit":false},"user":null,"time":1792497768.285459}</script>            <script src="https://fecdn.luogu.com.cn/columba/loader.20261018-2305.js" charset="utf-8" defer></script>
+    <link rel="stylesheet" href="https://fecdn.luogu.com.cn/columba/loader.20261018-2305.css" />
+    <script src="https://fecdn.luogu.com.cn/columba/vendor.20261018-2305.js" charset="utf-8" defer></script>
+        <link rel="canonical" href="https://www.luogu.com.cn/article/yjb8trzu" />
+    <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"P17725 [SCP-S 2026] \u5927\u96e8 \/ rain","description":"\u6700\u540e 10min \u624d\u4f1a\u3002\n\u53d1\u73b0\u95ee\u9898\u7b49\u4e8e\u627e\u4e00\u4e2a\u5e8f\u5217 b \u4f7f\u5f97 a_{i-1}\u2295b_{i-1}\\le a_i\u2295b_i \u6c42 \\min(\\sum[b_{i-1}=b_i])\u3002\n\u4e5f\u5c31\u662f\u8bf4\u95ee\u9898\u7b49\u4ef7\u4e8e\u5212\u5206\u6700\u5c0f\u6bb5\u6570\uff0c\u4f7f\u5f97\u6bcf\u4e00\u6bb5\u5f02\u6216\u4e00\u4e2a\u503c\u540e\u5408\u6cd5\uff0c\u4e8e\u662f\u6211\u4eec\u8bbe\u2026","genre":"\u9898\u89e3","author":{"@type":"Person","name":"_Yonder_"},"datePublished":"2026-10-18T00:04:02+08:00"}</script>
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="P17725 [SCP-S 2026] 大雨 / rain" />
+    <meta property="og:description" content="最后 10min 才会。
+发现问题等于找一个序列 b 使得 a_{i-1}⊕b_{i-1}\le a_i⊕b_i 求 \min(\sum[b_{i-1}=b_i])。
+也就是说问题等价于划分最小段数，使得每一段异或一个值后合法，于是我们设…" />
+    <meta property="article:section" content="题解" />
+    <meta property="article:author" content="_Yonder_" />
+    <meta property="article:published_time" content="2026-10-18T00:04:02+08:00" />
+    <meta property="og:url" content="https://www.luogu.com.cn/article/yjb8trzu" />
+    <meta property="og:site_name" content="洛谷专栏" />
+    <script id="luogu-theme" type="application/json">{"id":1,"lNavi":{"back":"#ffffff","fore":"#262626","logo":null},"lBody":{"back":"#f0f4fa","blur":1000,"fade":1000,"image":"https:\/\/cdn.luogu.com.cn\/images\/bg\/fe\/luogu4-bg-l.jpg","midOpts":{"size":"cover"}},"dNavi":{"back":"#595959","fore":"#e6e6e6","logo":"#ffffff"},"dBody":{"back":"#262626","blur":1000,"fade":1000,"image":"https:\/\/cdn.luogu.com.cn\/images\/bg\/fe\/luogu4-bg-d.jpg","midOpts":{"size":"cover"}}}</script>
+    <style>body {  }</style>
+</head>
+<body>
+<div id="app">
+    <noscript>
+        <h3>请<b style="color:#f00;">不要禁用</b>脚本，否则网页无法正常加载</h3>
+    </noscript>
+        <article>
+        <h1>P17725 [SCP-S 2026] 大雨 / rain</h1>
+        <p style="font-size: .75em;">
+            <a rel="author">_Yonder_</a>
+            ·
+            <time datetime="2026-10-18T00:04:02+08:00">2026-10-18 00:04:02</time>
+            ·
+            <a href="/article?category=2">题解</a>
+        </p>
+
+        <p>最后 10min 才会。</p>
+<p>发现问题等于找一个序列 <la-tex display="inline">b</la-tex> 使得 <la-tex display="inline">a_{i-1}⊕b_{i-1}\le a_i⊕b_i</la-tex> 求 <la-tex display="inline">\min(\sum[b_{i-1}=b_i])</la-tex>。</p>
+<p>也就是说问题等价于划分最小段数，使得每一段异或一个值后合法，于是我们设 <la-tex display="inline">1\sim n</la-tex> 最小可以划分为 <la-tex display="inline">g_n</la-tex> 段，那么答案为 <la-tex display="inline">g_n</la-tex> 或 <la-tex display="inline">g_n-1</la-tex>。</p>
+<p>假设 <la-tex display="inline">a_{i-1},a_i</la-tex> 最高不同位为 <la-tex display="inline">k</la-tex>，则它们所在段一定满足异或的 <la-tex display="inline">x</la-tex> 的第 <la-tex display="inline">k</la-tex> 位为 <la-tex display="inline">a_{i-1}</la-tex> 的第 <la-tex display="inline">k</la-tex> 位，于是 <la-tex display="inline">g</la-tex> 就可以 <la-tex display="inline">O(n)</la-tex> 求了。</p>
+<p>我们考虑如何求出是否可以取到 <la-tex display="inline">g_n-1</la-tex>，相当于判断是否存在一个位置满足 <la-tex display="inline">g_{i-1}=g_n-1\land a_{i-1}⊕b_{i-1}\le a_i\le a_{i+1}\le\dots\le a_n</la-tex>，于是我们要对 <la-tex display="inline">i</la-tex> 维护 <la-tex display="inline">d_i</la-tex> 表示在满足 <la-tex display="inline">1\sim i</la-tex> 答案为 <la-tex display="inline">g_i</la-tex> 的情况下，<la-tex display="inline">\min(a_i⊕b_i)</la-tex> 是多少。</p>
+<p>我们考虑对 <la-tex display="inline">g</la-tex> 分层，扫 <la-tex display="inline">i</la-tex> 的时候相当于要么进入下一层，要么不动。需要维护两棵字典树支持：保留与 <la-tex display="inline">a_{i-1}</la-tex> 第 <la-tex display="inline">k</la-tex> 位相同的 <la-tex display="inline">x</la-tex>，加入 <la-tex display="inline">x⊕a_i\ge d_{i-1}</la-tex> 的 <la-tex display="inline">x</la-tex>，查询 <la-tex display="inline">\min(x⊕a_i)</la-tex>。都是基本操作。</p>
+<p>时间复杂度 <la-tex display="inline">O(n\log V)</la-tex>。</p>
+    </article>
+</div>
+</body>
+</html>

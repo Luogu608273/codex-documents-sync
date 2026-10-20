@@ -1,0 +1,65 @@
+[
+  {
+    "test": "PDF samples",
+    "both_io_modes": true,
+    "result": "passed"
+  },
+  {
+    "test": "bracket exhaustive and random",
+    "cases": 6460,
+    "groups": 53,
+    "sum_length_per_group_at_most": 1000,
+    "result": "passed"
+  },
+  {
+    "test": "poly random",
+    "instances": 100,
+    "queries": 10000,
+    "p_q_y_at_most": 1000,
+    "result": "passed"
+  },
+  {
+    "test": "transform exhaustive and random",
+    "cases": 3762,
+    "groups": 14,
+    "sum_n_and_sum_m_per_group_at_most": 2000,
+    "result": "passed"
+  },
+  {
+    "test": "set legal random operations",
+    "instances": 40,
+    "queries": 18390,
+    "n_m_at_most": 2000,
+    "result": "passed"
+  },
+  {
+    "test": "bracket maximum supported ",
+    "seconds": 0.0091,
+    "peak_working_set_mib": 3.57,
+    "result": "passed"
+  },
+  {
+    "test": "poly maximum supported ",
+    "seconds": 0.0096,
+    "peak_working_set_mib": 3.58,
+    "result": "passed"
+  },
+  {
+    "test": "transform maximum supported ",
+    "seconds": 0.0246,
+    "peak_working_set_mib": 34.21,
+    "result": "passed"
+  },
+  {
+    "test": "set maximum supported mixed",
+    "seconds": 0.5687,
+    "peak_working_set_mib": 95.77,
+    "result": "passed"
+  },
+  {
+    "test": "set maximum supported storage",
+    "seconds": 1.0309,
+    "peak_working_set_mib": 187.79,
+    "result": "passed"
+  }
+]

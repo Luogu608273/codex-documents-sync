@@ -1,0 +1,421 @@
+{
+  "verified": true,
+  "root": "https://drive.google.com/drive/folders/1OjA5-QGnYKjpPe5bruFe9bW6FBlmMOlE",
+  "fileCount": 13,
+  "files": [
+    {
+      "relative": "bracket/partial.cpp",
+      "expectedSize": 1196,
+      "remote": {
+        "id": "19eupvMUZ0Jitz-_FM72N4y6PNK5I8Jwt",
+        "title": "partial.cpp",
+        "mime_type": null,
+        "size": "1196",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1pUv2bgFAODcZAVy-0azRb2WM35beB8iJ"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "relative": "bracket/solution.md",
+      "expectedSize": 3275,
+      "remote": {
+        "id": "1JxfxGKtPZIZih6ET3QeU1MwKxX-ZI2Qx",
+        "title": "solution.md",
+        "mime_type": null,
+        "size": "3275",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1pUv2bgFAODcZAVy-0azRb2WM35beB8iJ"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "relative": "bracket/std.cpp",
+      "expectedSize": 973,
+      "remote": {
+        "id": "16zxVa4nuRkC5eFghatcEjXBAE66TDnUl",
+        "title": "std.cpp",
+        "mime_type": null,
+        "size": "973",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1pUv2bgFAODcZAVy-0azRb2WM35beB8iJ"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "relative": "poly/partial.cpp",
+      "expectedSize": 1131,
+      "remote": {
+        "id": "1xROuijEVGQKqHMcXsylz3ryed061wO8s",
+        "title": "partial.cpp",
+        "mime_type": null,
+        "size": "1131",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1d26n3RjtmHT_9w_k7Wr8h883UJPwDrGj"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "relative": "poly/solution.md",
+      "expectedSize": 3381,
+      "remote": {
+        "id": "1psuWNZkDF7IFHU7nV4GtrBZK-m3mJGvk",
+        "title": "solution.md",
+        "mime_type": null,
+        "size": "3381",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1d26n3RjtmHT_9w_k7Wr8h883UJPwDrGj"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "relative": "poly/std.cpp",
+      "expectedSize": 1303,
+      "remote": {
+        "id": "1tc8thDj1IwiG5iNKznsHmImhOFJdqkJa",
+        "title": "std.cpp",
+        "mime_type": null,
+        "size": "1303",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1d26n3RjtmHT_9w_k7Wr8h883UJPwDrGj"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "relative": "set/partial.cpp",
+      "expectedSize": 1043,
+      "remote": {
+        "id": "1by5SQGevzGWlWNM2_iP042MEmqOxr7V9",
+        "title": "partial.cpp",
+        "mime_type": null,
+        "size": "1043",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1BD4d8eehC_eAc_ib5yKOdL7dCr1xQrux"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "relative": "set/solution.md",
+      "expectedSize": 6033,
+      "remote": {
+        "id": "1OwFTy3bvB5Twmy8jlhKw1ZnVLwtRQcCX",
+        "title": "solution.md",
+        "mime_type": null,
+        "size": "6033",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1BD4d8eehC_eAc_ib5yKOdL7dCr1xQrux"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "relative": "set/std.cpp",
+      "expectedSize": 3905,
+      "remote": {
+        "id": "1C8Bx2u2bmMb6QnK7gUQuSqmaPbA4AXkU",
+        "title": "std.cpp",
+        "mime_type": null,
+        "size": "3905",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1BD4d8eehC_eAc_ib5yKOdL7dCr1xQrux"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "relative": "transform/partial.cpp",
+      "expectedSize": 1318,
+      "remote": {
+        "id": "1gI4Mrlhxjiv49Y5ramPx18GjpgOvIp0_",
+        "title": "partial.cpp",
+        "mime_type": null,
+        "size": "1318",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1O_btu4dlWCOrvrvkiid54VPrTroQShVt"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "relative": "transform/solution.md",
+      "expectedSize": 5212,
+      "remote": {
+        "id": "1L7vW4_fgazDK1bRrzIfJyBM8CbKmHTPM",
+        "title": "solution.md",
+        "mime_type": null,
+        "size": "5212",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1O_btu4dlWCOrvrvkiid54VPrTroQShVt"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "relative": "transform/std.cpp",
+      "expectedSize": 2545,
+      "remote": {
+        "id": "1-1KjUcd0U54xE9cU_nWm_TV4fDq2XasD",
+        "title": "std.cpp",
+        "mime_type": null,
+        "size": "2545",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1O_btu4dlWCOrvrvkiid54VPrTroQShVt"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    },
+    {
+      "relative": "验证记录.md",
+      "expectedSize": 11059,
+      "remote": {
+        "id": "19dR1x-OMOsu-2WrhRuA0WP2JOcLg1Nv9",
+        "title": "验证记录.md",
+        "mime_type": null,
+        "size": "11059",
+        "url": null,
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1OjA5-QGnYKjpPe5bruFe9bW6FBlmMOlE"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      }
+    }
+  ],
+  "folders": [
+    {
+      "name": "bracket",
+      "entries": [
+        {
+          "id": "19eupvMUZ0Jitz-_FM72N4y6PNK5I8Jwt",
+          "name": "partial.cpp",
+          "size": 1196
+        },
+        {
+          "id": "1JxfxGKtPZIZih6ET3QeU1MwKxX-ZI2Qx",
+          "name": "solution.md",
+          "size": 3275
+        },
+        {
+          "id": "16zxVa4nuRkC5eFghatcEjXBAE66TDnUl",
+          "name": "std.cpp",
+          "size": 973
+        }
+      ]
+    },
+    {
+      "name": "poly",
+      "entries": [
+        {
+          "id": "1xROuijEVGQKqHMcXsylz3ryed061wO8s",
+          "name": "partial.cpp",
+          "size": 1131
+        },
+        {
+          "id": "1psuWNZkDF7IFHU7nV4GtrBZK-m3mJGvk",
+          "name": "solution.md",
+          "size": 3381
+        },
+        {
+          "id": "1tc8thDj1IwiG5iNKznsHmImhOFJdqkJa",
+          "name": "std.cpp",
+          "size": 1303
+        }
+      ]
+    },
+    {
+      "name": "transform",
+      "entries": [
+        {
+          "id": "1gI4Mrlhxjiv49Y5ramPx18GjpgOvIp0_",
+          "name": "partial.cpp",
+          "size": 1318
+        },
+        {
+          "id": "1L7vW4_fgazDK1bRrzIfJyBM8CbKmHTPM",
+          "name": "solution.md",
+          "size": 5212
+        },
+        {
+          "id": "1-1KjUcd0U54xE9cU_nWm_TV4fDq2XasD",
+          "name": "std.cpp",
+          "size": 2545
+        }
+      ]
+    },
+    {
+      "name": "set",
+      "entries": [
+        {
+          "id": "1by5SQGevzGWlWNM2_iP042MEmqOxr7V9",
+          "name": "partial.cpp",
+          "size": 1043
+        },
+        {
+          "id": "1OwFTy3bvB5Twmy8jlhKw1ZnVLwtRQcCX",
+          "name": "solution.md",
+          "size": 6033
+        },
+        {
+          "id": "1C8Bx2u2bmMb6QnK7gUQuSqmaPbA4AXkU",
+          "name": "std.cpp",
+          "size": 3905
+        }
+      ]
+    }
+  ],
+  "rootEntries": [
+    {
+      "id": "19dR1x-OMOsu-2WrhRuA0WP2JOcLg1Nv9",
+      "name": "验证记录.md",
+      "size": "11059"
+    },
+    {
+      "id": "1BD4d8eehC_eAc_ib5yKOdL7dCr1xQrux",
+      "name": "set",
+      "size": null
+    },
+    {
+      "id": "1O_btu4dlWCOrvrvkiid54VPrTroQShVt",
+      "name": "transform",
+      "size": null
+    },
+    {
+      "id": "1d26n3RjtmHT_9w_k7Wr8h883UJPwDrGj",
+      "name": "poly",
+      "size": null
+    },
+    {
+      "id": "1pUv2bgFAODcZAVy-0azRb2WM35beB8iJ",
+      "name": "bracket",
+      "size": null
+    }
+  ],
+  "checks": [
+    "all 13 remote names, sizes and parents match",
+    "all four folders contain exactly std.cpp, solution.md and partial.cpp",
+    "root contains only four problem folders and updated validation record",
+    "original local standard sources have unchanged SHA-256"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "sample": "passed",
+  "seed": 177252026,
+  "exhaustive": 87380,
+  "random": 12000,
+  "seconds": 9.435,
+  "compiler": "TDM-GCC C++17 -O2 -Wall -Wextra",
+  "official_submission": false,
+  "scale": {
+    "n": 1000000,
+    "total_n": 5000000,
+    "seconds": 1.101,
+    "kinds": [
+      "all zero",
+      "ascending",
+      "descending",
+      "30-bit random",
+      "4-bit random"
+    ],
+    "allocated_nodes": [
+      30,
+      2000004,
+      2000009,
+      142,
+      11812313
+    ]
+  },
+  "std_sha256": "9848ea49aba17a617706d7c505fcebd080354780b3074299aae3851ca88e4406"
+}

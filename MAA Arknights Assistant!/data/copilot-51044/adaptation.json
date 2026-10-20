@@ -1,0 +1,172 @@
+{
+  "snapshot": "operators-2026-10-20.json",
+  "operators": [
+    {
+      "name": "维什戴尔",
+      "status": "borrow",
+      "requirements": {
+        "elite": 2,
+        "level": 90,
+        "module": 1,
+        "skill_level": 10
+      },
+      "module_level_manual": 3
+    },
+    {
+      "name": "逻各斯",
+      "status": "owned_requirements_met",
+      "snapshot": {
+        "id": "char_4133_logos",
+        "name": "逻各斯",
+        "level": 60,
+        "evolvePhase": 2,
+        "mainSkillLevel": 7,
+        "skills": [
+          {
+            "id": "skchr_logos_1",
+            "level": 3
+          },
+          {
+            "id": "skchr_logos_2",
+            "level": 3
+          },
+          {
+            "id": "skchr_logos_3",
+            "level": 3
+          }
+        ],
+        "equips": [
+          {
+            "id": "uniequip_003_logos",
+            "type": "Y",
+            "level": 0
+          },
+          {
+            "id": "uniequip_002_logos",
+            "type": "D",
+            "level": 3
+          }
+        ],
+        "potentialRank": 1
+      },
+      "requirements": {
+        "elite": 2,
+        "level": 60,
+        "module": 4,
+        "skill_level": 10
+      }
+    },
+    {
+      "name": "克洛丝",
+      "status": "owned_requirements_met",
+      "snapshot": {
+        "id": "char_124_kroos",
+        "name": "克洛丝",
+        "level": 55,
+        "evolvePhase": 1,
+        "mainSkillLevel": 7,
+        "skills": [
+          {
+            "id": "skchr_kroos_1",
+            "level": 0
+          }
+        ],
+        "equips": [],
+        "potentialRank": 6
+      },
+      "requirements": {
+        "elite": 1,
+        "level": 55,
+        "skill_level": 7
+      }
+    },
+    {
+      "name": "塞雷娅",
+      "status": "owned_requirements_met",
+      "snapshot": {
+        "id": "char_202_demkni",
+        "name": "塞雷娅",
+        "level": 1,
+        "evolvePhase": 2,
+        "mainSkillLevel": 7,
+        "skills": [
+          {
+            "id": "skchr_demkni_1",
+            "level": 3
+          },
+          {
+            "id": "skchr_demkni_2",
+            "level": 0
+          },
+          {
+            "id": "skchr_demkni_3",
+            "level": 0
+          }
+        ],
+        "equips": [
+          {
+            "id": "uniequip_002_demkni",
+            "type": "X",
+            "level": 0
+          },
+          {
+            "id": "uniequip_003_demkni",
+            "type": "Y",
+            "level": 0
+          }
+        ],
+        "potentialRank": 1
+      },
+      "requirements": {
+        "elite": 2,
+        "level": 1,
+        "skill_level": 10,
+        "module": 0
+      }
+    },
+    {
+      "name": "结城理",
+      "status": "owned_requirements_met",
+      "snapshot": {
+        "id": "char_4217_makoto",
+        "name": "结城理",
+        "level": 60,
+        "evolvePhase": 2,
+        "mainSkillLevel": 7,
+        "skills": [
+          {
+            "id": "skchr_makoto_1",
+            "level": 0
+          },
+          {
+            "id": "skchr_makoto_2",
+            "level": 0
+          },
+          {
+            "id": "skchr_makoto_3",
+            "level": 3
+          }
+        ],
+        "equips": [
+          {
+            "id": "uniequip_002_makoto",
+            "type": "Y",
+            "level": 3
+          }
+        ],
+        "potentialRank": 2
+      },
+      "requirements": {
+        "elite": 2,
+        "level": 60,
+        "skill_level": 10,
+        "module": 2
+      }
+    }
+  ],
+  "borrow_count": 1,
+  "combat_verified": false,
+  "original_logos_level": 90,
+  "adapted_logos_level": 60,
+  "adapted_level_is_proven_minimum": false
+}

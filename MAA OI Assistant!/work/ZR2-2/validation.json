@@ -1,0 +1,23 @@
+[
+  {
+    "problem": "bracket",
+    "cases": 8460,
+    "seconds": 0.008980299986433238
+  },
+  {
+    "problem": "poly",
+    "instances": 160,
+    "queries": 16000
+  },
+  {
+    "problem": "transform",
+    "cases": 9762,
+    "seconds": 0.03344449994619936
+  },
+  {
+    "problem": "set",
+    "random_instances": 60,
+    "random_queries": 23639,
+    "targeted_queries": 124
+  }
+]

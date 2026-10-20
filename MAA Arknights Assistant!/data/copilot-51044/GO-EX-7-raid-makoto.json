@@ -1,0 +1,128 @@
+{
+  "stage_name": "act37side_ex07",
+  "minimum_required": "v6.18.0",
+  "doc": {
+    "title": "GO-EX-7 突袭｜结城理补强｜个人练度适配（待实测）",
+    "details": "基于 prts://51044 修改，原 JSON 作者：小卡拉帕鲁灰。\n本地个人修改版，未上传覆盖原作业；2026-10-20 根据一图流快照适配，尚未实战验证。\n只标记突袭难度；请在 GO-EX-7 突袭编队选择页使用。\n自有：逻各斯精二60，1技能专三，Δ模组三级；结城理精二60，3技能专三，Y模组三级；克洛丝精一55，1技能7级；塞雷娅精二1，1技能专三，不带模组。\n唯一助战：维什戴尔，精二90，3技能专三，X模组三级。推荐自动编队，缺一人借助战；关闭额外补信赖，不要用忽略练度要求代替助战核对。\n结城理在原四人部署完成后，部署于 MAA 坐标(7,4)，朝下，3技能好了就用。其替身菱形范围覆盖右侧通路及逻各斯(9,4)，三技能攻击替身可对空；攻击替身受致命伤后可切换为治疗替身。这里不强制连续点击技能切换治疗形态。\n突袭有额外的大容量物资运输艇且部分初始位置改变；保留原防空干员。保留原四人的部署顺序，结城理最后加入，避免额外费用推迟原防线成型。\n原作业要求逻各斯满级。此版将其编队门槛改为当前60级，并增加结城理补强；这是待验证的个人配置，不是已经验证的最低练度或通关保证。\nMAA v6.18.0 的 requirements 不校验模组等级；请手动确认上述三级模组及借用干员。不要额外携带干员，场上5名干员加最多3个魂灵之影按8个部署位预算。"
+  },
+  "opers": [
+    {
+      "name": "维什戴尔",
+      "skill": 3,
+      "skill_usage": 1,
+      "requirements": {
+        "elite": 2,
+        "level": 90,
+        "module": 1,
+        "skill_level": 10
+      }
+    },
+    {
+      "name": "逻各斯",
+      "skill": 1,
+      "skill_usage": 0,
+      "requirements": {
+        "elite": 2,
+        "level": 60,
+        "module": 4,
+        "skill_level": 10
+      }
+    },
+    {
+      "name": "克洛丝",
+      "skill": 1,
+      "skill_usage": 0,
+      "requirements": {
+        "elite": 1,
+        "level": 55,
+        "skill_level": 7
+      }
+    },
+    {
+      "name": "塞雷娅",
+      "skill": 1,
+      "skill_usage": 0,
+      "requirements": {
+        "elite": 2,
+        "level": 1,
+        "skill_level": 10,
+        "module": 0
+      }
+    },
+    {
+      "name": "结城理",
+      "skill": 3,
+      "skill_usage": 1,
+      "requirements": {
+        "elite": 2,
+        "level": 60,
+        "skill_level": 10,
+        "module": 2
+      }
+    }
+  ],
+  "groups": [],
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "SpeedUp",
+      "costs": 20
+    },
+    {
+      "name": "维什戴尔",
+      "location": [
+        3,
+        4
+      ],
+      "direction": "Right",
+      "type": "Deploy"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "name": "逻各斯",
+      "location": [
+        9,
+        4
+      ],
+      "direction": "Left",
+      "type": "Deploy"
+    },
+    {
+      "name": "克洛丝",
+      "location": [
+        2,
+        4
+      ],
+      "direction": "Up",
+      "type": "Deploy"
+    },
+    {
+      "name": "塞雷娅",
+      "location": [
+        2,
+        6
+      ],
+      "direction": "Right",
+      "type": "Deploy"
+    },
+    {
+      "type": "Deploy",
+      "name": "结城理",
+      "location": [
+        7,
+        4
+      ],
+      "direction": "Down",
+      "doc": "右路补强：3技能攻击替身兼顾地面与空中，受致命伤后可转治疗。"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "version": 3,
+  "difficulty": 2
+}
