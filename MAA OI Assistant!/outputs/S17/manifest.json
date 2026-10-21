@@ -1,0 +1,91 @@
+{
+  "group": "S17",
+  "date": "2026-10-21",
+  "status": "locally_verified_not_submitted",
+  "files": [
+    {
+      "path": "A_sam/partial.cpp",
+      "size": 646,
+      "sha256": "616cbd07e3d139b344328b1fd0420669bf6e82bc5f0c865a8ba0a2b1b0c9737d",
+      "md5": "ded843c0ca9982d496fecf25ce96c266"
+    },
+    {
+      "path": "A_sam/solution.md",
+      "size": 1921,
+      "sha256": "675a88789328caea3a19274c62fcfc1ae02c09eb671e1069793fc4c2289e2fb1",
+      "md5": "0c721ae49804aca5c41c805588bdaad3"
+    },
+    {
+      "path": "A_sam/std.cpp",
+      "size": 716,
+      "sha256": "03aafb586e2200e767a35e59df42986f8f718a04942e493d09f757d73d975d2d",
+      "md5": "01de0fbded2740f05fe941cd350bb502"
+    },
+    {
+      "path": "B_lis/partial.cpp",
+      "size": 757,
+      "sha256": "f8875c96adececd9529b48cefe0fbd84e4762f242a90d9486ad63b8ced867734",
+      "md5": "b5a82f2df1f6b9b55ca585e16b65235f"
+    },
+    {
+      "path": "B_lis/solution.md",
+      "size": 2134,
+      "sha256": "14a2e4f56f7e9df330d80ded58273e71545170546732314f15f8d2128dd9f7dd",
+      "md5": "abd4076f11bf97ba13ad4112f65231c4"
+    },
+    {
+      "path": "B_lis/std.cpp",
+      "size": 708,
+      "sha256": "0c5445d22cf17547dec3f736004e6112aeb4dd098eee840cdeece59bebf07ed9",
+      "md5": "d95b6d695769972067f401618a977ba5"
+    },
+    {
+      "path": "C_wolf/partial.cpp",
+      "size": 1046,
+      "sha256": "64845a03b6afc78b0f3bf1b560088fe0fda4edfe8a94f5ed6be579eda2b38c5c",
+      "md5": "88f700e40a1cbd70699e2fa15e81aba3"
+    },
+    {
+      "path": "C_wolf/solution.md",
+      "size": 4016,
+      "sha256": "e7d5b6850e621ed3f912253e97ee8e3e0f39ea2edd0d9877caf5f640799de005",
+      "md5": "4d1abdb1b4170d7d4b3716d35f73960a"
+    },
+    {
+      "path": "C_wolf/std.cpp",
+      "size": 2796,
+      "sha256": "a2ed2a59fb851de7ec8086c0f1812d31fcca9b48a13683bced577851b1f1b63c",
+      "md5": "3597d6464d7620801539a76dfcb295d4"
+    },
+    {
+      "path": "D_power/partial.cpp",
+      "size": 781,
+      "sha256": "60ce57c520bca27bd9ab9f551eefc4c5c62e28c9d2d7aaa7206c43af93a76cbd",
+      "md5": "fc7b8e7b225a454a872c3c39d86ad294"
+    },
+    {
+      "path": "D_power/solution.md",
+      "size": 3591,
+      "sha256": "60d9ee5adc5eddd57c51564c0c353046a456c6671c101e2aecbd1b95ee6f3bfb",
+      "md5": "c248b6f1f0e794c1e9de8bffa07a03ac"
+    },
+    {
+      "path": "D_power/std.cpp",
+      "size": 2082,
+      "sha256": "7081f09044c3a50715c7b84491250679caeb4ee9939c1655263bc325ef5ac5c7",
+      "md5": "fb2faf1bae81486c15cd0b993ab35b1f"
+    },
+    {
+      "path": "README.md",
+      "size": 1628,
+      "sha256": "9e24da760b6b0bf68408136b617064d4f3169c797cf7deff2cc9c54f7528b684",
+      "md5": "b18a32a37da0abfe8459acef9edb1066"
+    },
+    {
+      "path": "validation.md",
+      "size": 2939,
+      "sha256": "82f7272c8474730835ee7d65e86d5151ec6ac8d18ae299004b2bf3134c6f3c0f",
+      "md5": "b224b95363e1728e44eb3edcb1f64e0a"
+    }
+  ]
+}

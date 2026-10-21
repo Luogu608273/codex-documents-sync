@@ -1,0 +1,91 @@
+{
+  "group": "N17",
+  "date": "2026-10-21",
+  "status": "locally_verified_not_submitted",
+  "files": [
+    {
+      "path": "A_median/partial.cpp",
+      "size": 834,
+      "sha256": "2547b3107d305fa120c41ab98bd6017ee4a4c2e264bfb02283fe5c5bafa28add",
+      "md5": "b0fa1a867ad9e4622b63e0e4618b0bf4"
+    },
+    {
+      "path": "A_median/solution.md",
+      "size": 2231,
+      "sha256": "718032fdcb24a3fe6390c22329efe9490e564294311e087db57d6b76399b5d0d",
+      "md5": "88a8e75b7cebd28bd9764ef6e1fcd419"
+    },
+    {
+      "path": "A_median/std.cpp",
+      "size": 1221,
+      "sha256": "a9b2291e63750577a155d33ab028b742e60b883b4699512df649ef09a44dcaf6",
+      "md5": "0df6ee178011cf6fbca0ffaa33271b88"
+    },
+    {
+      "path": "B_tramcar/partial.cpp",
+      "size": 696,
+      "sha256": "2853a7b4e54b61eed573899e583e29afbb083f50201dae6850b8d96278156ef0",
+      "md5": "58807f37f8a0747ffa0e0b9b15c00acb"
+    },
+    {
+      "path": "B_tramcar/solution.md",
+      "size": 4936,
+      "sha256": "3b10a8317653f6e52b0f849efb82ea98553c2b25b75ff1ecc05a37548fb74800",
+      "md5": "292b23be14511e9e5349a88b2d80c879"
+    },
+    {
+      "path": "B_tramcar/std.cpp",
+      "size": 1526,
+      "sha256": "92c22e23ffd0d18277c2825eb59fb5767f1d60fc143f148d931dac6755c76f35",
+      "md5": "d3e4badf6a5cd1e4c39d03bb1664b43a"
+    },
+    {
+      "path": "C_connected/partial.cpp",
+      "size": 1854,
+      "sha256": "18462a1b3c4ff9dc7a0867d25119c5fc96b29d7c7f85200f9525382c5f8bdf1b",
+      "md5": "5647cc99eac8ddd01886f5301dd137c4"
+    },
+    {
+      "path": "C_connected/solution.md",
+      "size": 5023,
+      "sha256": "317afa77f14460a692d85b999104ebe4bb4518c9b5ce38826f88e48ad8aa7e33",
+      "md5": "eadeb8b6470c5afbc2861971daff1d17"
+    },
+    {
+      "path": "C_connected/std.cpp",
+      "size": 2168,
+      "sha256": "1241aade35c02104519e518a648c52b7367746b0709e9b897f31847869145d8e",
+      "md5": "b5621dfe224d5882dd8110ddfd19586b"
+    },
+    {
+      "path": "D_crystal/partial.cpp",
+      "size": 1124,
+      "sha256": "431b33ec3d8b8e8de2e46158305be110809fd0e0e89178eb0967eb27bed88172",
+      "md5": "2890cfa2d0370e60b2eab03b2d0d6731"
+    },
+    {
+      "path": "D_crystal/solution.md",
+      "size": 4141,
+      "sha256": "cbe972ec9f932e03fe017027cbb7a8634d5b5b3cb6b4ea77d9ef7565ef10c4e9",
+      "md5": "e9fef0c9a6a212542b54d5cc05924a70"
+    },
+    {
+      "path": "D_crystal/std.cpp",
+      "size": 2089,
+      "sha256": "021ae7b028acb621c69ba5c95242138593f0512ab9a85a13ff18b0f693db5426",
+      "md5": "e8dd50ac6ed3ea6a34d176e170dc2155"
+    },
+    {
+      "path": "README.md",
+      "size": 1720,
+      "sha256": "db91e3696f7a883c8e10d288ef0590cf4eed9ef54018261e049f998f4d17bc50",
+      "md5": "848851e111e9c4c5c0e18b657595cb3a"
+    },
+    {
+      "path": "validation.md",
+      "size": 3182,
+      "sha256": "c5c82359a84aec5d647caf7e4227a5657959085b4d70680a58b85fd0e910faea",
+      "md5": "68300a0fc330cf474a11787b88d5fdee"
+    }
+  ]
+}

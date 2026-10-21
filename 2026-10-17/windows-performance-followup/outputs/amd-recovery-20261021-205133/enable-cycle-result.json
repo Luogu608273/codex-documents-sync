@@ -1,0 +1,23 @@
+﻿{
+    "Started":  "2026-10-21T20:54:44.7750759+08:00",
+    "Before":  [
+                   {
+                       "Name":  "Intel(R) UHD Graphics 770",
+                       "Status":  "OK",
+                       "ConfigManagerErrorCode":  0,
+                       "DriverVersion":  "31.0.101.3678"
+                   },
+                   {
+                       "Name":  "Radeon RX550/550 Series",
+                       "Status":  "OK",
+                       "ConfigManagerErrorCode":  0,
+                       "DriverVersion":  "31.0.21925.1001"
+                   }
+               ],
+    "DisableOutput":  "Microsoft PnP 工具\r\n\r\n正在禁用设备:          PCI\\VEN_1002\u0026DEV_699F\u0026SUBSYS_00001002\u0026REV_C7\\4\u00262BA2138\u00260\u00260008\r\n已成功禁用设备。\r\n\r\n",
+    "DisableExit":  0,
+    "EnableOutput":  "Microsoft PnP 工具\r\n\r\n正在启用设备:          PCI\\VEN_1002\u0026DEV_699F\u0026SUBSYS_00001002\u0026REV_C7\\4\u00262BA2138\u00260\u00260008\r\n已成功启用设备。\r\n\r\n",
+    "EnableExit":  0,
+    "After":  null,
+    "Error":  null
+}

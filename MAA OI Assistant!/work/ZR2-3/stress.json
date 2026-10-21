@@ -1,0 +1,82 @@
+[
+  {
+    "problem": "color",
+    "program": "std",
+    "case": "20 * N=100000, all A",
+    "seconds": 0.015,
+    "output_tokens": 20,
+    "expected_checked": true
+  },
+  {
+    "problem": "color",
+    "program": "partial",
+    "case": "20 * N=1000, quadratic worst case",
+    "seconds": 0.021,
+    "output_tokens": 20,
+    "expected_checked": true
+  },
+  {
+    "problem": "greedy",
+    "program": "std",
+    "case": "maximum score, A=B=150",
+    "seconds": 0.202,
+    "output_tokens": 1,
+    "expected_checked": true
+  },
+  {
+    "problem": "greedy",
+    "program": "std",
+    "case": "dense reachable states, A=149 B=150",
+    "seconds": 0.208,
+    "output_tokens": 1,
+    "expected_checked": false
+  },
+  {
+    "problem": "brackets",
+    "program": "std",
+    "case": "400000 right insertions, maximum sum",
+    "seconds": 0.345,
+    "output_tokens": 400000,
+    "expected_checked": true
+  },
+  {
+    "problem": "brackets",
+    "program": "std",
+    "case": "400000 mixed insertions, negative equal values",
+    "seconds": 0.395,
+    "output_tokens": 400000,
+    "expected_checked": true
+  },
+  {
+    "problem": "noise",
+    "program": "std",
+    "case": "T=3 N=500000 alternating signs, repeated LCP worst case",
+    "seconds": 0.837,
+    "output_tokens": 3,
+    "expected_checked": true
+  },
+  {
+    "problem": "noise",
+    "program": "std",
+    "case": "N=500000, no valid interval",
+    "seconds": 0.211,
+    "output_tokens": 1,
+    "expected_checked": true
+  },
+  {
+    "problem": "noise",
+    "program": "std",
+    "case": "N=500000 random full alphabet, performance only",
+    "seconds": 0.165,
+    "output_tokens": 1,
+    "expected_checked": false
+  },
+  {
+    "problem": "noise",
+    "program": "partial",
+    "case": "N=2000 alternating signs",
+    "seconds": 0.007,
+    "output_tokens": 1,
+    "expected_checked": true
+  }
+]

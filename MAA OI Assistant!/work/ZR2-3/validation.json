@@ -1,0 +1,10 @@
+{
+  "seed": 20261021,
+  "checks": [
+    "all complete PDF samples, 8 LOCAL and 8 file-I/O programs",
+    "color: 984 exhaustive/random independent interval-cover cases",
+    "greedy: 240 permutation brute-force cases and 40 A=B knapsack cases",
+    "brackets: 500 mixed-query cases (13079 answers) against balance DP",
+    "noise: 1626 exhaustive/random cubic-brute cases"
+  ]
+}

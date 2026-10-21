@@ -1,0 +1,11 @@
+[
+  "sam: 100 strings, all intervals versus literal substring enumeration; file IO passed.",
+  "lis: 933 permutations, rebuilding each filtered sequence and quadratic LIS; file IO passed.",
+  "wolf: 720 cases versus all nonadjacent wolf masks; multi-case reset and file IO passed.",
+  "power: 12 weight sets including 1 and P-1; 24,336 queries versus weighted complete knapsack; file IO passed.",
+  "power: 312 high-bit queries versus independent rational generating-function parity extraction (Bostan-Mori), including 2^30-1.",
+  "median: 481 arrays versus all odd-length partitions, without assuming two blocks; file IO passed.",
+  "tramcar: 160 tiny cases, all affordable fillings and exact siding-state search; original 3 samples and K=0 file IO passed.",
+  "connected: 276 inputs; oracle enumerates ALL graphs with loops on up to 5 labeled vertices, not just edge deletions; file IO passed.",
+  "crystal: 200 cases versus BFS over all legal deletion sequences; original samples and file IO passed."
+]

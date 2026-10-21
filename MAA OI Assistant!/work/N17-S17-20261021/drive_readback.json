@@ -1,0 +1,1942 @@
+{
+  "date": "2026-10-21",
+  "folders": {
+    "N17": {
+      "id": "1eXM8z3zRFNW1mOJmYlaomODQofVfj3Fn",
+      "url": "https://drive.google.com/drive/folders/1eXM8z3zRFNW1mOJmYlaomODQofVfj3Fn",
+      "children": {
+        "A_median": "1V-iI1Zngx7-71fiwWMa1thWiCFEqIM3a",
+        "B_tramcar": "1ZE49bFtULRxpjD3lxkWUgjaj1DvEMuY4",
+        "C_connected": "1MW8r5j0PVBjillm8s1pDqA9EW-8ERAsN",
+        "D_crystal": "1QQ82rrG_DnR0FnSDehgEWViKeAOrdhIU"
+      }
+    },
+    "S17": {
+      "id": "1OvV1oKU8KHd7egjcOvhjgvTjQQ-iJZnw",
+      "url": "https://drive.google.com/drive/folders/1OvV1oKU8KHd7egjcOvhjgvTjQQ-iJZnw",
+      "children": {
+        "A_sam": "1vJHMFvv0I8ZNlSe5TX78SAvNmlxXayDP",
+        "B_lis": "1BttpMRGJish25FRMpC7pW7VMFwGU9iT4",
+        "C_wolf": "1BBA3bhMqPQZBRYy4jErzk9hGHOYtxILz",
+        "D_power": "1KRn0OIFuKE9e--PFo67czuu7NkJ62jS0"
+      }
+    }
+  },
+  "files": [
+    {
+      "file": "N17/A_median/partial.cpp",
+      "id": "19dh4Kt3pQufb3lYgzYMjzjkx0OhqOCT6",
+      "expectedSize": 834,
+      "metadata": {
+        "id": "19dh4Kt3pQufb3lYgzYMjzjkx0OhqOCT6",
+        "title": "partial.cpp",
+        "mime_type": null,
+        "size": "834",
+        "url": "https://drive.google.com/file/d/19dh4Kt3pQufb3lYgzYMjzjkx0OhqOCT6/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/19dh4Kt3pQufb3lYgzYMjzjkx0OhqOCT6/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1V-iI1Zngx7-71fiwWMa1thWiCFEqIM3a"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "N17/A_median/solution.md",
+      "id": "19OyoMJdDMGQrkdnL-0-4zhArFaKndxuv",
+      "expectedSize": 2231,
+      "metadata": {
+        "id": "19OyoMJdDMGQrkdnL-0-4zhArFaKndxuv",
+        "title": "solution.md",
+        "mime_type": null,
+        "size": "2231",
+        "url": "https://drive.google.com/file/d/19OyoMJdDMGQrkdnL-0-4zhArFaKndxuv/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/19OyoMJdDMGQrkdnL-0-4zhArFaKndxuv/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1V-iI1Zngx7-71fiwWMa1thWiCFEqIM3a"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "N17/A_median/std.cpp",
+      "id": "1PbJCEs9Uq1M6gn1sApA6uWr3YbrG2IuU",
+      "expectedSize": 1221,
+      "metadata": {
+        "id": "1PbJCEs9Uq1M6gn1sApA6uWr3YbrG2IuU",
+        "title": "std.cpp",
+        "mime_type": null,
+        "size": "1221",
+        "url": "https://drive.google.com/file/d/1PbJCEs9Uq1M6gn1sApA6uWr3YbrG2IuU/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1PbJCEs9Uq1M6gn1sApA6uWr3YbrG2IuU/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1V-iI1Zngx7-71fiwWMa1thWiCFEqIM3a"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "N17/B_tramcar/partial.cpp",
+      "id": "1G8V6wNuElq1Efg2cPXhlwlF2Yi5gh-49",
+      "expectedSize": 696,
+      "metadata": {
+        "id": "1G8V6wNuElq1Efg2cPXhlwlF2Yi5gh-49",
+        "title": "partial.cpp",
+        "mime_type": null,
+        "size": "696",
+        "url": "https://drive.google.com/file/d/1G8V6wNuElq1Efg2cPXhlwlF2Yi5gh-49/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1G8V6wNuElq1Efg2cPXhlwlF2Yi5gh-49/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1ZE49bFtULRxpjD3lxkWUgjaj1DvEMuY4"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "N17/B_tramcar/solution.md",
+      "id": "1oUbDguAJSIiCazYEezTx9aUH8R-cinSV",
+      "expectedSize": 4936,
+      "metadata": {
+        "id": "1oUbDguAJSIiCazYEezTx9aUH8R-cinSV",
+        "title": "solution.md",
+        "mime_type": null,
+        "size": "4936",
+        "url": "https://drive.google.com/file/d/1oUbDguAJSIiCazYEezTx9aUH8R-cinSV/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1oUbDguAJSIiCazYEezTx9aUH8R-cinSV/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1ZE49bFtULRxpjD3lxkWUgjaj1DvEMuY4"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "N17/B_tramcar/std.cpp",
+      "id": "1x8KtuBwTuUd-_Z8nL6_ss2aICw7e3zJR",
+      "expectedSize": 1526,
+      "metadata": {
+        "id": "1x8KtuBwTuUd-_Z8nL6_ss2aICw7e3zJR",
+        "title": "std.cpp",
+        "mime_type": null,
+        "size": "1526",
+        "url": "https://drive.google.com/file/d/1x8KtuBwTuUd-_Z8nL6_ss2aICw7e3zJR/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1x8KtuBwTuUd-_Z8nL6_ss2aICw7e3zJR/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1ZE49bFtULRxpjD3lxkWUgjaj1DvEMuY4"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "N17/C_connected/partial.cpp",
+      "id": "1mF2bIk799KUSCEUEH0XWOMYd5PkZfj2n",
+      "expectedSize": 1854,
+      "metadata": {
+        "id": "1mF2bIk799KUSCEUEH0XWOMYd5PkZfj2n",
+        "title": "partial.cpp",
+        "mime_type": null,
+        "size": "1854",
+        "url": "https://drive.google.com/file/d/1mF2bIk799KUSCEUEH0XWOMYd5PkZfj2n/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1mF2bIk799KUSCEUEH0XWOMYd5PkZfj2n/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1MW8r5j0PVBjillm8s1pDqA9EW-8ERAsN"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "N17/C_connected/solution.md",
+      "id": "1qNJssweu3dkHpZBQO8KK7K7HwZby5Ncy",
+      "expectedSize": 5023,
+      "metadata": {
+        "id": "1qNJssweu3dkHpZBQO8KK7K7HwZby5Ncy",
+        "title": "solution.md",
+        "mime_type": null,
+        "size": "5023",
+        "url": "https://drive.google.com/file/d/1qNJssweu3dkHpZBQO8KK7K7HwZby5Ncy/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1qNJssweu3dkHpZBQO8KK7K7HwZby5Ncy/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1MW8r5j0PVBjillm8s1pDqA9EW-8ERAsN"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "N17/C_connected/std.cpp",
+      "id": "1gJN-FvxBSNdEb7lWLFzlajRzfamWWoEk",
+      "expectedSize": 2168,
+      "metadata": {
+        "id": "1gJN-FvxBSNdEb7lWLFzlajRzfamWWoEk",
+        "title": "std.cpp",
+        "mime_type": null,
+        "size": "2168",
+        "url": "https://drive.google.com/file/d/1gJN-FvxBSNdEb7lWLFzlajRzfamWWoEk/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1gJN-FvxBSNdEb7lWLFzlajRzfamWWoEk/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1MW8r5j0PVBjillm8s1pDqA9EW-8ERAsN"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "N17/D_crystal/partial.cpp",
+      "id": "1A7sCX8jhMWdfs9EL9XMlktrmgzsHGzjo",
+      "expectedSize": 1124,
+      "metadata": {
+        "id": "1A7sCX8jhMWdfs9EL9XMlktrmgzsHGzjo",
+        "title": "partial.cpp",
+        "mime_type": null,
+        "size": "1124",
+        "url": "https://drive.google.com/file/d/1A7sCX8jhMWdfs9EL9XMlktrmgzsHGzjo/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1A7sCX8jhMWdfs9EL9XMlktrmgzsHGzjo/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1QQ82rrG_DnR0FnSDehgEWViKeAOrdhIU"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "N17/D_crystal/solution.md",
+      "id": "1h8F9Om-hwHJfc4292TVscxGzmG9KNJC0",
+      "expectedSize": 4141,
+      "metadata": {
+        "id": "1h8F9Om-hwHJfc4292TVscxGzmG9KNJC0",
+        "title": "solution.md",
+        "mime_type": null,
+        "size": "4141",
+        "url": "https://drive.google.com/file/d/1h8F9Om-hwHJfc4292TVscxGzmG9KNJC0/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1h8F9Om-hwHJfc4292TVscxGzmG9KNJC0/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1QQ82rrG_DnR0FnSDehgEWViKeAOrdhIU"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "N17/D_crystal/std.cpp",
+      "id": "1aJkVqy9U1YuJq9_Hj7Vdh8ES4z9UrG4D",
+      "expectedSize": 2089,
+      "metadata": {
+        "id": "1aJkVqy9U1YuJq9_Hj7Vdh8ES4z9UrG4D",
+        "title": "std.cpp",
+        "mime_type": null,
+        "size": "2089",
+        "url": "https://drive.google.com/file/d/1aJkVqy9U1YuJq9_Hj7Vdh8ES4z9UrG4D/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1aJkVqy9U1YuJq9_Hj7Vdh8ES4z9UrG4D/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1QQ82rrG_DnR0FnSDehgEWViKeAOrdhIU"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "N17/manifest.json",
+      "id": "1_bC9cYCjYYsodqm3Q64kbcpWm_TkhXUv",
+      "expectedSize": 3020,
+      "metadata": {
+        "id": "1_bC9cYCjYYsodqm3Q64kbcpWm_TkhXUv",
+        "title": "manifest.json",
+        "mime_type": null,
+        "size": "3020",
+        "url": "https://drive.google.com/file/d/1_bC9cYCjYYsodqm3Q64kbcpWm_TkhXUv/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1_bC9cYCjYYsodqm3Q64kbcpWm_TkhXUv/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1eXM8z3zRFNW1mOJmYlaomODQofVfj3Fn"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "N17/README.md",
+      "id": "1Sovgg2xltJTZxvfKATM-Zz86uJV6_thh",
+      "expectedSize": 1720,
+      "metadata": {
+        "id": "1Sovgg2xltJTZxvfKATM-Zz86uJV6_thh",
+        "title": "README.md",
+        "mime_type": null,
+        "size": "1720",
+        "url": "https://drive.google.com/file/d/1Sovgg2xltJTZxvfKATM-Zz86uJV6_thh/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1Sovgg2xltJTZxvfKATM-Zz86uJV6_thh/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1eXM8z3zRFNW1mOJmYlaomODQofVfj3Fn"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "N17/validation.md",
+      "id": "190LlMTt8Qa24OcMVW69AJWLtxZ-fEIAX",
+      "expectedSize": 3182,
+      "metadata": {
+        "id": "190LlMTt8Qa24OcMVW69AJWLtxZ-fEIAX",
+        "title": "validation.md",
+        "mime_type": null,
+        "size": "3182",
+        "url": "https://drive.google.com/file/d/190LlMTt8Qa24OcMVW69AJWLtxZ-fEIAX/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/190LlMTt8Qa24OcMVW69AJWLtxZ-fEIAX/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1eXM8z3zRFNW1mOJmYlaomODQofVfj3Fn"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "S17/A_sam/partial.cpp",
+      "id": "1wUiJgRQ-oNWC06Qw2UI-tRMq4hcDXNku",
+      "expectedSize": 646,
+      "metadata": {
+        "id": "1wUiJgRQ-oNWC06Qw2UI-tRMq4hcDXNku",
+        "title": "partial.cpp",
+        "mime_type": null,
+        "size": "646",
+        "url": "https://drive.google.com/file/d/1wUiJgRQ-oNWC06Qw2UI-tRMq4hcDXNku/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1wUiJgRQ-oNWC06Qw2UI-tRMq4hcDXNku/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1vJHMFvv0I8ZNlSe5TX78SAvNmlxXayDP"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "S17/A_sam/solution.md",
+      "id": "1dm8hWsyAWk2W-ATpkopotmntp9-JOVj1",
+      "expectedSize": 1921,
+      "metadata": {
+        "id": "1dm8hWsyAWk2W-ATpkopotmntp9-JOVj1",
+        "title": "solution.md",
+        "mime_type": null,
+        "size": "1921",
+        "url": "https://drive.google.com/file/d/1dm8hWsyAWk2W-ATpkopotmntp9-JOVj1/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1dm8hWsyAWk2W-ATpkopotmntp9-JOVj1/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1vJHMFvv0I8ZNlSe5TX78SAvNmlxXayDP"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "S17/A_sam/std.cpp",
+      "id": "10nYXo7jfALey_78YO3PqojjkIlBGnKQP",
+      "expectedSize": 716,
+      "metadata": {
+        "id": "10nYXo7jfALey_78YO3PqojjkIlBGnKQP",
+        "title": "std.cpp",
+        "mime_type": null,
+        "size": "716",
+        "url": "https://drive.google.com/file/d/10nYXo7jfALey_78YO3PqojjkIlBGnKQP/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/10nYXo7jfALey_78YO3PqojjkIlBGnKQP/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1vJHMFvv0I8ZNlSe5TX78SAvNmlxXayDP"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "S17/B_lis/partial.cpp",
+      "id": "1nyD96Ii6j83zZ6Br0kzKET-s2lMt0FVC",
+      "expectedSize": 757,
+      "metadata": {
+        "id": "1nyD96Ii6j83zZ6Br0kzKET-s2lMt0FVC",
+        "title": "partial.cpp",
+        "mime_type": null,
+        "size": "757",
+        "url": "https://drive.google.com/file/d/1nyD96Ii6j83zZ6Br0kzKET-s2lMt0FVC/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1nyD96Ii6j83zZ6Br0kzKET-s2lMt0FVC/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1BttpMRGJish25FRMpC7pW7VMFwGU9iT4"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "S17/B_lis/solution.md",
+      "id": "1x0P_UBil6NFZ-i8YdW4Zq4XUalvqVbmY",
+      "expectedSize": 2134,
+      "metadata": {
+        "id": "1x0P_UBil6NFZ-i8YdW4Zq4XUalvqVbmY",
+        "title": "solution.md",
+        "mime_type": null,
+        "size": "2134",
+        "url": "https://drive.google.com/file/d/1x0P_UBil6NFZ-i8YdW4Zq4XUalvqVbmY/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1x0P_UBil6NFZ-i8YdW4Zq4XUalvqVbmY/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1BttpMRGJish25FRMpC7pW7VMFwGU9iT4"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "S17/B_lis/std.cpp",
+      "id": "1k1eqqlzdeS5lLfpnbCZXBLfT8PtMiw4c",
+      "expectedSize": 708,
+      "metadata": {
+        "id": "1k1eqqlzdeS5lLfpnbCZXBLfT8PtMiw4c",
+        "title": "std.cpp",
+        "mime_type": null,
+        "size": "708",
+        "url": "https://drive.google.com/file/d/1k1eqqlzdeS5lLfpnbCZXBLfT8PtMiw4c/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1k1eqqlzdeS5lLfpnbCZXBLfT8PtMiw4c/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1BttpMRGJish25FRMpC7pW7VMFwGU9iT4"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "S17/C_wolf/partial.cpp",
+      "id": "1QULmKpN0lmpC12ckX7_eHcD9I4y2PiYl",
+      "expectedSize": 1046,
+      "metadata": {
+        "id": "1QULmKpN0lmpC12ckX7_eHcD9I4y2PiYl",
+        "title": "partial.cpp",
+        "mime_type": null,
+        "size": "1046",
+        "url": "https://drive.google.com/file/d/1QULmKpN0lmpC12ckX7_eHcD9I4y2PiYl/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1QULmKpN0lmpC12ckX7_eHcD9I4y2PiYl/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1BBA3bhMqPQZBRYy4jErzk9hGHOYtxILz"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "S17/C_wolf/solution.md",
+      "id": "1HlBd4DpBh7QUWkLt2LUwUFI99mQEtC3l",
+      "expectedSize": 4016,
+      "metadata": {
+        "id": "1HlBd4DpBh7QUWkLt2LUwUFI99mQEtC3l",
+        "title": "solution.md",
+        "mime_type": null,
+        "size": "4016",
+        "url": "https://drive.google.com/file/d/1HlBd4DpBh7QUWkLt2LUwUFI99mQEtC3l/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1HlBd4DpBh7QUWkLt2LUwUFI99mQEtC3l/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1BBA3bhMqPQZBRYy4jErzk9hGHOYtxILz"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "S17/C_wolf/std.cpp",
+      "id": "1Lf4g9H8V-D3DomOAq7q1RWkRxiQ5LTn0",
+      "expectedSize": 2796,
+      "metadata": {
+        "id": "1Lf4g9H8V-D3DomOAq7q1RWkRxiQ5LTn0",
+        "title": "std.cpp",
+        "mime_type": null,
+        "size": "2796",
+        "url": "https://drive.google.com/file/d/1Lf4g9H8V-D3DomOAq7q1RWkRxiQ5LTn0/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1Lf4g9H8V-D3DomOAq7q1RWkRxiQ5LTn0/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1BBA3bhMqPQZBRYy4jErzk9hGHOYtxILz"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "S17/D_power/partial.cpp",
+      "id": "1pscxRV-r0lmZfmDDzLmN2jVfGvU3Ma_1",
+      "expectedSize": 781,
+      "metadata": {
+        "id": "1pscxRV-r0lmZfmDDzLmN2jVfGvU3Ma_1",
+        "title": "partial.cpp",
+        "mime_type": null,
+        "size": "781",
+        "url": "https://drive.google.com/file/d/1pscxRV-r0lmZfmDDzLmN2jVfGvU3Ma_1/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1pscxRV-r0lmZfmDDzLmN2jVfGvU3Ma_1/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1KRn0OIFuKE9e--PFo67czuu7NkJ62jS0"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "S17/D_power/solution.md",
+      "id": "1xzgYkbJocAkyQ8_dRpLAAGdpyjM4CKFM",
+      "expectedSize": 3591,
+      "metadata": {
+        "id": "1xzgYkbJocAkyQ8_dRpLAAGdpyjM4CKFM",
+        "title": "solution.md",
+        "mime_type": null,
+        "size": "3591",
+        "url": "https://drive.google.com/file/d/1xzgYkbJocAkyQ8_dRpLAAGdpyjM4CKFM/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1xzgYkbJocAkyQ8_dRpLAAGdpyjM4CKFM/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1KRn0OIFuKE9e--PFo67czuu7NkJ62jS0"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "S17/D_power/std.cpp",
+      "id": "1lqgJFJhLyWM_p9V67emMQ_tcbMRrWn9t",
+      "expectedSize": 2082,
+      "metadata": {
+        "id": "1lqgJFJhLyWM_p9V67emMQ_tcbMRrWn9t",
+        "title": "std.cpp",
+        "mime_type": null,
+        "size": "2082",
+        "url": "https://drive.google.com/file/d/1lqgJFJhLyWM_p9V67emMQ_tcbMRrWn9t/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1lqgJFJhLyWM_p9V67emMQ_tcbMRrWn9t/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1KRn0OIFuKE9e--PFo67czuu7NkJ62jS0"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "S17/manifest.json",
+      "id": "1A1T4Bsz1VoYpCMMM3tAOamPPSuVWqVbu",
+      "expectedSize": 2975,
+      "metadata": {
+        "id": "1A1T4Bsz1VoYpCMMM3tAOamPPSuVWqVbu",
+        "title": "manifest.json",
+        "mime_type": null,
+        "size": "2975",
+        "url": "https://drive.google.com/file/d/1A1T4Bsz1VoYpCMMM3tAOamPPSuVWqVbu/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1A1T4Bsz1VoYpCMMM3tAOamPPSuVWqVbu/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1OvV1oKU8KHd7egjcOvhjgvTjQQ-iJZnw"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "S17/README.md",
+      "id": "1RX4lg9K0nGY_tcZ6taT91TgYq3UhRu2x",
+      "expectedSize": 1628,
+      "metadata": {
+        "id": "1RX4lg9K0nGY_tcZ6taT91TgYq3UhRu2x",
+        "title": "README.md",
+        "mime_type": null,
+        "size": "1628",
+        "url": "https://drive.google.com/file/d/1RX4lg9K0nGY_tcZ6taT91TgYq3UhRu2x/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1RX4lg9K0nGY_tcZ6taT91TgYq3UhRu2x/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1OvV1oKU8KHd7egjcOvhjgvTjQQ-iJZnw"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "file": "S17/validation.md",
+      "id": "1oAsCeeCdZIt6lb2r-0cSrXUFmKVEXDGP",
+      "expectedSize": 2939,
+      "metadata": {
+        "id": "1oAsCeeCdZIt6lb2r-0cSrXUFmKVEXDGP",
+        "title": "validation.md",
+        "mime_type": null,
+        "size": "2939",
+        "url": "https://drive.google.com/file/d/1oAsCeeCdZIt6lb2r-0cSrXUFmKVEXDGP/view?usp=drivesdk",
+        "display_url": "https://drive.google.com/file/d/1oAsCeeCdZIt6lb2r-0cSrXUFmKVEXDGP/view?usp=drivesdk",
+        "file_or_folder": null,
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1OvV1oKU8KHd7egjcOvhjgvTjQQ-iJZnw"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    }
+  ],
+  "listings": [
+    {
+      "folder": "N17",
+      "id": "1eXM8z3zRFNW1mOJmYlaomODQofVfj3Fn",
+      "count": 7,
+      "expected": 7,
+      "verified": true,
+      "files": [
+        {
+          "id": "190LlMTt8Qa24OcMVW69AJWLtxZ-fEIAX",
+          "title": "validation.md",
+          "mime_type": "text/markdown",
+          "size": "3182",
+          "url": "https://drive.google.com/file/d/190LlMTt8Qa24OcMVW69AJWLtxZ-fEIAX/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/190LlMTt8Qa24OcMVW69AJWLtxZ-fEIAX/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:28:00.709Z",
+          "modified_time": "2026-10-21T12:28:00.709Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        },
+        {
+          "id": "1Sovgg2xltJTZxvfKATM-Zz86uJV6_thh",
+          "title": "README.md",
+          "mime_type": "text/markdown",
+          "size": "1720",
+          "url": "https://drive.google.com/file/d/1Sovgg2xltJTZxvfKATM-Zz86uJV6_thh/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1Sovgg2xltJTZxvfKATM-Zz86uJV6_thh/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:27:57.741Z",
+          "modified_time": "2026-10-21T12:27:57.741Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        },
+        {
+          "id": "1_bC9cYCjYYsodqm3Q64kbcpWm_TkhXUv",
+          "title": "manifest.json",
+          "mime_type": "application/json",
+          "size": "3020",
+          "url": "https://drive.google.com/file/d/1_bC9cYCjYYsodqm3Q64kbcpWm_TkhXUv/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1_bC9cYCjYYsodqm3Q64kbcpWm_TkhXUv/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:27:54.752Z",
+          "modified_time": "2026-10-21T12:27:54.752Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        },
+        {
+          "id": "1QQ82rrG_DnR0FnSDehgEWViKeAOrdhIU",
+          "title": "D_crystal",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/1QQ82rrG_DnR0FnSDehgEWViKeAOrdhIU",
+          "display_url": "https://drive.google.com/drive/folders/1QQ82rrG_DnR0FnSDehgEWViKeAOrdhIU",
+          "file_or_folder": "folder",
+          "created_time": "2026-10-21T12:25:31.907Z",
+          "modified_time": "2026-10-21T12:25:31.907Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": true
+        },
+        {
+          "id": "1MW8r5j0PVBjillm8s1pDqA9EW-8ERAsN",
+          "title": "C_connected",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/1MW8r5j0PVBjillm8s1pDqA9EW-8ERAsN",
+          "display_url": "https://drive.google.com/drive/folders/1MW8r5j0PVBjillm8s1pDqA9EW-8ERAsN",
+          "file_or_folder": "folder",
+          "created_time": "2026-10-21T12:25:30.918Z",
+          "modified_time": "2026-10-21T12:25:30.918Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": true
+        },
+        {
+          "id": "1ZE49bFtULRxpjD3lxkWUgjaj1DvEMuY4",
+          "title": "B_tramcar",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/1ZE49bFtULRxpjD3lxkWUgjaj1DvEMuY4",
+          "display_url": "https://drive.google.com/drive/folders/1ZE49bFtULRxpjD3lxkWUgjaj1DvEMuY4",
+          "file_or_folder": "folder",
+          "created_time": "2026-10-21T12:25:29.863Z",
+          "modified_time": "2026-10-21T12:25:29.863Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": true
+        },
+        {
+          "id": "1V-iI1Zngx7-71fiwWMa1thWiCFEqIM3a",
+          "title": "A_median",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/1V-iI1Zngx7-71fiwWMa1thWiCFEqIM3a",
+          "display_url": "https://drive.google.com/drive/folders/1V-iI1Zngx7-71fiwWMa1thWiCFEqIM3a",
+          "file_or_folder": "folder",
+          "created_time": "2026-10-21T12:25:28.810Z",
+          "modified_time": "2026-10-21T12:25:28.810Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": true
+        }
+      ]
+    },
+    {
+      "folder": "N17/A_median",
+      "id": "1V-iI1Zngx7-71fiwWMa1thWiCFEqIM3a",
+      "count": 3,
+      "expected": 3,
+      "verified": true,
+      "files": [
+        {
+          "id": "1PbJCEs9Uq1M6gn1sApA6uWr3YbrG2IuU",
+          "title": "std.cpp",
+          "mime_type": "text/x-c++src",
+          "size": "1221",
+          "url": "https://drive.google.com/file/d/1PbJCEs9Uq1M6gn1sApA6uWr3YbrG2IuU/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1PbJCEs9Uq1M6gn1sApA6uWr3YbrG2IuU/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:27:15.657Z",
+          "modified_time": "2026-10-21T12:27:15.657Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        },
+        {
+          "id": "19OyoMJdDMGQrkdnL-0-4zhArFaKndxuv",
+          "title": "solution.md",
+          "mime_type": "text/markdown",
+          "size": "2231",
+          "url": "https://drive.google.com/file/d/19OyoMJdDMGQrkdnL-0-4zhArFaKndxuv/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/19OyoMJdDMGQrkdnL-0-4zhArFaKndxuv/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:27:12.840Z",
+          "modified_time": "2026-10-21T12:27:12.840Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        },
+        {
+          "id": "19dh4Kt3pQufb3lYgzYMjzjkx0OhqOCT6",
+          "title": "partial.cpp",
+          "mime_type": "text/x-c++src",
+          "size": "834",
+          "url": "https://drive.google.com/file/d/19dh4Kt3pQufb3lYgzYMjzjkx0OhqOCT6/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/19dh4Kt3pQufb3lYgzYMjzjkx0OhqOCT6/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:27:01.811Z",
+          "modified_time": "2026-10-21T12:27:01.811Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        }
+      ]
+    },
+    {
+      "folder": "N17/B_tramcar",
+      "id": "1ZE49bFtULRxpjD3lxkWUgjaj1DvEMuY4",
+      "count": 3,
+      "expected": 3,
+      "verified": true,
+      "files": [
+        {
+          "id": "1x8KtuBwTuUd-_Z8nL6_ss2aICw7e3zJR",
+          "title": "std.cpp",
+          "mime_type": "text/x-c++src",
+          "size": "1526",
+          "url": "https://drive.google.com/file/d/1x8KtuBwTuUd-_Z8nL6_ss2aICw7e3zJR/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1x8KtuBwTuUd-_Z8nL6_ss2aICw7e3zJR/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:27:24.029Z",
+          "modified_time": "2026-10-21T12:27:24.029Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        },
+        {
+          "id": "1oUbDguAJSIiCazYEezTx9aUH8R-cinSV",
+          "title": "solution.md",
+          "mime_type": "text/markdown",
+          "size": "4936",
+          "url": "https://drive.google.com/file/d/1oUbDguAJSIiCazYEezTx9aUH8R-cinSV/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1oUbDguAJSIiCazYEezTx9aUH8R-cinSV/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:27:21.022Z",
+          "modified_time": "2026-10-21T12:27:21.022Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        },
+        {
+          "id": "1G8V6wNuElq1Efg2cPXhlwlF2Yi5gh-49",
+          "title": "partial.cpp",
+          "mime_type": "text/x-c++src",
+          "size": "696",
+          "url": "https://drive.google.com/file/d/1G8V6wNuElq1Efg2cPXhlwlF2Yi5gh-49/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1G8V6wNuElq1Efg2cPXhlwlF2Yi5gh-49/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:27:18.352Z",
+          "modified_time": "2026-10-21T12:27:18.352Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        }
+      ]
+    },
+    {
+      "folder": "N17/C_connected",
+      "id": "1MW8r5j0PVBjillm8s1pDqA9EW-8ERAsN",
+      "count": 3,
+      "expected": 3,
+      "verified": true,
+      "files": [
+        {
+          "id": "1gJN-FvxBSNdEb7lWLFzlajRzfamWWoEk",
+          "title": "std.cpp",
+          "mime_type": "text/x-c++src",
+          "size": "2168",
+          "url": "https://drive.google.com/file/d/1gJN-FvxBSNdEb7lWLFzlajRzfamWWoEk/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1gJN-FvxBSNdEb7lWLFzlajRzfamWWoEk/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:27:35.826Z",
+          "modified_time": "2026-10-21T12:27:35.826Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        },
+        {
+          "id": "1qNJssweu3dkHpZBQO8KK7K7HwZby5Ncy",
+          "title": "solution.md",
+          "mime_type": "text/markdown",
+          "size": "5023",
+          "url": "https://drive.google.com/file/d/1qNJssweu3dkHpZBQO8KK7K7HwZby5Ncy/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1qNJssweu3dkHpZBQO8KK7K7HwZby5Ncy/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:27:31.357Z",
+          "modified_time": "2026-10-21T12:27:31.357Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        },
+        {
+          "id": "1mF2bIk799KUSCEUEH0XWOMYd5PkZfj2n",
+          "title": "partial.cpp",
+          "mime_type": "text/x-c++src",
+          "size": "1854",
+          "url": "https://drive.google.com/file/d/1mF2bIk799KUSCEUEH0XWOMYd5PkZfj2n/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1mF2bIk799KUSCEUEH0XWOMYd5PkZfj2n/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:27:26.890Z",
+          "modified_time": "2026-10-21T12:27:26.890Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        }
+      ]
+    },
+    {
+      "folder": "N17/D_crystal",
+      "id": "1QQ82rrG_DnR0FnSDehgEWViKeAOrdhIU",
+      "count": 3,
+      "expected": 3,
+      "verified": true,
+      "files": [
+        {
+          "id": "1aJkVqy9U1YuJq9_Hj7Vdh8ES4z9UrG4D",
+          "title": "std.cpp",
+          "mime_type": "text/x-c++src",
+          "size": "2089",
+          "url": "https://drive.google.com/file/d/1aJkVqy9U1YuJq9_Hj7Vdh8ES4z9UrG4D/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1aJkVqy9U1YuJq9_Hj7Vdh8ES4z9UrG4D/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:27:52.250Z",
+          "modified_time": "2026-10-21T12:27:52.250Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        },
+        {
+          "id": "1h8F9Om-hwHJfc4292TVscxGzmG9KNJC0",
+          "title": "solution.md",
+          "mime_type": "text/markdown",
+          "size": "4141",
+          "url": "https://drive.google.com/file/d/1h8F9Om-hwHJfc4292TVscxGzmG9KNJC0/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1h8F9Om-hwHJfc4292TVscxGzmG9KNJC0/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:27:48.749Z",
+          "modified_time": "2026-10-21T12:27:48.749Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        },
+        {
+          "id": "1A7sCX8jhMWdfs9EL9XMlktrmgzsHGzjo",
+          "title": "partial.cpp",
+          "mime_type": "text/x-c++src",
+          "size": "1124",
+          "url": "https://drive.google.com/file/d/1A7sCX8jhMWdfs9EL9XMlktrmgzsHGzjo/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1A7sCX8jhMWdfs9EL9XMlktrmgzsHGzjo/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:27:45.698Z",
+          "modified_time": "2026-10-21T12:27:45.698Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        }
+      ]
+    },
+    {
+      "folder": "S17",
+      "id": "1OvV1oKU8KHd7egjcOvhjgvTjQQ-iJZnw",
+      "count": 7,
+      "expected": 7,
+      "verified": true,
+      "files": [
+        {
+          "id": "1oAsCeeCdZIt6lb2r-0cSrXUFmKVEXDGP",
+          "title": "validation.md",
+          "mime_type": "text/markdown",
+          "size": "2939",
+          "url": "https://drive.google.com/file/d/1oAsCeeCdZIt6lb2r-0cSrXUFmKVEXDGP/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1oAsCeeCdZIt6lb2r-0cSrXUFmKVEXDGP/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:28:55.842Z",
+          "modified_time": "2026-10-21T12:28:55.842Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        },
+        {
+          "id": "1RX4lg9K0nGY_tcZ6taT91TgYq3UhRu2x",
+          "title": "README.md",
+          "mime_type": "text/markdown",
+          "size": "1628",
+          "url": "https://drive.google.com/file/d/1RX4lg9K0nGY_tcZ6taT91TgYq3UhRu2x/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1RX4lg9K0nGY_tcZ6taT91TgYq3UhRu2x/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:28:53.103Z",
+          "modified_time": "2026-10-21T12:28:53.103Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        },
+        {
+          "id": "1A1T4Bsz1VoYpCMMM3tAOamPPSuVWqVbu",
+          "title": "manifest.json",
+          "mime_type": "application/json",
+          "size": "2975",
+          "url": "https://drive.google.com/file/d/1A1T4Bsz1VoYpCMMM3tAOamPPSuVWqVbu/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1A1T4Bsz1VoYpCMMM3tAOamPPSuVWqVbu/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:28:50.524Z",
+          "modified_time": "2026-10-21T12:28:50.524Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        },
+        {
+          "id": "1KRn0OIFuKE9e--PFo67czuu7NkJ62jS0",
+          "title": "D_power",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/1KRn0OIFuKE9e--PFo67czuu7NkJ62jS0",
+          "display_url": "https://drive.google.com/drive/folders/1KRn0OIFuKE9e--PFo67czuu7NkJ62jS0",
+          "file_or_folder": "folder",
+          "created_time": "2026-10-21T12:25:36.434Z",
+          "modified_time": "2026-10-21T12:25:36.434Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": true
+        },
+        {
+          "id": "1BBA3bhMqPQZBRYy4jErzk9hGHOYtxILz",
+          "title": "C_wolf",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/1BBA3bhMqPQZBRYy4jErzk9hGHOYtxILz",
+          "display_url": "https://drive.google.com/drive/folders/1BBA3bhMqPQZBRYy4jErzk9hGHOYtxILz",
+          "file_or_folder": "folder",
+          "created_time": "2026-10-21T12:25:35.439Z",
+          "modified_time": "2026-10-21T12:25:35.439Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": true
+        },
+        {
+          "id": "1BttpMRGJish25FRMpC7pW7VMFwGU9iT4",
+          "title": "B_lis",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/1BttpMRGJish25FRMpC7pW7VMFwGU9iT4",
+          "display_url": "https://drive.google.com/drive/folders/1BttpMRGJish25FRMpC7pW7VMFwGU9iT4",
+          "file_or_folder": "folder",
+          "created_time": "2026-10-21T12:25:34.486Z",
+          "modified_time": "2026-10-21T12:25:34.486Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": true
+        },
+        {
+          "id": "1vJHMFvv0I8ZNlSe5TX78SAvNmlxXayDP",
+          "title": "A_sam",
+          "mime_type": "application/vnd.google-apps.folder",
+          "size": null,
+          "url": "https://drive.google.com/drive/folders/1vJHMFvv0I8ZNlSe5TX78SAvNmlxXayDP",
+          "display_url": "https://drive.google.com/drive/folders/1vJHMFvv0I8ZNlSe5TX78SAvNmlxXayDP",
+          "file_or_folder": "folder",
+          "created_time": "2026-10-21T12:25:33.125Z",
+          "modified_time": "2026-10-21T12:25:33.125Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": true
+        }
+      ]
+    },
+    {
+      "folder": "S17/A_sam",
+      "id": "1vJHMFvv0I8ZNlSe5TX78SAvNmlxXayDP",
+      "count": 3,
+      "expected": 3,
+      "verified": true,
+      "files": [
+        {
+          "id": "10nYXo7jfALey_78YO3PqojjkIlBGnKQP",
+          "title": "std.cpp",
+          "mime_type": "text/x-c++src",
+          "size": "716",
+          "url": "https://drive.google.com/file/d/10nYXo7jfALey_78YO3PqojjkIlBGnKQP/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/10nYXo7jfALey_78YO3PqojjkIlBGnKQP/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:28:15.632Z",
+          "modified_time": "2026-10-21T12:28:15.632Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        },
+        {
+          "id": "1dm8hWsyAWk2W-ATpkopotmntp9-JOVj1",
+          "title": "solution.md",
+          "mime_type": "text/markdown",
+          "size": "1921",
+          "url": "https://drive.google.com/file/d/1dm8hWsyAWk2W-ATpkopotmntp9-JOVj1/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1dm8hWsyAWk2W-ATpkopotmntp9-JOVj1/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:28:06.113Z",
+          "modified_time": "2026-10-21T12:28:06.113Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        },
+        {
+          "id": "1wUiJgRQ-oNWC06Qw2UI-tRMq4hcDXNku",
+          "title": "partial.cpp",
+          "mime_type": "text/x-c++src",
+          "size": "646",
+          "url": "https://drive.google.com/file/d/1wUiJgRQ-oNWC06Qw2UI-tRMq4hcDXNku/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1wUiJgRQ-oNWC06Qw2UI-tRMq4hcDXNku/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:28:03.326Z",
+          "modified_time": "2026-10-21T12:28:03.326Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        }
+      ]
+    },
+    {
+      "folder": "S17/B_lis",
+      "id": "1BttpMRGJish25FRMpC7pW7VMFwGU9iT4",
+      "count": 3,
+      "expected": 3,
+      "verified": true,
+      "files": [
+        {
+          "id": "1k1eqqlzdeS5lLfpnbCZXBLfT8PtMiw4c",
+          "title": "std.cpp",
+          "mime_type": "text/x-c++src",
+          "size": "708",
+          "url": "https://drive.google.com/file/d/1k1eqqlzdeS5lLfpnbCZXBLfT8PtMiw4c/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1k1eqqlzdeS5lLfpnbCZXBLfT8PtMiw4c/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:28:25.405Z",
+          "modified_time": "2026-10-21T12:28:25.405Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        },
+        {
+          "id": "1x0P_UBil6NFZ-i8YdW4Zq4XUalvqVbmY",
+          "title": "solution.md",
+          "mime_type": "text/markdown",
+          "size": "2134",
+          "url": "https://drive.google.com/file/d/1x0P_UBil6NFZ-i8YdW4Zq4XUalvqVbmY/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1x0P_UBil6NFZ-i8YdW4Zq4XUalvqVbmY/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:28:22.256Z",
+          "modified_time": "2026-10-21T12:28:22.256Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        },
+        {
+          "id": "1nyD96Ii6j83zZ6Br0kzKET-s2lMt0FVC",
+          "title": "partial.cpp",
+          "mime_type": "text/x-c++src",
+          "size": "757",
+          "url": "https://drive.google.com/file/d/1nyD96Ii6j83zZ6Br0kzKET-s2lMt0FVC/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1nyD96Ii6j83zZ6Br0kzKET-s2lMt0FVC/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:28:19.427Z",
+          "modified_time": "2026-10-21T12:28:19.427Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        }
+      ]
+    },
+    {
+      "folder": "S17/C_wolf",
+      "id": "1BBA3bhMqPQZBRYy4jErzk9hGHOYtxILz",
+      "count": 3,
+      "expected": 3,
+      "verified": true,
+      "files": [
+        {
+          "id": "1Lf4g9H8V-D3DomOAq7q1RWkRxiQ5LTn0",
+          "title": "std.cpp",
+          "mime_type": "text/x-c++src",
+          "size": "2796",
+          "url": "https://drive.google.com/file/d/1Lf4g9H8V-D3DomOAq7q1RWkRxiQ5LTn0/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1Lf4g9H8V-D3DomOAq7q1RWkRxiQ5LTn0/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:28:34.554Z",
+          "modified_time": "2026-10-21T12:28:34.554Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        },
+        {
+          "id": "1HlBd4DpBh7QUWkLt2LUwUFI99mQEtC3l",
+          "title": "solution.md",
+          "mime_type": "text/markdown",
+          "size": "4016",
+          "url": "https://drive.google.com/file/d/1HlBd4DpBh7QUWkLt2LUwUFI99mQEtC3l/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1HlBd4DpBh7QUWkLt2LUwUFI99mQEtC3l/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:28:31.900Z",
+          "modified_time": "2026-10-21T12:28:31.900Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        },
+        {
+          "id": "1QULmKpN0lmpC12ckX7_eHcD9I4y2PiYl",
+          "title": "partial.cpp",
+          "mime_type": "text/x-c++src",
+          "size": "1046",
+          "url": "https://drive.google.com/file/d/1QULmKpN0lmpC12ckX7_eHcD9I4y2PiYl/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1QULmKpN0lmpC12ckX7_eHcD9I4y2PiYl/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:28:29.064Z",
+          "modified_time": "2026-10-21T12:28:29.064Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        }
+      ]
+    },
+    {
+      "folder": "S17/D_power",
+      "id": "1KRn0OIFuKE9e--PFo67czuu7NkJ62jS0",
+      "count": 3,
+      "expected": 3,
+      "verified": true,
+      "files": [
+        {
+          "id": "1lqgJFJhLyWM_p9V67emMQ_tcbMRrWn9t",
+          "title": "std.cpp",
+          "mime_type": "text/x-c++src",
+          "size": "2082",
+          "url": "https://drive.google.com/file/d/1lqgJFJhLyWM_p9V67emMQ_tcbMRrWn9t/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1lqgJFJhLyWM_p9V67emMQ_tcbMRrWn9t/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:28:47.889Z",
+          "modified_time": "2026-10-21T12:28:47.889Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        },
+        {
+          "id": "1xzgYkbJocAkyQ8_dRpLAAGdpyjM4CKFM",
+          "title": "solution.md",
+          "mime_type": "text/markdown",
+          "size": "3591",
+          "url": "https://drive.google.com/file/d/1xzgYkbJocAkyQ8_dRpLAAGdpyjM4CKFM/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1xzgYkbJocAkyQ8_dRpLAAGdpyjM4CKFM/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:28:44.866Z",
+          "modified_time": "2026-10-21T12:28:44.866Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        },
+        {
+          "id": "1pscxRV-r0lmZfmDDzLmN2jVfGvU3Ma_1",
+          "title": "partial.cpp",
+          "mime_type": "text/x-c++src",
+          "size": "781",
+          "url": "https://drive.google.com/file/d/1pscxRV-r0lmZfmDDzLmN2jVfGvU3Ma_1/view?usp=drivesdk",
+          "display_url": "https://drive.google.com/file/d/1pscxRV-r0lmZfmDDzLmN2jVfGvU3Ma_1/view?usp=drivesdk",
+          "file_or_folder": "file",
+          "created_time": "2026-10-21T12:28:37.092Z",
+          "modified_time": "2026-10-21T12:28:37.092Z",
+          "parent_ids": null,
+          "drive_id": null,
+          "current_user_can_share": null,
+          "has_augmented_permissions": null,
+          "shared": false,
+          "permissions": null,
+          "source_visibility_status": "not_shared",
+          "can_download": true,
+          "can_list_children": false
+        }
+      ]
+    }
+  ],
+  "folderMetadata": [
+    {
+      "expected": {
+        "name": "N17",
+        "id": "1eXM8z3zRFNW1mOJmYlaomODQofVfj3Fn",
+        "parent": "1bB303dvR7dMs_gc_Gsy1FbNv-B3EWdqG"
+      },
+      "metadata": {
+        "id": "1eXM8z3zRFNW1mOJmYlaomODQofVfj3Fn",
+        "title": "N17",
+        "mime_type": "application/vnd.google-apps.folder",
+        "size": null,
+        "url": "https://drive.google.com/drive/folders/1eXM8z3zRFNW1mOJmYlaomODQofVfj3Fn",
+        "display_url": "https://drive.google.com/drive/folders/1eXM8z3zRFNW1mOJmYlaomODQofVfj3Fn",
+        "file_or_folder": "folder",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1bB303dvR7dMs_gc_Gsy1FbNv-B3EWdqG"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "expected": {
+        "name": "A_median",
+        "id": "1V-iI1Zngx7-71fiwWMa1thWiCFEqIM3a",
+        "parent": "1eXM8z3zRFNW1mOJmYlaomODQofVfj3Fn"
+      },
+      "metadata": {
+        "id": "1V-iI1Zngx7-71fiwWMa1thWiCFEqIM3a",
+        "title": "A_median",
+        "mime_type": "application/vnd.google-apps.folder",
+        "size": null,
+        "url": "https://drive.google.com/drive/folders/1V-iI1Zngx7-71fiwWMa1thWiCFEqIM3a",
+        "display_url": "https://drive.google.com/drive/folders/1V-iI1Zngx7-71fiwWMa1thWiCFEqIM3a",
+        "file_or_folder": "folder",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1eXM8z3zRFNW1mOJmYlaomODQofVfj3Fn"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "expected": {
+        "name": "B_tramcar",
+        "id": "1ZE49bFtULRxpjD3lxkWUgjaj1DvEMuY4",
+        "parent": "1eXM8z3zRFNW1mOJmYlaomODQofVfj3Fn"
+      },
+      "metadata": {
+        "id": "1ZE49bFtULRxpjD3lxkWUgjaj1DvEMuY4",
+        "title": "B_tramcar",
+        "mime_type": "application/vnd.google-apps.folder",
+        "size": null,
+        "url": "https://drive.google.com/drive/folders/1ZE49bFtULRxpjD3lxkWUgjaj1DvEMuY4",
+        "display_url": "https://drive.google.com/drive/folders/1ZE49bFtULRxpjD3lxkWUgjaj1DvEMuY4",
+        "file_or_folder": "folder",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1eXM8z3zRFNW1mOJmYlaomODQofVfj3Fn"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "expected": {
+        "name": "C_connected",
+        "id": "1MW8r5j0PVBjillm8s1pDqA9EW-8ERAsN",
+        "parent": "1eXM8z3zRFNW1mOJmYlaomODQofVfj3Fn"
+      },
+      "metadata": {
+        "id": "1MW8r5j0PVBjillm8s1pDqA9EW-8ERAsN",
+        "title": "C_connected",
+        "mime_type": "application/vnd.google-apps.folder",
+        "size": null,
+        "url": "https://drive.google.com/drive/folders/1MW8r5j0PVBjillm8s1pDqA9EW-8ERAsN",
+        "display_url": "https://drive.google.com/drive/folders/1MW8r5j0PVBjillm8s1pDqA9EW-8ERAsN",
+        "file_or_folder": "folder",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1eXM8z3zRFNW1mOJmYlaomODQofVfj3Fn"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "expected": {
+        "name": "D_crystal",
+        "id": "1QQ82rrG_DnR0FnSDehgEWViKeAOrdhIU",
+        "parent": "1eXM8z3zRFNW1mOJmYlaomODQofVfj3Fn"
+      },
+      "metadata": {
+        "id": "1QQ82rrG_DnR0FnSDehgEWViKeAOrdhIU",
+        "title": "D_crystal",
+        "mime_type": "application/vnd.google-apps.folder",
+        "size": null,
+        "url": "https://drive.google.com/drive/folders/1QQ82rrG_DnR0FnSDehgEWViKeAOrdhIU",
+        "display_url": "https://drive.google.com/drive/folders/1QQ82rrG_DnR0FnSDehgEWViKeAOrdhIU",
+        "file_or_folder": "folder",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1eXM8z3zRFNW1mOJmYlaomODQofVfj3Fn"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "expected": {
+        "name": "S17",
+        "id": "1OvV1oKU8KHd7egjcOvhjgvTjQQ-iJZnw",
+        "parent": "1bB303dvR7dMs_gc_Gsy1FbNv-B3EWdqG"
+      },
+      "metadata": {
+        "id": "1OvV1oKU8KHd7egjcOvhjgvTjQQ-iJZnw",
+        "title": "S17",
+        "mime_type": "application/vnd.google-apps.folder",
+        "size": null,
+        "url": "https://drive.google.com/drive/folders/1OvV1oKU8KHd7egjcOvhjgvTjQQ-iJZnw",
+        "display_url": "https://drive.google.com/drive/folders/1OvV1oKU8KHd7egjcOvhjgvTjQQ-iJZnw",
+        "file_or_folder": "folder",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1bB303dvR7dMs_gc_Gsy1FbNv-B3EWdqG"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "expected": {
+        "name": "A_sam",
+        "id": "1vJHMFvv0I8ZNlSe5TX78SAvNmlxXayDP",
+        "parent": "1OvV1oKU8KHd7egjcOvhjgvTjQQ-iJZnw"
+      },
+      "metadata": {
+        "id": "1vJHMFvv0I8ZNlSe5TX78SAvNmlxXayDP",
+        "title": "A_sam",
+        "mime_type": "application/vnd.google-apps.folder",
+        "size": null,
+        "url": "https://drive.google.com/drive/folders/1vJHMFvv0I8ZNlSe5TX78SAvNmlxXayDP",
+        "display_url": "https://drive.google.com/drive/folders/1vJHMFvv0I8ZNlSe5TX78SAvNmlxXayDP",
+        "file_or_folder": "folder",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1OvV1oKU8KHd7egjcOvhjgvTjQQ-iJZnw"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "expected": {
+        "name": "B_lis",
+        "id": "1BttpMRGJish25FRMpC7pW7VMFwGU9iT4",
+        "parent": "1OvV1oKU8KHd7egjcOvhjgvTjQQ-iJZnw"
+      },
+      "metadata": {
+        "id": "1BttpMRGJish25FRMpC7pW7VMFwGU9iT4",
+        "title": "B_lis",
+        "mime_type": "application/vnd.google-apps.folder",
+        "size": null,
+        "url": "https://drive.google.com/drive/folders/1BttpMRGJish25FRMpC7pW7VMFwGU9iT4",
+        "display_url": "https://drive.google.com/drive/folders/1BttpMRGJish25FRMpC7pW7VMFwGU9iT4",
+        "file_or_folder": "folder",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1OvV1oKU8KHd7egjcOvhjgvTjQQ-iJZnw"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "expected": {
+        "name": "C_wolf",
+        "id": "1BBA3bhMqPQZBRYy4jErzk9hGHOYtxILz",
+        "parent": "1OvV1oKU8KHd7egjcOvhjgvTjQQ-iJZnw"
+      },
+      "metadata": {
+        "id": "1BBA3bhMqPQZBRYy4jErzk9hGHOYtxILz",
+        "title": "C_wolf",
+        "mime_type": "application/vnd.google-apps.folder",
+        "size": null,
+        "url": "https://drive.google.com/drive/folders/1BBA3bhMqPQZBRYy4jErzk9hGHOYtxILz",
+        "display_url": "https://drive.google.com/drive/folders/1BBA3bhMqPQZBRYy4jErzk9hGHOYtxILz",
+        "file_or_folder": "folder",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1OvV1oKU8KHd7egjcOvhjgvTjQQ-iJZnw"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    },
+    {
+      "expected": {
+        "name": "D_power",
+        "id": "1KRn0OIFuKE9e--PFo67czuu7NkJ62jS0",
+        "parent": "1OvV1oKU8KHd7egjcOvhjgvTjQQ-iJZnw"
+      },
+      "metadata": {
+        "id": "1KRn0OIFuKE9e--PFo67czuu7NkJ62jS0",
+        "title": "D_power",
+        "mime_type": "application/vnd.google-apps.folder",
+        "size": null,
+        "url": "https://drive.google.com/drive/folders/1KRn0OIFuKE9e--PFo67czuu7NkJ62jS0",
+        "display_url": "https://drive.google.com/drive/folders/1KRn0OIFuKE9e--PFo67czuu7NkJ62jS0",
+        "file_or_folder": "folder",
+        "created_time": null,
+        "modified_time": null,
+        "parent_ids": [
+          "1OvV1oKU8KHd7egjcOvhjgvTjQQ-iJZnw"
+        ],
+        "drive_id": null,
+        "current_user_can_share": null,
+        "has_augmented_permissions": null,
+        "shared": null,
+        "permissions": null,
+        "source_visibility_status": "access_not_verified"
+      },
+      "verified": true
+    }
+  ],
+  "status": "30 files verified by name, byte size, exact parent; 10 folder listings and parents verified; no online submission"
+}

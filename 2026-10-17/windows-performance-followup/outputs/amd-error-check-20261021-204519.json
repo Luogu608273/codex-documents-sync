@@ -1,0 +1,84 @@
+{
+  "CheckedAt": "2026-10-21T20:45:17.9645742+08:00",
+  "LastBoot": "2026-10-17T13:56:47.914694+08:00",
+  "VideoDevices": [
+    {
+      "Name": "Intel(R) UHD Graphics 770",
+      "Status": "OK",
+      "ConfigManagerErrorCode": 0,
+      "DriverVersion": "31.0.101.3678"
+    },
+    {
+      "Name": "Radeon RX550/550 Series",
+      "Status": "Error",
+      "ConfigManagerErrorCode": 31,
+      "DriverVersion": "31.0.21925.1001"
+    }
+  ],
+  "AMDProblemProperties": [
+    {
+      "KeyName": "DEVPKEY_Device_ProblemCode",
+      "Data": 31
+    },
+    {
+      "KeyName": "DEVPKEY_Device_ProblemStatus",
+      "Data": 3221225473
+    },
+    {
+      "KeyName": "DEVPKEY_Device_DriverInfPath",
+      "Data": "oem46.inf"
+    },
+    {
+      "KeyName": "DEVPKEY_Device_Service",
+      "Data": "amdwddmg"
+    }
+  ],
+  "DeviceConfigurationEvents": [
+    {
+      "TimeCreated": "2026-10-17T15:48:50.0282111+08:00",
+      "Id": 400,
+      "ProviderName": "Microsoft-Windows-Kernel-PnP",
+      "Message": "已配置设备 SWD\\DRIVERENUM\\AMDOCL&5&2e16e088&0。\r\n\r\n驱动程序名称: oem50.inf\r\n类 GUID: {5c4c3332-344d-483c-8739-259e934c9cc8}\r\n驱动程序日期: 05/20/2026\r\n驱动程序版本: 31.0.21925.1001\r\n驱动程序提供商: Advanced Micro Devices, Inc.\r\n驱动程序部分: AMDOCLDriver.NT\r\n驱动程序等级: 0xFF0000\r\n匹配设备 ID: SWC\\AMDOCL-23.19\r\n低等级驱动程序: c_swcomponent.inf:SWC\\Generic:00FF3000 c_swdevice.inf:SWD\\GenericRaw:00FF3001\r\n设备已更新: false\r\n父设备: PCI\\VEN_1002&DEV_699F&SUBSYS_00001002&REV_C7\\4&2ba2138&0&0008"
+    },
+    {
+      "TimeCreated": "2026-10-17T15:48:49.5168507+08:00",
+      "Id": 400,
+      "ProviderName": "Microsoft-Windows-Kernel-PnP",
+      "Message": "已配置设备 SWD\\DRIVERENUM\\AMDWIN&5&2e16e088&0。\r\n\r\n驱动程序名称: oem51.inf\r\n类 GUID: {5c4c3332-344d-483c-8739-259e934c9cc8}\r\n驱动程序日期: 05/20/2026\r\n驱动程序版本: 31.0.21925.1001\r\n驱动程序提供商: Advanced Micro Devices, Inc.\r\n驱动程序部分: AMDWINDriver.NT\r\n驱动程序等级: 0xFF0000\r\n匹配设备 ID: SWC\\AMDWIN-23.19\r\n低等级驱动程序: c_swcomponent.inf:SWC\\Generic:00FF3000 c_swdevice.inf:SWD\\GenericRaw:00FF3001\r\n设备已更新: false\r\n父设备: PCI\\VEN_1002&DEV_699F&SUBSYS_00001002&REV_C7\\4&2ba2138&0&0008"
+    },
+    {
+      "TimeCreated": "2026-10-17T15:48:49.232846+08:00",
+      "Id": 411,
+      "ProviderName": "Microsoft-Windows-Kernel-PnP",
+      "Message": "设备 PCI\\VEN_1002&DEV_699F&SUBSYS_00001002&REV_C7\\4&2ba2138&0&0008 在启动时出现问题。\r\n\r\n驱动程序名称: oem46.inf\r\n类 GUID: {4d36e968-e325-11ce-bfc1-08002be10318}\r\n服务: amdwddmg\r\n低层筛选程序: \r\n高层筛选程序: \r\n问题: 0x0\r\n问题状态: 0xC00000E5"
+    },
+    {
+      "TimeCreated": "2026-10-17T15:48:48.4472062+08:00",
+      "Id": 400,
+      "ProviderName": "Microsoft-Windows-Kernel-PnP",
+      "Message": "已配置设备 PCI\\VEN_1002&DEV_699F&SUBSYS_00001002&REV_C7\\4&2ba2138&0&0008。\r\n\r\n驱动程序名称: oem46.inf\r\n类 GUID: {4d36e968-e325-11ce-bfc1-08002be10318}\r\n驱动程序日期: 05/20/2026\r\n驱动程序版本: 31.0.21925.1001\r\n驱动程序提供商: Advanced Micro Devices, Inc.\r\n驱动程序部分: ati2mtag_Polaris12\r\n驱动程序等级: 0xCF2000\r\n匹配设备 ID: PCI\\VEN_1002&DEV_699F&REV_C7\r\n低等级驱动程序: oem17.inf:PCI\\VEN_1002&DEV_699F&REV_C7:00CF2000 display.inf:PCI\\CC_0300:00FB2006\r\n设备已更新: true\r\n父设备: PCI\\VEN_8086&DEV_460D&SUBSYS_30070526&REV_05\\3&11583659&1&08"
+    }
+  ],
+  "TodayDisplayEvents": [],
+  "TodayAMDCrashEvents": [],
+  "TodayRelevantReliabilityRecords": [],
+  "AMDLogFiles": [
+    {
+      "Name": "RSX_Common.log_2026-10-17_14_2_30.log",
+      "LastWriteTime": "2026-10-17T14:02:30.0909884+08:00",
+      "Length": 2198
+    },
+    {
+      "Name": "RSX_Common.log_2026-10-17_16_3_16.log",
+      "LastWriteTime": "2026-10-17T16:03:16.9397222+08:00",
+      "Length": 0
+    }
+  ],
+  "Limits": [
+    "Original popup text not recovered.",
+    "C:\\Windows\\LiveKernelReports access denied; contents not inspected.",
+    "No GPU reset, device restart, configuration change or program closure performed.",
+    "2026-10-17 events predate current popup and do not establish current fault onset."
+  ],
+  "OfficialCode31Reference": "https://learn.microsoft.com/en-us/windows-hardware/drivers/install/cm-prob-failed-add"
+}

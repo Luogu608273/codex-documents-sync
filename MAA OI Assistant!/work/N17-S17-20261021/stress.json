@@ -1,0 +1,218 @@
+[
+  {
+    "label": "samples",
+    "result": "S17 all samples; N17 median all, tramcar all, crystal all, connected sample 1 checked."
+  },
+  {
+    "group": "N17",
+    "problem": "B_tramcar",
+    "label": "official reference differential",
+    "cases": 40
+  },
+  {
+    "group": "N17",
+    "problem": "C_connected",
+    "label": "official reference differential",
+    "cases": 1200
+  },
+  {
+    "group": "S17",
+    "problem": "A_sam",
+    "variant": "std",
+    "label": "n=q=1e6, identical characters",
+    "seconds": 0.364,
+    "peak_working_set_MiB": 103.2,
+    "output_tokens": 1000000,
+    "expected_checked": true
+  },
+  {
+    "group": "S17",
+    "problem": "B_lis",
+    "variant": "std",
+    "label": "n=1e6, decreasing",
+    "seconds": 0.132,
+    "peak_working_set_MiB": 6.9,
+    "output_tokens": 1000000,
+    "expected_checked": true
+  },
+  {
+    "group": "S17",
+    "problem": "B_lis",
+    "variant": "std",
+    "label": "n=1e6, increasing",
+    "seconds": 0.21,
+    "peak_working_set_MiB": 10.7,
+    "output_tokens": 1000000,
+    "expected_checked": true
+  },
+  {
+    "group": "S17",
+    "problem": "C_wolf",
+    "variant": "std",
+    "label": "sum n=5e5, alternating wolf assignment with mixed directions",
+    "seconds": 0.217,
+    "peak_working_set_MiB": 33.8,
+    "output_tokens": 1,
+    "expected_checked": false
+  },
+  {
+    "group": "S17",
+    "problem": "C_wolf",
+    "variant": "std",
+    "label": "n=5e5, O(n) distinct-q events",
+    "seconds": 0.738,
+    "peak_working_set_MiB": 33.8,
+    "output_tokens": 1,
+    "expected_checked": false
+  },
+  {
+    "group": "S17",
+    "problem": "C_wolf",
+    "variant": "partial",
+    "label": "partial n=5000",
+    "seconds": 0.055,
+    "peak_working_set_MiB": 3.1,
+    "output_tokens": 1,
+    "expected_checked": false
+  },
+  {
+    "group": "S17",
+    "problem": "D_power",
+    "variant": "std",
+    "label": "q=1e6, max n, all weights=1",
+    "seconds": 0.236,
+    "peak_working_set_MiB": 10.6,
+    "output_tokens": 1000000,
+    "expected_checked": true
+  },
+  {
+    "group": "N17",
+    "problem": "A_median",
+    "variant": "std",
+    "label": "n=2e5, strictly increasing",
+    "seconds": 0.048,
+    "peak_working_set_MiB": 6.1,
+    "output_tokens": 1,
+    "expected_checked": true
+  },
+  {
+    "group": "N17",
+    "problem": "B_tramcar",
+    "variant": "std",
+    "label": "n=3e5, K=0, decreasing",
+    "seconds": 0.051,
+    "peak_working_set_MiB": 7.6,
+    "output_tokens": 1,
+    "expected_checked": true
+  },
+  {
+    "group": "N17",
+    "problem": "B_tramcar",
+    "variant": "std",
+    "label": "n=3e5, 1.5e5 empty cars, sufficient K",
+    "seconds": 0.043,
+    "peak_working_set_MiB": 7.1,
+    "output_tokens": 1,
+    "expected_checked": true
+  },
+  {
+    "group": "N17",
+    "problem": "C_connected",
+    "variant": "std",
+    "label": "n=1e5, path",
+    "seconds": 0.024,
+    "peak_working_set_MiB": 8.0,
+    "output_tokens": 1,
+    "expected_checked": true
+  },
+  {
+    "group": "N17",
+    "problem": "C_connected",
+    "variant": "std",
+    "label": "n=1e5, path and far-end self-loop",
+    "seconds": 0.049,
+    "peak_working_set_MiB": 13.8,
+    "output_tokens": 1,
+    "expected_checked": true
+  },
+  {
+    "group": "N17",
+    "problem": "D_crystal",
+    "variant": "std",
+    "label": "n=5e5, no deletions",
+    "seconds": 0.117,
+    "peak_working_set_MiB": 118.3,
+    "output_tokens": 1,
+    "expected_checked": true
+  },
+  {
+    "group": "N17",
+    "problem": "D_crystal",
+    "variant": "std",
+    "label": "n=5e5, all deletable",
+    "seconds": 0.097,
+    "peak_working_set_MiB": 120.2,
+    "output_tokens": 1,
+    "expected_checked": true
+  },
+  {
+    "group": "N17",
+    "problem": "D_crystal",
+    "variant": "std",
+    "label": "n=5e5, periodic string, cyclic deletion rules",
+    "seconds": 0.118,
+    "peak_working_set_MiB": 120.0,
+    "output_tokens": 1,
+    "expected_checked": false
+  },
+  {
+    "group": "S17",
+    "problem": "B_lis",
+    "variant": "partial",
+    "label": "partial supported upper boundary",
+    "seconds": 0.009,
+    "peak_working_set_MiB": 3.1,
+    "output_tokens": 5000,
+    "expected_checked": true
+  },
+  {
+    "group": "N17",
+    "problem": "A_median",
+    "variant": "partial",
+    "label": "partial supported upper boundary",
+    "seconds": 0.016,
+    "peak_working_set_MiB": 3.0,
+    "output_tokens": 1,
+    "expected_checked": true
+  },
+  {
+    "group": "N17",
+    "problem": "B_tramcar",
+    "variant": "partial",
+    "label": "partial supported upper boundary",
+    "seconds": 0.009,
+    "peak_working_set_MiB": 3.1,
+    "output_tokens": 1,
+    "expected_checked": true
+  },
+  {
+    "group": "N17",
+    "problem": "D_crystal",
+    "variant": "partial",
+    "label": "partial supported upper boundary",
+    "seconds": 0.005,
+    "peak_working_set_MiB": 3.4,
+    "output_tokens": 1,
+    "expected_checked": true
+  },
+  {
+    "group": "S17",
+    "problem": "C_wolf",
+    "variant": "partial",
+    "label": "partial n=5000 per case, sum n=1e5, 20 cases",
+    "seconds": 1.152,
+    "peak_working_set_MiB": 3.1,
+    "output_tokens": 20,
+    "expected_checked": true
+  }
+]

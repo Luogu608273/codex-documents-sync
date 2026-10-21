@@ -1,0 +1,10 @@
+{
+  "Time": "2026-10-21T20:53:25.3430907+08:00",
+  "Probe": "Enumerate DXGI adapters and create one D3D11 device on AMD; no rendering or workload",
+  "Results": [
+    "CreateDXGIFactory1=0x00000000",
+    "Adapter=Microsoft Basic Render Driver;Vendor=0x1414;Device=0x008C",
+    "Adapter=Intel(R) UHD Graphics 770;Vendor=0x8086;Device=0x4690",
+    "Adapter=Microsoft Basic Render Driver;Vendor=0x1414;Device=0x008C"
+  ]
+}

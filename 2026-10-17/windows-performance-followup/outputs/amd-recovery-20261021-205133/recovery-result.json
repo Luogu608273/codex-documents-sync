@@ -1,0 +1,132 @@
+﻿{
+    "StartedAt":  "2026-10-21T20:51:34.7759985+08:00",
+    "Action":  "Restart only the RX550 device with pnputil, without /reboot",
+    "Before":  {
+                   "Time":  "2026-10-21T20:51:34.7899984+08:00",
+                   "Devices":  [
+                                   {
+                                       "Name":  "Intel(R) UHD Graphics 770",
+                                       "Status":  "OK",
+                                       "ConfigManagerErrorCode":  0,
+                                       "DriverVersion":  "31.0.101.3678"
+                                   },
+                                   {
+                                       "Name":  "Radeon RX550/550 Series",
+                                       "Status":  "Error",
+                                       "ConfigManagerErrorCode":  31,
+                                       "DriverVersion":  "31.0.21925.1001"
+                                   }
+                               ],
+                   "AMDProperties":  [
+                                         {
+                                             "KeyName":  "DEVPKEY_Device_ProblemCode",
+                                             "Data":  31
+                                         },
+                                         {
+                                             "KeyName":  "DEVPKEY_Device_ProblemStatus",
+                                             "Data":  3221225473
+                                         },
+                                         {
+                                             "KeyName":  "DEVPKEY_Device_DriverInfPath",
+                                             "Data":  "oem46.inf"
+                                         }
+                                     ]
+               },
+    "SavedDumps":  [
+                       {
+                           "Source":  "C:\\Windows\\LiveKernelReports\\WATCHDOG4401\\WATCHDOG4401-20261021-2044.dmp",
+                           "SavedTo":  "C:\\Users\\605\\Documents\\Codex\\2026-10-17\\windows-performance-followup\\outputs\\amd-recovery-20261021-205133\\evidence\\WATCHDOG4401-20261021-2044.dmp",
+                           "Length":  1167264,
+                           "LastWriteTime":  "2026-10-21T20:44:04.7608640+08:00"
+                       },
+                       {
+                           "Source":  "C:\\Windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20261021-2044.dmp",
+                           "SavedTo":  "C:\\Users\\605\\Documents\\Codex\\2026-10-17\\windows-performance-followup\\outputs\\amd-recovery-20261021-205133\\evidence\\WATCHDOG-20261021-2044.dmp",
+                           "Length":  416652,
+                           "LastWriteTime":  "2026-10-21T20:44:04.7518631+08:00"
+                       },
+                       {
+                           "Source":  "C:\\Windows\\LiveKernelReports\\WATCHDOG4400\\WATCHDOG4400-20261021-2043.dmp",
+                           "SavedTo":  "C:\\Users\\605\\Documents\\Codex\\2026-10-17\\windows-performance-followup\\outputs\\amd-recovery-20261021-205133\\evidence\\WATCHDOG4400-20261021-2043.dmp",
+                           "Length":  1167264,
+                           "LastWriteTime":  "2026-10-21T20:43:01.1638691+08:00"
+                       },
+                       {
+                           "Source":  "C:\\Windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20261021-2043.dmp",
+                           "SavedTo":  "C:\\Users\\605\\Documents\\Codex\\2026-10-17\\windows-performance-followup\\outputs\\amd-recovery-20261021-205133\\evidence\\WATCHDOG-20261021-2043.dmp",
+                           "Length":  414271,
+                           "LastWriteTime":  "2026-10-21T20:43:01.1508700+08:00"
+                       },
+                       {
+                           "Source":  "C:\\Windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20261021-2036.dmp",
+                           "SavedTo":  "C:\\Users\\605\\Documents\\Codex\\2026-10-17\\windows-performance-followup\\outputs\\amd-recovery-20261021-205133\\evidence\\WATCHDOG-20261021-2036.dmp",
+                           "Length":  291637,
+                           "LastWriteTime":  "2026-10-21T20:36:09.3797456+08:00"
+                       }
+                   ],
+    "RestartExitCode":  0,
+    "RestartOutput":  "Microsoft PnP 工具\r\n\r\n正在重启设备:         PCI\\VEN_1002\u0026DEV_699F\u0026SUBSYS_00001002\u0026REV_C7\\4\u00262BA2138\u00260\u00260008\r\n已成功重启设备。\r\n\r\n",
+    "After4Seconds":  {
+                          "Time":  "2026-10-21T20:52:09.7692129+08:00",
+                          "Devices":  [
+                                          {
+                                              "Name":  "Intel(R) UHD Graphics 770",
+                                              "Status":  "OK",
+                                              "ConfigManagerErrorCode":  0,
+                                              "DriverVersion":  "31.0.101.3678"
+                                          },
+                                          {
+                                              "Name":  "Radeon RX550/550 Series",
+                                              "Status":  "OK",
+                                              "ConfigManagerErrorCode":  0,
+                                              "DriverVersion":  "31.0.21925.1001"
+                                          }
+                                      ],
+                          "AMDProperties":  [
+                                                {
+                                                    "KeyName":  "DEVPKEY_Device_ProblemCode",
+                                                    "Data":  0
+                                                },
+                                                {
+                                                    "KeyName":  "DEVPKEY_Device_ProblemStatus",
+                                                    "Data":  null
+                                                },
+                                                {
+                                                    "KeyName":  "DEVPKEY_Device_DriverInfPath",
+                                                    "Data":  "oem46.inf"
+                                                }
+                                            ]
+                      },
+    "After16Seconds":  {
+                           "Time":  "2026-10-21T20:52:21.9057646+08:00",
+                           "Devices":  [
+                                           {
+                                               "Name":  "Intel(R) UHD Graphics 770",
+                                               "Status":  "OK",
+                                               "ConfigManagerErrorCode":  0,
+                                               "DriverVersion":  "31.0.101.3678"
+                                           },
+                                           {
+                                               "Name":  "Radeon RX550/550 Series",
+                                               "Status":  "OK",
+                                               "ConfigManagerErrorCode":  0,
+                                               "DriverVersion":  "31.0.21925.1001"
+                                           }
+                                       ],
+                           "AMDProperties":  [
+                                                 {
+                                                     "KeyName":  "DEVPKEY_Device_ProblemCode",
+                                                     "Data":  0
+                                                 },
+                                                 {
+                                                     "KeyName":  "DEVPKEY_Device_ProblemStatus",
+                                                     "Data":  null
+                                                 },
+                                                 {
+                                                     "KeyName":  "DEVPKEY_Device_DriverInfPath",
+                                                     "Data":  "oem46.inf"
+                                                 }
+                                             ]
+                       },
+    "Error":  null
+}

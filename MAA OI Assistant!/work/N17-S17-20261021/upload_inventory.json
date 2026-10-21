@@ -1,0 +1,212 @@
+[
+  {
+    "group": "N17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N17\\A_median\\partial.cpp",
+    "relative": "A_median/partial.cpp",
+    "size": 834,
+    "md5": "b0fa1a867ad9e4622b63e0e4618b0bf4"
+  },
+  {
+    "group": "N17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N17\\A_median\\solution.md",
+    "relative": "A_median/solution.md",
+    "size": 2231,
+    "md5": "88a8e75b7cebd28bd9764ef6e1fcd419"
+  },
+  {
+    "group": "N17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N17\\A_median\\std.cpp",
+    "relative": "A_median/std.cpp",
+    "size": 1221,
+    "md5": "0df6ee178011cf6fbca0ffaa33271b88"
+  },
+  {
+    "group": "N17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N17\\B_tramcar\\partial.cpp",
+    "relative": "B_tramcar/partial.cpp",
+    "size": 696,
+    "md5": "58807f37f8a0747ffa0e0b9b15c00acb"
+  },
+  {
+    "group": "N17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N17\\B_tramcar\\solution.md",
+    "relative": "B_tramcar/solution.md",
+    "size": 4936,
+    "md5": "292b23be14511e9e5349a88b2d80c879"
+  },
+  {
+    "group": "N17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N17\\B_tramcar\\std.cpp",
+    "relative": "B_tramcar/std.cpp",
+    "size": 1526,
+    "md5": "d3e4badf6a5cd1e4c39d03bb1664b43a"
+  },
+  {
+    "group": "N17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N17\\C_connected\\partial.cpp",
+    "relative": "C_connected/partial.cpp",
+    "size": 1854,
+    "md5": "5647cc99eac8ddd01886f5301dd137c4"
+  },
+  {
+    "group": "N17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N17\\C_connected\\solution.md",
+    "relative": "C_connected/solution.md",
+    "size": 5023,
+    "md5": "eadeb8b6470c5afbc2861971daff1d17"
+  },
+  {
+    "group": "N17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N17\\C_connected\\std.cpp",
+    "relative": "C_connected/std.cpp",
+    "size": 2168,
+    "md5": "b5621dfe224d5882dd8110ddfd19586b"
+  },
+  {
+    "group": "N17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N17\\D_crystal\\partial.cpp",
+    "relative": "D_crystal/partial.cpp",
+    "size": 1124,
+    "md5": "2890cfa2d0370e60b2eab03b2d0d6731"
+  },
+  {
+    "group": "N17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N17\\D_crystal\\solution.md",
+    "relative": "D_crystal/solution.md",
+    "size": 4141,
+    "md5": "e9fef0c9a6a212542b54d5cc05924a70"
+  },
+  {
+    "group": "N17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N17\\D_crystal\\std.cpp",
+    "relative": "D_crystal/std.cpp",
+    "size": 2089,
+    "md5": "e8dd50ac6ed3ea6a34d176e170dc2155"
+  },
+  {
+    "group": "N17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N17\\manifest.json",
+    "relative": "manifest.json",
+    "size": 3020,
+    "md5": "c4387d2fea6be61842490a6f91884429"
+  },
+  {
+    "group": "N17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N17\\README.md",
+    "relative": "README.md",
+    "size": 1720,
+    "md5": "848851e111e9c4c5c0e18b657595cb3a"
+  },
+  {
+    "group": "N17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\N17\\validation.md",
+    "relative": "validation.md",
+    "size": 3182,
+    "md5": "68300a0fc330cf474a11787b88d5fdee"
+  },
+  {
+    "group": "S17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\S17\\A_sam\\partial.cpp",
+    "relative": "A_sam/partial.cpp",
+    "size": 646,
+    "md5": "ded843c0ca9982d496fecf25ce96c266"
+  },
+  {
+    "group": "S17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\S17\\A_sam\\solution.md",
+    "relative": "A_sam/solution.md",
+    "size": 1921,
+    "md5": "0c721ae49804aca5c41c805588bdaad3"
+  },
+  {
+    "group": "S17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\S17\\A_sam\\std.cpp",
+    "relative": "A_sam/std.cpp",
+    "size": 716,
+    "md5": "01de0fbded2740f05fe941cd350bb502"
+  },
+  {
+    "group": "S17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\S17\\B_lis\\partial.cpp",
+    "relative": "B_lis/partial.cpp",
+    "size": 757,
+    "md5": "b5a82f2df1f6b9b55ca585e16b65235f"
+  },
+  {
+    "group": "S17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\S17\\B_lis\\solution.md",
+    "relative": "B_lis/solution.md",
+    "size": 2134,
+    "md5": "abd4076f11bf97ba13ad4112f65231c4"
+  },
+  {
+    "group": "S17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\S17\\B_lis\\std.cpp",
+    "relative": "B_lis/std.cpp",
+    "size": 708,
+    "md5": "d95b6d695769972067f401618a977ba5"
+  },
+  {
+    "group": "S17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\S17\\C_wolf\\partial.cpp",
+    "relative": "C_wolf/partial.cpp",
+    "size": 1046,
+    "md5": "88f700e40a1cbd70699e2fa15e81aba3"
+  },
+  {
+    "group": "S17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\S17\\C_wolf\\solution.md",
+    "relative": "C_wolf/solution.md",
+    "size": 4016,
+    "md5": "4d1abdb1b4170d7d4b3716d35f73960a"
+  },
+  {
+    "group": "S17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\S17\\C_wolf\\std.cpp",
+    "relative": "C_wolf/std.cpp",
+    "size": 2796,
+    "md5": "3597d6464d7620801539a76dfcb295d4"
+  },
+  {
+    "group": "S17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\S17\\D_power\\partial.cpp",
+    "relative": "D_power/partial.cpp",
+    "size": 781,
+    "md5": "fc7b8e7b225a454a872c3c39d86ad294"
+  },
+  {
+    "group": "S17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\S17\\D_power\\solution.md",
+    "relative": "D_power/solution.md",
+    "size": 3591,
+    "md5": "c248b6f1f0e794c1e9de8bffa07a03ac"
+  },
+  {
+    "group": "S17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\S17\\D_power\\std.cpp",
+    "relative": "D_power/std.cpp",
+    "size": 2082,
+    "md5": "fb2faf1bae81486c15cd0b993ab35b1f"
+  },
+  {
+    "group": "S17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\S17\\manifest.json",
+    "relative": "manifest.json",
+    "size": 2975,
+    "md5": "937f73ab8ac39601364804a63961a401"
+  },
+  {
+    "group": "S17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\S17\\README.md",
+    "relative": "README.md",
+    "size": 1628,
+    "md5": "b18a32a37da0abfe8459acef9edb1066"
+  },
+  {
+    "group": "S17",
+    "path": "C:\\Users\\605\\Documents\\Codex\\MAA OI Assistant!\\outputs\\S17\\validation.md",
+    "relative": "validation.md",
+    "size": 2939,
+    "md5": "b224b95363e1728e44eb3edcb1f64e0a"
+  }
+]

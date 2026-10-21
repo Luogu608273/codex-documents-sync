@@ -1,0 +1,171 @@
+{
+  "target": {
+    "id": "18flSUeneVqMyoMxg3dihLCjzCJcJ2w8X",
+    "title": "ZR2-3",
+    "mime_type": null,
+    "size": null,
+    "url": "https://drive.google.com/drive/folders/18flSUeneVqMyoMxg3dihLCjzCJcJ2w8X",
+    "display_url": "https://drive.google.com/drive/folders/18flSUeneVqMyoMxg3dihLCjzCJcJ2w8X",
+    "file_or_folder": null,
+    "created_time": null,
+    "modified_time": null,
+    "parent_ids": [
+      "1bB303dvR7dMs_gc_Gsy1FbNv-B3EWdqG"
+    ],
+    "drive_id": null,
+    "current_user_can_share": null,
+    "has_augmented_permissions": null,
+    "shared": null,
+    "permissions": null,
+    "source_visibility_status": "access_not_verified"
+  },
+  "files": [
+    {
+      "relative": "brackets/partial.cpp",
+      "id": "1pwVSkbsDK7yMxeWM6nufPIcrKPo0dPGM",
+      "bytes": 1034,
+      "parent": "1T4MFyJ8_XFxB7LXz5e4oIazUvYcHNvv6",
+      "verified": true
+    },
+    {
+      "relative": "brackets/solution.md",
+      "id": "1CV1L_4jzChA5NI9r3wXliK7duLSsuPiN",
+      "bytes": 5948,
+      "parent": "1T4MFyJ8_XFxB7LXz5e4oIazUvYcHNvv6",
+      "verified": true
+    },
+    {
+      "relative": "brackets/std.cpp",
+      "id": "1_ALa5hQIdqiWCIdor6zhjZtziBieCym0",
+      "bytes": 1966,
+      "parent": "1T4MFyJ8_XFxB7LXz5e4oIazUvYcHNvv6",
+      "verified": true
+    },
+    {
+      "relative": "brackets/validation.md",
+      "id": "104hOx4DQGou5tiPWsz9gzS6_X06K9Fkw",
+      "bytes": 2068,
+      "parent": "1T4MFyJ8_XFxB7LXz5e4oIazUvYcHNvv6",
+      "verified": true
+    },
+    {
+      "relative": "color/partial.cpp",
+      "id": "1rnNvo_5ehXxBflOMMa5OkTQLO6NPTmnr",
+      "bytes": 1228,
+      "parent": "1l00DEHUzabecyyyKNkrE2VIvSUDMpBl3",
+      "verified": true
+    },
+    {
+      "relative": "color/solution.md",
+      "id": "1wEm1X9A-u6qgbgKv_C3tYfGOzMum-NBH",
+      "bytes": 3010,
+      "parent": "1l00DEHUzabecyyyKNkrE2VIvSUDMpBl3",
+      "verified": true
+    },
+    {
+      "relative": "color/std.cpp",
+      "id": "10RblBuPiE3Ao5vnqU-ZsBg2HC6E1gIUH",
+      "bytes": 821,
+      "parent": "1l00DEHUzabecyyyKNkrE2VIvSUDMpBl3",
+      "verified": true
+    },
+    {
+      "relative": "color/validation.md",
+      "id": "1UXGXHxQQChGsxwvMcr-rySrkeoh1ezP8",
+      "bytes": 1612,
+      "parent": "1l00DEHUzabecyyyKNkrE2VIvSUDMpBl3",
+      "verified": true
+    },
+    {
+      "relative": "greedy/partial.cpp",
+      "id": "1JVFGE2o4DINgW_jfd5hr8nvdJZFzLy1L",
+      "bytes": 1230,
+      "parent": "1oPZwQcXO_QS5hfsa5p7M217Ql_XwJ3cf",
+      "verified": true
+    },
+    {
+      "relative": "greedy/solution.md",
+      "id": "1zvaUdFFa_w1LuY8k2TmktC1Xm1qPdpWZ",
+      "bytes": 5924,
+      "parent": "1oPZwQcXO_QS5hfsa5p7M217Ql_XwJ3cf",
+      "verified": true
+    },
+    {
+      "relative": "greedy/std.cpp",
+      "id": "1rzz8_9vA0cQS91FGRLL_RkgRJyzdN6Rd",
+      "bytes": 1691,
+      "parent": "1oPZwQcXO_QS5hfsa5p7M217Ql_XwJ3cf",
+      "verified": true
+    },
+    {
+      "relative": "greedy/validation.md",
+      "id": "1Tuxs--p04GfQJMtVbLGlQrpTxBJDBOzm",
+      "bytes": 2177,
+      "parent": "1oPZwQcXO_QS5hfsa5p7M217Ql_XwJ3cf",
+      "verified": true
+    },
+    {
+      "relative": "noise/partial.cpp",
+      "id": "12C5Ryo9Fk3BOP4625AdTzvYh-5Uzs24V",
+      "bytes": 832,
+      "parent": "1LcJNl-3m6T6gteAfkmml0B3bZFk32TNl",
+      "verified": true
+    },
+    {
+      "relative": "noise/solution.md",
+      "id": "1h6-GfEcGpkuyUcKKgRqASOi9qSDvNDbp",
+      "bytes": 6210,
+      "parent": "1LcJNl-3m6T6gteAfkmml0B3bZFk32TNl",
+      "verified": true
+    },
+    {
+      "relative": "noise/std.cpp",
+      "id": "17nAuFwy0mQHgLPYwza2pGB2d7aWJ-0b1",
+      "bytes": 3411,
+      "parent": "1LcJNl-3m6T6gteAfkmml0B3bZFk32TNl",
+      "verified": true
+    },
+    {
+      "relative": "noise/validation.md",
+      "id": "1SGsxxMWjTzcRLjewYe3yPdLabraNqvwv",
+      "bytes": 2104,
+      "parent": "1LcJNl-3m6T6gteAfkmml0B3bZFk32TNl",
+      "verified": true
+    },
+    {
+      "relative": "README.md",
+      "id": "1Sc9cU_tEUIKJ9smsPoRyFtWs6icUblr5",
+      "bytes": 2458,
+      "parent": "18flSUeneVqMyoMxg3dihLCjzCJcJ2w8X",
+      "verified": true
+    }
+  ],
+  "folders": [
+    {
+      "name": "root",
+      "id": "18flSUeneVqMyoMxg3dihLCjzCJcJ2w8X",
+      "count": 5
+    },
+    {
+      "name": "brackets",
+      "id": "1T4MFyJ8_XFxB7LXz5e4oIazUvYcHNvv6",
+      "count": 4
+    },
+    {
+      "name": "color",
+      "id": "1l00DEHUzabecyyyKNkrE2VIvSUDMpBl3",
+      "count": 4
+    },
+    {
+      "name": "greedy",
+      "id": "1oPZwQcXO_QS5hfsa5p7M217Ql_XwJ3cf",
+      "count": 4
+    },
+    {
+      "name": "noise",
+      "id": "1LcJNl-3m6T6gteAfkmml0B3bZFk32TNl",
+      "count": 4
+    }
+  ],
+  "verification": "names, byte sizes, parents, folder inventories match"
+}

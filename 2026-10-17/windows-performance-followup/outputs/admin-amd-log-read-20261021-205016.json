@@ -1,0 +1,55 @@
+﻿{
+    "CheckedAt":  "2026-10-21T20:50:17.7367007+08:00",
+    "IsAdministrator":  true,
+    "Scope":  "Read graphics failure logs and crash-report file metadata only",
+    "Files":  [
+                  {
+                      "FullName":  "C:\\Windows\\LiveKernelReports\\WATCHDOG4401\\WATCHDOG4401-20261021-2044.dmp",
+                      "Length":  1167264,
+                      "CreationTime":  "\/Date(1792586644752)\/",
+                      "LastWriteTime":  "\/Date(1792586644760)\/"
+                  },
+                  {
+                      "FullName":  "C:\\Windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20261021-2044.dmp",
+                      "Length":  416652,
+                      "CreationTime":  "\/Date(1792586644750)\/",
+                      "LastWriteTime":  "\/Date(1792586644751)\/"
+                  },
+                  {
+                      "FullName":  "C:\\Windows\\LiveKernelReports\\WATCHDOG4400\\WATCHDOG4400-20261021-2043.dmp",
+                      "Length":  1167264,
+                      "CreationTime":  "\/Date(1792586581153)\/",
+                      "LastWriteTime":  "\/Date(1792586581163)\/"
+                  },
+                  {
+                      "FullName":  "C:\\Windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20261021-2043.dmp",
+                      "Length":  414271,
+                      "CreationTime":  "\/Date(1792586581147)\/",
+                      "LastWriteTime":  "\/Date(1792586581150)\/"
+                  },
+                  {
+                      "FullName":  "C:\\Windows\\LiveKernelReports\\WATCHDOG\\WATCHDOG-20261021-2036.dmp",
+                      "Length":  291637,
+                      "CreationTime":  "\/Date(1792586169372)\/",
+                      "LastWriteTime":  "\/Date(1792586169379)\/"
+                  },
+                  {
+                      "FullName":  "C:\\Windows\\LiveKernelReports\\ResourceTimeout\\ResourceTimeout-20240701-1231.dmp",
+                      "Length":  934388,
+                      "CreationTime":  "\/Date(1719819502409)\/",
+                      "LastWriteTime":  "\/Date(1719819502828)\/"
+                  },
+                  {
+                      "FullName":  "C:\\Windows\\LiveKernelReports\\ResourceTimeout-20240701-1231.dmp",
+                      "Length":  853954560,
+                      "CreationTime":  "\/Date(1719808267287)\/",
+                      "LastWriteTime":  "\/Date(1719808268044)\/"
+                  }
+              ],
+    "Events":  [
+
+               ],
+    "ReadErrors":  [
+
+                   ]
+}
