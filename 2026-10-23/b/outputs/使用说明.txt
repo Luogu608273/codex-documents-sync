@@ -1,0 +1,17 @@
+键盘按键监测（Windows）
+
+双击 KeyboardMonitor.exe 即可运行，无需安装 Python 或其他依赖。
+
+按住键盘按键时，对应键位会高亮，顶部显示当前所有按住的键。
+松开后高亮消失。勾选“窗口置顶”可在切换到其他程序时继续查看。
+关闭窗口即可退出。
+
+程序仅在内存中读取当前状态，不保存按键历史，也不连接网络。
+刷新间隔约为 16 毫秒；极短的按键可能无法捕捉。
+键位图采用常见美式布局。Fn 键通常由键盘硬件处理，Windows 无法读取。
+主回车和小键盘回车共享状态，会同时高亮；关闭 Num Lock 后，部分小键盘键会显示为导航键。
+系统安全桌面（例如锁屏、权限确认界面）不在监测范围内。
+
+源码：KeyboardMonitor.cs
+使用 Windows 自带的 .NET Framework C# 编译器即可重新编译：
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /nologo /target:winexe /out:KeyboardMonitor.exe /reference:System.Windows.Forms.dll /reference:System.Drawing.dll KeyboardMonitor.cs

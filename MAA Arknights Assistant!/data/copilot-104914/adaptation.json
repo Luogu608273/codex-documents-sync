@@ -1,0 +1,169 @@
+{
+  "retrieval_date": "2026-10-23",
+  "operators": [
+    {
+      "name": "圣聆初雪",
+      "status": "owned_requirements_met",
+      "snapshot": {
+        "id": "char_1046_sbell2",
+        "name": "圣聆初雪",
+        "level": 60,
+        "evolvePhase": 2,
+        "mainSkillLevel": 7,
+        "skills": [
+          {
+            "id": "skchr_sbell2_1",
+            "level": 0
+          },
+          {
+            "id": "skchr_sbell2_2",
+            "level": 3
+          },
+          {
+            "id": "skchr_sbell2_3",
+            "level": 3
+          }
+        ],
+        "equips": [
+          {
+            "id": "uniequip_002_sbell2",
+            "type": "Y",
+            "level": 3
+          }
+        ],
+        "potentialRank": 1
+      },
+      "requirements": {
+        "elite": 2,
+        "level": 60,
+        "skill_level": 10,
+        "module": 2,
+        "potentiality": 1
+      }
+    },
+    {
+      "name": "结城理",
+      "status": "owned_requirements_met",
+      "snapshot": {
+        "id": "char_4217_makoto",
+        "name": "结城理",
+        "level": 60,
+        "evolvePhase": 2,
+        "mainSkillLevel": 7,
+        "skills": [
+          {
+            "id": "skchr_makoto_1",
+            "level": 0
+          },
+          {
+            "id": "skchr_makoto_2",
+            "level": 0
+          },
+          {
+            "id": "skchr_makoto_3",
+            "level": 3
+          }
+        ],
+        "equips": [
+          {
+            "id": "uniequip_002_makoto",
+            "type": "Y",
+            "level": 3
+          }
+        ],
+        "potentialRank": 2
+      },
+      "requirements": {
+        "elite": 2,
+        "level": 60,
+        "skill_level": 10,
+        "module": 2,
+        "potentiality": 1
+      }
+    },
+    {
+      "name": "凛御银灰",
+      "status": "borrow",
+      "requirements": {
+        "elite": 2,
+        "level": 90,
+        "skill_level": 10,
+        "module": 0
+      }
+    },
+    {
+      "name": "Lancet-2",
+      "status": "owned_requirements_met",
+      "snapshot": {
+        "id": "char_285_medic2",
+        "name": "Lancet-2",
+        "level": 1,
+        "evolvePhase": 0,
+        "mainSkillLevel": 1,
+        "skills": [],
+        "equips": [],
+        "potentialRank": 1
+      },
+      "requirements": {
+        "elite": 0,
+        "level": 1
+      }
+    },
+    {
+      "name": "塞雷娅",
+      "status": "owned_requirements_met",
+      "snapshot": {
+        "id": "char_202_demkni",
+        "name": "塞雷娅",
+        "level": 60,
+        "evolvePhase": 2,
+        "mainSkillLevel": 7,
+        "skills": [
+          {
+            "id": "skchr_demkni_1",
+            "level": 3
+          },
+          {
+            "id": "skchr_demkni_2",
+            "level": 0
+          },
+          {
+            "id": "skchr_demkni_3",
+            "level": 0
+          }
+        ],
+        "equips": [
+          {
+            "id": "uniequip_002_demkni",
+            "type": "X",
+            "level": 0
+          },
+          {
+            "id": "uniequip_003_demkni",
+            "type": "Y",
+            "level": 0
+          }
+        ],
+        "potentialRank": 1
+      },
+      "requirements": {
+        "elite": 2,
+        "level": 60,
+        "skill_level": 7,
+        "module": 0
+      }
+    }
+  ],
+  "robot_stays_in_hand": true,
+  "original_core_levels": [
+    90,
+    90
+  ],
+  "adapted_core_levels": [
+    60,
+    60
+  ],
+  "previous_version_raid_result": "user_reported_failure",
+  "saria_does_not_heal_makoto": true,
+  "combat_verified": false
+}

@@ -1,0 +1,3 @@
+PASS cases=4510 prefix_checks=26573 seed=112342023
+n=m=100000 T=256 all_zero_ability: PASS baseline_median=1.1286s single_build_median=0.6534s ratio=0.579
+n=m=100000 T=128 random_threshold_ability seed=112342024: PASS baseline_median=0.8353s single_build_median=0.5073s ratio=0.607
