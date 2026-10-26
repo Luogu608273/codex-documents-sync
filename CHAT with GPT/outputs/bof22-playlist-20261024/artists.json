@@ -1,0 +1,4393 @@
+[
+  {
+    "key": "159692",
+    "id": 159692,
+    "name": "初音ミク",
+    "name_variants": [
+      "初音ミク"
+    ],
+    "song_ids": [
+      30148963,
+      1447547524,
+      26440349,
+      3312587333,
+      512376191,
+      2111993054,
+      22699090,
+      503020031,
+      1864932183,
+      22677570,
+      31653490,
+      2659422324,
+      2156450569,
+      507795306,
+      2006735434,
+      1859603835,
+      22677522,
+      22686712,
+      22686719,
+      407485173,
+      4888353,
+      2020725645,
+      1962744445,
+      30870177,
+      1317505406,
+      2156432998,
+      1825037926,
+      469073360,
+      1951285318,
+      1966112474,
+      1456486939,
+      2719630556,
+      2158993579,
+      502455382,
+      1840474281,
+      432486474,
+      502455381,
+      26440351,
+      1897850210,
+      1847928316,
+      1385116338,
+      1878313261,
+      1404469236,
+      26096272
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      211,
+      415
+    ],
+    "team_candidates": []
+  },
+  {
+    "key": "12073277",
+    "id": 12073277,
+    "name": "削除",
+    "name_variants": [
+      "削除"
+    ],
+    "song_ids": [
+      3436287231,
+      1357428722,
+      3359696451,
+      526468592,
+      3316880795,
+      3312587333,
+      715813,
+      715796,
+      715831,
+      1962425055,
+      29932658,
+      426194040,
+      453176600,
+      2673737905,
+      2110359770,
+      715823,
+      41644023,
+      715811,
+      500392748,
+      1459037632,
+      1962493473,
+      2080462661,
+      715778,
+      715827,
+      1301674200,
+      36024932,
+      1403449766,
+      30148635,
+      1385304973,
+      526468593,
+      2080461744,
+      715785,
+      2044796386
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "32540734",
+    "id": 32540734,
+    "name": "塞壬唱片-MSR",
+    "name_variants": [
+      "塞壬唱片-MSR"
+    ],
+    "song_ids": [
+      3410744228,
+      3342981041,
+      3440323218,
+      3352927511,
+      2704258720,
+      2630863181,
+      2700386313,
+      2700386309,
+      2148767644,
+      2151230759,
+      2693587198,
+      3397872556,
+      2736706230,
+      2672191019,
+      2143302329,
+      2101701627,
+      3375918502,
+      1840976599,
+      1890402858
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "15396",
+    "id": 15396,
+    "name": "sasakure.UK",
+    "name_variants": [
+      "sasakure.UK"
+    ],
+    "song_ids": [
+      515337,
+      1916095309,
+      431958950,
+      1923123856,
+      26440349,
+      37820490,
+      2709762342,
+      30251537,
+      30251565,
+      26440351,
+      1962519608,
+      2118725709
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "14100246",
+    "id": 14100246,
+    "name": "Laur",
+    "name_variants": [
+      "Laur"
+    ],
+    "song_ids": [
+      1843970829,
+      1847185760,
+      2700547039,
+      1891387400,
+      3362599845,
+      2641534859,
+      2086612075,
+      1962493473,
+      1907125216,
+      2041522324,
+      1354461143
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "15846",
+    "id": 15846,
+    "name": "xi",
+    "name_variants": [
+      "xi"
+    ],
+    "song_ids": [
+      458013787,
+      3436287231,
+      22791469,
+      40915758,
+      1337009037,
+      22791468,
+      2729619517,
+      36024932,
+      22791466,
+      22791465
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      76,
+      114,
+      250,
+      347,
+      354,
+      356,
+      396,
+      467
+    ],
+    "team_candidates": [
+      166,
+      145,
+      144,
+      122,
+      108,
+      105,
+      96,
+      63,
+      54,
+      22
+    ]
+  },
+  {
+    "key": "11977133",
+    "id": 11977133,
+    "name": "Kobaryo",
+    "name_variants": [
+      "Kobaryo"
+    ],
+    "song_ids": [
+      2696364946,
+      3347108767,
+      419596561,
+      558377341,
+      558377350,
+      558377344,
+      1960097410,
+      558377342,
+      2043164658
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "999238",
+    "id": 999238,
+    "name": "かめりあ",
+    "name_variants": [
+      "かめりあ"
+    ],
+    "song_ids": [
+      3441408155,
+      1447547524,
+      558377341,
+      1336689106,
+      41631041,
+      1853203665,
+      1482677424,
+      1482675009,
+      1336689103
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12001189",
+    "id": 12001189,
+    "name": "Daily天利",
+    "name_variants": [
+      "Daily天利"
+    ],
+    "song_ids": [
+      2633241296,
+      1933840089,
+      1933841177,
+      1907047300,
+      2034897652,
+      2034894620,
+      2034894619,
+      2139810609
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "29794546",
+    "id": 29794546,
+    "name": "Frums",
+    "name_variants": [
+      "Frums"
+    ],
+    "song_ids": [
+      3444452494,
+      528271233,
+      528271201,
+      2110353534,
+      2026855372,
+      1847741361,
+      1945066724,
+      405372425
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "15152",
+    "id": 15152,
+    "name": "onoken",
+    "name_variants": [
+      "onoken"
+    ],
+    "song_ids": [
+      1481157289,
+      3315327864,
+      1339755060,
+      3384327216,
+      3347109940,
+      1481157280,
+      1339750206,
+      1965041412
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "22279",
+    "id": 22279,
+    "name": "void",
+    "name_variants": [
+      "void"
+    ],
+    "song_ids": [
+      3444519724,
+      35779208,
+      2648912892,
+      715811,
+      26115977,
+      26099148,
+      1965912564,
+      29932666
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12063047",
+    "id": 12063047,
+    "name": "A-39",
+    "name_variants": [
+      "A-39"
+    ],
+    "song_ids": [
+      2659422324,
+      1897850210,
+      1847928316,
+      2034897652,
+      2034894620,
+      2034894619,
+      1404469236
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12997484",
+    "id": 12997484,
+    "name": "BlackY",
+    "name_variants": [
+      "BlackY"
+    ],
+    "song_ids": [
+      1472575666,
+      3332347549,
+      1942474863,
+      2022317343,
+      1301573799,
+      1366552298,
+      1905671476
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "14001",
+    "id": 14001,
+    "name": "DECO*27",
+    "name_variants": [
+      "DECO*27"
+    ],
+    "song_ids": [
+      503020031,
+      2719630556,
+      2158993579,
+      502455382,
+      1840474281,
+      432486474,
+      1385116338
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "847174",
+    "id": 847174,
+    "name": "t+pazolite",
+    "name_variants": [
+      "t+pazolite"
+    ],
+    "song_ids": [
+      1962488963,
+      2090856096,
+      470601181,
+      407862754,
+      1459038427,
+      1455974449,
+      2676308767
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "51649974",
+    "id": 51649974,
+    "name": "TJ.hangneil",
+    "name_variants": [
+      "TJ.hangneil"
+    ],
+    "song_ids": [
+      1966744443,
+      1923123856,
+      1966731380,
+      2751435339,
+      1905673990,
+      1962519608,
+      2118725709
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12066135",
+    "id": 12066135,
+    "name": "モリモリあつし",
+    "name_variants": [
+      "モリモリあつし"
+    ],
+    "song_ids": [
+      2621216032,
+      2609432739,
+      477458667,
+      1824718668,
+      2670092450,
+      419116090,
+      1824993291
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "160154",
+    "id": 160154,
+    "name": "鏡音リン",
+    "name_variants": [
+      "鏡音リン"
+    ],
+    "song_ids": [
+      2695910914,
+      33516239,
+      1859603835,
+      1294899572,
+      1490396156,
+      548648148,
+      1966112474
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "48153027",
+    "id": 48153027,
+    "name": "25時、ナイトコードで。",
+    "name_variants": [
+      "25時、ナイトコードで。"
+    ],
+    "song_ids": [
+      2702706957,
+      3355917788,
+      2094458243,
+      2111993054,
+      2695910914,
+      1864932183
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "1137383",
+    "id": 1137383,
+    "name": "Feryquitous",
+    "name_variants": [
+      "Feryquitous"
+    ],
+    "song_ids": [
+      458013787,
+      2646547342,
+      1413787810,
+      2086612075,
+      1460660311,
+      1964089556
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "29788186",
+    "id": 29788186,
+    "name": "Silentroom",
+    "name_variants": [
+      "Silentroom"
+    ],
+    "song_ids": [
+      3346399433,
+      2026855372,
+      1847741361,
+      1945066724,
+      1424487649,
+      1356119842
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12189116",
+    "id": 12189116,
+    "name": "沙包P",
+    "name_variants": [
+      "沙包P"
+    ],
+    "song_ids": [
+      2659422324,
+      1847928316,
+      2034897652,
+      2034894620,
+      2034894619,
+      1404469236
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "15229",
+    "id": 15229,
+    "name": "ピノキオピー",
+    "name_variants": [
+      "ピノキオピー"
+    ],
+    "song_ids": [
+      1859603835,
+      2020725645,
+      1825037926,
+      1951285318,
+      1878313261
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "53308888",
+    "id": 53308888,
+    "name": "大国奏音",
+    "name_variants": [
+      "大国奏音"
+    ],
+    "song_ids": [
+      2673706655,
+      1914659895,
+      3362599845,
+      2641534859,
+      1964090998
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "47702024",
+    "id": 47702024,
+    "name": "打打だいず",
+    "name_variants": [
+      "打打だいず"
+    ],
+    "song_ids": [
+      3441240012,
+      2648894511,
+      2725300561,
+      3316880795,
+      2098704658
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "190527",
+    "id": 190527,
+    "name": "鏡音レン",
+    "name_variants": [
+      "鏡音レン"
+    ],
+    "song_ids": [
+      2094458243,
+      1294899572,
+      1490396156,
+      548648148,
+      1966112474
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "35599394",
+    "id": 35599394,
+    "name": "Aoi",
+    "name_variants": [
+      "Aoi"
+    ],
+    "song_ids": [
+      2600757405,
+      3332347549,
+      1919135304,
+      1862260487
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": [
+      167
+    ]
+  },
+  {
+    "key": "55396534",
+    "id": 55396534,
+    "name": "Ludicin",
+    "name_variants": [
+      "Ludicin"
+    ],
+    "song_ids": [
+      1978685838,
+      2687831947,
+      1968708159,
+      2637402867
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12194641",
+    "id": 12194641,
+    "name": "NoKANY",
+    "name_variants": [
+      "NoKANY"
+    ],
+    "song_ids": [
+      3450075063,
+      2757487553,
+      1303119310,
+      511181532
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      276,
+      290
+    ],
+    "team_candidates": [
+      139
+    ]
+  },
+  {
+    "key": "1087239",
+    "id": 1087239,
+    "name": "Team Grimoire",
+    "name_variants": [
+      "Team Grimoire"
+    ],
+    "song_ids": [
+      1459037634,
+      1962493473,
+      2688385575,
+      1354461143
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12998486",
+    "id": 12998486,
+    "name": "uma",
+    "name_variants": [
+      "uma"
+    ],
+    "song_ids": [
+      2621216032,
+      2609432739,
+      477458667,
+      1824993291
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      29
+    ],
+    "team_candidates": [
+      167,
+      141,
+      89,
+      83
+    ]
+  },
+  {
+    "key": "14670",
+    "id": 14670,
+    "name": "かいりきベア",
+    "name_variants": [
+      "かいりきベア"
+    ],
+    "song_ids": [
+      31653490,
+      1915002558,
+      1962744445,
+      1313897517
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "94216475",
+    "id": 94216475,
+    "name": "Aiobahn +81",
+    "name_variants": [
+      "Aiobahn +81"
+    ],
+    "song_ids": [
+      2668056312,
+      1840401436,
+      2029212574
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "46999538",
+    "id": 46999538,
+    "name": "AiSS",
+    "name_variants": [
+      "AiSS"
+    ],
+    "song_ids": [
+      2034897652,
+      2034894620,
+      2034894619
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "30273904",
+    "id": 30273904,
+    "name": "ak+q",
+    "name_variants": [
+      "ak+q"
+    ],
+    "song_ids": [
+      3375597427,
+      3347109940,
+      2650427950
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "1088061",
+    "id": 1088061,
+    "name": "DELA",
+    "name_variants": [
+      "DELA"
+    ],
+    "song_ids": [
+      41640890,
+      466174320,
+      411988633
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "32205908",
+    "id": 32205908,
+    "name": "Juggernaut.",
+    "name_variants": [
+      "Juggernaut."
+    ],
+    "song_ids": [
+      3431729717,
+      1944651767,
+      1416321652
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "34908029",
+    "id": 34908029,
+    "name": "Kry.exe",
+    "name_variants": [
+      "Kry.exe"
+    ],
+    "song_ids": [
+      1933840089,
+      1933841177,
+      2043340113
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12007207",
+    "id": 12007207,
+    "name": "LeaF",
+    "name_variants": [
+      "LeaF"
+    ],
+    "song_ids": [
+      1495879966,
+      2051829946,
+      1836078157
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": [
+      36
+    ]
+  },
+  {
+    "key": "37607390",
+    "id": 37607390,
+    "name": "Raimukun",
+    "name_variants": [
+      "Raimukun"
+    ],
+    "song_ids": [
+      2134844261,
+      2010302251,
+      2081168209
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "54563312",
+    "id": 54563312,
+    "name": "Rintaro Soma",
+    "name_variants": [
+      "Rintaro Soma"
+    ],
+    "song_ids": [
+      3349263612,
+      1919137741,
+      2134851870
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "160650",
+    "id": 160650,
+    "name": "USAO",
+    "name_variants": [
+      "USAO"
+    ],
+    "song_ids": [
+      1833853372,
+      1454965632,
+      1401042579
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "15823",
+    "id": 15823,
+    "name": "wowaka",
+    "name_variants": [
+      "wowaka"
+    ],
+    "song_ids": [
+      22699090,
+      4888353,
+      502455381
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "1102240",
+    "id": 1102240,
+    "name": "乐正绫",
+    "name_variants": [
+      "乐正绫"
+    ],
+    "song_ids": [
+      466174320,
+      2729374219,
+      462012620
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "55861996",
+    "id": 55861996,
+    "name": "水东合电研",
+    "name_variants": [
+      "水东合电研"
+    ],
+    "song_ids": [
+      2034897652,
+      2034894620,
+      2034894619
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "906118",
+    "id": 906118,
+    "name": "洛天依Official",
+    "name_variants": [
+      "洛天依Official"
+    ],
+    "song_ids": [
+      41640890,
+      466174320,
+      2729374219
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "1141075",
+    "id": 1141075,
+    "name": "重音テト",
+    "name_variants": [
+      "重音テト"
+    ],
+    "song_ids": [
+      2648491185,
+      2156450569,
+      2156432998
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      227,
+      312
+    ],
+    "team_candidates": []
+  },
+  {
+    "key": "122546004",
+    "id": 122546004,
+    "name": "铁痕电台-MSR",
+    "name_variants": [
+      "铁痕电台-MSR"
+    ],
+    "song_ids": [
+      3394949131,
+      3406727231,
+      3370944459
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "36854153",
+    "id": 36854153,
+    "name": "Alec Justice",
+    "name_variants": [
+      "Alec Justice"
+    ],
+    "song_ids": [
+      3394949131,
+      2700386309
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12047297",
+    "id": 12047297,
+    "name": "ARForest",
+    "name_variants": [
+      "ARForest"
+    ],
+    "song_ids": [
+      419594806,
+      2099631232
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      463
+    ],
+    "team_candidates": [
+      141
+    ]
+  },
+  {
+    "key": "12417158",
+    "id": 12417158,
+    "name": "Blacklolita",
+    "name_variants": [
+      "Blacklolita"
+    ],
+    "song_ids": [
+      3431729717,
+      2159260860
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "18965",
+    "id": 18965,
+    "name": "cosMo@暴走P",
+    "name_variants": [
+      "cosMo@暴走P"
+    ],
+    "song_ids": [
+      22686712,
+      22686719
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "29865037",
+    "id": 29865037,
+    "name": "Cosmograph",
+    "name_variants": [
+      "Cosmograph"
+    ],
+    "song_ids": [
+      1949793608,
+      2628998924
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "13924",
+    "id": 13924,
+    "name": "Cranky",
+    "name_variants": [
+      "Cranky"
+    ],
+    "song_ids": [
+      2614406528,
+      36024484
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      364
+    ],
+    "team_candidates": [
+      76
+    ]
+  },
+  {
+    "key": "14010",
+    "id": 14010,
+    "name": "DJ Myosuke",
+    "name_variants": [
+      "DJ Myosuke"
+    ],
+    "song_ids": [
+      1847185760,
+      2090856096
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "804355",
+    "id": 804355,
+    "name": "Giga",
+    "name_variants": [
+      "Giga"
+    ],
+    "song_ids": [
+      1294899572,
+      1490396156
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "36647248",
+    "id": 36647248,
+    "name": "Gram",
+    "name_variants": [
+      "Gram"
+    ],
+    "song_ids": [
+      3347108767,
+      2090856096
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "31473473",
+    "id": 31473473,
+    "name": "HyuN",
+    "name_variants": [
+      "HyuN"
+    ],
+    "song_ids": [
+      1343755784,
+      1401040013
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12095248",
+    "id": 12095248,
+    "name": "KAITO",
+    "name_variants": [
+      "KAITO"
+    ],
+    "song_ids": [
+      2702706957,
+      1966112474
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "15516",
+    "id": 15516,
+    "name": "kamome sano",
+    "name_variants": [
+      "kamome sano"
+    ],
+    "song_ids": [
+      2110359752,
+      2752280109
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "1098070",
+    "id": 1098070,
+    "name": "Kankitsu",
+    "name_variants": [
+      "Kankitsu"
+    ],
+    "song_ids": [
+      1914569509,
+      1356295672
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      465
+    ],
+    "team_candidates": [
+      82
+    ]
+  },
+  {
+    "key": "16691",
+    "id": 16691,
+    "name": "KOTOKO",
+    "name_variants": [
+      "KOTOKO"
+    ],
+    "song_ids": [
+      1840401436,
+      2029212574
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "49641916",
+    "id": 49641916,
+    "name": "LucaProject",
+    "name_variants": [
+      "LucaProject"
+    ],
+    "song_ids": [
+      2689897074,
+      2106210196
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "339594",
+    "id": 339594,
+    "name": "Mili",
+    "name_variants": [
+      "Mili"
+    ],
+    "song_ids": [
+      3342981041,
+      435278010
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "47734911",
+    "id": 47734911,
+    "name": "NEEDY GIRL OVERDOSE",
+    "name_variants": [
+      "NEEDY GIRL OVERDOSE"
+    ],
+    "song_ids": [
+      1840401436,
+      2029212574
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "29785818",
+    "id": 29785818,
+    "name": "Nikki Simmons",
+    "name_variants": [
+      "Nikki Simmons"
+    ],
+    "song_ids": [
+      1357428722,
+      1403449766
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "49119458",
+    "id": 49119458,
+    "name": "OfficialAz3",
+    "name_variants": [
+      "OfficialAz3"
+    ],
+    "song_ids": [
+      3365633801,
+      2674918018
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      62,
+      152,
+      274
+    ],
+    "team_candidates": [
+      118,
+      42,
+      41,
+      38,
+      32,
+      31
+    ]
+  },
+  {
+    "key": "31099286",
+    "id": 31099286,
+    "name": "owl*tree",
+    "name_variants": [
+      "owl*tree"
+    ],
+    "song_ids": [
+      3384327216,
+      1494550252
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "49726260",
+    "id": 49726260,
+    "name": "Plum - Melodic Artist",
+    "name_variants": [
+      "Plum - Melodic Artist"
+    ],
+    "song_ids": [
+      2005520294,
+      1877154646
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "34836963",
+    "id": 34836963,
+    "name": "Ponchi♪",
+    "name_variants": [
+      "Ponchi♪"
+    ],
+    "song_ids": [
+      1902739407,
+      1838461326
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "53313371",
+    "id": 53313371,
+    "name": "Project Grimoire",
+    "name_variants": [
+      "Project Grimoire"
+    ],
+    "song_ids": [
+      1915306851,
+      36103435
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "34168169",
+    "id": 34168169,
+    "name": "Reku Mochizuki",
+    "name_variants": [
+      "Reku Mochizuki"
+    ],
+    "song_ids": [
+      1983301439,
+      2609110983
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "905885",
+    "id": 905885,
+    "name": "ryo (supercell)",
+    "name_variants": [
+      "ryo (supercell)"
+    ],
+    "song_ids": [
+      22677570,
+      22677522
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "33865167",
+    "id": 33865167,
+    "name": "seatrus",
+    "name_variants": [
+      "seatrus"
+    ],
+    "song_ids": [
+      3416792092,
+      2059146654
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12191160",
+    "id": 12191160,
+    "name": "Sennzai",
+    "name_variants": [
+      "Sennzai"
+    ],
+    "song_ids": [
+      1914659931,
+      1809745288
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      390
+    ],
+    "team_candidates": [
+      141
+    ]
+  },
+  {
+    "key": "49916772",
+    "id": 49916772,
+    "name": "SHIKI",
+    "name_variants": [
+      "SHIKI"
+    ],
+    "song_ids": [
+      1897342905,
+      1873855825
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "30107313",
+    "id": 30107313,
+    "name": "siromaru",
+    "name_variants": [
+      "siromaru"
+    ],
+    "song_ids": [
+      3441240012,
+      36024484
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "1171027",
+    "id": 1171027,
+    "name": "technoplanet",
+    "name_variants": [
+      "technoplanet"
+    ],
+    "song_ids": [
+      2639989883,
+      3443796005
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12529644",
+    "id": 12529644,
+    "name": "VeetaCrush",
+    "name_variants": [
+      "VeetaCrush"
+    ],
+    "song_ids": [
+      1321015332,
+      1322659844
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "34758827",
+    "id": 34758827,
+    "name": "wotaku",
+    "name_variants": [
+      "wotaku"
+    ],
+    "song_ids": [
+      1897342905,
+      1873855825
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "96308120",
+    "id": 96308120,
+    "name": "Ωμεγα",
+    "name_variants": [
+      "Ωμεγα"
+    ],
+    "song_ids": [
+      3416330354,
+      2655084066
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "29788681",
+    "id": 29788681,
+    "name": "ああああ",
+    "name_variants": [
+      "ああああ"
+    ],
+    "song_ids": [
+      2166780635,
+      1455979687
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      289
+    ],
+    "team_candidates": [
+      131
+    ]
+  },
+  {
+    "key": "29793983",
+    "id": 29793983,
+    "name": "かねこちはる",
+    "name_variants": [
+      "かねこちはる"
+    ],
+    "song_ids": [
+      1962431237,
+      2676308767
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "31041665",
+    "id": 31041665,
+    "name": "はぁち",
+    "name_variants": [
+      "はぁち"
+    ],
+    "song_ids": [
+      1902739407,
+      1838461326
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      352
+    ],
+    "team_candidates": [
+      143
+    ]
+  },
+  {
+    "key": "15924",
+    "id": 15924,
+    "name": "ゆうゆ",
+    "name_variants": [
+      "ゆうゆ"
+    ],
+    "song_ids": [
+      2006735434,
+      469073360
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "47041447",
+    "id": 47041447,
+    "name": "サツキ",
+    "name_variants": [
+      "サツキ"
+    ],
+    "song_ids": [
+      2156450569,
+      2156432998
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "47893107",
+    "id": 47893107,
+    "name": "可不",
+    "name_variants": [
+      "可不"
+    ],
+    "song_ids": [
+      2705348293,
+      2091673318
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "29945161",
+    "id": 29945161,
+    "name": "川口博史",
+    "name_variants": [
+      "川口博史"
+    ],
+    "song_ids": [
+      2110359798,
+      470601175
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "190523",
+    "id": 190523,
+    "name": "巡音ルカ",
+    "name_variants": [
+      "巡音ルカ"
+    ],
+    "song_ids": [
+      4888353,
+      1966112474
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "50541008",
+    "id": 50541008,
+    "name": "庭師",
+    "name_variants": [
+      "庭師"
+    ],
+    "song_ids": [
+      2600757405,
+      1919135304
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      384
+    ],
+    "team_candidates": [
+      141
+    ]
+  },
+  {
+    "key": "35020390",
+    "id": 35020390,
+    "name": "月島春果",
+    "name_variants": [
+      "月島春果"
+    ],
+    "song_ids": [
+      2110359752,
+      2752280109
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "160825",
+    "id": 160825,
+    "name": "無力P",
+    "name_variants": [
+      "無力P"
+    ],
+    "song_ids": [
+      2146888577,
+      1809745288
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "159300",
+    "id": 159300,
+    "name": "米津玄師",
+    "name_variants": [
+      "米津玄師"
+    ],
+    "song_ids": [
+      512376191,
+      1317505406
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12417042",
+    "id": 12417042,
+    "name": "藍月なくる",
+    "name_variants": [
+      "藍月なくる"
+    ],
+    "song_ids": [
+      1891387400,
+      1964089556
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "46650303",
+    "id": 46650303,
+    "name": "816ThreeNumbers",
+    "name_variants": [
+      "816ThreeNumbers"
+    ],
+    "song_ids": [
+      1923021802
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "1137413",
+    "id": 1137413,
+    "name": "A Himitsu",
+    "name_variants": [
+      "A Himitsu"
+    ],
+    "song_ids": [
+      460628799
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "13600644",
+    "id": 13600644,
+    "name": "Adam Gubman",
+    "name_variants": [
+      "Adam Gubman"
+    ],
+    "song_ids": [
+      2151230759
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12647348",
+    "id": 12647348,
+    "name": "Alaina Cross",
+    "name_variants": [
+      "Alaina Cross"
+    ],
+    "song_ids": [
+      2736706230
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "16083",
+    "id": 16083,
+    "name": "Annabel",
+    "name_variants": [
+      "Annabel"
+    ],
+    "song_ids": [
+      2751435339
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "33734095",
+    "id": 33734095,
+    "name": "Apo11o program",
+    "name_variants": [
+      "Apo11o program"
+    ],
+    "song_ids": [
+      3448017288
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "56984777",
+    "id": 56984777,
+    "name": "ARMYTOM",
+    "name_variants": [
+      "ARMYTOM"
+    ],
+    "song_ids": [
+      2709762342
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      364
+    ],
+    "team_candidates": [
+      76
+    ]
+  },
+  {
+    "key": "47238199",
+    "id": 47238199,
+    "name": "ARuFa",
+    "name_variants": [
+      "ARuFa"
+    ],
+    "song_ids": [
+      2020725645
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "30228669",
+    "id": 30228669,
+    "name": "Ashrount",
+    "name_variants": [
+      "Ashrount"
+    ],
+    "song_ids": [
+      2648894511
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "56985271",
+    "id": 56985271,
+    "name": "Atomic Sphere",
+    "name_variants": [
+      "Atomic Sphere"
+    ],
+    "song_ids": [
+      2751435339
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "49837848",
+    "id": 49837848,
+    "name": "Azari",
+    "name_variants": [
+      "Azari"
+    ],
+    "song_ids": [
+      2695910914
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "13913",
+    "id": 13913,
+    "name": "BITPLANE",
+    "name_variants": [
+      "BITPLANE"
+    ],
+    "song_ids": [
+      2709762342
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      300,
+      301
+    ],
+    "team_candidates": [
+      76
+    ]
+  },
+  {
+    "key": "33819367",
+    "id": 33819367,
+    "name": "BLACK 0",
+    "name_variants": [
+      "BLACK 0"
+    ],
+    "song_ids": [
+      3352927511
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "34584864",
+    "id": 34584864,
+    "name": "blaxervant",
+    "name_variants": [
+      "blaxervant"
+    ],
+    "song_ids": [
+      2696364946
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "1038357",
+    "id": 1038357,
+    "name": "Casey Lee Williams",
+    "name_variants": [
+      "Casey Lee Williams"
+    ],
+    "song_ids": [
+      2151230759
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "name:Chapters",
+    "id": 0,
+    "name": "Chapters",
+    "name_variants": [
+      "Chapters"
+    ],
+    "song_ids": [
+      3394949131
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "34612165",
+    "id": 34612165,
+    "name": "Chinozo",
+    "name_variants": [
+      "Chinozo"
+    ],
+    "song_ids": [
+      1826139261
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "753030",
+    "id": 753030,
+    "name": "Crywolf",
+    "name_variants": [
+      "Crywolf"
+    ],
+    "song_ids": [
+      2700386313
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "29759344",
+    "id": 29759344,
+    "name": "cybermiso",
+    "name_variants": [
+      "cybermiso"
+    ],
+    "song_ids": [
+      1459038429
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "50364349",
+    "id": 50364349,
+    "name": "D_AAN",
+    "name_variants": [
+      "D_AAN"
+    ],
+    "song_ids": [
+      1907698880
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "52943942",
+    "id": 52943942,
+    "name": "David Lin",
+    "name_variants": [
+      "David Lin"
+    ],
+    "song_ids": [
+      2143302329
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "29896257",
+    "id": 29896257,
+    "name": "DAZBEE",
+    "name_variants": [
+      "DAZBEE"
+    ],
+    "song_ids": [
+      3410744228
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "121702123",
+    "id": 121702123,
+    "name": "Dew Pleiades",
+    "name_variants": [
+      "Dew Pleiades"
+    ],
+    "song_ids": [
+      3321350920
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "996606",
+    "id": 996606,
+    "name": "DJ Genki",
+    "name_variants": [
+      "DJ Genki"
+    ],
+    "song_ids": [
+      3330068958
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "35807637",
+    "id": 35807637,
+    "name": "DJ Raisei",
+    "name_variants": [
+      "DJ Raisei"
+    ],
+    "song_ids": [
+      2097198105
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "1112021",
+    "id": 1112021,
+    "name": "Echos",
+    "name_variants": [
+      "Echos"
+    ],
+    "song_ids": [
+      2700386309
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "31629646",
+    "id": 31629646,
+    "name": "eicateve",
+    "name_variants": [
+      "eicateve"
+    ],
+    "song_ids": [
+      2019022000
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "29786464",
+    "id": 29786464,
+    "name": "Eili",
+    "name_variants": [
+      "Eili"
+    ],
+    "song_ids": [
+      2081213963
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      397
+    ],
+    "team_candidates": [
+      141,
+      64
+    ]
+  },
+  {
+    "key": "name:Eili",
+    "id": 0,
+    "name": "Eili",
+    "name_variants": [
+      "Eili"
+    ],
+    "song_ids": [
+      3426079306
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      397
+    ],
+    "team_candidates": [
+      141,
+      64
+    ]
+  },
+  {
+    "key": "37664627",
+    "id": 37664627,
+    "name": "Elizabeth Hull",
+    "name_variants": [
+      "Elizabeth Hull"
+    ],
+    "song_ids": [
+      2672191019
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "47877241",
+    "id": 47877241,
+    "name": "Empty old City",
+    "name_variants": [
+      "Empty old City"
+    ],
+    "song_ids": [
+      2637083550
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "15141522",
+    "id": 15141522,
+    "name": "Erik Castro",
+    "name_variants": [
+      "Erik Castro"
+    ],
+    "song_ids": [
+      2143302329
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "55253919",
+    "id": 55253919,
+    "name": "Essbee",
+    "name_variants": [
+      "Essbee"
+    ],
+    "song_ids": [
+      3329651548
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12093253",
+    "id": 12093253,
+    "name": "F.L.O.A.T (白羽）",
+    "name_variants": [
+      "F.L.O.A.T (白羽）"
+    ],
+    "song_ids": [
+      3397872556
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "name:Feryquitous",
+    "id": 0,
+    "name": "Feryquitous",
+    "name_variants": [
+      "Feryquitous"
+    ],
+    "song_ids": [
+      453185437
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "94660298",
+    "id": 94660298,
+    "name": "Finite Limit",
+    "name_variants": [
+      "Finite Limit"
+    ],
+    "song_ids": [
+      2615382632
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "37106320",
+    "id": 37106320,
+    "name": "Forts",
+    "name_variants": [
+      "Forts"
+    ],
+    "song_ids": [
+      1890402858
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "55223930",
+    "id": 55223930,
+    "name": "Gardens",
+    "name_variants": [
+      "Gardens"
+    ],
+    "song_ids": [
+      2081213963
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "35875149",
+    "id": 35875149,
+    "name": "Halv",
+    "name_variants": [
+      "Halv"
+    ],
+    "song_ids": [
+      1456728399
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "20587",
+    "id": 20587,
+    "name": "halyosy",
+    "name_variants": [
+      "halyosy"
+    ],
+    "song_ids": [
+      1966112474
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "32041575",
+    "id": 32041575,
+    "name": "HeartStrings",
+    "name_variants": [
+      "HeartStrings"
+    ],
+    "song_ids": [
+      3370944459
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12023103",
+    "id": 12023103,
+    "name": "Hinkik",
+    "name_variants": [
+      "Hinkik"
+    ],
+    "song_ids": [
+      460628799
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12628184",
+    "id": 12628184,
+    "name": "ichika Nito",
+    "name_variants": [
+      "ichika Nito"
+    ],
+    "song_ids": [
+      2646547342
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12317490",
+    "id": 12317490,
+    "name": "itsu",
+    "name_variants": [
+      "itsu"
+    ],
+    "song_ids": [
+      1321015332
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      303,
+      386,
+      465
+    ],
+    "team_candidates": [
+      82,
+      81
+    ]
+  },
+  {
+    "key": "48775103",
+    "id": 48775103,
+    "name": "Jiuwenzi",
+    "name_variants": [
+      "Jiuwenzi"
+    ],
+    "song_ids": [
+      2733111817
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "35429589",
+    "id": 35429589,
+    "name": "john",
+    "name_variants": [
+      "john"
+    ],
+    "song_ids": [
+      1456486939
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": [
+      115
+    ]
+  },
+  {
+    "key": "1147148",
+    "id": 1147148,
+    "name": "Jun Kuroda",
+    "name_variants": [
+      "Jun Kuroda"
+    ],
+    "song_ids": [
+      2605886690
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "47518728",
+    "id": 47518728,
+    "name": "Kai",
+    "name_variants": [
+      "Kai"
+    ],
+    "song_ids": [
+      1964090998
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      233,
+      285
+    ],
+    "team_candidates": [
+      167,
+      120,
+      23
+    ]
+  },
+  {
+    "key": "52574192",
+    "id": 52574192,
+    "name": "kanone",
+    "name_variants": [
+      "kanone"
+    ],
+    "song_ids": [
+      2022317343
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "29767776",
+    "id": 29767776,
+    "name": "kanoryo",
+    "name_variants": [
+      "kanoryo"
+    ],
+    "song_ids": [
+      1356124890
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      105
+    ],
+    "team_candidates": [
+      95
+    ]
+  },
+  {
+    "key": "61262327",
+    "id": 61262327,
+    "name": "Keep Close",
+    "name_variants": [
+      "Keep Close"
+    ],
+    "song_ids": [
+      3394949131
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "126596829",
+    "id": 126596829,
+    "name": "Kkoori",
+    "name_variants": [
+      "Kkoori"
+    ],
+    "song_ids": [
+      3406727231
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12084049",
+    "id": 12084049,
+    "name": "KOOOZ",
+    "name_variants": [
+      "KOOOZ"
+    ],
+    "song_ids": [
+      2704258720
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "1098122",
+    "id": 1098122,
+    "name": "Kozato snow",
+    "name_variants": [
+      "Kozato snow"
+    ],
+    "song_ids": [
+      1323302259
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "59005938",
+    "id": 59005938,
+    "name": "KθZyo",
+    "name_variants": [
+      "KθZyo"
+    ],
+    "song_ids": [
+      2099982084
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "975323",
+    "id": 975323,
+    "name": "lasah",
+    "name_variants": [
+      "lasah"
+    ],
+    "song_ids": [
+      431958950
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "37501340",
+    "id": 37501340,
+    "name": "Levelist",
+    "name_variants": [
+      "Levelist"
+    ],
+    "song_ids": [
+      1495523907
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "16993",
+    "id": 16993,
+    "name": "Lia",
+    "name_variants": [
+      "Lia"
+    ],
+    "song_ids": [
+      28151022
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      131,
+      296,
+      450
+    ],
+    "team_candidates": [
+      144,
+      121,
+      70,
+      58,
+      50,
+      31,
+      12
+    ]
+  },
+  {
+    "key": "name:Limonène",
+    "id": 0,
+    "name": "Limonène",
+    "name_variants": [
+      "Limonène"
+    ],
+    "song_ids": [
+      2752280109
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "60364651",
+    "id": 60364651,
+    "name": "LYRi \"Cyanblue\" WHiTE",
+    "name_variants": [
+      "LYRi \"Cyanblue\" WHiTE"
+    ],
+    "song_ids": [
+      2128530603
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      460
+    ],
+    "team_candidates": [
+      125
+    ]
+  },
+  {
+    "key": "49502455",
+    "id": 49502455,
+    "name": "M-UE",
+    "name_variants": [
+      "M-UE"
+    ],
+    "song_ids": [
+      2609110983
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12011147",
+    "id": 12011147,
+    "name": "MARETU",
+    "name_variants": [
+      "MARETU"
+    ],
+    "song_ids": [
+      407485173
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "13264204",
+    "id": 13264204,
+    "name": "Martin Gonzalez",
+    "name_variants": [
+      "Martin Gonzalez"
+    ],
+    "song_ids": [
+      2672191019
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "1120148",
+    "id": 1120148,
+    "name": "MEIKO",
+    "name_variants": [
+      "MEIKO"
+    ],
+    "song_ids": [
+      1966112474
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "33891571",
+    "id": 33891571,
+    "name": "Melissa R. Kaplan",
+    "name_variants": [
+      "Melissa R. Kaplan"
+    ],
+    "song_ids": [
+      1840976599
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "32590999",
+    "id": 32590999,
+    "name": "Miaa",
+    "name_variants": [
+      "Miaa"
+    ],
+    "song_ids": [
+      2148767644
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "53227497",
+    "id": 53227497,
+    "name": "MisomyL",
+    "name_variants": [
+      "MisomyL"
+    ],
+    "song_ids": [
+      2020326503
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "34213357",
+    "id": 34213357,
+    "name": "Moana A",
+    "name_variants": [
+      "Moana A"
+    ],
+    "song_ids": [
+      2143302329
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "14808889",
+    "id": 14808889,
+    "name": "MYTK",
+    "name_variants": [
+      "MYTK"
+    ],
+    "song_ids": [
+      3394328471
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "981185",
+    "id": 981185,
+    "name": "n-buna",
+    "name_variants": [
+      "n-buna"
+    ],
+    "song_ids": [
+      30870177
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "1058125",
+    "id": 1058125,
+    "name": "N2V",
+    "name_variants": [
+      "N2V"
+    ],
+    "song_ids": [
+      2630863181
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "35192516",
+    "id": 35192516,
+    "name": "Nanchou",
+    "name_variants": [
+      "Nanchou"
+    ],
+    "song_ids": [
+      2733111817
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "1154038",
+    "id": 1154038,
+    "name": "NeLiME",
+    "name_variants": [
+      "NeLiME"
+    ],
+    "song_ids": [
+      2689897074
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "546614",
+    "id": 546614,
+    "name": "Neru",
+    "name_variants": [
+      "Neru"
+    ],
+    "song_ids": [
+      548648148
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "60097891",
+    "id": 60097891,
+    "name": "NIKANON",
+    "name_variants": [
+      "NIKANON"
+    ],
+    "song_ids": [
+      2128530603
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "47587054",
+    "id": 47587054,
+    "name": "nm-y",
+    "name_variants": [
+      "nm-y"
+    ],
+    "song_ids": [
+      2043340113
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      381
+    ],
+    "team_candidates": [
+      64
+    ]
+  },
+  {
+    "key": "53312357",
+    "id": 53312357,
+    "name": "Nothing But Requiem",
+    "name_variants": [
+      "Nothing But Requiem"
+    ],
+    "song_ids": [
+      2079827304
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "50144133",
+    "id": 50144133,
+    "name": "orangentle",
+    "name_variants": [
+      "orangentle"
+    ],
+    "song_ids": [
+      2734867374
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "51884944",
+    "id": 51884944,
+    "name": "Particulate",
+    "name_variants": [
+      "Particulate"
+    ],
+    "song_ids": [
+      2733111817
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "37609983",
+    "id": 37609983,
+    "name": "P丸様。",
+    "name_variants": [
+      "P丸様。"
+    ],
+    "song_ids": [
+      2668056312
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "160344",
+    "id": 160344,
+    "name": "REDALiCE",
+    "name_variants": [
+      "REDALiCE"
+    ],
+    "song_ids": [
+      1454965632
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "50126366",
+    "id": 50126366,
+    "name": "rejection",
+    "name_variants": [
+      "rejection"
+    ],
+    "song_ids": [
+      3426079306
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "35142098",
+    "id": 35142098,
+    "name": "Remnlar",
+    "name_variants": [
+      "Remnlar"
+    ],
+    "song_ids": [
+      2733111817
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12260118",
+    "id": 12260118,
+    "name": "Risa Yuzuki",
+    "name_variants": [
+      "Risa Yuzuki"
+    ],
+    "song_ids": [
+      1847185760
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "31464433",
+    "id": 31464433,
+    "name": "rN",
+    "name_variants": [
+      "rN"
+    ],
+    "song_ids": [
+      3444452494
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      140,
+      188,
+      372,
+      434
+    ],
+    "team_candidates": [
+      167,
+      165,
+      141,
+      126,
+      81,
+      43,
+      38,
+      28,
+      23
+    ]
+  },
+  {
+    "key": "34299530",
+    "id": 34299530,
+    "name": "Sad Keyboard Guy",
+    "name_variants": [
+      "Sad Keyboard Guy"
+    ],
+    "song_ids": [
+      2081213963
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "29791099",
+    "id": 29791099,
+    "name": "Se-U-Ra",
+    "name_variants": [
+      "Se-U-Ra"
+    ],
+    "song_ids": [
+      1811961337
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "20369",
+    "id": 20369,
+    "name": "SHIKI",
+    "name_variants": [
+      "SHIKI"
+    ],
+    "song_ids": [
+      22792646
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "29748262",
+    "id": 29748262,
+    "name": "Silis",
+    "name_variants": [
+      "Silis"
+    ],
+    "song_ids": [
+      2615382632
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "59017843",
+    "id": 59017843,
+    "name": "South&",
+    "name_variants": [
+      "South&"
+    ],
+    "song_ids": [
+      2705348293
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "29741205",
+    "id": 29741205,
+    "name": "Srezcat",
+    "name_variants": [
+      "Srezcat"
+    ],
+    "song_ids": [
+      2696364946
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12106046",
+    "id": 12106046,
+    "name": "Supa7onyz",
+    "name_variants": [
+      "Supa7onyz"
+    ],
+    "song_ids": [
+      2041508286
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "35123886",
+    "id": 35123886,
+    "name": "Supire",
+    "name_variants": [
+      "Supire"
+    ],
+    "song_ids": [
+      3426079306
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "name:suzu",
+    "id": 0,
+    "name": "suzu",
+    "name_variants": [
+      "suzu"
+    ],
+    "song_ids": [
+      1964056372
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      12,
+      258
+    ],
+    "team_candidates": [
+      70,
+      66,
+      54
+    ]
+  },
+  {
+    "key": "33229951",
+    "id": 33229951,
+    "name": "TAKIO",
+    "name_variants": [
+      "TAKIO"
+    ],
+    "song_ids": [
+      2730252024
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "46400975",
+    "id": 46400975,
+    "name": "Thai McGrath",
+    "name_variants": [
+      "Thai McGrath"
+    ],
+    "song_ids": [
+      2101701627
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "97995098",
+    "id": 97995098,
+    "name": "Thom Lukas",
+    "name_variants": [
+      "Thom Lukas"
+    ],
+    "song_ids": [
+      2693587198
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "55656118",
+    "id": 55656118,
+    "name": "tn-shi",
+    "name_variants": [
+      "tn-shi"
+    ],
+    "song_ids": [
+      2099298177
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "1002040",
+    "id": 1002040,
+    "name": "v flower",
+    "name_variants": [
+      "v flower"
+    ],
+    "song_ids": [
+      1915002558
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "61377349",
+    "id": 61377349,
+    "name": "V.I.P",
+    "name_variants": [
+      "V.I.P"
+    ],
+    "song_ids": [
+      2146778996
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "34078076",
+    "id": 34078076,
+    "name": "VANTA万塔",
+    "name_variants": [
+      "VANTA万塔"
+    ],
+    "song_ids": [
+      3397872556
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "54001681",
+    "id": 54001681,
+    "name": "Vencent",
+    "name_variants": [
+      "Vencent"
+    ],
+    "song_ids": [
+      3440323218
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "62363737",
+    "id": 62363737,
+    "name": "VISION SOUND",
+    "name_variants": [
+      "VISION SOUND"
+    ],
+    "song_ids": [
+      3440323218
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "47093418",
+    "id": 47093418,
+    "name": "wa.",
+    "name_variants": [
+      "wa."
+    ],
+    "song_ids": [
+      1964056372
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      77,
+      117,
+      148,
+      156,
+      181,
+      287,
+      314
+    ],
+    "team_candidates": [
+      173,
+      172,
+      167,
+      150,
+      134,
+      111,
+      107,
+      106,
+      99,
+      83,
+      75,
+      73,
+      70,
+      56,
+      38,
+      34,
+      7
+    ]
+  },
+  {
+    "key": "1046123",
+    "id": 1046123,
+    "name": "Wisp X",
+    "name_variants": [
+      "Wisp X"
+    ],
+    "song_ids": [
+      1397105536
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "34634139",
+    "id": 34634139,
+    "name": "Xeudo Code",
+    "name_variants": [
+      "Xeudo Code"
+    ],
+    "song_ids": [
+      2106210196
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "33927412",
+    "id": 33927412,
+    "name": "YOASOBI",
+    "name_variants": [
+      "YOASOBI"
+    ],
+    "song_ids": [
+      2083182016
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "33142685",
+    "id": 33142685,
+    "name": "Yu_Asahina",
+    "name_variants": [
+      "Yu_Asahina"
+    ],
+    "song_ids": [
+      2734867374
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12322268",
+    "id": 12322268,
+    "name": "z'5",
+    "name_variants": [
+      "z'5"
+    ],
+    "song_ids": [
+      548648148
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "52600247",
+    "id": 52600247,
+    "name": "Æsir",
+    "name_variants": [
+      "Æsir"
+    ],
+    "song_ids": [
+      1917016623
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "36112698",
+    "id": 36112698,
+    "name": "いよわ",
+    "name_variants": [
+      "いよわ"
+    ],
+    "song_ids": [
+      1991191322
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "14640",
+    "id": 14640,
+    "name": "きくお",
+    "name_variants": [
+      "きくお"
+    ],
+    "song_ids": [
+      1824719393
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "1084289",
+    "id": 1084289,
+    "name": "くるぶっこちゃん",
+    "name_variants": [
+      "くるぶっこちゃん"
+    ],
+    "song_ids": [
+      3444183581
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "32112529",
+    "id": 32112529,
+    "name": "しーけー",
+    "name_variants": [
+      "しーけー"
+    ],
+    "song_ids": [
+      1843970829
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "50609651",
+    "id": 50609651,
+    "name": "つぐ",
+    "name_variants": [
+      "つぐ"
+    ],
+    "song_ids": [
+      2730252024
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "1087651",
+    "id": 1087651,
+    "name": "とあ",
+    "name_variants": [
+      "とあ"
+    ],
+    "song_ids": [
+      30148963
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": [
+      142
+    ]
+  },
+  {
+    "key": "15021",
+    "id": 15021,
+    "name": "ななひら",
+    "name_variants": [
+      "ななひら"
+    ],
+    "song_ids": [
+      2668056312
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "17423",
+    "id": 17423,
+    "name": "のみこ",
+    "name_variants": [
+      "のみこ"
+    ],
+    "song_ids": [
+      22645196
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "30123231",
+    "id": 30123231,
+    "name": "ぺのれり",
+    "name_variants": [
+      "ぺのれり"
+    ],
+    "song_ids": [
+      2166780635
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "896913",
+    "id": 896913,
+    "name": "まふまふ",
+    "name_variants": [
+      "まふまふ"
+    ],
+    "song_ids": [
+      1864932183
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "49394172",
+    "id": 49394172,
+    "name": "わかどり",
+    "name_variants": [
+      "わかどり"
+    ],
+    "song_ids": [
+      2006232047
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "100317490",
+    "id": 100317490,
+    "name": "カモメサノエレクトリックオーケストラ",
+    "name_variants": [
+      "カモメサノエレクトリックオーケストラ"
+    ],
+    "song_ids": [
+      2752280109
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "15250024",
+    "id": 15250024,
+    "name": "カンザキイオリ",
+    "name_variants": [
+      "カンザキイオリ"
+    ],
+    "song_ids": [
+      507795306
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "34505358",
+    "id": 34505358,
+    "name": "ツユ",
+    "name_variants": [
+      "ツユ"
+    ],
+    "song_ids": [
+      1860937248
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "31031472",
+    "id": 31031472,
+    "name": "テヅカ",
+    "name_variants": [
+      "テヅカ"
+    ],
+    "song_ids": [
+      2679749732
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "48128313",
+    "id": 48128313,
+    "name": "プシ",
+    "name_variants": [
+      "プシ"
+    ],
+    "song_ids": [
+      2733111817
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "33031480",
+    "id": 33031480,
+    "name": "ユリカリパブリック",
+    "name_variants": [
+      "ユリカリパブリック"
+    ],
+    "song_ids": [
+      3375918502
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "48153015",
+    "id": 48153015,
+    "name": "ワンダーランズ×ショウタイム",
+    "name_variants": [
+      "ワンダーランズ×ショウタイム"
+    ],
+    "song_ids": [
+      2111993048
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12079106",
+    "id": 12079106,
+    "name": "东京塔子",
+    "name_variants": [
+      "东京塔子"
+    ],
+    "song_ids": [
+      460839654
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "name:乐正绫",
+    "id": 0,
+    "name": "乐正绫",
+    "name_variants": [
+      "乐正绫"
+    ],
+    "song_ids": [
+      1900343746
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "29810258",
+    "id": 29810258,
+    "name": "光吉猛修",
+    "name_variants": [
+      "光吉猛修"
+    ],
+    "song_ids": [
+      1964090998
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "160442",
+    "id": 160442,
+    "name": "凛",
+    "name_variants": [
+      "凛"
+    ],
+    "song_ids": [
+      2667733098
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "46278925",
+    "id": 46278925,
+    "name": "初云CLoudie",
+    "name_variants": [
+      "初云CLoudie"
+    ],
+    "song_ids": [
+      1944086441
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "36240522",
+    "id": 36240522,
+    "name": "卉HUI-Works",
+    "name_variants": [
+      "卉HUI-Works"
+    ],
+    "song_ids": [
+      1944086441
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "58110032",
+    "id": 58110032,
+    "name": "南ノ南",
+    "name_variants": [
+      "南ノ南"
+    ],
+    "song_ids": [
+      2091673318
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "53594931",
+    "id": 53594931,
+    "name": "双狐座",
+    "name_variants": [
+      "双狐座"
+    ],
+    "song_ids": [
+      3324409257
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "96291711",
+    "id": 96291711,
+    "name": "名乗る名が無い",
+    "name_variants": [
+      "名乗る名が無い"
+    ],
+    "song_ids": [
+      2654771655
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "190650",
+    "id": 190650,
+    "name": "大瀬良あい",
+    "name_variants": [
+      "大瀬良あい"
+    ],
+    "song_ids": [
+      3448017288
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "18122",
+    "id": 18122,
+    "name": "宇多田ヒカル",
+    "name_variants": [
+      "宇多田ヒカル"
+    ],
+    "song_ids": [
+      1824020871
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "30109620",
+    "id": 30109620,
+    "name": "安月名莉子",
+    "name_variants": [
+      "安月名莉子"
+    ],
+    "song_ids": [
+      3448017288
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "54405247",
+    "id": 54405247,
+    "name": "宵崎奏",
+    "name_variants": [
+      "宵崎奏"
+    ],
+    "song_ids": [
+      2695910914
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "15146",
+    "id": 15146,
+    "name": "小野秀幸",
+    "name_variants": [
+      "小野秀幸"
+    ],
+    "song_ids": [
+      470601216
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "49172240",
+    "id": 49172240,
+    "name": "平間美賀",
+    "name_variants": [
+      "平間美賀"
+    ],
+    "song_ids": [
+      2083450038
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "33989332",
+    "id": 33989332,
+    "name": "文舞bin",
+    "name_variants": [
+      "文舞bin"
+    ],
+    "song_ids": [
+      1900343746
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "46363106",
+    "id": 46363106,
+    "name": "斎藤千穂",
+    "name_variants": [
+      "斎藤千穂"
+    ],
+    "song_ids": [
+      1494550252
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "51126686",
+    "id": 51126686,
+    "name": "星熊南巫",
+    "name_variants": [
+      "星熊南巫"
+    ],
+    "song_ids": [
+      1965912564
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "52339492",
+    "id": 52339492,
+    "name": "星界",
+    "name_variants": [
+      "星界"
+    ],
+    "song_ids": [
+      2091673318
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "58932300",
+    "id": 58932300,
+    "name": "普阿山",
+    "name_variants": [
+      "普阿山"
+    ],
+    "song_ids": [
+      3370944459
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "94530704",
+    "id": 94530704,
+    "name": "暁山瑞希",
+    "name_variants": [
+      "暁山瑞希"
+    ],
+    "song_ids": [
+      2695910914
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "94531572",
+    "id": 94531572,
+    "name": "朝比奈まふゆ",
+    "name_variants": [
+      "朝比奈まふゆ"
+    ],
+    "song_ids": [
+      2695910914
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "55761293",
+    "id": 55761293,
+    "name": "木下珠子",
+    "name_variants": [
+      "木下珠子"
+    ],
+    "song_ids": [
+      2639989883
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "94530703",
+    "id": 94530703,
+    "name": "東雲絵名",
+    "name_variants": [
+      "東雲絵名"
+    ],
+    "song_ids": [
+      2695910914
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "53282250",
+    "id": 53282250,
+    "name": "松林凜",
+    "name_variants": [
+      "松林凜"
+    ],
+    "song_ids": [
+      3375918502
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "37281800",
+    "id": 37281800,
+    "name": "柊マグネタイト",
+    "name_variants": [
+      "柊マグネタイト"
+    ],
+    "song_ids": [
+      2648491185
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "32061778",
+    "id": 32061778,
+    "name": "森正樹",
+    "name_variants": [
+      "森正樹"
+    ],
+    "song_ids": [
+      2614406528
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "14257",
+    "id": 14257,
+    "name": "椎名もた",
+    "name_variants": [
+      "椎名もた"
+    ],
+    "song_ids": [
+      33516239
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "36859265",
+    "id": 36859265,
+    "name": "次元晴天",
+    "name_variants": [
+      "次元晴天"
+    ],
+    "song_ids": [
+      2058889859
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "53308660",
+    "id": 53308660,
+    "name": "水野健治",
+    "name_variants": [
+      "水野健治"
+    ],
+    "song_ids": [
+      1964090998
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "name:洛天依",
+    "id": 0,
+    "name": "洛天依",
+    "name_variants": [
+      "洛天依"
+    ],
+    "song_ids": [
+      1900343746
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12521008",
+    "id": 12521008,
+    "name": "流绪",
+    "name_variants": [
+      "流绪"
+    ],
+    "song_ids": [
+      1950636423
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "94844832",
+    "id": 94844832,
+    "name": "留声音乐",
+    "name_variants": [
+      "留声音乐"
+    ],
+    "song_ids": [
+      3352927511
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "14650592",
+    "id": 14650592,
+    "name": "矢鴇つかさ",
+    "name_variants": [
+      "矢鴇つかさ"
+    ],
+    "song_ids": [
+      1459038426
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "125830439",
+    "id": 125830439,
+    "name": "祝文越",
+    "name_variants": [
+      "祝文越"
+    ],
+    "song_ids": [
+      3397872556
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "31276038",
+    "id": 31276038,
+    "name": "穴山大輔",
+    "name_variants": [
+      "穴山大輔"
+    ],
+    "song_ids": [
+      1964090998
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "34001727",
+    "id": 34001727,
+    "name": "米虾Fomiki",
+    "name_variants": [
+      "米虾Fomiki"
+    ],
+    "song_ids": [
+      1944086441
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      88
+    ],
+    "team_candidates": [
+      24
+    ]
+  },
+  {
+    "key": "54103171",
+    "id": 54103171,
+    "name": "結束バンド",
+    "name_variants": [
+      "結束バンド"
+    ],
+    "song_ids": [
+      1991012773
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "55110201",
+    "id": 55110201,
+    "name": "艾苏凛",
+    "name_variants": [
+      "艾苏凛"
+    ],
+    "song_ids": [
+      2733111817
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "16456",
+    "id": 16456,
+    "name": "花澤香菜",
+    "name_variants": [
+      "花澤香菜"
+    ],
+    "song_ids": [
+      579954
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "name:花見くくる",
+    "id": 0,
+    "name": "花見くくる",
+    "name_variants": [
+      "花見くくる"
+    ],
+    "song_ids": [
+      3450075063
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      290
+    ],
+    "team_candidates": [
+      139
+    ]
+  },
+  {
+    "key": "1003026",
+    "id": 1003026,
+    "name": "茶理理",
+    "name_variants": [
+      "茶理理"
+    ],
+    "song_ids": [
+      1396905930
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "name:言和",
+    "id": 0,
+    "name": "言和",
+    "name_variants": [
+      "言和"
+    ],
+    "song_ids": [
+      1900343746
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "983028",
+    "id": 983028,
+    "name": "言和",
+    "name_variants": [
+      "言和"
+    ],
+    "song_ids": [
+      41640890
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "54418589",
+    "id": 54418589,
+    "name": "足立レイ",
+    "name_variants": [
+      "足立レイ"
+    ],
+    "song_ids": [
+      1991191322
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12198912",
+    "id": 12198912,
+    "name": "辻原",
+    "name_variants": [
+      "辻原"
+    ],
+    "song_ids": [
+      2678257112
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12293819",
+    "id": 12293819,
+    "name": "钱润玉",
+    "name_variants": [
+      "钱润玉"
+    ],
+    "song_ids": [
+      3406727231
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "12074034",
+    "id": 12074034,
+    "name": "闇音レンリ",
+    "name_variants": [
+      "闇音レンリ"
+    ],
+    "song_ids": [
+      2097198105
+    ],
+    "aliases": [],
+    "entry_candidates": [
+      296
+    ],
+    "team_candidates": []
+  },
+  {
+    "key": "12053352",
+    "id": 12053352,
+    "name": "雄之助",
+    "name_variants": [
+      "雄之助"
+    ],
+    "song_ids": [
+      1914659931
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "818540",
+    "id": 818540,
+    "name": "青木征洋",
+    "name_variants": [
+      "青木征洋"
+    ],
+    "song_ids": [
+      2134557060
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "34262015",
+    "id": 34262015,
+    "name": "香椎モイミ",
+    "name_variants": [
+      "香椎モイミ"
+    ],
+    "song_ids": [
+      2146778996
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  },
+  {
+    "key": "14610",
+    "id": 14610,
+    "name": "黒うさP",
+    "name_variants": [
+      "黒うさP"
+    ],
+    "song_ids": [
+      26096272
+    ],
+    "aliases": [],
+    "entry_candidates": [],
+    "team_candidates": []
+  }
+]

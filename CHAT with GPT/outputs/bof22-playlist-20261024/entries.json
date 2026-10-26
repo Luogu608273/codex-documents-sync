@@ -1,0 +1,4752 @@
+[
+  {
+    "id": 1,
+    "team": "Yobimo Entertainment",
+    "artist": "Aquer",
+    "title": "ALYA",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=1&event=152",
+    "full_artist_display": "Aquer(mov:aamreuworks × Minato -Uki-)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 2,
+    "team": "りんご湯",
+    "artist": "U-ske feat. 美月もも",
+    "title": "或る儀式について",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=2&event=152",
+    "full_artist_display": "U-ske feat. 美月もも",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 3,
+    "team": "#KaMiHalBand",
+    "artist": "ハルガスミ",
+    "title": "ムーンライズ・バニーガール",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=3&event=152",
+    "full_artist_display": "ハルガスミ",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 4,
+    "team": "勾玉をあいする",
+    "artist": "Lanait",
+    "title": "まどろみ電脳ログ",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=4&event=152",
+    "full_artist_display": "Lanait",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 5,
+    "team": "AFTER WAR II",
+    "artist": "6CHA9N",
+    "title": "moso smoke",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=5&event=152",
+    "full_artist_display": "6CHA9N(mov:ミツメサチ)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 6,
+    "team": "THE BASS GUARDIANS 続",
+    "artist": "0phldlan",
+    "title": "thaIassophobla",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=6&event=152",
+    "full_artist_display": "0phldlan(mov:sdjge)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 7,
+    "team": "imPRechoes",
+    "artist": "X14N",
+    "title": "【業界初！】音ゲーが上達するエナジードリンクだとォ！？",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=7&event=152",
+    "full_artist_display": "X14N(mov:Lillie Virgo)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 8,
+    "team": "TPZ(Team Pop Zone)",
+    "artist": "ProjectG feat. 東 雪蓮",
+    "title": "クレオメ",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=8&event=152",
+    "full_artist_display": "ProjectG feat. 東 雪蓮(mov:三重水素、nonacola3／illust: TARA#376)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 9,
+    "team": "Crescent Remi[X]niscence for Null",
+    "artist": "Tweak1",
+    "title": "Summer Endless",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=9&event=152",
+    "full_artist_display": "Tweak1(mov:Z6W2A)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 10,
+    "team": "絶 狂乱木曜日のスーパーブラスト ~霸道上校が私に恋した! ~極大往生~",
+    "artist": "Roxx=R054",
+    "title": "ECHO 3001 (For All Oldskool Ravers)",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=10&event=152",
+    "full_artist_display": "Roxx=R054",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 11,
+    "team": "コバコノカクレガ",
+    "artist": "鈎兎(KagiUsagi)",
+    "title": "icy aquaria",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=11&event=152",
+    "full_artist_display": "鈎兎(KagiUsagi)(mov:くるやのぶ)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 12,
+    "team": "ピンハオ隊",
+    "artist": "星咲Suzumi -Étoile-",
+    "title": "鬼車玖伶鳴",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=12&event=152",
+    "full_artist_display": "星咲Suzumi -Étoile-(mov:Akitrco)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 13,
+    "team": "千載一遇わんちゃんぐ",
+    "artist": "KA2TA5",
+    "title": "私の想う幻想",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=13&event=152",
+    "full_artist_display": "KA2TA5",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 14,
+    "team": "平日午前ゲーセンの勇者たち",
+    "artist": "litmus*",
+    "title": "Planet Rave",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=14&event=152",
+    "full_artist_display": "litmus*",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 15,
+    "team": "鍵盤をシバいた猫",
+    "artist": "MiKaDo feat. GUMI",
+    "title": "いただきっ！聖夜の一番星！",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=15&event=152",
+    "full_artist_display": "MiKaDo feat. GUMI(mov:LLRK)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 16,
+    "team": "#億万長者と繋がりたい",
+    "artist": "ume feat.まより / mov: otakurenn×AparallelX",
+    "title": "36.8℃",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=16&event=152",
+    "full_artist_display": "ume feat.まより / mov: otakurenn×AparallelX",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 17,
+    "team": "おさかなりょーり！",
+    "artist": "おみー feat.Eleanor Forte",
+    "title": "Crimson Pure, the Star",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=17&event=152",
+    "full_artist_display": "おみー feat.Eleanor Forte",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 18,
+    "team": "ヤヌスの仮面",
+    "artist": "クラリス・アルトマン",
+    "title": "複合魔法「硬核破壊暗黒魔炎」",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=18&event=152",
+    "full_artist_display": "クラリス・アルトマン(mov:クラリス・アルトマン Illust:ラフィーナ・エルクシュタイン)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 19,
+    "team": "曲が作れません！！！",
+    "artist": "ReLU",
+    "title": "Rectified",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=19&event=152",
+    "full_artist_display": "ReLU",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 20,
+    "team": "PHOTON STRiKE -OVERRiDE-",
+    "artist": "VXΛ",
+    "title": "RE_EXECUTiON",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=20&event=152",
+    "full_artist_display": "VXΛ(mov:140/fth)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 21,
+    "team": "FUN Fighter",
+    "artist": "angeljerry",
+    "title": "Cuz I Need U Now",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=21&event=152",
+    "full_artist_display": "angeljerry(mov:太行猫)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 22,
+    "team": "元気もりもりティーンズ",
+    "artist": "Yobit",
+    "title": "Will of the Galaxy",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=22&event=152",
+    "full_artist_display": "Yobit",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 23,
+    "team": "仄か姫閑言楽団 2026年「蒼」",
+    "artist": "Roise feat.高城みよ",
+    "title": "泡沫のセイレーン",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=23&event=152",
+    "full_artist_display": "Roise feat.高城みよ(mov:Black)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 24,
+    "team": "鍵盤をシバいた猫",
+    "artist": "きこにゃん feat.芽羽みなせ",
+    "title": "マジックスペル",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=24&event=152",
+    "full_artist_display": "きこにゃん feat.芽羽みなせ(mov:らりる)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 25,
+    "team": "#億万長者と繋がりたい",
+    "artist": "ギャンブルアイドル☆ななりん(CV.はらもりよしな) / Prod:Tiv (Movie:ひきにく&よまお)",
+    "title": "一発逆転!!レバーオン",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=25&event=152",
+    "full_artist_display": "ギャンブルアイドル☆ななりん(CV.はらもりよしな) / Prod:Tiv (Movie:ひきにく&よまお)(mov:ひきにく＆よまお)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 26,
+    "team": "PHOTON STRiKE -OVERRiDE-",
+    "artist": "shimizushi",
+    "title": "LIGHTS OF AWAKENING",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=26&event=152",
+    "full_artist_display": "shimizushi(mov:Black)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 27,
+    "team": "なん俺",
+    "artist": "椿.",
+    "title": "Prismagenic",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=27&event=152",
+    "full_artist_display": "椿.(mov:halorime)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 28,
+    "team": "ンジャメナ国際空港ラウンジ",
+    "artist": "ohon",
+    "title": "Cold Rain",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=28&event=152",
+    "full_artist_display": "ohon",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 29,
+    "team": "千載一遇わんちゃんぐ",
+    "artist": "JURUMA",
+    "title": "DECISIVE[×]BREAKER",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=29&event=152",
+    "full_artist_display": "JURUMA",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 30,
+    "team": "勾玉をあいする",
+    "artist": "DOANOB",
+    "title": "Top Gear",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=30&event=152",
+    "full_artist_display": "DOANOB",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 31,
+    "team": "Quantum Heritage",
+    "artist": "Z6W2A",
+    "title": "Vestigidualis",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=31&event=152",
+    "full_artist_display": "Z6W2A(mov:Z6W2A)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 32,
+    "team": "？！訴訴！？",
+    "artist": "LB & 井之酱",
+    "title": "永恒回響 -Eternal Echo-",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=32&event=152",
+    "full_artist_display": "LB & 井之酱(mov:rua & LB)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 33,
+    "team": "Deadline Impact",
+    "artist": "Cryo-Myosotis",
+    "title": "Nivalis",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=33&event=152",
+    "full_artist_display": "Cryo-Myosotis(mov:saka2)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 34,
+    "team": "imPRechoes",
+    "artist": "七草くりむ",
+    "title": "形而上のテアトル",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=34&event=152",
+    "full_artist_display": "七草くりむ",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 35,
+    "team": "音ゲーで腱断裂！",
+    "artist": "Lalot.",
+    "title": "RE:D",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=35&event=152",
+    "full_artist_display": "Lalot.(mov:Illust:越冬)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 36,
+    "team": "PLAYGROUND",
+    "artist": "chilldive vs Sobrem",
+    "title": "METAMORPH",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=36&event=152",
+    "full_artist_display": "chilldive vs Sobrem / chilldive vs Sobrem(mov:marierie)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 37,
+    "team": "ヤヌスの仮面",
+    "artist": "ラフィーナ・エルクシュタイン",
+    "title": "晨光溢るる、黄金の揺曳",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=37&event=152",
+    "full_artist_display": "ラフィーナ・エルクシュタイン(mov:アーデルハイト・ゴルドハール)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 38,
+    "team": "ボンボン・クラムボンズ",
+    "artist": "nebulaimako",
+    "title": "pipe & stream",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=38&event=152",
+    "full_artist_display": "nebulaimako",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 39,
+    "team": "曲が作れません！！！",
+    "artist": "pimatT",
+    "title": "Chronic dream",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=39&event=152",
+    "full_artist_display": "pimatT",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 40,
+    "team": "#KaMiHalBand",
+    "artist": "Kanata.S feat. Mai, HXVOC",
+    "title": "Terrific Revelry",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=40&event=152",
+    "full_artist_display": "Kanata.S feat. Mai, HXVOC",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 41,
+    "team": "胎動",
+    "artist": "Kurast703",
+    "title": "2016年1月",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=41&event=152",
+    "full_artist_display": "Kurast703",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 42,
+    "team": "Imaginery Museum",
+    "artist": "foonone",
+    "title": "Cosmoplastic",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=42&event=152",
+    "full_artist_display": "foonone",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 43,
+    "team": "imPRechoes",
+    "artist": "pho",
+    "title": "blue spells",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=43&event=152",
+    "full_artist_display": "pho(mov:ケっと)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 44,
+    "team": "Bridegrooms of Fridge",
+    "artist": "HotTea (mov.Baiicat)",
+    "title": "Jacaranda!!",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=44&event=152",
+    "full_artist_display": "HotTea (mov.Baiicat)(mov:Baiicat)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 45,
+    "team": "千載一遇わんちゃんぐ",
+    "artist": "MiKaDo feat. 鈴咲のの",
+    "title": "Winger…",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=45&event=152",
+    "full_artist_display": "MiKaDo feat. 鈴咲のの(mov:BGA:ムッシュ竹崎 Illust:たっくす)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 46,
+    "team": "アスキーアート大作戦",
+    "artist": "inaharu",
+    "title": "fortune",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=46&event=152",
+    "full_artist_display": "inaharu",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 47,
+    "team": "Imaginery Museum",
+    "artist": "文沢そらこ",
+    "title": "Bille Coloree #13",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=47&event=152",
+    "full_artist_display": "文沢そらこ",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 48,
+    "team": "骨伝導式Jアラート",
+    "artist": "やわらかラリーハウス北村",
+    "title": "RIDE ON",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=48&event=152",
+    "full_artist_display": "やわらかラリーハウス北村",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 49,
+    "team": "FUN Fighter",
+    "artist": "NonNam",
+    "title": "I:O:IX",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=49&event=152",
+    "full_artist_display": "NonNam(mov:X-chalk)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 50,
+    "team": "imPRechoes",
+    "artist": "Terasu",
+    "title": "Dreamcrafter",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=50&event=152",
+    "full_artist_display": "Terasu(mov:Terasu & ゆめおばけ)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 51,
+    "team": "勾玉をあいする",
+    "artist": "keres",
+    "title": "QWERTY++",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=51&event=152",
+    "full_artist_display": "keres",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 52,
+    "team": "Gifts Over Glimmers -微光巡礼-",
+    "artist": "Z6W2A",
+    "title": "Symbiosis Unrendered",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=52&event=152",
+    "full_artist_display": "Z6W2A(mov:Z6W2A)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 53,
+    "team": "Quantum Heritage",
+    "artist": "LiGaYb",
+    "title": "C",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=53&event=152",
+    "full_artist_display": "LiGaYb",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 54,
+    "team": "生草打火机",
+    "artist": "Itz62iGD",
+    "title": "Wraith.Mourn.Curse",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=54&event=152",
+    "full_artist_display": "Itz62iGD(mov:Sparkline)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 55,
+    "team": "生草打火机",
+    "artist": "神罰P_ vs. Night-EX",
+    "title": "SmaSΘSeraphiM",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=55&event=152",
+    "full_artist_display": "神罰P_ vs. Night-EX / 秋夢観鶴(mov:Frozem)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 56,
+    "team": "PHOTON STRiKE -OVERRiDE-",
+    "artist": "DJ JUNOU",
+    "title": "L2NEON(Radio Edit)",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=56&event=152",
+    "full_artist_display": "DJ JUNOU",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 57,
+    "team": "アスキーアート大作戦",
+    "artist": "Yossshy",
+    "title": "Spaceship",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=57&event=152",
+    "full_artist_display": "Yossshy",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 58,
+    "team": "指定暴力団はるかぜ組 Evolved",
+    "artist": "鈎兎(KagiUsagi)",
+    "title": "狂花水月 - KagiUsaMetal ver. -",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=58&event=152",
+    "full_artist_display": "鈎兎(KagiUsagi)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 59,
+    "team": "胎動",
+    "artist": "Yusasi & GM_Shadows feat. 赤羽",
+    "title": "5OFT☆NEBULA",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=59&event=152",
+    "full_artist_display": "Yusasi & GM_Shadows feat. 赤羽(mov:陵熏)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 60,
+    "team": "T-BMS Recording",
+    "artist": "万響Bankyo",
+    "title": "Breather",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=60&event=152",
+    "full_artist_display": "万響Bankyo(mov:russell, Jerry Parker)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 61,
+    "team": "クリームソーダ",
+    "artist": "Arranged by oo-kani feat.Tsugu",
+    "title": "straight, no chaser",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=61&event=152",
+    "full_artist_display": "Arranged by oo-kani feat.Tsugu / Thelonious Monk",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 62,
+    "team": "THE BASS GUARDIANS 続",
+    "artist": "OfficialAz3 feat. Echa",
+    "title": "the world of viridian",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=62&event=152",
+    "full_artist_display": "OfficialAz3 feat. Echa(mov:! x -·)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 63,
+    "team": "LEGEND OF G",
+    "artist": "MUSIC: Constellation/ MOVIE: Constellation feat. gsgaiq",
+    "title": "Ultimate Otoge Ranker",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=63&event=152",
+    "full_artist_display": "MUSIC: Constellation/ MOVIE: Constellation feat. gsgaiq(mov:Constellation feat. gsgaiq)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 64,
+    "team": "ハピコアだいすきクラブ",
+    "artist": "otoshi.b & kooridori",
+    "title": "Ultravelers!!!",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=64&event=152",
+    "full_artist_display": "otoshi.b & kooridori(mov:ShakeJ)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 65,
+    "team": "喜八八喜",
+    "artist": "Roxx",
+    "title": "PHANTOM DIGITAL",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=65&event=152",
+    "full_artist_display": "Roxx",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 66,
+    "team": "ボンボン・クラムボンズ",
+    "artist": "ですワ",
+    "title": "TOXIC ENGINE",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=66&event=152",
+    "full_artist_display": "ですワ(mov:ShakeJ)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 67,
+    "team": "Quantum Heritage",
+    "artist": "Chikanya",
+    "title": "雨氷",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=67&event=152",
+    "full_artist_display": "Chikanya(mov:Mikira)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 68,
+    "team": "ピンハオ隊",
+    "artist": "wnulll",
+    "title": "Counsel",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=68&event=152",
+    "full_artist_display": "wnulll / wnull(mov:MAX-LYB)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 69,
+    "team": "AFTER WAR II",
+    "artist": "TaW",
+    "title": "Rust summeR",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=69&event=152",
+    "full_artist_display": "TaW",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 70,
+    "team": "Crescent Remi[X]niscence for Null",
+    "artist": "Xxjun",
+    "title": "Summer Memories",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=70&event=152",
+    "full_artist_display": "Xxjun / Xxjun(mov:Kavhoo,Z6W2A)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 71,
+    "team": "わちゃわちゃミュージックソリューションズ株式会社",
+    "artist": "ハートフルぼっち",
+    "title": "Five In The Falsification",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=71&event=152",
+    "full_artist_display": "ハートフルぼっち(mov:ハートフルぼっち, isabi)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 72,
+    "team": "勾玉をあいする",
+    "artist": "NIGHTMARE",
+    "title": "Collapsed Mirage",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=72&event=152",
+    "full_artist_display": "NIGHTMARE(mov:DOANOB)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 73,
+    "team": "メスガキクソガキドパガキ",
+    "artist": "クソガキ",
+    "title": "私のアニメ愛はお前らなんかに止めらんない！",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=73&event=152",
+    "full_artist_display": "クソガキ / 色々な方",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 74,
+    "team": "？！訴訴！？",
+    "artist": "LiGaYb/RFeather(feat. 默辰)",
+    "title": "PPT大神",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=74&event=152",
+    "full_artist_display": "LiGaYb/RFeather(feat. 默辰)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 75,
+    "team": "おさかなりょーり！",
+    "artist": "KaKi",
+    "title": "A.B.L.D.",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=75&event=152",
+    "full_artist_display": "KaKi(mov:kokodoko)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 76,
+    "team": "鍵盤をシバいた猫",
+    "artist": "Nima feat.Yi Xi",
+    "title": "永遠の夢",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=76&event=152",
+    "full_artist_display": "Nima feat.Yi Xi",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 77,
+    "team": "THE BASS GUARDIANS 続",
+    "artist": "watch vs. F411εν vs. FurryWu",
+    "title": "/*digit_realm.",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=77&event=152",
+    "full_artist_display": "watch vs. F411εν vs. FurryWu(mov:sdjge vs. BASSKNIVES vs. watch)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 78,
+    "team": "絶 狂乱木曜日のスーパーブラスト ~霸道上校が私に恋した! ~極大往生~",
+    "artist": "KNYORG",
+    "title": "帰墟一葉",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=78&event=152",
+    "full_artist_display": "KNYORG(mov: X-chalk)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 79,
+    "team": "Bridegrooms of Fridge",
+    "artist": "琲茶Lftee(mov.HotTea)",
+    "title": "Fancy Present",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=79&event=152",
+    "full_artist_display": "琲茶Lftee(mov.HotTea)(mov:HotTea)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 80,
+    "team": "センタプルチーズバーガー",
+    "artist": "Tiv",
+    "title": "爛弩",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=80&event=152",
+    "full_artist_display": "Tiv(mov:BGI:猫詩)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 81,
+    "team": "あずま・あにま",
+    "artist": "ume / mov:KeiuO + 焼き鳥",
+    "title": "RUST",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=81&event=152",
+    "full_artist_display": "ume / mov:KeiuO + 焼き鳥",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 82,
+    "team": "BMS Video",
+    "artist": "42SoL",
+    "title": "cryona",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=82&event=152",
+    "full_artist_display": "42SoL(mov:halorime)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 83,
+    "team": "#KaMiHalBand",
+    "artist": "MiKaDo feat. A.Dokuga",
+    "title": "紅キ契ノ鎮魂華",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=83&event=152",
+    "full_artist_display": "MiKaDo feat. A.Dokuga(mov:BGA:MiKaDo Illust:アカツキユウ)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 84,
+    "team": "音ゲーで腱断裂！",
+    "artist": "TendonCutter feat. 姫野みずき",
+    "title": "断裂の一咆",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=84&event=152",
+    "full_artist_display": "TendonCutter feat. 姫野みずき(mov:th3_n00b13)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 85,
+    "team": "Ford Forest Foreigner",
+    "artist": "momo★yama feat.Ryo",
+    "title": "生まれぬ雛",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=85&event=152",
+    "full_artist_display": "momo★yama feat.Ryo",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 86,
+    "team": "絶 狂乱木曜日のスーパーブラスト ~霸道上校が私に恋した! ~極大往生~",
+    "artist": "Teaa",
+    "title": "ふたりのナルツスー",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=86&event=152",
+    "full_artist_display": "Teaa(mov:Rain、Teaa、Z6W2A)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 87,
+    "team": "うさ亭",
+    "artist": "もるもる",
+    "title": "Astuce",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=87&event=152",
+    "full_artist_display": "もるもる",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 88,
+    "team": "FUN Fighter",
+    "artist": "Chikanya vs. 米虾Fomiki",
+    "title": "春痕 - Floral Crepuscle",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=88&event=152",
+    "full_artist_display": "Chikanya vs. 米虾Fomiki(mov:Z6W2A)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 89,
+    "team": "(*DISSOCIATED*)",
+    "artist": "THE WIZARDCRAFT(Hex Margarita & kdcysth)",
+    "title": "L'eau à Paris",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=89&event=152",
+    "full_artist_display": "THE WIZARDCRAFT(Hex Margarita & kdcysth)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 90,
+    "team": "おさかなりょーり！",
+    "artist": "Sakamiya feat.月雫あい",
+    "title": "リビドマテリアリズム(BMS Edit)",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=90&event=152",
+    "full_artist_display": "Sakamiya feat.月雫あい",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 91,
+    "team": "MAYhem",
+    "artist": "Pafa",
+    "title": "sky hike",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=91&event=152",
+    "full_artist_display": "Pafa",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 92,
+    "team": "？！訴訴！？",
+    "artist": "Skelent_793",
+    "title": "Back 2 U",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=92&event=152",
+    "full_artist_display": "Skelent_793(mov:Chiseyo1122★)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 93,
+    "team": "わちゃわちゃミュージックソリューションズ株式会社",
+    "artist": "nebulaimako",
+    "title": "H Y P E R L O V E",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=93&event=152",
+    "full_artist_display": "nebulaimako",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 94,
+    "team": "生草打火机",
+    "artist": "Mr_Command",
+    "title": "Penumbra",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=94&event=152",
+    "full_artist_display": "Mr_Command / Mr_Command(mov:X-chalk)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 95,
+    "team": "First Azimuth: Lithospheric Cataclysm",
+    "artist": "LiGaYb",
+    "title": "BYD.OGG",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=95&event=152",
+    "full_artist_display": "LiGaYb",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 96,
+    "team": "千載一遇わんちゃんぐ",
+    "artist": "TAKA38",
+    "title": "teikei",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=96&event=152",
+    "full_artist_display": "TAKA38",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 97,
+    "team": "エルデン回戦～人外魔境ローデイル",
+    "artist": "Kyakii",
+    "title": "“AMBER” the hollow one",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=97&event=152",
+    "full_artist_display": "Kyakii(mov:UzzeXL/Sunsalアズサ)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 98,
+    "team": "Crescent Remi[X]niscence for Null",
+    "artist": "Only My Black Score remixed by Kavhoo",
+    "title": "混乱 -Confusion",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=98&event=152",
+    "full_artist_display": "Only My Black Score remixed by Kavhoo / Only My Black Score(mov:Z6W2A)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 99,
+    "team": "Deadline Impact",
+    "artist": "SaikaS C.",
+    "title": "Stellar Concert",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=99&event=152",
+    "full_artist_display": "SaikaS C.(mov:ShooTinGStaR)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 100,
+    "team": "Pixel Perfect",
+    "artist": "CirCy",
+    "title": "Fragments VI",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=100&event=152",
+    "full_artist_display": "CirCy",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 101,
+    "team": "Micore_D",
+    "artist": "Gmy",
+    "title": "Out of Carnation",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=101&event=152",
+    "full_artist_display": "Gmy(mov:Gmy)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 102,
+    "team": "FUN Fighter",
+    "artist": "「再逢星」 さいほうせい&Funchen feat.Aletta",
+    "title": "「魂再」（たまさい)",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=102&event=152",
+    "full_artist_display": "「再逢星」 さいほうせい&Funchen  feat.Aletta(mov:霸氣爺們勾/Illust:YimonDC)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 103,
+    "team": "THE BASS GUARDIANS 続",
+    "artist": "SaikaS C.",
+    "title": "METAMORPHOSIS",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=103&event=152",
+    "full_artist_display": "SaikaS C.",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 104,
+    "team": "なん俺",
+    "artist": "oven-cat",
+    "title": "Venefica",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=104&event=152",
+    "full_artist_display": "oven-cat",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 105,
+    "team": "おさかなりょーり！",
+    "artist": "kanoryo",
+    "title": "Solitude",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=105&event=152",
+    "full_artist_display": "kanoryo",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 106,
+    "team": "ピンハオ隊",
+    "artist": "Khrisma",
+    "title": "心終",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=106&event=152",
+    "full_artist_display": "Khrisma",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 107,
+    "team": "We are cosmic.",
+    "artist": "Lalot. vs ナナシのゴシック！",
+    "title": "Cryptic Saga",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=107&event=152",
+    "full_artist_display": "Lalot. vs ナナシのゴシック！(mov:with あかさた・Lepsis)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 108,
+    "team": "わいわいわい",
+    "artist": "Y.W x kotomi",
+    "title": "Blessing of the sunlight",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=108&event=152",
+    "full_artist_display": "Y.W x kotomi",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 109,
+    "team": "？！訴訴！？",
+    "artist": "[Deus ex Machina]",
+    "title": "LAMENT FOR HER, THE APPARATUS",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=109&event=152",
+    "full_artist_display": "[Deus ex Machina]",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 110,
+    "team": "H1TOPIA",
+    "artist": "明日雨",
+    "title": "4574r31n",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=110&event=152",
+    "full_artist_display": "明日雨(mov:明日雨)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 111,
+    "team": "Crescent Remi[X]niscence for Null",
+    "artist": "zun remixed by My_PC",
+    "title": "天狗の滝",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=111&event=152",
+    "full_artist_display": "zun remixed by My_PC / zun(mov:My_PC)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 112,
+    "team": "Ford Forest Foreigner",
+    "artist": "もるもる",
+    "title": "秋黴雨",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=112&event=152",
+    "full_artist_display": "もるもる",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 113,
+    "team": "2代目 BMS Sound Team",
+    "artist": "BMS Sound Team \"DJ ANDREA JP\"",
+    "title": "BIG BANG BOMB",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=113&event=152",
+    "full_artist_display": "BMS Sound Team \"DJ ANDREA JP\"",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 114,
+    "team": "06TAC",
+    "artist": "xiezoubochang",
+    "title": "SOundS",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=114&event=152",
+    "full_artist_display": "xiezoubochang",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 115,
+    "team": "なん俺",
+    "artist": "Lalot.",
+    "title": "Never say Never",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=115&event=152",
+    "full_artist_display": "Lalot.",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 116,
+    "team": "We are cosmic.",
+    "artist": "Kaede Hiyama",
+    "title": "SYNC",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=116&event=152",
+    "full_artist_display": "Kaede Hiyama(mov:愛風×Lalot.)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 117,
+    "team": "Quantum Heritage",
+    "artist": "EwanXuaN",
+    "title": "Advent",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=117&event=152",
+    "full_artist_display": "EwanXuaN(mov:BASSKNIVES)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 118,
+    "team": "optical camouflage",
+    "artist": "zxxsmart",
+    "title": "Parallax",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=118&event=152",
+    "full_artist_display": "zxxsmart",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 119,
+    "team": "Cherish the Moments",
+    "artist": "kakusan.",
+    "title": "Chaigidel",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=119&event=152",
+    "full_artist_display": "kakusan.(mov:Merong)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 120,
+    "team": "3匹のテクノ",
+    "artist": "old young boy",
+    "title": "Somnambulism (in Ticking Blackout Dream)",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=120&event=152",
+    "full_artist_display": "old young boy",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 121,
+    "team": "Bridegrooms of Fridge",
+    "artist": "Horzion_Prot&una",
+    "title": "para//el",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=121&event=152",
+    "full_artist_display": "Horzion_Prot&una(mov:Baiicat)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 122,
+    "team": "optical camouflage",
+    "artist": "zxxsmart",
+    "title": "Barrier",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=122&event=152",
+    "full_artist_display": "zxxsmart",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 123,
+    "team": "optical camouflage",
+    "artist": "zxxsmart",
+    "title": "Photonic",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=123&event=152",
+    "full_artist_display": "zxxsmart",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 124,
+    "team": "自由深冬第六日",
+    "artist": "andreko",
+    "title": "Ambrosium",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=124&event=152",
+    "full_artist_display": "andreko(mov:AiLANE)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 125,
+    "team": "The Walkers",
+    "artist": "Fiksa",
+    "title": "Fluid",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=125&event=152",
+    "full_artist_display": "Fiksa",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 126,
+    "team": "optical camouflage",
+    "artist": "common",
+    "title": "死静",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=126&event=152",
+    "full_artist_display": "common",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 127,
+    "team": "06TAC",
+    "artist": "Feynman",
+    "title": "MIRAGE",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=127&event=152",
+    "full_artist_display": "Feynman",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 128,
+    "team": "The Walkers",
+    "artist": "Nesri",
+    "title": "復 仇",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=128&event=152",
+    "full_artist_display": "Nesri(mov:SilverYbladeS)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 129,
+    "team": "H1TOPIA",
+    "artist": "Do Minh Quan GWDS",
+    "title": "Mischievous Memories",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=129&event=152",
+    "full_artist_display": "Do Minh Quan GWDS(mov:YiMeng.emo)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 130,
+    "team": "タンクメイン",
+    "artist": "crossworld",
+    "title": "Abnormal 切除",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=130&event=152",
+    "full_artist_display": "crossworld",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 131,
+    "team": "Yobimo Entertainment",
+    "artist": "Aeolian",
+    "title": "OVERLOAD",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=131&event=152",
+    "full_artist_display": "Aeolian(mov:NyuPenyu)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 132,
+    "team": "わいわいわい",
+    "artist": "yassu",
+    "title": "虹色プリズム",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=132&event=152",
+    "full_artist_display": "yassu(mov:Black)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 133,
+    "team": "DESTREATE",
+    "artist": "Shalla plugged kinematos",
+    "title": "𒅗𒀭𒉌𒋛𒄑𒆪",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=133&event=152",
+    "full_artist_display": "Shalla plugged kinematos(mov:kinematos)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 134,
+    "team": "平日午前ゲーセンの勇者たち",
+    "artist": "Palami",
+    "title": "Pioneer ~Tribute for Earendel~",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=134&event=152",
+    "full_artist_display": "Palami / Palami(mov:KimAutomne)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 135,
+    "team": "ヤヌスの仮面",
+    "artist": "ブランシュ・リーテ",
+    "title": "Cast a spell for _",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=135&event=152",
+    "full_artist_display": "ブランシュ・リーテ",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 136,
+    "team": "Shasavic Nexus",
+    "artist": "Tachy Bunker",
+    "title": "Kinetic Crystaloids",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=136&event=152",
+    "full_artist_display": "Tachy Bunker(mov:bububirb)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 137,
+    "team": "自由深冬第六日",
+    "artist": "crash909☆",
+    "title": "KÉLOENOZVI",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=137&event=152",
+    "full_artist_display": "crash909☆(mov:星野明羽)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 138,
+    "team": "The Walkers",
+    "artist": "ColorFoxs",
+    "title": "Pastel Fuse",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=138&event=152",
+    "full_artist_display": "ColorFoxs(mov:Yowayoru Chisaki)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 139,
+    "team": "LEGEND OF G",
+    "artist": "xeninsect respect for aym",
+    "title": "DANCING WITH Mocha float TILL SUNRISE",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=139&event=152",
+    "full_artist_display": "xeninsect respect for aym(mov:xeninsect)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 140,
+    "team": "Windows 22",
+    "artist": "RNY",
+    "title": "Sunlit Scenery",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=140&event=152",
+    "full_artist_display": "RNY(mov:斗湖)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 141,
+    "team": "あずま・あにま",
+    "artist": "Shugo Sekine feat.ゆきまめ",
+    "title": "玲瓏スペクトラ",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=141&event=152",
+    "full_artist_display": "Shugo Sekine feat.ゆきまめ(mov:KeiuO + あの子)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 142,
+    "team": "Brainrot Gangster",
+    "artist": "908two / BGA:ReeZ",
+    "title": "Exanimatio",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=142&event=152",
+    "full_artist_display": "908two / BGA:ReeZ",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 143,
+    "team": "DESTREATE",
+    "artist": "NOiS",
+    "title": "stomping MASSiVE",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=143&event=152",
+    "full_artist_display": "NOiS(mov:kinematos)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 144,
+    "team": "Brainrot Gangster",
+    "artist": "CSH",
+    "title": "Gwasok Ssyndrome",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=144&event=152",
+    "full_artist_display": "CSH",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 145,
+    "team": "nine long",
+    "artist": "DJ KOK",
+    "title": "Dream.mp3",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=145&event=152",
+    "full_artist_display": "DJ KOK",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 146,
+    "team": "nine long",
+    "artist": "DJ KOK",
+    "title": "lost one",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=146&event=152",
+    "full_artist_display": "DJ KOK(mov:x三十三文鱼)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 147,
+    "team": "StoryTeller",
+    "artist": "Medium feat. 電気彩 (UTAU)",
+    "title": "感染性脳朽症",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=147&event=152",
+    "full_artist_display": "Medium feat. 電気彩 (UTAU)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 148,
+    "team": "HYPERNOVA",
+    "artist": "wakaraa",
+    "title": "Supernova Remnant",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=148&event=152",
+    "full_artist_display": "wakaraa(mov:MOMO1)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 149,
+    "team": "#億万長者と繋がりたい",
+    "artist": "大前 司",
+    "title": "Serendipity",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=149&event=152",
+    "full_artist_display": "大前 司(mov:大前 司 / Illust:みとP)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 150,
+    "team": "#億万長者と繋がりたい",
+    "artist": "numuto",
+    "title": "Angelic Affection",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=150&event=152",
+    "full_artist_display": "numuto(mov:壱城とき、来海かのん)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 151,
+    "team": "Shasavic Nexus",
+    "artist": "ついたち",
+    "title": "Twisted Twilight",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=151&event=152",
+    "full_artist_display": "ついたち(mov:bububirb)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 152,
+    "team": "BMS Video",
+    "artist": "OfficialAz3",
+    "title": "SAMPLELOOPBREAKER 11",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=152&event=152",
+    "full_artist_display": "OfficialAz3",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 153,
+    "team": "コバコノカクレガ",
+    "artist": "ANKAKE (feat.宮舞モカ・花隈千冬)",
+    "title": "ジダイ",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=153&event=152",
+    "full_artist_display": "ANKAKE (feat.宮舞モカ・花隈千冬)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 154,
+    "team": "Windows 22",
+    "artist": "Seori (Rain's Avenue)",
+    "title": "Fireflies",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=154&event=152",
+    "full_artist_display": "Seori (Rain's Avenue)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 155,
+    "team": "LEGEND OF G",
+    "artist": "MUSIC: D.J.jkoiuy / BMS: Constellation vs CalendarV",
+    "title": "Touch the Sky",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=155&event=152",
+    "full_artist_display": "MUSIC: D.J.jkoiuy / BMS: Constellation vs CalendarV(mov:Constellation)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 156,
+    "team": "ンジャメナ国際空港ラウンジ",
+    "artist": "Towa Hisanaga",
+    "title": "#BEATZ_RIGHT_NOW",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=156&event=152",
+    "full_artist_display": "Towa Hisanaga",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 157,
+    "team": "いい",
+    "artist": "6CHA9N",
+    "title": "foresTMode",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=157&event=152",
+    "full_artist_display": "6CHA9N(mov:1B)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 158,
+    "team": "Yobimo Entertainment",
+    "artist": "Meyazra",
+    "title": "Expedition Start! (BMS Version)",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=158&event=152",
+    "full_artist_display": "Meyazra(mov:Febbs!)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 159,
+    "team": "成為音樂源頭關注組",
+    "artist": "♡絕對lunul ^3^♡ .＊曖 +✚rina=Lydi✚+ °°曖＊ 乂煞氣ゑIc*3*乂 (三角関系)",
+    "title": "•3•+*°°°× 巧煩牙!!＊ T^T 凸",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=159&event=152",
+    "full_artist_display": "♡絕對lunul ^3^♡ .＊曖 +✚rina=Lydi✚+ °°曖＊ 乂煞氣ゑIc*3*乂 (三角関系)(mov:Cruxhkg, Trina Lydia, LoTag)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 160,
+    "team": "Sunny Dog",
+    "artist": "Huntuner",
+    "title": "Alabaster Skyline",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=160&event=152",
+    "full_artist_display": "Huntuner(mov:Huntuner)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 161,
+    "team": "06TAC",
+    "artist": "DJ THiNAl",
+    "title": "PHOTON",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=161&event=152",
+    "full_artist_display": "DJ THiNAl / DJ THiNAl(mov:谐奏波长)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 162,
+    "team": "QuArtum Can'tus",
+    "artist": "SonephGlimpse",
+    "title": "Tropixies",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=162&event=152",
+    "full_artist_display": "SonephGlimpse",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 163,
+    "team": "Quintuple Cheese Burgers",
+    "artist": "U-hey Seta feat.三七",
+    "title": "celestial sphere",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=163&event=152",
+    "full_artist_display": "U-hey Seta feat.三七",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 164,
+    "team": "壹式",
+    "artist": "Cryo-Bubble",
+    "title": "Suture Line",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=164&event=152",
+    "full_artist_display": "Cryo-Bubble(mov:杳乙)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 165,
+    "team": "QuArtum Can'tus",
+    "artist": "pit-p",
+    "title": "if",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=165&event=152",
+    "full_artist_display": "pit-p",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 166,
+    "team": "アスキーアート大作戦",
+    "artist": "ebideath",
+    "title": "Last song",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=166&event=152",
+    "full_artist_display": "ebideath(mov:コモリンガ)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 167,
+    "team": "悪魔紫豆隊",
+    "artist": "MessX",
+    "title": "Spotlight",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=167&event=152",
+    "full_artist_display": "MessX(mov:初生)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 168,
+    "team": "Shasavic Nexus",
+    "artist": "u20xx",
+    "title": "Bafafá",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=168&event=152",
+    "full_artist_display": "u20xx(mov:42SoL)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 169,
+    "team": "Cherish the Moments",
+    "artist": "ChaozBreaker!(mov:laetzit)",
+    "title": "Retrieve the Fragments",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=169&event=152",
+    "full_artist_display": "ChaozBreaker!(mov:laetzit)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 170,
+    "team": "銀杏の下で",
+    "artist": "Ju_E",
+    "title": "Toy Magica",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=170&event=152",
+    "full_artist_display": "Ju_E",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 171,
+    "team": "Quintuple Cheese Burgers",
+    "artist": "HCGR:2nd",
+    "title": "Paradise Shift",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=171&event=152",
+    "full_artist_display": "HCGR:2nd(mov:しゅー㌧)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 172,
+    "team": "自由深冬第六日",
+    "artist": "NEKO18",
+    "title": "SAKOZIMIEV",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=172&event=152",
+    "full_artist_display": "NEKO18(mov:usan1wa)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 173,
+    "team": "Sunny Dog",
+    "artist": "DJHAKUGIN",
+    "title": "Yozora",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=173&event=152",
+    "full_artist_display": "DJHAKUGIN(mov:333XD)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 174,
+    "team": "Domesti-Core",
+    "artist": "uramp",
+    "title": "W0RK4H0L1C",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=174&event=152",
+    "full_artist_display": "uramp(mov:Re: Kei)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 175,
+    "team": "Pixel Perfect",
+    "artist": "NanaSaku vs Saku Nanase",
+    "title": "BipoluX",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=175&event=152",
+    "full_artist_display": "NanaSaku vs Saku Nanase",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 176,
+    "team": "D-illusionA1Z",
+    "artist": "DJ resaYs",
+    "title": "late-night subway homie",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=176&event=152",
+    "full_artist_display": "DJ resaYs(mov:Daniel Rotwind)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 177,
+    "team": "ゲーセンが実家 ～Thrill Drive～",
+    "artist": "しるい",
+    "title": "Ove[R]ev",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=177&event=152",
+    "full_artist_display": "しるい",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 178,
+    "team": "ゲーセンが実家 ～Thrill Drive～",
+    "artist": "くるやのぶ",
+    "title": "アクセルファンク",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=178&event=152",
+    "full_artist_display": "くるやのぶ",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 179,
+    "team": "Sawtooth Sharkz",
+    "artist": "Frs1pw",
+    "title": "Driftfrequency : 兵庫",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=179&event=152",
+    "full_artist_display": "Frs1pw",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 180,
+    "team": "四蛆兄弟",
+    "artist": "Icebow",
+    "title": "Traina raina vain",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=180&event=152",
+    "full_artist_display": "Icebow(mov:Icebow)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 181,
+    "team": "Micore_D",
+    "artist": "WASTO",
+    "title": "Through the Interstice",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=181&event=152",
+    "full_artist_display": "WASTO(mov:Gmy)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 182,
+    "team": "Shasavic Nexus",
+    "artist": "LΛMPLIGHT",
+    "title": "Yxeni [BMS Edit]",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=182&event=152",
+    "full_artist_display": "LΛMPLIGHT",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 183,
+    "team": "Ultimate Ravers",
+    "artist": "WhiteXoon",
+    "title": "ADiOS",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=183&event=152",
+    "full_artist_display": "WhiteXoon(mov:TARA#376 BG: mitaiiii + TARA#376)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 184,
+    "team": "PUNCH OUT -SEA$ON IX-",
+    "artist": "Capsluck feat.まより",
+    "title": "Happycore☆World!!",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=184&event=152",
+    "full_artist_display": "Capsluck feat.まより(mov:Smol Mochi もち)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 185,
+    "team": "うさ亭",
+    "artist": "YtzkA",
+    "title": "Their Past, Our Future (BMS Edit)",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=185&event=152",
+    "full_artist_display": "YtzkA(mov:YtzkA (映像提供: ハルガスミ, Tiv, もるもる))",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 186,
+    "team": "2016 + 10",
+    "artist": "Kyuzo Sameura",
+    "title": "in the fading light",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=186&event=152",
+    "full_artist_display": "Kyuzo Sameura",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 187,
+    "team": "2代目 BMS Sound Team",
+    "artist": "BMS Sound Team \"YAN*TS\"",
+    "title": "MooNLiGHT BUTTEЯFLY",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=187&event=152",
+    "full_artist_display": "BMS Sound Team \"YAN*TS\"",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 188,
+    "team": "Ford Forest Foreigner",
+    "artist": "Rner",
+    "title": "リコルド",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=188&event=152",
+    "full_artist_display": "Rner",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 189,
+    "team": "Forienthic",
+    "artist": "Pica",
+    "title": "月下庭園",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=189&event=152",
+    "full_artist_display": "Pica(mov:jikyubogoita)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 190,
+    "team": "Domesti-Core",
+    "artist": "AYFW VS MUKKURi",
+    "title": "OverClock",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=190&event=152",
+    "full_artist_display": "AYFW VS MUKKURi(mov:業者)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 191,
+    "team": "BMSノース★サファリ",
+    "artist": "風間賢二",
+    "title": "My fuzz and sleepy love",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=191&event=152",
+    "full_artist_display": "風間賢二",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 192,
+    "team": "Brainrot Gangster",
+    "artist": "PIPP9",
+    "title": "Dissociative Identity Disorder",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=192&event=152",
+    "full_artist_display": "PIPP9",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 193,
+    "team": "家に帰りたい",
+    "artist": "SimoFo",
+    "title": "チルハナ",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=193&event=152",
+    "full_artist_display": "SimoFo",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 194,
+    "team": "デス一揆",
+    "artist": "Sauxyr",
+    "title": "MIASMA",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=194&event=152",
+    "full_artist_display": "Sauxyr(mov:illust: あかさた)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 195,
+    "team": "二十四節気四六時中",
+    "artist": "YtzkA",
+    "title": "カフェイン・サラダ",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=195&event=152",
+    "full_artist_display": "YtzkA / Lalio(mov:YtzkA)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 196,
+    "team": "chipi chipi chapa chapa {'w'}",
+    "artist": "Verit45",
+    "title": "sysy",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=196&event=152",
+    "full_artist_display": "Verit45",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 197,
+    "team": "BMS Video",
+    "artist": "Alex Turell",
+    "title": "Time Immemorial",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=197&event=152",
+    "full_artist_display": "Alex Turell",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 198,
+    "team": "喜八八喜",
+    "artist": "Peydarg & Seinagi寂甫",
+    "title": "Arcane_Type4(feat.翎婉)",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=198&event=152",
+    "full_artist_display": "Peydarg & Seinagi寂甫(mov:纯新纯 & 未了)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 199,
+    "team": "HardCrashOnNervousSystem",
+    "artist": "LoveNColoured",
+    "title": "journey through the equivalent of a large strawberry (about 50g) (Disq)",
+    "disqualified": true,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=199&event=152",
+    "full_artist_display": "LoveNColoured(mov:.xan)",
+    "full_card_disqualified": true
+  },
+  {
+    "id": 200,
+    "team": "KUROSHIRO",
+    "artist": "Re:gats&",
+    "title": "Bridge Light 18:42",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=200&event=152",
+    "full_artist_display": "Re:gats&(mov:MUSH.T)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 201,
+    "team": "成為音樂源頭關注組",
+    "artist": "DCWH, Ice, lunul, Trina Lydia",
+    "title": "Mobile Softee",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=201&event=152",
+    "full_artist_display": "DCWH, Ice, lunul, Trina Lydia(mov:Transendium)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 202,
+    "team": "成為音樂源頭關注組",
+    "artist": "Titan Chaos × Spyro Kong",
+    "title": "Ｋｏｗｌｏｏｎ Ｗａｌｌｅｄ Ｔａｃｔｉｃｓ",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=202&event=152",
+    "full_artist_display": "Titan Chaos × Spyro Kong(mov:DCWH)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 203,
+    "team": "Ford Forest Foreigner",
+    "artist": "あさり",
+    "title": "adiantum-2026 VIVID BMS edit-",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=203&event=152",
+    "full_artist_display": "あさり(mov:毛布竜)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 204,
+    "team": "壹式",
+    "artist": "NOVASTAR-T",
+    "title": "The Unreturning Trail",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=204&event=152",
+    "full_artist_display": "NOVASTAR-T(mov:Xuan9iu)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 205,
+    "team": "胎動",
+    "artist": "xeninsect vs. Shigure 01",
+    "title": "Lost in the Colorless Abyss",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=205&event=152",
+    "full_artist_display": "xeninsect vs. Shigure 01(mov:xeninsect)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 206,
+    "team": "DONBRA CO.LTD.",
+    "artist": "Shimomura (arr. Reanisz)",
+    "title": "海月時間",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=206&event=152",
+    "full_artist_display": "Shimomura (arr. Reanisz)(mov:ko_nyaku / kelvin_kombinat)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 207,
+    "team": "胎動",
+    "artist": "aigasa",
+    "title": "imtoitsui",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=207&event=152",
+    "full_artist_display": "aigasa(mov:aigasa)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 208,
+    "team": "DONBRA CO.LTD.",
+    "artist": "Frevis",
+    "title": "Nox",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=208&event=152",
+    "full_artist_display": "Frevis(mov:ko_nyaku)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 209,
+    "team": "2016 + 10",
+    "artist": "空読無 白眼",
+    "title": "デキゴコロ",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=209&event=152",
+    "full_artist_display": "空読無 白眼",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 210,
+    "team": "デス一揆",
+    "artist": "Lalot.",
+    "title": "極滅",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=210&event=152",
+    "full_artist_display": "Lalot.(mov:Illust:ぽいる)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 211,
+    "team": "Vivid Sparcle Projects",
+    "artist": "numuto feat.初音ミク",
+    "title": "priere",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=211&event=152",
+    "full_artist_display": "numuto feat.初音ミク(mov:sorasiro)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 212,
+    "team": "ハイパーライダーズ",
+    "artist": "numuto",
+    "title": "The seventh executioner",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=212&event=152",
+    "full_artist_display": "numuto(mov:あぃら)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 213,
+    "team": "再演団地",
+    "artist": "numuto feat. 宮舞モカ",
+    "title": "Re-esperanza",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=213&event=152",
+    "full_artist_display": "numuto feat. 宮舞モカ(mov:che)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 214,
+    "team": "3匹のテクノ",
+    "artist": "numuto",
+    "title": "Ouranos",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=214&event=152",
+    "full_artist_display": "numuto(mov:三笠える)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 215,
+    "team": "Amorphous",
+    "artist": "RykSeb",
+    "title": "Ukishima Enrai",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=215&event=152",
+    "full_artist_display": "RykSeb",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 216,
+    "team": "ハイパーライダーズ",
+    "artist": "Yoshida Mahiro ft. 宮舞モカ",
+    "title": "未解決抒情歌",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=216&event=152",
+    "full_artist_display": "Yoshida Mahiro ft. 宮舞モカ(mov:in private)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 217,
+    "team": "-20",
+    "artist": "14.14",
+    "title": "Feel The Love",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=217&event=152",
+    "full_artist_display": "14.14",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 218,
+    "team": "ボンボン・クラムボンズ",
+    "artist": "ROyama feat.音楽的同位体 羽累(HARU)",
+    "title": "E.O.E. Endmage Of Eternities",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=218&event=152",
+    "full_artist_display": "ROyama feat.音楽的同位体 羽累(HARU)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 219,
+    "team": "鏡田宇少年の石鏡簿R",
+    "artist": "LnZ",
+    "title": "Never Mind",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=219&event=152",
+    "full_artist_display": "LnZ(mov:LASTMOMENT-XZK)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 220,
+    "team": "鏡田宇少年の石鏡簿R",
+    "artist": "Nameless",
+    "title": "Yonder Moon Flyer #262",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=220&event=152",
+    "full_artist_display": "Nameless",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 221,
+    "team": "HardCrashOnNervousSystem",
+    "artist": "HMAJ",
+    "title": "CoolANTIRegionLocking",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=221&event=152",
+    "full_artist_display": "HMAJ(mov:HMAJ )",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 222,
+    "team": "二十四節気四六時中",
+    "artist": "LandRoot",
+    "title": "Be Like Thunder",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=222&event=152",
+    "full_artist_display": "LandRoot",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 223,
+    "team": "StoryTeller",
+    "artist": "Pooh5821",
+    "title": "XVII - Star // Across The GalaXia",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=223&event=152",
+    "full_artist_display": "Pooh5821",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 224,
+    "team": "ハピコアだいすきクラブ",
+    "artist": "Notorious(Nota & TRIAL)",
+    "title": "RACE",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=224&event=152",
+    "full_artist_display": "Notorious(Nota & TRIAL)(mov:ShakeJ)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 225,
+    "team": "元気もりもりティーンズ",
+    "artist": "Mizu",
+    "title": "定義",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=225&event=152",
+    "full_artist_display": "Mizu(mov:マイトネリウム)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 226,
+    "team": "元気もりもりティーンズ",
+    "artist": "めんとす",
+    "title": "わんこそばを食べる日",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=226&event=152",
+    "full_artist_display": "めんとす",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 227,
+    "team": "元気もりもりティーンズ",
+    "artist": "DJ ARASHI & Yo×3 feat.重音テト",
+    "title": "AKASHIC DESIRE",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=227&event=152",
+    "full_artist_display": "DJ ARASHI & Yo×3 feat.重音テト",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 228,
+    "team": "nine long",
+    "artist": "DJ KOK",
+    "title": "Bleeding Dusk",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=228&event=152",
+    "full_artist_display": "DJ KOK",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 229,
+    "team": "Forienthic",
+    "artist": "Taffyz",
+    "title": "Parallel Summer",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=229&event=152",
+    "full_artist_display": "Taffyz",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 230,
+    "team": "鏡田宇少年の石鏡簿R",
+    "artist": "blockDDDdark",
+    "title": "・未来の夏の日・ ~Summer Day Future~",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=230&event=152",
+    "full_artist_display": "blockDDDdark",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 231,
+    "team": "世界三大美女",
+    "artist": "クレオパトラ7世",
+    "title": "PΓIIVIAΓY",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=231&event=152",
+    "full_artist_display": "クレオパトラ7世",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 232,
+    "team": "よきよきサウナ～冷たい方が盛り上がる！～",
+    "artist": "音辻つつじ",
+    "title": "Sparkling Memories",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=232&event=152",
+    "full_artist_display": "音辻つつじ(mov:ぎええ)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 233,
+    "team": "POSITIVE ENERGY",
+    "artist": "DECiMAL (a.k.a. Integer)",
+    "title": "the world of scarlet (\"#b8320d\" mix)",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=233&event=152",
+    "full_artist_display": "DECiMAL (a.k.a. Integer)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 234,
+    "team": "AFTER WAR II",
+    "artist": "nebulaimako",
+    "title": "yent",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=234&event=152",
+    "full_artist_display": "nebulaimako",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 235,
+    "team": "家に帰りたい",
+    "artist": "みをつくし",
+    "title": "Prologue for us",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=235&event=152",
+    "full_artist_display": "みをつくし(mov:こばい)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 236,
+    "team": "Brainrot Gangster",
+    "artist": "EvsU",
+    "title": "no reason",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=236&event=152",
+    "full_artist_display": "EvsU",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 237,
+    "team": "Gifts Over Glimmers -微光巡礼-",
+    "artist": "Lasun",
+    "title": "Losing Our Own Way",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=237&event=152",
+    "full_artist_display": "Lasun(mov:Z6W2A)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 238,
+    "team": "Gifts Over Glimmers -微光巡礼-",
+    "artist": "LEO Sailko & AVENUED",
+    "title": "Tracing a Reflection Adrift",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=238&event=152",
+    "full_artist_display": "LEO Sailko & AVENUED(mov:LEO Sailko & AVENUED)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 239,
+    "team": "KUROSHIRO",
+    "artist": "Nego_tiator feat. 花隈千冬",
+    "title": "ハルシナム",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=239&event=152",
+    "full_artist_display": "Nego_tiator feat. 花隈千冬(mov:ムッシュ竹崎)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 240,
+    "team": "ゲーセンが実家 ～Thrill Drive～",
+    "artist": "DJ SAYSO48",
+    "title": "TAiL to WIN",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=240&event=152",
+    "full_artist_display": "DJ SAYSO48",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 241,
+    "team": "Sawtooth Sharkz",
+    "artist": "Bestie",
+    "title": "Beat him to the Sharks!",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=241&event=152",
+    "full_artist_display": "Bestie(mov:kyonoshii)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 242,
+    "team": "アスキーアート大作戦",
+    "artist": "こふ",
+    "title": "Neon Satellite",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=242&event=152",
+    "full_artist_display": "こふ(mov:ミツメサチ)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 243,
+    "team": "-20",
+    "artist": "42SoL",
+    "title": "m. Nature's chlorofying rootwire frames",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=243&event=152",
+    "full_artist_display": "42SoL",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 244,
+    "team": "DONBRA CO.LTD.",
+    "artist": "Reanisz",
+    "title": "DΞLTA",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=244&event=152",
+    "full_artist_display": "Reanisz(mov:ko_nyaku)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 245,
+    "team": "鍵盤をシバいた猫",
+    "artist": "Lamanya",
+    "title": "tryTrytryTry",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=245&event=152",
+    "full_artist_display": "Lamanya",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 246,
+    "team": "壹式",
+    "artist": "Xuan9iu x DEAM瑟",
+    "title": "K.O.T.A.N.A",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=246&event=152",
+    "full_artist_display": "Xuan9iu x DEAM瑟(mov:Eine.exe )",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 247,
+    "team": "音ゲーで腱断裂！",
+    "artist": "Drazically",
+    "title": "TEMPUS EXiliUM (Disq)",
+    "disqualified": true,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=247&event=152",
+    "full_artist_display": "Drazically(mov:Deratama)",
+    "full_card_disqualified": true
+  },
+  {
+    "id": 248,
+    "team": "From 4x4",
+    "artist": "usb_nk(Gt. Rep)",
+    "title": "Dustbox Archive",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=248&event=152",
+    "full_artist_display": "usb_nk(Gt. Rep)(mov:藤都)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 249,
+    "team": "From 4x4",
+    "artist": "usb_nk",
+    "title": "ShardStela",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=249&event=152",
+    "full_artist_display": "usb_nk(mov:tayuru)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 250,
+    "team": "音ゲーで腱断裂！",
+    "artist": "Connexio",
+    "title": "A Summer That Never Was",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=250&event=152",
+    "full_artist_display": "Connexio(mov:AiLANE)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 251,
+    "team": "Pixel Perfect",
+    "artist": "ピンクだま as qhetyrvascw",
+    "title": "ywvhrakscz",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=251&event=152",
+    "full_artist_display": "ピンクだま as qhetyrvascw",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 252,
+    "team": "DESTREATE",
+    "artist": "Shalla vs NOiS",
+    "title": "administrator",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=252&event=152",
+    "full_artist_display": "Shalla vs NOiS(mov:kinematos)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 253,
+    "team": "PLAYGROUND",
+    "artist": "BilliumMoto",
+    "title": "Look At Me",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=253&event=152",
+    "full_artist_display": "BilliumMoto(mov:chilldive)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 254,
+    "team": "Sawtooth Sharkz",
+    "artist": "またかま",
+    "title": "蒼牙の願いを紡いだ場所で",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=254&event=152",
+    "full_artist_display": "またかま",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 255,
+    "team": "Quintuple Cheese Burgers",
+    "artist": "NOiS",
+    "title": "J@ck b()x aiR⇔Line",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=255&event=152",
+    "full_artist_display": "NOiS(mov:NOiS(動画作成)しゅーとん(イラスト))",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 256,
+    "team": "絶 狂乱木曜日のスーパーブラスト ~霸道上校が私に恋した! ~極大往生~",
+    "artist": "DJ E_Pigeon",
+    "title": "untitled_project_02",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=256&event=152",
+    "full_artist_display": "DJ E_Pigeon(mov:DJ E_Pigeon)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 257,
+    "team": "銀杏の下で",
+    "artist": "kakusan.",
+    "title": "Icho Garden",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=257&event=152",
+    "full_artist_display": "kakusan.(mov:Croca)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 258,
+    "team": "悪魔紫豆隊",
+    "artist": "星咲Suzumi -Ombre-",
+    "title": "Usuakari",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=258&event=152",
+    "full_artist_display": "星咲Suzumi -Ombre-(mov:Akitrco)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 259,
+    "team": "HardCrashOnNervousSystem",
+    "artist": "DJ TerraBilly_∇_727",
+    "title": "erythema ab igne",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=259&event=152",
+    "full_artist_display": "DJ TerraBilly_∇_727(mov:HMAJ & .xan)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 260,
+    "team": "-To the wanderland",
+    "artist": "雨瞳Ⅸ",
+    "title": "砕羽(DnB Mix)feat.洛天依",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=260&event=152",
+    "full_artist_display": "雨瞳Ⅸ / o0杳0o(mov:棱狸LengLi)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 261,
+    "team": "BMSノース★サファリ",
+    "artist": "にょろも （cv.吟世かいな）",
+    "title": "指先忍者 vs 夜の旧校舎",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=261&event=152",
+    "full_artist_display": "にょろも （cv.吟世かいな）",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 262,
+    "team": "Forienthic",
+    "artist": "MutecoiN",
+    "title": "Epiphany",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=262&event=152",
+    "full_artist_display": "MutecoiN(mov:KUMOSODA)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 263,
+    "team": "よきよきサウナ～冷たい方が盛り上がる！～",
+    "artist": "k-u3k",
+    "title": "M.N.G.",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=263&event=152",
+    "full_artist_display": "k-u3k",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 264,
+    "team": "StoryTeller",
+    "artist": "atiryc",
+    "title": "Feel",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=264&event=152",
+    "full_artist_display": "atiryc",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 265,
+    "team": "-To the wanderland",
+    "artist": "baka3b",
+    "title": "Prelude in White",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=265&event=152",
+    "full_artist_display": "baka3b(mov:雨瞳Ⅸ)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 266,
+    "team": "QuArtum Can'tus",
+    "artist": "0es+Rucrea+E × YiMeng.emo",
+    "title": "UNTITLED: THE LOST ARTICLE",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=266&event=152",
+    "full_artist_display": "0es+Rucrea+E × YiMeng.emo / Consider(mov:YiMeng.emo)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 267,
+    "team": "Micore_D",
+    "artist": "RPeGio",
+    "title": "Into the HIVE",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=267&event=152",
+    "full_artist_display": "RPeGio(mov:?!rice?!)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 268,
+    "team": "AmeWave",
+    "artist": "Hurobe",
+    "title": "Rupture: Retake",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=268&event=152",
+    "full_artist_display": "Hurobe(mov:Hurobe & Mah1ro)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 269,
+    "team": "Domesti-Core",
+    "artist": "Irona / いろな",
+    "title": "Lasting:Reminiscence",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=269&event=152",
+    "full_artist_display": "Irona / いろな(mov:QyUra (CuraRmx))",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 270,
+    "team": "四蛆兄弟",
+    "artist": "dj Toast",
+    "title": "Ambivalence",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=270&event=152",
+    "full_artist_display": "dj Toast(mov:MORII)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 271,
+    "team": "The Walkers",
+    "artist": "SilverYbladeS",
+    "title": "眩しさのシンクロ",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=271&event=152",
+    "full_artist_display": "SilverYbladeS(mov:Natsu_matsuri)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 272,
+    "team": "再演団地",
+    "artist": "Kamisys",
+    "title": "展賢会の風景",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=272&event=152",
+    "full_artist_display": "Kamisys",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 273,
+    "team": "Pork Rib",
+    "artist": "Runk",
+    "title": "My Song 67",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=273&event=152",
+    "full_artist_display": "Runk(mov:h.)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 274,
+    "team": "First Azimuth: Lithospheric Cataclysm",
+    "artist": "OfficialAz3 feat. Hodong (VOXFactory)",
+    "title": "Your Left, My Right",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=274&event=152",
+    "full_artist_display": "OfficialAz3 feat. Hodong (VOXFactory)(mov:Senali)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 275,
+    "team": "2代目 BMS Sound Team",
+    "artist": "BMS Sound Team \"Mister.Himi\" feat. DJ ANDREA JP",
+    "title": "Cheer Train -Revolutinary.Himix-",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=275&event=152",
+    "full_artist_display": "BMS Sound Team \"Mister.Himi\" feat. DJ ANDREA JP / Fuzita Blender(mov:YAN*TS)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 276,
+    "team": "再演団地",
+    "artist": "moenoq/NoKANY",
+    "title": "alternate",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=276&event=152",
+    "full_artist_display": "moenoq/NoKANY(mov:moenoq)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 277,
+    "team": "センタプルチーズバーガー",
+    "artist": "T-Project",
+    "title": "100yen burger +75% affection",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=277&event=152",
+    "full_artist_display": "T-Project",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 278,
+    "team": "～★ UnKnow ★～",
+    "artist": "168",
+    "title": "Snow!Stars!",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=278&event=152",
+    "full_artist_display": "168(mov:168)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 279,
+    "team": "Patang Puluh Patang Producers",
+    "artist": "rareguy, audioTopia, and sc.orz",
+    "title": "Introduce",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=279&event=152",
+    "full_artist_display": "rareguy, audioTopia, and sc.orz",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 280,
+    "team": "Patang Puluh Patang Producers",
+    "artist": "audioTopia ft. rareguy",
+    "title": "曇り空の後のShooting Star★",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=280&event=152",
+    "full_artist_display": "audioTopia ft. rareguy",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 281,
+    "team": "Cherish the Moments",
+    "artist": "Integer",
+    "title": "Belqunia",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=281&event=152",
+    "full_artist_display": "Integer(mov:42SoL)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 282,
+    "team": "Patang Puluh Patang Producers",
+    "artist": "audioTopia ft. Timothy Alv & Karasu Yuutsukoe",
+    "title": "Die as I Drown",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=282&event=152",
+    "full_artist_display": "audioTopia ft. Timothy Alv & Karasu Yuutsukoe",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 283,
+    "team": "曲が作れません！！！",
+    "artist": "ReLU vs pimatT",
+    "title": "Keys of Fracture",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=283&event=152",
+    "full_artist_display": "ReLU vs pimatT(mov:togu87)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 284,
+    "team": "Bridegrooms of Fridge",
+    "artist": "LevUpVD",
+    "title": "Kingdomia",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=284&event=152",
+    "full_artist_display": "LevUpVD(mov:魚鉤 & δ)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 285,
+    "team": "BMSノース★サファリ",
+    "artist": "Nakaiankow",
+    "title": "头ノ暴走屋さん",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=285&event=152",
+    "full_artist_display": "Nakaiankow",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 286,
+    "team": "祭union",
+    "artist": "竹雀",
+    "title": "貴腐",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=286&event=152",
+    "full_artist_display": "竹雀",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 287,
+    "team": "理想",
+    "artist": "watch / Aletta",
+    "title": "ONE MORE TRY",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=287&event=152",
+    "full_artist_display": "watch / Aletta",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 288,
+    "team": "Deadline Impact",
+    "artist": "TSound associated with Cryo-Myosotis & system [Σ]",
+    "title": "Scar",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=288&event=152",
+    "full_artist_display": "TSound associated with Cryo-Myosotis & system [Σ]",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 289,
+    "team": "ハピコアだいすきクラブ",
+    "artist": "Lime + ああああ",
+    "title": "A Paper Plane",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=289&event=152",
+    "full_artist_display": "Lime + ああああ(mov:わっふゑ)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 290,
+    "team": "再演団地",
+    "artist": "NoKANY feat. 花見くくる",
+    "title": "人々、歩き、考え、寒さに沈んでいく",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=290&event=152",
+    "full_artist_display": "NoKANY feat. 花見くくる(mov:SEED)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 291,
+    "team": "StoryTeller",
+    "artist": "彩奏",
+    "title": "For you, whom I treasure",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=291&event=152",
+    "full_artist_display": "彩奏",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 292,
+    "team": "～★ UnKnow ★～",
+    "artist": "168",
+    "title": "Just One Trip",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=292&event=152",
+    "full_artist_display": "168(mov:Luckcx)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 293,
+    "team": "First Azimuth: Lithospheric Cataclysm",
+    "artist": "Catonieca",
+    "title": "what a strange world",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=293&event=152",
+    "full_artist_display": "Catonieca(mov:カエ龍)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 294,
+    "team": "センタプルチーズバーガー",
+    "artist": "げうげうｒ",
+    "title": "亜 空 体 験",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=294&event=152",
+    "full_artist_display": "げうげうｒ",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 295,
+    "team": "家に帰りたい",
+    "artist": "OctP",
+    "title": "Birth fertility",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=295&event=152",
+    "full_artist_display": "OctP",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 296,
+    "team": "仄か姫閑言楽団 2026年「蒼」",
+    "artist": "イベライ/Emelia ft. 闇音レンリ",
+    "title": "おぼろまぼろ",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=296&event=152",
+    "full_artist_display": "イベライ/Emelia ft. 闇音レンリ",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 297,
+    "team": "CMYK",
+    "artist": "u20xx",
+    "title": "来世",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=297&event=152",
+    "full_artist_display": "u20xx(mov:u20xx (Illust: sam))",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 298,
+    "team": "クリームソーダ",
+    "artist": "Yumul Onishi feat.知声",
+    "title": "OFF-LINE",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=298&event=152",
+    "full_artist_display": "Yumul Onishi feat.知声",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 299,
+    "team": "指定暴力団はるかぜ組 Evolved",
+    "artist": "れおん",
+    "title": "Work Overtime 86H/M",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=299&event=152",
+    "full_artist_display": "れおん / 星のカービィロボボプラネット",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 300,
+    "team": "Super Yabai 極度老害しなさい",
+    "artist": "Bitplane",
+    "title": "胎盤のコラール",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=300&event=152",
+    "full_artist_display": "Bitplane(mov:一部Grok)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 301,
+    "team": "Super Yabai 極度老害しなさい",
+    "artist": "Bitplane",
+    "title": "Ghost",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=301&event=152",
+    "full_artist_display": "Bitplane(mov:Harrison Houde (Vesperia Films))",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 302,
+    "team": "いい",
+    "artist": "snowsphere",
+    "title": "flee",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=302&event=152",
+    "full_artist_display": "snowsphere",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 303,
+    "team": "1UP Beats",
+    "artist": "kitsunet",
+    "title": "White Spark",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=303&event=152",
+    "full_artist_display": "kitsunet",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 304,
+    "team": "KUROSHIRO",
+    "artist": "tanacoro",
+    "title": "Parametric Field",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=304&event=152",
+    "full_artist_display": "tanacoro",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 305,
+    "team": "H1TOPIA",
+    "artist": "桐野ナナ",
+    "title": "CODE:NaN",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=305&event=152",
+    "full_artist_display": "桐野ナナ(mov:桐野ナナ)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 306,
+    "team": "CMYK",
+    "artist": "devthefox",
+    "title": "et pourquoi pas",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=306&event=152",
+    "full_artist_display": "devthefox / sam (devthefox)(mov:sam)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 307,
+    "team": "センタプルチーズバーガー",
+    "artist": "DJ ONYT",
+    "title": "Birth The Music(Return to me)",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=307&event=152",
+    "full_artist_display": "DJ ONYT",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 308,
+    "team": "あずま・あにま",
+    "artist": "newtown_tama",
+    "title": "metroAngel",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=308&event=152",
+    "full_artist_display": "newtown_tama(mov:KeiuO + サワダモコ)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 309,
+    "team": "PUNCH OUT -SEA$ON IX-",
+    "artist": "MERCURY",
+    "title": "LIFT OFF AN ANGEL",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=309&event=152",
+    "full_artist_display": "MERCURY",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 310,
+    "team": "SOUND GARAGE",
+    "artist": "∀S∀",
+    "title": "GEN-χ",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=310&event=152",
+    "full_artist_display": "∀S∀(mov:1時)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 311,
+    "team": "PUNCH OUT -SEA$ON IX-",
+    "artist": "寺島。 fw. Hyper Hybrid",
+    "title": "ラブラドレッセンス(RadioEdit)",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=311&event=152",
+    "full_artist_display": "寺島。 fw. Hyper Hybrid(mov:NI-X2(Movie) /togimodoki(Illust))",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 312,
+    "team": "Unisoncode",
+    "artist": "やまだぶりん feat.重音テトSV・ナースロボ_タイプT",
+    "title": "アイノベル",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=312&event=152",
+    "full_artist_display": "やまだぶりん feat.重音テトSV・ナースロボ_タイプT(mov:BGA:やまだぶりん　ILLUST：chiiyuri)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 313,
+    "team": "銀杏の下で",
+    "artist": "ohyeah",
+    "title": "To the Shrine",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=313&event=152",
+    "full_artist_display": "ohyeah(mov:SomeShine)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 314,
+    "team": "From 4x4",
+    "artist": "Nuekawa",
+    "title": "βMatriX",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=314&event=152",
+    "full_artist_display": "Nuekawa(mov:tayuru, まりも)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 315,
+    "team": "Domesti-Core",
+    "artist": "クエーバー",
+    "title": "Queen's Verdict",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=315&event=152",
+    "full_artist_display": "クエーバー(mov:業者)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 316,
+    "team": "-To the wanderland",
+    "artist": "OYinFengO",
+    "title": "夢の中の希望",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=316&event=152",
+    "full_artist_display": "OYinFengO(mov:棱狸Lengli)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 317,
+    "team": "クリームソーダ",
+    "artist": "穐山 綾目",
+    "title": "金剛石",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=317&event=152",
+    "full_artist_display": "穐山 綾目(mov:穐山 恋歌)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 318,
+    "team": "Patang Puluh Patang Producers",
+    "artist": "arenji",
+    "title": "Devil's Advocate",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=318&event=152",
+    "full_artist_display": "arenji",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 319,
+    "team": "3匹のテクノ",
+    "artist": "sopranotrom",
+    "title": "Liquid Form",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=319&event=152",
+    "full_artist_display": "sopranotrom",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 320,
+    "team": "Vector Tech",
+    "artist": "円湯(Maroyu)",
+    "title": "#MorningPattern",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=320&event=152",
+    "full_artist_display": "円湯(Maroyu)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 321,
+    "team": "NEO sample FACTORY",
+    "artist": "4983",
+    "title": "MacGuffin #26-2",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=321&event=152",
+    "full_artist_display": "4983(mov:Apostrophe)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 322,
+    "team": "NEO sample FACTORY",
+    "artist": "7371 (feat. Nea SV2)",
+    "title": "Sketch@Seoul",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=322&event=152",
+    "full_artist_display": "7371 (feat. Nea SV2)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 323,
+    "team": "AmeWave",
+    "artist": "Sumiki / Hurobe",
+    "title": "Clear(ish) World",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=323&event=152",
+    "full_artist_display": "Sumiki / Hurobe(mov:Hurobe)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 324,
+    "team": "銀杏の下で",
+    "artist": "tbz1",
+    "title": "Afterglow Aflame",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=324&event=152",
+    "full_artist_display": "tbz1(mov:Croca)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 325,
+    "team": "暗黒音楽",
+    "artist": "DJKurara VS Takuya Namba",
+    "title": "The God Who Betrays The Divine",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=325&event=152",
+    "full_artist_display": "DJKurara VS Takuya Namba(mov:DJKurara)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 326,
+    "team": "Windows 22",
+    "artist": "Spehs",
+    "title": "Azure Adventure",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=326&event=152",
+    "full_artist_display": "Spehs(mov:sharpbin)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 327,
+    "team": "生草打火机",
+    "artist": "Rain_Light & Geowyns",
+    "title": "Go Forward。 With Yourself",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=327&event=152",
+    "full_artist_display": "Rain_Light & Geowyns(mov:BGA: 秋夢観鶴 BGI: Sparkline)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 328,
+    "team": "Unisoncode",
+    "artist": "chiiyuri",
+    "title": "Departure into Possibility",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=328&event=152",
+    "full_artist_display": "chiiyuri(mov:ツジ)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 329,
+    "team": "骨伝導式Jアラート",
+    "artist": "C.miler",
+    "title": "Trigintet Force",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=329&event=152",
+    "full_artist_display": "C.miler",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 330,
+    "team": "よきよきサウナ～冷たい方が盛り上がる！～",
+    "artist": "corok-Bb",
+    "title": "The Berserker",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=330&event=152",
+    "full_artist_display": "corok-Bb",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 331,
+    "team": "祭union",
+    "artist": "ネプティー長谷川",
+    "title": "Fading Lights",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=331&event=152",
+    "full_artist_display": "ネプティー長谷川",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 332,
+    "team": "喜八八喜",
+    "artist": "noyrfa feat. tanP",
+    "title": "Opaque Lives",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=332&event=152",
+    "full_artist_display": "noyrfa feat. tanP(mov:柴瀬 紀谷)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 333,
+    "team": "操操操。！",
+    "artist": "Kusua & ABEREXX",
+    "title": "It's a Vibe",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=333&event=152",
+    "full_artist_display": "Kusua & ABEREXX(mov:MingzeX)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 334,
+    "team": "操操操。！",
+    "artist": "Maho5x / Vocal: 冬野霧中",
+    "title": "makingspringouttathistape",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=334&event=152",
+    "full_artist_display": "Maho5x / Vocal: 冬野霧中(mov:Maho5x)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 335,
+    "team": "悪魔紫豆隊",
+    "artist": "Rain_Light",
+    "title": "AirporT",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=335&event=152",
+    "full_artist_display": "Rain_Light(mov:Rain_Light)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 336,
+    "team": "gatesoftwaredrive",
+    "artist": "[-^v-]",
+    "title": "vita aeterna",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=336&event=152",
+    "full_artist_display": "[-^v-]",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 337,
+    "team": "BMSノース★サファリ",
+    "artist": "38k",
+    "title": "Chase The Stars",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=337&event=152",
+    "full_artist_display": "38k",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 338,
+    "team": "Wydzial Inzynierii BMSow",
+    "artist": "ribons",
+    "title": "Haphazard Trip",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=338&event=152",
+    "full_artist_display": "ribons",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 339,
+    "team": "指定暴力団はるかぜ組 Evolved",
+    "artist": "69 de 74",
+    "title": "宙翔ケル新星",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=339&event=152",
+    "full_artist_display": "69 de 74(mov:鈎兎(KagiUsagi))",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 340,
+    "team": "dandelion sounds",
+    "artist": "Kyotsugyon",
+    "title": "afterimage(s)",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=340&event=152",
+    "full_artist_display": "Kyotsugyon(mov:Transendium)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 341,
+    "team": "dandelion sounds",
+    "artist": "Lacria",
+    "title": "id. inversidesce",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=341&event=152",
+    "full_artist_display": "Lacria(mov:Transendium)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 342,
+    "team": "Pork Rib",
+    "artist": "Ayakio",
+    "title": "TIFKNHS",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=342&event=152",
+    "full_artist_display": "Ayakio",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 343,
+    "team": "四蛆兄弟",
+    "artist": "ニラ",
+    "title": "蛆症状",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=343&event=152",
+    "full_artist_display": "ニラ(mov:カラアゲ)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 344,
+    "team": "dandelion sounds",
+    "artist": "dsktpgrl",
+    "title": "invertebrate",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=344&event=152",
+    "full_artist_display": "dsktpgrl(mov:Transendium)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 345,
+    "team": "NEO sample FACTORY",
+    "artist": "5106",
+    "title": "Traverse^Echo",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=345&event=152",
+    "full_artist_display": "5106",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 346,
+    "team": "メスガキクソガキドパガキ",
+    "artist": "メスガキ",
+    "title": "TA-FEVERTIME",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=346&event=152",
+    "full_artist_display": "メスガキ",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 347,
+    "team": "CMYK",
+    "artist": "verlexin",
+    "title": "new reality",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=347&event=152",
+    "full_artist_display": "verlexin(mov:u20xx)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 348,
+    "team": "蘿蔔小隊遠征軍",
+    "artist": "霧雨ResonantPsyche",
+    "title": "_ASCEND//_ESCAPE",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=348&event=152",
+    "full_artist_display": "霧雨ResonantPsyche(mov:下关四丁目)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 349,
+    "team": "蘿蔔小隊遠征軍",
+    "artist": "Seidnac",
+    "title": "Monologue",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=349&event=152",
+    "full_artist_display": "Seidnac",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 350,
+    "team": "Break、Mangle、Smash。",
+    "artist": "⊆ryoChem",
+    "title": "AR⊆HIVES",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=350&event=152",
+    "full_artist_display": "⊆ryoChem",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 351,
+    "team": "CMYK",
+    "artist": "sega73 x Agethacore x nearocker x Syuenn",
+    "title": "magenta flavor",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=351&event=152",
+    "full_artist_display": "sega73 x Agethacore x nearocker x Syuenn(mov:aamreu (tri))",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 352,
+    "team": "りんご湯",
+    "artist": "ShrimpCats.（はぁち×後藤涼輔）",
+    "title": "僕と君と、天気雨",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=352&event=152",
+    "full_artist_display": "ShrimpCats.（はぁち×後藤涼輔）(mov:高峯よつは, Mono.)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 353,
+    "team": "V For Vivace",
+    "artist": "THE BEAT WIZARD",
+    "title": "Toccatina in A minor",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=353&event=152",
+    "full_artist_display": "THE BEAT WIZARD(mov:dezic)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 354,
+    "team": "AY.G × xiaoyue × stan",
+    "artist": "AY.S × xiaoyue × stan",
+    "title": "TO LIVE OR TO DIE THATS QUESTIONS WORTH CONSIDERING (Disq)",
+    "disqualified": true,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=354&event=152",
+    "full_artist_display": "AY.S × xiaoyue × stan",
+    "full_card_disqualified": true
+  },
+  {
+    "id": 355,
+    "team": "AY.G × xiaoyue × stan",
+    "artist": "Ayang Sound System",
+    "title": "Test1 (Disq)",
+    "disqualified": true,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=355&event=152",
+    "full_artist_display": "Ayang Sound System",
+    "full_card_disqualified": true
+  },
+  {
+    "id": 356,
+    "team": "AY.G × xiaoyue × stan",
+    "artist": "Xiaoyue Cartoons",
+    "title": "Test Final (Disq)",
+    "disqualified": true,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=356&event=152",
+    "full_artist_display": "Xiaoyue Cartoons",
+    "full_card_disqualified": true
+  },
+  {
+    "id": 357,
+    "team": "BMS Video",
+    "artist": "Spiral_ VS. Lollipop",
+    "title": "The Vampire Bat's Endless Trail of Blood",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=357&event=152",
+    "full_artist_display": "Spiral_ VS. Lollipop",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 358,
+    "team": "404 CUTE NOT FOUND",
+    "artist": "El Dreda",
+    "title": "Piaget",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=358&event=152",
+    "full_artist_display": "El Dreda",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 359,
+    "team": "Pork Rib",
+    "artist": "hethan",
+    "title": "LOVES ME NOT",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=359&event=152",
+    "full_artist_display": "hethan(mov:h.)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 360,
+    "team": "うさ亭",
+    "artist": "Tiv vs. halgasumi respect for molmol",
+    "title": "万事急須",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=360&event=152",
+    "full_artist_display": "Tiv vs. halgasumi respect for molmol",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 361,
+    "team": "kaeryu and the chipmunks",
+    "artist": "ゼンロウラ",
+    "title": "spooky spooky",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=361&event=152",
+    "full_artist_display": "ゼンロウラ",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 362,
+    "team": "V For Vivace",
+    "artist": "blobdash",
+    "title": "Iris Shift",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=362&event=152",
+    "full_artist_display": "blobdash(mov:TheFunk)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 363,
+    "team": "Super Yabai 極度老害しなさい",
+    "artist": "darkvirus",
+    "title": "Colored",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=363&event=152",
+    "full_artist_display": "darkvirus",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 364,
+    "team": "Super Yabai 極度老害しなさい",
+    "artist": "ARMYTOM + Cranky",
+    "title": "Disrupt",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=364&event=152",
+    "full_artist_display": "ARMYTOM + Cranky / Cranky(mov:出前(demaescape))",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 365,
+    "team": "Wydzial Inzynierii BMSow",
+    "artist": "Otis Lion",
+    "title": "Astral Pendulum",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=365&event=152",
+    "full_artist_display": "Otis Lion(mov:Vahn Blackwood)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 366,
+    "team": "なん俺",
+    "artist": "Kalse feat. Hatsune Miku",
+    "title": "Elyth",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=366&event=152",
+    "full_artist_display": "Kalse feat. Hatsune Miku",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 367,
+    "team": "-To the wanderland",
+    "artist": "Inster",
+    "title": "1=105",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=367&event=152",
+    "full_artist_display": "Inster",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 368,
+    "team": "(*DISSOCIATED*)",
+    "artist": "kdcysth x shiryusu_ x yuzamei.",
+    "title": "Leaving ur Ordinary Version of Essence here",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=368&event=152",
+    "full_artist_display": "kdcysth x shiryusu_ x yuzamei.",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 369,
+    "team": "Stone Arch Project",
+    "artist": "BilliumMoto",
+    "title": "Arrival of the Other",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=369&event=152",
+    "full_artist_display": "BilliumMoto(mov:niqte)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 370,
+    "team": "Ultimate Ravers",
+    "artist": "Koto Spirit",
+    "title": "A Cozy Cottage In A Little Glade Sheltered From The Storm",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=370&event=152",
+    "full_artist_display": "Koto Spirit(mov:mitaiiii)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 371,
+    "team": "Ultimate Ravers",
+    "artist": "Star* + Cryo-Myosotis",
+    "title": "Frostlight",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=371&event=152",
+    "full_artist_display": "Star* + Cryo-Myosotis(mov:mitaiiii)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 372,
+    "team": "1UP Beats",
+    "artist": "RNY",
+    "title": "CLASH",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=372&event=152",
+    "full_artist_display": "RNY",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 373,
+    "team": "QuArtum Can'tus",
+    "artist": "0es+Rucrea+E",
+    "title": "Forest of Endings",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=373&event=152",
+    "full_artist_display": "0es+Rucrea+E",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 374,
+    "team": "骨伝導式Jアラート",
+    "artist": "oratoruk",
+    "title": "In Top Form",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=374&event=152",
+    "full_artist_display": "oratoruk",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 375,
+    "team": "暗黒音楽",
+    "artist": "椿.",
+    "title": "孤独の花束",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=375&event=152",
+    "full_artist_display": "椿.",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 376,
+    "team": "～★ UnKnow ★～",
+    "artist": "Nesri",
+    "title": "Ch1mera",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=376&event=152",
+    "full_artist_display": "Nesri(mov:Luckcx)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 377,
+    "team": "Team ライツコード",
+    "artist": "LuMinSo",
+    "title": "Altschmerz",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=377&event=152",
+    "full_artist_display": "LuMinSo(mov:Mingyu, DarkL1ght)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 378,
+    "team": "四蛆兄弟",
+    "artist": "jellyP",
+    "title": "未満のさよなら",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=378&event=152",
+    "full_artist_display": "jellyP(mov:nemo; jellyP)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 379,
+    "team": "わちゃわちゃミュージックソリューションズ株式会社",
+    "artist": "PRAYROOM",
+    "title": "えがくLIMBO",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=379&event=152",
+    "full_artist_display": "PRAYROOM",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 380,
+    "team": "Team ライツコード",
+    "artist": "眼流民(Melro+LuMinSo)",
+    "title": "Amethyst",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=380&event=152",
+    "full_artist_display": "眼流民(Melro+LuMinSo)(mov:Mingyu)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 381,
+    "team": "V For Vivace",
+    "artist": "nm-y & takehirotei",
+    "title": "Fateful Draw",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=381&event=152",
+    "full_artist_display": "nm-y & takehirotei(mov:Iyouka)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 382,
+    "team": "T-BMS Recording",
+    "artist": "RB.H × 薛南",
+    "title": "散る星の雫 –At the End of the World–",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=382&event=152",
+    "full_artist_display": "RB.H × 薛南(mov:Keizou)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 383,
+    "team": "蘿蔔小隊遠征軍",
+    "artist": "三文sakana",
+    "title": "天使が待つ最終列車",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=383&event=152",
+    "full_artist_display": "三文sakana / 记忆之雪_(mov:Cengin)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 384,
+    "team": "Stone Arch Project",
+    "artist": "庭師",
+    "title": "X_I_A",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=384&event=152",
+    "full_artist_display": "庭師(mov:noixy)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 385,
+    "team": "NEO sample FACTORY",
+    "artist": "6592",
+    "title": "DUNE",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=385&event=152",
+    "full_artist_display": "6592",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 386,
+    "team": "1UP Beats",
+    "artist": "kitsunet",
+    "title": "Electroworld",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=386&event=152",
+    "full_artist_display": "kitsunet",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 387,
+    "team": "SOUND GARAGE",
+    "artist": "狂音遊戯",
+    "title": "Strive Beyond",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=387&event=152",
+    "full_artist_display": "狂音遊戯(mov:AllColoR★)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 388,
+    "team": "Imaginery Museum",
+    "artist": "Lutom",
+    "title": "Needle and Threads",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=388&event=152",
+    "full_artist_display": "Lutom",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 389,
+    "team": "AKG70111",
+    "artist": "KEKiite",
+    "title": "UNBOUNDED (Disq)",
+    "disqualified": true,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=389&event=152",
+    "full_artist_display": "KEKiite(mov:KIRAzhl)",
+    "full_card_disqualified": true
+  },
+  {
+    "id": 390,
+    "team": "Stone Arch Project",
+    "artist": "Lidelle feat. Sennzai",
+    "title": "0×塔",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=390&event=152",
+    "full_artist_display": "Lidelle feat. Sennzai(mov:八重幸)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 391,
+    "team": "AKG70111",
+    "artist": "Anti",
+    "title": "Raisn",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=391&event=152",
+    "full_artist_display": "Anti",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 392,
+    "team": "MAYhem",
+    "artist": "CUBE4927",
+    "title": "Abstract Deus",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=392&event=152",
+    "full_artist_display": "CUBE4927",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 393,
+    "team": "AKG70111",
+    "artist": "GODUCK",
+    "title": "Risen",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=393&event=152",
+    "full_artist_display": "GODUCK",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 394,
+    "team": "Team ライツコード",
+    "artist": "LuMinSo",
+    "title": "KAESAR",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=394&event=152",
+    "full_artist_display": "LuMinSo(mov:Mingyu)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 395,
+    "team": "ChikuWooorks",
+    "artist": "鑠琵",
+    "title": "ちくわのうた",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=395&event=152",
+    "full_artist_display": "鑠琵(mov:sugiru)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 396,
+    "team": "悪魔紫豆隊",
+    "artist": "AprilXI",
+    "title": "Flutter-XII",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=396&event=152",
+    "full_artist_display": "AprilXI(mov:AprilXI)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 397,
+    "team": "V For Vivace",
+    "artist": "Krimek & eili",
+    "title": "GENESIS ~Cycles of Creation~",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=397&event=152",
+    "full_artist_display": "Krimek & eili(mov:TheFunk & Iyouka)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 398,
+    "team": "ヤヌスの仮面",
+    "artist": "ディートリヒ・シュタイン",
+    "title": "das Langschwert",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=398&event=152",
+    "full_artist_display": "ディートリヒ・シュタイン(mov:サイナス・ズェラント)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 399,
+    "team": "ChikuWooorks",
+    "artist": "ちくわ。",
+    "title": "*･ﾟ★ prism color palette ★ﾟ･*",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=399&event=152",
+    "full_artist_display": "ちくわ。(mov:もたふ・Garux)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 400,
+    "team": "Gifts Over Glimmers -微光巡礼-",
+    "artist": "GM_Shadows",
+    "title": "Flowing Scent",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=400&event=152",
+    "full_artist_display": "GM_Shadows",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 401,
+    "team": "都会大岡山",
+    "artist": "KA-KU",
+    "title": "ビター・スウィート・バタフライ",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=401&event=152",
+    "full_artist_display": "KA-KU",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 402,
+    "team": "TwoTaker",
+    "artist": "rotammed",
+    "title": "Gilded Savanna's Hour",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=402&event=152",
+    "full_artist_display": "rotammed / rotammed",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 403,
+    "team": "D-illusionA1Z",
+    "artist": "New Mortal Enemy (bms: ILuvGemz)",
+    "title": "kinetic energy",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=403&event=152",
+    "full_artist_display": "New Mortal Enemy (bms: ILuvGemz)(mov:42SoL)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 404,
+    "team": "都会大岡山",
+    "artist": "aki",
+    "title": "絶対空想感",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=404&event=152",
+    "full_artist_display": "aki",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 405,
+    "team": "D-illusionA1Z",
+    "artist": "千の声 / ILuvGemz",
+    "title": "Seventh Degree Heart Block",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=405&event=152",
+    "full_artist_display": "千の声 / ILuvGemz(mov:Echa)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 406,
+    "team": "Amorphous",
+    "artist": "Quint",
+    "title": "F∀ГГ",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=406&event=152",
+    "full_artist_display": "Quint",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 407,
+    "team": "わちゃわちゃミュージックソリューションズ株式会社",
+    "artist": "ebideath vs PRAYROOM",
+    "title": "Kill Dream With Your Killer Tune",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=407&event=152",
+    "full_artist_display": "ebideath vs PRAYROOM(mov:ますだたろう)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 408,
+    "team": "ChikuWooorks",
+    "artist": "Fenrir",
+    "title": "Fimbulvetr",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=408&event=152",
+    "full_artist_display": "Fenrir(mov:朧烏)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 409,
+    "team": "MAYhem",
+    "artist": "XakDuk",
+    "title": "ARTificial",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=409&event=152",
+    "full_artist_display": "XakDuk(mov:nagi_io)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 410,
+    "team": "指定暴力団はるかぜ組 Evolved",
+    "artist": "NASA",
+    "title": "CROWNED 90's",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=410&event=152",
+    "full_artist_display": "NASA(mov:れおん)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 411,
+    "team": "二十四節気四六時中",
+    "artist": "Lalio",
+    "title": "six-oh-flee",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=411&event=152",
+    "full_artist_display": "Lalio(mov:Matcha)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 412,
+    "team": "We are cosmic.",
+    "artist": "Tatsuoto",
+    "title": "Starcatcher",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=412&event=152",
+    "full_artist_display": "Tatsuoto(mov:NITRANT×Yamiteri×Lalot.)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 413,
+    "team": "Unisoncode",
+    "artist": "chiiyuri",
+    "title": "Jelly Sangria",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=413&event=152",
+    "full_artist_display": "chiiyuri(mov:Shimokita)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 414,
+    "team": "SOUND GARAGE",
+    "artist": "∀S∀",
+    "title": "Rev.DRIVE",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=414&event=152",
+    "full_artist_display": "∀S∀(mov:ShakeJ / ∀S∀)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 415,
+    "team": "HYPER KAWAII DANCE",
+    "artist": "RiraN feat. 初音ミク",
+    "title": "Lost Without You",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=415&event=152",
+    "full_artist_display": "RiraN feat. 初音ミク(mov:KUMOSODA)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 416,
+    "team": "Vector Tech",
+    "artist": "uk. & 円湯(Maroyu)",
+    "title": "Xanshin",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=416&event=152",
+    "full_artist_display": "uk. & 円湯(Maroyu)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 417,
+    "team": "コバコノカクレガ",
+    "artist": "atily (feat. 花隈千冬)",
+    "title": "『未来少女とパラドックス』",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=417&event=152",
+    "full_artist_display": "atily (feat. 花隈千冬)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 418,
+    "team": "HYPER KAWAII DANCE",
+    "artist": "RiraN feat. まるもこ",
+    "title": "Delicious Labyrinth",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=418&event=152",
+    "full_artist_display": "RiraN feat. まるもこ(mov:Tale)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 419,
+    "team": "世界三大美女",
+    "artist": "楊貴妃",
+    "title": "ELECTROCUTE",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=419&event=152",
+    "full_artist_display": "楊貴妃(mov:SENALI)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 420,
+    "team": "タンクメイン",
+    "artist": "K4Y5",
+    "title": "Venue",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=420&event=152",
+    "full_artist_display": "K4Y5",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 421,
+    "team": "都会大岡山",
+    "artist": "Yu^ta",
+    "title": "恋",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=421&event=152",
+    "full_artist_display": "Yu^ta",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 422,
+    "team": "HYPER KAWAII DANCE",
+    "artist": "RiraN feat. 音琴兎愛",
+    "title": "Last Judgement",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=422&event=152",
+    "full_artist_display": "RiraN feat. 音琴兎愛(mov:LAFTCLEN)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 423,
+    "team": "LUMiNOZ",
+    "artist": "Mosuneki",
+    "title": "Starlight Crusader feat. Mariela Riona",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=423&event=152",
+    "full_artist_display": "Mosuneki / Mosuneki(mov:Scarlet, Syadow)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 424,
+    "team": "りんご湯",
+    "artist": "立秋 feat.ちょこ",
+    "title": "ポポポポポポポリリズム",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=424&event=152",
+    "full_artist_display": "立秋 feat.ちょこ(mov:石王マサト)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 425,
+    "team": "Vivid Sparcle Projects",
+    "artist": "nekomimi_STRaw[feat.GUMI&Mai]",
+    "title": "だいばくはつマインド",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=425&event=152",
+    "full_artist_display": "nekomimi_STRaw[feat.GUMI&Mai]",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 426,
+    "team": "タンクメイン",
+    "artist": "crossworld & K4Y5",
+    "title": "Young Breeze",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=426&event=152",
+    "full_artist_display": "crossworld & K4Y5",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 427,
+    "team": "Windows 22",
+    "artist": "Fugu",
+    "title": "Flash, Rosemary",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=427&event=152",
+    "full_artist_display": "Fugu(mov:TRAF)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 428,
+    "team": "福建音楽研究学会",
+    "artist": "The Operation",
+    "title": "Vegetable Juice So Good !",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=428&event=152",
+    "full_artist_display": "The Operation(mov:潮音きつね)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 429,
+    "team": "蘿蔔小隊遠征軍",
+    "artist": "理p feat. 星尘Infinity",
+    "title": "海基線 Japanese Re-arranged Ver.",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=429&event=152",
+    "full_artist_display": "理p feat. 星尘Infinity(mov:牛女女王)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 430,
+    "team": "Vector Tech",
+    "artist": "uk.",
+    "title": "Retrospect",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=430&event=152",
+    "full_artist_display": "uk.",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 431,
+    "team": "祭union",
+    "artist": "SOMON",
+    "title": "WILD DUSH",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=431&event=152",
+    "full_artist_display": "SOMON",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 432,
+    "team": "平日午前ゲーセンの勇者たち",
+    "artist": "Abel & Doin",
+    "title": "SAPIENS",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=432&event=152",
+    "full_artist_display": "Abel & Doin(mov:Mov: Bluetail & KimAutomne)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 433,
+    "team": "電力発幻所 8号機管理棟",
+    "artist": "xxxppp",
+    "title": "APE KILLING MACHINE -BMS Edit.-",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=433&event=152",
+    "full_artist_display": "xxxppp",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 434,
+    "team": "TwoTaker",
+    "artist": "AeventyrNoKibou",
+    "title": "ピアノポップ練習曲第1番「片晶」",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=434&event=152",
+    "full_artist_display": "AeventyrNoKibou",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 435,
+    "team": "Yobimo Entertainment",
+    "artist": "AHC//26",
+    "title": "Neo Prismatic -ソフィアの砕けた運命-",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=435&event=152",
+    "full_artist_display": "AHC//26(mov:DJ Adrichii, illust: Febbs!)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 436,
+    "team": "ンジャメナ国際空港ラウンジ",
+    "artist": "REIMOLA",
+    "title": "Not Enough",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=436&event=152",
+    "full_artist_display": "REIMOLA",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 437,
+    "team": "FermioNe[x]",
+    "artist": "Ko_pro",
+    "title": "Blue Morphosis",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=437&event=152",
+    "full_artist_display": "Ko_pro",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 438,
+    "team": "T-BMS Recording",
+    "artist": "9RAN",
+    "title": "回",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=438&event=152",
+    "full_artist_display": "9RAN",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 439,
+    "team": "わいわいわい",
+    "artist": "Aliesrite* (Ym1024 feat. lamie*)",
+    "title": "Summer Cider",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=439&event=152",
+    "full_artist_display": "Aliesrite* (Ym1024 feat. lamie*)(mov:Black)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 440,
+    "team": "HYPERNOVA",
+    "artist": "H2Luna_vs._ZmHyper",
+    "title": "oneirataxia master (Disq)",
+    "disqualified": true,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=440&event=152",
+    "full_artist_display": "H2Luna_vs._ZmHyper",
+    "full_card_disqualified": true
+  },
+  {
+    "id": 441,
+    "team": "二十四節気四六時中",
+    "artist": "dot59",
+    "title": "BACK HOME",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=441&event=152",
+    "full_artist_display": "dot59(mov:3RiC4)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 442,
+    "team": "デス一揆",
+    "artist": "AraiYozuki",
+    "title": "R34DY 4 PL4Y3R 2 H0R1Z0N",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=442&event=152",
+    "full_artist_display": "AraiYozuki",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 443,
+    "team": "福建音楽研究学会",
+    "artist": "潮音きつね",
+    "title": "XCBA",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=443&event=152",
+    "full_artist_display": "潮音きつね(mov:TARA#376)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 444,
+    "team": "First Azimuth: Lithospheric Cataclysm",
+    "artist": "tsuitachi",
+    "title": "Gdagzdogzdzia",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=444&event=152",
+    "full_artist_display": "tsuitachi(mov:Diamo)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 445,
+    "team": "Vector Tech",
+    "artist": "zaoDayo",
+    "title": "Senkolora sunsubiro",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=445&event=152",
+    "full_artist_display": "zaoDayo",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 446,
+    "team": "-20",
+    "artist": "モノゴン",
+    "title": "Larissa",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=446&event=152",
+    "full_artist_display": "モノゴン",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 447,
+    "team": "AmeWave",
+    "artist": "Hurobe / limitsc",
+    "title": "Departed Ark",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=447&event=152",
+    "full_artist_display": "Hurobe / limitsc(mov:Mah1ro)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 448,
+    "team": "gatesoftwaredrive",
+    "artist": "wbr",
+    "title": "Mellifluous.",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=448&event=152",
+    "full_artist_display": "wbr(mov:halorime)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 449,
+    "team": "TPZ(Team Pop Zone)",
+    "artist": "Zris feat. 乃花こより",
+    "title": "LLM",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=449&event=152",
+    "full_artist_display": "Zris feat. 乃花こより(mov:unKn & linglvz)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 450,
+    "team": "Amorphous",
+    "artist": "イベライ/Emelia",
+    "title": "Nethlo",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=450&event=152",
+    "full_artist_display": "イベライ/Emelia",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 451,
+    "team": "Break、Mangle、Smash。",
+    "artist": "rejd",
+    "title": "ÆGIR",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=451&event=152",
+    "full_artist_display": "rejd",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 452,
+    "team": "HYPERNOVA",
+    "artist": "KL Kingsley",
+    "title": "Chrono［∅］ (Disq)",
+    "disqualified": true,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=452&event=152",
+    "full_artist_display": "KL Kingsley",
+    "full_card_disqualified": true
+  },
+  {
+    "id": 453,
+    "team": "Urban Fragments",
+    "artist": "山",
+    "title": "Wandering",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=453&event=152",
+    "full_artist_display": "山(mov:トガ)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 454,
+    "team": "サウンド研究会",
+    "artist": "てみと",
+    "title": "追憶のプレリ",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=454&event=152",
+    "full_artist_display": "てみと",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 455,
+    "team": "コバコノカクレガ",
+    "artist": "SOMON",
+    "title": "-輪廻-",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=455&event=152",
+    "full_artist_display": "SOMON",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 456,
+    "team": "いい",
+    "artist": "6CHA9N",
+    "title": "蒸しパンの季節",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=456&event=152",
+    "full_artist_display": "6CHA9N",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 457,
+    "team": "サウンド研究会",
+    "artist": "Morpho蝶",
+    "title": "regalia",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=457&event=152",
+    "full_artist_display": "Morpho蝶",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 458,
+    "team": "#AKASHiC_ARCHiVE_123",
+    "artist": "七奏メルゥ × HiHUMi",
+    "title": "WiNGS of CHRONiXiA",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=458&event=152",
+    "full_artist_display": "七奏メルゥ × HiHUMi(mov:斗湖 × kini)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 459,
+    "team": "#AKASHiC_ARCHiVE_123",
+    "artist": "HiHUMi × LYRi_WHiTE feat. ROSE",
+    "title": "記憶の花束",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=459&event=152",
+    "full_artist_display": "HiHUMi × LYRi_WHiTE feat. ROSE(mov:斗湖 × kini)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 460,
+    "team": "#AKASHiC_ARCHiVE_123",
+    "artist": "tkqn14 × LYRi \"Cyanblue\" WHiTE",
+    "title": "AKASHiC∞PLANET",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=460&event=152",
+    "full_artist_display": "tkqn14 × LYRi \"Cyanblue\" WHiTE(mov:pix)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 461,
+    "team": "#AKASHiC_ARCHiVE_123",
+    "artist": "twinkle citrus × 黄兎",
+    "title": "mischievous endroll",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=461&event=152",
+    "full_artist_display": "twinkle citrus × 黄兎(mov:Quotation)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 462,
+    "team": "We are cosmic.",
+    "artist": "むさぬりゆ/Musanuriyu",
+    "title": "now-here, no-where",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=462&event=152",
+    "full_artist_display": "むさぬりゆ/Musanuriyu(mov:inukoro)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 463,
+    "team": "Stone Arch Project",
+    "artist": "ARForest",
+    "title": "Starfall",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=463&event=152",
+    "full_artist_display": "ARForest(mov:Kazuma Enta)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 464,
+    "team": "ハイパーライダーズ",
+    "artist": "vermo (a.k.a tami)",
+    "title": "陽子系メイクアップ！",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=464&event=152",
+    "full_artist_display": "vermo (a.k.a tami)(mov:SENALI)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 465,
+    "team": "PLAYGROUND",
+    "artist": "Lime / Kankitsu",
+    "title": "Fragile",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=465&event=152",
+    "full_artist_display": "Lime / Kankitsu",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 466,
+    "team": "(*DISSOCIATED*)",
+    "artist": "39vet",
+    "title": "ExecAtion",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=466&event=152",
+    "full_artist_display": "39vet",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 467,
+    "team": "電力発幻所 8号機管理棟",
+    "artist": "Xiba",
+    "title": "Take it easy (if you can)",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=467&event=152",
+    "full_artist_display": "Xiba",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 468,
+    "team": "クリームソーダ",
+    "artist": "Tyoukou",
+    "title": "Make you This KAIKI",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=468&event=152",
+    "full_artist_display": "Tyoukou(mov:sskd)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 469,
+    "team": "電力発幻所 8号機管理棟",
+    "artist": "HALLPBE.S",
+    "title": "戦慄するG",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=469&event=152",
+    "full_artist_display": "HALLPBE.S(mov:HALLPBE.S)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 470,
+    "team": "(*DISSOCIATED*)",
+    "artist": "Kurast703 as \" \"",
+    "title": "１２６７ ２３５６",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=470&event=152",
+    "full_artist_display": "Kurast703 as \" \"",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 471,
+    "team": "サウンド研究会",
+    "artist": "南すわり",
+    "title": "BIOLOGICAL FUNCTION 2",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=471&event=152",
+    "full_artist_display": "南すわり",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 472,
+    "team": "福建音楽研究学会",
+    "artist": "DJ NORMAL1ZER VS. DJ BIGWHITE VS. MC KIRINO",
+    "title": "4HAKKUH",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=472&event=152",
+    "full_artist_display": "DJ NORMAL1ZER VS. DJ BIGWHITE VS. MC KIRINO(mov:Supa777)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 473,
+    "team": "2016 + 10",
+    "artist": "かたぎり",
+    "title": "vermin flavor",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=473&event=152",
+    "full_artist_display": "かたぎり",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 474,
+    "team": "Break、Mangle、Smash。",
+    "artist": "LEVenhuk",
+    "title": "Witch Witch Witch Witch Witch Witch Witch",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=474&event=152",
+    "full_artist_display": "LEVenhuk(mov:sorcelleri)",
+    "full_card_disqualified": false
+  },
+  {
+    "id": 475,
+    "team": "T-BMS Recording",
+    "artist": "lixound",
+    "title": "/ [] [] [] [] /",
+    "disqualified": false,
+    "url": "https://manbow.nothing.sh/event/event.cgi?action=More_def&num=475&event=152",
+    "full_artist_display": "lixound(mov:5argon)",
+    "full_card_disqualified": false
+  }
+]
