@@ -1,0 +1,62 @@
+[
+  {
+    "name": "utopia_std",
+    "seconds": 0.1566,
+    "input_bytes": 2000011
+  },
+  {
+    "name": "utopia_partial",
+    "seconds": 0.0296,
+    "input_bytes": 2008
+  },
+  {
+    "name": "road_std",
+    "seconds": 0.6119,
+    "input_bytes": 23877788
+  },
+  {
+    "name": "road_partial",
+    "seconds": 0.4236,
+    "input_bytes": 23877788
+  },
+  {
+    "name": "road_partial",
+    "seconds": 0.1189,
+    "input_bytes": 14290
+  },
+  {
+    "name": "moment_std",
+    "seconds": 0.0847,
+    "input_bytes": 1177791
+  },
+  {
+    "name": "moment_std",
+    "seconds": 0.1891,
+    "input_bytes": 788901
+  },
+  {
+    "name": "moment_partial",
+    "seconds": 0.0301,
+    "input_bytes": 585
+  },
+  {
+    "name": "passerby_std",
+    "seconds": 0.2451,
+    "input_bytes": 3488897
+  },
+  {
+    "name": "passerby_partial",
+    "seconds": 0.1491,
+    "input_bytes": 3488897
+  },
+  {
+    "name": "passerby_std",
+    "seconds": 0.4443,
+    "input_bytes": 5555587
+  },
+  {
+    "name": "passerby_partial",
+    "seconds": 0.0189,
+    "input_bytes": 17577
+  }
+]

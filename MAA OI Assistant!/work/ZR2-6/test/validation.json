@@ -1,0 +1,133 @@
+{
+  "seed": 222527,
+  "samples": [
+    {
+      "name": "ex_utopia1",
+      "seconds": 0.03
+    },
+    {
+      "name": "ex_utopia2",
+      "seconds": 0.0202
+    },
+    {
+      "name": "ex_utopia3",
+      "seconds": 0.0179
+    },
+    {
+      "name": "ex_utopia4",
+      "seconds": 0.0198
+    },
+    {
+      "name": "ex_utopia5",
+      "seconds": 0.1094
+    },
+    {
+      "name": "ex_utopia6",
+      "seconds": 0.1161
+    },
+    {
+      "name": "ex_road1",
+      "seconds": 0.0228
+    },
+    {
+      "name": "ex_road2",
+      "seconds": 0.0178
+    },
+    {
+      "name": "ex_road3",
+      "seconds": 0.0414
+    },
+    {
+      "name": "ex_road4",
+      "seconds": 0.0183
+    },
+    {
+      "name": "ex_road5",
+      "seconds": 0.0529
+    },
+    {
+      "name": "ex_road6",
+      "seconds": 0.1491
+    },
+    {
+      "name": "ex_road7",
+      "seconds": 0.4198
+    },
+    {
+      "name": "ex_moment1",
+      "seconds": 0.0297
+    },
+    {
+      "name": "ex_moment2",
+      "seconds": 0.0191
+    },
+    {
+      "name": "ex_moment3",
+      "seconds": 0.021
+    },
+    {
+      "name": "ex_moment4",
+      "seconds": 0.0216
+    },
+    {
+      "name": "ex_moment5",
+      "seconds": 0.0247
+    },
+    {
+      "name": "ex_moment6",
+      "seconds": 0.0196
+    },
+    {
+      "name": "ex_moment7",
+      "seconds": 0.0593
+    },
+    {
+      "name": "ex_moment8",
+      "seconds": 0.1009
+    },
+    {
+      "name": "ex_moment9",
+      "seconds": 0.1068
+    },
+    {
+      "name": "ex_passerby1",
+      "seconds": 0.0228
+    },
+    {
+      "name": "ex_passerby2",
+      "seconds": 0.0151
+    },
+    {
+      "name": "ex_passerby3",
+      "seconds": 0.0172
+    },
+    {
+      "name": "ex_passerby4",
+      "seconds": 0.0699
+    },
+    {
+      "name": "ex_passerby5",
+      "seconds": 0.0313
+    },
+    {
+      "name": "ex_passerby6",
+      "seconds": 0.3019
+    },
+    {
+      "name": "ex_passerby7",
+      "seconds": 0.1377
+    },
+    {
+      "name": "ex_passerby8",
+      "seconds": 1.0775
+    }
+  ],
+  "random": {
+    "utopia": 400,
+    "road": 600,
+    "moment_brute": 300,
+    "moment_partial_compare": 40,
+    "passerby_grid_exhaustive": 3066,
+    "passerby_brute": 500
+  }
+}

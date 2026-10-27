@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-27",
+  "sourceByteAndHashChecks": 64,
+  "sourceCheckNote": "源文件64项检查沿用首次导入结果；此次修订重验当前附件、摘要引用轮次、本地汇总链接与剔除结果，未重新下载已剔除的云端源文件。",
+  "assetByteAndHashChecks": 2,
+  "authoredLocalLinks": 164,
+  "retainedConversationTurnChecks": 18,
+  "counts": {
+    "conversations": 18,
+    "problemGroups": 23,
+    "assets": 2
+  },
+  "missingHistoricalAssets": 0,
+  "confirmationReview": {
+    "archiveEntries": 23,
+    "confirmed": [
+      "ARC189D",
+      "ARC200C",
+      "P12448",
+      "P4694",
+      "P4117",
+      "AGC023F",
+      "CF1601D",
+      "CF1615F",
+      "AGC022E",
+      "AGC024E",
+      "SKYSCRAPER",
+      "AGC028D",
+      "P11364",
+      "P7214",
+      "P4198",
+      "P9067",
+      "P8476",
+      "P7124"
+    ],
+    "explicitlyNotPassed": [
+      "ABC163F",
+      "P4758",
+      "HDU7167",
+      "CF678F",
+      "P2305"
+    ],
+    "noExplicitUserConfirmation": 0,
+    "newlyConfirmedPassed": 16,
+    "alreadyConfirmedPassed": 2,
+    "specialNotes": {
+      "AGC023F": "查看题解",
+      "CF1601D": "全部自己想出",
+      "P4198": "之前做过"
+    }
+  },
+  "removalReview": {
+    "removedProblemGroups": 30,
+    "removedExclusiveConversations": 21,
+    "removedExclusiveAssets": 13,
+    "biologyPreviouslyRemoved": true,
+    "oldCandyRecordPreserved": true
+  },
+  "candyResearch": {
+    "note": "../../复盘/2026-10-07-糖-candy.md",
+    "status": "找到吻合模拟赛线索；原题页502，公开题号未确证；HDU5380存在规则差异"
+  },
+  "errors": []
+}
