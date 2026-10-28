@@ -1,0 +1,5 @@
+s=bba
+expected=3
+actual=2
+trace(i,j,l,i_wins)=[(2, 1, 1, True)]
+rotations=['bba', 'bab', 'abb']
