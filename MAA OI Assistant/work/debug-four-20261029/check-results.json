@@ -1,0 +1,14 @@
+{
+  "seed": 20261029,
+  "passed_cases": {
+    "P4503": 102,
+    "P4802": 152,
+    "P11267": 249,
+    "P10526": 54
+  },
+  "kingdom_queries": 11875,
+  "collision_strings": [
+    "aygI5JfL87",
+    "aEBPICi06Z"
+  ]
+}
