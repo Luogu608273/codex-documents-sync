@@ -1,0 +1,4 @@
+# FileSync: excluded extensions begin
+*.[iI][nN]
+*.[eE][xX][eE]
+# FileSync: excluded extensions end
