@@ -1,0 +1,29 @@
+{
+  "changed_files": [
+    "codex-state.ps1",
+    "codex-preferences.py",
+    "README.md"
+  ],
+  "retained_engine_diagnostics": true,
+  "installed_sha256": {
+    "sync.ps1": "632d3a4e48c29cc5fbad8681e9ef7b073627ea2ab3a93cdad2c62cb66343e5c6",
+    "codex-state.ps1": "ed1b866cb700b53fe48a730e04bc28e6476f674b3528378b2d1af0e1eb99279f",
+    "first-connect.ps1": "ec8c00ff4c5a77d54509ee5e6541cf5e19d003a71c11d66640edb4eaa5479c0a",
+    "repair-chat-index.py": "17acf9a4467262486e4d6b5d547605b1f386e4ea64012b01c4fc5e4fd7b4af56",
+    "codex-preferences.py": "f33b83e90920de14f71891771265088947fe20d6545cef3fba8b7e9284c6a12d",
+    "schedule.ps1": "be14bf9fa609cb9c945372783ff0fd0b44c5e5404bdb1c8bcc92d57476f5443d",
+    "sync.cmd": "d158a164d94447522902eb4adf859d09ad12a1e03d4608991402a64720db783a",
+    "sync-all.cmd": "3ce1644ae29fbcf49d24527e02cd1c3c01ad9f5ae1282c7bfdca673a80f3d630",
+    "README.md": "7d2557b67deec08048998c4ba2dfdf70702e8f4264c2d4433cbd6ce750fb92ae"
+  },
+  "zip_sha256": "c9064d053cc38e92faf7081bd7a1be804b53478fb12f5ece6d9ff61fb874f695",
+  "tests": {
+    "preferences": 12,
+    "engine_discovery": 11,
+    "other_chat_recovery_engine": 5,
+    "readme_and_first_connect_checks": 5,
+    "exclusion_regression": "PASS",
+    "current_data_copy_flow": "PASS"
+  },
+  "live_preferences_applied": false
+}
