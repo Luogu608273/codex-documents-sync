@@ -1,0 +1,904 @@
+[
+  {
+    "path": "GD-S00011/subway/subway.cpp",
+    "order": "ijk",
+    "line": 33,
+    "end": 36,
+    "outer": [],
+    "snippet": "\tfor(int i = 1; i <= n; ++i)\n\t\tfor(int j = 1; j <= n; ++j) \n\t\t\tfor(int k = 1; k <= n; ++k)\n\t\t\t\tupd(dist[i][j], dist[i][k] + dist[k][j]);\n\tfor(int x, y; q--; ) {"
+  },
+  {
+    "path": "GD-S00127/subway/subway.cpp",
+    "order": "ijk",
+    "line": 51,
+    "end": 55,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tfor(int j=1;j<i;j++){\n\t\t\tfor(int k=1;k<i;k++){\n\t\t\t\tdis[i][j]=dis[j][i]=\n\t\t\t\tmin(dis[i][j],dis[i][k]+dis[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S00149/subway/subway.cpp",
+    "order": "ijk",
+    "line": 35,
+    "end": 38,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=m;i++)\n\t\tfor(int j=1;j<=m;j++)\n\t\t\tfor(int k=1;k<=m;k++)\n\t\t\t\tf[i][j]=min(f[i][j],f[i][k]+f[k][j]);\n\twhile(q--){"
+  },
+  {
+    "path": "GD-S00176/subway/subway.cpp",
+    "order": "ijk",
+    "line": 26,
+    "end": 29,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=m;i++)\n\t\tfor(int j=1;j<=m;j++)\n\t\t\tfor(int k=1;k<=m;k++)\n\t\t\t\tdis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);\n\twhile(qu--){"
+  },
+  {
+    "path": "GD-S00180/subway/subway.cpp",
+    "order": "ikj",
+    "line": 37,
+    "end": 40,
+    "outer": [],
+    "snippet": "\tfor (int i=1;i<=n;i++){\n\t\tfor (int k=1;k<=n;k++){\n\t\t\tfor (int j=1;j<=n;j++){\n\t\t\t\tdp[i][j]=min(dp[i][j],dp[i][k]+dp[k][j]);\t\t\n\t\t\t}"
+  },
+  {
+    "path": "GD-S00195/subway/subway.cpp",
+    "order": "ijk",
+    "line": 75,
+    "end": 78,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++)\n\t\tfor(int j=1;j<=n;j++)\n\t\t\tfor(int k=1;k<=n;k++)\n\t\t\t\tdist[i][j]=min(dist[i][j],dist[i][k]+dist[k][j]);\n"
+  },
+  {
+    "path": "GD-S00304/subway/subway.cpp",
+    "order": "ijk",
+    "line": 46,
+    "end": 49,
+    "outer": [],
+    "snippet": "\tfor (int i = 1; i <= n; i++){\n\t\tfor (int j = 1; j <= n; j++){\n\t\t\tfor (int k = 1; k <= n; k++){\n\t\t\t\td[i][j] = min(d[i][j], d[i][k] + d[k][j]);\n\t\t\t\td[j][i] = d[i][j];"
+  },
+  {
+    "path": "GD-S00325/subway/subway.cpp",
+    "order": "ijk",
+    "line": 63,
+    "end": 66,
+    "outer": [],
+    "snippet": "\t\tfor(int i = 1; i <= m; i++){\n\t\t\tfor(int j = 1; j <= m; j++){\n\t\t\t\tfor(int k = 1; k <= m; k++){\n\t\t\t\t\tmn[i][j] = min(mn[i][j], mn[i][k] + mn[k][j]);\n\t\t\t\t\tmn[j][i] = min(mn[j][i], mn[j][k] + mn[k][i]);"
+  },
+  {
+    "path": "GD-S00394/subway/subway.cpp",
+    "order": "ijk",
+    "line": 62,
+    "end": 65,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tfor(int j=1;j<=n;j++){\n\t\t\tfor(int k=1;k<=n;k++){\n\t\t\t\tf[i][j]=min(f[i][j],f[i][k]+f[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S00405/subway/subway.cpp",
+    "order": "ijk",
+    "line": 38,
+    "end": 41,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++)\n\t\tfor(int j=1;j<=n;j++)\n\t\t\tfor(int k=1;k<=n;k++)\n\t\t\t\tdis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);\n\twhile(q--)"
+  },
+  {
+    "path": "GD-S00421/subway/subway.cpp",
+    "order": "ijk",
+    "line": 8,
+    "end": 12,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<m;i++){\n\t\tfor(int j=1;j<m;j++){\n\t\t\tfor(int k=1;k<m;k++){\n\t\t\t\tif(dist[i][k]!=1145141919810&&dist[k][j]!=1145141919810){\n\t\t\t\t\tdist[i][j]=min(dist[i][k]+dist[k][j],dist[i][j]);\n\t\t\t\t}"
+  },
+  {
+    "path": "GD-S00559/subway/subway.cpp",
+    "order": "ijk",
+    "line": 51,
+    "end": 55,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tfor(int j=1;j<=n;j++){\n\t\t\tfor(int k=1;k<=n;k++){\n\t\t\t\tif(dis[i][k]==inf||dis[k][j]==inf) continue;\n\t\t\t\tdis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S00593/subway/subway.cpp",
+    "order": "ijk",
+    "line": 40,
+    "end": 43,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tfor(int j=1;j<=n;j++){\n\t\t\tfor(int k=1;k<=n;k++){\n\t\t\t\tdis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S00691/subway/subway.cpp",
+    "order": "ijk",
+    "line": 57,
+    "end": 60,
+    "outer": [],
+    "snippet": "\t\tfor (long long i=1;i<=n;i++){\n\t\t\tfor (long long j=i+1;j<=n;j++){\n\t\t\t\tfor (long long k=1;k<=n;k++){\n\t\t\t\t\tif (ans[i][k]!=0x3f3f3f3f3f3f3f3f and ans[k][j]!=0x3f3f3f3f3f3f3f3f and ans[i][j]>ans[i][k]+ans[k][j]){\n\t\t\t\t\t\tans[i][j]=ans[j][i]=ans[i][k]+ans[k][j];"
+  },
+  {
+    "path": "GD-S00701/subway/subway.cpp",
+    "order": "ijk",
+    "line": 35,
+    "end": 38,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=m;i++){\n\t\tfor(int j=1;j<=m;j++){\n\t\t\tfor(int k=1;k<=m;k++){\n\t\t\t\tf[i][j]=min(f[i][j],f[i][k]+f[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S00843/subway/subway.cpp",
+    "order": "ijk",
+    "line": 64,
+    "end": 68,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tfor(int j=1;j<=n;j++){\n\t\t\tif(i==j)continue;\n\t\t\tfor(int k=1;k<=n;k++){\n\t\t\t\tT[i][j]=min(T[i][j],T[i][k]+T[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S00884/subway/subway.cpp",
+    "order": "ijk",
+    "line": 34,
+    "end": 37,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tfor(int j=1;j<=n;j++){\n\t\t\tfor(int k=1;k<=n;k++){\n\t\t\t\tf[i][j]=min(f[i][j],f[i][k]+f[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S00915/subway/subway.cpp",
+    "order": "ijk",
+    "line": 33,
+    "end": 37,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tfor(int j=1;j<=n;j++){\n\t\t\tfor(int k=1;k<=n;k++){\n\t\t\t\tif(i==j) t[i][j]=0;\n\t\t\t\tt[i][j]=t[j][i]=min(t[i][j],t[i][k]+t[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S00952/subway/subway.cpp",
+    "order": "ijk",
+    "line": 52,
+    "end": 56,
+    "outer": [],
+    "snippet": "\tfor(int i = 1;i <= n;i++)\n\t\tfor(int j = 1;j <= n;j++)\n\t\t\tfor(int k = 1;k <= n;k++)\n\t\t\t{\n\t\t\t\tf[i][j] = min(f[i][j],f[i][k] + f[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S01079/subway/subway.cpp",
+    "order": "ijk",
+    "line": 35,
+    "end": 37,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++)\n\t\tfor(int j=1;j<=n;j++)\n\t\t\tfor(int k=1;k<=n;k++)dis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);\n\twhile(q--){"
+  },
+  {
+    "path": "GD-S01096/subway/subway.cpp",
+    "order": "ijk",
+    "line": 63,
+    "end": 66,
+    "outer": [],
+    "snippet": "\tfor (int i = 1; i <= n; ++i) {\n\t\tfor (int j = 1; j <= n; ++j) {\n\t\t\tfor (int k = 1; k <= n; ++k) {\n\t\t\t\tf[i][j] = min(f[i][j], f[i][k] + f[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S01123/subway/subway.cpp",
+    "order": "ijk",
+    "line": 28,
+    "end": 31,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=m;i++){\n\t\tfor(int j=1;j<=m;j++){\n\t\t\tfor(int k=1;k<=m;k++){\n\t\t\t\tf[i][j]=min(f[i][j],f[i][k]+f[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S01235/subway/subway.cpp",
+    "order": "ijk",
+    "line": 60,
+    "end": 64,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=m;i++){\n\t\tfor(int j=1;j<=m;j++){\n\t\t\tif(i==j) continue;\n\t\t\tfor(int k=1;k<=m;k++){\n\t\t\t\tif(k!=i&&k!=j) f[i][j]=min(f[i][j],f[i][k]+f[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S01235/subway/subway.cpp",
+    "order": "ijk",
+    "line": 69,
+    "end": 73,
+    "outer": [
+      "int h=1;h<=m;h++"
+    ],
+    "snippet": "\t\tfor(int i=1;i<=m;i++){\n\t\t    for(int j=1;j<=m;j++){\n\t\t\t    if(i==j) continue;\n\t\t\t    for(int k=1;k<=m;k++){\n\t\t\t\t    if(k!=i&&k!=j) f[i][j]=min(f[i][j],f[i][k]+f[k][j]);\n\t\t\t    }"
+  },
+  {
+    "path": "GD-S01260/subway/subway.cpp",
+    "order": "ijk",
+    "line": 57,
+    "end": 61,
+    "outer": [],
+    "snippet": "\t\tfor(int i=1;i<=n;i++)\n\t\t\tfor(int j=1;j<=n;j++)\n\t\t\t\tfor(int k=1;k<=n;k++)\n\t\t\t\t\tif(g[i][k]!=LLONG_MAX&&g[k][j]!=LLONG_MAX)\n\t\t\t\t\t\tg[i][j]=min(g[i][j],g[i][k]+g[k][j]);\n\t\twhile(q--)"
+  },
+  {
+    "path": "GD-S01313/subway/subway.cpp",
+    "order": "ikj",
+    "line": 38,
+    "end": 42,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tdis[i][i]=0;\n\t\tfor(int k=1;k<=n;k++){\n\t\t\tfor(int j=1;j<=n;j++){\n\t\t\t\tdis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S01356/subway/subway.cpp",
+    "order": "ikj",
+    "line": 36,
+    "end": 41,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;++i){\n\t\tfor(int k=1;k<=n;++k){\n\t\t\tfor(int j=1;j<=n;++j){\n\t\t\t\tif(i==k || k==j || i==j)continue;\n\t\t\t\tif(qz[i][k]==0x3f3f3f3f3f3f3f3f || qz[k][j]==0x3f3f3f3f3f3f3f3f)continue;\n\t\t\t\tqz[i][j]=min(qz[i][j],qz[i][k]+qz[k][j]);\n\t\t\t\tqz[j][i]=qz[i][j];"
+  },
+  {
+    "path": "GD-S01379/subway/subway.cpp",
+    "order": "ijk",
+    "line": 43,
+    "end": 47,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tfor(int j=1;j<=n;j++){\n\t\t\tfor(int k=1;k<=n;k++){\n\t\t\t\tif(len[i][k]==5e16||len[k][j]==5e16)continue;\n\t\t\t\tlen[i][j]=len[j][i]=min(len[i][j],len[i][k]+len[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S01417/subway/subway.cpp",
+    "order": "ijk",
+    "line": 48,
+    "end": 51,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tfor(int j=1;j<=n;j++){\n\t\t\tfor(int k=1;k<=n;k++)\n\t\t\t\tdis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);\n\t\t}"
+  },
+  {
+    "path": "GD-S01430/subway/subway.cpp",
+    "order": "ijk",
+    "line": 34,
+    "end": 42,
+    "outer": [],
+    "snippet": "\tfor(int i = 1;i<=n+1000;i++){\n\t\tif(i > m and i <= 1000) continue;\n\t\tfor(int j = 1;j<=n + 1000;j++){\n\t\t\tif(i == j) continue;\n\t\t\tif(j > m and j <= 1000) continue;\n\t\t\tfor(int k = 1;k<=n+1000;k++){\n\t\t\t\tif(i == k or j == k) continue;\n\t\t\t\tif(k > m and k <= 1000) continue;\n\t\t\t\tP[i][j] = min(P[i][j],P[i][k] + P[k][j]);\n\t\t\t\tif(P[i][j] < P[j][i]){"
+  },
+  {
+    "path": "GD-S01474/subway/subway.cpp",
+    "order": "ikj",
+    "line": 8,
+    "end": 13,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=m;i++){\n\t\tfor(int k=1;k<=m;k++){\n\t\t\tif(dis[i][k]==INT_MAX) continue;\n\t\t\tfor(int j=1;j<=m;j++){\n\t\t\t\tif(dis[k][j]==INT_MAX) continue;\n\t\t\t\tdis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S01475/subway/subway.cpp",
+    "order": "ikj",
+    "line": 50,
+    "end": 56,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=m;i++)\n\t{\n\t\tfor(int k=1;k<=m;k++)\n\t\t{\n\t\t\tfor(int j=1;j<=m;j++)\n\t\t\t{\n\t\t\t\tif(ma[i][j] > ma[i][k]+ma[k][j]) ma[i][j]=ma[i][k]+ma[k][j];\n\t\t\t}"
+  },
+  {
+    "path": "GD-S01509/subway/subway.cpp",
+    "order": "ijk",
+    "line": 29,
+    "end": 34,
+    "outer": [],
+    "snippet": "\tfor(int i = 1;i<n+m;i++)\n\t\tfor(int j = i+1;j<=n+m;j++)\n\t\t\tfor(int k = 1;k<=n+m;k++){\n\t\t\t\tif(i==j||j==k||i==k)\n\t\t\t\t\tcontinue;\n\t\t\t\tif(dst[i][j]>dst[i][k]+dst[k][j])\n\t\t\t\t\tdst[j][i] = dst[i][j] = dst[i][k]+dst[k][j];"
+  },
+  {
+    "path": "GD-S01525/subway/subway.cpp",
+    "order": "ijk",
+    "line": 52,
+    "end": 66,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=m;i++)\n\t{\n\t\tfor(int j=1;j<=m;j++)\n\t\t{\n\t\t\tif(j==i)\n\t\t\t{\n\t\t\t\tcontinue;\n\t\t\t}\n\t\t\tfor(int k=1;k<=m;k++)\n\t\t\t{\n\t\t\t\tif(k==i||k==j)\n\t\t\t\t{\n\t\t\t\t\tcontinue;\n\t\t\t\t}\n\t\t\t\tf[i][j]=min(f[i][j],f[i][k]+f[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S01547/subway/subway.cpp",
+    "order": "ijk",
+    "line": 41,
+    "end": 44,
+    "outer": [],
+    "snippet": "\t\t\tfor(i64 i = 0;i < m;i ++) {\n\t\t\t\tfor(i64 j = 0;j < m;j ++) {\n\t\t\t\t\tfor(i64 k = 0;k < m;k ++) {\n\t\t\t\t\t\td[i][j] = std::min(d[i][j], d[i][k] + d[k][j]);\n\t\t\t\t\t}"
+  },
+  {
+    "path": "GD-S01547/subway/subway.cpp",
+    "order": "ijk",
+    "line": 64,
+    "end": 67,
+    "outer": [],
+    "snippet": "\t\t\tfor(i64 i = 0;i < m;i ++) {\n\t\t\t\tfor(i64 j = 0;j < m;j ++) {\n\t\t\t\t\tfor(i64 k = 0;k < m;k ++) {\n\t\t\t\t\t\td[i][j] = std::min(d[i][j], d[i][k] + d[k][j]);\n\t\t\t\t\t}"
+  },
+  {
+    "path": "GD-S01570/subway/subway.cpp",
+    "order": "ijk",
+    "line": 35,
+    "end": 40,
+    "outer": [],
+    "snippet": "\tfor (int i=1;i<=m;i++)\n\t\tfor (int j=1;j<=m;j++)\n\t\t\tfor (int k=1;k<=m;k++)\n\t\t\t\tif (i!=j&&j!=k)\n\t\t\t\t{\n\t\t\t\t\tdis[i][j]=dis[j][i]=min(dis[i][k]+dis[k][j],dis[i][j]);\n\t\t\t\t}"
+  },
+  {
+    "path": "GD-S01636/subway/subway.cpp",
+    "order": "ikj",
+    "line": 30,
+    "end": 33,
+    "outer": [],
+    "snippet": "\tfor(int i = 1; i <= 500; i++)\n\t\tfor(int k = 1; k <= 500; k++)\n\t\t\tfor(int j = 1; j <= 500; j++)\n\t\t\t\tdis[i][j]  = dis[j][i] = min(dis[i][j] , dis[i][k] + dis[k][j]);\n"
+  },
+  {
+    "path": "GD-S01693/subway/subway.cpp",
+    "order": "ijk",
+    "line": 68,
+    "end": 71,
+    "outer": [],
+    "snippet": "\t\tfor(int i=1;i<=m;i++){\n\t\t\tfor(int j=1;j<=m;j++){\n\t\t\t\tfor(int k=1;k<=m;k++){\n\t\t\t\t\tp[i][j]=p[j][i]=min(p[i][j], p[i][k]+p[k][j]);\n\t\t\t\t}"
+  },
+  {
+    "path": "GD-S01730/subway/subway.cpp",
+    "order": "ikj",
+    "line": 35,
+    "end": 44,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tfor(int  k=1;k<=n;k++){\n\t\t\tif(dp[i][k]==1061109567){\n\t\t\t\tcontinue;\n\t\t\t}\n\t\t\tfor(int  j=1;j<=n;j++){\n\t\t\t\tif(i==j){\n\t\t\t\t\tdp[i][j]=0;\n\t\t\t\t}\n\t\t\t\tdp[i][j]=min(dp[i][j],dp[i][k]+dp[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S01757/subway/subway.cpp",
+    "order": "ijk",
+    "line": 43,
+    "end": 49,
+    "outer": [],
+    "snippet": "\tfor(long long i=1;i<=m;i++)\n\t{\n\t\tfor(long long j=1;j<=m;j++)\n\t\t{\n\t\t\tfor(long long k=1;k<=m;k++)\n\t\t\t{\n\t\t\t\te[i][j]=min(e[i][j],e[i][k]+e[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S01775/subway/subway.cpp",
+    "order": "ijk",
+    "line": 58,
+    "end": 61,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=m;i++){\n\t\tfor(int j=1;j<=m;j++){\n\t\t\tfor(int k=1;k<=m;k++){\n\t\t\t\tway[i][j]=min(way[i][k]+way[k][j],way[i][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S01808/subway/subway.cpp",
+    "order": "ijk",
+    "line": 39,
+    "end": 42,
+    "outer": [],
+    "snippet": "\tfor(ll i=1;i<=n;i++)\n\t\tfor(ll j=1;j<=n;j++)\n\t\t\tfor(ll k=1;k<=n;k++)\n\t\t\t\tdis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);\n//\tfor(ll i=1;i<=n;i++)"
+  },
+  {
+    "path": "GD-S01840/subway/subway.cpp",
+    "order": "ijk",
+    "line": 35,
+    "end": 38,
+    "outer": [],
+    "snippet": "    for(int i=1;i<=n;i++){\n        for(int j=1;j<=n;j++){\n            for(int k=1;k<=n;k++){\n                tu[j][i]=tu[i][j]=min(tu[i][k]+tu[k][j],tu[j][i]);\n            }"
+  },
+  {
+    "path": "GD-S01884/subway/subway.cpp",
+    "order": "ijk",
+    "line": 63,
+    "end": 66,
+    "outer": [],
+    "snippet": "\tfor(ll i=1;i<=n;i++){\n\t\tfor(ll j=1;j<=n;j++){\n\t\t\tfor(ll k=1;k<=n;k++){\n\t\t\t\tlen[i][j]=min(len[i][j],len[i][k]+len[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S01897/subway/subway.cpp",
+    "order": "ijk",
+    "line": 23,
+    "end": 26,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=m+n;i++){\n\t\tfor(int j=1;j<=m+n;j++){\n\t\t\tfor(int k=1;k<=m+n;k++){\n\t\t\t\tdp[i][j]=min(dp[i][j],dp[i][k]+dp[k][j]);\n\t\t\t\tdp[j][i]=dp[i][j];"
+  },
+  {
+    "path": "GD-S01910/subway/subway.cpp",
+    "order": "ijk",
+    "line": 39,
+    "end": 42,
+    "outer": [],
+    "snippet": "\tfor(int i = 1 ; i <= m ; i++){\n\t\tfor(int j = 1 ; j <= m ; j++){\n\t\t\tfor(int k = 1 ; k <= m ; k++){\n\t\t\t\tdp[i][j] = min(dp[i][k] + dp[k][j] , dp[i][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S01933/subway/subway.cpp",
+    "order": "ijk",
+    "line": 34,
+    "end": 37,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tfor(int j=1;j<=n;j++){\n\t\t\tfor(int k=1;k<=n;k++){\n\t\t\t\tmp[i][j]=mp[j][i]=min(mp[i][k]+mp[k][j],mp[i][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S01990/subway/subway.cpp",
+    "order": "ijk",
+    "line": 22,
+    "end": 27,
+    "outer": [],
+    "snippet": "\t\tfor(int i=1;i<=m;i++)\n\t\t\tfor(int j=1;j<=m;j++){\n\t\t\t\tif(i==j) continue;\n\t\t\t\tfor(int k=1;k<=m;k++){\n\t\t\t\t\tif(k==i or k==j) continue;\n\t\t\t\t\tif(dis[i][j]>dis[i][k]+dis[k][j]){\n\t\t\t\t\t\tdis[i][j]=dis[i][k]+dis[k][j];"
+  },
+  {
+    "path": "GD-S02011/subway/subway.cpp",
+    "order": "ijk",
+    "line": 38,
+    "end": 41,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tfor(int j=1;j<=n;j++){\n\t\t\tfor(int k=1;k<=n;k++){\n\t\t\t\tif(f[i][k]+f[k][j]<f[i][j])f[i][j]=f[i][k]+f[k][j];\n\t\t\t}"
+  },
+  {
+    "path": "GD-S02033/subway/subway.cpp",
+    "order": "ijk",
+    "line": 44,
+    "end": 49,
+    "outer": [],
+    "snippet": "\tfor(int i = 1;i <= n;i ++) {\n\t\tfor(int j = 1;j <= n;j ++) {\n\t\t\tif(i == j) continue;\n\t\t\tfor(int k = 1;k <= n;k ++) {\n\t\t\t\tif(i == k || j == k) continue;\n\t\t\t\tif(f[i][k] + f[k][j] < f[i][j]) {\n\t\t\t\t\tf[i][j] = f[i][k] + f[k][j];"
+  },
+  {
+    "path": "GD-S02045/subway/subway.cpp",
+    "order": "ijk",
+    "line": 44,
+    "end": 51,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tfor(int j=1;j<=n;j++){\n\t\t\tif(i==j){\n\t\t\t\tdis[i][j]=0;\n\t\t\t\tcontinue; \n\t\t\t}\n\t\t\tfor(int k=1;k<=n;k++){\n\t\t\t\tdis[i][j]=min(dis[i][k]+dis[k][j],dis[i][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S02050/subway/subway.cpp",
+    "order": "ijk",
+    "line": 49,
+    "end": 52,
+    "outer": [],
+    "snippet": "\tfor(int i = 1;i <= n;i++){\n\t\tfor(int j = 1;j <= n;j++){\n\t\t\tfor(int k = 1;k <= n;k++){\n\t\t\t\tchkmin(dis[i][j], dis[i][k] + dis[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S02061/subway/subway.cpp",
+    "order": "ikj",
+    "line": 55,
+    "end": 62,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++)\n\t{\n\t\tfor(int k=1;k<=n;k++)\n\t\t{\n\t\t\tfor(int j=1;j<=n;j++)\n\t\t\t{\n\t\t\t\tif(i==k||i==j||k==j) continue;\n\t\t\t\tdp[i][j]=min(dp[i][j],dp[i][k]+dp[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S02151/subway/subway.cpp",
+    "order": "ijk",
+    "line": 40,
+    "end": 43,
+    "outer": [],
+    "snippet": "\t\t}for(int i=1;i<=n;i++){\n\t\t\tfor(int j=1;j<=n;j++){\n\t\t\t\tfor(int k=1;k<=n;k++){\n\t\t\t\t\tedge[i][j]=min(edge[i][j],edge[i][k]+edge[k][j]);\n\t\t\t\t}"
+  },
+  {
+    "path": "GD-S02196/subway/subway.cpp",
+    "order": "ijk",
+    "line": 36,
+    "end": 40,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=m;i++){\n\t\tfor(int j=1;j<=m;j++){\n\t\t\tfor(int k=1;k<=2*m;k++){\n\t\t\t\tif(dist[i][k]!=INF&&dist[k][j]!=INF){\n\t\t\t\tdist[i][j]=min(dist[i][j],dist[i][k]+dist[k][j]);\n\t\t\t\t//cout<<i<<\" \"<<j<<\" \"<<k<<\" \"<<dist[i][k]<<\" \"<<dist[k][j]<<\"\\n\";"
+  },
+  {
+    "path": "GD-S02196/subway/subway.cpp",
+    "order": "ijk",
+    "line": 46,
+    "end": 50,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=m;i++){\n\t\tfor(int j=1;j<=m;j++){\n\t\t\tfor(int k=1;k<=2*m;k++){\n\t\t\t\tif(dist[i][k]!=INF&&dist[k][j]!=INF){\n\t\t\t\tdist[i][j]=min(dist[i][j],dist[i][k]+dist[k][j]);\n\t\t\t\t//cout<<i<<\" \"<<j<<\" \"<<k<<\" \"<<dist[i][k]<<\" \"<<dist[k][j]<<\"\\n\";"
+  },
+  {
+    "path": "GD-S02225/subway/subway.cpp",
+    "order": "ikj",
+    "line": 36,
+    "end": 39,
+    "outer": [],
+    "snippet": "\t\tfor (int i = 1; i <= m; i++) {\n\t\t\tfor (int k = i + 1; k <= m; k++) {\n\t\t\t\tfor (int j = k + 1; j <= m; j++) {\n\t\t\t\t\tf[i][j] = min(f[i][j], f[i][k] + f[k][j]);\n\t\t\t\t}"
+  },
+  {
+    "path": "GD-S02335/subway/subway.cpp",
+    "order": "ikj",
+    "line": 10,
+    "end": 14,
+    "outer": [
+      "int u=1;u<=2;u++"
+    ],
+    "snippet": "\tfor(int i=1;i<=m+n;i++){\n\t\tfor(int k=1;k<=n+m;k++){\n\t\t\tfor(int j=1;j<=m+n;j++){\n\t\t\t\tif(i==j||j==k||i==k) continue;\n\t\t\t\tif(l[i][k]+l[k][j]<die[i][j]) die[i][j]=l[i][k]+l[k][j];\n\t\t\t\tif(die[i][k]+die[k][j]<die[i][j]) die[i][j]=die[i][k]+die[k][j];"
+  },
+  {
+    "path": "GD-S02352/subway/subway.cpp",
+    "order": "ijk",
+    "line": 14,
+    "end": 17,
+    "outer": [],
+    "snippet": "\tfor(int i =1;i <= n ;++i ){\n\t\tfor(int j = 1;j <= n;++j){\n\t\t\tfor(int k = 1;k <= n;++k){\n\t\t\t\tmp[i][j] = min(mp[i][j],mp[i][k]+mp[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S02482/subway/subway.cpp",
+    "order": "ijk",
+    "line": 36,
+    "end": 39,
+    "outer": [],
+    "snippet": "\tfor(int i = 1; i <= a; i++){\n\t\tfor(int j = 1; j <= a; j++){\n\t\t\tfor(int k = 1; k <= a; k++){\n\t\t\t\tdp[i][j] = min(dp[i][j],dp[i][k] + dp[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S02610/subway/subway.cpp",
+    "order": "ijk",
+    "line": 52,
+    "end": 62,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<n;i++)\n\t{\n\t\tfor(int j=i+1;j<=m;j++)\n\t\t{\n\t\t\tfor(int k=1;k<=n;k++)\n\t\t\t{\n\t\t\t\tif(k!=i&&k!=j)\n\t\t\t\t{\n\t\t\t\t\tif(tong[i][j]==0)\n\t\t\t\t\t{\n\t\t\t\t\t\ttong[i][j]=tong[i][k]+tong[k][j];\n\t\t\t\t\t\ttong[j][i]=tong[i][j];"
+  },
+  {
+    "path": "GD-S02733/subway/subway.cpp",
+    "order": "ijk",
+    "line": 30,
+    "end": 33,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tfor(int j=1;j<=n;j++){\n\t\t\tfor(int k=1;k<=n;k++){\n\t\t\t\tf[i][j]=min(f[i][j],f[i][k]+f[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S02742/subway/subway.cpp",
+    "order": "ijk",
+    "line": 27,
+    "end": 31,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=m;i++){\n\t\tfor(int j=1;j<=m;j++){\n\t\t\tfor(int k=1;k<=m;k++){\n\t\t    \tif(i==j||j==k||i==k) continue;\n\t\t\t\tmapp[i][j]=min(mapp[i][j],mapp[i][k]+mapp[k][j]); \n\t\t\t}"
+  },
+  {
+    "path": "GD-S02749/subway/subway.cpp",
+    "order": "ijk",
+    "line": 47,
+    "end": 51,
+    "outer": [],
+    "snippet": "\tfor (long long i = 1;i <= n;i++){\n\t\tfor (long long j = 1;j <= n;j++){\n\t\t\tfor (long long k = 1;k <= n;k++){\n\t\t\t\tif (i != j and j != k and i != k){\n\t\t\t\t\tif (G[i][j] > G[i][k] + G[k][j]){\n\t\t\t\t\t\tG[i][j] = G[i][k] + G[k][j];"
+  },
+  {
+    "path": "GD-S02783/subway/subway.cpp",
+    "order": "ijk",
+    "line": 58,
+    "end": 61,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tfor(int j=1;j<=n;j++){\n\t\t\tfor(int k=1;k<=n;k++)\n\t\t\t\tdis[i][j]=dis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);\n\t\t}"
+  },
+  {
+    "path": "GD-S02808/subway/subway.cpp",
+    "order": "ijk",
+    "line": 46,
+    "end": 49,
+    "outer": [],
+    "snippet": "\tfor(int i = 1;i <= n;i++){\n\t\tfor(int j = 1;j <= n;j++){\n\t\t\tfor(int k = 1;k <= n;k++){\n\t\t\t\tf[i][j] = min(f[i][j],f[i][k]+f[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S02827/subway/subway.cpp",
+    "order": "ijk",
+    "line": 62,
+    "end": 65,
+    "outer": [],
+    "snippet": "\tfor(int i=1; i<=n; i++) {\n\t\tfor(int j=1; j<=n; j++) {\n\t\t\tfor(int k=1; k<=n; k++) {\n\t\t\t\ta[i][j]=min(a[i][j],a[i][k]+a[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S02846/subway/subway.cpp",
+    "order": "ijk",
+    "line": 33,
+    "end": 40,
+    "outer": [],
+    "snippet": "\t\tfor(int i=1;i<=m;i++)\n\t\t{\n\t\t\tfor(int j=1;j<=m;j++)\n\t\t\t{\n\t\t\t\tfor(int k=1;k<=m;k++)\n\t\t\t\t{\n\t\t\t\t\tif(dt[i][k]==0||dt[k][j]==0)continue;\n\t\t\t\t\tif(dt[i][j]!=0)dt[i][j]=(dt[i][j]<dt[i][k]+dt[k][j]?dt[i][j]:dt[i][k]+dt[k][j]);\n\t\t\t\t\telse dt[i][j]=dt[i][k]+dt[k][j];"
+  },
+  {
+    "path": "GD-S02860/subway/subway.cpp",
+    "order": "ijk",
+    "line": 37,
+    "end": 40,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tfor(int j=1;j<=n;j++){\n\t\t\tfor(int k=1;k<=n;k++){\n\t\t\t\tf[i][j]=min(f[i][j],f[i][k]+f[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S02918/subway/subway.cpp",
+    "order": "ijk",
+    "line": 69,
+    "end": 77,
+    "outer": [
+      "int t = 1; t <= m; t++"
+    ],
+    "snippet": "\t\t\tfor (int i = 1; i <= m; i++)\n\t\t\t{\n\t\t\t\tfor (int j = 1; j <= m; j++)\n\t\t\t\t{\n\t\t\t\t\tfor (int k = 1; k <= m; k++)\n\t\t\t\t\t{\n\t\t\t\t\t\tif (dis[i][k] != 1e18 && dis[k][j] != 1e18) \n\t\t\t\t\t\t{\n\t\t\t\t\t\t\tdis[i][j] = min(dis[i][j], dis[i][k] + dis[k][j]);\n//\t\t\t\t\t\t\tcout << \"一次组合：\" << i << \" \" << k << \" \" << j << \" \" << dis[i][j] << '\\n'; "
+  },
+  {
+    "path": "GD-S02959/subway/subway.cpp",
+    "order": "ijk",
+    "line": 35,
+    "end": 38,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=m;i++){\n\t\tfor(int j=1;j<=m;j++){\n\t\t\tfor(int k=1;k<=m;k++){\n\t\t\t\tmnx[i][j]=min(mnx[i][j],mnx[i][k]+mnx[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S03021/subway/subway.cpp",
+    "order": "ikj",
+    "line": 25,
+    "end": 29,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=m;i++){\n\t\tdist[i][i]=0;\n\t\tfor(int k=1;k<=m;k++){\n\t\t\tfor(int j=1;j<=m;j++){\n\t\t\t\tdist[i][j]=min(dist[i][j],dist[i][k]+dist[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S03053/subway/subway.cpp",
+    "order": "ijk",
+    "line": 10,
+    "end": 13,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=m;i++){\n\t\tfor(int j=i+1;j<=m;j++){\n\t\t\tfor(int k=1;k<=m;k++){\n\t\t\t\tdist[i][j]=dist[j][i]=min(dist[i][j],dist[i][k]+dist[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S03060/subway/subway.cpp",
+    "order": "ijk",
+    "line": 37,
+    "end": 40,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tfor(int j=1;j<=n;j++){\n\t\t\tfor(int k=1;k<=n;k++){\n\t\t\t\tdis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S03222/subway/subway.cpp",
+    "order": "ijk",
+    "line": 27,
+    "end": 34,
+    "outer": [],
+    "snippet": "    for(int i=1;i<=m;i++)\n    {\n        for(int j=1;j<=m;j++)\n        {\n            for(int k=1;k<=m;k++)\n\t\t\t{\n\t\t\t\tif(val[i][k]==0x7f7f7f7f||val[k][j]==0x7f7f7f7f) continue;\n            \tval[i][j]=min(val[i][j],val[i][k]+val[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S03228/subway/subway.cpp",
+    "order": "ijk",
+    "line": 35,
+    "end": 39,
+    "outer": [],
+    "snippet": "\t\tfor(int i = 1;i < m;i++){\n\t\t\tfor(int j = i + 1;j <= m;j++){\n\t\t\t\tfor(int k = 1;k <= m;k++){\n\t\t\t\t\tif(i != k && j != k){\n\t\t\t\t\t\tsum = mp[i][k] + mp[k][j];\n\t\t\t\t\t\tmp[i][j] = mp[j][i] = sum < mp[i][j] ? sum : mp[i][j];"
+  },
+  {
+    "path": "GD-S03229/subway/subway.cpp",
+    "order": "ijk",
+    "line": 37,
+    "end": 41,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n*m;i++){\n\t\tfor(int j=1;j<=n*m;j++){\n\t\t\tfor(int k=1;k<=n*m;k++){\n\t\t\t\tif(i==j || i==k || j==k) continue;\n\t\t\t\tdp[i][i]=min(dp[i][j],dp[i][k]+dp[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S03234/subway/subway.cpp",
+    "order": "ijk",
+    "line": 39,
+    "end": 42,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++)\n\t\tfor(int j=1;j<=n;j++)\n\t\t\tfor(int k=1;k<=n;k++)\n\t\t\t\ttot[i][j]=min(tot[i][j],tot[i][k]+tot[k][j]);\n\twhile(q--)"
+  },
+  {
+    "path": "GD-S03291/subway/subway.cpp",
+    "order": "ijk",
+    "line": 58,
+    "end": 62,
+    "outer": [],
+    "snippet": "\tfor (int i = 1; i <= n; i++) {\n\t\tfor (int j = 1; j <= n; j++) {\n\t\t\tfor (int k = 1; k <= n; k++) {\n\t\t\t\tif (ds[i][k] == inf || ds[k][j] == inf) continue;\n\t\t\t\tds[i][j] = min(ds[i][j], ds[i][k] + ds[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S03304/subway/subway.cpp",
+    "order": "ikj",
+    "line": 43,
+    "end": 46,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;++i){\n\t\tfor(int k=1;k<=n;++k){\n\t\t\tfor(int j=1;j<=n;++j){\n\t\t\t\tdist[i][j]=min(dist[i][j],dist[i][k]+dist[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S03313/subway/subway.cpp",
+    "order": "ijk",
+    "line": 40,
+    "end": 45,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tfor(int j=1;j<=n;j++){\n\t\t\tif(i==j) continue ;\n\t\t\tfor(int k=1;k<=n;k++){\n\t\t\t\tif(i!=k&&j!=k){\n\t\t\t\t\tg[i][j]=min(g[i][j],g[i][k]+g[k][j]);\n\t\t\t\t}"
+  },
+  {
+    "path": "GD-S03387/subway/subway.cpp",
+    "order": "ijk",
+    "line": 41,
+    "end": 44,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tfor(int j=1;j<=n;j++){\n\t\t\tfor(int k=1;k<=n;k++){\n\t\t\t\tdis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S03396/subway/subway.cpp",
+    "order": "ijk",
+    "line": 41,
+    "end": 44,
+    "outer": [],
+    "snippet": "\tfor (int i = 1; i <= n; i++)\n\t\tfor (int j = 1; j <= n; j++)\n\t\t\t\tfor (int k = 1; k <= n; k++)\n\t\t\t\t\tg[i][j] = min(g[i][j], g[i][k] + g[k][j]);\n\tfor (int i = 1; i <= q; i++)"
+  },
+  {
+    "path": "GD-S03400/subway/subway.cpp",
+    "order": "ijk",
+    "line": 45,
+    "end": 51,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tmi[i][i]=0;\n\t\tfor(int j=1;j<=n;j++){\n\t\t\tfor(int k=1;k<=j;k++){\n\t\t\t\tif(i==j)break;\n\t\t\t\tif(j==k||i==k)continue;\n\t\t\t\tmi[i][j]=min(mi[i][j],mi[i][k]+mi[k][j]);\n\t\t\t\tmi[j][i]=mi[i][j];"
+  },
+  {
+    "path": "GD-S03440/subway/subway.cpp",
+    "order": "ijk",
+    "line": 52,
+    "end": 56,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tfor(int j=i+1;j<=n;j++){\n\t\t\tfor(int k=1;k<=n;k++){\n\t\t\t\tif(k==i||k==j) continue;\n\t\t\t\tlink[j][i]=link[i][j]=min(link[i][j],link[i][k]+link[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S03500/subway/subway.cpp",
+    "order": "ijk",
+    "line": 37,
+    "end": 40,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=m;i++){\n\t\tfor(int j=1;j<=m;j++){\n\t\t\tfor(int k=1;k<=m;k++){\n\t\t\t\tdis2[i][j]=min(dis2[i][j],dis2[i][k]+dis2[k][j]);\n\t\t\t\tdis1[i][j]=min(dis1[i][j],dis2[i][j]+w[i]+w[j]);"
+  },
+  {
+    "path": "GD-S03539/subway/subway.cpp",
+    "order": "ijk",
+    "line": 17,
+    "end": 20,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=m;i++){\n\t\tfor(int j=1;j<=m;j++){\n\t\t\tfor(int k=1;k<=m;k++){\n\t\t\t\tdist[i][j]=min(dist[i][j],dist[i][k]+dist[k][j]);\n\t\t\t\tdist[j][i]=dist[i][j];"
+  },
+  {
+    "path": "GD-S03609/subway/subway.cpp",
+    "order": "ikj",
+    "line": 46,
+    "end": 48,
+    "outer": [],
+    "snippet": "\tfor(int i = 1;i <= n;++i){\n\t\tfor(int k = 1;k <= n;++k){\n\t\t\tfor(int j = 1;j <= n;++j)dst[i][j] = min(dst[i][k]+dst[k][j],dst[i][j]);\n\t\t}"
+  },
+  {
+    "path": "GD-S03613/subway/subway.cpp",
+    "order": "ijk",
+    "line": 54,
+    "end": 59,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=m;i++)\n\t\tfor(int j=1;j<=m;j++)\n\t\t\tfor(int k=1;k<=m;k++){\n\t\t\t\tif(i==j || k==j || i==k)\n\t\t\t\t\tcontinue;\n\t\t\t\tgg[i][j]=min(gg[i][k]+gg[k][j],gg[i][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S03625/subway/subway.cpp",
+    "order": "ijk",
+    "line": 99,
+    "end": 104,
+    "outer": [],
+    "snippet": "\tfor(int i = 1; i <= n; ++ i){\n\t\tfor(int j = i + 1; j <= n; ++ j){\n\t\t\tif(i == j) continue;\n\t\t\tfor(int k = 1; k <= n; ++ k){\n\t\t\t\tif(k == i || k == j) continue;\n\t\t\t\tdis[i][j] = min(dis[i][j], dis[i][k] + dis[k][j]);\n\t\t\t\tdis[j][i] = dis[i][j];"
+  },
+  {
+    "path": "GD-S03750/subway/subway.cpp",
+    "order": "ijk",
+    "line": 46,
+    "end": 59,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=M;i++){\n\t\tfor(int j=1;j<=M;j++){\n\t\t\tfor(int k=1;k<=M;k++){\n\t\t\t\tif(i==j) continue;\n\t\t\t\tif(sam[i][k]==sam[k][j] && sam[j][k]!=0){sam[i][j]=sam[i][k];sam[j][i]=sam[i][k];}\n\t\t\t\tif(sam[i][j]!=0){\n\t\t\t\t\tdp[i][j]=0;\n\t\t\t\t\tdp[j][i]=0;\n\t\t\t\t\tlin[i][j][0]=sam[i][j];\n\t\t\t\t\tlin[i][j][1]=sam[i][j];\n\t\t\t\t\tlin[j][i][0]=sam[i][j];\n\t\t\t\t\tlin[j][i][1]=sam[i][j];\n\t\t\t\t}\n\t\t\t\telse if(dp[i][k]+dp[k][j]+sw[lin[i][k][1]][k]+sw[lin[k][j][0]][k]<dp[i][j]){\n\t\t\t\t\tdp[i][j]=dp[i][k]+dp[k][j]+sw[lin[i][k][1]][k]+sw[lin[k][j][0]][k];"
+  },
+  {
+    "path": "GD-S03787/subway/subway.cpp",
+    "order": "ijk",
+    "line": 48,
+    "end": 51,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tfor(int j=1;j<=n;j++){\n\t\t\tfor(int k=1;k<=n;k++){\n\t\t\t\tdis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);\n\t\t\t\tdis[j][i]=min(dis[i][j],dis[j][i]);"
+  },
+  {
+    "path": "GD-S03799/subway/subway.cpp",
+    "order": "ijk",
+    "line": 39,
+    "end": 42,
+    "outer": [],
+    "snippet": "\tfor (int i = 1; i <= n; i++) {\n\t\tfor (int j = 1; j <= n; j++) {\n\t\t\tif (i == j) continue;\n\t\t\tfor (int k = 1; k <= n; k++) dis[i][j] = min(dis[i][j], dis[i][k]+dis[k][j]);\n\t\t}"
+  },
+  {
+    "path": "GD-S03836/subway/subway.cpp",
+    "order": "ijk",
+    "line": 46,
+    "end": 49,
+    "outer": [],
+    "snippet": "\tfor(int i = 1;i <= n;i ++){\n\t\tfor(int j = 1;j <= n;j ++){\n\t\t\tfor(int k = 1;k <= n;k ++){\n\t\t\t\tdp[i][j] = min(dp[i][j] , dp[i][k] + dp[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S03884/subway/subway.cpp",
+    "order": "ijk",
+    "line": 35,
+    "end": 39,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;++i){\n\t\tfor(int j=1;j<=n;++j){\n\t\t\tfor(int k=1;k<=n;++k){\n\t\t\t\tif(dis[i][k]==INF||dis[k][j]==INF) continue;\n\t\t\t\tdis[i][j]=dis[j][i]=min(dis[i][j],dis[i][k]+dis[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S03942/subway/subway.cpp",
+    "order": "ijk",
+    "line": 36,
+    "end": 38,
+    "outer": [],
+    "snippet": "\t}for(int i=1;i<=n-1;++i) for(int j=i+1;j<=n;++j) for(int k=1;k<=n;++k){\n\t\tif(k==i || k==j) continue;\n\t\tdis[i][j]=dis[j][i]=min(dis[i][j],dis[i][k]+dis[k][j]);\n\t}return;"
+  },
+  {
+    "path": "GD-S03943/subway/subway.cpp",
+    "order": "ijk",
+    "line": 41,
+    "end": 44,
+    "outer": [],
+    "snippet": "\tfor (int i = 1; i <= n; ++i) {\n\t\tfor (int j = 1; j <= n; ++j) {\n\t\t\tfor (int k = 1; k <= n; ++k) {\n\t\t\t\tdp[i][j] = min(dp[i][j], dp[i][k] + dp[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S04044/subway/subway.cpp",
+    "order": "ijk",
+    "line": 46,
+    "end": 54,
+    "outer": [],
+    "snippet": "\tfor(int i = 1; i <= m; i++)\n\t{\n\t\tfor(int j = 1; j <= m; j++)\n\t\t{\n\t\t\tfor(int k = 1; k <= m; k++)\n\t\t\t{\n\t\t\t\tif(i != j && i != k && j != k)\n\t\t\t\t{\n\t\t\t\t\tif(g[i][j] > g[i][k] + g[k][j]) g[i][j] = g[i][k] + g[k][j];\n\t\t\t\t}"
+  },
+  {
+    "path": "GD-S04218/subway/subway.cpp",
+    "order": "ijk",
+    "line": 12,
+    "end": 16,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tfor(int j=i+1;j<=n;j++){\n\t\t\tfor(int k=1;k<=n;k++){\n\t\t\t\tif(dis[i][j]-dis[i][k]>dis[k][j])\n\t\t\t\t\tdis[i][j]=dis[j][i]=dis[i][k]+dis[k][j];\n\t\t\t}"
+  },
+  {
+    "path": "GD-S04312/subway/subway.cpp",
+    "order": "ikj",
+    "line": 37,
+    "end": 40,
+    "outer": [],
+    "snippet": "\tfor(int i = 1;i <= n;i ++){\n\t\tfor(int k = 1;k <= n;k ++){\n\t\t\tfor(int j = 1;j <= n;j ++)\n\t\t\t\tf[i][j] = min(f[i][j], f[i][k] + f[k][j]);\n\t\t}"
+  },
+  {
+    "path": "GD-S04403/subway/subway.cpp",
+    "order": "ijk",
+    "line": 39,
+    "end": 43,
+    "outer": [],
+    "snippet": "\tfor(ll i=1;i<=n;i++)\n\t\tfor(ll j=1;j<=n;j++)\n\t\t\tfor(ll k=1;k<=n;k++){\n\t\t\t\tif(i==j||i==k||j==k)continue;\n\t\t\t\tlin[i][j]=min(lin[i][k]+lin[k][j],lin[i][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S04462/subway/subway.cpp",
+    "order": "ijk",
+    "line": 144,
+    "end": 162,
+    "outer": [],
+    "snippet": "    for(int i=1;i<=n;i++)\n    {\n        // dij(i);\n        // for(int j=1;j<=n;j++)\n        // {\n        //     if(vis[j])\n        //     {\n        //         g[j][i]=g[i][j]=dis[j];\n        //         cg[j][i]=cg[i][j]=1;\n        //     }\n        // }\n        for(int j=1;j<=n;j++)\n        {\n            for(int k=1;k<=n;k++)\n            {\n                if(cg[i][k]&&cg[k][j])\n                {\n                    cg[i][j]=cg[j][i]=1;\n                    if(g[i][k]+g[k][j]<g[i][j])\n                    {"
+  },
+  {
+    "path": "GD-S04497/subway/subway.cpp",
+    "order": "ijk",
+    "line": 40,
+    "end": 54,
+    "outer": [],
+    "snippet": "\tfor ( int i = 1; i <= m; i++ )\n\t{\n\t\tfor ( int j = 1; j <= m; j++ )\n\t\t{\n\t\t\tif ( i == j )\n\t\t\t{\n\t\t\t\tcontinue;\n\t\t\t}\n\t\t\tfor ( int k = 1; k <= m; k++ )\n\t\t\t{\n\t\t\t\tif ( i == k || j == k )\n\t\t\t\t{\n\t\t\t\t\tcontinue;\n\t\t\t\t}\n\t\t\t\tf[i][j] = min(f[i][j], f[i][k] + f[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S04543/subway/subway.cpp",
+    "order": "ijk",
+    "line": 40,
+    "end": 45,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tfor(int j=1;j<=n;j++){\n\t\t\tif(i==j) continue;\n\t\t\tfor(int k=1;k<=n;k++){\n\t\t\t\tif(k==i||k==j) continue;\n\t\t\t\tdis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S04586/subway/subway.cpp",
+    "order": "ikj",
+    "line": 39,
+    "end": 42,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++)\n\t\tfor(int k=1;k<=n;k++)\n\t\t\tfor(int j=1;j<=n;j++)\n\t\t\t\te[i][j]=min(e[i][j],e[i][k]+e[k][j]);\n\tfor(int l,r;q;q--)"
+  },
+  {
+    "path": "GD-S04654/subway/subway.cpp",
+    "order": "ikj",
+    "line": 36,
+    "end": 39,
+    "outer": [],
+    "snippet": "\tfor(int i = 1; i <= n; i++){\n\t\tfor(int k = 1; k <= n; k++){\n\t\t\tfor(int j = 1; j <= n; j++){\n\t\t\t\tdis[i][j] = min(dis[i][j], dis[i][k] + dis[k][j]);\n\t\t\t\tdis[j][i] = dis[i][j];"
+  },
+  {
+    "path": "GD-S04708/subway/subway.cpp",
+    "order": "ijk",
+    "line": 48,
+    "end": 54,
+    "outer": [],
+    "snippet": "\tfor(ll i=1;i<=n;i++)\n\t{\n\t\tfor(ll j=1;j<=n;j++)\n\t\t{\n\t\t\tfor(ll k=1;k<=n;k++)\n\t\t\t{\n\t\t\t\te[i][j]=min(e[i][j],e[i][k]+e[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S04744/subway/subway.cpp",
+    "order": "ikj",
+    "line": 42,
+    "end": 45,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n;i++){\n\t\tfor(int k=1;k<=n;k++){\n\t\t\tfor(int j=1;j<=n;j++){\n\t\t\t\tdis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S04874/subway/subway.cpp",
+    "order": "ijk",
+    "line": 48,
+    "end": 54,
+    "outer": [],
+    "snippet": "\tfor(int i = 1;i <= n;i++)\n\t{\n\t\tfor(int j = i + 1;j <= n;j++)\n\t\t{\n\t\t\tfor(int k = i + 1;k < j;k++)\n\t\t\t{\n\t\t\t\tch[i][j] = std::min(ch[i][j],ch[i][k]+ch[k][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S04960/subway/subway.cpp",
+    "order": "ijk",
+    "line": 29,
+    "end": 32,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=m;i++){\n\t\tfor(int j=1;j<=m;j++){\n\t\t\tfor(int k=1;k<=m;k++){\n\t\t\t\tdist[i][j]=min(dist[i][k]+dist[k][j],dist[i][j]);\n\t\t\t}"
+  },
+  {
+    "path": "GD-S05119/subway/subway.cpp",
+    "order": "ijk",
+    "line": 5,
+    "end": 8,
+    "outer": [],
+    "snippet": "\tfor(int i=1;i<=n+m;i++){\n\t\tfor(int j=1;j<=n+m;j++){\n\t\t\tfor(int k=1;k<=n+m;k++){\n\t\t\t\tg[i][j]=min(g[i][k]+g[k][j],g[i][j]);\n\t\t\t\t"
+  }
+]

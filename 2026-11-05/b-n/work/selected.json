@@ -1,0 +1,746 @@
+[
+  {
+    "id": "GD-S00039",
+    "title": "让我想想",
+    "note": "把思考过程实时写进注释：刚觉得摸到了正解，下一刻就被小样例送回起点。",
+    "frags": [
+      {
+        "path": "GD-S00039/migrate/migrate.cpp",
+        "start": 124,
+        "end": 130,
+        "code": "我是不是无意间想到正解了\n让我想想 \n啊\n谈笑间被第二个小样例卡了\n让我想想\n这也忒阴间了\n让我想想这该怎么做"
+      }
+    ]
+  },
+  {
+    "id": "GD-S00150",
+    "title": "解压密码也能玩梗",
+    "note": "注释开始研究密码：八进制的 31 等于十进制的 25，Oct / Dec 又恰好能让人想到十月和十二月。",
+    "frags": [
+      {
+        "path": "GD-S00150/crystal/crystal.cpp",
+        "start": 7,
+        "end": 8,
+        "code": "//神秘压缩包密码 `Oct31==Dec25?`\n//不尔官方也爱玩梗吗 "
+      }
+    ]
+  },
+  {
+    "id": "GD-S00159",
+    "title": "d 的作用逐渐增大",
+    "note": "从“d 到底是啥”到发现它有用，读题过程直接连载在源码末尾。",
+    "frags": [
+      {
+        "path": "GD-S00159/subway/subway.cpp",
+        "start": 103,
+        "end": 109,
+        "code": "d 到底是啥（  \n\n3:24 p.m. 注意到 d 有滚木作用\n只算步行时间，也就是说线路间的边权为 0\n但好像也不是缩点（绝对不是因为我不熟 Tarjan）\n其实可以直接建个图 然后暴力 floyd \n等一下，发现 d 的作用好像超过了滚木"
+      }
+    ]
+  },
+  {
+    "id": "GD-S00179",
+    "title": "大样例通过方法：打开答案",
+    "note": "先判断样例参数，再尝试从 `subway3.ans` 读取并输出答案；这是对样例文件的依赖，不是求解过程。",
+    "frags": [
+      {
+        "path": "GD-S00179/subway/subway.cpp",
+        "start": 11,
+        "end": 20,
+        "code": "\tif(c==0){\n\t\tif(n==2&&m==5&&d==20&&q==2){\n\t\t\tcout<<32<<'\\n'<<17;\n\t\t}else if(n==3&&m==7&&d==20&&q==2)cout<<35<<'\\n'<<16;\n\t\telse if(n==15&&m==136&&d==20&&q==200){\n\t\t\tfreopen(\"subway3.ans\",\"r\",stdin);\n\t\t\tfor(ll i=1;i<=q;i++){\n\t\t\t\tll x;cin>>x;\n\t\t\t\tcout<<x<<'\\n';\n\t\t\t}"
+      }
+    ]
+  },
+  {
+    "id": "GD-S00192",
+    "title": "研发基地改上语文课",
+    "note": "`hub.cpp` 的块注释里默写《过秦论》，最后以“默不完了”收尾。",
+    "frags": [
+      {
+        "path": "GD-S00192/hub/hub.cpp",
+        "start": 38,
+        "end": 40,
+        "code": "过秦论\n贾谊\n  秦孝公据崤函之固，拥雍州之地，君臣固守以窥周室，有席卷天下，包举宇内，囊括四海之意，并吞八荒之心。当是时也，商君佐之，内立法度，务耕织，修守战之具，外连衡而斗诸侯。于是秦人拱手而取西河之外。"
+      },
+      {
+        "path": "GD-S00192/hub/hub.cpp",
+        "start": 46,
+        "end": 46,
+        "code": "默不完了 "
+      }
+    ]
+  },
+  {
+    "id": "GD-S00378",
+    "title": "文件名前后缀交换位置",
+    "note": "把文件名写成 `in.crystal / out.crystal`，前后缀交换了位置。",
+    "frags": [
+      {
+        "path": "GD-S00378/crystal/crystal.cpp",
+        "start": 5,
+        "end": 6,
+        "code": "\tfreopen(\"in.crystal\",\"r\",stdin);\n\tfreopen(\"out.crystal\",\"w\",stdout);"
+      }
+    ]
+  },
+  {
+    "id": "GD-S00428",
+    "title": "能拖一会儿是一会儿",
+    "note": "循环只管增加 `b`，没有求解或输出。注释把写法解释得明明白白。",
+    "frags": [
+      {
+        "path": "GD-S00428/hub/hub.cpp",
+        "start": 6,
+        "end": 10,
+        "code": "\tint b=0;\n\twhile(1){\n\t\tb++;\n\t}\n\t//不会，能拖一会儿是一会儿 "
+      }
+    ]
+  },
+  {
+    "id": "GD-S00727",
+    "title": "freopen 诈骗现场",
+    "note": "两条被注释的重定向旁边，各有一条正确且未被注释的重定向。这里文件读写没有因为 `//freopen` 而缺失，不能算进“忘取消注释”。",
+    "frags": [
+      {
+        "path": "GD-S00727/subway/subway.cpp",
+        "start": 18,
+        "end": 22,
+        "code": "signed main() {\n//\tfreopen(\"subway.out\", \"w\", stdout); //诶我不小心把 freopen 注释了\n\tfreopen(\"subway.in\", \"r\", stdin);   //欸还没注释呢\n//\tfreopen(\"subway.in\", \"r\", stdin);   //欸我又不小心注释了\n\tfreopen(\"subway.out\", \"w\", stdout); //欸我骗你的 awa"
+      }
+    ]
+  },
+  {
+    "id": "GD-S00846",
+    "title": "自行发明文件函数",
+    "note": "`freout`、`freclose` 不是这里可用的标准文件函数；模式写成 `\"D\"`，第三参数直接填 `subway`。本地语法检查还首先遇到了前一行缺分号。",
+    "frags": [
+      {
+        "path": "GD-S00846/subway/subway.cpp",
+        "start": 3,
+        "end": 16,
+        "code": "const int N=5*1e5;\nint c,n,m,d,q;\nint w[N]\nint main(){\n\tfreopen(\"subway.in\",\"D\",subway);\n\tfreout(\"subway.out\",\"D\",subway);\n\tcin>>c>>n>>m>>d>>q;\n\tfor(int i=1;i<=m;i++){\n\t\tcin>>w[i];\n\t}\n\tcout<<32<<endl;\n\tcout<<17<<endl;\n\tfreclose(\"subway.in\",\"D\",subway);\n\tfreout(\"subway.out\",\"D\",subway);"
+      }
+    ]
+  },
+  {
+    "id": "GD-S00883",
+    "title": "提醒自己别忘文件读写，提醒里先拼错",
+    "note": "最后写的是 `freoepn`。这段在注释里，所以只算整活，不把它当成实际编译错误。",
+    "frags": [
+      {
+        "path": "GD-S00883/crystal/crystal.cpp",
+        "start": 175,
+        "end": 175,
+        "code": "//freopen//freopen//freopen//freopen//freopen,remember to write freoepn"
+      }
+    ]
+  },
+  {
+    "id": "GD-S00908",
+    "title": "把比较器交成了第四题",
+    "note": "`hub.cpp` 实际上在比较 B 题输出和大样例答案，最后打印 `AC! / WA!`。两个读取路径都固定到了考场的 D 盘。",
+    "frags": [
+      {
+        "path": "GD-S00908/hub/hub.cpp",
+        "start": 3,
+        "end": 12,
+        "code": "string s1,s2;\nint main(){\n\tfreopen(\"D://GD-S00908//subway/subway.out\",\"r\",stdin);\n\tchar c;\n\twhile ((c=getchar())!=EOF) s1.push_back(c);\n//\ts1.pop_back();\n\tfreopen(\"D://csps-new//down//subway//subway7.ans\",\"r\",stdin);\n\twhile ((c=getchar())!=EOF) s2.push_back(c);\n\tif (s1==s2) cout <<\"AC!\";\n\telse cout <<\"WA!\";"
+      }
+    ]
+  },
+  {
+    "id": "GD-S00953",
+    "title": "不是我的正解错了，是我的二分错了",
+    "note": "同一段调试记录经历了两次翻案。注释里的“不能用 signed main”也是选手自己的误解：`signed main()` 合法。",
+    "frags": [
+      {
+        "path": "GD-S00953/crystal/crystal.cpp",
+        "start": 47,
+        "end": 51,
+        "code": "ok，我的正解炸了，然后我用二分的写法跟我的正解打对拍发现我的正解错了，我的二分写法应该是没问题的，而且二分的时间复杂度正确。\n\n17：02分，抱歉，是我的二分写错了，继续用上面那份代码继续打对拍！！！\n\n17：10分，拍了1000组没问题，应该过了"
+      }
+    ]
+  },
+  {
+    "id": "GD-S00985",
+    "title": "本来想写 feropen，后来忍住了",
+    "note": "此处的 `feropen` 只出现在整活计划里，不能算 CE。",
+    "frags": [
+      {
+        "path": "GD-S00985/hub/hub.cpp",
+        "start": 27,
+        "end": 29,
+        "code": "本来想写个feropen给大家整个活，想了想还是算了\n学了3年这个了 上午的J组250+谁能绷住\n我最大的愿望就是这个玩意可以上那个每年一度的CSP迷惑行为大赏(还是叫其他什么的)"
+      }
+    ]
+  },
+  {
+    "id": "GD-S00987",
+    "title": "复杂度自己又升了一次",
+    "note": "刚宣布推完 `n^3`，检查状态后又发现要记录已选点数，于是变成了自己所说的 `n^4`。这是注释中的自述。",
+    "frags": [
+      {
+        "path": "GD-S00987/hub/hub.cpp",
+        "start": 79,
+        "end": 87,
+        "code": "n^3 推完了\ng_u = max dep\nf_{u, d, k, 1/2}\nd 是最低连通块深度，k 是不在连通块的子树内的 max dep\n不想写 XD\n回去让 gpt 教我吧\n唉，写一点吧\n不对啊\n这是 n^4"
+      }
+    ]
+  },
+  {
+    "id": "GD-S00987",
+    "title": "做题力竭之后开始排游戏日程",
+    "note": "T3 的注释先安排了音游和方舟行程，后面还接了长篇内容；这里只摘游戏日程。",
+    "frags": [
+      {
+        "path": "GD-S00987/migrate/migrate.cpp",
+        "start": 99,
+        "end": 108,
+        "code": "n^2 写了一个半小时\n力竭了\n好想玩 arknights endfield arcaea phigros milthm\n好想出勤，好久没给他们开花一轮信用图灵之迹存货千年了\n还想开 xx，可惜一个门都没开\n另外感觉小葱不如烧鸟（\n考完 csp 回去打阿莱克琉斯。这个镀层好难啊，还是说因为我手法太差了\n明天还要下塔露拉和小皇帝\n为什么小皇帝是黄毛啊，是白毛的话就是白皇帝了\n提醒我了，我还要给他们开白皇帝"
+      }
+    ]
+  },
+  {
+    "id": "GD-S01126",
+    "title": "T4 看不懂，写个 LCA 庆祝",
+    "note": "前面还在和输入 RE 搏斗，到了第四题，LCA 已经承担起了庆祝功能。",
+    "frags": [
+      {
+        "path": "GD-S01126/hub/hub.cpp",
+        "start": 71,
+        "end": 75,
+        "code": "5：02 DEV-C++神力，T3成功做到输入RE\n 5：20 终于搞好T3输入RE的问题了，我真是太难了，呜呜呜 \n 5：40 T3暴力终于写完了，我要崩了\n 5：50 T4啥玩意看不懂，写个LCA庆祝一下吧\n 6：06 T4RE我也不管了好吧，摸鱼ING... "
+      }
+    ]
+  },
+  {
+    "id": "GD-S01372",
+    "title": "地铁站里藏了一位空洞骑士",
+    "note": "B 题末尾的注释变成了游戏台词，并向翻代码的人询问“真的会有人看到吗”。",
+    "frags": [
+      {
+        "path": "GD-S01372/subway/subway.cpp",
+        "start": 65,
+        "end": 71,
+        "code": "你是容器\n\n你是空洞骑士 \n\n\n\n去年我就写了这些，真的会有人看到吗？ "
+      }
+    ]
+  },
+  {
+    "id": "GD-S01444",
+    "title": "从 freopen 讲到不要在岩浆里游泳",
+    "note": "考后建议从程序检查一路扩展到了饮食、声乐和校园生活。",
+    "frags": [
+      {
+        "path": "GD-S01444/hub/hub.cpp",
+        "start": 47,
+        "end": 57,
+        "code": "一定要记得开long long\n一定要记得freopen\n一定要记得freopen不要写成froepen frepoen feropen等奇怪的写法 不要写错文件名。 \n一定，一定要复习，不要像我这样裸考来 虽然我穿了衣服\n最后，一定，一定，一定要休息好！\n（昨晚获得了6小时30分钟低质睡眠） \n一定要注意身体， \n不要挑食，要多吃蔬菜，少吃点零食，少吃点油炸的东西\n不要在没有专业训练的情况下尝试自学女高音！！ 很伤喉咙。 \n不要尝试在岩浆里游泳。\n不要在没有把握的情况下把校规视为每日任务。"
+      }
+    ]
+  },
+  {
+    "id": "GD-S01500",
+    "title": "搜索关键词投喂大赏",
+    "note": "把常见检索词写成一串，后面直接承认“对我来钓鱼的”。",
+    "frags": [
+      {
+        "path": "GD-S01500/subway/subway.cpp",
+        "start": 94,
+        "end": 95,
+        "code": "ccf CCF csp CSP 114514 514114 //freopen luogu Luogu kkksc03 chen_zhe \n对我来钓鱼的"
+      }
+    ]
+  },
+  {
+    "id": "GD-S01563",
+    "title": "头文件请来了 ChatGPT，关键字开起了会",
+    "note": "空的 `#include<>` 已足够使预处理失败；后面还有神秘头文件和一整串无法组成合法声明的关键字。本地 GNU++14 语法检查确认失败。",
+    "frags": [
+      {
+        "path": "GD-S01563/hub/hub.cpp",
+        "start": 1,
+        "end": 3,
+        "code": "#include<>\n#include<ostream>\n#include<istream>"
+      },
+      {
+        "path": "GD-S01563/hub/hub.cpp",
+        "start": 18,
+        "end": 32,
+        "code": "#include<chatgptastra6>\n#include<jqQt0220>\n#include<Austm>\n#include<Ken>\n#include<Empty_Dream>\n#include<bist//stdc+.h>\n#define int unsigned short\n#define long unsigned\n#define long short\nusing namespace std;\nfriend inline const extern and or if for while unsigned long double float short class static delete signed return \nbreak continue template typename union bool char sizeof xor goto register constexpr operator [{(+-*&^%!/<>:;|~)}] \nint main(){\n\tfropen(\"r\", \"hub.in\", stdin);\n\tfropen(\"w\", \"hub.out\", stdout);"
+      }
+    ]
+  },
+  {
+    "id": "GD-S01667",
+    "title": "四题都对自己的源码动手",
+    "note": "四份代码都把输入、输出指向同名 `.cpp`。若当前目录有可写的该源码文件，第二句以 `w` 打开会将它截断。这里只检查源码，没有运行这些程序。",
+    "frags": [
+      {
+        "path": "GD-S01667/crystal/crystal.cpp",
+        "start": 7,
+        "end": 10,
+        "code": "int main(){\n\tfreopen(\"crystal.cpp\",\"r\",stdin);\n\tfreopen(\"crystal.cpp\",\"w\",stdout);\n\tcin>>n>>m;"
+      }
+    ]
+  },
+  {
+    "id": "GD-S01751",
+    "title": "扩展名是 Pascal，里面是 C++",
+    "note": "该选手四份源文件都是 `.pas`，内容却是 C++。按扩展名选择语言或按题目指定文件名收取时都会出问题；不把这等同于 C++ 代码本身语法错误。",
+    "frags": [
+      {
+        "path": "GD-S01751/crystal/crystal.pas",
+        "start": 1,
+        "end": 9,
+        "code": "#include<bits/stdc++.h>\nusing namespace std;\ntypedef long long ll;\n\nint main() {\n\tfreopen(\"crystal.in\",\"r\",stdin);\n\tfreopen(\"crystal.out\",\"w\",stdout);\n    ios::sync_with_stdio(false);\n    cin.tie(nullptr);"
+      }
+    ]
+  },
+  {
+    "id": "GD-S01773",
+    "title": "连续三年的大赏参赛宣言",
+    "note": "选手自报“连续三年当选”，并向今年的大赏投来参赛宣言。",
+    "frags": [
+      {
+        "path": "GD-S01773/hub/hub.cpp",
+        "start": 116,
+        "end": 119,
+        "code": "致2026迷惑行为大赏\n\n主要成就:\n连续三年当选GD抽象代码 "
+      }
+    ]
+  },
+  {
+    "id": "GD-S01777",
+    "title": "文件名和模式互换岗位",
+    "note": "程序试图打开名为 `r`、`w` 的文件，并把 `migrate.in / migrate.out` 当成打开模式。这不是正确的 `freopen` 参数顺序。",
+    "frags": [
+      {
+        "path": "GD-S01777/migrate/migrate.cpp",
+        "start": 25,
+        "end": 28,
+        "code": "int main(){\n\tfreopen(\"r\",\"migrate.in\",stdin);\n\tfreopen(\"w\",\"migrate.out\",stdout);\n\tcin>>c>>t;"
+      }
+    ]
+  },
+  {
+    "id": "GD-S01814",
+    "title": "空调才是第五题",
+    "note": "注释连载了“太冷—老师调空调—活过来了”的全过程，后面还记下把检查脚本改成猫娘口音。",
+    "frags": [
+      {
+        "path": "GD-S01814/hub/hub.cpp",
+        "start": 71,
+        "end": 82,
+        "code": " 还有0.5h\n 要被冷到失去意识了\n 监考老师也不会搞空调是什么意思啊\n 遗憾离世\n ----\n 监考老师发力了\n 给空调调高温度了\n 活过来了孩子们\n ----\n 这个checker程序未免也太简陋了吧\n vscode神力\n bat文件直接用vscode改成猫娘口音了"
+      }
+    ]
+  },
+  {
+    "id": "GD-S01834",
+    "title": "孩子们，广搜到底能不能用",
+    "note": "一连串时间戳记录了从广搜自信到数据存不下的过程。",
+    "frags": [
+      {
+        "path": "GD-S01834/subway/subway.cpp",
+        "start": 353,
+        "end": 361,
+        "code": "15:10开始写T2 \n哇，还有专门为我们做特殊数据准备的好东西 \n\t15:50 不好孩子们，这题东西有点多 \n\t16:00不好孩子们，这道题不能用广搜 \n\t16:05好的孩子们，好像可以广搜\n\t16:23 不好孩子们，数据都存不下\n\t16:36 孩子们，只能拿部分了 \n\t16:45 ok,理完思路，开始写 \n\t18:17 SSL0124在搏斗中倒下了"
+      }
+    ]
+  },
+  {
+    "id": "GD-S01962",
+    "title": "树不会做，先写行路难",
+    "note": "D 题注释里出现了李白《行路难》。只摘标题和开头。",
+    "frags": [
+      {
+        "path": "GD-S01962/hub/hub.cpp",
+        "start": 14,
+        "end": 16,
+        "code": "行路难 李白\n金樽清酒斗十千，玉盘珍馐直万钱\n停杯投箸不能食，拔剑四顾心茫然"
+      }
+    ]
+  },
+  {
+    "id": "GD-S02215",
+    "title": "大样例也被搬进注释",
+    "note": "B 题末尾标出 `subway6.ans` 和 `subway6.in`，又写下“略90507行”。这里只展示可确认的文字，不复制那段很长的乱码状内容，也不将其归因于选手编码错误。",
+    "frags": [
+      {
+        "path": "GD-S02215/subway/subway.cpp",
+        "start": 18,
+        "end": 19,
+        "code": "//这是subway6.ans:\n/*"
+      },
+      {
+        "path": "GD-S02215/subway/subway.cpp",
+        "start": 22,
+        "end": 28,
+        "code": "//这是subway6.in\n/*\n0 480 479521 20 90000\n74 11 63 98 34 5 1 19 85 76 61 98 95 48 41 99 3 35 63 26 94 53 69 70 88 13 25 73 71 90  \n略90507行(内存超限了)*/\n\n//自己看到9十多万行的时候笑了没 （希望CCF能改，如果是BUG） "
+      }
+    ]
+  },
+  {
+    "id": "GD-S02465",
+    "title": "算法栏和难度栏一起投降",
+    "note": "前三题还能写算法和颜色，第四题两栏都直接填“不会”。",
+    "frags": [
+      {
+        "path": "GD-S02465/hub/hub.cpp",
+        "start": 5,
+        "end": 6,
+        "code": "//目测难度：T1:橙 T2:绿 T3:青 T4:不会\n//目测算法： T1:贪心+前缀和+二分 T2:全源最短路 T3:dp+分讨 T4：不会"
+      }
+    ]
+  },
+  {
+    "id": "GD-S02638",
+    "title": "第一行就开始拼写挑战",
+    "note": "`incdule` 少了 `#` 且拼错，`naamespace` 多了字母，`1e5` 写成 `le5`，后面还有 `froepen / studut`。本地语法检查确认失败。",
+    "frags": [
+      {
+        "path": "GD-S02638/crystal/crystal.cpp",
+        "start": 1,
+        "end": 9,
+        "code": "incdule <bits/stdc++.h>\nusing naamespace std;\nconst int N=5*le5+10;\nint a[N];\nint main(){\n\tfroepen(\"crystal.in\",\"r\",stdin);\n\tfroepen(\"crystal.out\",\"w\",studut);\n\tint n,m;\n\tint n[1000005];\t"
+      }
+    ]
+  },
+  {
+    "id": "GD-S02722",
+    "title": "没注释的下一行，也可能被注释掉",
+    "note": "第一行末尾的反斜杠触发行拼接，所以第二行也落进了 `//` 注释。看起来有一条没加 `//` 的输出重定向，预处理后却同样消失；此外文件末尾还有多余的句点。",
+    "frags": [
+      {
+        "path": "GD-S02722/crystal/crystal.cpp",
+        "start": 5,
+        "end": 8,
+        "code": "int main(){\n\t//freopen(\"crystal.in\",\"r\",stdin);\\\n\tfreopen(\"crystal.out\",\"w\",stdout);\n\tint n;"
+      },
+      {
+        "path": "GD-S02722/crystal/crystal.cpp",
+        "start": 26,
+        "end": 28,
+        "code": "\tcout<<maxn;\n\treturn 0;\n}."
+      }
+    ]
+  },
+  {
+    "id": "GD-S02756",
+    "title": "只记得文件读写，忘了整个程序",
+    "note": "这是 `hub.cpp` 全文。没有头文件和 `main`，只留下两条不能这样放在全局作用域的函数调用。本地语法检查确认失败。",
+    "frags": [
+      {
+        "path": "GD-S02756/hub/hub.cpp",
+        "start": 1,
+        "end": 2,
+        "code": "freopen(\"hub.in\",\"r\",stdin);\nfreopen(\"hub.out\",\"w\",stdout);"
+      }
+    ]
+  },
+  {
+    "id": "GD-S02784",
+    "title": "程序提醒删掉斜杠，但源码没删",
+    "note": "样例分支会打印“记得删掉 freopen 前面的 //”，而源文件里两条重定向确实仍被注释。",
+    "frags": [
+      {
+        "path": "GD-S02784/subway/subway.cpp",
+        "start": 11,
+        "end": 13,
+        "code": "\tcout.tie(nullptr);\n\t//freopen(\"subway.in\",\"r\",stdin);\n\t//freopen(\"subway.out\",\"w\",stdout);"
+      },
+      {
+        "path": "GD-S02784/subway/subway.cpp",
+        "start": 32,
+        "end": 32,
+        "code": "\tif(tesNo==0)cout<<'\\n'<<\"It's just an example.Remember to delete the // before freopen.\"<<'\\n';"
+      }
+    ]
+  },
+  {
+    "id": "GD-S02874",
+    "title": "注释里开始模拟模型思考",
+    "note": "把模型思考过程的口吻搬进考场，连题意复述都安排上了。",
+    "frags": [
+      {
+        "path": "GD-S02874/subway/subway.cpp",
+        "start": 90,
+        "end": 90,
+        "code": "用户发来了一道题目，看上去是一道信息竞赛题。我需要先理解题意，然后给出题目的完整做法。B 市共有 m 个地铁站，编号为 1 到 m。每个地铁站都有一个站厅，地铁口与站厅"
+      }
+    ]
+  },
+  {
+    "id": "GD-S03017",
+    "title": "四题各许愿四十二次",
+    "note": "四份源码各有 42 行同样的许愿，共 168 次。这里展示三行；重复内容不展开。",
+    "frags": [
+      {
+        "path": "GD-S03017/crystal/crystal.cpp",
+        "start": 31,
+        "end": 33,
+        "code": "//评测机请给我100pts\n//评测机请给我100pts\n//评测机请给我100pts"
+      }
+    ]
+  },
+  {
+    "id": "GD-S03188",
+    "title": "如果再来一次，还是会打开 C++",
+    "note": "这一条留给考场里的回忆：一段写在 `hub.cpp` 里的告别。",
+    "frags": [
+      {
+        "path": "GD-S03188/hub/hub.cpp",
+        "start": 45,
+        "end": 48,
+        "code": "但如果有再来一次的机会\n我还是会在12岁的某一天打开c++\n\n因为旅途本身就是意义"
+      }
+    ]
+  },
+  {
+    "id": "GD-S03252",
+    "title": "反省注释太多的方式是再写一段注释",
+    "note": "从“时间怎么没了”查到了“注释写太多了”，随后继续在注释里反省。",
+    "frags": [
+      {
+        "path": "GD-S03252/hub/hub.cpp",
+        "start": 47,
+        "end": 51,
+        "code": "我时间到底怎么分配到竟沦落到如此地步（划掉\n哦原来是注释写太多了\n精石后入：不要写太多注释和废话\n当然如果真不会了可以打点暴力什么的\n不要学这个啥子一直写废话"
+      }
+    ]
+  },
+  {
+    "id": "GD-S03252",
+    "title": "提前预告翻代码人的感想",
+    "note": "选手已经设想好了别人发现注释长度远超代码时的反应。",
+    "frags": [
+      {
+        "path": "GD-S03252/migrate/migrate.cpp",
+        "start": 196,
+        "end": 198,
+        "code": "很期待到时候翻我代码的人发现我注释是代码长度的数倍的时候会有什么感想\n会觉得我像Deepseek吗？或者是别的什么LLM？\n感觉我好吵"
+      }
+    ]
+  },
+  {
+    "id": "GD-S03295",
+    "title": "中文输入法接管 C++",
+    "note": "`井include`、书名号、顿号、中文句号，加上 `uisng namesapce / mian / retturn`。本地语法检查确认失败；包含私人信息的变量行未收录。",
+    "frags": [
+      {
+        "path": "GD-S03295/migrate/migrate.cpp",
+        "start": 6,
+        "end": 9,
+        "code": "井include 《bits、stdc++。h>\nuisng namesapce std;\nint mian() {\n\tfroepen(\"migrate.in\", \"r\", stdin)， freopen(\"migrate.out\", \"w\", stdout)"
+      },
+      {
+        "path": "GD-S03295/migrate/migrate.cpp",
+        "start": 11,
+        "end": 13,
+        "code": "\tcrystal, subway, migrate, hub\n\tretturn 0；\n}"
+      }
+    ]
+  },
+  {
+    "id": "GD-S03359",
+    "title": "程序放在选手目录，crystal 还少了一个 r",
+    "note": "四份源文件直接位于选手目录，未分入四题子目录，第一题文件名是 `cystal.cpp`；该文件还使用不存在的 `bits/c++.h` 并写了 `reture`。",
+    "frags": [
+      {
+        "path": "GD-S03359/cystal.cpp",
+        "start": 1,
+        "end": 4,
+        "code": "#include <bits/c++.h>\nusing namespace std;\n\nint main(){"
+      },
+      {
+        "path": "GD-S03359/cystal.cpp",
+        "start": 16,
+        "end": 17,
+        "code": "\treture 0;\n} "
+      }
+    ]
+  },
+  {
+    "id": "GD-S03473",
+    "title": "从 CCF 转场到阿米娅",
+    "note": "一开始是 `CCF / love`，接着“你被骗了”，最后变成了游戏和角色推荐。",
+    "frags": [
+      {
+        "path": "GD-S03473/hub/hub.cpp",
+        "start": 61,
+        "end": 70,
+        "code": "//CCF\n//love\n//你 被 骗 了\n//我要上GD迷惑行为大赏OvO\n//my luogu ID:1241325，去看看我的游记呀 \n//请支持飞行雪绒喵!!!\n//请支持明日方舟喵!!!请支持阿米娅喵!!!\n//请支持星尘infinity喵!!! \n//请支持超时空辉夜姬喵!!!\n// AFO... "
+      }
+    ]
+  },
+  {
+    "id": "GD-S03595",
+    "title": "输出文件的后缀叫 cout",
+    "note": "`hub / migrate / subway` 都使用了 `.cout` 后缀。`cout` 是输出流的名字，不是题目要求的文件扩展名。",
+    "frags": [
+      {
+        "path": "GD-S03595/hub/hub.cpp",
+        "start": 7,
+        "end": 7,
+        "code": "\tfreopen(\"hub.cout\",\"w\",stdout);"
+      },
+      {
+        "path": "GD-S03595/migrate/migrate.cpp",
+        "start": 7,
+        "end": 7,
+        "code": "\tfreopen(\"migrate.cout\",\"w\",stdout);"
+      },
+      {
+        "path": "GD-S03595/subway/subway.cpp",
+        "start": 7,
+        "end": 7,
+        "code": "\tfreopen(\"subway.cout\",\"w\",stdout);"
+      }
+    ]
+  },
+  {
+    "id": "GD-S03636",
+    "title": "把整份试卷复制四遍",
+    "note": "四题末尾都有同一段约 1 万字符的块注释，包含试卷抬头、四题题面和数据说明。这里只摘其中一份的开头，原文是一条长行。",
+    "frags": [
+      {
+        "path": "GD-S03636/crystal/crystal.cpp",
+        "start": 39,
+        "end": 39,
+        "code": "2026 CCF 非专业级软件能力认证CSP-J/S 2026 第二轮提高组时间：2026 年 10 月 31 日 14:30 ∼ 18:30题目名称 能量水晶 地铁 迁徙 研发基地题目类型 传统型 传统型 传统型 传统型目录 crystal subway migrate hub可执行文件名 crystal subway migrate hub输入文件名 crystal.in subway.in …",
+        "editorial": "原行较长，此处截取前 200 字符，省略号由整理者添加。"
+      }
+    ]
+  },
+  {
+    "id": "GD-S03759",
+    "title": "前缀和比排序先到了一步",
+    "note": "选手自述：一直在使用排序前的前缀和，检查一小时才发现。这里不据此判定最终提交仍有同样错误。",
+    "frags": [
+      {
+        "path": "GD-S03759/crystal/crystal.cpp",
+        "start": 32,
+        "end": 32,
+        "code": "究竟是哪种人会把排序前的前缀和拿去用然后检查一个小时才检查出来，一开始就知道咋做结果15:37才做完 "
+      }
+    ]
+  },
+  {
+    "id": "GD-S03760",
+    "title": "大赏兼职失物招领",
+    "note": "四题都留了同一句请求，让大赏帮忙检查上午 J 组有没有写 `return 0`，留言本身写成了 `reutrn 0`。顺带说，C++ 的 `main` 正常执行到末尾会隐式返回 0。",
+    "frags": [
+      {
+        "path": "GD-S03760/crystal/crystal.cpp",
+        "start": 40,
+        "end": 43,
+        "code": "/*\n估分：100+44+?+15 \n我是GD-J04204，迷惑行为大赏能帮我看看GD-J04204的代码有没有加reutrn 0吗 \n*/"
+      }
+    ]
+  },
+  {
+    "id": "GD-S03763",
+    "title": "打开模式进入 g 档",
+    "note": "四题的输出模式都写成了 `\"g\"`，不是标准的写入模式 `\"w\"`。这类错误不一定引起 CE，而是在打开文件时出问题。",
+    "frags": [
+      {
+        "path": "GD-S03763/crystal/crystal.cpp",
+        "start": 4,
+        "end": 5,
+        "code": "\tfreopen(\"crystal.in\",\"r\",stdin);\n\tfreopen(\"crystal.out\",\"g\",stdout);"
+      }
+    ]
+  },
+  {
+    "id": "GD-S04295",
+    "title": "先打开输入，再用答案文件覆盖输入",
+    "note": "第二句又重定向了 `stdin`，文件名还是 `hub.ans`；随后按读到的次数输出随机数，没有打开 `hub.out`。",
+    "frags": [
+      {
+        "path": "GD-S04295/hub/hub.cpp",
+        "start": 10,
+        "end": 16,
+        "code": "\t//呜呜呜我是毛毛虫[80,100]+0+0+0=[80,100] \n\tfreopen(\"hub.in\",\"r\",stdin);\n\tfreopen(\"hub.ans\",\"r\",stdin);\n\tsrand(time(0));\n\tint t;\n\tcin>>t;\n\twhile (t--) cout<<rand()<<'\\n';"
+      }
+    ]
+  },
+  {
+    "id": "GD-S04373",
+    "title": "游戏名也能套命名空间",
+    "note": "`库洛::崩坏::星穹铁道` 出现在注释里，所以不会真的去查找这些命名空间。",
+    "frags": [
+      {
+        "path": "GD-S04373/crystal/crystal.cpp",
+        "start": 49,
+        "end": 49,
+        "code": "//鸣朝神了 库洛::崩坏::星穹铁道nb"
+      }
+    ]
+  },
+  {
+    "id": "GD-S04492",
+    "title": "stdin 被拆成 std.in",
+    "note": "四题都写了 `std.in / std.out`。这不是标准流对象，也不是合法的命名空间成员访问写法；本地语法检查确认失败。",
+    "frags": [
+      {
+        "path": "GD-S04492/crystal/crystal.cpp",
+        "start": 5,
+        "end": 7,
+        "code": "int main(){\n\tfreopen(\"crystal.in\",\"r\",std.in);\n\tfreopen(\"crystal.out\",\"w\",std.out);"
+      }
+    ]
+  },
+  {
+    "id": "GD-S04572",
+    "title": "文件函数和逗号一起消失",
+    "note": "`\"r\"stdin` 中间缺逗号，下一句又写成 `feopen`，并继续把输出目标写成 `.in`。本地语法检查确认失败。",
+    "frags": [
+      {
+        "path": "GD-S04572/crystal/crystal.cpp",
+        "start": 8,
+        "end": 11,
+        "code": "\tios::sync_with_stdio(false);\n\tcin>>m>>n;\n\tfreopen(\"crystal.in\",\"r\"stdin);\n\tfeopen(\"crystal.in\",\"w\"stdout);"
+      }
+    ]
+  },
+  {
+    "id": "GD-S04686",
+    "title": "宿舍预言家也没躲过调试",
+    "note": "从“我三天前出过这个题”到“先拿部分分”，时间线非常完整。",
+    "frags": [
+      {
+        "path": "GD-S04686/subway/subway.cpp",
+        "start": 58,
+        "end": 67,
+        "code": "/*\n14:54我的天，我在10.28的宿舍卧谈会出过这个题\n14:55其实还是有点不同，难道我是预言家？ \n15:01好乱，让我注释一下 \n15:21没啥思路呢，但好像换乘站数量不会很大？\n15:26并非 \n15:36先拿部分分吧\n16:01好难调啊先看下一题吧\n18:13又回来了，不想写了，这不仅模拟还算法，难难？！ \n*/"
+      }
+    ]
+  },
+  {
+    "id": "GD-S04796",
+    "title": "模式写得很直观，但接口不认",
+    "note": "`crystal / migrate / subway` 使用 `\"in\" / \"out\"` 作为打开模式。`freopen` 的输入、输出模式应分别使用 `\"r\" / \"w\"`。",
+    "frags": [
+      {
+        "path": "GD-S04796/crystal/crystal.cpp",
+        "start": 5,
+        "end": 6,
+        "code": "\tfreopen(\"crystal.in\", \"in\", stdin);\n\tfreopen(\"crystal.out\", \"out\", stdout);"
+      }
+    ]
+  },
+  {
+    "id": "GD-S04990",
+    "title": "最后用一首小诗收场",
+    "note": "D 题程序之后是一段告别式诗文，作为这份摘录的结尾。",
+    "frags": [
+      {
+        "path": "GD-S04990/hub/hub.cpp",
+        "start": 12,
+        "end": 22,
+        "code": "/*\n常忆年少时，意气风发，\n谈笑写出唯一解。\n却轻易别离，三载时光，\n退役满是憾与茫。\n\n今有幸，复回赛场，\n不复当年。\n终曲散，夜时回想，\n人在何方？ \n*/"
+      }
+    ]
+  }
+]

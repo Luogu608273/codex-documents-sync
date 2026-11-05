@@ -1,0 +1,7 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+	feropen("migrate.in","w",stdin);
+	feropen("migrate.out","r",stdout);
+	return 0;
+} 

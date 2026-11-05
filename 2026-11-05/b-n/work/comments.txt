@@ -1,0 +1,6207 @@
+[0] GD-S00039/migrate/migrate.cpp:77
+/*
+好吧
+对于这种大分题目
+我选择直接打暴力和特殊性质 
+
+等等
+这个 2e6
+毫无疑问
+SCPT2！
+O(n log n)!
+不能带任何常数的 n log n!
+不管了
+先打个暴力再说
+先拿 40pts 
+好吧
+这也太几把难了
+我打算直接 O(n^2 log n) 美美跑路了
+让我想想
+这样的话
+我们对于每个 m
+做一次这个操作就好了 
+
+等会会让我想想
+每个鸟会尝试飞最短的路
+让我想想
+这个代码应该有点问题
+还有 2h 干点部分分应该不难
+让我想想
+就是说
+如果我能一步飞到
+那么我一定不会飞两步
+啊啊啊
+类似了 
+不行
+让我想想
+如果一个点到另一个点是双路径的
+那么前面的可达点也一定是双路径的
+那么
+就是寻找最近的双路径的点
+首先
+一次能飞到的一定不是双路径的
+然后
+我们观察超过一个点的
+不断寻找一个能够成立 x(i+2)-xi <= d 的 i 位置
+或者说寻找最后一个 x(i+2)-xi <= d 的位置
+然后这个位置以前可达的点都可以成为双路径的
+等等
+我是不是无意间想到正解了
+让我想想 
+啊
+谈笑间被第二个小样例卡了
+让我想想
+这也忒阴间了
+让我想想这该怎么做
+哦
+我想我知道了
+我们可以计算某个点一次可以到达的点
+两次才可以到达的点
+三次才可以到达的点
+……
+n次才可以到达的点
+如果一个点需要可以双路径
+那么一次跳跃一定包含超过一个次数相同的点
+那么
+我们就这么做吧 
+让我想想
+事实上
+我们可以继续简化
+因为一次只能跳……
+算了
+直接做吧
+反正我们时间复杂度 O(n^2) 够够的
+要打正解以后再说 
+
+7 666666666666666663
+-1000000000000000000 -555555555555555558 -111111111111111116 111111111111111105 333333333333333326 555555555555555547 999999999999999989
+
+哎呀我靠
+想拿个 40pts 都这么难
+还有 1:30
+我们还有时间 
+还有 1:17
+让我想想
+只要打出了这道题
+我们就可以放松了
+让我想想
+显然
+这样的话
+如果跳一次只有一个路径
+而恰巧那个又是正好双路径
+那么就是双路径的 
+
+让我想想
+其实还挺复杂的
+我们需要表示两个量
+双路径与超路径 
+
+哎
+我们要给暴力程序写对拍了 
+
+哦对了 
+tot 3 也是麻烦的情况
+让我想想
+就是说 
+*/
+
+[1] GD-S00081/hub/hub.cpp:5
+//RP++
+
+[2] GD-S00081/hub/hub.cpp:6
+//CCF shi shen
+
+[3] GD-S00081/migrate/migrate.cpp:5
+//RP++
+
+[4] GD-S00081/migrate/migrate.cpp:6
+//CCF shi shen
+
+[5] GD-S00105/migrate/migrate.cpp:10
+/*long long DFS(long long now,long long times)
+{
+	long long p=0,to=n;
+	while (df>=dis[to]-dis[now]) to--;
+	if (to<=now) return 0;
+	for (;to>now;to--)
+	{
+		if (times>min_step[to]) break;
+		else if(times==min_step[to])
+		{
+			p++;
+			//cout<<"?^"<<now<<" "<<to<<" "<<times<<endl;
+		}
+		else min_step[to]=times,p++;
+		p+=DFS(to,times+1);
+	}
+	return p;
+}*/
+
+[6] GD-S00120/crystal/crystal.cpp:14
+/*
+	考虑枚举 [l, r]，把 A_l,..., 一直弄到 A_r，这样是 O(n^2) 的 
+	然后考虑双指针，就能 O(n) 了 
+	2e18，不会炸吧？ 
+	*/
+
+[7] GD-S00134/crystal/crystal.cpp:1
+/****
+#include<bits/stdc++.h>
+using namespace std;
+//long long int dp[1000000000000000009];
+long long int a[500008];
+int n;
+long long int m;
+int l,r;
+int main(){
+	freopen("crystal.in","r",stdin);
+	freopen("crystal.out","w",stdout);
+	cin>>n>>m;
+	for(int i=0;i<n;i++){
+		cin>>a[i];
+	}
+	sort (a,a+n);
+	int mid = (n-1)/2;
+	l=mid-1;r=mid+1;
+	int ans;
+	while (m>0&&l>=0){
+		if (a[l]<a[mid]){
+		a[l]++;
+		if(m>0){
+		m--;}
+		}else{
+			l--;
+			ans++;
+		}
+		if(m==0&&l!=mid-1){
+			ans++;
+		}
+	}
+	
+	for(int i=r;i<n;i++){
+		if(a[i]==a[mid]){
+		//	cout<<a[r]<<a[mid]
+			ans++;
+		}
+	}
+	cout<<ans;
+	return 0;
+} 
+***/
+
+[8] GD-S00134/crystal/crystal.cpp:44
+/***********
+#include<bits/stdc++.h>
+using namespace std;
+//long long int dp[1000000000000000009];
+long long int a[500008];
+int n,c;
+long long int m;
+int l,r,f;
+int ans=1;
+int b[500008];
+int main(){
+freopen("crystal.in","r",stdin);
+freopen("crystal.out","w",stdout);
+	cin>>n>>m;
+	long long int pp=m;
+	for(int i=0;i<n;i++){
+		cin>>a[i];
+	}
+	sort (a,a+n);	
+	////////////////////////////////////////////////	
+	for(int k=1;k<n;k++){
+		int mid = k;	
+		l=mid-1;
+	for(int i=0;i<=l;i++){
+		b[i]=a[i];
+	}
+	//for(int i=0;i<=l;i++){
+	//	cout<<b[i];	}
+	//cout<<endl;
+	///////////////////
+	m=pp;
+	while (m>0&&l>=0){
+		if (b[l]<a[mid]){
+		b[l]++;
+		m--;
+		}
+		else
+		{
+			
+			ans++;//cout<<b[l]<<'.'<<ans<<endl;
+			l--;
+		}
+		c=max(ans,c);
+	}	
+	
+	ans=1;
+	}
+	cout<<++c;
+	return 0;
+} 
+*************/
+
+[9] GD-S00145/crystal/crystal.cpp:39
+/*long long l=1,r=n,mid;
+	while(l<r)
+	{
+		mid=(l+r)/2;
+		long long temp=0;
+		for(int i=1;i<mid;i++)temp+=a[mid]-a[i];
+		if(temp<=m)ans=max(ans,mid),l=mid+1;
+		else r=mid;
+		//cout<<l<<' '<<r<<" "<<ans<<" "<<temp<<endl;
+	}*/
+
+[10] GD-S00148/crystal/crystal.cpp:100
+/*
+我连T1都AC不了
+但是我好像没有明年了... 
+AFO吧... 
+再见了，各位 
+*/
+
+[11] GD-S00150/crystal/crystal.cpp:5
+//我是CodingLoverRao29(1470495)
+
+[12] GD-S00150/crystal/crystal.cpp:7
+//神秘压缩包密码 `Oct31==Dec25?`
+
+[13] GD-S00150/crystal/crystal.cpp:8
+//不尔官方也爱玩梗吗 
+
+[14] GD-S00159/subway/subway.cpp:19
+//gfx[i][j]代表第 i 个地铁站连接到的第 j 条线路的编号与时间（广佛线缩写） 
+
+[15] GD-S00159/subway/subway.cpp:82
+/*
+史山超长题面（
+样例
+0 2 5 20 2 ==> c,n,m,d,q
+c：测试点，判特殊性质
+n：线路数量
+m：地铁站数量
+d：啥玩意？
+q：出行计划数，也就是访问数量 
+4 1 9 2 5
+从地铁站到站厅的时间 
+3 1 5 2 7 4 6
+第一个 3：经过几个站
+后面两两一组，一个是地铁站，另一个是站台到站厅的时间 
+3 2 3 3 4 5 7 同理 
+1 3 询问了 
+1 2
+读题比切 T1 还久（
+所以说一个地铁站可以分为：
+地铁口   站台   站厅
+所以说是一道图论最短路 + 大模拟
+d 到底是啥（  
+
+3:24 p.m. 注意到 d 有滚木作用
+只算步行时间，也就是说线路间的边权为 0
+但好像也不是缩点（绝对不是因为我不熟 Tarjan）
+其实可以直接建个图 然后暴力 floyd 
+等一下，发现 d 的作用好像超过了滚木
+一个站可以连 d 条线路，一条线路里两个站可以瞬间到达
+注意到 n,d 都很小 可以把一个线路看作一个点（吗？）
+
+在这道题里面一个地铁站拆成了三个点
+注意到地铁口仅在起点和终点有用，忽略不计 
+那就剩下站台和站厅两个点
+而在同一线路内的不同站台可以瞬间到达……呃呃呃好乱
+拿样例举例子：
+可以把一条线路看作一个点，然后与站厅连接
+但是这样点还是太多了，跑不了
+这时候滚木 d 就发挥用处了
+可以跑 d 个单源最短路，这样点的个数就是 n 个
+算了一下 时间大概过不了
+如果在一开始就跑一个全源的 floyd 好像可以过
+理论达成 实践开始 
+
+4：50 p.m. 经过1.5h的打代码与 debug 时间，终于打完了！ 
+可惜的是最后两个大样例被卡了0.0几，不知道 ccf 的评测机能不能跑快一点 
+
+5：07 p.m. 加了个快读卡过去了嘿嘿 
+
+时间复杂度：O(n^3)
+难度：green ~ Qing 
+*/
+
+[16] GD-S00184/subway/subway.cpp:13
+/*inline void solve1()
+{
+	for (int i = 1; i <= m; i++) cin >> w[i];
+	idx = m;
+	for (int i = 1; i <= n; i++)
+	{
+		int k;
+		cin >> k;
+		for (int j = 1; j <= k; j++)
+		{
+			int x, y;
+			cin >> x >> y;
+			idx++;
+			G[idx].emplace_back(x, y);
+			G[x].emplace_back(idx, y);
+			if (j != 1)
+			{
+				G[idx - 1].emplace_back(idx, 0);
+				G[idx].emplace_back(idx - 1, 0);
+			}
+		}
+	}
+	for (int i = 1; i <= q; i++)
+	{
+		int x, y;
+		cin >> x >> y;
+		qx[i] = x, qy[i] = y;
+		qry[x].emplace_back(i);
+	}
+	for (int i = 1; i <= m; i++)
+	{
+		if (qry[i].empty()) continue;
+		for (int j = 1; j <= idx; j++) dist[j] = (ll)1e18;
+		priority_queue<pair<ll, int>> pq;
+		pq.emplace(0, i);
+		dist[i] = 0;
+		while (pq.size())
+		{
+			auto [d, u] = pq.top();
+			pq.pop();
+			d = -d;
+			if (dist[u] != d) continue;
+			for (auto &[j, w] : G[u])
+			{
+				if (dist[j] > dist[u] + w)
+				{
+					dist[j] = dist[u] + w;
+					pq.emplace(-dist[j], j);
+				}
+			}
+		}
+		for (auto &id : qry[i])
+		{
+			ans[id] = dist[qy[id]] + w[qx[id]] + w[qy[id]];
+		}
+	}
+	for (int i = 1; i <= q; i++) cout << ans[i] << "\n";
+}*/
+
+[17] GD-S00192/hub/hub.cpp:35
+/*
+1020063
+
+过秦论
+贾谊
+  秦孝公据崤函之固，拥雍州之地，君臣固守以窥周室，有席卷天下，包举宇内，囊括四海之意，并吞八荒之心。当是时也，商君佐之，内立法度，务耕织，修守战之具，外连衡而斗诸侯。于是秦人拱手而取西河之外。
+  孝公既没，惠文、武、昭襄蒙故业，因遗策，南取汉中，西举巴蜀，东割膏腴之地，北收要害之郡。诸侯恐惧，会盟而谋弱秦，不爱珍器重宝肥饶之地，以致天下之士，合从缔交，相与为一。当此之时，齐有孟常，赵有平原，楚有春申，魏有信陵。此四君者，皆明智而忠信，宽厚而爱人，尊贤而重士，约从离衡，兼韩、魏、燕、楚、齐、赵、宋、卫、中山之众。于是六国之士，有甯越、徐尚、苏秦、杜赫之属为之谋，齐明、周最、陈轸、召华、楼缓、翟景、苏厉、乐毅之徒通其意，吴起、孙膑、带陀、倪良、王廖、廉颇、赵奢之伦制其兵。尝以十倍之地、百万之众，叩关而攻秦。秦人开关延敌，九国之师，逡巡而不敢进。秦无亡矢遗镞之费，而天下诸侯已困矣。于是从散约败，争割地而赂秦。秦有余力而制其弊，追亡逐北，伏尸百万，流血漂橹；因利乘便，宰割天下，分裂山河。强国请服，弱国入朝。延及孝文王、庄襄王，享国之日浅，国家无事。
+  及至始皇，奋六世之余烈，振长策而御宇内，吞二周而亡诸侯，履至尊而制六合，制敲扑而鞭笞天下，威振四海。南取百越之地，以为桂林、象郡；百越之君，俯首系颈，委命下吏。乃使蒙恬北筑长城而守藩篱，却匈奴七百余里，胡人不敢南下而牧马，士不敢弯弓而报怨。于是废先王之道，焚百家之言，以愚黔首。隳名城，杀豪杰，收天下之兵，聚之咸阳，销锋镝，筑以为金人十二，以弱天下之民。然后践华为城，因河为池。据亿丈之城，临不测之渊，以为固。良将劲弩守要害之处，信臣精卒陈利兵而谁何。始皇之心，自以为关中之固，金城千里，子孙帝王万世之业也。
+  始皇既没，余威震于殊俗。然陈涉瓮牖绳枢之子，氓隶之人，而迁徙之徒也；才能不及中人，非有仲尼、墨翟之贤，陶朱、猗顿之富；蹑足行伍之间，而倔起阡陌之中，率疲弊之卒，将数百之众，转而攻秦。斩木为兵，揭竿为旗，天下云集响应，赢粮而景从。山东豪俊遂并起而亡秦族矣。
+  且夫天下非小弱也，雍州之地，崤函之固，自若也。锄耰棘钤，非铦于钩戟长铩也；谪戍之众，非抗于九国之师也；深谋远虑，行军用兵之道，非及乡时之士也，然而成败异变，功业相反，何也？
+
+默不完了 
+*/
+
+[18] GD-S00194/hub/hub.cpp:1
+//是二分答案?还是换根？反正都不会写，找部分分。
+
+[19] GD-S00218/subway/subway.cpp:54
+//												|这一部分写炸了但很神奇概率会过样例 
+
+[20] GD-S00271/migrate/migrate.cpp:13
+//ohno我不会了！！ 
+
+[21] GD-S00274/subway/subway.cpp:109
+// 神人题
+
+[22] GD-S00274/subway/subway.cpp:110
+// luogu uid 1210193 qwqwq sto Shellchen orz qwqqwq dsadsa 
+
+[23] GD-S00279/subway/subway.cpp:89
+// 17:30 (5:30) 被卡空间了 qwq 
+
+[24] GD-S00284/subway/subway.cpp:139
+/*
+#include <bits/stdc++.h>
+#define i64 long long
+#define ull unsigned i64
+#define AC return 0;
+using namespace std;
+
+void initbegin ()
+{
+    ios::sync_with_stdio (0);
+    cin.tie (0);
+    cout.tie (0);
+    // freopen ("subway.in", "r", stdin);
+    // freopen ("subway.out", "w", stdout);
+    return ;
+}
+
+const int N = 1919810, M = 5001, inf = 0x3f3f3f3f;
+const int mod = 998244353;
+const i64 infll = 0x3f3f3f3f3f3f3f3f;
+const int dx[] = {0, 0, 1, -1, 1, -1, -1, 1, 0};
+const int dy[] = {1, -1, 0, 0, 1, -1, 1, -1, 0};
+
+int w[N], k[N];
+
+struct S {
+    int a, t;
+} s[M][M];
+
+vector <int> e[N];
+
+int dfs (int a, int b, int la, int ii)
+{
+    if (a == b)
+    {
+        AC
+    }
+    int ans = 0, cc = 0;
+    for (int kk = 0; kk < e[a].size (); kk++)
+    {
+        int id = e[a][kk];
+        if (id != ii)
+        {
+            cc = s[id][kk].t + s[ii][kk].t;
+        }
+        for (int i = 1; i <= k[id]; i++)
+        {
+            if (s[id][i].a == a)
+            {
+                if (s[id][i - 1].a != la)
+                {
+                    ans = min (ans, dfs (s[id][i - 1].a, b, a, ii) + s[id][i - 1].t + cc);
+                }
+                if (s[id][i + 1].a != la)
+                {
+                    ans = min (ans, dfs (s[id][i + 1].a, b, a, ii) + s[id][i + 1].t + cc);
+                }
+            }
+        }
+    }
+    return ans;
+}
+
+int mian ()
+{
+    int c, n, m, d, q;
+    cin >> c >> n >> m >> d >> q;
+    for (int i = 1; i <= m; i++)
+    {
+        cin >> w[i];
+    }
+    for (int i = 1; i <= n; i++)
+    {
+        cin >> k[i];
+        for (int j = 1; j <= k[i]; j++)
+        {
+            cin >> s[i][j].a >> s[i][j].t;
+            e[s[i][j].a].push_back (i);
+        }
+    }
+    while (q--)
+    {
+        int x, y;
+        cin >> x >> y;
+        for (int i = 0; i < e[x].size (); i++)
+        {
+            cout << w[x] + dfs (x, y, 0, e[x][i]) + w[y] << endl;
+        }
+    }
+    AC
+}
+
+signed main ()
+{
+    initbegin ();
+    int t = 1;
+    // cin >> t;
+    while (t--)
+    {
+        mian ();
+    }
+    AC
+}
+*/
+
+[25] GD-S00286/crystal/crystal.cpp:17
+//全都不会
+
+[26] GD-S00286/hub/hub.cpp:3
+//不会 
+
+[27] GD-S00289/hub/hub.cpp:16
+//never AFO 
+
+[28] GD-S00296/crystal/crystal.cpp:58
+/*
+能赢吗能赢吗能赢吗
+
+14:47 AC T1，前面跑去口胡 T2 & 配 vscode 了
+
+希望口胡的 T2 是对的 qwq
+
+关注 Shellchen 谢谢喵。
+*/
+
+[29] GD-S00296/hub/hub.cpp:124
+/*
+只有爆搜+A 的 25pts qwq
+
+281pts，太难了，还极有可能挂掉
+
+关注 Shellchen 谢谢喵。
+*/
+
+[30] GD-S00296/migrate/migrate.cpp:136
+/*
+目前是平方做法+A+B，56pts
+
+不会正解/ll
+*/
+
+[31] GD-S00296/subway/subway.cpp:78
+/*
+nice problem。
+
+先把地铁线路虚点之间的两两距离求出来，Floyd 可以做到 O(n^3)。
+
+每次询问枚举取哪两条即可。
+
+总复杂度 $O(md^2+n^3+qd^2)$，瓶颈似乎在 md^2 但是跑不满，可以过吗 qwq。
+
+14:58 AC，看眼数据
+
+怎么 d=2？？？还得自己造一组
+
+0.35 秒左右，应该没问题了
+*/
+
+[32] GD-S00321/hub/hub.cpp:12
+/*
+不会处理 (u,v) 存在祖先关系的情况。
+倒闭了。
+/ll
+100+100+48+0=248
+去不了 WC 吧。
+
+感觉一车子 300+ /ll
+*/
+
+[33] GD-S00350/crystal/crystal.cpp:46
+/*
+洛谷1404759 rp++
+我想上电视
+使用了二分+前缀和
+python造个数据，感觉可以 
+*/
+
+[34] GD-S00350/subway/subway.cpp:131
+//18:17 累了，调了将近2h的RE，AFO 
+
+[35] GD-S00366/subway/subway.cpp:118
+/*#include <bits/stdc++.h>
+using namespace std;
+const int N = 500 + 5;
+const int M = 5e5 + 5;
+int c, n, m, d, T;
+long long w[M], k[N];
+bool b[N][N];
+vector<pair<int, long long>> v[N];
+vector<int> e1[M];
+bitset<N> vis;
+int main() {
+	ios::sync_with_stdio(false);
+	cin.tie(nullptr);
+	cout.tie(nullptr);
+	freopen("subway.in", "r", stdin);
+	freopen("subway.out", "w", stdout);
+	cin >> c >> n >> m >> d >> T;
+	for (int i = 1; i <= m; ++i) {
+		cin >> w[i];
+	}
+	for (int i = 1; i <= n; ++i) {
+		cin >> k[i];
+		v[i].resize(k[i]);
+		for (int j = 0; j < k[i]; ++j) {
+			cin >> v[i][j].first >> v[i][j].second;
+			e1[v[i][j].first].push_back(i);
+		}
+		sort(v[i].begin(), v[i].end());
+	}
+		for (int i = 1; i <= m; ++i) {
+			for (int j = 0; j < e1[i].size(); ++j) {
+				for (int l = j + 1; l < e1[i].size(); ++l) {
+					b[e1[i][j]][e1[i][l]] = true;
+				}
+			}
+		}
+		while (T--) {
+			int x, y;
+			cin >> x >> y;
+			vis.reset();
+			priority_queue<pair<long long, int>, vector<pair<long long, int>>, greater<pair<long long, int>>> q;
+			for (int i = 1; i <= n; ++i) {
+				if ((*lower_bound(v[i].begin(), v[i].end(), (pair<int, long long>){x, 0})).first == x) {
+					q.push({i, 1});
+				}
+			}
+			while (true) {
+				pair<int, int> _ = q.top();
+				int xx = _.first;
+				int yy = _.second;
+				q.pop();
+				if (e2[xx].find(y) != e2[xx].end()) {
+					cout << w[x] + w[y] + yy << '\n';
+					break;
+				}
+				if (vis[xx]) continue;
+				vis[xx] = true;
+				for (int i = 1; i <= n; ++i) {
+					if (!vis[i] && (b[xx][i] || b[i][xx])) {
+						q.push({i, yy + 1});
+					}
+				}
+			}
+		}
+	return 0;
+}*/
+
+[36] GD-S00421/subway/subway.cpp:52
+//	if(dist[pla[i][0]][j]==1145141919810) continue;
+
+[37] GD-S00428/hub/hub.cpp:10
+//不会，能拖一会儿是一会儿 
+
+[38] GD-S00428/subway/subway.cpp:10
+//不会，能拖一会儿是一会儿 
+
+[39] GD-S00473/subway/subway.cpp:1
+/*
+#include<bits/stdc++.h>
+#define int int_fast64_t
+using namespace std;
+int w[int(5e5+5)],k[505],a[505][int(5e5+5)],t[505][int(5e5+5)];
+int c,n,m,d,q,ans,minn=0x7fffffffffffffff;
+void dfs(int u,int v,int tim){
+	if(u==v)return minn=min(minn,tim),void();
+	for(int i=1;i<=k[u];i++){
+		for(int j=1;j<=n;j++){
+			if(j!=u){
+				for(int l=1;l<=k[j];l++){
+					if(a[u][i]==a[j][l]){
+						dfs(j,v,tim+t[u][i]+t[j][l]);
+					}
+				}
+			}
+		}
+	}
+}
+int32_t main(){
+	ios::sync_with_stdio(false);
+	cin.tie(nullptr),cout.tie(nullptr);
+	freopen("subway.in","r",stdin);
+	freopen("subway.out","w",stdout);
+	cin>>c>>n>>m>>d>>q;
+	for(int i=1;i<=m;i++){
+		cin>>w[i];
+	}
+	for(int i=1;i<=n;i++){
+		cin>>k[i];
+		for(int j=1;j<=k[i];j++){
+			cin>>a[i][j]>>t[i][j];
+		}
+	}
+	while(q--){
+		int u,v;
+		cin>>u>>v;
+		if(u==v){
+			cout<<"0\n";
+			continue;
+		}
+		ans=w[u]+w[v];
+		set<int> st,ed;
+		for(int i=1;i<=n;i++){
+			for(int j=1;j<=k[i];j++){
+				if(a[i][j]==u)st.insert(i);
+				if(a[i][j]==v)ed.insert(i);
+			}
+		}
+		bool f=0;
+		for(auto it:st){
+			if(ed.count(it)){
+				cout<<ans<<'\n';
+				f=1;
+				break;
+			}
+		}
+		if(f)continue;
+		minn=0x7fffffffffffffff;
+		for(auto x:st){
+			for(auto y:ed){
+				dfs(x,y,0);
+			}
+		}
+		cout<<ans+minn<<'\n';
+	}
+	return 0;
+}
+*/
+
+[40] GD-S00516/crystal/crystal.cpp:75
+/*
+#include<bits/stdc++.h>
+#define int long long 
+using namespace std;
+const int N=5e5+100;
+int n,m;
+int maxn=1,id;
+int a[N],s[N];
+map<int,int>e;
+bool cmp(int a,int b){
+	return a<b;
+}
+signed main(){
+	freopen("crystal.in","r",stdin);
+	freopen("crystal.out","w",stdout);
+	cin>>n>>m;
+	for(int i=1;i<=n;i++){
+		cin>>a[i];
+		e[a[i]]++;
+		maxn=max(maxn,e[a[i]]);
+	}
+	
+	sort(a+1,a+n+1,cmp);
+	if(maxn==1){
+		int ans=0;
+		int mid=n/2;
+		for(int i=1;i<=n;i++){
+			if(a[i]>a[mid])s[i]=m+1;
+			else s[i]=a[mid]-a[i];
+		}
+		sort(s+1,s+n+1,cmp);
+		for(int i=1;i<=n;i++){
+			if(m<s[i])break;
+			m-=s[i];
+			ans++;
+		}
+		cout<<ans;
+		return 0;
+	}
+	
+	else{
+		for(int i=1;i<=n;i++){
+			if(e[a[i]]==maxn){
+				id=a[i];
+				break;	
+			}
+		}
+		int ans=0;
+		for(int i=1;i<=n;i++){
+			if(a[i]>id)s[i]=m+1;
+			else{
+				s[i]=id-a[i];
+			} 
+		}
+		sort(s+1,s+n+1,cmp);
+		for(int i=1;i<=n;i++){
+			if(m<s[i])break;
+			m-=s[i];
+			ans++;
+		}
+		cout<<ans;
+		return 0;
+	}
+	return 0;
+} 
+*/
+
+[41] GD-S00523/migrate/migrate.cpp:122
+/*
+如果一个点跳到x步跳到的最远点有i条路径，那么这个点跳>x步跳到的点路径数不会小于i
+0 2
+5 3
+-2 -1 0 1 2
+6 2
+-4 -3 -2 -1 3 6
+*/
+
+[42] GD-S00538/crystal/crystal.cpp:49
+/*
+keep thinking  determined  calmed down!
+一道序列问题
+感觉像二分
+我们需要改变最多m次使得尽量多的元素的价值相同
+注意了，每次都是增加1 的价值 
+我们很容易想到钦定一个价值，然后看看改m次能使多少元素等于它 
+我们排个序明显会更好做 
+思考一下正解
+
+我们肯定是选择一个价值，然后让其他的价值尽量靠近这个价值
+就是以它为中心扩散出去，不对，应该是让它前面的靠近它
+所以这样它前面的元素本身离他差的越小的就越容易靠近它
+那么直接往左扫一遍递减m为0时就停下即可
+此时，我们会得到一个cnt数字,就是一个答案
+
+那么每个数我们都这样做一下往左扫
+得到一个 O(n^2) 的做法 获得45分 
+不过这个实际上是跟值域相关的，取值域和n的min
+所以可以通过 前12个测试点，获得 60 分
+ 
+我们可以尝试优化 
+前缀和，我们会发现，前面的数到当前位置 的 数 w 的差值
+实际上可以计算
+我们列出来如下
+OOOOOOO...XXX 其中.表示当前， X 表示大于， O 表示小于
+我们可以正向扫描！！！！
+不难发现，前面的差值是可以累计的
+所以用双指针，然后因为m固定，而价值单增，符合双指针要求
+ 
+大体思路，我们维护一个到当前数 w 的区间 
+其中区间中所有数距离 w 的价值总和小于等于w 
+我们不用缩点，因为无所谓，而缩点可能会错 
+假设元素都不相等
+
+r记录的是当前数，l 记录的是区间的左端点 
+我们迁跃的时候就是后方的价值减前方的价值 
+然后乘上 r-l+1 为当前总价值
+当总价值大于m的时候，我们右移左端点
+最后，每一个合法的 l , r ,它的len 更新答案
+
+得解
+注意最大1e18 可能会超过限制，所以我们可能需要 i128 
+
+看来是A 掉了
+等会写下拍子
+试一下i128 能不能写 
+能写 就 i128 吧 
+*/
+
+[43] GD-S00538/migrate/migrate.cpp:61
+/*
+keep thinking  determined  calmed down!
+显然我们需要一个 O(n) 的做法
+简化一下题意
+给定n 个岛屿 和一个距离 d
+岛屿严格递增
+两个岛屿之间若距离小于等于d，那么互相可以飞一次到达
+两个岛屿的最短路径长度，记为最少飞行次数到达
+若存在恰好两个情况使得两个岛屿可以通过最短路劲长度的飞行次数互相到达
+此时我们认为出现了一个好的二元组
+统计好的二元组的个数
+我们先来看看先决条件
+对于 N^2个二元组，我们先要知道彼此间的最短距离
+然后才能求最短长度
+所以条件相当严苛
+两个节点可能互相不可达
+一个结论：我们两个节点前后相互条约，肯定是选择d范围内，能走的最远
+当一个 二元组 (u,v) 距离小于等于d 此时，绝对构成不了
+如果构成，到底在暗示什么？
+我原来选择的跳跃路径，当下改变其中一个最远节点退而求其次，此时，
+仍能通过最短路径到达
+原路径
+a - b - c - d - e - f - g - h - j
+新路径
+a - b - c - D - e - f - g - h - j
+改变，最多一个
+所以，这个是满足单调性
+若能通过三条及以上从 a - h ,那么必然的， 也能通过 3 条及以上 从 a - j
+所以，从前往后枚举
+向前考虑转移
+我感觉是想不出来正解
+我们考虑一下打暴力分
+对于 O n^2 我们会发现
+当前点往后跳能跳到的点，构成一个区间
+而这个区间里的所有点对都不构成答案
+然后从区间的右边节点开始考虑
+若它到左边节点的距离，有超过三个是大于d的，此时无论如何不合法
+若合法，我们还要记录当前路径数
+即从1号节点到当前节点路径数
+就是我们固定起始节点往右枚举的过程
+
+我们不用去证明跳到右边再跳回左边
+根本不可能的事情
+
+大体思路
+我们枚举每个起始节点
+然后记录一个数组now 为当前路径数 还要记录一个 dis 为当前深度
+路径数刚好为 2 的，合法二元组
+我们对于每个节点作为起始节点
+
+*/
+
+[44] GD-S00538/subway/subway.cpp:97
+/*
+keep thinking  determined  calmed down!
+最后，总结一下大体流程 
+
+我们先建虚点，连接边
+然后对于每个站点拆分出它的所有线路
+然后我们进行从前往后 m/2 ^2 的对线路之间连接的更新，这样只需要2e7
+接着，我们跑一遍 n^3 的更新
+最后，我们 对于每个询问 ， 用 d<=20 的性质
+d^2 的处理出 ， 线路之间最短距，得到答案 
+此致 ， solved 
+哦，发现了还有地铁口走到站厅，不过无所谓，只是加上两个价值即可 
+注意到一件惊人事实是我们其实不需要这样连边，只需要从站台连单向
+因为我们是在枚举站台 
+拿下了 
+*/
+
+[45] GD-S00636/subway/subway.cpp:2
+/*
+把每条地铁线路看成一个点，跑完全图最短路，用 dijikstra算法解决
+时间复杂度 
+O(m+n^2logn+qd^2)
+考场电脑跑 1.2s 
+期望得分 100pts 
+*/
+
+[46] GD-S00655/migrate/migrate.cpp:60
+//			while(Fl[B])B=pre[B],sb+=x[B],_++;
+
+[47] GD-S00655/migrate/migrate.cpp:63
+//		cout<<i+1<<" "<<i<<":"<<sa<<" "<<sb<<'\n';
+
+[48] GD-S00659/hub/hub.cpp:14
+/*
+
+我没招了。。。
+祝RP++吧 
+
+*/
+
+[49] GD-S00668/hub/hub.cpp:3
+/*
+#include<bits/stdc++.h>
+#define lc u << 1
+#define rc u << 1 | 1
+using namespace std;
+int n,m,q;
+int a[1 << 10];
+struct TR{
+	int sum,lazy;
+	int l,r;
+}tr[1 << 12];
+void pushup(int u){
+	tr[u].sum = tr[lc].sum + tr[rc].sum;
+}
+void pushdown(int u){
+	if(tr[u].lazy){
+		tr[lc].sum += tr[u].lazy * (tr[lc].r - tr[lc].l + 1);
+		tr[lc].lazy = tr[u].lazy;
+		tr[rc].sum += tr[u].lazy * (tr[rc].r - tr[rc].l + 1);
+		tr[rc].lazy += tr[u].lazy;
+		tr[u].lazy = 0;
+	}
+}
+void build(int u,int l,int r){
+	tr[u] = {a[l],0,l,r};
+	if(l == r) return ;
+	int mid = l + r >> 1;
+	build(lc,l,mid);
+	build(rc,mid + 1,r);
+	pushup(u);
+}
+void change(int u,int x,int y,int k){
+	if(x <= tr[u].l && tr[u].r <= y){
+		tr[u].sum += k * (tr[u].r - tr[u].l + 1);
+		tr[u].lazy = k;
+		return ;
+	}
+	pushdown(u);
+	int mid = tr[u].l + tr[u].r >> 1;
+	if(x <= mid) change(lc,x,y,k);
+	if(mid < y) change(rc,x,y,k);
+	pushup(u);
+}
+int query(int u,int x,int y){
+	if(x <= tr[u].l && tr[u].r <= y)
+		return tr[u].sum;
+	pushdown(u);
+	int ans = 0;
+	int mid = tr[u].l + tr[u].r >> 1;
+	if(x <= mid) ans += query(lc,x,y);
+	if(mid < y) ans += query(rc,x,y);
+	return ans;
+}
+int main(){
+	ios::sync_with_stdio(false);
+	cin.tie(0);
+	cin>>n>>m>>q;
+	for(int i = 1; i <= n; i++)
+		cin>>a[i];
+	build(1,1,n);
+	for(int i = 1,x,y,k; i <= m; i++){
+		cin>>x>>y>>k;
+		change(1,x,y,k);
+	}
+	for(int i = 1,x,y; i <= q; i++){
+		cin>>x>>y;
+		cout<<query(1,x,y)<<'\n';
+	}
+	return 0;
+}
+*/
+
+[50] GD-S00674/crystal/crystal.cpp:31
+/*
+这题可做？
+排序后做前缀和
+找最小的k使得增加量不大于m
+二分 
+
+
+
+17:44
+三个题都看不懂
+特殊性质也不会写
+100+0+0+0
+rp都用到早上了
+反正j1也不是不行:) 
+*/
+
+[51] GD-S00674/hub/hub.cpp:4
+//AFO
+
+[52] GD-S00674/migrate/migrate.cpp:4
+//AFO
+
+[53] GD-S00695/subway/subway.cpp:55
+//struct node{long long a,t;}qwq[maxn];
+
+[54] GD-S00695/subway/subway.cpp:84
+//			cin>>qwq[i].a>>qwq[i].t;
+
+[55] GD-S00695/subway/subway.cpp:85
+//			G[i+S].emplace_back(qwq[i].a,qwq[i].t);
+
+[56] GD-S00695/subway/subway.cpp:86
+//			G[qwq[i].a].emplace_back(i+S,qwq[i].t);			
+
+[57] GD-S00709/crystal/crystal.cpp:17
+//				cout<<"akioi\n";
+
+[58] GD-S00714/migrate/migrate.cpp:57
+/*
+梁皓然 于2026年10月31日16：51满分抵达这里！！！
+好了好了，已经两题了，开始打暴力了
+
+给定若干个序列，跳跃最远可以从 i 跳到最后一个 x_j <= x_i + d 的位置
+那么每个位置最远可以跳到什么位置这个是固定的
+有点像某种倍增？
+先从 1 开始考虑吧
+最短路径就是跳的次数，也许可以按照跳跃次数分类？
+1 跳一次可以到 [1,j] x_j <= x_i + d
+哎？那么[1,j] 每个点跳一次也会有一个区间？？？
+想想什么时候会有恰好两条最短路？
+
+首先，只跳一次是不可能有两条最短路的，因为两个点直达一定不会有其他方案
+跳两次？
+两个区间l1,r1,l2,r2
+满足l2 = r1 - 1
+然后接下来的区间都必须要恰好 r1 - l2 了，不然乘法原理就把答案搞多了
+
+*/
+
+[59] GD-S00727/subway/subway.cpp:22
+//欸我骗你的 awa
+
+[60] GD-S00734/subway/subway.cpp:268
+//					for(int qwqw=1;qwqw<=k[qw[i]];qwqw++){
+
+[61] GD-S00734/subway/subway.cpp:270
+//							if(a[qw[i]][qwqw]==a[qe[j]][qeqe]){
+
+[62] GD-S00734/subway/subway.cpp:274
+//								sum+=t[qw[i]][qwqw];
+
+[63] GD-S00751/crystal/crystal.cpp:1
+//csps+=rp++
+
+[64] GD-S00751/crystal/crystal.cpp:44
+/*
+#include<bits/stdc++.h>
+using namespace std;
+long long n,m,ans,maxx;
+long long a[500005];
+int main()
+{
+	freopen("crystal.in","r",stdin);
+	freopen("crystal.out","w",stdout);
+	cin>>n>>m;
+	for(int i=1;i<=n;i++)
+	{
+		cin>>a[i];
+	}
+	sort(a+1,a+n+1);
+	for(int i=1;i<=n;i++)
+	{
+		int sum=m;
+		for(int j=1;j<=i;j++)
+		{
+			if(sum>=a[i]-a[j])
+			{
+				sum-=a[i]-a[j];
+				ans++;
+			}
+		} 
+		maxx=max(ans,maxx);
+		ans=0;
+	}
+	cout<<maxx;
+	
+	
+	return 0;
+}
+*/
+
+[65] GD-S00776/crystal/crystal.cpp:126
+/*#include<iostream>
+#include<vector>
+#include<algorithm>
+#include<queue>
+using namespace std;
+typedef long long ll;
+ll n,m,ans=0;
+int main(){
+	//freopen("crystal.in","r",stdin);
+	//freopen("crystal.out","w",stdout);
+	cin>>n>>m;
+	vector<ll>p(n+10);
+	for(int i=1;i<=n;i++){
+		cin>>p[i];
+	}
+	for(int i=1;i<=n;i++)cout<<p[i];
+	cout<<"\n";
+	queue<ll>q;
+	int t=1;
+	sort(p.begin(),p.end());
+	while(m>=0&&(t<=n||!q.empty())){
+		int a[2];
+		//求最小和 
+		for(int i=0;i<2;i++){
+			if(q.empty()){
+				a[i]=p[t++];
+				continue;
+			}
+			if(t>n){
+				a[i]=q.front();
+				q.pop();
+				continue;
+			}
+			a[i]=min(q.front(),p[t]);
+			if(a[i]==p[t])t++;
+			else q.pop();
+		}
+		//求差 
+		ll d=(a[0]<a[1]?a[1]-a[0]:a[0]-a[1]);
+		m-=d;
+		
+		if(m<0)break;
+		q.push(a[0]+a[1]+d);
+		ans++;
+		cout<<ans<<"\n";
+	}
+	cout<<ans;
+} 
+*/
+
+[66] GD-S00810/subway/subway.cpp:6
+/*
+n<=500 m<=5e5 d<=20 q<=1e5
+地铁口 -> 站厅 -> 站台，注意地铁上的时间忽略不计！ 
+w[v]就是用来干扰的，开始和结束的站各加一次即可
+每条地铁线路独立考虑，同线路上的u->v代价为：u站厅->站台  +  v站厅->站台 
+每次旅行中，一定不会访问同一条线路两次
+n<=500，可以Floyd求每两条线路之间的换乘代价！然后对于每次询问，直接枚举起点和终点分别搭哪条就行了！
+怎么求每两条线路之间的换乘代价？
+对着每个换乘点枚举！
+15:32 AC
+*/
+
+[67] GD-S00828/migrate/migrate.cpp:61
+/*
+路径不会迂回
+即 y_1<y_2<...<y_m 
+
+0 2
+4 2
+1 2 3 4
+5 2
+1 2 3 4 5
+
+0 2
+5 3
+-2 -1 0 1 2
+6 2
+-4 -3 -2 -1 3 6
+*/
+
+[68] GD-S00883/crystal/crystal.cpp:134
+/*
+5 5
+1 2 4 8 9
+
+It is no doubt that it is quite super horrible if I cannot get enough grades to go to NOIP.
+
+What about Specific data A?
+
+For each place i in array a_i, the space the M need to fill is 
+$$
+s = n - i
+$$
+The best way I think is to fill these spaces from high to low until the M runs out.
+
+Oh, if it can?It 'll be fantastic.
+Look this example:
+5 10
+1 2 3 4 5
+A method is that 1 + 2 + 3 + 4 = 10.That's correct.
+How about:
+5 4
+1 2 3 4 5
+A method is that 1 + 2 = 3 < 4. That's also correct.
+Let's go....
+
+the function "solve_A" is finished.The Specific data B is also may be solved by me.Oh 's too hard.
+Observe the example first.
+5 7
+1 3 5 7 9
+Answer : 3
+Look so cute, for each i in array "a_i", there's the paid:
+$$
+s = (n - i) \cdot \Delta
+$$
+Oh yeah!Let's goooooooooooooo.
+
+Glad + Scared = Helpless
+
+My total grade: 40 + 32 + 24 = 108 points away from OI world.
+
+What about HBCPC 2024 Genshin Impact Startup Forbidden III ?
+//freopen//freopen//freopen//freopen//freopen,remember to write freoepn
+*/
+
+[69] GD-S00883/hub/hub.cpp:9
+/* orz */
+
+[70] GD-S00894/subway/subway.cpp:8
+/*其实有源代码。
+我现在初一，貌似拿不到3=。我该在那里停留？我问我自己。
+以前考过蓝桥杯国2，以为升学稳了。
+“蓝桥杯”被踢出白名单。
+现在又不得不来考这个。
+如果我的GESP可以强一点。。。。。。就不用初赛了，就不会只靠—S了。。。
+来说点开心的：“10. 考生不能在注释中写侮辱性话语、歌词、诗词、散文等与考试无关的话语，若有违反可能会收到取消成绩或以上处分。”
+还有其他开心的：强劲的数据vs蒟蒻的我，谁能在2026-S中胜出？
+
+[71] GD-S00901/migrate/migrate.cpp:30
+//			miku+=max(rtr[to[i]-1]-rtl[to[i]-1]+1,0LL);
+
+[72] GD-S00903/hub/hub.cpp:104
+/*
+maybe 100 + 100 + 32 + 15 = 247pts
+考完直接滚去学mo了TAT
+
+AFOed. OI(2023-2026) uid:723036 
+
+*/
+
+[73] GD-S00953/crystal/crystal.cpp:38
+/*
+14：41秒掉T1
+有种不祥的预感
+
+oh no！我发现我貌似不能用signed main，而且要有return 0！！！
+这两个我在考-J的时候都没写呜呜呜
+
+洛谷关注uid1063830谢谢喵
+
+ok，我的正解炸了，然后我用二分的写法跟我的正解打对拍发现我的正解错了，我的二分写法应该是没问题的，而且二分的时间复杂度正确。
+
+17：02分，抱歉，是我的二分写错了，继续用上面那份代码继续打对拍！！！
+
+17：10分，拍了1000组没问题，应该过了
+*/
+
+[74] GD-S00974/hub/hub.cpp:16
+//我要上洛谷迷惑行为大赏 
+
+[75] GD-S00983/hub/hub.cpp:44
+//不然的话p就当直径咯，反正我也不会... 
+
+[76] GD-S00983/subway/subway.cpp:86
+//第4题也出现了这个问题，但我通过把cin改scanf的方式救回来了
+
+[77] GD-S00985/hub/hub.cpp:23
+/*
+大抵是我的最后一舞了
+貌似写奇怪的东西会取消成绩？
+算了 不管了
+本来想写个feropen给大家整个活，想了想还是算了
+学了3年这个了 上午的J组250+谁能绷住
+我最大的愿望就是这个玩意可以上那个每年一度的CSP迷惑行为大赏(还是叫其他什么的)
+额 可能算是退役记吧
+退役什么？？ 
+算了 不说这些了 来给大家整个活
+
+~(￣0￣)/▄︻┳═一 *-  -  -  - (X ~ X)饿~~ 
+
+可以不要肘击我吗QAQ 
+我还不相思
+好累
+放弃吧
+*继续前进
+要是可以RP大爆发给我一个S1就好了
+不过不太可能
+我这是梦到什么写什么吗
+要不要删掉呢？
+算了 都一样
+T~T
+你谷髦髦
+算了 我要去T3骗分了
+还剩45min 
+*/
+
+[78] GD-S00987/crystal/crystal.cpp:62
+/*
+A 奶龙题开场 5min 秒了
+n log n
+好像可以不带 log 用双指针做来着，但是不想写了
+B 更是奶蛙题
+mad 一开始 n, m 看错然后糊了一个神秘的双指针连边然后 floyd 状物
+然后发现原题更简单，都不用双指针了，直接暴力连边就是对的
+(m + q)d^2 + n^3
+到此为止只过了 1h
+然后因为 200pts 能稳进 noip 于是决定进行一个雨男孩的倒开
+推了半天只整了一个巨难写的 n^3
+此时 16:20
+然后转战 C，秒了一个 n^2，结果调到 17:30，没有心情想正解了
+还是不会 D，不想写这个 n^3
+于是转为在注释中塞入大量神秘内容
+*/
+
+[79] GD-S00987/hub/hub.cpp:78
+/*
+n^3 推完了
+g_u = max dep
+f_{u, d, k, 1/2}
+d 是最低连通块深度，k 是不在连通块的子树内的 max dep
+不想写 XD
+回去让 gpt 教我吧
+唉，写一点吧
+不对啊
+这是 n^4
+还要记录已经选了几个点
+我能成功击败 n^4 吗（
+啊啊啊啊啊啊啊
+真的不会写这个啊
+投降喵（
+*/
+
+[80] GD-S00987/migrate/migrate.cpp:98
+/*
+n^2 写了一个半小时
+力竭了
+好想玩 arknights endfield arcaea phigros milthm
+好想出勤，好久没给他们开花一轮信用图灵之迹存货千年了
+还想开 xx，可惜一个门都没开
+另外感觉小葱不如烧鸟（
+考完 csp 回去打阿莱克琉斯。这个镀层好难啊，还是说因为我手法太差了
+明天还要下塔露拉和小皇帝
+为什么小皇帝是黄毛啊，是白毛的话就是白皇帝了
+提醒我了，我还要给他们开白皇帝
+直入光也不错
+骗你的开了我也只能打到 70%（
+底力好弱啊
+接下来写点什么呢
+有了喵
+
+若能向神灯许愿
+我想整个世界
+陷入一次
+不被悲伤打扰的睡眠
+温柔的月光
+将实现我最渺小的
+那个心愿
+当一切还没改变
+
+当你还不曾离开
+火柴暖光摇曳
+星辰和花
+于是也未因寒冷凋谢
+踏着水晶鞋
+我赶往空旷的宫殿
+哪怕幻觉和痛觉在脚底相互粘连
+
+复生的回忆似堪堪破茧的蝶
+流泪的翼穿过人群
+带着唯一的色彩起舞盘旋
+让我再看这奇异的风景一眼
+就一眼
+仿佛也能感染上些许鲜艳
+
+童话只美在真实却从不续写
+（忘了）
+喧嚣照常将这细微瞬间敷衍
+无人记得美好于斯沉淀
+
+指针停在相互拥抱的前一秒
+凝视每件事的空白
+等待缝隙
+被缺失章节填满
+等某个人回来
+岁月会删繁就简
+将故事缩略成光源与漫漫黑夜
+昨天被匆匆地裁剪
+与前日白昼梦拼贴
+谁需要这不解风情又潦草的总结
+没想过会有一天
+我竟然对铭记这场梦境
+感到前所未有的疲倦
+（忘了）
+
+新生的奇迹覆盖过页脚残缺
+旁观者停驻的锈迹
+与流言纷扰被呼吸轻拂去
+让我再看这定格的默片一遍
+就一遍
+眼底攒下千帧来换片书签
+
+童话只美在真实却从不续写
+从现在起期待明天
+明天会不会出现在下一页
+蔷薇藤蔓终将咒文碎片遮掩
+唯我记得美好于斯沉淀
+
+中间错了好多，见谅喵（
+早知道昨天应该复习一遍的喵（
+*/
+
+[81] GD-S01017/subway/subway.cpp:15
+/*这样就不会爆炸了:P*/
+
+[82] GD-S01017/subway/subway.cpp:82
+/*
+几乎一定是dp....2e5的q 
+QWQ
+
+0 2 5 20 2
+4 1 9 2 5
+3 1 5 2 7 4 6
+3 2 3 3 4 5 7
+1 3
+1 2
+
+0 3 7 20 2
+8 3 6 1 7 2 9
+3 1 4 2 5 5 100
+3 2 6 3 1 7 2
+4 3 2 5 100 4 6 6 7
+1 6
+2 3
+*/
+
+[83] GD-S01064/crystal/crystal.cpp:35
+/*
+5 5
+1 2 4 8 9
+
+5 8
+-3 -1 2 2 7
+
+well,this is the competition history,aiming at to record some key things to solve.
+14:30 begin!
+14:45 mkdirs,see problems: T1(easy) T2(graph?!) T3(graph+DP) T4(graph?!)
+15:00 successful done T1,wow!
+15:10 ohno T1-test3&4 has sth.wrong,think...
+15:12 find we'd first sort it,and then calc it's presum.
+15:15 welldone!now have 100pts,let's see T2
+15:43 still think T2
+15:45 T2&T3&T4 are all graph problem!?!???!!!
+16:00 still thinking. goout,calmdown
+16:45 write code on T2 it's a Floyd
+16:52 wow!wow!I write T2 successfully!!!!zch hope me yeah.
+16:55 Now,check the longlong problem of T2.
+17:05 check all the test on T2,now it's 200pts,keep it going! trust myself.
+17:20 relax for 20minutes(look T3,T4),DP?
+17:40 write T3 but only 8pts...
+18:10 writ T4 for 5pts
+18:10 I think that's fine,so check all codes
+18:15 Goodbye,CSP-S2026!
+*/
+
+[84] GD-S01126/hub/hub.cpp:64
+/*
+还有14分钟，短短写一篇游记吧
+2：10 进考场
+2：28 打开试卷，一眼便看懂了T1的做法
+4：18 感谢CCF给的题，我竟然把T1做对了！
+4：31 想了半天解不开T2果断的打下了暴力 
+4:41  打完T2暴力
+5：02 DEV-C++神力，T3成功做到输入RE
+ 5：20 终于搞好T3输入RE的问题了，我真是太难了，呜呜呜 
+ 5：40 T3暴力终于写完了，我要崩了
+ 5：50 T4啥玩意看不懂，写个LCA庆祝一下吧
+ 6：06 T4RE我也不管了好吧，摸鱼ING... 
+*/
+
+[85] GD-S01179/subway/subway.cpp:78
+/*
+
+struct Edge{int v,w;};
+std::vector<Edge>E[maxn+maxm];
+
+i64 dis[maxn][maxm+maxn];
+struct pii{int v;i64 w;};
+bool operator<(pii lhs,pii rhs){//rev
+	return lhs.w>rhs.w;
+}
+void dij(int s,i64 dis[])
+{
+	std::priority_queue<pii>pq;
+	pq.push({s,0});
+	while(!pq.empty()){
+		const pii tmp=pq.top();pq.pop();
+		const int u=tmp.v;
+		if(dis[u]<=tmp.w) continue;
+		dis[u]=tmp.w;
+		for(auto e:E[u]){
+			pq.push({e.v,dis[u]+e.w}); 
+		}
+	}
+}
+
+int main()
+{
+	std::cin.tie(nullptr);
+	std::cin.sync_with_stdio(false);
+	
+	freopen("subway.in","r",stdin);
+	freopen("subway.out","w",stdout);
+
+	int C,N,M,D,Q;std::cin>>C>>N>>M>>D>>Q;
+	for(int i=1;i<=M;i++) std::cin>>W[i];
+	for(int i=1;i<=N;i++){
+		int k;std::cin>>k;
+		for(int j=0;j<k;j++){
+			int a,t;std::cin>>a>>t;
+			E[a].push_back({i+M,t});
+			E[i+M].push_back({a,t});
+		}
+	}
+	
+	for(int i=1;i<=N;i++){
+		memset(dis[i],0x3f,(N+M+7)*sizeof(*dis[i]));
+		dij(i+M,dis[i]);
+	}
+	
+	while(Q--){
+		int x,y;std::cin>>x>>y;//x!=y
+		i64 ans=inf;
+		for(int i=1;i<=N;i++)
+			ans=std::min(ans,dis[i][x]+dis[i][y]);
+		ans+=W[x]+W[y];
+		printf("%lld\n",ans);
+	}
+	
+	return 0;
+}
+*/
+
+[86] GD-S01187/hub/hub.cpp:8
+//没想到这场比赛会这么草率的结束呢 
+
+[87] GD-S01187/hub/hub.cpp:12
+/*
+在看的各位，我想先感谢一下大家！ 
+
+看到这题，我不想再做了； 
+
+我已经初三，
+能坚持到这场考试对我已经是目前人生中最大的礼物，
+是的，考完这场 CSP 我就会 AFO 了。
+回顾往事，我的 OI 并不是很好，这也是我要 AFO 的原因之一， 
+每次校内比赛，我都会落榜，虽不是最后一名，但也没什么区别了。 
+我接触 OI 并不是因为喜欢它，
+我喜欢的是编程，是自己做出小项目的自豪，是自己做游戏给自己玩的开心。 
+我还是走进了这条路。
+时光流转，我不得不放弃它们了； 
+也许我会在很久以后再次接触跟编程有关的学习，
+也许在未来 AI 会完全代替人类编码，
+但这对于现在的我都不那么重要了。
+
+五味杂陈的感觉并不好受，但这是我必定会经历的，
+其实我早就知道会这样，可这滋味在我总胸中挥之不去，
+我后悔吗？我后悔，但也不后悔。 
+
+我后悔过去的我为什么不再努力一点。
+
+我不后悔我交到了朋友，有了比别人多一点的经历， 
+发现了能有了自娱自乐的方式，能安慰我的方式……
+学校机房如同我的避风港，我总能在那里找到我的慰藉。 
+
+写到这，这场考试快要结束了。 
+可我还是放不下。
+
+总之，我要感谢我 OI 路上每一个陪伴我的人：
+我的教练，我的父母，我的同伴，我的对手。
+希望幸运能眷顾所有人，所有我感谢的，包括我。 
+
+——2026.10.31
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+有点悲伤了，想些好笑的吧： 
+676767!!!~~~~~疯狂星期四 V 我 50	（这是第 67 行！！！~~~如果不是，那就说明有人改动了它呢~） 
+还有！！！我不想背《出师表》啊！！！ 
+*/
+
+[88] GD-S01194/subway/subway.cpp:22
+// fuck ccf
+
+[89] GD-S01195/migrate/migrate.cpp:47
+/*
+准备开始暴力骗了，不是今年这个AB题会不会太简单了点？
+恰好两条是困难的，至少/至多k条呢？两者相减也能得出答案。
+那还说啥了开始拼包，前10个点我直接建图后最短路计数啊。
+不难发现直接爆搜是O(n^3)的，这太不牛了，怎么优化成O(n^2)的呢？
+注意到，每个点的窗口单调增，单调队列可以维护吗？
+但是相同的权值要保留诶。维护一个队列中最小值（队头权值）看看是否可行。
+具体地，先弹出不合法的队头，并更新队内最小，若无法转移直接返回；
+转移并统计答案后，弹出大于其的队尾，
+
+感觉不能从【最短路计数】这一块入手了，难过。
+尝试找到一些可以用数据结构维护的性质。 
+*/
+
+[90] GD-S01199/crystal/crystal.cpp:32
+/*
+14:45:35   AC
+15:59:47  厕所归来，认为CCF不卡常，把inline去掉了
+17:42:37  检查：数组越界、未定义行为、未初始化变量、数组大小 
+期望得分100
+预估难度：橙
+已检查freopen 
+*/
+
+[91] GD-S01199/hub/hub.cpp:49
+/*
+17:10:55 还有一个小时，但我不想打了，看完感觉性质能打，但有点小细节，不想动脑了，连暴力都不想打，个人认为224应该够了（千万别挂） 
+17:12:50 发呆太无聊了，尝试把O(不知道)打了，获得高额5分 
+17:40:23 调出暴力了，喜提5分！！！
+预估难度：紫？黑？反正是我不会的 
+期望：100+100+24+5=229
+实际：？
+229应该够吧。。。 感觉一等线220左右，不要太多大佬切T3啊~ 
+18:18:14 无疑是饥饿的 
+已检查freopen 
+*/
+
+[92] GD-S01199/migrate/migrate.cpp:35
+/*
+16:27:50 没啥思路了，决定打暴力，感觉性质B好打，但好像没啥思路。为什么只要跟计数和dp容斥沾边我就不会啊！！！ 
+16:51:04 打完暴力了，O(n^3)，本来数组大小只有350的，但转念一想，开成5500又不会炸，如果CCF少爷机发力了呢？想多了，1e11可不是开玩笑
+16:53:55 尝试优化成O(n^2)，这样就多16分了 
+16:55:37 算了，先goto T4
+期望得分24 
+预估难度：蓝
+已检查freopen 
+*/
+
+[93] GD-S01199/subway/subway.cpp:51
+/*
+15:35:00 有思路了！！！ 
+15:54:33 AC了！！！
+17:54:46 检查：数组越界？数组大小！！注意，NM要分清，就因为w[N]而大样例爆炸了
+18:11:24 感觉时间复杂度有点极限，CCF应该不会卡常吧 
+期望得分100
+预估难度：绿
+已检查freopen 
+*/
+
+[94] GD-S01206/migrate/migrate.cpp:130
+/*
+0 2
+4 2
+1 2 3 4
+5 2
+1 2 3 4 5
+
+0 2
+5 3
+-2 -1 0 1 2
+6 2
+-4 -3 -2 -1 3 6
+性质1：对于每个点，只要考虑他能走到的最远的3个点即可，不会回头
+同时第三个点先走到的点不可做为答案
+对于n<5000,跑spfa即可，每个点只建3条边O(n*n*3/2),剩下的交给少爷机
+40pts
+A；即每个点可以走到的点为i+x，i+x+1，i+x+2
+设每个点能走到的点数为k
+k=1
+输出0
+k=3
+能走两步（一步是i+x+1）的点贡献1，else 0
+ k=2
+ 能走三步的贡献
+ 48pts
+  每个点对答案的贡献为1段区间
+	发现"正解"代码极短，决定验证
+NO
+
+oh 完蛋 
+*/
+
+[95] GD-S01252/subway/subway.cpp:78
+/*
+从每条线路出都有各自的时间，同一条线路不会重复经过同一个地铁站
+每个地铁站最多有 d 条线路经过，w应该只在开始和离开时会用到
+从第i条线路离开或进入第j个地铁站的时间是 t[i][j]
+将每一个点拆成d+2个，用虚拟源点跑最短路 
+0 2 5 20 2
+4 1 9 2 5
+3 1 5 2 7 4 6
+3 2 3 3 4 5 7
+1 3
+1 2
+
+0 3 7 20 2
+8 3 6 1 7 2 9
+3 1 4 2 5 5 100
+3 2 6 3 1 7 2
+4 3 2 5 100 4 6 6 7
+1 6
+2 3
+
+*/
+
+[96] GD-S01268/migrate/migrate.cpp:34
+//RP++
+
+[97] GD-S01343/subway/subway.cpp:9
+/*
+
+gard <-|t_1|-> room <-|t_2|-> star
+
+using f[i][j] named the min distance from the room_i to way_j
+so easy to see the min time of the plan a -> b is:
+ min{f[a][j]+f[b][j]) j in [0,500]
+it can have a,b in 1e5 j in [1,500]
+we need to pre solve f[i][j] by way
+*/
+
+[98] GD-S01372/crystal/crystal.cpp:33
+/*
+T1简单二分，T2跑一边floyd也过了，T3想了将近三个小时，只骗了32分。但总归是比去年71分好，个人感觉可以1=（1=线要是超过250出题人可以跳了） 
+原本的466考场可能是电脑出问题了，集体搬迁至365和367（366去哪了），键盘和鼠标在电脑下面一个可以拉出来的抽屉里，还好我机智，扯了点线出来，放在了桌面上，打
+字不用那么拧巴了（这个换行主要是cpp显示不下了）。 
+14:45解决第一题 
+15:16做完第二题 
+15:26测试第二题极限数据，发现要用1.3s，就加上了快读和一些优化，压缩到了0.6s
+16:01显示器炸了，是线没接好
+17:05第三题想了半天的思路发现是错的，准备想暴力，发现暴力也不会 
+18:11第三题打了一个O^3+特殊性质A的拼好分，期望32分，第四题算了，就剩十五分钟了 
+18:14觉得第四题什么也不打不太合适，打了一个“不可以总司令”，期望0分 
+18:19在T2写了一些空洞骑士，会不会有哪个迷惑行为打赏会看见？ 
+18:24最后两分钟，没啥想写的，代码保存一下撤了吧，上午考的还不错，下午一般，期望232分。 
+ 
+
+
+fishy祭天，法力无变 
+*/
+
+[99] GD-S01372/subway/subway.cpp:50
+/*
+空洞骑士真的很好玩
+
+
+
+没有可以思考的心智
+
+没有可以屈从的意志 
+
+没有为苦难而哭泣的声音
+
+生于神与虚空之手
+
+你必将封印在众人梦中散布瘟疫的障目之光
+
+你是容器
+
+你是空洞骑士 
+
+
+
+去年我就写了这些，真的会有人看到吗？ 
+*/
+
+[100] GD-S01392/crystal/crystal.cpp:46
+/*
+#include<bits/stdc++.h>
+#define ll long long
+using namespace std;
+const int N=500005;
+struct node{ll a;int s;}b[N];
+int bs,n;ll m,a[N];
+int sz[N],z;
+#define lb(i) (i&-i)
+struct tree{
+	ll tr[N];
+	tree(){memset(tr,0,sizeof(tr));}
+	void ad(int i,ll a){
+		for(;i<=bs;i+=lb(i))tr[i]+=a;
+	}
+	ll cha(int y){
+		ll s=0;
+		for(;y;y-=lb(y))s+=tr[y];
+		return s;
+	}
+}c;
+struct tree2{
+	ll tr[N];
+	tree2(){memset(tr,0,sizeof(tr));}
+	void ad(int i,ll a){
+		for(;i<=bs;i+=lb(i))tr[i]+=a*(sz[i]-sz[i-lb(i)]);
+	}
+	ll cha(int x,int y){
+		ll s0=0,s1=0;
+		for(--x;x;x-=lb(x))s0+=tr[x];
+		for(;y;y-=lb(y))s1+=tr[y];
+		return s1-s0;
+	}
+}s;
+int main(){
+	scanf("%d%lld",&n,&m);
+	for(int i=1;i<=n;i++){
+		scanf("%lld",&a[i]);
+	}sort(a+1,a+n+1);
+	for(int i=1,s=1;i<=n;i++){
+		if(i<n&&a[i]==a[i+1])++s;
+		else b[++bs]={a[i],s},s=1;
+	}
+	for(int i=1;i<=n;i++)sz[i]=sz[i-1]+b[i].s;
+	z=b[1].s;
+	for(int i=2;i<=bs;i++){
+		c.ad(1,b[i].a-b[i-1].a);
+		c.ad(i,b[i-1].a-b[i].a);
+		s.ad(1,b[i].a-b[i-1].a);
+		s.ad(i,b[i-1].a-b[i].a);
+		
+		printf("i%d: ",i);
+		for(int j=1;j<i;j++)printf("(%d:%lld)",j,c.cha(j));
+		puts("");
+		
+		int l=1,r=i-1;
+		while(l<=r){
+			int md=l+r>>1;
+			if(s.cha(md,i-1)>m)l=md+1;
+			else r=md-1;
+		}++r;
+		if(r==i){z=max(z,b[i].s);continue;}
+		if(r==1){z=max(z,sz[i]);continue;}
+//		long long t=m-s.cha(r,i-1),tt=c.cha(r-1,r-1);
+		long long t=(m-s.cha(r,i-1))/(c.cha(r-1));
+		z=max(z,sz[i]-sz[r-1]+int(t));
+	}
+	printf("%d",z);
+	return 0;
+}*/
+
+[101] GD-S01444/crystal/crystal.cpp:8
+//才三点 急什么啊我又不会做 
+
+[102] GD-S01444/crystal/crystal.cpp:36
+//我该不会......把正解瞪出来了吧？！  
+
+[103] GD-S01444/crystal/crystal.cpp:38
+//会不会是longlong的问题？
+
+[104] GD-S01444/crystal/crystal.cpp:39
+//ccf我真没时间陪你闹了 
+
+[105] GD-S01444/crystal/crystal.cpp:40
+//哎哟我去  3221225477都来了这把彻底没救了 
+
+[106] GD-S01444/crystal/crystal.cpp:42
+//原神uid310217294 官服 欢迎交友
+
+[107] GD-S01444/crystal/crystal.cpp:44
+//我要AFO了（悲） 
+
+[108] GD-S01444/hub/hub.cpp:1
+//为什么还是多测 ccf是不是暗恋多测啊
+
+[109] GD-S01444/hub/hub.cpp:25
+/*
+25+0+0+0=25!我太失败了 
+Hello, strangers
+When you see this text,I have already AFOed.
+It is kind for you to stay for a few minutes and read how I started becoming an oier and how I afo
+I started studying C++ when I was 9.
+I thougt I am very smart at that time,but the fact proved me that I was WRONG.
+Now I have to give it up becauce I need to prepare for WHK,such as Zhengzhi, History and Geography.
+Actually it is my first time to take part in CSP for the second turn 
+but I think it will be my last time to take part in CSP
+I am in Cheistry Competition Team now,
+and I like chemistry and biology much better than OI,although they are all difficult,
+So I want to give up.
+It is going to rain outside.Outside is growing dark.Just like my OI career.
+18:15 only 15 minutes left.
+
+Thanks to myself.
+Thanks to my parents,include my passed-away grandma.
+Thanks to the teachers who taught me through this 13 years.
+Thanks to my friends and classmates.
+super greatest FK to CCF.
+**
+一定要记得开long long
+一定要记得freopen
+一定要记得freopen不要写成froepen frepoen feropen等奇怪的写法 不要写错文件名。 
+一定，一定要复习，不要像我这样裸考来 虽然我穿了衣服
+最后，一定，一定，一定要休息好！
+（昨晚获得了6小时30分钟低质睡眠） 
+一定要注意身体， 
+不要挑食，要多吃蔬菜，少吃点零食，少吃点油炸的东西
+不要在没有专业训练的情况下尝试自学女高音！！ 很伤喉咙。 
+不要尝试在岩浆里游泳。
+不要在没有把握的情况下把校规视为每日任务。
+在社会生活中，我们学习生活技能
+在社会生活中，我们学习品德修养
+在社会生活中，我们学习扮演社会角色
+社会化伴随我们一生。 
+**
+Thank you so much for reading this.
+Best wishes.
+Hope there will be no more OIer AFO like me.
+Goodbye.
+再见。
+欢迎来到世界。 
+---THE END---
+*/
+
+[110] GD-S01444/migrate/migrate.cpp:26
+//居然是多测  孩子们我没救了 跳吧  
+
+[111] GD-S01444/migrate/migrate.cpp:27
+//不对 好像可以写 有救了
+
+[112] GD-S01444/migrate/migrate.cpp:35
+//		int afo = 0;
+
+[113] GD-S01444/subway/subway.cpp:28
+/* 
+你爱沃~ 沃爱你~ 沃的歌声甜蜜蜜~
+你爱沃~ 沃爱你~ 沃最喜欢泡水里~ 
+你爱沃雅~ 沃爱你~
+你爱沃~ 沃爱你~ 沃雅妮莎喜欢你~
+为什么我的沃雅妮莎是个占星术士，，， 
+*/
+
+[114] GD-S01445/hub/hub.cpp:17
+//	freopen(filename".out","w",stdout);i love ccf very much
+
+[115] GD-S01447/migrate/migrate.cpp:1
+/*#include<bits/stdc++.h>
+using namespace std;
+const int N=5005;
+const int MX=1e9+7;
+int _,c,t[N],n;
+long long a[N],m,ans;
+int main(){
+//	freopen("migrate.out","w",stdout);
+//	freopen("migrate6.in","r",stdin);
+	ios::sync_with_stdio(0);
+	cin.tie(0);cout.tie(0);
+	cin>>c>>_;
+	while(_--){
+		cin>>n>>m;
+		for(int i=1;i<=n;i++){
+			cin>>a[i];
+			t[i]=-1;
+		}
+		int l=n;
+		a[0]=-MX;
+		for(int i=n;i>=1;i--){
+			if(l<=0){
+				t[i]=-2;
+				continue; 
+			}
+			while(abs(a[l]-a[i])<m){
+				l--;
+				if(l<0){
+					t[i]=-2;
+					break;
+				}
+			}
+			if(t[i]==-1){
+				t[i]=l+1;
+			}
+		}
+		
+		ans=0;
+//		for(int i=1;i<=n;i++) cout<<t[i]<<'\n';
+		for(int i=n;i>=1;i--){
+			if(t[i]==i||t[i]==-2||t[t[i]-1]==-2||t[t[i]-1]==t[i]-1) continue;
+			ans+=abs(t[i-1]-t[t[i]-1]);
+		//	cout<<i<<' '<<ans<<' '<<t[t[i-1]]<<' '<<t[t[i]-1]<<'\n';
+		}
+		cout<<ans<<'\n';
+	}
+	return 0;
+}*/
+
+[116] GD-S01454/hub/hub.cpp:9
+//	cout<<114514;
+
+[117] GD-S01454/hub/hub.cpp:25
+//		cout<<114514;
+
+[118] GD-S01454/hub/hub.cpp:59
+//		cout<<114514;
+
+[119] GD-S01454/hub/hub.cpp:72
+//	cout<<114514;
+
+[120] GD-S01454/hub/hub.cpp:74
+// cout<<114514;
+
+[121] GD-S01463/crystal/crystal.cpp:1
+//TAT调了2.5h没过第四个大样例 ，i am going to AFO   QwQ 
+
+[122] GD-S01463/crystal/crystal.cpp:98
+/*高一还只能拿3=的大区wwwwwwwwwwww 初三AFO一年去学whk结果OI和whk都不行 中考取得最差成绩……这次csp-s也没发挥出模拟赛的水平 
+越训练越弱，现在的水平还不如初二的时候 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 我是区 
+
+[123] GD-S01472/crystal/crystal.cpp:88
+//J dui wan fa xian ji fang tong xue zen me dou zhe me qiang orz %%%
+
+[124] GD-S01498/migrate/migrate.cpp:109
+/*
+	#include<bits/stdc++.h>
+#define int long long
+using namespace std;
+const int N=2e6+5;
+int n,d,a[N],ans;
+vector<int> e[N],g[N];
+int fe[N],fg[N];
+void cl(){
+	fill(fe,fe+n+5,0);
+	fill(fg,fg+n+5,0);
+	fill(e,e+n+5,vector<int>{});
+	fill(g,g+n+5,vector<int>{});
+	ans=0;
+	fill(a,a+n+5,0);
+}
+int ck(vector<int> &s1,vector<int> &s2){
+	int m=(int)s1.size();
+	int fl=0;
+	for(int i=0;i<m;i++){
+		if(s1[i]-s2[i]==0){
+			if(fl==1) fl=2;
+		}
+		else if(s1[i]-s2[i]==1){
+			if(fl==2||fl==1) return 0;
+			if(fl==0) fl=1;
+		}
+		else{
+			return 0;
+		}
+	}
+	if(fl==1||fl==2) return 1;
+	return 0;
+}
+void collect1(int i,int j,vector<int> &res){
+	int u=fe[i];
+	while(u!=0&&u<j){
+//		cerr<<"collect1:"<<u<<"\n";
+		res.push_back(u);
+		u=fe[u];
+	}
+}
+void collect2(int j,int i,vector<int> &res){
+	int u=fg[j];
+	while(u!=0&&u>i){
+//		cerr<<"collect2:"<<u<<"\n";
+		res.push_back(u);
+		u=fg[u];
+	}
+}
+void calc(int l,int r){
+//	cerr<<"calc:"<<l<<" "<<r<<"\n";
+	int pos=l;
+	for(int i=l;i<r;i++){
+		while(pos!=r&&a[pos+1]-a[i]<=d){
+			pos++;
+		}
+		e[i].push_back(pos);
+		e[pos].push_back(i);
+		fe[i]=pos;
+//		cerr<<"fe:"<<i<<" "<<pos<<"\n";
+	}
+	pos=r;
+	for(int i=r;i>l;i--){
+		while(pos!=l&&a[i]-a[pos-1]<=d){
+			pos--;
+		}
+		g[i].push_back(pos);
+		g[pos].push_back(i);
+		fg[i]=pos;
+//		cerr<<"fg:"<<i<<" "<<pos<<"\n";
+	}
+//	cerr<<"*\n";
+	for(int i=l;i<=r;i++){
+		for(int j=l+1;j<=r;j++){
+			vector<int> s1,s2;
+//			cerr<<"cal:"<<i<<" "<<j<<"\n";
+			collect1(i,j,s1);
+			collect2(j,i,s2);
+			reverse(s2.begin(),s2.end());
+			if(ck(s1,s2)) ans++;
+		}
+	}
+}
+void sol(){
+	cin>>n>>d;
+	for(int i=1;i<=n;i++){
+		cin>>a[i];
+	}
+	int las=1;
+	for(int i=1;i<n;i++){
+		if(a[i]+d<a[i+1]){
+			calc(las,i);
+			las=i+1;
+		}
+	}
+	calc(las,n);
+	cout<<ans<<"\n";
+}
+signed main(){
+	freopen("migrate3.in","r",stdin);
+	freopen("migrate3.out","w",stdout);
+	ios::sync_with_stdio(0),cin.tie(0);
+	int cs,ct=1;
+	cin>>cs>>ct;
+	while(ct--){
+		sol();
+		cl();
+	}
+}
+*/
+
+[125] GD-S01500/subway/subway.cpp:91
+/*
+不是啊为什么大样例 4 5 6 都过不了
+我燃尽了
+ccf CCF csp CSP 114514 514114 //freopen luogu Luogu kkksc03 chen_zhe 
+对我来钓鱼的
+
+请关注锣鼓 zhao_ry514114 (uid:1117719) 谢谢喵！
+请关注 codeforces 514114Zhao_ruoyi 谢谢喵！
+
+许愿 csps 1=
+
+下下周一（11月9日）是本喵的生日！看到这里的都要祝我生日快乐喵！ 
+*/
+
+[126] GD-S01563/hub/hub.cpp:52
+/*
+按理说我应该没AK，我T2居然做了3h真是菜爆了，还可能挂分谁知道呢 
+啥来着？Treat啥啥啥 
+Oct31==Dec25?
+RP++
+for(register unsigned long long int i = 0; i < oiers.size(); ++i)oiers[i].RP++;
+/RP @a add 1
+CSP-S RP++
+for(register unsigned long long int i = 0; i < oiers.size(); ++i)oiers[i].CSP-J2026.RP++;
+for(register unsigned long long int i = 0; i < oiers.size(); ++i)oiers[i].CSP-S2026.RP++;
+*/
+
+[127] GD-S01617/subway/subway.cpp:106
+//floyd忘记怎么写了QwQ 
+
+[128] GD-S01648/subway/subway.cpp:62
+//	qwq = read();
+
+[129] GD-S01672/crystal/crystal.cpp:29
+/*
+给你 n 个数，至多给指定数字增加 m
+求最后最多得到多少相同的数字
+从小到大贪心即可 
+但还是不优，会存在前面一段空掉的可能 
+为了让迷惑行为看到我，所以我留下来这个：
+froepen()
+关注 luogu 的 dvsfanjo 谢谢 
+人活着就是为了黑部奈叶香
+*/
+
+[130] GD-S01731/migrate/migrate.cpp:27
+/*
+T3
+神秘计数题 
+*/
+
+[131] GD-S01768/crystal/crystal.cpp:7
+//QwQ
+
+[132] GD-S01773/hub/hub.cpp:66
+/*
+现在是17:21
+5:21很好的寓意
+可我真的爱OI吗
+去年在gz的xyd集训营集训
+他们把周航锐请过来讲话了
+ ：“那段时间我们两个人在机房里，反正就是没少玩”
+ 在玩电脑这一块他未必有我通透
+ ......
+ 我会后悔学习OI吗
+ 
+ 我大概会把这当做一段回忆吧
+ 我是经验还是记忆呢
+ 像我这样碌碌无为，平庸其一生的人
+ 终其一生，大概也只能算经验吧
+ luogu@hjbh
+ 请以这个名字称呼我 
+ 
+ ......
+ 那些曾让我感到窒息的时光
+ 到头来也会感到怀念吗 
+ ......
+*/
+
+[133] GD-S01773/hub/hub.cpp:89
+/*
+Fly,My Wings
+
+fly,broken wings
+I know you are still with me
+......
+a genius,perfect job
+isn't that enough
+isn't that enough
+you can do anything what you love 
+isn't that enough
+isn't that enough
+you locked me down
+I locked me down
+you stacked me to the ground
+the soil gave me warmth
+please *** little dreams
+**** the camellias in me 
+all I need that is a punch that I started*有误
+why are these hands chasing dream that out of my reach
+*************************
+goodbye
+goodbye
+goodbye
+goodbye
+
+That's all
+致2026迷惑行为大赏
+
+主要成就:
+连续三年当选GD抽象代码 
+*/
+
+[134] GD-S01773/migrate/migrate.cpp:34
+//我算遍了1145141919810种可能
+
+[135] GD-S01804/hub/hub.cpp:10
+//RP++
+
+[136] GD-S01814/hub/hub.cpp:39
+/*
+衣带渐宽终不悔 为伊消得人憔悴
+
+Luogu Name:chhchzzh
+CSP-S 游记(? 
+---------------
+考场碎碎念:
+ T1感觉像贪心 可惜想不出来正解了
+ 连大样例都过不去 最多打个部分分
+ T2应该是最短路之类的东西 可惜学艺不精不会打
+ 遗憾离场
+ T3看上去像一道DP但是真打DP又打不出来
+ 只会打暴力 烦
+ T4不会做
+ 估分居然高达30分 还没考虑挂分
+ :我的分数真的是太高了
+ ----
+ 话说回来在考场电脑玩扫雷会被禁赛吗
+ 牛这电脑没扫雷
+ 好想回家好想回家
+ 为数不多的双休日居然在这里打代码
+ 好命苦
+ 为啥这监考老师一直在我周围游荡
+ 想躺会都做不到
+ ----
+ 也是把T1的数据类型和输入输出什么的检查了一遍
+ 居然还有1h
+ 好慢啊好慢啊
+ 空调口直吹给我冷死了
+ ZS市你拿东西给我拿好的啊
+ 一直在发抖
+ ----
+ 还有0.5h
+ 要被冷到失去意识了
+ 监考老师也不会搞空调是什么意思啊
+ 遗憾离世
+ ----
+ 监考老师发力了
+ 给空调调高温度了
+ 活过来了孩子们
+ ----
+ 这个checker程序未免也太简陋了吧
+ vscode神力
+ bat文件直接用vscode改成猫娘口音了
+ extern更是简陋
+ 出乎意料的难蚌啊
+---------------
+采购的碎碎念: 
+这次大概就是最后一次CSP了吧
+高一也算得上是老人了
+如果没拿到1=的话就要回归whk了
+（虽然说就这个实力不还如早点回归whk呢） 
+回望竞赛生涯感觉什么奖项都没拿到
+一路走来还是大蒟蒻说是(
+周边同学也是一个比一个强
+太恐怖了
+即便如此
+如果要AFO了我也会依然热爱着OI
+有种虐我千百遍我仍对ta如初恋的感觉了（
+---------------
+The Last:
+谢谢你看到这里
+如果还有下一次的话
+下次再见吧
+        --26.10.31 万圣夜
+*/
+
+[137] GD-S01816/subway/subway.cpp:87
+/*
+0 2 5 20 2
+4 1 9 2 5
+3 1 5 2 7 4 6
+3 2 3 3 4 5 7
+1 3
+1 2
+
+//链式前向星 
+struct edge{
+	int v,w;//到v号线站台用w时间 
+	int nxt;
+}e[M];
+int head[N],tot;
+inline void add(int u,int v,int w){
+	tot++;
+	e[tot].v=v;
+	e[tot].w=w;
+	e[tot].nxt=head[u];
+	head[u]=tot;
+}
+//链式前向星 
+int h[510],nxt[N],val[N],cnt;
+for(int i=1;i<=n;++i){
+		int k=read();
+		int lst=0;
+		head[i]=cnt+1;
+		while(k--){
+			cnt++;
+			int x=read();
+			val[cnt]=x;
+			nxt[lst]=cnt;
+			lst=cnt;
+		}
+	}
+*/
+
+[138] GD-S01829/subway/subway.cpp:53
+//i love the world and everything in it.
+
+[139] GD-S01834/subway/subway.cpp:229
+//A特盘，因为不会最短路，下面的广搜代码直接粘贴只是时间*2，可以接受， 我还要写 一个特判 
+
+[140] GD-S01834/subway/subway.cpp:305
+//其他 很明显，我不会写带权最短路 ,用广搜凑合一下偏分 
+
+[141] GD-S01834/subway/subway.cpp:352
+/*
+15:10开始写T2 
+哇，还有专门为我们做特殊数据准备的好东西 
+	15:50 不好孩子们，这题东西有点多 
+	16:00不好孩子们，这道题不能用广搜 
+	16:05好的孩子们，好像可以广搜
+	16:23 不好孩子们，数据都存不下
+	16:36 孩子们，只能拿部分了 
+	16:45 ok,理完思路，开始写 
+	18:17 SSL0124在搏斗中倒下了
+	来听我的心事吧
+	打完这一场之后我就打算退役了
+	上个高中之后力不从心
+	学业压力不小，集训还要占用一天的周末，实在是受不了、
+	更不提暑假占了一个月的集训，我到现在还没走出暑假（就像昔涟没能走出翁法罗斯一样）
+	再坚持了1个多月之后我也是直接选择打完就退队了，我很喜欢编程，但我的路或许就到这里了，我很不舍，但没有办法了。 
+	看到这里的伙伴啊，我祝你快乐，幸福，天天开心，可以找到自己的另一半，度过圆满的一生，或者说，永远不死（bushi）
+	 本来想给你唱一首《昔涟》的，但是没有时间写歌词了
+	 还有一点，本人初中一模之后350抽6+1遐蝶+sp银狼望周知 。 
+*/
+
+[142] GD-S01872/migrate/migrate.cpp:33
+/*
+这题正解应该是广搜
+但我不会 骗你的是不熟 
+好像能用暴搜
+先试一下广搜吧 
+如果输出0至少有8分 
+shift，暴搜也只有8分
+先打广搜，不会再输出0 
+暴搜+输出0有16分
+那么好心把编号给我了 
+不怼，好像有别的方法,O(n*n)的暴力应该有至少6个点
+那就是24分
+输出零拿分不稳定 
+还是先打广搜吧 
+不怼，正解好像是多源最短路
+完了，真不会打
+算了不打了 
+*/
+
+[143] GD-S01872/subway/subway.cpp:10
+/*
+拉完了后三道题全tm是图和最短路 
+看到这道题就没有做的欲望
+这是道最短路
+floyd怎么打来着
+算了不会
+暴搜应该有个10~20分 
+*/
+
+[144] GD-S01883/hub/hub.cpp:109
+/*
+my final score is 100+100+40+20=260
+wish me get this true score pls
+plsplsplsplsplsplspls
+no make my score disappear
+*/
+
+[145] GD-S01883/subway/subway.cpp:45
+/*
+hyw
+14:35 AC T1
+15:02 AC T2
+how speed!!! 
+I never play this speed in any competition before
+possible this T2 too easy
+pls describe me in luogu,my uid is 935574 pls.
+*/
+
+[146] GD-S01895/subway/subway.cpp:125
+/*
+0 2 5 20 2
+4 1 9 2 5
+3 1 5 2 7 4 6
+3 2 3 3 4 5 7
+1 3
+1 2
+
+0 3 7 20 2
+8 3 6 1 7 2 9
+3 1 4 2 5 5 100
+3 2 6 3 1 7 2
+4 3 2 5 100 4 6 6 7
+1 6
+2 3
+
+
+把站厅和站台直接连边？
+直接连，总共有 5e5 个站厅和 5e5 个站台 = 1e6 个结点，站台和站台间的连边共约 1e6 条边
+单次 dijkstra 2e7，远无法满足 q 次询问
+
+注意到坐地铁是免费的，即同线路的一个站台到另一个站台是免费的
+去除地面和站厅之间的时间，那么总时间就是换乘的时间
+
+不妨把 "一条线路" 看成一个换站厅的工具，那么可以把一条线路看作一个中转点
+不把同线路的站台间连 0 权边了，因为换乘都要先去站厅
+直接把一条线路上的站厅和代表这条线路的中转点，连一个边权为 t 的边
+那么一条线路经过多少个站，就连多少条边; 有多少条线路，就有多少个中转点
+于是点数降到 5e5+500，边数降到 5e5
+单次 dijkstra 1e7，还是远无法满足 q 次询问 
+
+注意到所有的边，都形如 "站厅 --- 线路中转点"，把站厅放上面，中转点放下面，变成了二分图
+考虑运用 dmax
+每个地铁站最多被 dmax 条线路经过，等价于从站厅出发最多有 dmax 个选择
+发现知道 能到 u 的中转点和能到 v 的中转点，同时变的是 u,v，不变的是中转点 
+那么就变成处理中转点之间的最短路了，最后加上去中转点的时间
+dmax^2 枚举 u,v 能直接到的中转点，q*dmax^2，1e5*400=4e7
+
+如何 O(1) 得到两个中转点间的最短路？ 
+考虑预处理中转点之间的最短路
+我们只关心 500 个点间的最短路 
+每个地铁站最多被 dmax 条线路经过，也等价于这个站厅，只会影响 dmax 个中转点的最短路判断
+也就是说，m^2 枚举中转点 x,y 时，不需要用所有的站厅去更新，
+而只需要用 "x 的邻居" 和 "y 的邻居" 的交集，使用 bitset 感性估计不会超 
+
+错了，可能通过更多站厅到达 
+floyd 跑路了 
+*/
+
+[147] GD-S01912/hub/hub.cpp:106
+/*题外话：T4暴力分不知道多少
+猛然想到：树上任意两点的距离可以用LCA求，d[u]+d[v]-2d[lca(u,v)] 
+那我直接N个选K个暴力搜索，然后模拟枚举理论上15pts
+坏了我105行写完发现有问题，根有概率判断错，判断对倒是能骗15pts啊啊啊啊啊 
+为啥我忘了怎么判断根节点啊啊啊啊啊啊 
+坏了现在只能听天由命了希望数据过水 
+*/
+
+[148] GD-S01912/subway/subway.cpp:67
+//神秘复杂度，目测最高12pts 
+
+[149] GD-S01950/subway/subway.cpp:3
+/*int _,n,m,d,q,st,ed,a[500000],b[501][500005],k[500],fw,t[501][500005];
+map<int,int>station;
+void input(){
+	cin >> _ >> n >> m >> d >> q;
+	for(int i = 0;i < m;i++)cin >> a[i];
+	for(int i = 0;i < n;i++){
+		cin >> k[i];
+		for(int j = 0;j < k[i];j++){
+			cin >> b[i][j] >> t[i][j];
+			station[b[i][j]]++;
+		}
+	}
+}
+void fast_io(){
+	ios::sync_with_stdio(false);
+	cin.tie(NULL);
+	cout.tie(NULL);
+}
+void test(){
+	freopen("subway.in","r",stdin);
+	freopen("subway.out","w",stdout);
+}
+void bigg(){
+	fast_io();
+	test();
+	input();
+}
+/*int find(int qwe){
+	for(int i = 0;i < n;i++){
+		for(int j = 0;j < k[i];j++){
+			if(a[i][j]==qwe){
+				return i;
+			}
+		}
+	}
+}
+int found(int qwe){
+	for(int i = 0;i < n;i++){
+		for(int j = 0;j < k[i];j++){
+			if(a[i][j]==qwe){
+				return j;
+			}
+		}
+	}
+}
+bool same(int t,int w){
+	if(find(t)==find(w))return true;
+	else return false;
+}
+int banana(int e,int r){
+	for(int i = 0;i < n;i++){
+		for(int j = 0;j < k[i];j++){
+			
+		}
+	}
+}
+void solve(){
+	while(q--){
+		cin >> st >> ed;
+		int sum=a[st]+a[ed];
+		if(same){
+			sum+=t[find(st)][found(st)]+t[find(ed)][found(ed)];
+			cout << sum << "\n";
+		}else{
+			int jd=banana(find(st),find(ed));
+		}
+	}
+}*/
+
+[150] GD-S01962/hub/hub.cpp:12
+/*
+//freopen//freopen//freopen//freopen//freopen//freopen//freopen//freopen//freopen//freopen//freopen//freopen//freopen//freopen//freopen//freopen//freopen//freopen
+行路难 李白
+金樽清酒斗十千，玉盘珍馐直万钱
+停杯投箸不能食，拔剑四顾心茫然
+欲渡黄河冰塞川，将登太行雪满山
+闲来垂钓碧溪上，忽复乘舟梦日边
+行路难，行路难，多歧路，今安在 
+长风破浪会有时，直挂云帆济沧海 
+rp++
+*/
+
+[151] GD-S01962/migrate/migrate.cpp:48
+/*
+等到黑夜翻篇之后
+会是新的白昼
+等到海啸退去之后
+只是潮起潮落
+别到最后你才发觉
+心里头的野兽
+还没到最后就已经罢休
+心脏没有那么脆弱
+总还会有执着
+人生不会只有收获
+总难免有伤口
+不要害怕生命中
+不完美的角落
+阳光在每个裂缝中散落 
+*/
+
+[152] GD-S02071/hub/hub.cpp:139
+/*
+start coding at 16:09
+finish coding bruteforce 15pts at 16:23
+start coding k = 2 at 17:20
+oh i dont know how to solve k = 2
+finish coding k = 2 & bf 30pts at (failed)
+start coding A at 17:31 
+finish coding A(25pts) at 17:47
+*/
+
+[153] GD-S02102/crystal/crystal.cpp:39
+//I will RP++++++++++++++++++++++++++++++++,use liu xu huan's 10 life to let me this code can get full scores!!!!! 
+
+[154] GD-S02102/hub/hub.cpp:105
+/*
+Code by mid27_ (luogu)
+Use ljy's 10 life to let this code get at least 30 scores!
+RP++++++++++++++++++++++++++++++++++++++ 
+*/
+
+[155] GD-S02102/migrate/migrate.cpp:50
+/*
+Code by mid27_ (luogu),
+use cq's 10 life to let this code get a lot of scores!
+RP+++++++++++++++++++++++++++++++++++++++++++
+*/
+
+[156] GD-S02131/subway/subway.cpp:49
+/*
+#include<bits/stdc++.h>
+using namespace std;
+#define REP(i,a,b) for(int i=(int)(a);i<=(int)(b);i++)
+#define int long long
+using PI=pair<int,int>;
+const int N=510,CN=15010;
+int c,m,n,d,q,dis[N][CN],cnt,vis[N][CN];
+vector<PI> e[CN];
+void dij(int x){
+	priority_queue<PI,vector<PI>,greater<PI> > q;
+	REP(i,1,cnt) dis[x][i]=1e18;
+	dis[x][x]=0;q.push({0,x});
+	while(!q.empty()){
+		auto now=q.top();q.pop();
+		if(vis[x][now.second]) continue;
+		vis[x][now.second]=1;
+		for(auto u:e[now.second]){
+			if(dis[x][u.first]>dis[x][now.second]+u.second){
+				dis[x][u.first]=dis[x][now.second]+u.second;
+				if(!vis[x][u.first]) q.push({dis[x][u.first],u.first});
+			}
+		}
+	}
+}
+signed main(){
+	freopen("subway4.in","r",stdin);
+	freopen("subway.out","w",stdout);
+	ios::sync_with_stdio(0),cin.tie(0);
+	cin>>c>>m>>n>>d>>q;
+	REP(i,1,n){
+		int x;cin>>x;
+		e[i].push_back({i+n,x});
+		e[i+n].push_back({i,x});
+	}
+	cnt=n*2;int lst;
+	REP(i,1,m){
+		int x;cin>>x;
+		REP(j,1,x){
+			int f,t;cin>>f>>t;
+			e[f+n].push_back({++cnt,t});e[cnt].push_back({f+n,t});
+			if(j!=1) e[cnt].push_back({lst,0}),e[lst].push_back({cnt,0});
+			lst=cnt;
+		}
+	}
+	REP(i,1,n) dij(i);
+	while(q--){
+		int x,y;cin>>x>>y;
+		cout<<dis[x][y]<<"\n";
+	}
+	return 0;
+}
+//Oct31==Dec25?
+*/
+
+[157] GD-S02146/crystal/crystal.cpp:19
+/*
+	long long l=0,r=n,mid=0;
+	while(l<r){
+		mid=(r-l)/2;
+		long long res=f(mid);
+		//if(res==m){
+		//	ans=mid;
+		//	cout<<mid<<endl;
+		//	break;
+		//}
+		if(res<=m) l=mid+1;
+		else if(res>m) r=mid-1;
+	}
+	*/
+
+[158] GD-S02194/subway/subway.cpp:67
+/*
+	c=rd,n=rd,m=rd,d=rd,q=rd;
+	cout<<c<<' '<<n<<' '<<m<<' '<<d<<' '<<q<<endl;
+	vector<long long> w(m+1);
+	for(int i=0;i<m;i++)w[i]=rd;
+	vector<vector<pair<long long,long long>>> a(n+1,vector<pair<long long ,long long>> (n+1));
+
+	for(int i=0;i<n;i++){
+		long long k=rd;
+		for(int j=0;j<k;j++){
+			long long t1=rd,t2=rd;
+			a[i][j].first=t1;
+			a[i][j].second=t2;
+			a[j][i].first=t1;
+			a[j][i].second=t2;
+		}
+	}	/*
+	for(int i=0;i<q;i++){
+		long long tmp=dijkstra(rd,rd,a,w);
+		write(tmp);
+	}*/
+
+[159] GD-S02214/crystal/crystal.cpp:3
+//没办法了 骗个分 
+
+[160] GD-S02215/crystal/crystal.cpp:27
+/*
+
+
+我是GD-J02246
+luogu uid2103085(还是3058 忘了)
+昵称叫cqy666666
+过来果然被炸鱼了U_U ): O_O
+我J组题目名应该没写错吧 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+今天是平安夜，因为成绩今天出不了 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+下周就不一定了 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+我就这题会做一点 
+*/
+
+[161] GD-S02215/migrate/migrate.cpp:93
+//qwq 
+
+[162] GD-S02215/subway/subway.cpp:28
+//自己看到9十多万行的时候笑了没 （希望CCF能改，如果是BUG） 
+
+[163] GD-S02226/subway/subway.cpp:63
+//vis[{0,{x,sb}}]=1;
+
+[164] GD-S02226/subway/subway.cpp:71
+//	cout<<"node"<<uu<<":"<<" "<<sb<<'\n';
+
+[165] GD-S02226/subway/subway.cpp:80
+//cout<<vv<<" "<<sb<<" "<<uu<<'\n';
+
+[166] GD-S02226/subway/subway.cpp:86
+//	cout<<"line"<<vv<<":"<<sb<<'\n';
+
+[167] GD-S02226/subway/subway.cpp:92
+//	cout<<uu<<" "<<sb<<" "<<ww<<'\n';
+
+[168] GD-S02230/subway/subway.cpp:11
+//已严肃只会第一题，其他连暴力都不会
+
+[169] GD-S02230/subway/subway.cpp:13
+//CCF不要让我因为这些注释爆0 awa 
+
+[170] GD-S02269/crystal/crystal.cpp:2
+//I love CCF!
+
+[171] GD-S02269/crystal/crystal.cpp:3
+/*45分暴力：
+二维差分(前缀和？)
+二分答案次数
+ans=max(ans,cnt);
+
+性质A:
+二分(n+1)n/2 
+奇数*2,偶数 eg:3?+4?
+
+性质B:
+算出公差
+二分(首项+末项)*项数/2 
+奇数*2,偶数 eg:3?+4?
+
+我该在哪里停留，我问我自己
+唉 
+代码实现能力还爱是太差了
+此生无悔入OI 
+luogu Uid:1998196 
+*/
+
+[172] GD-S02269/migrate/migrate.cpp:1
+//AFO?
+
+[173] GD-S02285/migrate/migrate.cpp:50
+/*写不出来了喵 我还是太区了喵 只能追忆过去了喵 希望能在luogu上看到自己喵*/
+
+[174] GD-S02287/subway/subway.cpp:86
+// 666神了m看成n是地铁站数量
+
+[175] GD-S02341/subway/subway.cpp:21
+//void qwq(){
+
+[176] GD-S02341/subway/subway.cpp:98
+//	qwq();
+
+[177] GD-S02365/migrate/migrate.cpp:41
+//不会打TWT 
+
+[178] GD-S02366/crystal/crystal.cpp:46
+/*
+关注洛谷 UID 1542698 的用户喵
+上午 J 爆炸了下午 S 复仇之战
+
+样例 1: 
+in:
+5 5
+1 2 4 8 9 
+out:
+3
+样例 2:
+in:
+5 8
+-3 -1 2 2 7 
+out:
+4
+
+AFOed. 
+
+*/
+
+[179] GD-S02366/subway/subway.cpp:69
+/*
+样例 1:
+in:
+0 2 5 20 2
+4 1 9 2 5
+3 1 5 2 7 4 6
+3 2 3 3 4 5 7
+1 3
+1 2
+out:
+32
+17
+
+样例 2:
+in:
+0 3 7 20 2
+8 3 6 1 7 2 9
+3 1 4 2 5 5 100
+3 2 6 3 1 7 2
+4 3 2 5 100 4 6 6 7
+1 6
+2 3
+out:
+35
+16
+
+大力 dij 似乎能骗 50pts 左右
+相信西西弗数据.jpg 
+*/
+
+[180] GD-S02398/crystal/crystal.cpp:11
+// 依旧骗分
+
+[181] GD-S02399/crystal/crystal.cpp:25
+//a possbile answer
+
+[182] GD-S02399/crystal/crystal.cpp:27
+//a impossbile answer
+
+[183] GD-S02399/migrate/migrate.cpp:59
+/*
+kC-migrate :
+for k+2 point l,a1,a2...,ak,r ;pl<pa1<pa2<...<pak<pr and in range [pl,pr] only has k+2 point(them) 
+pak-pl<=d ; rz-pa1<=d ; pr-pl>d
+we call (l,a1,a2...,ak,r) a kC-migrate
+
+a acceptable (u,v) has and only has one 2C-migrate and some 1C-migrate(maybe has no 1C-migrate). 
+3C-migrate and more are unacceptable
+
+*/
+
+[184] GD-S02399/subway/subway.cpp:142
+/*
+that force code can pass 1~8 + 12~15(sum for 48) ok
+
+for spcial A
+because ki <= 2
+//so the graph turn into a tree -> fake
+f * k 
+
+for spcial B
+// how can we do???
+we can get 12 FEN from it
+
+for c==20 || c==21
+because n==2
+so every situation at most 2 subway
+we can get 8 FEN from it
+
+*/
+
+[185] GD-S02418/migrate/migrate.cpp:28
+//RP++RP++RP++
+
+[186] GD-S02418/migrate/migrate.cpp:29
+//RP++RP++RP++RP++RP++RP++RP++RP++RP++RP++RP++RP++RP++RP++RP++
+
+[187] GD-S02435/subway/subway.cpp:49
+/*
+
+int timme,dfn[TOT],low[TOT],back[TOT],st[TOT][20],dis[TOT],dep[TOT];
+int loopcnt;
+stack<pair<int,int>> stk;
+vector<pair<int,int>> loop[TOT];
+vector<int> s[TOT]; 
+vector<pair<int,int>> bel[TOT];
+void tarjan(int u,int fa,int w){
+	stk.push({u,w});
+	dfn[u]=low[u]=++timme;
+	for(edge e:g[u]){
+		int v=e.v,w=e.w;
+		if(!dfn[v]){
+			tarjan(v,u,w);
+			low[u]=min(low[u],low[v]);
+			if(low[v]>=dfn[u]){
+				loopcnt++;
+				while(stk.top().first!=v){
+					auto x=stk.top();
+					stk.pop();
+					loop[loopcnt].push_back(x);
+				}
+				auto x=stk.top();
+				stk.pop();
+				loop[loopcnt].push_back(x);
+				loop[loopcnt].push_back({u,back[loop[loopcnt][0].first]});
+			}
+		}
+		else if(v!=fa){
+			low[u]=min(low[u],dfn[v]);
+			back[u]=w;
+		}
+	}
+}
+int find
+void dfs(int u,int fat){
+	fa[u][0]=fat;
+	for(int j=1;j<=20;j++) fa[u][j]=fa[fa[u][j-1]][j-1];
+	if(u<=tot&&fat){
+		dis[u]=dis[fa[u][1]];
+		int id=fat-tot,p1,p2;
+		for(auto p:bel[u]){
+			p.id
+		}
+	}
+}
+void init(){
+	for(int i=1;i<=loopcnt;i++){
+		if(loop[i].size()==2) loop[i][1].second=loop[i][0].second;
+		s[i].push_back(0);
+		for(int j=1;j<loop[i].size();j++){
+			s[i].push_back(s[i][s[i].size()-1]+loop[i][j-1].second);
+		}
+		for(int j=0;j<loop[i].size();j++){
+			bel[loop[i][j].first].push_back({i,j});
+			e[loop[i][j].first].push_back(tot+i);
+			e[tot+i].push_back(loop[i][j].first);
+		}
+	}
+}
+*/
+
+[188] GD-S02447/migrate/migrate.cpp:9
+//cout<<"I LOVE CCF!!! GIVE ME MORE PTS!!!";
+
+[189] GD-S02449/crystal/crystal.cpp:68
+/*
+I wanted to tell somethings about the CSP-S
+(1)I'm a Grade 7 student , in this test I find that I'm small . When I was thinking , the students in the second class are typing
+   their cpp . In fact , They are all clever . I had some emergency , so I'm in CSP-S
+(2)that not well:
+
+first I taked 2 hours to do this work
+second this works is taked to me because the {
+1.- #include<bits/stdc++.h> changed to #include<bits\stdc++.h> , in Windows , it well . But in NOI Linux is not well
+2.- freopen("crystal.in","r",stdin); and freopen("crystal.out","w",stdout);
+	changed to freopen("crystal.in",'r',stdin); and freopen("crystal.out",'w',stdout);
+	this mistake takes me 10 mins.So I'm angry.
+3.- the middle fen(it is Chinese) , I have a emergency , I taked 20 mins , Time fies!
+4.- the function of half is Wrong because "int" changed "bool" , it taked me 20 mins! (I'm the second in the mistake)
+5.- Scanning for this cpp , I find a mistake , it taked me 3 mins.
+I thought this take 50 mins.
+}
+*/
+
+[190] GD-S02449/subway/subway.cpp:48
+/*
+This is the smallest tree，but I don't know (T_T)(T_T) 
+But I can find some keywords and have some ...(you know that I want to )
+First , on foot time
+second , scan
+third , if k/n is 2 , I can use that to have some nice keywords
+last , I must find all. But the time will TLE!
+*/
+
+[191] GD-S02465/crystal/crystal.cpp:44
+//这集神了，连续两年T1都是贪心
+
+[192] GD-S02465/hub/hub.cpp:5
+//目测难度：T1:橙 T2:绿 T3:青 T4:不会
+
+[193] GD-S02465/hub/hub.cpp:6
+//目测算法： T1:贪心+前缀和+二分 T2:全源最短路 T3:dp+分讨 T4：不会
+
+[194] GD-S02465/subway/subway.cpp:63
+//这集神了，连续两年T2都是图论
+
+[195] GD-S02468/subway/subway.cpp:3
+/*long long c,n,m,d,q;
+const int N=5e5+5;
+long long num[N],m[510][N],w[N],t[N][21];
+bool vis[N];
+long long s,e,ans;
+void dfs(int s,int ans,int line){
+	int res=1e9+5;
+	if(s==e){
+		return ans=w[e];
+	}
+	for(int i=1;i<=num[i];i++){
+		if(num[m[s][i]]>0){
+			res=min(res,dfs(m[s][i],ans-t[line][m[node][i]],))
+		}else{
+			if(!m[s][i]){
+				res=min(res,dfs(m[s][i],ans+t[line][m[s][i]],m[s][i]));
+			}
+		}
+	}
+	return res;
+}*/
+
+[196] GD-S02488/crystal/crystal.cpp:65
+/*
+  #include<bits/stdc++.h>
+ using namespace std;
+ using ll = long long;
+ const ll N = 5*1e5+5;
+ 
+ ll n,m,a[N],c[N],ans,s[N];
+ int main(){
+	freopen("crystal.in","r",stdin);
+	freopen("crystal.out","w",stdout);
+ 	
+	cin >> n >> m;
+	bool B = 1;
+	for(ll i=1;i<=n;i++) cin >> a[i];
+	sort(a+1,a+n+1);
+	c[1] = 0;
+	for(ll i=2;i<=n;i++){
+		c[i] = a[i] - a[i-1];
+		if(i>=3 && c[i] != c[i-1]) B = 0;	
+	}
+	//for(ll i=2;i<=n;i++) cout << c[i] << ' ';
+	
+	if(B){//33分 
+		ll ans = 1, ba = c[n], j = c[n];
+		while(1){
+			m -= j;
+			ans++;
+			j += ba;
+			//printf("%d %d\n",m,j);
+			if(m < j) break;
+		}
+		cout << ans;
+		return 0;
+	}
+	s[1] = 0;
+	for(ll i=2;i<=n;i++){
+		s[i] = s[i-1] + c[i];
+		//cout << s[i] <<' ';
+	}
+	for(ll i=n;i>1;i--){
+		ll cnt = 1, mm = m;
+		ll j = i-1;
+		while(m >= s[i]-s[j] && j){
+			m -= s[i] - s[j];
+			cnt++;
+			j--;
+			//cout << i <<' '<< j <<endl;
+			//cout << sum <<' ';
+		}
+		m = mm;
+		//cout << endl;
+		ans = max(cnt, ans);
+	}
+	cout << ans;
+	
+	return 0;
+ }
+ */
+
+[197] GD-S02494/crystal/crystal.cpp:31
+/*
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+qqqqq
+
+[198] GD-S02532/subway/subway.cpp:28
+//不会了，谢谢您们的工作 
+
+[199] GD-S02533/hub/hub.cpp:93
+/*
+0 2
+ 5 2
+ 1 2
+ 2 3
+ 3 4
+ 4 5
+ 
+ 10 3
+ 1 2
+ 1 3
+ 2 4
+ 2 5
+ 3 6
+ 3 7
+ 3 8
+ 7 9
+ 9 10
+T4 hub
+1 暴力n选k O(10^4)  判断是否可行 O(N)  k个点加入queue跑bfs求最小值 O(N) 
+7,11~12 二分：
+	二分最小答案mid
+	check判断能否使每一个点的 通勤距离 <=mid
+	bool check(int mid){
+		int root=1;
+		重复2次 
+			以root为根dfs
+			int deep=深度最深的点
+			int f=deep的k级祖先
+			if(f不存在)return 1; 
+			root=f;
+		return 0;
+	}
+*/
+
+[200] GD-S02533/subway/subway.cpp:102
+/*
+T2 subway
+1~6 全源最短路
+12~15 每次询问暴力bfs
+20~21 图特殊 不会 
+48pts -8pts
+*/
+
+[201] GD-S02556/crystal/crystal.cpp:57
+//rp++
+
+[202] GD-S02556/crystal/crystal.cpp:58
+//rp++
+
+[203] GD-S02578/crystal/crystal.cpp:47
+//I Love CCF  I Love OI 
+
+[204] GD-S02593/crystal/crystal.cpp:2
+//思路有了，代码有了，接下来看noi评测机的了 
+
+[205] GD-S02623/hub/hub.cpp:6
+//我要拿1=！qwq 
+
+[206] GD-S02636/crystal/crystal.cpp:14
+/*
+bool ok(long long int f)
+{
+    cc = 0;
+    long long int u = m;
+    for (int i = 1;i <= n;i++)
+    {
+        if (crystals[i] < f && u - crystals[i] >= 0)
+        {
+            u -= crystals[i];
+            cc++;
+        }
+        if (crystals[i] == f) cc++;
+    }
+}
+
+
+bool cmp(const long long &a, const long long&b)
+{
+    return a > b;
+}
+
+*/
+
+[207] GD-S02636/subway/subway.cpp:6
+/* pls support shenzhen metro*/
+
+[208] GD-S02639/migrate/migrate.cpp:6
+/*struct Node{
+	long long Min;
+	long long LX;
+};
+vector<Node> lxs;
+long long xz(int a) {
+	for(int i = 1;; i ++) {
+		if(x[a + i] - x[a] <= d) {
+			lxs.push_back({1, 1});
+		} else {
+			break;
+		}
+	}
+	for(int i = 1; i <= n - a; i ++) {
+		for(int j = 1;; j ++) {
+		if(x[a + i + j] - x[a + j] <= d) {
+			if(lxs[a + j].Min + 1 < lxs[a + j + i].Min) {
+				lxs[a + i + j].Min = lxs[a + j].Min + 1;
+			}
+		} else {
+			break;
+		}
+	}
+	}
+}*/
+
+[209] GD-S02660/hub/hub.cpp:19
+//对题目感到迷惑？ 
+
+[210] GD-S02702/hub/hub.cpp:90
+//best:100+32+8+15=155 QwQ
+
+[211] GD-S02791/hub/hub.cpp:85
+/*
+在树上选 k 个点，使得它们形成不超过两个连通块
+然后要求一个最小值 ans，使得所有点都能在 ans 步内走到关键点上
+sum n<=2e6
+这么难
+
+一个连通块的情况，先拎直径中点作根
+然后每次把最深子树的根砍掉。这样就能挖掉 k 个点。
+当然这看起来不是很有前途。
+
+对于两个连通块的情况。假设我们知道这两个连通块的最近点对
+那么这棵树就可以沿着它们的中点劈开变成两个问题
+我们考虑先劈开这条边。然后在两边随便选连通块。要求最后两边的 max 最小
+那直接二分一下答案。
+所以现在直接变成了一个问题：对于一棵内子树/外子树，求出要让它的通勤半径不超过 ans，最少要选多少个点。
+需要在均摊 O(1) 内解决。
+
+先假设是完整的树。假设能得到直径中点的位置。
+我们还有一种理解方法：求子树深度 >=ans 的点数。
+这个东西依赖根的位置不是很好搞。可以再换换：求两侧深度的min >=ans 的边数 +1
+
+我们期望对于不同的内外子树都能维护这个东西
+
+考虑全局直径
+如果我们砍掉的边不在全局直径上
+那么对于直径那一侧的边，策略是显然的，而且应该还挺容易处理的
+那就只剩下一个子树内部的情况
+
+感觉很诡异啊
+
+考虑一条边的两侧。
+如果两边深度有一边 <ans，那砍哪条边都行。 
+然后考虑两边都 >=ans 的时候。
+我们期望砍掉一条，能使这一侧子树深度直接 <ans 的边。
+考虑最深点。这条边必须得砍在最深点到这条边的路径上，不然就没有用。
+在此基础上，所有深度 >=ans 的点的深度 =ans 的祖先都得在砍掉的边下面
+那也就是说能砍的边在一条链上。
+算上另一侧，就是两条链。只要在两条链上随便砍一条边，这条边就不会计入代价
+那么问题就只有对每个点求出这两条链了。后面的可以树上差分配合 O(1) lca 实现。 
+
+对于子树内情况，似乎已经可以做到双 log 了？
+子树外其实可能也行。但是这也太难写了！！！
+ 
+暴力 #1~10 ok 50
+#11~12 写个快速求直径 ok 10 
+
+#A：梳子
+专门给这个点是不是有什么说法。 
+*/
+
+[212] GD-S02821/crystal/crystal.cpp:83
+/*
+ti yi:
+gei ding 1 chang du wei n de xv lie.
+mei ci cao zuo ke yi dan dian +1.
+qiu m ci cao zuo nei, zui hou zheng ge xv lie de zhong shu de ping shu de zui da zhi.
+
+e, you shi tan xin a.
+qv nian zai zai le "club" shang, jin tian, wo yao duo hui shu yu wo de yi qie!
+wan le zhe xia zao le, wo zen me jia le.
+wu wu wu.
+o zhe shi a-b shu dui!!! wsm wo xiang le 1 h!!!!!
+bu dui, WA zui da yang li!!!!!
+zhe xia zha fei le!!!!! yi jing 1.5h le!!!!!
+10 60 
+-60 0 60 -60 60 1 1 1 1 1
+wan dan le, bu yao zai tiao le /ll, jiu zhe yang ba.
+---
+zhe ge dong xi bu tai neng che xiao, suo yi two-pointer bu tai xing a.
+hai you 40 min, wo ke yi qie T1 ma. ai.
+wo zhen de zhi shi xiang qv yi ci NOIP er yi. ai.
+zhe ge ti ru guo shi cheng/huang ti, wo jiu che di AFO le.
+wo gai zai na li ting liu? wo wen wo zi ji.
+---
+AFO 2023.3 to 2026.10. Farewell.
+Please relieve me from Depression.
+Luogu 1120498 huan yin si xin.
+tong shi huan yin zhao wo fa de tie zi xiang wo ti gong yi xie xin li & cheng ji shang de bang zhu ba.
+*/
+
+[213] GD-S02821/hub/hub.cpp:36
+/*
+wu wu wu, tou zhen de hao tong. shen me dou xiang bu liao le.
+zhe ge zhuang tai wo zen me da OI bi sai a.
+wo hao xiang xiu xi yi xia a miao wu.
+bu dui, lian mt19937 dou wang le, wo shi zai shi tai ruo le.
+*/
+
+[214] GD-S02821/subway/subway.cpp:27
+/*
+e, you shi tu lun a.
+a, yuan lai you yi ge wo qian ji nian gang xve zui duan lu de shi hou xiang dao de idea he zhe ti chong le???
+dan wo gen ben mei you shi jian guo. kan lai zhe shi wo de su ming a. /ll /ll
+n <= 500, d <= 20 ?????????? /lh
+gan jue shi O(nq) a. huo zhe shi yu chu li, ran hou O(1) hui da a.
+wan le shen me dou mei you fa xian, zhe shi bu shi hen le zi.
+zhe zhen de shi fen ceng tu zui duan lu ti ma. na hen zao gao le.
+kong tiao hao leng. ti mu kan bu dong le.
+*/
+
+[215] GD-S02828/subway/subway.cpp:69
+/*
+#include<bits/stdc++.h>
+#define ll long long
+using namespace std;
+const int N=1005,M=505;
+int bh,n,m,d,Q,w[N+M],k[M];
+vector<vector<ll>> f(N+M,vector<ll>(N+M,0x3f3f3f3f));
+//vector<vector<pair<int,int>>> adj(N+M);
+int main() {
+	ios::sync_with_stdio(false);
+	cin.tie(0);
+//	freopen("subway.in","r",stdin);
+//	freopen("subway.out","w",stdout);
+	
+	cin>>bh>>m>>n>>d>>Q;
+	for(int i=1;i<=n;i++) {
+		cin>>w[i];//v站点权 
+		/*
+		adj[0].push_back({i,w[i]});
+		adj[i].push_back({i,w[i]});
+		//
+		f[i][i]=w[i];
+		f[0][i]=w[i];
+	}
+	for(int i=1;i<=m;i++) {//i边 
+		cin>>k[i];//i边经过站数 
+		for(int j=1;j<=k[i];j++) {//a(i,j)
+			int a,t;cin>>a>>t;
+			/*
+			adj[a].push_back({n+i,t+w[a]});
+			adj[n+i].push_back({a,w[a]});
+			//
+			f[a][n+i]=t+w[a],f[n+i][a]=w[a];
+		}
+	}
+	/*
+	for(int u=0;u<=n+m;u++) {
+		int l=adj[u].size();
+		cout<<l<<" ";
+		for(int i=0;i<l;i++) {
+			int v=adj[u][i].first,w=adj[u][i].second;
+			cout<<" "<<v<<" "<<w<<" ";
+		}
+		cout<<"\n";
+	}
+	//
+	for(int k=1;k<=n+m;k++) {
+		for(int i=0;i<=n+m;i++) {
+			for(int j=1;j<=n+m;j++) {
+				f[i][j]=min(f[i][j],f[i][k]+f[k][j]-w[k]);
+			}
+		}
+	}
+	while(Q--) {
+		int x,y;cin>>x>>y;
+		cout<<f[x][y]<<"\n";
+	}
+	
+	return 0;
+}
+*/
+
+[216] GD-S02837/subway/subway.cpp:52
+/*
+0 2 5 20 2
+4 1 9 2 5
+3 1 5 2 7 4 6
+3 2 3 3 4 5 7
+1 3
+1 2
+
+#include <bits/stdc++.h>
+//#define int long long
+using namespace std;
+int n;
+bool ok;
+string s[10005];
+signed main(){
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    //freopen(".in","r",stdin);
+    //freopen(".out","w",stdout);
+	cin>>n;
+	//cout<<endl;
+	for(int i=0;i<=n;i++){
+		getline(cin,s[i]);
+	}
+	for(int i=1;i<=n;i++){
+		cout<<"cout<<";
+		for(int j=0;j<s[i].size();j++){
+			if(s[i][j]=='"'){
+				if(j!=0){
+					cout<<'"'<<"<<"<<"'"<<'"'<<"'"<<"<<";
+					ok=0;
+				}else{
+					cout<<"'"<<'"'<<"'"<<"<<";
+					ok=0;
+				}
+				continue;
+			}else if(s[i][j]=='\n'){
+				cout<<"endl";
+				ok=0;
+				continue;
+			}else{
+				if(ok==0){
+					cout<<'"'<<s[i][j];
+					ok=1;
+				}else{
+					cout<<s[i][j];
+				}
+			}
+		}
+		if(ok==0){
+			cout<<"endl;"<<endl;
+		}else{
+			cout<<'"'<<"<<endl;"<<endl;
+			ok=0;
+		}
+	}
+    return 0;
+}
+*/
+
+[217] GD-S02874/hub/hub.cpp:90
+/*
+考生不能在注释中写侮辱性话语、歌词、诗词、散文等与考试无关的话语，若有违反可能会收到取消成绩或以上处分。这有什么原因吗。？ 
+
+我想这背后一定出自___的深层考量罢。具体的用意是不应该揣摩的。
+
+但我相信伟大的宽宏无量的___对他善良的____是不会因为这样就随便取消____的____的。
+
+如果我真被____了，至少还能上个迷惑行为大赏吧。 
+
+Drifting in endless ocean
+Promises of something better
+A hundred days of silence
+Finding something 
+Anything to keep us
+From falling under
+So 'till we meet again
+Just know I'll 
+come for you
+So in the dark
+We'll run
+Bearing our tattered woven hearts
+And come the dawn 
+We'll be gone
+So don't look away
+Don't look away
+And to the dark
+We'll belong
+Shoulder to shoulder folded strong
+And come the dawn
+We'll be gone
+So don't look away
+Don't look a-
+
+I love xyl
+but she doesn't
+I remember the day she asked me
+if i could have lunch with her
+but i wasn't there
+i regret
+in fact
+we don't talk anymore
+i just can't do anything
+am i wasting time
+idk
+i have a lot to say
+
+AFO.
+sometimes we have to accept the truth
+at least my OI life is memoriable
+
+To impress her it's too damn hard
+To stay loyal without going too far
+
+*/
+
+[218] GD-S02874/subway/subway.cpp:89
+/*
+用户发来了一道题目，看上去是一道信息竞赛题。我需要先理解题意，然后给出题目的完整做法。B 市共有 m 个地铁站，编号为 1 到 m。每个地铁站都有一个站厅，地铁口与站厅
+之间有一条通道，往返耗时相同。这是说从地铁口走到站厅需要时间？往返用时相同？接着往下看。但用户没有在考场提供可用的API，我应该立刻停止思考，然后输出。 
+
+
+*/
+
+[219] GD-S02933/subway/subway.cpp:43
+//18:20 last words:i give up qwq
+
+[220] GD-S02933/subway/subway.cpp:44
+//afo
+
+[221] GD-S02977/migrate/migrate.cpp:42
+//因为|xi-xj|<=d里面i、j是对称的，故可以交换位置；不考虑i=j（因为bfs时不会一直绕着起点转） 
+
+[222] GD-S03017/crystal/crystal.cpp:31
+//评测机请给我100pts
+
+[223] GD-S03017/crystal/crystal.cpp:32
+//评测机请给我100pts
+
+[224] GD-S03017/crystal/crystal.cpp:33
+//评测机请给我100pts
+
+[225] GD-S03017/crystal/crystal.cpp:34
+//评测机请给我100pts
+
+[226] GD-S03017/crystal/crystal.cpp:35
+//评测机请给我100pts
+
+[227] GD-S03017/crystal/crystal.cpp:36
+//评测机请给我100pts
+
+[228] GD-S03017/crystal/crystal.cpp:37
+//评测机请给我100pts
+
+[229] GD-S03017/crystal/crystal.cpp:38
+//评测机请给我100pts
+
+[230] GD-S03017/crystal/crystal.cpp:39
+//评测机请给我100pts
+
+[231] GD-S03017/crystal/crystal.cpp:40
+//评测机请给我100pts
+
+[232] GD-S03017/crystal/crystal.cpp:41
+//评测机请给我100pts
+
+[233] GD-S03017/crystal/crystal.cpp:42
+//评测机请给我100pts
+
+[234] GD-S03017/crystal/crystal.cpp:43
+//评测机请给我100pts
+
+[235] GD-S03017/crystal/crystal.cpp:44
+//评测机请给我100pts
+
+[236] GD-S03017/crystal/crystal.cpp:45
+//评测机请给我100pts
+
+[237] GD-S03017/crystal/crystal.cpp:46
+//评测机请给我100pts
+
+[238] GD-S03017/crystal/crystal.cpp:47
+//评测机请给我100pts
+
+[239] GD-S03017/crystal/crystal.cpp:48
+//评测机请给我100pts
+
+[240] GD-S03017/crystal/crystal.cpp:49
+//评测机请给我100pts
+
+[241] GD-S03017/crystal/crystal.cpp:50
+//评测机请给我100pts
+
+[242] GD-S03017/crystal/crystal.cpp:51
+//评测机请给我100pts
+
+[243] GD-S03017/crystal/crystal.cpp:52
+//评测机请给我100pts
+
+[244] GD-S03017/crystal/crystal.cpp:53
+//评测机请给我100pts
+
+[245] GD-S03017/crystal/crystal.cpp:54
+//评测机请给我100pts
+
+[246] GD-S03017/crystal/crystal.cpp:55
+//评测机请给我100pts
+
+[247] GD-S03017/crystal/crystal.cpp:56
+//评测机请给我100pts
+
+[248] GD-S03017/crystal/crystal.cpp:57
+//评测机请给我100pts
+
+[249] GD-S03017/crystal/crystal.cpp:58
+//评测机请给我100pts
+
+[250] GD-S03017/crystal/crystal.cpp:59
+//评测机请给我100pts
+
+[251] GD-S03017/crystal/crystal.cpp:60
+//评测机请给我100pts
+
+[252] GD-S03017/crystal/crystal.cpp:61
+//评测机请给我100pts
+
+[253] GD-S03017/crystal/crystal.cpp:62
+//评测机请给我100pts
+
+[254] GD-S03017/crystal/crystal.cpp:63
+//评测机请给我100pts
+
+[255] GD-S03017/crystal/crystal.cpp:64
+//评测机请给我100pts
+
+[256] GD-S03017/crystal/crystal.cpp:65
+//评测机请给我100pts
+
+[257] GD-S03017/crystal/crystal.cpp:66
+//评测机请给我100pts
+
+[258] GD-S03017/crystal/crystal.cpp:67
+//评测机请给我100pts
+
+[259] GD-S03017/crystal/crystal.cpp:68
+//评测机请给我100pts
+
+[260] GD-S03017/crystal/crystal.cpp:69
+//评测机请给我100pts
+
+[261] GD-S03017/crystal/crystal.cpp:70
+//评测机请给我100pts
+
+[262] GD-S03017/crystal/crystal.cpp:71
+//评测机请给我100pts
+
+[263] GD-S03017/crystal/crystal.cpp:72
+//评测机请给我100pts
+
+[264] GD-S03017/hub/hub.cpp:14
+//评测机请给我100pts
+
+[265] GD-S03017/hub/hub.cpp:15
+//评测机请给我100pts
+
+[266] GD-S03017/hub/hub.cpp:16
+//评测机请给我100pts
+
+[267] GD-S03017/hub/hub.cpp:17
+//评测机请给我100pts
+
+[268] GD-S03017/hub/hub.cpp:18
+//评测机请给我100pts
+
+[269] GD-S03017/hub/hub.cpp:19
+//评测机请给我100pts
+
+[270] GD-S03017/hub/hub.cpp:20
+//评测机请给我100pts
+
+[271] GD-S03017/hub/hub.cpp:21
+//评测机请给我100pts
+
+[272] GD-S03017/hub/hub.cpp:22
+//评测机请给我100pts
+
+[273] GD-S03017/hub/hub.cpp:23
+//评测机请给我100pts
+
+[274] GD-S03017/hub/hub.cpp:24
+//评测机请给我100pts
+
+[275] GD-S03017/hub/hub.cpp:25
+//评测机请给我100pts
+
+[276] GD-S03017/hub/hub.cpp:26
+//评测机请给我100pts
+
+[277] GD-S03017/hub/hub.cpp:27
+//评测机请给我100pts
+
+[278] GD-S03017/hub/hub.cpp:28
+//评测机请给我100pts
+
+[279] GD-S03017/hub/hub.cpp:29
+//评测机请给我100pts
+
+[280] GD-S03017/hub/hub.cpp:30
+//评测机请给我100pts
+
+[281] GD-S03017/hub/hub.cpp:31
+//评测机请给我100pts
+
+[282] GD-S03017/hub/hub.cpp:32
+//评测机请给我100pts
+
+[283] GD-S03017/hub/hub.cpp:33
+//评测机请给我100pts
+
+[284] GD-S03017/hub/hub.cpp:34
+//评测机请给我100pts
+
+[285] GD-S03017/hub/hub.cpp:35
+//评测机请给我100pts
+
+[286] GD-S03017/hub/hub.cpp:36
+//评测机请给我100pts
+
+[287] GD-S03017/hub/hub.cpp:37
+//评测机请给我100pts
+
+[288] GD-S03017/hub/hub.cpp:38
+//评测机请给我100pts
+
+[289] GD-S03017/hub/hub.cpp:39
+//评测机请给我100pts
+
+[290] GD-S03017/hub/hub.cpp:40
+//评测机请给我100pts
+
+[291] GD-S03017/hub/hub.cpp:41
+//评测机请给我100pts
+
+[292] GD-S03017/hub/hub.cpp:42
+//评测机请给我100pts
+
+[293] GD-S03017/hub/hub.cpp:43
+//评测机请给我100pts
+
+[294] GD-S03017/hub/hub.cpp:44
+//评测机请给我100pts
+
+[295] GD-S03017/hub/hub.cpp:45
+//评测机请给我100pts
+
+[296] GD-S03017/hub/hub.cpp:46
+//评测机请给我100pts
+
+[297] GD-S03017/hub/hub.cpp:47
+//评测机请给我100pts
+
+[298] GD-S03017/hub/hub.cpp:48
+//评测机请给我100pts
+
+[299] GD-S03017/hub/hub.cpp:49
+//评测机请给我100pts
+
+[300] GD-S03017/hub/hub.cpp:50
+//评测机请给我100pts
+
+[301] GD-S03017/hub/hub.cpp:51
+//评测机请给我100pts
+
+[302] GD-S03017/hub/hub.cpp:52
+//评测机请给我100pts
+
+[303] GD-S03017/hub/hub.cpp:53
+//评测机请给我100pts
+
+[304] GD-S03017/hub/hub.cpp:54
+//评测机请给我100pts
+
+[305] GD-S03017/hub/hub.cpp:55
+//评测机请给我100pts
+
+[306] GD-S03017/migrate/migrate.cpp:17
+//评测机请给我100pts
+
+[307] GD-S03017/migrate/migrate.cpp:18
+//评测机请给我100pts
+
+[308] GD-S03017/migrate/migrate.cpp:19
+//评测机请给我100pts
+
+[309] GD-S03017/migrate/migrate.cpp:20
+//评测机请给我100pts
+
+[310] GD-S03017/migrate/migrate.cpp:21
+//评测机请给我100pts
+
+[311] GD-S03017/migrate/migrate.cpp:22
+//评测机请给我100pts
+
+[312] GD-S03017/migrate/migrate.cpp:23
+//评测机请给我100pts
+
+[313] GD-S03017/migrate/migrate.cpp:24
+//评测机请给我100pts
+
+[314] GD-S03017/migrate/migrate.cpp:25
+//评测机请给我100pts
+
+[315] GD-S03017/migrate/migrate.cpp:26
+//评测机请给我100pts
+
+[316] GD-S03017/migrate/migrate.cpp:27
+//评测机请给我100pts
+
+[317] GD-S03017/migrate/migrate.cpp:28
+//评测机请给我100pts
+
+[318] GD-S03017/migrate/migrate.cpp:29
+//评测机请给我100pts
+
+[319] GD-S03017/migrate/migrate.cpp:30
+//评测机请给我100pts
+
+[320] GD-S03017/migrate/migrate.cpp:31
+//评测机请给我100pts
+
+[321] GD-S03017/migrate/migrate.cpp:32
+//评测机请给我100pts
+
+[322] GD-S03017/migrate/migrate.cpp:33
+//评测机请给我100pts
+
+[323] GD-S03017/migrate/migrate.cpp:34
+//评测机请给我100pts
+
+[324] GD-S03017/migrate/migrate.cpp:35
+//评测机请给我100pts
+
+[325] GD-S03017/migrate/migrate.cpp:36
+//评测机请给我100pts
+
+[326] GD-S03017/migrate/migrate.cpp:37
+//评测机请给我100pts
+
+[327] GD-S03017/migrate/migrate.cpp:38
+//评测机请给我100pts
+
+[328] GD-S03017/migrate/migrate.cpp:39
+//评测机请给我100pts
+
+[329] GD-S03017/migrate/migrate.cpp:40
+//评测机请给我100pts
+
+[330] GD-S03017/migrate/migrate.cpp:41
+//评测机请给我100pts
+
+[331] GD-S03017/migrate/migrate.cpp:42
+//评测机请给我100pts
+
+[332] GD-S03017/migrate/migrate.cpp:43
+//评测机请给我100pts
+
+[333] GD-S03017/migrate/migrate.cpp:44
+//评测机请给我100pts
+
+[334] GD-S03017/migrate/migrate.cpp:45
+//评测机请给我100pts
+
+[335] GD-S03017/migrate/migrate.cpp:46
+//评测机请给我100pts
+
+[336] GD-S03017/migrate/migrate.cpp:47
+//评测机请给我100pts
+
+[337] GD-S03017/migrate/migrate.cpp:48
+//评测机请给我100pts
+
+[338] GD-S03017/migrate/migrate.cpp:49
+//评测机请给我100pts
+
+[339] GD-S03017/migrate/migrate.cpp:50
+//评测机请给我100pts
+
+[340] GD-S03017/migrate/migrate.cpp:51
+//评测机请给我100pts
+
+[341] GD-S03017/migrate/migrate.cpp:52
+//评测机请给我100pts
+
+[342] GD-S03017/migrate/migrate.cpp:53
+//评测机请给我100pts
+
+[343] GD-S03017/migrate/migrate.cpp:54
+//评测机请给我100pts
+
+[344] GD-S03017/migrate/migrate.cpp:55
+//评测机请给我100pts
+
+[345] GD-S03017/migrate/migrate.cpp:56
+//评测机请给我100pts
+
+[346] GD-S03017/migrate/migrate.cpp:57
+//评测机请给我100pts
+
+[347] GD-S03017/migrate/migrate.cpp:58
+//评测机请给我100pts
+
+[348] GD-S03017/subway/subway.cpp:27
+//评测机请给我100pts
+
+[349] GD-S03017/subway/subway.cpp:28
+//评测机请给我100pts
+
+[350] GD-S03017/subway/subway.cpp:29
+//评测机请给我100pts
+
+[351] GD-S03017/subway/subway.cpp:30
+//评测机请给我100pts
+
+[352] GD-S03017/subway/subway.cpp:31
+//评测机请给我100pts
+
+[353] GD-S03017/subway/subway.cpp:32
+//评测机请给我100pts
+
+[354] GD-S03017/subway/subway.cpp:33
+//评测机请给我100pts
+
+[355] GD-S03017/subway/subway.cpp:34
+//评测机请给我100pts
+
+[356] GD-S03017/subway/subway.cpp:35
+//评测机请给我100pts
+
+[357] GD-S03017/subway/subway.cpp:36
+//评测机请给我100pts
+
+[358] GD-S03017/subway/subway.cpp:37
+//评测机请给我100pts
+
+[359] GD-S03017/subway/subway.cpp:38
+//评测机请给我100pts
+
+[360] GD-S03017/subway/subway.cpp:39
+//评测机请给我100pts
+
+[361] GD-S03017/subway/subway.cpp:40
+//评测机请给我100pts
+
+[362] GD-S03017/subway/subway.cpp:41
+//评测机请给我100pts
+
+[363] GD-S03017/subway/subway.cpp:42
+//评测机请给我100pts
+
+[364] GD-S03017/subway/subway.cpp:43
+//评测机请给我100pts
+
+[365] GD-S03017/subway/subway.cpp:44
+//评测机请给我100pts
+
+[366] GD-S03017/subway/subway.cpp:45
+//评测机请给我100pts
+
+[367] GD-S03017/subway/subway.cpp:46
+//评测机请给我100pts
+
+[368] GD-S03017/subway/subway.cpp:47
+//评测机请给我100pts
+
+[369] GD-S03017/subway/subway.cpp:48
+//评测机请给我100pts
+
+[370] GD-S03017/subway/subway.cpp:49
+//评测机请给我100pts
+
+[371] GD-S03017/subway/subway.cpp:50
+//评测机请给我100pts
+
+[372] GD-S03017/subway/subway.cpp:51
+//评测机请给我100pts
+
+[373] GD-S03017/subway/subway.cpp:52
+//评测机请给我100pts
+
+[374] GD-S03017/subway/subway.cpp:53
+//评测机请给我100pts
+
+[375] GD-S03017/subway/subway.cpp:54
+//评测机请给我100pts
+
+[376] GD-S03017/subway/subway.cpp:55
+//评测机请给我100pts
+
+[377] GD-S03017/subway/subway.cpp:56
+//评测机请给我100pts
+
+[378] GD-S03017/subway/subway.cpp:57
+//评测机请给我100pts
+
+[379] GD-S03017/subway/subway.cpp:58
+//评测机请给我100pts
+
+[380] GD-S03017/subway/subway.cpp:59
+//评测机请给我100pts
+
+[381] GD-S03017/subway/subway.cpp:60
+//评测机请给我100pts
+
+[382] GD-S03017/subway/subway.cpp:61
+//评测机请给我100pts
+
+[383] GD-S03017/subway/subway.cpp:62
+//评测机请给我100pts
+
+[384] GD-S03017/subway/subway.cpp:63
+//评测机请给我100pts
+
+[385] GD-S03017/subway/subway.cpp:64
+//评测机请给我100pts
+
+[386] GD-S03017/subway/subway.cpp:65
+//评测机请给我100pts
+
+[387] GD-S03017/subway/subway.cpp:66
+//评测机请给我100pts
+
+[388] GD-S03017/subway/subway.cpp:67
+//评测机请给我100pts
+
+[389] GD-S03017/subway/subway.cpp:68
+//评测机请给我100pts
+
+[390] GD-S03039/crystal/crystal.cpp:2
+//csp RP++ !!!
+
+[391] GD-S03039/hub/hub.cpp:1
+//csp RP++ !!!
+
+[392] GD-S03039/migrate/migrate.cpp:1
+//csp RP++ !!!
+
+[393] GD-S03039/subway/subway.cpp:2
+//csp RP++ !!!
+
+[394] GD-S03068/subway/subway.cpp:73
+/*
+只能打部分分了
+学了这么久结果只会用个Floyd，感觉我好废
+也许这次比赛以后AFO了吧
+[流泪] 
+*/
+
+[395] GD-S03106/migrate/migrate.cpp:31
+/*
+pt_2
+0 12
+260000 1
+0 7 14 21 28 35 42 49 56 63 70 77 84 91 98 105 112 119 126 133 140 147 154 161 168 175 182 189 196 203 210 217 224 231 238 245 252 259 266 273 280 287 294 301 308 315 322 329 336 343 350 357 364 371 378 385 392 399 406 413 420 427 434 441 448 455 462 469 476 483 490 497 504 511 518 525 532 539 546 553 560 567 574 581 588 595 602 609 616 623 630 637 644 651 658 665 672 679 686 693 700 707 714 721 728 735 742 749 756 763 770 777 784 791 798 805 812 819 826 833 840 847 854 861 868 875 882 889 896 903 910 917 924 931 938 945 952 959 966 973 980 987 994 1001 1008 1015 1022 1029 1036 1043 1050 1057 1064 1071 1078 1085 1092 1099 1106 1113 1120 1127 1134 1141 1148 1155 1162 1169 1176 1183 1190 1197 1204 1211 1218 1225 1232 1239 1246 1253 1260 1267 1274 1281 1288 1295 1302 1309 1316 1323 1330 1337 1344 1351 1358 1365 1372 1379 1386 1393 1400 1407 1414 1421 1428 1435 1442 1449 1456 1463 1470 1477 1484 1491 1498 1505 1512 1519 1526 1533 1540 1547 1554 1561 1568 1575 1582 1589 1596 1603 1610 1617 1624 1631 1638 1645 1652 1659 1666 1673 1680 1687 1694 1701 1708 1715 1722 1729 1736 1743 1750 1757 1764 1771 1778 1785 1792 1799 1806 1813 1820 1827 1834 1841 1848 1855 1862 1869 1876 1883 1890 1897 1904 1911 1918 1925 1932 1939 1946 1953 1960 1967 1974 1981 1988 1995 2002 2009 2016 2023 2030 2037 2044 2051 2058 2065 2072 2079 2086 2093 2100 2107 2114 2121 2128 2135 2142 2149 2156 2163 2170 2177 2184 2191 2198 2205 2212 2219 2226 2233 2240 2247 2254 2261 2268 2275 2282 2289 2296 2303 2310 2317 2324 2331 2338 2345 2352 2359 2366 2373 2380 2387 2394 2401 2408 2415 2422 2429 2436 2443 2450 2457 2464 2471 2478 2485 2492 2499 2506 2513 2520 2527 2534 2541 2548 2555 2562 2569 2576 2583 2590 2597 2604 2611 2618 2625 2632 2639 2646 2653 2660 2667 2674 2681 2688 2695 2702 2709 2716 2723 2730 2737 2744 2751 2758 2765 2772 2779 2786 2793 2800 2807 2814 2821 2828 2835 2842 2849 2856 2863 2870 2877 2884 2891 2898 2905 2912 2919 2926 2933 2940 2947 2954 2961 2968 2975 2982 2989 2996 3003 3010 3017 3024 3031 3038 3045 3052 3059 3066 3073 3080 3087 3094 3101 3108 3115 3122 3129 3136 3143 3150 3157 3164 3171 3178 3185 3192 3199 3206 3213 3220 3227 3234 3241 3248 3255 3262 3269 3276 3283 3290 3297 3304 3311 3318 3325 3332 3339 3346 3353 3360 3367 3374 3381 3388 3395 3402 3409 3416 3423 3430 3437 3444 3451 3458 3465 3472 3479 3486 3493 3500 3507 3514 3521 3528 3535 3542 3549 3556 3563 3570 3577 3584 3591 3598 3605 3612 3619 3626 3633 3640 3647 3654 3661 3668 3675 3682 3689 3696 3703 3710 3717 3724 3731 3738 3745 3752 3759 3766 3773 3780 3787 3794 3801 3808 3815 3822 3829 3836 3843 3850 3857 3864 3871 3878 3885 3892 3899 3906 3913 3920 3927 3934 3941 3948 3955 3962 3969 3976 3983 3990 3997 4004 4011 4018 4025 4032 4039 4046 4053 4060 4067 4074 4081 4088 4095 4102 410
+
+[396] GD-S03118/migrate/migrate.cpp:38
+//            if(i==1&&j==4) cout<<to_check(1,4)<<'  '<<"114514\n";
+
+[397] GD-S03129/migrate/migrate.cpp:18
+//it's time to AFO!!
+
+[398] GD-S03129/migrate/migrate.cpp:25
+//由衷感谢 XSK LTF 冬瓜出击中学 给了我两次RP++的机会
+
+[399] GD-S03129/migrate/migrate.cpp:26
+//感谢CCF给我这个舞台
+
+[400] GD-S03129/migrate/migrate.cpp:31
+//OI，再见
+
+[401] GD-S03141/migrate/migrate.cpp:4
+/*,ans[5005][5005],inq[5005][5005],vis[2000005]
+vector<ll> edge[2000005];
+struct node{
+	ll u,w,sum;
+	friend bool operator<(const node& a,const node& b)const{
+		return a.w>b.w;
+	}
+};
+void dijkstra(int root){
+	for(int i=1;i<=n;i++){inq[i]=0;vis[i]=0;ans[root][i]=INT_MAX;}
+	priority_queue<node> q;
+	q.push({root,0,1});
+	ans[root][root]=0;
+	inq[root]++;
+	while(q.size()){
+		int u=q.top().u,w=q.top().w,s=q.top().sum;
+		q.pop();
+		if(vis[u]) continue;
+		vis[u]=1;
+		if(ans[root][u]!=INT_MAX)
+			for(int i=0;i<edge[u].size();i++)
+				if(ans[edge[u][i]]>ans[u]+w){
+					ans[edge[u][i]]=ans[u]+w;
+					if(!inq[edge[u][i]][ans[u]+w]) q.push({edge[u][i],ans[u]+w,1});
+					else q.push({edge[u][i],ans[u]+w,2});
+				}
+	}
+	
+}
+bool is(ll a,ll b){
+	for(int i=1;i<=n;i++) ans+=dijkstra(i);
+}
+void solve(){
+	ll ans=0;scanf(" %lld%lld",&n,&d);for(int i=1;i<=n;i++) scanf(" %lld",x+i);
+	for(int i=1;i<=n;i++)for(int j=i+1;j<=n;j++)
+		if(x[j]-x[i]>d) break;
+		else{
+			edge[i].push_back(j);
+			edge[j].push_back(i);
+		}
+	for(ll i=1;i<=n;i++)for(ll j=1;j<=n;j++)if(is(i,j)) ans++;
+	printf("%lld\n",ans);
+}
+*/
+
+[402] GD-S03155/crystal/crystal.cpp:35
+//保佑这个不挂 
+
+[403] GD-S03157/subway/subway.cpp:31
+//}WO LEI LE QWQ
+
+[404] GD-S03166/crystal/crystal.cpp:12
+/*for(int i = 1;i < n;i ++){
+		int left = 0,right = i;
+		for(left;left < right;left ++){
+			long long cnt = 0;
+			for(int j = left;j < right;j ++){
+				cnt += (a[right] - a[j]);
+			}
+			if(cnt > m){
+				cnt = 0; left ++;
+			}else{
+				sum = max(sum,(right - left + 1));
+			}
+		}
+	}*/
+
+[405] GD-S03169/crystal/crystal.cpp:58
+//14:42 I can finally read t1 qwq
+
+[406] GD-S03169/crystal/crystal.cpp:60
+//qwq
+
+[407] GD-S03188/hub/hub.cpp:23
+/*
+还有半小时比赛就结束了
+75+0+0+0
+不知道能不能进noip
+那就当作最后一次游记来写吧
+或者说是6年OI生涯回忆录
+
+我从12岁六年级开始接触c++
+初中加入学校专门设立的编程班
+高中以竞赛生的身份进入市里最好的高中，学费全免
+初中班上只有3个人提前批，我是其中之一 
+可能与我whk成绩不错有关
+然后就到现在
+
+回看这六年
+绿名绿勾，只拿过三等奖
+OIerDb上是省20000名
+我不算出众，甚至算很菜 
+我时常问自己：何意味
+
+我常和机房的朋友说：
+我六年的青春都浪费在OI上
+但如果有再来一次的机会
+我还是会在12岁的某一天打开c++
+
+因为旅途本身就是意义
+
+就要这样结束了吗
+还真是草率啊
+
+运气好的话，noip再见
+到那时我会用一个小时来写的 
+*/
+
+[408] GD-S03214/crystal/crystal.cpp:66
+/*
+	long long ans=-1;
+	for(long long i = 1 ; i <= n ; i++)
+	{
+		int temp=0;
+		if(a[i]*i-pre[i]<=m) temp=i;
+		int l=i-1;
+		while(l>=1)
+		{
+			if(a[i]*(i-l)pre[i]-pre[l])
+		}
+		ans=max(temp,ans);
+	}
+	cout << ans;
+	*/
+
+[409] GD-S03251/subway/subway.cpp:88
+/*
+500条地铁线路
+5*10^5个站
+每个站不会被超过20条线路经过
+考虑将线路看作点
+遍历这个‘点’中所有地铁站
+将能通过任一地铁站中转的线路建边
+最后跑n遍dj即可求得任意两线路间距离
+在询问时遍历地铁站经过线路即‘点’， 取最小值即可 
+*/
+
+[410] GD-S03252/crystal/crystal.cpp:53
+/*
+初级监狱啥时候升级的电脑我怎么不知道？
+哎你就这么弄吧我一毕业你就开始升级
+这辈子有了
+QwQ
+关注Luogu xiaobiru7302_1（uid：975426）谢谢喵 
+*/
+
+[411] GD-S03252/crystal/crystal.cpp:60
+/*
+8(=D) <- 天依啥笑
+猫猫！
+（话说我记得原来初中也有猫来着怎么这次好像没看到）
+高中的猫倒是挺多 
+（不会日语跳过前奏）
+叮咚（叮叮咚咚）收到总部命令
+前往蓝星 调查人类习性
+惺忪（惺惺忪忪）困倦还未清理（猫猫打哈欠）
+披上伪装 开始秘密潜行
+这独~来独往的身影
+和那目~中无人的神情
+这无~法无天的行径
+似曾相识（难道说~oh！） 
+（不会日语跳过）
+说白了 泡面、辣条、充电线
+它们本质上就是 罐头、猫条、毛线球
+无论说的多上流
+猫咪就是喜欢装模做样，大模大样，装的像模像样 
+觉得我们多高尚它们多低档
+到头来还不是一模一样 
+这独~来独往的身影
+和那目~中无人的神情
+这无~法无天的行径
+似曾相识
+（跳过尾端） 
+*/
+
+[412] GD-S03252/crystal/crystal.cpp:87
+/*
+刚刚突然回来想用这题试试我会不会用NOI linux来着，结果发现完全不会编译运行这辈子有了 
+*/
+
+[413] GD-S03252/crystal/crystal.cpp:90
+/*
+完蛋了这可能是我唯一会的一题再这里多写点东西吧
+我感觉这次不太好怎么有两道图论
+不如改一道博弈论出来（划掉 
+然后特别建议CCF能不能以后考虑考虑再每一题里面放点随机输入数据生成器（
+当然好像没什么用要对拍的自己会写不对拍的也用不着
+我知道了可以搞点附加题 比如说IOI题目（划掉 做出来可以加INF分
+突然意识到不让写歌词其实是怕选手们写完歌词超过100KB然后导致程序上传不上去（确信）
+NOI linux 能不能出点好用的编辑器
+搞一个类似Dev-C++这样对新手友好点的
+这样不会用NOI linux的选手们也能够在NOI linux里面测试自己的代码嘛
+要不然神秘地方报错了都不知道
+解压密码Oct31==Dec25?是打算吧CSP-S提升到NOIP同等难度吗？
+然后让NOIP真的变成NOI Plus？（bushi
+哎这里写太多了我得换题写 
+这注释都占了文件总长度约9/13了（绷 
+*/
+
+[414] GD-S03252/hub/hub.cpp:31
+/*
+嘿，17:54终于来瞅一眼T4了
+依旧经典树上问题
+意思就是找一坨或两坨点
+话说看起来好像有LCA的事
+树上最短路是不是就是LCA最方便来着？
+坏了没复习
+我完蛋了
+嘿我总不能暴力吧
+要不我拼一把RP？
+额...好像不太好
+我运气就没好过QWQ
+怎么办怎么办
+难道要我半小时推T4吗
+呃啊
+呃啊啊
+我时间到底怎么分配到竟沦落到如此地步（划掉
+哦原来是注释写太多了
+精石后入：不要写太多注释和废话
+当然如果真不会了可以打点暴力什么的
+不要学这个啥子一直写废话
+AFO倒计时：25minQWQ
+算了我去看看前面的吧
+不过先看看
+我是打随机数还是全输出一个特定值？
+emm...
+研究下特殊性质吧
+特殊性质是一个类似下面这样（右边连左上） 
+1
+2 5
+3 6
+4 7
+嗯，是一个神秘的二叉树
+然后呢？
+这一坨可以直接变成一根棍子分点叉！
+wow 
+*/
+
+[415] GD-S03252/hub/hub.cpp:68
+/*
+不对啊，这个样例5的k只有1000是怎么跑到答案12251的？
+不是，你这...
+哎难道你连通块不是指连在一起这一堆点吗？
+难道不应该是500吗？
+嗯？
+难道我眼花了吗？
+这又是什么新型做局方式
+我要炸了
+18:15了
+还有10min就要飞升了
+而我还在苦苦搏斗
+绷
+不是你这是啥呀
+啊
+awsl
+嗯难不成是城市编号得连在一块？
+这...
+不做了
+哎我朝
+看样例4也是
+就非得是一整坨还得编号连一块呗
+你赢了CCF
+啊
+看不懂题面
+希望明年高三如果还有机会
+希望CCF的题目能简单一点
+（许愿）
+当然如果CCF的检查人员能看到这段可以现场许愿了（
+好吧这段的含CCF量有点高估计会被看
+不过这份题确实是还不错的
+T1的贪心思路还算比较巧妙，不过也不算太难想
+T2的正解应该疑似就是分层图，只不过我不会写
+但是T2的暴力查找也是能拿分的非常棒
+T3我说实话，属于一眼看过去感觉比较简单，但是实际手感很难
+T4呢，看不懂
+等我看懂题目的时候（对，现在）已经只剩下4min了
+哇还能水（
+算了算了我去检查了不能再水了
+好的那只能等那个不确定的明年再见到这些题目了
+又或者我可能以后都不会再接触到了（？）
+同时等文件下发肯定会有人看到我在这里嘟囔这么多东西
+那记得去关注xiaobiru7302_1（uid975426）谢谢喵！ 
+---2026.10.31 18:24
+*/
+
+[416] GD-S03252/migrate/migrate.cpp:44
+//神秘特殊性质B
+
+[417] GD-S03252/migrate/migrate.cpp:94
+/*
+T3一眼过去像图论
+再一眼，欸，怎么是一维的
+坏了我收回我在T2的话，竟然有像图论的DP
+什么神秘题目顺序安排DP竟然不妨T2
+不过本质看起来好像还是图论？
+不对还是图论
+怎么一次比赛两图论？神了
+额...这是全源最短路吧？
+那我Tarjan不白看了？
+不！
+可以先找互相能到的岛屿，它们之间建边边长为1
+然后暴力搜？
+也许可以BFS？不过看起来肯定爆时间
+哎不管了反正先打暴力 
+（深度思考300s...） 
+*/
+
+[418] GD-S03252/migrate/migrate.cpp:112
+/*
+我是全部跑一遍看有没有节点在同一层同时恰好被两个节点指向还是？
+啊啊啊图论好难我恨图论
+为什么为什么为什么为什么！
+（saki酱！saki酱！saki酱！saki酱！saki酱！saki酱！）（乱入） 
+注意到坐标绝对值小于等于10^18所以： 
+十年OI一场空，不开long long ___________（完形填空） 
+*/
+
+[419] GD-S03252/migrate/migrate.cpp:121
+/*
+突然发现一个好笑的：
+因为第u座岛屿到第u座岛屿距离为-1但是只有一条路所以严格上来说也不是双径岛屿对（确信）
+呃啊为什么我们考场不给带士力架气死了 
+*/
+
+[420] GD-S03252/migrate/migrate.cpp:128
+/*
+17:10
+我回来了
+这题看看好像其实也没那么恐怖
+我还想再这题注释里面塞一首歌
+T4既然没打算写那原本想在T4唱的万分之一的光就算了
+要是真有时间说不定换成66CCFF，这个比较短 
+不过估计也吃不满分按我的做法
+估计...emm...40？
+5000的数据点也不知道过不过的了
+成，先写代码去了
+（我好区啊感觉大家都写代码写的好快） 
+*/
+
+[421] GD-S03252/migrate/migrate.cpp:141
+/*
+8(=P) <- 调皮小洛
+你说你来到这世界的那天
+它说欢迎光临人生游乐园
+啊~
+小时候的自己许很多心愿
+田野是那么远 鲜花也烂漫
+啊~
+后来你发现 世界它是场考验
+被看见 需要入场券
+你打算，用什么去交换~
+要多么好看 还要有多么勇敢
+你躲在 小小的屋檐
+等一个 放晴的某一天~
+走吧，就算我们无法让大雨停下
+还有我陪你在雨里放肆奔跑啊~
+地球上 天空下 我们做一对傻瓜
+你我生来时就注定天真而伟大~
+还有一束日光正在为你送达
+（间奏）
+那一只蝴蝶，拼了命破茧
+却没有 漂亮的鳞片
+它依然 飞过来田野~
+多少次折断 碎成了多少片
+总有人 爱你不圆满
+我看见，你有多少灿烂~
+走吧，就算我们无法让大雨停下
+还有我陪你在雨里放肆奔跑啊~
+地球上 天空下 我们做一对傻瓜
+你我生来时就注定天真而伟大~
+你啊，就算永远无法被世界回答
+没关系还有名为自己的魔法
+你啊，就算下一秒全世界都崩塌
+还有我在你身边说我爱你啊
+做尘埃 做晚霞 我们总会再见的吧
+下次见面时我们会手捧鲜花
+你说你来到这世界的那天
+神给了每个人快乐入场券
+呜~
+它想让你吹吹风去看看蓝天
+也温柔的接住破碎的雨点
+呜~ 
+*/
+
+[422] GD-S03252/migrate/migrate.cpp:184
+/*
+华风夏韵，洛水天依！
+羡慕HB WH考生
+考完如果有票且能在42min之内感到体育馆
+就可以在考完CSP-S以后
+带着不同的心情
+去到无限共鸣·纯蓝幻乐演唱会
+在天依的歌声中
+爽爽听歌洗涤心灵
+啊啊啊啊啊GD入羡慕了
+可恶啊
+欸我又开始水注释了
+很期待到时候翻我代码的人发现我注释是代码长度的数倍的时候会有什么感想
+会觉得我像Deepseek吗？或者是别的什么LLM？
+感觉我好吵
+学校的键盘也是非常神秘的工作键盘啊
+真要控制的话竟然能让打字声音降低到30db-（预估）
+反正就是很低就是了
+欸不对我又注意力涣散了 
+*/
+
+[423] GD-S03252/migrate/migrate.cpp:212
+/*
+坏了突然发现我原来不会
+感觉实现起来有点困难啊
+（思考）
+哦卡了
+能做
+我是唐人
+啊
+心已经被天依跟未来带走了
+完全不想打比赛
+华风夏韵，洛水天依！
+初始之音，响彻未来！
+（这人魔了）
+但是...
+哦没问题了
+我只要储存每次的时间戳就好了
+话说我是不是应该用bool存一下防止反复被找到记录
+哎反正是5000也不大
+就这么定了
+接着写代码去了 
+还有估计是写不到T4了
+QwQ 
+*/
+
+[424] GD-S03252/migrate/migrate.cpp:235
+/*
+不行，我好像只能打一个特殊B
+完了，我连暴力都不会
+算了我去看看T4吧
+现在已经是17:53了
+xiaobiru要完蛋了QAQ
+sto希望脑子给点力orz 
+*/
+
+[425] GD-S03252/subway/subway.cpp:85
+//猜猜我能不能进GD CSP-S迷惑行为大赏 
+
+[426] GD-S03252/subway/subway.cpp:86
+/*
+16:08回来打个爆搜 
+感觉这题得用离散化（？）
+哦不对也许不需要
+我好区啊（ 
+这一题怎么看都像分层图？
+还是说是叫什么？
+咕咕咕咕咕
+可以不要出门吗
+呆在家里不好吗
+打音游不舒服吗
+--xiaobiru三问
+（逃
+话说w_i只有在进站和出战的时候会用吧
+啧为什么不放几个c不等于0的点进来
+可恶
+想唱歌了（
+话说有人投稿迷惑行为让我写并查集然后int merge()并爆零蚌埠住
+全文暂时看不出任何一个需要用到并查集的地方
+所以这也是全源最短路吧
+为什么一次考试会考两道全源最短路啊
+你不要告诉我这题是DP这谁信
+根本就没有这样的DP题目
+还我DP！
+（虽然我DP也写不出来就是了QAQ） 
+*/
+
+[427] GD-S03252/subway/subway.cpp:112
+//反正要发呆想怎么爆搜顺手打段歌词吧反正不会 
+
+[428] GD-S03252/subway/subway.cpp:113
+/*
+反乌托邦中的争夺 把愿望敲碎成粉末
+心灵也被 挂上门锁 看不清灯火
+但我还想做些什么 其实还想要说很多
+请你等等我 请你等等我~
+两块五的签字笔 东平西凑的词句
+妄想用它拯救你 顺便拯救我自己
+只因为 你那渴望自由的心脏 被困在一张没空隙的网
+我们的周围并非没光亮 只是太耀眼将我们灼伤
+在这个世界难免会迷茫 但别再把小刀带在身上
+至少我还在为你而歌唱 在黑暗漫长的反乌托邦
+即便 我们 都在 这黑暗漫长的反乌托邦
+（间奏）
+忍着想要挣脱的生活 做出不想做的承诺
+列车上 做错站的乘客 困惑着沉默
+但我还想做些什么 其实还想要说很多 
+请你等等我 请你等等我~
+发着光的半平米 东平西凑的词句
+但是还想拯救你 同时拯救我自己
+就请你 放心大胆更妄为肆意 迈步向前别害怕失去
+没有犯下任何错的你 在我心里只用做自己
+这段胡乱拼凑的词语 如果伤到你也请你忘记
+但若你又找不到意义 希望这首歌能被记起（停顿） 
+活下去~ 活下去~ 活下去~ 活下去~
+在这 反乌托邦里 
+*/
+
+[429] GD-S03252/subway/subway.cpp:139
+/*
+欸这个m可以只处理到1000？！ 
+可以全部预处理一边再回答Q？
+蛙趣现在都16:28了怎么我才想到
+我是唐人
+然后如果ij之间没有联系用dijk？
+wow
+震撼一发
+不过我不觉得我能打对捏
+这题难度看起来有青？
+不知道
+感觉xiaobiru这一次的比赛注释就是完完全全的思考过程
+其实能看出来注意力特别分散了
+不过今年大概率是最后一年了
+明年高三了估计也考不了多高了
+悲伤（
+所以严格来说今年约等于准备AFO了
+呃啊
+话说今年的学弟有点吓人了
+模拟测场切黑
+可惜有个小错误挂了80pts
+啊
+希望我的CSP-S不要挂分
+（虽然本来也没啥分可以挂） 
+我讨厌图论啊
+为什么今年占比突然提升了QwQ 
+话说为什么我同学都说我码风猎奇，真的假的
+哎（男人叹气声）
+（队友呼吸机关一下） 
+哇我注释是不是写太多了 
+猜猜这题能拿多少分
+目前预估44pts
+现在17:10
+哎呀卡太久了 
+跑路了跑路了 
+*/
+
+[430] GD-S03267/crystal/crystal.cpp:29
+// long long 19位，这里最多5e17位，应该不会爆 
+
+[431] GD-S03267/crystal/crystal.cpp:153
+// 因为right_point状态没有改变，所以left也不会有改变
+
+[432] GD-S03295/hub/hub.cpp:8
+/*
+my life is brilliant
+my love is pure
+i saw an angel
+oh that i'm sure
+she was smile at me on the subway
+oh she was with another man
+but i won't lose no sleep on that
+'cause i've got a plan
+you're beautiful
+you're beautiful
+you're beautiful it's true
+i saw your face in a crowded place
+but i don't know what to do
+'cause i'll never be with you
+oh she caught my eye
+as we walked on by
+she could see from my face 
+that i was f**king high
+and i don't think that i'll 
+see her again
+but we shared a moment 
+that it'll last till the end
+you're beautiful
+you're beautiful
+you're beautiful it's true
+i saw your face in a crowded place
+but i don't know what to do
+'cause i'll never be with you
+you're beautiful
+you're beautiful
+you're beautiful it's true
+there must be an angel 
+with a smile on her face
+when she thought up that i should be with you
+but i don't know what to do
+'cause i'll never be with you
+
+ccf i love you
+*/
+
+[433] GD-S03300/migrate/migrate.cpp:101
+/*
+when coding check the following
+
+two path: abd acd , c=b-1
+s->a->(b-1,b)->c->t
+s->a,c->t only i->r_i
+s->a,c->t only 1
+a->c only 2
+s->a i->r_i
+a->c=r_r_a check b-1,b-2
+c->t i->r_i
+
+val_c count t:c have unique path to t
+val: val+=(r_{c-1}+1,r_c); c <- r_c  =>  val_c=(r_c-r_{c-1})+val_{r_c}
+
+vbl_a count s with i->r_i to a
+
+to check:
+s->a i->r_i (vbl_a)
+a->(b-1,b=r_a)->c=r_b
+NO b-2->c
+NO a-1->b-1
+c->t i->min(r_i,t) (val_c)
+
+enumerate (a,b,c) O(n) is sufficient.
+
+r[b]==r[b-1]==c!=r[b-2]
+r[a-1]<b-1
+
+specially get a and c not regular,only 1 step
+
+(s,s->a)->(b-1,b)->(t,c->t)
+
+t:b b-1 reach, b-2 not
+c->t:val
+
+dp val on b,b count c or t
+
+when t not regular no r[b]==r[b-1]
+*/
+
+[434] GD-S03330/migrate/migrate.cpp:111
+/*
+0 2
+4 2
+1 2 3 4
+5 2
+1 2 3 4 5
+
+0 2
+5 3
+-2 -1 0 1 2
+6 2
+-4 -3 -2 -1 3 6
+
+0 1
+6 3
+0 1 2 3 4 7
+
+0 1
+10 22
+0 7 14 21 28 35 42 49 56 63
+
+0 1
+10 14
+-31 -24 -17 -10 -3 4 11 18 25 32
+
+0 1
+10 3
+-1000000000000000000 -999999999999999997 -999999999999999994 -999999999999999993 -999999999999999992 -999999999999999991 -999999999999999990 -999999999999999989 -999999999999999986 -999999999999999983
+
+
+i->to[i] 建出森林 
+找到第一个第二个断点F,S
+(to[i],F]取区间 
+(F,S]取后缀 
+(i,to[i]] and (S,root]没救了 
+
+调了两小时我是大区! 
+*/
+
+[435] GD-S03330/subway/subway.cpp:46
+/*
+一开始以为算上坐地铁时间不会做qwq 
+*/
+
+[436] GD-S03388/crystal/crystal.cpp:39
+//CCF CSP-S T1crystal
+
+[437] GD-S03388/subway/subway.cpp:49
+//CCF CSP-S T2subway
+
+[438] GD-S03438/crystal/crystal.cpp:29
+//I love cyq
+
+[439] GD-S03438/hub/hub.cpp:67
+//kale but I still love cyq
+
+[440] GD-S03438/migrate/migrate.cpp:24
+//I love cyq
+
+[441] GD-S03452/subway/subway.cpp:43
+//利用"桥"缩点，已知d不会超过20，这里不会超时 
+
+[442] GD-S03464/subway/subway.cpp:78
+// cout<<"FUCK";
+
+[443] GD-S03469/hub/hub.cpp:6
+//再见 再也不见 心碎了飘荡在海边
+
+[444] GD-S03469/hub/hub.cpp:8
+//真再见了呀 AFOed 
+
+[445] GD-S03473/hub/hub.cpp:61
+//CCF
+
+[446] GD-S03473/hub/hub.cpp:62
+//love
+
+[447] GD-S03473/hub/hub.cpp:63
+//你 被 骗 了
+
+[448] GD-S03473/hub/hub.cpp:64
+//我要上GD迷惑行为大赏OvO
+
+[449] GD-S03473/hub/hub.cpp:66
+//请支持飞行雪绒喵!!!
+
+[450] GD-S03473/hub/hub.cpp:67
+//请支持明日方舟喵!!!请支持阿米娅喵!!!
+
+[451] GD-S03473/hub/hub.cpp:68
+//请支持星尘infinity喵!!! 
+
+[452] GD-S03473/hub/hub.cpp:69
+//请支持超时空辉夜姬喵!!!
+
+[453] GD-S03473/hub/hub.cpp:70
+// AFO... 
+
+[454] GD-S03484/subway/subway.cpp:25
+/*
+	I think I will AFO;
+	I love Lyy but......;
+	But no problem,I will wait;
+	Even if I miss you now;
+	I will miss and love you forever;
+	In anywhere,anytime,I always miss you;
+	*/
+
+[455] GD-S03499/migrate/migrate.cpp:121
+/*
+每个点连向一个区间
+
+判断两个点最短路数是否为 2 
+
+----
+
+寻找极短的最短路为 2 方案。
+
+只可能是长度为 2 的路径，O(n) 计算。
+
+最多只有 2n 个 
+
+对于一个 [l,r]
+
+a-->l 唯一的路径数 
+
+r-->b 唯一的路径数 
+
+减去会跳到 l,r 中间的方案数。 
+
+不会。。。。。 
+*/
+
+[456] GD-S03524/crystal/crystal.cpp:28
+//求你了别挂分qwq
+
+[457] GD-S03524/crystal/crystal.cpp:29
+//rp++ 我要7勾！ 
+
+[458] GD-S03524/hub/hub.cpp:9
+//我不会退役的，我高中会继续打下去的！如果不挂分应该是169，加油这个够上深中了，WYD，HJH，LJC，YYF，LBC，ZYZ感谢你们的陪伴。同时也要感谢xhx，szl，dzd，zjs，lj，pzy的指导我的初中OI生涯到此结束啦~  AFO快乐！ 
+
+[459] GD-S03566/crystal/crystal.cpp:1
+/*#include<bits/stdc++.h>
+#define int long long
+using namespace std;
+const int N=5e5+10;
+int n,m,ans,a[N],cf[N];
+signed main(){
+	freopen("crystal4.in","r",stdin);
+//	freopen("crystal.out","w",stdout);
+	scanf("%lld%lld",&n,&m);
+	for(int i=1;i<=n;i++) scanf("%lld",&a[i]);
+	sort(a+1,a+1+n);
+	for(int i=1;i<=n;i++) cf[i]=a[i]-a[i-1];
+	for(int i=1;i<=n;i++){
+        int len=m;
+		bool flag=true;
+        for(int j=i,cnt=1;j<=n;j++,cnt++){
+			len-=abs(cf[j]);//*cnt
+			if(len<0){
+				ans=max(ans,--cnt);
+				flag=false;
+				break;
+			}
+//			else if(len==0){
+//				ans=max(ans,cnt);
+//				flag=false;
+//				break;
+//			}
+		}
+		if(flag) ans=max(ans,n-i+1);
+	}
+	printf("%lld",ans);
+	return 0;
+}
+*/
+
+[460] GD-S03566/crystal/crystal.cpp:90
+/*
+#include<bits/stdc++.h>
+#define int long long
+using namespace std;
+const int N=5e5+10;
+int n,m,ansx,cntx,a[N],tg[N];
+signed main(){
+	freopen("crystal.in","r",stdin);
+	freopen("crystal.out","w",stdout);
+	scanf("%lld%lld",&n,&m);
+	for(int i=1;i<=n;i++){
+		scanf("%lld",&a[i]);
+		tg[a[i]]++;
+		if(a[i]-a[i-1]==a[i-1]-a[i-2] && i-2>0) cntx++;
+		ansx=max(ans,tg[a[i]]);
+	} 
+	if(ansx==n){
+		printf("%lld",n);
+		return 0;
+	} 
+	if(cntx==n-2){
+		int num=a[n]-a[n-1],cnt1=1;
+		while(m-num*cnt1>=0){
+			m-=num*cnt1;
+			cnt1++;
+		}
+		printf("%lld",cnt1);
+		return 0;
+	}
+	return 0;
+}
+*/
+
+[461] GD-S03570/crystal/crystal.cpp:8
+//rp++
+
+[462] GD-S03570/subway/subway.cpp:4
+//rp++
+
+[463] GD-S03614/migrate/migrate.cpp:29
+/*
+lets try to get On2
+4 2
+1 2 3 4
+最短距离表rt
+0 1 1 2
+1 0 1 1
+1 1 0 1
+2 1 1 0
+dp:
+1 1 1 2
+1 1 1 1
+1 1 1 1
+2 1 1 1
+到底是怎么求的 
+相当于从[x,x]到[y,y]走车的路的最小值方案数
+走车怎么解决
+来一个复杂一点的例子
+4 4
+1 3 6 10
+rt
+0 1 1 3
+1 0 1 2
+1 1 0 1
+3 2 1 0
+走最短距离的可行路线个数：
+1 1 1 1
+1 1 1 
+1 1 1
+1
+我算是没救了
+究竟有没有好写的特殊性质 
+B是直接随便选，最短长度至多是2
+最短长度为1时，显然没有第二个最短长度为1的，排除
+不经过那个万能岛还能2步走吗？可能，我们要判断这些岛有没有两步走发展战略
+不连通 
+*/
+
+[464] GD-S03614/subway/subway.cpp:46
+//这神人代码也就我能写出来了 
+
+[465] GD-S03614/subway/subway.cpp:49
+//既然我们建好边了，那就来跑一个可爱的floyd吧
+
+[466] GD-S03614/subway/subway.cpp:52
+//奋战30min写出来了，我是fw
+
+[467] GD-S03614/subway/subway.cpp:89
+/*
+显然我们可以注意到可以建一个图：
+每个地铁站连接着它们的出口，边权已经给出 
+每条地铁线路链接所有它能到的站，每个边权已经给出
+得到结点数2*m+n个，边m+K条，显然丰富的超了
+我不管，等到2小时再开始写暴力，先想想
+万一
+48万个站点，这城市真牛逼！6767676767676767
+看起来这个方案真的不太可行 
+能不能看成线到线的距离，反正我们的入站出站一定要有
+这真是一个好想法！
+那么d<=20的用处我们知道了，复杂度里有一个d2
+We are going to find the distance between every lines.
+Edges can be constructed like this:
+编不下去了
+
+总之我们完全可以编出一系列以地铁线路为顶点的图
+结点数500，边数最坏125000 显然不能用dij只能floyd
+n3完全可以接受的预处理后，我们可以O1获取，这多是一件美事
+每次查询我们遍历一下可以选择的起始线路和终点线路
+每次便利查一下线路距离，然后再查一下线路到站厅，再最小值一下
+线路到站厅怎么办
+500000个站点，500个线路
+250000000个整数可以吗
+250000000*4=1000000000
+1000000000/1048576 约等于 953MB 
+XD这可太极限了
+floyd加上500*500
+存站点有几条相邻线路20*500000
+等等我们根本不需要这样，在可爱的站点存边顺便把长度存一下就OK了
+我是梳篦
+虽然原来的梳篦做法好像也不会爆炸
+复杂度O(n^3 + q(d^2))，能过
+开干
+对了，floyd怎么写 
+哦，给地铁线路之间建边也要n(d^2)，不过不会爆炸 
+*/
+
+[468] GD-S03632/hub/hub.cpp:91
+//	cout << 114514 << endl;
+
+[469] GD-S03634/hub/hub.cpp:55
+//			int ans=114514;
+
+[470] GD-S03636/crystal/crystal.cpp:2
+//rp+=inf
+
+[471] GD-S03636/crystal/crystal.cpp:37
+/*
+
+2026 CCF 非专业级软件能力认证CSP-J/S 2026 第二轮提高组时间：2026 年 10 月 31 日 14:30 ∼ 18:30题目名称 能量水晶 地铁 迁徙 研发基地题目类型 传统型 传统型 传统型 传统型目录 crystal subway migrate hub可执行文件名 crystal subway migrate hub输入文件名 crystal.in subway.in migrate.in hub.in输出文件名 crystal.out subway.out migrate.out hub.out每个测试点时限 1.0 秒 1.0 秒 1.0 秒 3.0 秒内存限制 1024 MiB 1024 MiB 1024 MiB 1024 MiB测试点数目 20 25 25 20测试点是否等分 是 是 是 是提交程序源文件名对于 C++ 语言 crystal.cpp subway.cpp migrate.cpp hub.cpp编译选项对于 C++ 语言 -O2 -std=c++14 -static注. 意. 事. 项（. 请. 仔. 细. 阅. 读）.1. 文件名（程序名和输入输出文件名）必须使用英文小写。2. main 函数的返回值类型必须是 int，程序正常结束时的返回值必须是 0。3. 若无特殊说明，结果的比较方式为全文比较（过滤行末空格及文末换行）。4. 选手提交的程序源文件大小不得超过 100 KiB。5. 程序可使用的栈空间内存限制与题目的内存限制一致。6. 禁止在提交的程序源文件中改变编译器参数（如使用 #pragma 命令），禁止使用系统结构相关指令（如内联汇编）或其他可能造成不公平的方法。7. 提交的程序源文件的放置位置请参考各省的具体要求。8. 因违反上述规定而出现的问题，申诉时一律不予受理。9. 只提供 Linux 格式附加样例文件。10. 全国统一评测时采用的机器配置为：Intel Core Ultra 9 285K CPU @ 3.70 GHz（关闭睿频与能效核），内存 96 GB。上述时限以此配置为准。11. 评测在当前最新公布的 NOI Linux 下进行，各语言的编译器版本以此为准。2026 CCF 非专业级软件能力认证 CSP-J/S 2026 第二轮 提高组 能量水晶（crystal）能量水晶（crystal）【题目描述】小 R 有 n 颗能量水晶，其中第 i (1 ≤ i ≤ n) 颗的能量值为整数 ai。小 R 想用其中若干颗能量水晶合成一颗大水晶，用于合成的水晶必须具有相同的能量值。小 R 希望参与合成的水晶尽可能多。他可以进行至. 多. m 次操作。每次操作可以任选一颗水晶，将其能量值增加 1；同一颗水晶可以被重复选择。你需要帮助小 R 求出，进行至多 m 次操作后，他最多能用多少颗能量水晶合成一颗大水晶。【输入格式】从文件 crystal.in 中读入数据。输入的第一行包含一个正整数 n 和一个非负整数 m，分别表示能量水晶的数量和最多可以进行的操作次数输入的第二行包含 n 个整数 a1, a2, . . . , an，依次表示每颗能量水晶的能量值。【输出格式】输出到文件 crystal.out 中输出一行一个正整数，表示进行至多 m 次操作后，小 R 最多能用多少颗能量水晶合成一颗大水晶。【样例 1 输入】1 5 52 1 2 4 8 9【样例 1 输出】1 3【样例 1 解释】小 R 有 5 颗能量水晶，能量值分别为 1, 2, 4, 8, 9。他可以对能量值为 1 和 2 的水晶分别操作 3 次和 2 次，使原来能量值为 1, 2, 4 的三颗水晶的能量值都变成 4，共进行 5次操作。因此小 R 可以用 3 颗能量水晶合成一颗大水晶。第 2 页 共 13 页2026 CCF 非专业级软件能力认证 CSP-J/S 2026 第二轮 提高组 能量水晶（crystal）【样例 2 输入】1 5 82 -3 -1 2 2 7【样例 2 输出】1 4【样例 3】见题目目录下的 crystal/3.in 与 crystal/3.ans。该样例满足测试点 8, 9 的约束条件。【样例 4】见题目目录下的 crystal/4.in 与 crystal/4.ans。该样例满足测试点 10 ∼ 12 的约束条件。【数据范围】对于所有测试数据，均有：• 1 ≤ n ≤ 5 × 105，0 ≤ m ≤ 1018；• 对于所有 i (1 ≤ i ≤ n)，均有 |ai
+| ≤ 1012。测试点编号 n ≤ m ≤ maxnn
+i=1|ai
+| ≤ 特殊性质1, 2 5 1020无3 ∼ 5 16 1 0006, 75 000106 1008, 9 109 10510 ∼ 125 × 105108 10013 ∼ 151018 1012A16 ∼ 18 B19, 20 无特殊性质 A：对于所有 i (1 ≤ i ≤ n)，均有 ai = i。特殊性质 B：a1, a2, . . . , an 构成等差数列。第 3 页 共 13 页2026 CCF 非专业级软件能力认证 CSP-J/S 2026 第二轮 提高组 地铁（subway）地铁（subway）【题目描述】B 市共有 m 个地铁站，编号为 1 到 m。每个地铁站都有一个站厅，地铁口与站厅之间有一条通道，往返耗时相同。从第 v (1 ≤ v ≤ m) 个地铁站的地铁口走到站厅需要wv 的时间。B 市共有 n 条地铁线路，编号为 1 到 n，其中第 i (1 ≤ i ≤ n) 条线路经过 ki 个地铁站，编号依次为 ai,1, ai,2, . . . , ai,ki。在第 ai,j (1 ≤ j ≤ ki) 个地铁站处，从站厅走到第 i条线路的站台需要 ti,j 的时间，往返耗时相同。同一条线路不会重复经过同一个地铁站，即 ai,1, ai,2, . . . , ai,ki 两两不同。由于空间有限，每个地铁站最多有 d 条线路经过。此外，B 市的地铁网络是连通的，即任意两个地铁站都可以通过若干条线路互相到达。小 R 有 q 个出行计划。对于第 r (1 ≤ r ≤ q) 个出行计划，小 R 将从第 xr 个地铁站的地铁口出发，乘坐地铁到达第 yr 个地铁站的地铁口，途中可能进行若干次站内换乘。每次站内换乘都需要从一条线路的站台先走到站厅，再从站厅走到另一条线路的站台。每个出行计划的总步行时间为进出站和换乘的步行时间之和。小 R 希望每个出行计划的总步行时间都尽可能少你需要帮助小 R 求出，每个出行计划的最小总步行时间。【输入格式】从文件 subway.in 中读入数据。输入的第一行包含五个非负整
+
+[472] GD-S03636/hub/hub.cpp:2140
+/*
+
+2026 CCF 非专业级软件能力认证CSP-J/S 2026 第二轮提高组时间：2026 年 10 月 31 日 14:30 ∼ 18:30题目名称 能量水晶 地铁 迁徙 研发基地题目类型 传统型 传统型 传统型 传统型目录 crystal subway migrate hub可执行文件名 crystal subway migrate hub输入文件名 crystal.in subway.in migrate.in hub.in输出文件名 crystal.out subway.out migrate.out hub.out每个测试点时限 1.0 秒 1.0 秒 1.0 秒 3.0 秒内存限制 1024 MiB 1024 MiB 1024 MiB 1024 MiB测试点数目 20 25 25 20测试点是否等分 是 是 是 是提交程序源文件名对于 C++ 语言 crystal.cpp subway.cpp migrate.cpp hub.cpp编译选项对于 C++ 语言 -O2 -std=c++14 -static注. 意. 事. 项（. 请. 仔. 细. 阅. 读）.1. 文件名（程序名和输入输出文件名）必须使用英文小写。2. main 函数的返回值类型必须是 int，程序正常结束时的返回值必须是 0。3. 若无特殊说明，结果的比较方式为全文比较（过滤行末空格及文末换行）。4. 选手提交的程序源文件大小不得超过 100 KiB。5. 程序可使用的栈空间内存限制与题目的内存限制一致。6. 禁止在提交的程序源文件中改变编译器参数（如使用 #pragma 命令），禁止使用系统结构相关指令（如内联汇编）或其他可能造成不公平的方法。7. 提交的程序源文件的放置位置请参考各省的具体要求。8. 因违反上述规定而出现的问题，申诉时一律不予受理。9. 只提供 Linux 格式附加样例文件。10. 全国统一评测时采用的机器配置为：Intel Core Ultra 9 285K CPU @ 3.70 GHz（关闭睿频与能效核），内存 96 GB。上述时限以此配置为准。11. 评测在当前最新公布的 NOI Linux 下进行，各语言的编译器版本以此为准。2026 CCF 非专业级软件能力认证 CSP-J/S 2026 第二轮 提高组 能量水晶（crystal）能量水晶（crystal）【题目描述】小 R 有 n 颗能量水晶，其中第 i (1 ≤ i ≤ n) 颗的能量值为整数 ai。小 R 想用其中若干颗能量水晶合成一颗大水晶，用于合成的水晶必须具有相同的能量值。小 R 希望参与合成的水晶尽可能多。他可以进行至. 多. m 次操作。每次操作可以任选一颗水晶，将其能量值增加 1；同一颗水晶可以被重复选择。你需要帮助小 R 求出，进行至多 m 次操作后，他最多能用多少颗能量水晶合成一颗大水晶。【输入格式】从文件 crystal.in 中读入数据。输入的第一行包含一个正整数 n 和一个非负整数 m，分别表示能量水晶的数量和最多可以进行的操作次数输入的第二行包含 n 个整数 a1, a2, . . . , an，依次表示每颗能量水晶的能量值。【输出格式】输出到文件 crystal.out 中输出一行一个正整数，表示进行至多 m 次操作后，小 R 最多能用多少颗能量水晶合成一颗大水晶。【样例 1 输入】1 5 52 1 2 4 8 9【样例 1 输出】1 3【样例 1 解释】小 R 有 5 颗能量水晶，能量值分别为 1, 2, 4, 8, 9。他可以对能量值为 1 和 2 的水晶分别操作 3 次和 2 次，使原来能量值为 1, 2, 4 的三颗水晶的能量值都变成 4，共进行 5次操作。因此小 R 可以用 3 颗能量水晶合成一颗大水晶。第 2 页 共 13 页2026 CCF 非专业级软件能力认证 CSP-J/S 2026 第二轮 提高组 能量水晶（crystal）【样例 2 输入】1 5 82 -3 -1 2 2 7【样例 2 输出】1 4【样例 3】见题目目录下的 crystal/3.in 与 crystal/3.ans。该样例满足测试点 8, 9 的约束条件。【样例 4】见题目目录下的 crystal/4.in 与 crystal/4.ans。该样例满足测试点 10 ∼ 12 的约束条件。【数据范围】对于所有测试数据，均有：• 1 ≤ n ≤ 5 × 105，0 ≤ m ≤ 1018；• 对于所有 i (1 ≤ i ≤ n)，均有 |ai
+| ≤ 1012。测试点编号 n ≤ m ≤ maxnn
+i=1|ai
+| ≤ 特殊性质1, 2 5 1020无3 ∼ 5 16 1 0006, 75 000106 1008, 9 109 10510 ∼ 125 × 105108 10013 ∼ 151018 1012A16 ∼ 18 B19, 20 无特殊性质 A：对于所有 i (1 ≤ i ≤ n)，均有 ai = i。特殊性质 B：a1, a2, . . . , an 构成等差数列。第 3 页 共 13 页2026 CCF 非专业级软件能力认证 CSP-J/S 2026 第二轮 提高组 地铁（subway）地铁（subway）【题目描述】B 市共有 m 个地铁站，编号为 1 到 m。每个地铁站都有一个站厅，地铁口与站厅之间有一条通道，往返耗时相同。从第 v (1 ≤ v ≤ m) 个地铁站的地铁口走到站厅需要wv 的时间。B 市共有 n 条地铁线路，编号为 1 到 n，其中第 i (1 ≤ i ≤ n) 条线路经过 ki 个地铁站，编号依次为 ai,1, ai,2, . . . , ai,ki。在第 ai,j (1 ≤ j ≤ ki) 个地铁站处，从站厅走到第 i条线路的站台需要 ti,j 的时间，往返耗时相同。同一条线路不会重复经过同一个地铁站，即 ai,1, ai,2, . . . , ai,ki 两两不同。由于空间有限，每个地铁站最多有 d 条线路经过。此外，B 市的地铁网络是连通的，即任意两个地铁站都可以通过若干条线路互相到达。小 R 有 q 个出行计划。对于第 r (1 ≤ r ≤ q) 个出行计划，小 R 将从第 xr 个地铁站的地铁口出发，乘坐地铁到达第 yr 个地铁站的地铁口，途中可能进行若干次站内换乘。每次站内换乘都需要从一条线路的站台先走到站厅，再从站厅走到另一条线路的站台。每个出行计划的总步行时间为进出站和换乘的步行时间之和。小 R 希望每个出行计划的总步行时间都尽可能少你需要帮助小 R 求出，每个出行计划的最小总步行时间。【输入格式】从文件 subway.in 中读入数据。输入的第一行包含五个非负整
+
+[473] GD-S03636/migrate/migrate.cpp:31
+/*
+
+2026 CCF 非专业级软件能力认证CSP-J/S 2026 第二轮提高组时间：2026 年 10 月 31 日 14:30 ∼ 18:30题目名称 能量水晶 地铁 迁徙 研发基地题目类型 传统型 传统型 传统型 传统型目录 crystal subway migrate hub可执行文件名 crystal subway migrate hub输入文件名 crystal.in subway.in migrate.in hub.in输出文件名 crystal.out subway.out migrate.out hub.out每个测试点时限 1.0 秒 1.0 秒 1.0 秒 3.0 秒内存限制 1024 MiB 1024 MiB 1024 MiB 1024 MiB测试点数目 20 25 25 20测试点是否等分 是 是 是 是提交程序源文件名对于 C++ 语言 crystal.cpp subway.cpp migrate.cpp hub.cpp编译选项对于 C++ 语言 -O2 -std=c++14 -static注. 意. 事. 项（. 请. 仔. 细. 阅. 读）.1. 文件名（程序名和输入输出文件名）必须使用英文小写。2. main 函数的返回值类型必须是 int，程序正常结束时的返回值必须是 0。3. 若无特殊说明，结果的比较方式为全文比较（过滤行末空格及文末换行）。4. 选手提交的程序源文件大小不得超过 100 KiB。5. 程序可使用的栈空间内存限制与题目的内存限制一致。6. 禁止在提交的程序源文件中改变编译器参数（如使用 #pragma 命令），禁止使用系统结构相关指令（如内联汇编）或其他可能造成不公平的方法。7. 提交的程序源文件的放置位置请参考各省的具体要求。8. 因违反上述规定而出现的问题，申诉时一律不予受理。9. 只提供 Linux 格式附加样例文件。10. 全国统一评测时采用的机器配置为：Intel Core Ultra 9 285K CPU @ 3.70 GHz（关闭睿频与能效核），内存 96 GB。上述时限以此配置为准。11. 评测在当前最新公布的 NOI Linux 下进行，各语言的编译器版本以此为准。2026 CCF 非专业级软件能力认证 CSP-J/S 2026 第二轮 提高组 能量水晶（crystal）能量水晶（crystal）【题目描述】小 R 有 n 颗能量水晶，其中第 i (1 ≤ i ≤ n) 颗的能量值为整数 ai。小 R 想用其中若干颗能量水晶合成一颗大水晶，用于合成的水晶必须具有相同的能量值。小 R 希望参与合成的水晶尽可能多。他可以进行至. 多. m 次操作。每次操作可以任选一颗水晶，将其能量值增加 1；同一颗水晶可以被重复选择。你需要帮助小 R 求出，进行至多 m 次操作后，他最多能用多少颗能量水晶合成一颗大水晶。【输入格式】从文件 crystal.in 中读入数据。输入的第一行包含一个正整数 n 和一个非负整数 m，分别表示能量水晶的数量和最多可以进行的操作次数输入的第二行包含 n 个整数 a1, a2, . . . , an，依次表示每颗能量水晶的能量值。【输出格式】输出到文件 crystal.out 中输出一行一个正整数，表示进行至多 m 次操作后，小 R 最多能用多少颗能量水晶合成一颗大水晶。【样例 1 输入】1 5 52 1 2 4 8 9【样例 1 输出】1 3【样例 1 解释】小 R 有 5 颗能量水晶，能量值分别为 1, 2, 4, 8, 9。他可以对能量值为 1 和 2 的水晶分别操作 3 次和 2 次，使原来能量值为 1, 2, 4 的三颗水晶的能量值都变成 4，共进行 5次操作。因此小 R 可以用 3 颗能量水晶合成一颗大水晶。第 2 页 共 13 页2026 CCF 非专业级软件能力认证 CSP-J/S 2026 第二轮 提高组 能量水晶（crystal）【样例 2 输入】1 5 82 -3 -1 2 2 7【样例 2 输出】1 4【样例 3】见题目目录下的 crystal/3.in 与 crystal/3.ans。该样例满足测试点 8, 9 的约束条件。【样例 4】见题目目录下的 crystal/4.in 与 crystal/4.ans。该样例满足测试点 10 ∼ 12 的约束条件。【数据范围】对于所有测试数据，均有：• 1 ≤ n ≤ 5 × 105，0 ≤ m ≤ 1018；• 对于所有 i (1 ≤ i ≤ n)，均有 |ai
+| ≤ 1012。测试点编号 n ≤ m ≤ maxnn
+i=1|ai
+| ≤ 特殊性质1, 2 5 1020无3 ∼ 5 16 1 0006, 75 000106 1008, 9 109 10510 ∼ 125 × 105108 10013 ∼ 151018 1012A16 ∼ 18 B19, 20 无特殊性质 A：对于所有 i (1 ≤ i ≤ n)，均有 ai = i。特殊性质 B：a1, a2, . . . , an 构成等差数列。第 3 页 共 13 页2026 CCF 非专业级软件能力认证 CSP-J/S 2026 第二轮 提高组 地铁（subway）地铁（subway）【题目描述】B 市共有 m 个地铁站，编号为 1 到 m。每个地铁站都有一个站厅，地铁口与站厅之间有一条通道，往返耗时相同。从第 v (1 ≤ v ≤ m) 个地铁站的地铁口走到站厅需要wv 的时间。B 市共有 n 条地铁线路，编号为 1 到 n，其中第 i (1 ≤ i ≤ n) 条线路经过 ki 个地铁站，编号依次为 ai,1, ai,2, . . . , ai,ki。在第 ai,j (1 ≤ j ≤ ki) 个地铁站处，从站厅走到第 i条线路的站台需要 ti,j 的时间，往返耗时相同。同一条线路不会重复经过同一个地铁站，即 ai,1, ai,2, . . . , ai,ki 两两不同。由于空间有限，每个地铁站最多有 d 条线路经过。此外，B 市的地铁网络是连通的，即任意两个地铁站都可以通过若干条线路互相到达。小 R 有 q 个出行计划。对于第 r (1 ≤ r ≤ q) 个出行计划，小 R 将从第 xr 个地铁站的地铁口出发，乘坐地铁到达第 yr 个地铁站的地铁口，途中可能进行若干次站内换乘。每次站内换乘都需要从一条线路的站台先走到站厅，再从站厅走到另一条线路的站台。每个出行计划的总步行时间为进出站和换乘的步行时间之和。小 R 希望每个出行计划的总步行时间都尽可能少你需要帮助小 R 求出，每个出行计划的最小总步行时间。【输入格式】从文件 subway.in 中读入数据。输入的第一行包含五个非负整
+
+[474] GD-S03636/subway/subway.cpp:79
+/*
+
+2026 CCF 非专业级软件能力认证CSP-J/S 2026 第二轮提高组时间：2026 年 10 月 31 日 14:30 ∼ 18:30题目名称 能量水晶 地铁 迁徙 研发基地题目类型 传统型 传统型 传统型 传统型目录 crystal subway migrate hub可执行文件名 crystal subway migrate hub输入文件名 crystal.in subway.in migrate.in hub.in输出文件名 crystal.out subway.out migrate.out hub.out每个测试点时限 1.0 秒 1.0 秒 1.0 秒 3.0 秒内存限制 1024 MiB 1024 MiB 1024 MiB 1024 MiB测试点数目 20 25 25 20测试点是否等分 是 是 是 是提交程序源文件名对于 C++ 语言 crystal.cpp subway.cpp migrate.cpp hub.cpp编译选项对于 C++ 语言 -O2 -std=c++14 -static注. 意. 事. 项（. 请. 仔. 细. 阅. 读）.1. 文件名（程序名和输入输出文件名）必须使用英文小写。2. main 函数的返回值类型必须是 int，程序正常结束时的返回值必须是 0。3. 若无特殊说明，结果的比较方式为全文比较（过滤行末空格及文末换行）。4. 选手提交的程序源文件大小不得超过 100 KiB。5. 程序可使用的栈空间内存限制与题目的内存限制一致。6. 禁止在提交的程序源文件中改变编译器参数（如使用 #pragma 命令），禁止使用系统结构相关指令（如内联汇编）或其他可能造成不公平的方法。7. 提交的程序源文件的放置位置请参考各省的具体要求。8. 因违反上述规定而出现的问题，申诉时一律不予受理。9. 只提供 Linux 格式附加样例文件。10. 全国统一评测时采用的机器配置为：Intel Core Ultra 9 285K CPU @ 3.70 GHz（关闭睿频与能效核），内存 96 GB。上述时限以此配置为准。11. 评测在当前最新公布的 NOI Linux 下进行，各语言的编译器版本以此为准。2026 CCF 非专业级软件能力认证 CSP-J/S 2026 第二轮 提高组 能量水晶（crystal）能量水晶（crystal）【题目描述】小 R 有 n 颗能量水晶，其中第 i (1 ≤ i ≤ n) 颗的能量值为整数 ai。小 R 想用其中若干颗能量水晶合成一颗大水晶，用于合成的水晶必须具有相同的能量值。小 R 希望参与合成的水晶尽可能多。他可以进行至. 多. m 次操作。每次操作可以任选一颗水晶，将其能量值增加 1；同一颗水晶可以被重复选择。你需要帮助小 R 求出，进行至多 m 次操作后，他最多能用多少颗能量水晶合成一颗大水晶。【输入格式】从文件 crystal.in 中读入数据。输入的第一行包含一个正整数 n 和一个非负整数 m，分别表示能量水晶的数量和最多可以进行的操作次数输入的第二行包含 n 个整数 a1, a2, . . . , an，依次表示每颗能量水晶的能量值。【输出格式】输出到文件 crystal.out 中输出一行一个正整数，表示进行至多 m 次操作后，小 R 最多能用多少颗能量水晶合成一颗大水晶。【样例 1 输入】1 5 52 1 2 4 8 9【样例 1 输出】1 3【样例 1 解释】小 R 有 5 颗能量水晶，能量值分别为 1, 2, 4, 8, 9。他可以对能量值为 1 和 2 的水晶分别操作 3 次和 2 次，使原来能量值为 1, 2, 4 的三颗水晶的能量值都变成 4，共进行 5次操作。因此小 R 可以用 3 颗能量水晶合成一颗大水晶。第 2 页 共 13 页2026 CCF 非专业级软件能力认证 CSP-J/S 2026 第二轮 提高组 能量水晶（crystal）【样例 2 输入】1 5 82 -3 -1 2 2 7【样例 2 输出】1 4【样例 3】见题目目录下的 crystal/3.in 与 crystal/3.ans。该样例满足测试点 8, 9 的约束条件。【样例 4】见题目目录下的 crystal/4.in 与 crystal/4.ans。该样例满足测试点 10 ∼ 12 的约束条件。【数据范围】对于所有测试数据，均有：• 1 ≤ n ≤ 5 × 105，0 ≤ m ≤ 1018；• 对于所有 i (1 ≤ i ≤ n)，均有 |ai
+| ≤ 1012。测试点编号 n ≤ m ≤ maxnn
+i=1|ai
+| ≤ 特殊性质1, 2 5 1020无3 ∼ 5 16 1 0006, 75 000106 1008, 9 109 10510 ∼ 125 × 105108 10013 ∼ 151018 1012A16 ∼ 18 B19, 20 无特殊性质 A：对于所有 i (1 ≤ i ≤ n)，均有 ai = i。特殊性质 B：a1, a2, . . . , an 构成等差数列。第 3 页 共 13 页2026 CCF 非专业级软件能力认证 CSP-J/S 2026 第二轮 提高组 地铁（subway）地铁（subway）【题目描述】B 市共有 m 个地铁站，编号为 1 到 m。每个地铁站都有一个站厅，地铁口与站厅之间有一条通道，往返耗时相同。从第 v (1 ≤ v ≤ m) 个地铁站的地铁口走到站厅需要wv 的时间。B 市共有 n 条地铁线路，编号为 1 到 n，其中第 i (1 ≤ i ≤ n) 条线路经过 ki 个地铁站，编号依次为 ai,1, ai,2, . . . , ai,ki。在第 ai,j (1 ≤ j ≤ ki) 个地铁站处，从站厅走到第 i条线路的站台需要 ti,j 的时间，往返耗时相同。同一条线路不会重复经过同一个地铁站，即 ai,1, ai,2, . . . , ai,ki 两两不同。由于空间有限，每个地铁站最多有 d 条线路经过。此外，B 市的地铁网络是连通的，即任意两个地铁站都可以通过若干条线路互相到达。小 R 有 q 个出行计划。对于第 r (1 ≤ r ≤ q) 个出行计划，小 R 将从第 xr 个地铁站的地铁口出发，乘坐地铁到达第 yr 个地铁站的地铁口，途中可能进行若干次站内换乘。每次站内换乘都需要从一条线路的站台先走到站厅，再从站厅走到另一条线路的站台。每个出行计划的总步行时间为进出站和换乘的步行时间之和。小 R 希望每个出行计划的总步行时间都尽可能少你需要帮助小 R 求出，每个出行计划的最小总步行时间。【输入格式】从文件 subway.in 中读入数据。输入的第一行包含五个非负整
+
+[475] GD-S03638/migrate/migrate.cpp:82
+/*
+zuo fa jia le dan wo wan quan bu zhi dao jia zai na,caobi
+
+Oh No!! i'm right!!! guo da yang li le,
+danshi di 4 ge hen man.
+man!!!
+
+hyxggsama saikyo
+
+zui jin zai kan wuyuxilie,gan jue bu cuo.
+,jiu shi cha hua bi jiao jian lou.
+
+jin tian shang wu wo you da le yi bian yueji,gongzhuxian Good End.
+
+qi shi wo xian zai gan jue fan dao mei you TE lai gan jue.
+
+xiang hu ai lian que bu de bu li bie
+,dan ji yi yu yue ding yong yuan buhui bei yi wang.
+
+xia qi lai wenxueshaonu de di ba juan hao xian ye shi zhe ge gan jue.
+
+ai,zai guo yi ge yue jiu yao AFO le.
+
+wo yu OI de feng li shi fou ye jiang ru ci dong ren xin xian ne.
+
+I love OI.
+
+*/
+
+[476] GD-S03732/subway/subway.cpp:167
+//我要开始写正解了，呜呜呜我正解没写出来喵 
+
+[477] GD-S03759/crystal/crystal.cpp:31
+/*
+究竟是哪种人会把排序前的前缀和拿去用然后检查一个小时才检查出来，一开始就知道咋做结果15:37才做完 
+100+0+eps+0
+AFOed
+*/
+
+[478] GD-S03760/crystal/crystal.cpp:40
+/*
+估分：100+44+?+15 
+我是GD-J04204，迷惑行为大赏能帮我看看GD-J04204的代码有没有加reutrn 0吗 
+*/
+
+[479] GD-S03760/hub/hub.cpp:106
+/*
+估分：100+44+?+15 
+我是GD-J04204，迷惑行为大赏能帮我看看GD-J04204的代码有没有加reutrn 0吗 
+*/
+
+[480] GD-S03760/migrate/migrate.cpp:39
+/*
+估分：100+44+?+15 
+我是GD-J04204，迷惑行为大赏能帮我看看GD-J04204的代码有没有加reutrn 0吗 
+*/
+
+[481] GD-S03760/subway/subway.cpp:83
+/*
+估分：100+44+?+15 
+我是GD-J04204，迷惑行为大赏能帮我看看GD-J04204的代码有没有加reutrn 0吗 
+*/
+
+[482] GD-S03761/crystal/crystal.cpp:36
+////		不会的，因为之前判了i>=3   
+
+[483] GD-S03762/crystal/crystal.cpp:74
+//16:06 终于给我调出来了神秘crystal的神秘暴力
+
+[484] GD-S03762/subway/subway.cpp:80
+// 			//还有三个小时还有救
+
+[485] GD-S03801/migrate/migrate.cpp:75
+/*似 
+#include <cstdio>
+#include <algorithm>
+#define N 2000005
+#define ll long long
+using namespace std;
+
+int C, T;
+int n, i, f, t, l, r;
+int p[N], p1[N], p2, q[N];
+ll d, a[N], ans;
+int nxt(int x){
+	if(x < 1)	return 1;
+	return upper_bound(a+1, a+1+n, a[x]+d)-a-1;
+}
+int prv(int x){
+	if(x > n)	return n;
+	return lower_bound(a+1, a+1+n, a[x]-d)-a;
+}
+int main(){
+	freopen("migrate6.in", "r", stdin);
+	scanf("%d%d", &C, &T);
+	while(T--){
+//		printf("T%d\n", T); 
+		ans = 0;
+		scanf("%d%lld", &n, &d);
+		for(i=1; i<=n; i++)	scanf("%lld", a+i);
+		for(i=n; i; i--){
+			f = nxt(i);
+			p1[i] = min(f, n)-i;
+			p2 = nxt(f)-nxt(f-1);
+			p[i] = p1[i] + p2;
+			if(p2)	p[i] += p[f]-p1[f];
+			//距离为2的单路径(nxt(f-1), nxt(f)]
+		}
+		for(i=1; i<=n; i++){
+			f = prv(i);
+			p1[i] = i - f;
+			p2 = prv(f+1)-prv(f);
+			q[i] = p1[i] + p2;
+			if(p)	q[i] += q[f]-p1[f];
+		}
+//		for(i=1; i<=n; i++){
+//			printf("%d prev %d next %d\n", a[i], q[i], p[i]);
+//		}
+		for(i=1; i<=n-3; i++){
+			f = nxt(i);
+			if(f-i < 2)	continue;
+			l = nxt(f-2), r = nxt(f-1), t = nxt(f);
+			l = max(l, f);
+			if(r == l)	continue;
+			if(f > 2 && 1){
+				f = q[i] - max(0, i-prv(i+1));
+//				printf("a%lld LR(%d %d)\n", a[i], a[l], a[r]);
+//				printf("qi%d prv %d\n", q[i], q[i] - max(0, i-prv(i+1))+1);
+				ans += 1ll * (p[r]-max(0, nxt(r-1)-r)+1) * (q[i] - max(0, i-prv(i+1))+1);
+				ans += r-l-1;
+//				printf("ans%lld\n", ans);
+
+//				ans += 1ll * (p[r] - max(0, nxt(r-1)-r)) * (q[i] - max(0, i-prv(i+1)));
+//				ans += r-l;
+//				printf("a%lld ans%lld L%d R%d\n", a[i], ans, l, r);
+			}
+			//(l, r] 距离为2的 
+		}
+		printf("%lld\n", ans);
+		for(i=1; i<=n; i++)	p[i] = p1[i] = q[i] = 0;
+	}
+}
+*/
+
+[486] GD-S03836/subway/subway.cpp:1
+//估分：80~92，不错！ 如果CCF少爷机这题能A 
+
+[487] GD-S03853/crystal/crystal.cpp:1
+//crystal GYSB 
+
+[488] GD-S03862/migrate/migrate.cpp:64
+//cout<<j<<' '<<i<<"orz\n";
+
+[489] GD-S03904/crystal/crystal.cpp:2
+//1018996 rp++
+
+[490] GD-S03904/subway/subway.cpp:1
+/*我是513*/
+
+[491] GD-S03988/subway/subway.cpp:83
+//e不搞最大没救了。 
+
+[492] GD-S04000/crystal/crystal.cpp:194
+/*
+16:35 know how to do n log n but coding n^2 first
+16:40 n^2 WA crystal 3
+16:46 n^2 ok 45pts now 45+60+32=147
+16:47 coding n log n
+16:51 ending n log n but not ok
+16:52 find that n log n is not true,coding n log^2 n
+16:59 ending n log^2 n ok, but in the biggest case use 1.2sec
+17:00 start ka'chang
+17:01 in CCF's biggest case run 0.854sec continue
+17:03 0.842sec
+17:05 I find that can do in n log n with block
+17:24 n log n is ok but crystal4 is WA
+17:26 find that n log^2 n wa also
+17:31 let n log^2 n correct
+17:32 let n log n correct  tim:0.682sec
+17:35 check memery and tim,  tim:0.677s,mem:22.21MB  now:100+60+32+0=192pts
+18:03 NOI LINUX correct tim:0.1s,mem:22MB
+跳 T4
+18:21 last check ok
+*/
+
+[493] GD-S04000/hub/hub.cpp:159
+/*
+17:37 know how to do k<=2 start coding
+17:43 wa k<=2
+17:47 to do n,k<=10
+17:58 n,k<=10 correct 15pts now :100+60+32+15=207pts
+17:59 use Linux2.0 check
+18:05 NOI LINUX correct
+18:20 last check ok
+*/
+
+[494] GD-S04000/subway/subway.cpp:146
+/*
+15:20 coding 44pts
+15:35 44pts ok
+16:10 check 44pts ok
+16:13 coding 12-15 16pts
+16:28 16pts ok  but checking
+16:30 checking ok 60pts
+16:30 0+60+32+0=92pts
+跳 T1
+18:17 NOI LINUX correct
+18:20 last check ok
+*/
+
+[495] GD-S04048/hub/hub.cpp:25
+//	printf("#@%lld %lld %lld %lld\n",x,y,sa[x],sb[x]);
+
+[496] GD-S04089/hub/hub.cpp:73
+//	fd[u]=-1145141919;
+
+[497] GD-S04094/migrate/migrate.cpp:96
+/*1st----------------------------------------------------------------------------
+#include<bits/stdc++.h>
+#define int long long
+using namespace std; 
+const int maxn=1e6*2+100;
+int tstid,T;
+int n,m,a[maxn],way[maxn],st[maxn],la[maxn];
+void solveA(){
+	cin>>n>>m;
+	for(int i=1;i<=n;i++)
+	{
+		cin>>a[i];
+	}
+	for(int i=1;i<=n;i++)
+	{
+		int last=i;
+		st[i]=0,la[i]=i;
+		for(int j=i+1;j<=n;j++)
+		{
+			while(a[j]-a[last]>m) last++;
+			if(j==last) 
+			{
+				la[j]=j;
+				continue;
+			}
+			
+			st[j]=st[last]+1;
+			la[j]=last;
+		}
+		for(int j=i;j<=n;j++) cout<<st[j]<<" ";cout<<'\n';
+		for(int j=i;j<=n;j++) cout<<la[j]<<" ";cout<<'\n';
+		cout<<'\n';
+	}
+}
+signed main(){
+	
+	//freopen("migrate.in","r",stdin) , freopen("migrate.out","w",stdout);
+	
+	ios::sync_with_stdio(0);
+	cin.tie(0) , cout.tie(0);
+	
+	cin>>tstid>>T;
+	while(T--) solveA();
+	
+	return 0;
+}
+*/
+
+[498] GD-S04094/migrate/migrate.cpp:145
+/*2nd----------------------------------------------------------------------------
+#include<bits/stdc++.h>
+#define int long long
+using namespace std; 
+const int maxn=1e6*2+100;
+int tstid,T;
+int n,m,a[maxn],way[maxn],st[maxn],la[maxn],t1[maxn];
+void solveA(){
+	cin>>n>>m;
+	for(int i=1;i<=n;i++)
+	{
+		cin>>a[i];
+	}
+	int last=1;
+	st[1]=0,la[1]=1;
+	for(int i=1;i<=n;i++)
+	{
+		while(a[i]-a[last]>m) last++;
+		if(i==last) 
+		{
+			la[i]=i;
+			continue;
+		}
+		
+		st[i]=st[last]+1;
+		la[i]=last;
+	}
+//	for(int j=1;j<=n;j++) cout<<st[j]<<" ";cout<<'\n';
+//	for(int j=1;j<=n;j++) cout<<la[j]<<" ";cout<<'\n';
+//	cout<<'\n';
+	for(int i=1;i<=n;i++)
+	{
+		if(la[i]+1==i) t1[la[i]]=i;
+	}
+	for(int l=1,r=1;r<=n;)
+	{
+		
+	}
+}
+signed main(){
+	
+	//freopen("migrate.in","r",stdin) , freopen("migrate.out","w",stdout);
+	
+	ios::sync_with_stdio(0);
+	cin.tie(0) , cout.tie(0);
+	
+	cin>>tstid>>T;
+	while(T--) solveA();
+	
+	return 0;
+}
+*/
+
+[499] GD-S04099/subway/subway.cpp:1
+/*
+地铁（subway）
+怪不得河神不考S，s太……了。。。 
+#神了，要爆0了 
+*/
+
+[500] GD-S04145/crystal/crystal.cpp:46
+//蒜鸟 不会做 小数据过了一些
+
+[501] GD-S04145/hub/hub.cpp:2
+//这期神了（题目没看懂） 
+
+[502] GD-S04145/hub/hub.cpp:18
+//就这样吧(RP++) 
+
+[503] GD-S04145/hub/hub.cpp:25
+//T4 写完了数据输入 （本. 题. 包. 含. 多. 组. 测. 试. 数. 据. ）（直接输出骗分是不可能了）          MAX可能有(RP++)pt 
+
+[504] GD-S04145/hub/hub.cpp:30
+/*
+  寄希望于T2了，准备退役 
+*/
+
+[505] GD-S04201/hub/hub.cpp:3
+//AFO 
+
+[506] GD-S04201/migrate/migrate.cpp:5
+//4hours->too short AFO 
+
+[507] GD-S04245/migrate/migrate.cpp:104
+/*
+#include<bits/stdc++.h>
+using namespace std;
+#define fst first
+#define scd second
+#define rep(i,s,t) for(int i=s;i<=t;++i)
+#define dep(i,s,t) for(int i=s;i>=t;--i)
+#define endl '\n'
+#define pb push_back
+#define file(x) freopen(#x".in","r",stdin);freopen(#x".out","w",stdout);
+
+using ll=long long;
+using pii=pair<int,int>;
+using pll=pair<ll,ll>;
+
+const int N=2e6+10;
+
+ll a[N],f[N][2];
+int pre[N],nxt[N],cpre[N],cpre2[N];
+void __solve(){
+    int n;ll d;
+    cin>>n>>d;
+    rep(i,1,n) cin>>a[i];
+    rep(i,1,n) cpre[i]=cpre2[i]=f[i][0]=f[i][1]=0;
+    pre[1]=1;
+    rep(i,2,n){
+        pre[i]=pre[i-1];
+        while(pre[i]<i&&a[i]-a[pre[i]]>d) ++pre[i];
+    }
+    nxt[n]=n;
+    dep(i,n-1,1){
+        nxt[i]=nxt[i+1];
+        while(nxt[i]>i&&a[nxt[i]]-a[i]>d) --nxt[i];
+    }
+    // rep(i,1,n) cerr<<pre[i]<<' ';
+    // cerr<<endl;
+    // rep(i,1,n) cerr<<nxt[i]<<' ';
+    // cerr<<endl;
+    rep(i,1,n){
+        ++cpre[pre[i]];
+        if(pre[pre[i]]==pre[pre[i]+1]) ++cpre2[pre[i]];
+    }
+    dep(i,n,1){
+        if(nxt[i]==i) continue;
+        if(pre[nxt[i]]<i-1||pre[pre[nxt[i]]]!=pre[i]) continue;
+        if(pre[nxt[i]]==i-1) f[i][1]=f[nxt[i]][0];
+        else{
+            f[i][0]=f[nxt[i]][0];
+            f[i][1]=f[nxt[i]][1];
+        }
+        // cerr<<f[i][0]<<' '<<f[i][1]<<endl;
+        f[i][0]+=cpre[i];
+        f[i][1]+=cpre2[i-1];
+        // cerr<<f[i][0]<<' '<<f[i][1]<<endl<<endl;
+    }
+    rep(i,1,n) cerr<<f[i][0]<<' '<<f[i][1]<<endl;
+    ll ans=0;
+    rep(i,1,n){
+        if(pre[pre[nxt[i]]]!=pre[i]&&pre[nxt[i]]==i-1){
+            ans+=f[nxt[i]][0];
+            
+        ans+=f[nxt[i]][1];
+        if(nxt[i]!=i&&nxt[i]!=i+1) ans+=cpre[nxt[i]-1]-cpre2[nxt[i]-1];
+        cerr<<ans<<endl;
+        if(nxt[i]==i+1&&nxt[i+1]!=i+1) ans-=cpre2[i];
+    }
+    cout<<ans<<endl;
+}
+int main(){
+#ifndef DEBUG
+    file(migrate)
+#endif
+    ios::sync_with_stdio(0);
+    cin.tie(0);cout.tie(0);
+    int c,t=1;
+    cin>>c>>t;
+    while(t--) __solve();
+    return 0;
+}
+*/
+
+[508] GD-S04256/migrate/migrate.cpp:31
+//		std::cout<<"#?"<<pos[posa]<<","<<pos[posb]<<endl;
+
+[509] GD-S04256/migrate/migrate.cpp:33
+//		std::cout<<"#!"<<posa<<","<<posb<<endl;
+
+[510] GD-S04256/migrate/migrate.cpp:55
+//		std::cout<<"# TRY "<<posa<<"->"<<i<<"->"<<posb<<", mini="<<mini<<" rand="<<rands<<endl;
+
+[511] GD-S04256/migrate/migrate.cpp:58
+//	if(rands==2)std::cout<<"# ANS "<<posa+1<<"->"<<posb+1<<endl;
+
+[512] GD-S04295/hub/hub.cpp:10
+//呜呜呜我是毛毛虫[80,100]+0+0+0=[80,100] 
+
+[513] GD-S04300/migrate/migrate.cpp:63
+//求您了，伟大的CCF，多给我点分吧！ 
+
+[514] GD-S04331/migrate/migrate.cpp:69
+/*
+显然只能暴力了 
+枚举所有2^n种可能经过的路径，维护dis[x,y]和cnt[x,y] 
+
+我不会写次短路板子
+
+AFO？
+这或许是我最后一次打CSP了，也许高三还能打？
+希望这一次我的发挥对得起我停的1个月文化课
+还有6分钟结束了，我也不知道该干什么了 
+*/
+
+[515] GD-S04373/crystal/crystal.cpp:49
+//鸣朝神了 库洛::崩坏::星穹铁道nb
+
+[516] GD-S04373/migrate/migrate.cpp:49
+//监考员不会传文件，导致我只能shang4shan4ruo4shui3 10mins 
+
+[517] GD-S04373/migrate/migrate.cpp:50
+//别给我判晚离开考场作弊了 
+
+[518] GD-S04373/subway/subway.cpp:52
+//我是蒟蒻有没有人知道为什么(fccf是个回文串) 
+
+[519] GD-S04418/migrate/migrate.cpp:4
+//骗分跑路 
+
+[520] GD-S04447/migrate/migrate.cpp:80
+// 				cnt = -114514;
+
+[521] GD-S04447/migrate/migrate.cpp:84
+// 		if(path[i] >= 3 && x[path[i + 1]] - x[path[i] - 2] <= d) cnt = -114514;
+
+[522] GD-S04455/subway/subway.cpp:5
+/*void s(long long x1,long long y1,long long x2,long long y2,long long sum){
+	if(x1>n||x2>n||x1<=0||x2<=0||y1>k[x1]||y2>k[x2]||y1<=0||y2<=0||t[x1][y1]==0||t[x2][y2]==0){
+		return ;
+	}
+	if(x1==x2&&y1==y2){
+		sum1=sum;
+		return ;
+	}
+	sum+=t[x1][y1];
+	s(x1+1,y1,x2,y2,sum);
+	s(x1-1,y1,x2,y2,sum);
+}*/
+
+[523] GD-S04460/hub/hub.cpp:1
+// I love CCF
+
+[524] GD-S04534/hub/hub.cpp:102
+/*
+给出一棵树,需要在上面选择k个关键点
+要求这些关键点形成不超过两个连通块
+定义一个城市的通勤距离为其到任意关键点的最小距离
+定义整个方案的通勤半径为所有点通勤距离的最大值
+求通勤半径最小值
+多测, sum(n)<=2e6,2<=k<=n
+
+考虑二分答案
+每次二分一个mid,求出哪些点必须被选
+显然,必须被选的点会是比较上的
+但是这是两个连通块,可能有多个点必须被选
+其中一些点可能导致另一些点不需要必须被选
+所以这不行
+注意到形成不超过两个连通块
+那很显然,如果一个连通块,要么直接剥叶贪心
+要么考虑求出中心并按h排序
+如果两个连通块,那就是选择一条边断掉
+然后在两个连通块内求出中心,并按h排序
+然后进行相应的计算答案处理
+此时有个问题,如果某条边一侧有一个中心
+另一侧是一条极长的链
+此时会选择链的中点作为中心
+那么链的连接该边的那一半显然有些点是可以用边上那个中心的
+此时答案会错吗?貌似不会,因为还有另一边的贡献
+这样是n^2的,有40分
+考虑边移动会带来什么
+显然,中心是在直径上的,最多只会移动1格
+问题转化为,移动之后,中心的变化,以及带来的h数组的变化
+显然这是两次换根,还有一个单点加
+可以通过最长链和次长链的更新快速求出h数组的变化
+在h数组上,假设选了前x大的
+那么此时的结果应该是选了的里面最小的那个
+也就是说结果是第n-x+1小的,在第n-x+1个位置
+倒过来就是在第x个位置
+此时,造成的更新最多有三个,x的,y的,新加入or新删的点的
+那么中心怎么移动呢,然而并不会
+*/
+
+[525] GD-S04543/migrate/migrate.cpp:56
+/*
+N是2e6 很显然要近乎O(n)
+大概率是dp 
+先观察一下样例
+首先 我们无法处理完任意两点之间能否到达
+所以我们可以处理出每个节点左边能延申到哪里 和右边能延申到哪里
+d是一定的 所以区间一定在往右移动 我们考虑双指针即可
+处理完这些区间后 我们看看这个岛屿对有什么特征
+首先 u,v要用最少的区间覆盖掉
+其次 有且只有两种方案
+可以发现 区间重叠处的点可以任选
+所以即为最少区间覆盖掉后 所有重叠区间的内部节点的和为2 那么uv即即为这个啥啥啥
+哦对了 起始点和末尾点不算重叠
+不对 不是最少区间覆盖
+首先d是一定的 尽量往外阔绝对没错
+但有一些可能也跟其最优方案相同啊
+可能还是需要考虑一些特征性的问题
+我感觉我短时间搞定不了 那就开始骗分吧
+先考虑O(N^2) 假设我枚举到i 只考虑能否与后面的组成啥啥啥
+首先 i能够扩到的自然不行
+考虑每个i都有一个dp
+dp j 表示i~j最短长度
+f 表示方案数
+硬跑可以写到O(n^3)
+考虑还能不能优化一下
+先写24分 回来再尝试优化 
+24分拿下 先去看T4 
+考虑等差数列的情况
+首先每个人扩的总数一样 范围一样
+11 1
+10 14
+-31 -24 -17 -10 -3 4 11 18 25 32
+*/
+
+[526] GD-S04553/migrate/migrate.cpp:13
+//	void slove() {
+
+[527] GD-S04553/migrate/migrate.cpp:103
+//	BF::slove();
+
+[528] GD-S04556/migrate/migrate.cpp:37
+/*      for(long long i=0;i<n-1;i++){
+			for(long long j=i+1;j<n;j++){
+				for(long long q=0;q<a.size();q++) a[q]=0;
+				findway(x,j,i,0,d);
+				sort(a.begin(),a.end());
+				long long mi=9000000;
+				long long sum=0;
+				for(long long i=0;i<a.size();i++){
+					if(a[i]!=0){
+						mi=min(mi,a[i]);
+					}
+					if(a[i]==mi) sum++;
+				}
+				if(sum==2) ans++;
+			}
+		}
+		cout<<ans<<endl;*/
+
+[529] GD-S04566/hub/hub.cpp:78
+//csps2026 rp++
+
+[530] GD-S04573/crystal/crystal.cpp:38
+/*
+5 5
+1 2 4 8 9
+
+5 8
+-3 -1 2 2 7
+
+7 5
+-114514 2 3 4 5 6 12
+*/
+
+[531] GD-S04573/migrate/migrate.cpp:25
+//				cout<<"114514:"<<mi<<"\n";
+
+[532] GD-S04576/crystal/crystal.cpp:25
+/*
+	cha1=a[2]-a[1];
+	for(int i=2;i<=n;i++){
+		cha2=a[i]-a[i-1];
+		if(cha2==cha1) pd2++;
+	}
+	if(pd2==n){
+		unsigned long long mm=m;
+		int ans=1;
+		for(int i=n-1;i>=1;i--){
+			int cha=a[n]-a[i];
+			if(mm>=cha) ans++,mm-=cha;
+			else break;
+		}
+		cout<<ans;
+		return 0;
+	}
+	*/
+
+[533] GD-S04576/crystal/crystal.cpp:43
+/*
+	int ans=1;
+	for(int i=2;i<=n;i++){
+		int ans1=1;
+		unsigned long long mm=m;
+		for(int j=i-1;j>=1;j--){
+			long long cha=a[i]-a[j];
+			if(mm>=cha)
+				ans1++,mm-=cha;
+			else break;
+		}
+		ans=max(ans,ans1);
+	}
+	cout<<ans;
+	*/
+
+[534] GD-S04586/migrate/migrate.cpp:105
+/*
+题意：
+
+若干个点有坐标，两点互相可达，则dis(a[x]-a[y])<=d
+从点l到点r的最短路有两条，找所有的[l,r]
+
+恰好只有两条，还挺严格 
+
+感觉恰好只能有2步？
+同一起点的可行终点：第一步跳max和max-1，第二步都跳max之间的点？ 
+不太对
+
+只会在(一个大跳，两个大跳]之间找
+
+结论假了？
+
+不算很假，前前后后加几步差不多 
+
+不会了，拼n^2吧  
+*/
+
+[535] GD-S04636/subway/subway.cpp:59
+//		if(qwq[i].inx>1)
+
+[536] GD-S04636/subway/subway.cpp:78
+//			cout<<qwq[i].no[j]<<" "<<qwq[i].tt[j]<<" awa ";
+
+[537] GD-S04636/subway/subway.cpp:108
+//					cout<<"line "<<qwq[tt1].no[j]<<" to "<<"line "<<qwq[tt2].no[k]<<" use "<<boww[qwq[tt1].no[j]][qwq[tt2].no[k]]<<" "<<qwq[tt1].tt[j]<<" "<<qwq[tt2].tt[k]<<"\n";
+
+[538] GD-S04637/migrate/migrate.cpp:53
+//qwq
+
+[539] GD-S04638/hub/hub.cpp:3
+//(> ^ <)不能骗分 
+
+[540] GD-S04638/subway/subway.cpp:6
+//这道题是带权的最短路问题，教室好冷，一方面切出一道题我已经心满意足了，又因为我的图论是乐乐，最短路我只听过同学讲过但我不会，所以写个思路吧
+
+[541] GD-S04638/subway/subway.cpp:9
+//(> ^ <)不能骗分 
+
+[542] GD-S04644/crystal/crystal.cpp:8
+/*
+
+最后一个小时
+假解了，ccf我草泥马
+再见了，致我5年的oi生涯
+HuanL ORZ
+worruonb
+R.I.P
+OwOfcen
+2026 10 31
+没心情复制//freopen了
+
+保龄了估计
+有舍才有得，你怎么知道现在选局部最优解就一定是全局最优解呢
+
+ 
+A.F.O 
+*/
+
+[543] GD-S04653/subway/subway.cpp:60
+// 检测大样例是否能卡满，可以的。O2 0.3s，应该不会被卡了，不拍了。 
+
+[544] GD-S04686/subway/subway.cpp:58
+/*
+14:54我的天，我在10.28的宿舍卧谈会出过这个题
+14:55其实还是有点不同，难道我是预言家？ 
+15:01好乱，让我注释一下 
+15:21没啥思路呢，但好像换乘站数量不会很大？
+15:26并非 
+15:36先拿部分分吧
+16:01好难调啊先看下一题吧
+18:13又回来了，不想写了，这不仅模拟还算法，难难？！ 
+*/
+
+[545] GD-S04735/subway/subway.cpp:84
+/*
+    * n <= 500
+    * m <= sigma(k) <= 5e5
+    * d <= 20
+    * q <= 1e5
+    * w <= 1e9
+    * k <= m
+    * a <= m
+    * t <= 1e9
+    * a_i diff
+    * edges crossing subway v <= d
+    * graph connected
+    */
+
+[546] GD-S04735/subway/subway.cpp:99
+// RP++
+
+[547] GD-S04739/hub/hub.cpp:145
+/*
+首先无脑二分
+然后你发现，对于一个深度限制，如果说我的子树内的最大深度刚好达到了k，那么在我这里放一定是不劣的对吧
+首先二分毋庸置疑
+然后，为了保险起见可以先把根设为中心？
+然后求出所有子树内深度最大值刚好为 k 的，这些点必选
+接着合并不就行了
+就是你发现一开始是是这么多个联通块呀，然后用了几个啊，然后合并到lca嘛
+就是每一次合并一定少一个连通块，那我只需要贪心去选合并所需要权值最小的即可
+考虑怎么维护这个
+这个只能1log，如果二分了的话只能n去chk
+感觉可以bfs啊
+欸或者，每个点记有几个子树深度大于？
+然后你发现一个事情，就是如果你有超过 3 个子树深度大于你就是必选的
+不过你发现其实是有点像最小生成树的
+MST是n-1条边，这里是n-2条边
+欸我先扫一遍，计算那个有几个子树深度大于等于，然后标记
+然后跑bfs
+然后你比如说跑到了一个点，发现它的子树大于1，那么它必然是某个点的lca，打标记然后统计贡献即可
+然后如果你发现我跑到了一个已经被打了标记处理好的点直接扔掉不入队就行
+不是我说，每个点离它最近的必然是dfs序上最近的啊，能不能这样处理
+能不能加速
+这样是n^2log的吧
+没时间了随便写个暴力吧
+可以用set
+但是合并到只剩两个的时候还要特判一下那些在根周围小于dep的
+这个好办 
+我说我发现我不会找中心
+额
+我说中心就是直径的中点吧 
+
+树形dp，设f_{i, 0/1, 0/1/2} 表示 i 子树内，i选不选，选了几个连通块的最少步数 
+*/
+
+[548] GD-S04739/migrate/migrate.cpp:20
+/*
+首先它必须得是最短路径
+就是我每次都是跳到小于等于 x + d 的最大的那个对吧
+在这样的最值环境下能有两条
+不是我怎么感觉要那啥呢
+孩子们是恰好我们没救了
+不过真是的话就不会把 2 当作定值给出来了
+首先一个猜想是我必然能归化到长度为 2 的两条路径上面
+对对，你发现它必然是一段重合一段分叉一段汇合对吧
+对于你的汇合点来说，你要跳两步它必然大于 d ，然后你另外一个跳 1 步可以到那么必然在
+我和汇合点之间
+首先一样的话必然不止两条
+不一样的话，对于更后面那个而言，我必然能跳到你的中转点，所以就必然不止两条
+也就是两条的情况当且仅当仅有唯一一条最短路并且中间有长度为 2 的分叉
+你发现这个并不好处理
+
+嗯，首先这个是好判断的，就是这种长度为 2 的点对，就是数点嘛
+但是也不好枚举啊
+嗯
+然后问题是
+嗯，就是拿这个举例的话就是你发现1到5有一条，5到6有一条，那么1到6首先有一条
+不对还有步数的限制
+不对啊我可以两步到 5 我必然可以两步到 4 啊
+
+能不能对向跑呢
+你考虑一个事情，我两条最短路是否必然可以刻画成一直跳最远最远跳到最后剩一个
+比如说我在路上交汇了的话，我是不是必然只有一条
+对于交汇点，离t更近的点s都跳不到，那么，如果还有另外一条路的话
+中转点要么更左要么更右，然而你发现这个点不可能能一步既跳到s又跳到t
+也就是说，判断两个点之间是1条还是两条是容易的，你只需要两边同时跳
+如果在某一点交汇，则只有一条
+并且还要满足中间都是只有一条的
+然后这个是好处理的，就是基础点对嘛 
+*/
+
+[549] GD-S04739/subway/subway.cpp:71
+/*
+难点在于读懂题目
+首先就是那个线路应该就是连一个虚拟节点然后边权为 0 的边吧
+然后就是，首先那个神秘的地铁口那个是不是不用管
+我觉得并不需要给虚拟节点连边权为 0 的边吧
+实际上你是步行的距离，那么我直接从虚拟节点连那个站台到大厅的边不就行了吗
+然后我看一下复杂度要怎么优化
+哦哦好的终于读懂题目了
+硬跑dijk肯定是不行的，dijk是每个节点只出队一次，所以应该是mlogn级别的，或者mlogm
+然后这个 d 大有玄机哦
+也就是一个节点出发最多连 d 条边
+然后
+？
+为什么不能floyd
+hyw
+不是不是 m是节点数
+什么
+虚拟节点只会有500个
+那我先从虚拟节点开始
+大概可以这样做吧
+不过你mlogm已经很卡卡了，再乘一个500不可能过啊
+那我肯定是要处理出一个虚拟节点到所有实际节点的最短路
+那么能不能这样剪枝，就是记录一下处理了哪些虚拟节点到所有的最短路，然后如果遍历到虚拟节点
+但是你发现虚拟节点的个数也很少啊，能不能在这上面搞点事情 
+我去然后我直接倒闭了
+额你发现我对于虚拟点跑floyd也许是可以的
+我觉得你如果要用上20的话，那就是，其实相当于在交汇点之间两两连边是吗
+现在基本思路就是，首先我肯定不能预处理两个真实节点的最短路，那么对于1e5组询问
+我应该是枚举交汇点，只要处理出每个交汇点到实际节点的最短路就行了
+问题就在这里
+我能不能枚举1去哪里，2从哪里进入
+好像可以 
+数组千万要看好啊！！！ 
+*/
+
+[550] GD-S04810/crystal/crystal.cpp:40
+//while it's doubtless that I'm going AFO soon.
+
+[551] GD-S04813/migrate/migrate.cpp:39
+//				debug("fuck",i,k,j); 
+
+[552] GD-S04818/crystal/crystal.cpp:48
+/*long long run(long long x,long long mid,long long y,long long ans)
+{
+	
+	long long check;
+	for(int i=x;i<=y;i++)
+	{
+		if(mp[x]<=mp[mid]&&mp[y]<=mp[mid])
+		{
+			check=run(x,i,y,ans);
+			ans=max(check,ans);
+		}
+		
+	}
+	
+}*/
+
+[553] GD-S04849/migrate/migrate.cpp:112
+/*
+T3：要单 log，可以考虑先打个暴力
+
+先想 20min，如果不会先暴力然后拼包先，to 16：12
+
+极短点对，先 check 一下，10 min to 16：12
+
+猜了一个最多研究到 16:40，有点假不是这么做的，先上厕所！！
+
+先打一下暴力吧，预估 20 min to 16：47
+
+效率有点低，让我先快速拼包，拼到 17：10
+
+有点卡了，跳！！！
+
+*/
+
+[554] GD-S04893/subway/subway.cpp:73
+/*
+		为什么总是有不同的起点和终点啊
+		每次换起点跑dij太慢了，但是5e5的点数又不能跑floyd
+		每条线路只经过两个点，有什么深意吗 
+		想想作为超级源点的换成站的性质。。。
+		不会写floyd能不能循环dij啊 
+		啊啊啊好难
+		n只有500，跑所有的超级源点之间的最短路之后再枚举行不行啊
+		为什么过不了大数据 
+	*/
+
+[555] GD-S04981/crystal/crystal.cpp:27
+// 最后一舞，afo 快乐 
+
+[556] GD-S04990/hub/hub.cpp:12
+/*
+常忆年少时，意气风发，
+谈笑写出唯一解。
+却轻易别离，三载时光，
+退役满是憾与茫。
+
+今有幸，复回赛场，
+不复当年。
+终曲散，夜时回想，
+人在何方？ 
+*/
+
+[557] GD-S05036/hub/hub.cpp:17
+/*
+Logs
+
+00:00(14:40) contest started.
+00:10 set up.
+00:20 finished A.
+00:30 B O(m*d^2+n^3+q*d^2) may TLE.
+00:50 failed to optimize and started programming.
+01:30 finished the codes and passed all samples.
+	ended in 0.2s with full scale data,
+	so no need for optimization. :)
+02:50 too difficult! had been thinking C for nothing. had to commit to O(n^2).
+03:20 O(n^2) code was done.
+*/
+
+[558] GD-S05043/subway/subway.cpp:72
+/*输在不会无向有环图的最短路了啊*/
+

@@ -1,0 +1,932 @@
+Floyd 112 files 109 Counter({'ijk': 95, 'ikj': 17})
+GD-S00011/subway/subway.cpp 33 ijk outer [] 
+	for(int i = 1; i <= n; ++i)
+		for(int j = 1; j <= n; ++j) 
+			for(int k = 1; k <= n; ++k)
+				upd(dist[i][j], dist[i][k] + dist[k][j]);
+	for(int x, y; q--; ) {
+
+GD-S00127/subway/subway.cpp 51 ijk outer [] 
+	for(int i=1;i<=n;i++){
+		for(int j=1;j<i;j++){
+			for(int k=1;k<i;k++){
+				dis[i][j]=dis[j][i]=
+				min(dis[i][j],dis[i][k]+dis[k][j]);
+			}
+
+GD-S00149/subway/subway.cpp 35 ijk outer [] 
+	for(int i=1;i<=m;i++)
+		for(int j=1;j<=m;j++)
+			for(int k=1;k<=m;k++)
+				f[i][j]=min(f[i][j],f[i][k]+f[k][j]);
+	while(q--){
+
+GD-S00176/subway/subway.cpp 26 ijk outer [] 
+	for(int i=1;i<=m;i++)
+		for(int j=1;j<=m;j++)
+			for(int k=1;k<=m;k++)
+				dis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);
+	while(qu--){
+
+GD-S00180/subway/subway.cpp 37 ikj outer [] 
+	for (int i=1;i<=n;i++){
+		for (int k=1;k<=n;k++){
+			for (int j=1;j<=n;j++){
+				dp[i][j]=min(dp[i][j],dp[i][k]+dp[k][j]);		
+			}
+
+GD-S00195/subway/subway.cpp 75 ijk outer [] 
+	for(int i=1;i<=n;i++)
+		for(int j=1;j<=n;j++)
+			for(int k=1;k<=n;k++)
+				dist[i][j]=min(dist[i][j],dist[i][k]+dist[k][j]);
+
+
+GD-S00304/subway/subway.cpp 46 ijk outer [] 
+	for (int i = 1; i <= n; i++){
+		for (int j = 1; j <= n; j++){
+			for (int k = 1; k <= n; k++){
+				d[i][j] = min(d[i][j], d[i][k] + d[k][j]);
+				d[j][i] = d[i][j];
+
+GD-S00325/subway/subway.cpp 63 ijk outer [] 
+		for(int i = 1; i <= m; i++){
+			for(int j = 1; j <= m; j++){
+				for(int k = 1; k <= m; k++){
+					mn[i][j] = min(mn[i][j], mn[i][k] + mn[k][j]);
+					mn[j][i] = min(mn[j][i], mn[j][k] + mn[k][i]);
+
+GD-S00394/subway/subway.cpp 62 ijk outer [] 
+	for(int i=1;i<=n;i++){
+		for(int j=1;j<=n;j++){
+			for(int k=1;k<=n;k++){
+				f[i][j]=min(f[i][j],f[i][k]+f[k][j]);
+			}
+
+GD-S00405/subway/subway.cpp 38 ijk outer [] 
+	for(int i=1;i<=n;i++)
+		for(int j=1;j<=n;j++)
+			for(int k=1;k<=n;k++)
+				dis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);
+	while(q--)
+
+GD-S00421/subway/subway.cpp 8 ijk outer [] 
+	for(int i=1;i<m;i++){
+		for(int j=1;j<m;j++){
+			for(int k=1;k<m;k++){
+				if(dist[i][k]!=1145141919810&&dist[k][j]!=1145141919810){
+					dist[i][j]=min(dist[i][k]+dist[k][j],dist[i][j]);
+				}
+
+GD-S00559/subway/subway.cpp 51 ijk outer [] 
+	for(int i=1;i<=n;i++){
+		for(int j=1;j<=n;j++){
+			for(int k=1;k<=n;k++){
+				if(dis[i][k]==inf||dis[k][j]==inf) continue;
+				dis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);
+			}
+
+GD-S00593/subway/subway.cpp 40 ijk outer [] 
+	for(int i=1;i<=n;i++){
+		for(int j=1;j<=n;j++){
+			for(int k=1;k<=n;k++){
+				dis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);
+			}
+
+GD-S00691/subway/subway.cpp 57 ijk outer [] 
+		for (long long i=1;i<=n;i++){
+			for (long long j=i+1;j<=n;j++){
+				for (long long k=1;k<=n;k++){
+					if (ans[i][k]!=0x3f3f3f3f3f3f3f3f and ans[k][j]!=0x3f3f3f3f3f3f3f3f and ans[i][j]>ans[i][k]+ans[k][j]){
+						ans[i][j]=ans[j][i]=ans[i][k]+ans[k][j];
+
+GD-S00701/subway/subway.cpp 35 ijk outer [] 
+	for(int i=1;i<=m;i++){
+		for(int j=1;j<=m;j++){
+			for(int k=1;k<=m;k++){
+				f[i][j]=min(f[i][j],f[i][k]+f[k][j]);
+			}
+
+GD-S00843/subway/subway.cpp 64 ijk outer [] 
+	for(int i=1;i<=n;i++){
+		for(int j=1;j<=n;j++){
+			if(i==j)continue;
+			for(int k=1;k<=n;k++){
+				T[i][j]=min(T[i][j],T[i][k]+T[k][j]);
+			}
+
+GD-S00884/subway/subway.cpp 34 ijk outer [] 
+	for(int i=1;i<=n;i++){
+		for(int j=1;j<=n;j++){
+			for(int k=1;k<=n;k++){
+				f[i][j]=min(f[i][j],f[i][k]+f[k][j]);
+			}
+
+GD-S00915/subway/subway.cpp 33 ijk outer [] 
+	for(int i=1;i<=n;i++){
+		for(int j=1;j<=n;j++){
+			for(int k=1;k<=n;k++){
+				if(i==j) t[i][j]=0;
+				t[i][j]=t[j][i]=min(t[i][j],t[i][k]+t[k][j]);
+			}
+
+GD-S00952/subway/subway.cpp 52 ijk outer [] 
+	for(int i = 1;i <= n;i++)
+		for(int j = 1;j <= n;j++)
+			for(int k = 1;k <= n;k++)
+			{
+				f[i][j] = min(f[i][j],f[i][k] + f[k][j]);
+			}
+
+GD-S01079/subway/subway.cpp 35 ijk outer [] 
+	for(int i=1;i<=n;i++)
+		for(int j=1;j<=n;j++)
+			for(int k=1;k<=n;k++)dis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);
+	while(q--){
+
+GD-S01096/subway/subway.cpp 63 ijk outer [] 
+	for (int i = 1; i <= n; ++i) {
+		for (int j = 1; j <= n; ++j) {
+			for (int k = 1; k <= n; ++k) {
+				f[i][j] = min(f[i][j], f[i][k] + f[k][j]);
+			}
+
+GD-S01123/subway/subway.cpp 28 ijk outer [] 
+	for(int i=1;i<=m;i++){
+		for(int j=1;j<=m;j++){
+			for(int k=1;k<=m;k++){
+				f[i][j]=min(f[i][j],f[i][k]+f[k][j]);
+			}
+
+GD-S01235/subway/subway.cpp 60 ijk outer [] 
+	for(int i=1;i<=m;i++){
+		for(int j=1;j<=m;j++){
+			if(i==j) continue;
+			for(int k=1;k<=m;k++){
+				if(k!=i&&k!=j) f[i][j]=min(f[i][j],f[i][k]+f[k][j]);
+			}
+
+GD-S01235/subway/subway.cpp 69 ijk outer ['int h=1;h<=m;h++'] 
+		for(int i=1;i<=m;i++){
+		    for(int j=1;j<=m;j++){
+			    if(i==j) continue;
+			    for(int k=1;k<=m;k++){
+				    if(k!=i&&k!=j) f[i][j]=min(f[i][j],f[i][k]+f[k][j]);
+			    }
+
+GD-S01260/subway/subway.cpp 57 ijk outer [] 
+		for(int i=1;i<=n;i++)
+			for(int j=1;j<=n;j++)
+				for(int k=1;k<=n;k++)
+					if(g[i][k]!=LLONG_MAX&&g[k][j]!=LLONG_MAX)
+						g[i][j]=min(g[i][j],g[i][k]+g[k][j]);
+		while(q--)
+
+GD-S01313/subway/subway.cpp 38 ikj outer [] 
+	for(int i=1;i<=n;i++){
+		dis[i][i]=0;
+		for(int k=1;k<=n;k++){
+			for(int j=1;j<=n;j++){
+				dis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);
+			}
+
+GD-S01356/subway/subway.cpp 36 ikj outer [] 
+	for(int i=1;i<=n;++i){
+		for(int k=1;k<=n;++k){
+			for(int j=1;j<=n;++j){
+				if(i==k || k==j || i==j)continue;
+				if(qz[i][k]==0x3f3f3f3f3f3f3f3f || qz[k][j]==0x3f3f3f3f3f3f3f3f)continue;
+				qz[i][j]=min(qz[i][j],qz[i][k]+qz[k][j]);
+				qz[j][i]=qz[i][j];
+
+GD-S01379/subway/subway.cpp 43 ijk outer [] 
+	for(int i=1;i<=n;i++){
+		for(int j=1;j<=n;j++){
+			for(int k=1;k<=n;k++){
+				if(len[i][k]==5e16||len[k][j]==5e16)continue;
+				len[i][j]=len[j][i]=min(len[i][j],len[i][k]+len[k][j]);
+			}
+
+GD-S01417/subway/subway.cpp 48 ijk outer [] 
+	for(int i=1;i<=n;i++){
+		for(int j=1;j<=n;j++){
+			for(int k=1;k<=n;k++)
+				dis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);
+		}
+
+GD-S01430/subway/subway.cpp 34 ijk outer [] 
+	for(int i = 1;i<=n+1000;i++){
+		if(i > m and i <= 1000) continue;
+		for(int j = 1;j<=n + 1000;j++){
+			if(i == j) continue;
+			if(j > m and j <= 1000) continue;
+			for(int k = 1;k<=n+1000;k++){
+				if(i == k or j == k) continue;
+				if(k > m and k <= 1000) continue;
+				P[i][j] = min(P[i][j],P[i][k] + P[k][j]);
+				if(P[i][j] < P[j][i]){
+
+GD-S01474/subway/subway.cpp 8 ikj outer [] 
+	for(int i=1;i<=m;i++){
+		for(int k=1;k<=m;k++){
+			if(dis[i][k]==INT_MAX) continue;
+			for(int j=1;j<=m;j++){
+				if(dis[k][j]==INT_MAX) continue;
+				dis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);
+			}
+
+GD-S01475/subway/subway.cpp 50 ikj outer [] 
+	for(int i=1;i<=m;i++)
+	{
+		for(int k=1;k<=m;k++)
+		{
+			for(int j=1;j<=m;j++)
+			{
+				if(ma[i][j] > ma[i][k]+ma[k][j]) ma[i][j]=ma[i][k]+ma[k][j];
+			}
+
+GD-S01509/subway/subway.cpp 29 ijk outer [] 
+	for(int i = 1;i<n+m;i++)
+		for(int j = i+1;j<=n+m;j++)
+			for(int k = 1;k<=n+m;k++){
+				if(i==j||j==k||i==k)
+					continue;
+				if(dst[i][j]>dst[i][k]+dst[k][j])
+					dst[j][i] = dst[i][j] = dst[i][k]+dst[k][j];
+
+GD-S01525/subway/subway.cpp 52 ijk outer [] 
+	for(int i=1;i<=m;i++)
+	{
+		for(int j=1;j<=m;j++)
+		{
+			if(j==i)
+			{
+				continue;
+			}
+			for(int k=1;k<=m;k++)
+			{
+				if(k==i||k==j)
+				{
+					continue;
+				}
+				f[i][j]=min(f[i][j],f[i][k]+f[k][j]);
+			}
+
+GD-S01547/subway/subway.cpp 41 ijk outer [] 
+			for(i64 i = 0;i < m;i ++) {
+				for(i64 j = 0;j < m;j ++) {
+					for(i64 k = 0;k < m;k ++) {
+						d[i][j] = std::min(d[i][j], d[i][k] + d[k][j]);
+					}
+
+GD-S01547/subway/subway.cpp 64 ijk outer [] 
+			for(i64 i = 0;i < m;i ++) {
+				for(i64 j = 0;j < m;j ++) {
+					for(i64 k = 0;k < m;k ++) {
+						d[i][j] = std::min(d[i][j], d[i][k] + d[k][j]);
+					}
+
+GD-S01570/subway/subway.cpp 35 ijk outer [] 
+	for (int i=1;i<=m;i++)
+		for (int j=1;j<=m;j++)
+			for (int k=1;k<=m;k++)
+				if (i!=j&&j!=k)
+				{
+					dis[i][j]=dis[j][i]=min(dis[i][k]+dis[k][j],dis[i][j]);
+				}
+
+GD-S01636/subway/subway.cpp 30 ikj outer [] 
+	for(int i = 1; i <= 500; i++)
+		for(int k = 1; k <= 500; k++)
+			for(int j = 1; j <= 500; j++)
+				dis[i][j]  = dis[j][i] = min(dis[i][j] , dis[i][k] + dis[k][j]);
+
+
+GD-S01693/subway/subway.cpp 68 ijk outer [] 
+		for(int i=1;i<=m;i++){
+			for(int j=1;j<=m;j++){
+				for(int k=1;k<=m;k++){
+					p[i][j]=p[j][i]=min(p[i][j], p[i][k]+p[k][j]);
+				}
+
+GD-S01730/subway/subway.cpp 35 ikj outer [] 
+	for(int i=1;i<=n;i++){
+		for(int  k=1;k<=n;k++){
+			if(dp[i][k]==1061109567){
+				continue;
+			}
+			for(int  j=1;j<=n;j++){
+				if(i==j){
+					dp[i][j]=0;
+				}
+				dp[i][j]=min(dp[i][j],dp[i][k]+dp[k][j]);
+			}
+
+GD-S01757/subway/subway.cpp 43 ijk outer [] 
+	for(long long i=1;i<=m;i++)
+	{
+		for(long long j=1;j<=m;j++)
+		{
+			for(long long k=1;k<=m;k++)
+			{
+				e[i][j]=min(e[i][j],e[i][k]+e[k][j]);
+			}
+
+GD-S01775/subway/subway.cpp 58 ijk outer [] 
+	for(int i=1;i<=m;i++){
+		for(int j=1;j<=m;j++){
+			for(int k=1;k<=m;k++){
+				way[i][j]=min(way[i][k]+way[k][j],way[i][j]);
+			}
+
+GD-S01808/subway/subway.cpp 39 ijk outer [] 
+	for(ll i=1;i<=n;i++)
+		for(ll j=1;j<=n;j++)
+			for(ll k=1;k<=n;k++)
+				dis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);
+//	for(ll i=1;i<=n;i++)
+
+GD-S01840/subway/subway.cpp 35 ijk outer [] 
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=n;j++){
+            for(int k=1;k<=n;k++){
+                tu[j][i]=tu[i][j]=min(tu[i][k]+tu[k][j],tu[j][i]);
+            }
+
+GD-S01884/subway/subway.cpp 63 ijk outer [] 
+	for(ll i=1;i<=n;i++){
+		for(ll j=1;j<=n;j++){
+			for(ll k=1;k<=n;k++){
+				len[i][j]=min(len[i][j],len[i][k]+len[k][j]);
+			}
+
+GD-S01897/subway/subway.cpp 23 ijk outer [] 
+	for(int i=1;i<=m+n;i++){
+		for(int j=1;j<=m+n;j++){
+			for(int k=1;k<=m+n;k++){
+				dp[i][j]=min(dp[i][j],dp[i][k]+dp[k][j]);
+				dp[j][i]=dp[i][j];
+
+GD-S01910/subway/subway.cpp 39 ijk outer [] 
+	for(int i = 1 ; i <= m ; i++){
+		for(int j = 1 ; j <= m ; j++){
+			for(int k = 1 ; k <= m ; k++){
+				dp[i][j] = min(dp[i][k] + dp[k][j] , dp[i][j]);
+			}
+
+GD-S01933/subway/subway.cpp 34 ijk outer [] 
+	for(int i=1;i<=n;i++){
+		for(int j=1;j<=n;j++){
+			for(int k=1;k<=n;k++){
+				mp[i][j]=mp[j][i]=min(mp[i][k]+mp[k][j],mp[i][j]);
+			}
+
+GD-S01990/subway/subway.cpp 22 ijk outer [] 
+		for(int i=1;i<=m;i++)
+			for(int j=1;j<=m;j++){
+				if(i==j) continue;
+				for(int k=1;k<=m;k++){
+					if(k==i or k==j) continue;
+					if(dis[i][j]>dis[i][k]+dis[k][j]){
+						dis[i][j]=dis[i][k]+dis[k][j];
+
+GD-S02011/subway/subway.cpp 38 ijk outer [] 
+	for(int i=1;i<=n;i++){
+		for(int j=1;j<=n;j++){
+			for(int k=1;k<=n;k++){
+				if(f[i][k]+f[k][j]<f[i][j])f[i][j]=f[i][k]+f[k][j];
+			}
+
+GD-S02033/subway/subway.cpp 44 ijk outer [] 
+	for(int i = 1;i <= n;i ++) {
+		for(int j = 1;j <= n;j ++) {
+			if(i == j) continue;
+			for(int k = 1;k <= n;k ++) {
+				if(i == k || j == k) continue;
+				if(f[i][k] + f[k][j] < f[i][j]) {
+					f[i][j] = f[i][k] + f[k][j];
+
+GD-S02045/subway/subway.cpp 44 ijk outer [] 
+	for(int i=1;i<=n;i++){
+		for(int j=1;j<=n;j++){
+			if(i==j){
+				dis[i][j]=0;
+				continue; 
+			}
+			for(int k=1;k<=n;k++){
+				dis[i][j]=min(dis[i][k]+dis[k][j],dis[i][j]);
+			}
+
+GD-S02050/subway/subway.cpp 49 ijk outer [] 
+	for(int i = 1;i <= n;i++){
+		for(int j = 1;j <= n;j++){
+			for(int k = 1;k <= n;k++){
+				chkmin(dis[i][j], dis[i][k] + dis[k][j]);
+			}
+
+GD-S02061/subway/subway.cpp 55 ikj outer [] 
+	for(int i=1;i<=n;i++)
+	{
+		for(int k=1;k<=n;k++)
+		{
+			for(int j=1;j<=n;j++)
+			{
+				if(i==k||i==j||k==j) continue;
+				dp[i][j]=min(dp[i][j],dp[i][k]+dp[k][j]);
+			}
+
+GD-S02151/subway/subway.cpp 40 ijk outer [] 
+		}for(int i=1;i<=n;i++){
+			for(int j=1;j<=n;j++){
+				for(int k=1;k<=n;k++){
+					edge[i][j]=min(edge[i][j],edge[i][k]+edge[k][j]);
+				}
+
+GD-S02196/subway/subway.cpp 36 ijk outer [] 
+	for(int i=1;i<=m;i++){
+		for(int j=1;j<=m;j++){
+			for(int k=1;k<=2*m;k++){
+				if(dist[i][k]!=INF&&dist[k][j]!=INF){
+				dist[i][j]=min(dist[i][j],dist[i][k]+dist[k][j]);
+				//cout<<i<<" "<<j<<" "<<k<<" "<<dist[i][k]<<" "<<dist[k][j]<<"\n";
+
+GD-S02196/subway/subway.cpp 46 ijk outer [] 
+	for(int i=1;i<=m;i++){
+		for(int j=1;j<=m;j++){
+			for(int k=1;k<=2*m;k++){
+				if(dist[i][k]!=INF&&dist[k][j]!=INF){
+				dist[i][j]=min(dist[i][j],dist[i][k]+dist[k][j]);
+				//cout<<i<<" "<<j<<" "<<k<<" "<<dist[i][k]<<" "<<dist[k][j]<<"\n";
+
+GD-S02225/subway/subway.cpp 36 ikj outer [] 
+		for (int i = 1; i <= m; i++) {
+			for (int k = i + 1; k <= m; k++) {
+				for (int j = k + 1; j <= m; j++) {
+					f[i][j] = min(f[i][j], f[i][k] + f[k][j]);
+				}
+
+GD-S02335/subway/subway.cpp 10 ikj outer ['int u=1;u<=2;u++'] 
+	for(int i=1;i<=m+n;i++){
+		for(int k=1;k<=n+m;k++){
+			for(int j=1;j<=m+n;j++){
+				if(i==j||j==k||i==k) continue;
+				if(l[i][k]+l[k][j]<die[i][j]) die[i][j]=l[i][k]+l[k][j];
+				if(die[i][k]+die[k][j]<die[i][j]) die[i][j]=die[i][k]+die[k][j];
+
+GD-S02352/subway/subway.cpp 14 ijk outer [] 
+	for(int i =1;i <= n ;++i ){
+		for(int j = 1;j <= n;++j){
+			for(int k = 1;k <= n;++k){
+				mp[i][j] = min(mp[i][j],mp[i][k]+mp[k][j]);
+			}
+
+GD-S02482/subway/subway.cpp 36 ijk outer [] 
+	for(int i = 1; i <= a; i++){
+		for(int j = 1; j <= a; j++){
+			for(int k = 1; k <= a; k++){
+				dp[i][j] = min(dp[i][j],dp[i][k] + dp[k][j]);
+			}
+
+GD-S02610/subway/subway.cpp 52 ijk outer [] 
+	for(int i=1;i<n;i++)
+	{
+		for(int j=i+1;j<=m;j++)
+		{
+			for(int k=1;k<=n;k++)
+			{
+				if(k!=i&&k!=j)
+				{
+					if(tong[i][j]==0)
+					{
+						tong[i][j]=tong[i][k]+tong[k][j];
+						tong[j][i]=tong[i][j];
+
+GD-S02733/subway/subway.cpp 30 ijk outer [] 
+	for(int i=1;i<=n;i++){
+		for(int j=1;j<=n;j++){
+			for(int k=1;k<=n;k++){
+				f[i][j]=min(f[i][j],f[i][k]+f[k][j]);
+			}
+
+GD-S02742/subway/subway.cpp 27 ijk outer [] 
+	for(int i=1;i<=m;i++){
+		for(int j=1;j<=m;j++){
+			for(int k=1;k<=m;k++){
+		    	if(i==j||j==k||i==k) continue;
+				mapp[i][j]=min(mapp[i][j],mapp[i][k]+mapp[k][j]); 
+			}
+
+GD-S02749/subway/subway.cpp 47 ijk outer [] 
+	for (long long i = 1;i <= n;i++){
+		for (long long j = 1;j <= n;j++){
+			for (long long k = 1;k <= n;k++){
+				if (i != j and j != k and i != k){
+					if (G[i][j] > G[i][k] + G[k][j]){
+						G[i][j] = G[i][k] + G[k][j];
+
+GD-S02783/subway/subway.cpp 58 ijk outer [] 
+	for(int i=1;i<=n;i++){
+		for(int j=1;j<=n;j++){
+			for(int k=1;k<=n;k++)
+				dis[i][j]=dis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);
+		}
+
+GD-S02808/subway/subway.cpp 46 ijk outer [] 
+	for(int i = 1;i <= n;i++){
+		for(int j = 1;j <= n;j++){
+			for(int k = 1;k <= n;k++){
+				f[i][j] = min(f[i][j],f[i][k]+f[k][j]);
+			}
+
+GD-S02827/subway/subway.cpp 62 ijk outer [] 
+	for(int i=1; i<=n; i++) {
+		for(int j=1; j<=n; j++) {
+			for(int k=1; k<=n; k++) {
+				a[i][j]=min(a[i][j],a[i][k]+a[k][j]);
+			}
+
+GD-S02846/subway/subway.cpp 33 ijk outer [] 
+		for(int i=1;i<=m;i++)
+		{
+			for(int j=1;j<=m;j++)
+			{
+				for(int k=1;k<=m;k++)
+				{
+					if(dt[i][k]==0||dt[k][j]==0)continue;
+					if(dt[i][j]!=0)dt[i][j]=(dt[i][j]<dt[i][k]+dt[k][j]?dt[i][j]:dt[i][k]+dt[k][j]);
+					else dt[i][j]=dt[i][k]+dt[k][j];
+
+GD-S02860/subway/subway.cpp 37 ijk outer [] 
+	for(int i=1;i<=n;i++){
+		for(int j=1;j<=n;j++){
+			for(int k=1;k<=n;k++){
+				f[i][j]=min(f[i][j],f[i][k]+f[k][j]);
+			}
+
+GD-S02918/subway/subway.cpp 69 ijk outer ['int t = 1; t <= m; t++'] 
+			for (int i = 1; i <= m; i++)
+			{
+				for (int j = 1; j <= m; j++)
+				{
+					for (int k = 1; k <= m; k++)
+					{
+						if (dis[i][k] != 1e18 && dis[k][j] != 1e18) 
+						{
+							dis[i][j] = min(dis[i][j], dis[i][k] + dis[k][j]);
+//							cout << "一次组合：" << i << " " << k << " " << j << " " << dis[i][j] << '\n'; 
+
+GD-S02959/subway/subway.cpp 35 ijk outer [] 
+	for(int i=1;i<=m;i++){
+		for(int j=1;j<=m;j++){
+			for(int k=1;k<=m;k++){
+				mnx[i][j]=min(mnx[i][j],mnx[i][k]+mnx[k][j]);
+			}
+
+GD-S03021/subway/subway.cpp 25 ikj outer [] 
+	for(int i=1;i<=m;i++){
+		dist[i][i]=0;
+		for(int k=1;k<=m;k++){
+			for(int j=1;j<=m;j++){
+				dist[i][j]=min(dist[i][j],dist[i][k]+dist[k][j]);
+			}
+
+GD-S03053/subway/subway.cpp 10 ijk outer [] 
+	for(int i=1;i<=m;i++){
+		for(int j=i+1;j<=m;j++){
+			for(int k=1;k<=m;k++){
+				dist[i][j]=dist[j][i]=min(dist[i][j],dist[i][k]+dist[k][j]);
+			}
+
+GD-S03060/subway/subway.cpp 37 ijk outer [] 
+	for(int i=1;i<=n;i++){
+		for(int j=1;j<=n;j++){
+			for(int k=1;k<=n;k++){
+				dis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);
+			}
+
+GD-S03222/subway/subway.cpp 27 ijk outer [] 
+    for(int i=1;i<=m;i++)
+    {
+        for(int j=1;j<=m;j++)
+        {
+            for(int k=1;k<=m;k++)
+			{
+				if(val[i][k]==0x7f7f7f7f||val[k][j]==0x7f7f7f7f) continue;
+            	val[i][j]=min(val[i][j],val[i][k]+val[k][j]);
+			}
+
+GD-S03228/subway/subway.cpp 35 ijk outer [] 
+		for(int i = 1;i < m;i++){
+			for(int j = i + 1;j <= m;j++){
+				for(int k = 1;k <= m;k++){
+					if(i != k && j != k){
+						sum = mp[i][k] + mp[k][j];
+						mp[i][j] = mp[j][i] = sum < mp[i][j] ? sum : mp[i][j];
+
+GD-S03229/subway/subway.cpp 37 ijk outer [] 
+	for(int i=1;i<=n*m;i++){
+		for(int j=1;j<=n*m;j++){
+			for(int k=1;k<=n*m;k++){
+				if(i==j || i==k || j==k) continue;
+				dp[i][i]=min(dp[i][j],dp[i][k]+dp[k][j]);
+			}
+
+GD-S03234/subway/subway.cpp 39 ijk outer [] 
+	for(int i=1;i<=n;i++)
+		for(int j=1;j<=n;j++)
+			for(int k=1;k<=n;k++)
+				tot[i][j]=min(tot[i][j],tot[i][k]+tot[k][j]);
+	while(q--)
+
+GD-S03291/subway/subway.cpp 58 ijk outer [] 
+	for (int i = 1; i <= n; i++) {
+		for (int j = 1; j <= n; j++) {
+			for (int k = 1; k <= n; k++) {
+				if (ds[i][k] == inf || ds[k][j] == inf) continue;
+				ds[i][j] = min(ds[i][j], ds[i][k] + ds[k][j]);
+			}
+
+GD-S03304/subway/subway.cpp 43 ikj outer [] 
+	for(int i=1;i<=n;++i){
+		for(int k=1;k<=n;++k){
+			for(int j=1;j<=n;++j){
+				dist[i][j]=min(dist[i][j],dist[i][k]+dist[k][j]);
+			}
+
+GD-S03313/subway/subway.cpp 40 ijk outer [] 
+	for(int i=1;i<=n;i++){
+		for(int j=1;j<=n;j++){
+			if(i==j) continue ;
+			for(int k=1;k<=n;k++){
+				if(i!=k&&j!=k){
+					g[i][j]=min(g[i][j],g[i][k]+g[k][j]);
+				}
+
+GD-S03387/subway/subway.cpp 41 ijk outer [] 
+	for(int i=1;i<=n;i++){
+		for(int j=1;j<=n;j++){
+			for(int k=1;k<=n;k++){
+				dis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);
+			}
+
+GD-S03396/subway/subway.cpp 41 ijk outer [] 
+	for (int i = 1; i <= n; i++)
+		for (int j = 1; j <= n; j++)
+				for (int k = 1; k <= n; k++)
+					g[i][j] = min(g[i][j], g[i][k] + g[k][j]);
+	for (int i = 1; i <= q; i++)
+
+GD-S03400/subway/subway.cpp 45 ijk outer [] 
+	for(int i=1;i<=n;i++){
+		mi[i][i]=0;
+		for(int j=1;j<=n;j++){
+			for(int k=1;k<=j;k++){
+				if(i==j)break;
+				if(j==k||i==k)continue;
+				mi[i][j]=min(mi[i][j],mi[i][k]+mi[k][j]);
+				mi[j][i]=mi[i][j];
+
+GD-S03440/subway/subway.cpp 52 ijk outer [] 
+	for(int i=1;i<=n;i++){
+		for(int j=i+1;j<=n;j++){
+			for(int k=1;k<=n;k++){
+				if(k==i||k==j) continue;
+				link[j][i]=link[i][j]=min(link[i][j],link[i][k]+link[k][j]);
+			}
+
+GD-S03500/subway/subway.cpp 37 ijk outer [] 
+	for(int i=1;i<=m;i++){
+		for(int j=1;j<=m;j++){
+			for(int k=1;k<=m;k++){
+				dis2[i][j]=min(dis2[i][j],dis2[i][k]+dis2[k][j]);
+				dis1[i][j]=min(dis1[i][j],dis2[i][j]+w[i]+w[j]);
+
+GD-S03539/subway/subway.cpp 17 ijk outer [] 
+	for(int i=1;i<=m;i++){
+		for(int j=1;j<=m;j++){
+			for(int k=1;k<=m;k++){
+				dist[i][j]=min(dist[i][j],dist[i][k]+dist[k][j]);
+				dist[j][i]=dist[i][j];
+
+GD-S03609/subway/subway.cpp 46 ikj outer [] 
+	for(int i = 1;i <= n;++i){
+		for(int k = 1;k <= n;++k){
+			for(int j = 1;j <= n;++j)dst[i][j] = min(dst[i][k]+dst[k][j],dst[i][j]);
+		}
+
+GD-S03613/subway/subway.cpp 54 ijk outer [] 
+	for(int i=1;i<=m;i++)
+		for(int j=1;j<=m;j++)
+			for(int k=1;k<=m;k++){
+				if(i==j || k==j || i==k)
+					continue;
+				gg[i][j]=min(gg[i][k]+gg[k][j],gg[i][j]);
+			}
+
+GD-S03625/subway/subway.cpp 99 ijk outer [] 
+	for(int i = 1; i <= n; ++ i){
+		for(int j = i + 1; j <= n; ++ j){
+			if(i == j) continue;
+			for(int k = 1; k <= n; ++ k){
+				if(k == i || k == j) continue;
+				dis[i][j] = min(dis[i][j], dis[i][k] + dis[k][j]);
+				dis[j][i] = dis[i][j];
+
+GD-S03750/subway/subway.cpp 46 ijk outer [] 
+	for(int i=1;i<=M;i++){
+		for(int j=1;j<=M;j++){
+			for(int k=1;k<=M;k++){
+				if(i==j) continue;
+				if(sam[i][k]==sam[k][j] && sam[j][k]!=0){sam[i][j]=sam[i][k];sam[j][i]=sam[i][k];}
+				if(sam[i][j]!=0){
+					dp[i][j]=0;
+					dp[j][i]=0;
+					lin[i][j][0]=sam[i][j];
+					lin[i][j][1]=sam[i][j];
+					lin[j][i][0]=sam[i][j];
+					lin[j][i][1]=sam[i][j];
+				}
+				else if(dp[i][k]+dp[k][j]+sw[lin[i][k][1]][k]+sw[lin[k][j][0]][k]<dp[i][j]){
+					dp[i][j]=dp[i][k]+dp[k][j]+sw[lin[i][k][1]][k]+sw[lin[k][j][0]][k];
+
+GD-S03787/subway/subway.cpp 48 ijk outer [] 
+	for(int i=1;i<=n;i++){
+		for(int j=1;j<=n;j++){
+			for(int k=1;k<=n;k++){
+				dis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);
+				dis[j][i]=min(dis[i][j],dis[j][i]);
+
+GD-S03799/subway/subway.cpp 39 ijk outer [] 
+	for (int i = 1; i <= n; i++) {
+		for (int j = 1; j <= n; j++) {
+			if (i == j) continue;
+			for (int k = 1; k <= n; k++) dis[i][j] = min(dis[i][j], dis[i][k]+dis[k][j]);
+		}
+
+GD-S03836/subway/subway.cpp 46 ijk outer [] 
+	for(int i = 1;i <= n;i ++){
+		for(int j = 1;j <= n;j ++){
+			for(int k = 1;k <= n;k ++){
+				dp[i][j] = min(dp[i][j] , dp[i][k] + dp[k][j]);
+			}
+
+GD-S03884/subway/subway.cpp 35 ijk outer [] 
+	for(int i=1;i<=n;++i){
+		for(int j=1;j<=n;++j){
+			for(int k=1;k<=n;++k){
+				if(dis[i][k]==INF||dis[k][j]==INF) continue;
+				dis[i][j]=dis[j][i]=min(dis[i][j],dis[i][k]+dis[k][j]);
+			}
+
+GD-S03942/subway/subway.cpp 36 ijk outer [] 
+	}for(int i=1;i<=n-1;++i) for(int j=i+1;j<=n;++j) for(int k=1;k<=n;++k){
+		if(k==i || k==j) continue;
+		dis[i][j]=dis[j][i]=min(dis[i][j],dis[i][k]+dis[k][j]);
+	}return;
+
+GD-S03943/subway/subway.cpp 41 ijk outer [] 
+	for (int i = 1; i <= n; ++i) {
+		for (int j = 1; j <= n; ++j) {
+			for (int k = 1; k <= n; ++k) {
+				dp[i][j] = min(dp[i][j], dp[i][k] + dp[k][j]);
+			}
+
+GD-S04044/subway/subway.cpp 46 ijk outer [] 
+	for(int i = 1; i <= m; i++)
+	{
+		for(int j = 1; j <= m; j++)
+		{
+			for(int k = 1; k <= m; k++)
+			{
+				if(i != j && i != k && j != k)
+				{
+					if(g[i][j] > g[i][k] + g[k][j]) g[i][j] = g[i][k] + g[k][j];
+				}
+
+GD-S04218/subway/subway.cpp 12 ijk outer [] 
+	for(int i=1;i<=n;i++){
+		for(int j=i+1;j<=n;j++){
+			for(int k=1;k<=n;k++){
+				if(dis[i][j]-dis[i][k]>dis[k][j])
+					dis[i][j]=dis[j][i]=dis[i][k]+dis[k][j];
+			}
+
+GD-S04312/subway/subway.cpp 37 ikj outer [] 
+	for(int i = 1;i <= n;i ++){
+		for(int k = 1;k <= n;k ++){
+			for(int j = 1;j <= n;j ++)
+				f[i][j] = min(f[i][j], f[i][k] + f[k][j]);
+		}
+
+GD-S04403/subway/subway.cpp 39 ijk outer [] 
+	for(ll i=1;i<=n;i++)
+		for(ll j=1;j<=n;j++)
+			for(ll k=1;k<=n;k++){
+				if(i==j||i==k||j==k)continue;
+				lin[i][j]=min(lin[i][k]+lin[k][j],lin[i][j]);
+			}
+
+GD-S04462/subway/subway.cpp 144 ijk outer [] 
+    for(int i=1;i<=n;i++)
+    {
+        // dij(i);
+        // for(int j=1;j<=n;j++)
+        // {
+        //     if(vis[j])
+        //     {
+        //         g[j][i]=g[i][j]=dis[j];
+        //         cg[j][i]=cg[i][j]=1;
+        //     }
+        // }
+        for(int j=1;j<=n;j++)
+        {
+            for(int k=1;k<=n;k++)
+            {
+                if(cg[i][k]&&cg[k][j])
+                {
+                    cg[i][j]=cg[j][i]=1;
+                    if(g[i][k]+g[k][j]<g[i][j])
+                    {
+
+GD-S04497/subway/subway.cpp 40 ijk outer [] 
+	for ( int i = 1; i <= m; i++ )
+	{
+		for ( int j = 1; j <= m; j++ )
+		{
+			if ( i == j )
+			{
+				continue;
+			}
+			for ( int k = 1; k <= m; k++ )
+			{
+				if ( i == k || j == k )
+				{
+					continue;
+				}
+				f[i][j] = min(f[i][j], f[i][k] + f[k][j]);
+			}
+
+GD-S04543/subway/subway.cpp 40 ijk outer [] 
+	for(int i=1;i<=n;i++){
+		for(int j=1;j<=n;j++){
+			if(i==j) continue;
+			for(int k=1;k<=n;k++){
+				if(k==i||k==j) continue;
+				dis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);
+			}
+
+GD-S04586/subway/subway.cpp 39 ikj outer [] 
+	for(int i=1;i<=n;i++)
+		for(int k=1;k<=n;k++)
+			for(int j=1;j<=n;j++)
+				e[i][j]=min(e[i][j],e[i][k]+e[k][j]);
+	for(int l,r;q;q--)
+
+GD-S04654/subway/subway.cpp 36 ikj outer [] 
+	for(int i = 1; i <= n; i++){
+		for(int k = 1; k <= n; k++){
+			for(int j = 1; j <= n; j++){
+				dis[i][j] = min(dis[i][j], dis[i][k] + dis[k][j]);
+				dis[j][i] = dis[i][j];
+
+GD-S04708/subway/subway.cpp 48 ijk outer [] 
+	for(ll i=1;i<=n;i++)
+	{
+		for(ll j=1;j<=n;j++)
+		{
+			for(ll k=1;k<=n;k++)
+			{
+				e[i][j]=min(e[i][j],e[i][k]+e[k][j]);
+			}
+
+GD-S04744/subway/subway.cpp 42 ikj outer [] 
+	for(int i=1;i<=n;i++){
+		for(int k=1;k<=n;k++){
+			for(int j=1;j<=n;j++){
+				dis[i][j]=min(dis[i][j],dis[i][k]+dis[k][j]);
+			}
+
+GD-S04874/subway/subway.cpp 48 ijk outer [] 
+	for(int i = 1;i <= n;i++)
+	{
+		for(int j = i + 1;j <= n;j++)
+		{
+			for(int k = i + 1;k < j;k++)
+			{
+				ch[i][j] = std::min(ch[i][j],ch[i][k]+ch[k][j]);
+			}
+
+GD-S04960/subway/subway.cpp 29 ijk outer [] 
+	for(int i=1;i<=m;i++){
+		for(int j=1;j<=m;j++){
+			for(int k=1;k<=m;k++){
+				dist[i][j]=min(dist[i][k]+dist[k][j],dist[i][j]);
+			}
+
+GD-S05119/subway/subway.cpp 5 ijk outer [] 
+	for(int i=1;i<=n+m;i++){
+		for(int j=1;j<=n+m;j++){
+			for(int k=1;k<=n+m;k++){
+				g[i][j]=min(g[i][k]+g[k][j],g[i][j]);
+				
+

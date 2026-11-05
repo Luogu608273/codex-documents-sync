@@ -1,0 +1,822 @@
+[
+  {
+    "path": "GD-S00014/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S00014_subway_subway.cpp: In function 'int main()':\nwork\\compile\\GD-S00014_subway_subway.cpp:11:2: error: 'fropen' was not declared in this scope; did you mean 'fdopen'?\n   11 |  fropen(\"subway.in\",\"r\",stdin);\n      |  ^~~~~~\n      |  fdopen\n"
+  },
+  {
+    "path": "GD-S00106/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/extc++.h:81,\n                 from work\\compile\\GD-S00106_crystal_crystal.cpp:1:\nC:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/codecvt_specializations.h:40:10: fatal error: iconv.h: No such file or directory\n   40 | #include <iconv.h>\n      |          ^~~~~~~~~\ncompilation terminated.\r\n"
+  },
+  {
+    "path": "GD-S00106/hub/hub.cpp",
+    "returncode": 1,
+    "diagnostics": "In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/extc++.h:81,\n                 from work\\compile\\GD-S00106_hub_hub.cpp:1:\nC:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/codecvt_specializations.h:40:10: fatal error: iconv.h: No such file or directory\n   40 | #include <iconv.h>\n      |          ^~~~~~~~~\ncompilation terminated.\r\n"
+  },
+  {
+    "path": "GD-S00106/migrate/migrate.cpp",
+    "returncode": 1,
+    "diagnostics": "In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/extc++.h:81,\n                 from work\\compile\\GD-S00106_migrate_migrate.cpp:1:\nC:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/codecvt_specializations.h:40:10: fatal error: iconv.h: No such file or directory\n   40 | #include <iconv.h>\n      |          ^~~~~~~~~\ncompilation terminated.\r\n"
+  },
+  {
+    "path": "GD-S00106/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "In file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/extc++.h:81,\n                 from work\\compile\\GD-S00106_subway_subway.cpp:1:\nC:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/codecvt_specializations.h:40:10: fatal error: iconv.h: No such file or directory\n   40 | #include <iconv.h>\n      |          ^~~~~~~~~\ncompilation terminated.\r\n"
+  },
+  {
+    "path": "GD-S00195/migrate/migrate.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S00195_migrate_migrate.cpp: In function 'void dij(long long int)':\nwork\\compile\\GD-S00195_migrate_migrate.cpp:45:8: warning: structured bindings only available with '-std=c++17' or '-std=gnu++17'\n   45 |   auto [d,u]=q.top();\n      |        ^\nwork\\compile\\GD-S00195_migrate_migrate.cpp:50:12: warning: structured bindings only available with '-std=c++17' or '-std=gnu++17'\n   50 |   for(auto [v,w]:G[u]) {\n      |            ^\nwork\\compile\\GD-S00195_migrate_migrate.cpp: In function 'int main()':\nwork\\compile\\GD-S00195_migrate_migrate.cpp:95:2: error: 'froepen' was not declared in this scope; did you mean 'freopen'?\n   95 |  froepen(\"migrate.out\",\"w\",stdout);\n      |  ^~~~~~~\n      |  freopen\n"
+  },
+  {
+    "path": "GD-S00470/hub/hub.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S00470_hub_hub.cpp: In function 'int main()':\nwork\\compile\\GD-S00470_hub_hub.cpp:5:24: error: 'strout' was not declared in this scope; did you mean 'stdout'?\n    5 |  freopen(\"hub.out\",\"w\",strout);\n      |                        ^~~~~~\n      |                        stdout\n"
+  },
+  {
+    "path": "GD-S00470/migrate/migrate.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S00470_migrate_migrate.cpp: In function 'void solve()':\nwork\\compile\\GD-S00470_migrate_migrate.cpp:15:4: error: 'f' was not declared in this scope\n   15 |    f = true;\n      |    ^\nwork\\compile\\GD-S00470_migrate_migrate.cpp:17:7: error: 'f' was not declared in this scope\n   17 |  }if(!f){\n      |       ^\nwork\\compile\\GD-S00470_migrate_migrate.cpp:21:12: error: 'dfs' was not declared in this scope\n   21 |     ans += dfs(i);\n      |            ^~~\ncompilation terminated due to -fmax-errors=3.\r\n"
+  },
+  {
+    "path": "GD-S00470/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S00470_subway_subway.cpp: In function 'int main()':\nwork\\compile\\GD-S00470_subway_subway.cpp:12:27: error: 'strout' was not declared in this scope; did you mean 'stdout'?\n   12 |  freopen(\"subway.out\",\"w\",strout);\n      |                           ^~~~~~\n      |                           stdout\nwork\\compile\\GD-S00470_subway_subway.cpp:26:3: error: 'dfs' was not declared in this scope\n   26 |   dfs(x,y);\n      |   ^~~\n"
+  },
+  {
+    "path": "GD-S00497/subway/subway.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S00716/crystal/crystal.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S00716/hub/hub.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S00716/migrate/migrate.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S00716/subway/subway.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S00718/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S00718_crystal_crystal.cpp: In function 'int main()':\nwork\\compile\\GD-S00718_crystal_crystal.cpp:5:2: error: 'fropen' was not declared in this scope; did you mean 'fdopen'?\n    5 |  fropen(\"crystal.in\",\"r\",stdin);\n      |  ^~~~~~\n      |  fdopen\n"
+  },
+  {
+    "path": "GD-S00751/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S00751_subway_subway.cpp: In function 'int main()':\nwork\\compile\\GD-S00751_subway_subway.cpp:11:2: error: 'freopne' was not declared in this scope; did you mean 'freopen'?\n   11 |  freopne(\"subway.in\",\"r\",stdin);\n      |  ^~~~~~~\n      |  freopen\nwork\\compile\\GD-S00751_subway_subway.cpp:18:13: error: 'j' was not declared in this scope\n   18 |   for(int i=j;j<=T;j++)\n      |             ^\nwork\\compile\\GD-S00751_subway_subway.cpp:49:12: error: expected ';' before '}' token\n   49 |      flag=1\n      |            ^\n      |            ;\n   50 |     }\n      |     ~       \n"
+  },
+  {
+    "path": "GD-S00825/crystal/crystal.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S00825/hub/hub.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S00825/migrate/migrate.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S00825/subway/subway.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S00830/hub/hub.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S00830_hub_hub.cpp:1:10: fatal error: bits/tsdc++.h: No such file or directory\n    1 | #include <bits/tsdc++.h>\n      |          ^~~~~~~~~~~~~~~\ncompilation terminated.\r\n"
+  },
+  {
+    "path": "GD-S00846/hub/hub.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S00846_hub_hub.cpp: In function 'int main()':\nwork\\compile\\GD-S00846_hub_hub.cpp:6:23: error: 'hub' was not declared in this scope\n    6 |  freopen(\"hub.in\",\"D\",hub);\n      |                       ^~~\nwork\\compile\\GD-S00846_hub_hub.cpp:7:2: error: 'freout' was not declared in this scope\n    7 |  freout(\"hub.out\",\"D\",hub);\n      |  ^~~~~~\n"
+  },
+  {
+    "path": "GD-S00846/migrate/migrate.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S00846_migrate_migrate.cpp: In function 'int main()':\nwork\\compile\\GD-S00846_migrate_migrate.cpp:9:27: error: 'migrate' was not declared in this scope\n    9 |  freopen(\"migrate.in\",\"D\",migrate);\n      |                           ^~~~~~~\nwork\\compile\\GD-S00846_migrate_migrate.cpp:10:2: error: 'freout' was not declared in this scope\n   10 |  freout(\"migrate.out\",\"D\",migrate);\n      |  ^~~~~~\n"
+  },
+  {
+    "path": "GD-S00846/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S00846_subway_subway.cpp:6:1: error: expected initializer before 'int'\n    6 | int main(){\n      | ^~~\n"
+  },
+  {
+    "path": "GD-S01092/crystal/crystal.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S01092/migrate/migrate.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S01092/subway/subway.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S01163/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S01163_crystal_crystal.cpp: In function 'int main()':\nwork\\compile\\GD-S01163_crystal_crystal.cpp:6:27: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    6 |  freopen(\"crystal.in\",\"r\",\"stdin\")\n      |                           ^~~~~~~\n      |                           |\n      |                           const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S01163_crystal_crystal.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S01163_crystal_crystal.cpp:9:7: error: 'n' was not declared in this scope\n    9 |  cin>>n;\n      |       ^\n"
+  },
+  {
+    "path": "GD-S01165/crystal/crystal.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S01165/hub/hub.cpp",
+    "returncode": 0,
+    "diagnostics": "work\\compile\\GD-S01165_hub_hub.cpp: In function 'void cal(int, std::vector<std::pair<int, int> >, int, int)':\nwork\\compile\\GD-S01165_hub_hub.cpp:68:11: warning: structured bindings only available with '-std=c++17' or '-std=gnu++17'\n   68 |  for(auto [L,P]:s)\n      |           ^\n"
+  },
+  {
+    "path": "GD-S01165/migrate/migrate.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S01165/subway/subway.cpp",
+    "returncode": 0,
+    "diagnostics": "work\\compile\\GD-S01165_subway_subway.cpp: In function 'void solve()':\nwork\\compile\\GD-S01165_subway_subway.cpp:49:12: warning: structured bindings only available with '-std=c++17' or '-std=gnu++17'\n   49 |   for(auto [x,p]:G[i])\n      |            ^\nwork\\compile\\GD-S01165_subway_subway.cpp:51:13: warning: structured bindings only available with '-std=c++17' or '-std=gnu++17'\n   51 |    for(auto [y,q]:G[i])\n      |             ^\nwork\\compile\\GD-S01165_subway_subway.cpp:72:12: warning: structured bindings only available with '-std=c++17' or '-std=gnu++17'\n   72 |   for(auto [x,p]:G[u])\n      |            ^\nwork\\compile\\GD-S01165_subway_subway.cpp:74:13: warning: structured bindings only available with '-std=c++17' or '-std=gnu++17'\n   74 |    for(auto [y,q]:G[v])\n      |             ^\n"
+  },
+  {
+    "path": "GD-S01182/crystal/crystal.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S01182/hub/hub.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S01182/migrate/migrate.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S01182/subway/subway.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S01349/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S01349_crystal_crystal.cpp: In function 'int main()':\nwork\\compile\\GD-S01349_crystal_crystal.cpp:10:27: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n   10 |  freopen(\"crystal.in\",\"r\",\"stdin\");\n      |                           ^~~~~~~\n      |                           |\n      |                           const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S01349_crystal_crystal.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S01349_crystal_crystal.cpp:11:28: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n   11 |  freopen(\"crystal.out\",\"w\",\"stdout\");\n      |                            ^~~~~~~~\n      |                            |\n      |                            const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S01349_crystal_crystal.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\n"
+  },
+  {
+    "path": "GD-S01349/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S01349_subway_subway.cpp: In function 'void dijie(long long int)':\nwork\\compile\\GD-S01349_subway_subway.cpp:28:13: warning: overflow in conversion from 'long long int' to 'int' changes value from '69540876599103' to '1061109567' [-Woverflow]\n   28 |  memset(dis,0x3f3f3f3f3f3f,sizeof(dis));\n      |             ^~~~~~~~~~~~~~\nwork\\compile\\GD-S01349_subway_subway.cpp: In function 'int main()':\nwork\\compile\\GD-S01349_subway_subway.cpp:72:26: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n   72 |  freopen(\"subway.in\",\"r\",\"stdin\");\n      |                          ^~~~~~~\n      |                          |\n      |                          const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S01349_subway_subway.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S01349_subway_subway.cpp:73:27: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n   73 |  freopen(\"subway.out\",\"w\",\"stdout\");\n      |                           ^~~~~~~~\n      |                           |\n      |                           const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S01349_subway_subway.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\n"
+  },
+  {
+    "path": "GD-S01563/hub/hub.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S01563_hub_hub.cpp:1:9: error: empty filename in #include\n    1 | #include<>\n      |         ^~\nwork\\compile\\GD-S01563_hub_hub.cpp:18:9: fatal error: chatgptastra6: No such file or directory\n   18 | #include<chatgptastra6>\n      |         ^~~~~~~~~~~~~~~\ncompilation terminated.\r\n"
+  },
+  {
+    "path": "GD-S01583/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S01583_subway_subway.cpp: In function 'int main()':\nwork\\compile\\GD-S01583_subway_subway.cpp:22:27: error: 'stdiout' was not declared in this scope; did you mean 'stdout'?\n   22 |  freopen(\"subway.out\",\"w\",stdiout);\n      |                           ^~~~~~~\n      |                           stdout\n"
+  },
+  {
+    "path": "GD-S01611/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "cc1plus.exe: error: '::main' must return 'int'\n"
+  },
+  {
+    "path": "GD-S01631/crystal/crystal.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S01631/hub/hub.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S01631/migrate/migrate.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S01631/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S01631_subway_subway.cpp: In function 'int main()':\nwork\\compile\\GD-S01631_subway_subway.cpp:36:6: error: no match for 'operator<<' (operand types are 'std::istream' {aka 'std::basic_istream<char>'} and 'int')\n   36 |   cin<<x<<y;\n      |   ~~~^~~\n      |   |    |\n      |   |    int\n      |   std::istream {aka std::basic_istream<char>}\nwork\\compile\\GD-S01631_subway_subway.cpp:36:6: note: candidate: 'operator<<(int, int)' (built-in)\n   36 |   cin<<x<<y;\n      |   ~~~^~~\nwork\\compile\\GD-S01631_subway_subway.cpp:36:6: note:   no known conversion for argument 1 from 'std::istream' {aka 'std::basic_istream<char>'} to 'int'\nIn file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/regex:62,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:110,\n                 from work\\compile\\GD-S01631_subway_subway.cpp:1:\nC:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/regex.h:1647:5: note: candidate: 'template<class _Ch_type, class _Ch_traits, class _Bi_iter> std::basic_ostream<_CharT, _Traits>& std::__cxx11::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::sub_match<_Bi_iter>&)'\n 1647 |     operator<<(basic_ostream<_Ch_type, _Ch_traits>& __os,\n      |     ^~~~~~~~\nC:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/regex.h:1647:5: note:   template argument deduction/substitution failed:\nwork\\compile\\GD-S01631_subway_subway.cpp:36:8: note:   'std::istream' {aka 'std::basic_istream<char>'} is not derived from 'std::basic_ostream<_CharT, _Traits>'\n   36 |   cin<<x<<y;\n      |        ^\nIn file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/string:55,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/locale_classes.h:40,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/ios_base.h:41,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ios:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/istream:38,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/sstream:38,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/complex:45,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ccomplex:39,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:54,\n                 from work\\compile\\GD-S01631_subway_subway.cpp:1:\nC:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/basic_string.h:6468:5: note: candidate: 'template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)'\n 6468 |     operator<<(basic_ostream<_CharT, _Traits>& __os,\n      |     ^~~~~~~~\nC:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/basic_string.h:6468:5: note:   template argument deduction/substitution failed:\nwork\\compile\\GD-S01631_subway_subway.cpp:36:8: note:   'std::istream' {aka 'std::basic_istream<char>'} is not derived from 'std::basic_ostream<_CharT, _Traits>'\n   36 |   cin<<x<<y;\n      |        ^\nIn file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/ios_base.h:46,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ios:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/istream:38,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/sstream:38,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/complex:45,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ccomplex:39,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:54,\n                 from work\\compile\\GD-S01631_subway_subway.cpp:1:\nC:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/system_error:262:5: note: candidate: 'template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::error_code&)'\n  262 |     operator<<(basic_ostream<_CharT, _Traits>& __os, const error_code& __e)\n      |     ^~~~~~~~\nC:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/system_error:262:5: note:   template argument deduction/substitution failed:\nwork\\compile\\GD-S01631_subway_subway.cpp:36:8: note:   'std::istream' {aka 'std::basic_istream<char>'} is not derived from 'std::basic_ostream<_CharT, _Traits>'\n   36 |   cin<<x<<y;\n      |        ^\nIn file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/istream:39,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/sstream:38,\n                 from C:/TDM-"
+  },
+  {
+    "path": "GD-S01702/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S01702_crystal_crystal.cpp: In function 'int main()':\nwork\\compile\\GD-S01702_crystal_crystal.cpp:7:27: error: 'stdio' was not declared in this scope; did you mean 'stdin'?\n    7 |  freopen(\"crystal.in\",\"r\",stdio);\n      |                           ^~~~~\n      |                           stdin\n"
+  },
+  {
+    "path": "GD-S01702/hub/hub.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S01702_hub_hub.cpp: In function 'int main()':\nwork\\compile\\GD-S01702_hub_hub.cpp:5:27: error: 'stdio' was not declared in this scope; did you mean 'stdin'?\n    5 |  freopen(\"migrate.in\",\"r\",stdio);\n      |                           ^~~~~\n      |                           stdin\n"
+  },
+  {
+    "path": "GD-S01702/migrate/migrate.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S01702/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S01702_subway_subway.cpp: In function 'int main()':\nwork\\compile\\GD-S01702_subway_subway.cpp:7:26: error: 'stdio' was not declared in this scope; did you mean 'stdin'?\n    7 |  freopen(\"subway.in\",\"r\",stdio);\n      |                          ^~~~~\n      |                          stdin\n"
+  },
+  {
+    "path": "GD-S01741/subway/subway.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S01962/hub/hub.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S01980/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S01980_subway_subway.cpp: In function 'int main()':\nwork\\compile\\GD-S01980_subway_subway.cpp:7:27: error: 'sdtout' was not declared in this scope; did you mean 'stdout'?\n    7 |  freopen(\"subway.out\",\"w\",sdtout);\n      |                           ^~~~~~\n      |                           stdout\nwork\\compile\\GD-S01980_subway_subway.cpp:13:15: error: invalid types 'int[int]' for array subscript\n   13 |    cin >> a[i][j] >> t[i][j];\n      |               ^\nwork\\compile\\GD-S01980_subway_subway.cpp:13:26: error: invalid types 'int[int]' for array subscript\n   13 |    cin >> a[i][j] >> t[i][j];\n      |                          ^\ncompilation terminated due to -fmax-errors=3.\r\n"
+  },
+  {
+    "path": "GD-S01994/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S01994_crystal_crystal.cpp: In function 'int main()':\nwork\\compile\\GD-S01994_crystal_crystal.cpp:6:27: error: 'sdin' was not declared in this scope; did you mean 'sin'?\n    6 |  freopen(\"crystal.in\",\"r\",sdin) ;\n      |                           ^~~~\n      |                           sin\nwork\\compile\\GD-S01994_crystal_crystal.cpp:7:28: error: 'sdout' was not declared in this scope; did you mean 'stdout'?\n    7 |  freopen(\"crystal.out\",\"w\",sdout) ;\n      |                            ^~~~~\n      |                            stdout\n"
+  },
+  {
+    "path": "GD-S01994/hub/hub.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S01994_hub_hub.cpp: In function 'int main()':\nwork\\compile\\GD-S01994_hub_hub.cpp:6:23: error: 'sdin' was not declared in this scope; did you mean 'sin'?\n    6 |  freopen(\"hub.in\",\"r\",sdin) ;\n      |                       ^~~~\n      |                       sin\nwork\\compile\\GD-S01994_hub_hub.cpp:7:24: error: 'sdout' was not declared in this scope; did you mean 'stdout'?\n    7 |  freopen(\"hub.out\",\"w\",sdout) ;\n      |                        ^~~~~\n      |                        stdout\n"
+  },
+  {
+    "path": "GD-S01994/migrate/migrate.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S01994_migrate_migrate.cpp: In function 'int main()':\nwork\\compile\\GD-S01994_migrate_migrate.cpp:6:27: error: 'sdin' was not declared in this scope; did you mean 'sin'?\n    6 |  freopen(\"migrate.in\",\"r\",sdin) ;\n      |                           ^~~~\n      |                           sin\nwork\\compile\\GD-S01994_migrate_migrate.cpp:7:28: error: 'sdout' was not declared in this scope; did you mean 'stdout'?\n    7 |  freopen(\"migrate.out\",\"w\",sdout) ;\n      |                            ^~~~~\n      |                            stdout\n"
+  },
+  {
+    "path": "GD-S01994/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S01994_subway_subway.cpp: In function 'int main()':\nwork\\compile\\GD-S01994_subway_subway.cpp:6:26: error: 'sdin' was not declared in this scope; did you mean 'sin'?\n    6 |  freopen(\"subway.in\",\"r\",sdin) ;\n      |                          ^~~~\n      |                          sin\nwork\\compile\\GD-S01994_subway_subway.cpp:7:27: error: 'sdout' was not declared in this scope; did you mean 'stdout'?\n    7 |  freopen(\"subway.out\",\"w\",sdout) ;\n      |                           ^~~~~\n      |                           stdout\n"
+  },
+  {
+    "path": "GD-S02088/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S02088_subway_subway.cpp: In function 'int main()':\nwork\\compile\\GD-S02088_subway_subway.cpp:8:2: error: 'freopne' was not declared in this scope; did you mean 'freopen'?\n    8 |  freopne(\"subway.in\",\"r\",stdin);\n      |  ^~~~~~~\n      |  freopen\n"
+  },
+  {
+    "path": "GD-S02111/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S02111_crystal_crystal.cpp: In function 'int main()':\nwork\\compile\\GD-S02111_crystal_crystal.cpp:6:28: error: 'stout' was not declared in this scope; did you mean 'stdout'?\n    6 |  freopen(\"crystal.out\",\"w\",stout);\n      |                            ^~~~~\n      |                            stdout\n"
+  },
+  {
+    "path": "GD-S02111/hub/hub.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S02111_hub_hub.cpp: In function 'int main()':\nwork\\compile\\GD-S02111_hub_hub.cpp:7:24: error: 'stout' was not declared in this scope; did you mean 'stdout'?\n    7 |  freopen(\"hub.out\",\"w\",stout);\n      |                        ^~~~~\n      |                        stdout\n"
+  },
+  {
+    "path": "GD-S02111/migrate/migrate.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S02111_migrate_migrate.cpp: In function 'int main()':\nwork\\compile\\GD-S02111_migrate_migrate.cpp:7:28: error: 'stout' was not declared in this scope; did you mean 'stdout'?\n    7 |  freopen(\"migrate.out\",\"w\",stout);\n      |                            ^~~~~\n      |                            stdout\n"
+  },
+  {
+    "path": "GD-S02207/crystal/crystal.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S02208/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "In file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S02208_subway_subway.cpp:1:\nwork\\compile\\GD-S02208_subway_subway.cpp: In function 'int main()':\nwork\\compile\\GD-S02208_subway_subway.cpp:8:27: error: expected unqualified-id before '(' token\n    8 |  freopen(\"subway.out\",\"w\".stdout);\n      |                           ^~~~~~\n"
+  },
+  {
+    "path": "GD-S02316/subway/subway.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S02366/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S02366_crystal_crystal.cpp: In function 'int main()':\nwork\\compile\\GD-S02366_crystal_crystal.cpp:29:28: error: 'sdtout' was not declared in this scope; did you mean 'stdout'?\n   29 |  freopen(\"crystal.out\",\"w\",sdtout);\n      |                            ^~~~~~\n      |                            stdout\n"
+  },
+  {
+    "path": "GD-S02368/migrate/migrate.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S02368_migrate_migrate.cpp:2:7: error: expected nested-name-specifier before 'namespate'\n    2 | using namespate std;\n      |       ^~~~~~~~~\nwork\\compile\\GD-S02368_migrate_migrate.cpp:4:33: error: expected '}' before ';' token\n    4 |  freopen(\"migrate.in\",\"r\",stdin);\n      |                                 ^\nwork\\compile\\GD-S02368_migrate_migrate.cpp:3:9: note: to match this '{'\n    3 | int name{\n      |         ^\nwork\\compile\\GD-S02368_migrate_migrate.cpp:4:9: error: invalid conversion from 'FILE*' {aka '_iobuf*'} to 'int' [-fpermissive]\n    4 |  freopen(\"migrate.in\",\"r\",stdin);\n      |  ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\n      |         |\n      |         FILE* {aka _iobuf*}\ncompilation terminated due to -fmax-errors=3.\r\n"
+  },
+  {
+    "path": "GD-S02368/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S02368_subway_subway.cpp:2:7: error: expected nested-name-specifier before 'namespate'\n    2 | using namespate std;\n      |       ^~~~~~~~~\nwork\\compile\\GD-S02368_subway_subway.cpp:4:32: error: expected '}' before ';' token\n    4 |  freopen(\"subway.in\",\"r\",stdin);\n      |                                ^\nwork\\compile\\GD-S02368_subway_subway.cpp:3:9: note: to match this '{'\n    3 | int name{\n      |         ^\nwork\\compile\\GD-S02368_subway_subway.cpp:4:9: error: invalid conversion from 'FILE*' {aka '_iobuf*'} to 'int' [-fpermissive]\n    4 |  freopen(\"subway.in\",\"r\",stdin);\n      |  ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~\n      |         |\n      |         FILE* {aka _iobuf*}\ncompilation terminated due to -fmax-errors=3.\r\n"
+  },
+  {
+    "path": "GD-S02638/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S02638_crystal_crystal.cpp:1:1: error: 'incdule' does not name a type\n    1 | incdule <bits/stdc++.h>\n      | ^~~~~~~\nwork\\compile\\GD-S02638_crystal_crystal.cpp:3:15: error: 'le5' was not declared in this scope\n    3 | const int N=5*le5+10;\n      |               ^~~\nwork\\compile\\GD-S02638_crystal_crystal.cpp:4:7: error: size of array 'a' is not an integral constant-expression\n    4 | int a[N];\n      |       ^\ncompilation terminated due to -fmax-errors=3.\r\n"
+  },
+  {
+    "path": "GD-S02638/hub/hub.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S02638_hub_hub.cpp:1:1: error: 'include' does not name a type\n    1 | include <bits/stdc++.h>\n      | ^~~~~~~\nwork\\compile\\GD-S02638_hub_hub.cpp: In function 'int main()':\nwork\\compile\\GD-S02638_hub_hub.cpp:4:23: error: 'stdin' was not declared in this scope\n    4 |  froepen(\"hub.in\",\"r\",stdin);\n      |                       ^~~~~\nwork\\compile\\GD-S02638_hub_hub.cpp:1:1: note: 'stdin' is defined in header '<cstdio>'; did you forget to '#include <cstdio>'?\n  +++ |+#include <cstdio>\n    1 | include <bits/stdc++.h>\nwork\\compile\\GD-S02638_hub_hub.cpp:4:2: error: 'froepen' was not declared in this scope\n    4 |  froepen(\"hub.in\",\"r\",stdin);\n      |  ^~~~~~~\ncompilation terminated due to -fmax-errors=3.\r\n"
+  },
+  {
+    "path": "GD-S02638/migrate/migrate.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S02638_migrate_migrate.cpp:1:1: error: 'include' does not name a type\n    1 | include <bits/stdc++.h>\n      | ^~~~~~~\nwork\\compile\\GD-S02638_migrate_migrate.cpp:3:15: error: 'le5' was not declared in this scope\n    3 | const int n=5*le5+10;\n      |               ^~~\nwork\\compile\\GD-S02638_migrate_migrate.cpp: In function 'int main()':\nwork\\compile\\GD-S02638_migrate_migrate.cpp:5:27: error: 'stdin' was not declared in this scope\n    5 |  froepen(\"migrate.in\",\"r\",stdin);\n      |                           ^~~~~\nwork\\compile\\GD-S02638_migrate_migrate.cpp:1:1: note: 'stdin' is defined in header '<cstdio>'; did you forget to '#include <cstdio>'?\n  +++ |+#include <cstdio>\n    1 | include <bits/stdc++.h>\ncompilation terminated due to -fmax-errors=3.\r\n"
+  },
+  {
+    "path": "GD-S02638/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S02638_subway_subway.cpp:1:1: error: 'incdule' does not name a type\n    1 | incdule <bits/stdc++.h>\n      | ^~~~~~~\nwork\\compile\\GD-S02638_subway_subway.cpp:3:15: error: 'le5' was not declared in this scope\n    3 | const int N=5*le5+10;\n      |               ^~~\nwork\\compile\\GD-S02638_subway_subway.cpp:4:11: error: uninitialized 'const w' [-fpermissive]\n    4 | const int w;\n      |           ^\ncompilation terminated due to -fmax-errors=3.\r\n"
+  },
+  {
+    "path": "GD-S02708/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S02708_crystal_crystal.cpp: In function 'int main()':\nwork\\compile\\GD-S02708_crystal_crystal.cpp:9:27: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    9 |  freopen(\"crystal.in\",\"r\",\"stdin\");\n      |                           ^~~~~~~\n      |                           |\n      |                           const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S02708_crystal_crystal.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S02708_crystal_crystal.cpp:10:28: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n   10 |  freopen(\"crystal.out\",\"w\",\"stdout\");\n      |                            ^~~~~~~~\n      |                            |\n      |                            const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S02708_crystal_crystal.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\n"
+  },
+  {
+    "path": "GD-S02708/hub/hub.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S02708_hub_hub.cpp: In function 'int main()':\nwork\\compile\\GD-S02708_hub_hub.cpp:4:23: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    4 |  freopen(\"hub.in\",\"r\",\"stdin\");\n      |                       ^~~~~~~\n      |                       |\n      |                       const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S02708_hub_hub.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S02708_hub_hub.cpp:5:24: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    5 |  freopen(\"hub.out\",\"w\",\"stdout\");\n      |                        ^~~~~~~~\n      |                        |\n      |                        const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S02708_hub_hub.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\n"
+  },
+  {
+    "path": "GD-S02708/migrate/migrate.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S02708_migrate_migrate.cpp: In function 'int main()':\nwork\\compile\\GD-S02708_migrate_migrate.cpp:4:27: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    4 |  freopen(\"migrate.in\",\"r\",\"stdin\");\n      |                           ^~~~~~~\n      |                           |\n      |                           const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S02708_migrate_migrate.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S02708_migrate_migrate.cpp:5:28: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    5 |  freopen(\"migrate.out\",\"w\",\"stdout\");\n      |                            ^~~~~~~~\n      |                            |\n      |                            const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S02708_migrate_migrate.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\n"
+  },
+  {
+    "path": "GD-S02708/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S02708_subway_subway.cpp: In function 'int main()':\nwork\\compile\\GD-S02708_subway_subway.cpp:5:26: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    5 |  freopen(\"subway.in\",\"r\",\"stdin\");\n      |                          ^~~~~~~\n      |                          |\n      |                          const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S02708_subway_subway.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S02708_subway_subway.cpp:6:27: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    6 |  freopen(\"subway.out\",\"w\",\"stdout\");\n      |                           ^~~~~~~~\n      |                           |\n      |                           const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S02708_subway_subway.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\n"
+  },
+  {
+    "path": "GD-S02721/hub/hub.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S02721/subway/subway.cpp",
+    "returncode": 0,
+    "diagnostics": "work\\compile\\GD-S02721_subway_subway.cpp: In function 'long long int bfs(int, int)':\nwork\\compile\\GD-S02721_subway_subway.cpp:51:13: warning: structured bindings only available with '-std=c++17' or '-std=gnu++17'\n   51 |   for(auto &[i,k]:a[u])\n      |             ^\n"
+  },
+  {
+    "path": "GD-S02726/crystal/crystal.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S02726/hub/hub.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S02726/migrate/migrate.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S02736/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "In file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S02736_crystal_crystal.cpp:1:\nwork\\compile\\GD-S02736_crystal_crystal.cpp: In function 'int main()':\nwork\\compile\\GD-S02736_crystal_crystal.cpp:25:29: error: expected unqualified-id before '(' token\n   25 |  freopen(\"crystal.in\" ,\"r\" .stdin);\n      |                             ^~~~~\n"
+  },
+  {
+    "path": "GD-S02736/migrate/migrate.cpp",
+    "returncode": 1,
+    "diagnostics": "In file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S02736_migrate_migrate.cpp:1:\nwork\\compile\\GD-S02736_migrate_migrate.cpp: In function 'int main()':\nwork\\compile\\GD-S02736_migrate_migrate.cpp:12:29: error: expected unqualified-id before '(' token\n   12 |  freopen(\"migrate.in\" ,\"r\" .stdin);\n      |                             ^~~~~\n"
+  },
+  {
+    "path": "GD-S02736/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "In file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S02736_subway_subway.cpp:1:\nwork\\compile\\GD-S02736_subway_subway.cpp: In function 'int main()':\nwork\\compile\\GD-S02736_subway_subway.cpp:11:28: error: expected unqualified-id before '(' token\n   11 |  freopen(\"subway.in\" ,\"r\" .stdin);\n      |                            ^~~~~\n"
+  },
+  {
+    "path": "GD-S02909/migrate/migrate.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S02909_migrate_migrate.cpp:4:1: error: 'vector' does not name a type\n    4 | vector<int> b[2000005];\n      | ^~~~~~\nwork\\compile\\GD-S02909_migrate_migrate.cpp: In function 'int dp(int, int, int)':\nwork\\compile\\GD-S02909_migrate_migrate.cpp:9:12: error: invalid types 'int[int]' for array subscript\n    9 |   int cnt=a[i]+d;\n      |            ^\nwork\\compile\\GD-S02909_migrate_migrate.cpp:10:18: error: expected ';' before '<' token\n   10 |   for(int j=i+1,j<num-1;j++)\n      |                  ^\n      |                  ;\ncompilation terminated due to -fmax-errors=3.\r\n"
+  },
+  {
+    "path": "GD-S03021/crystal/crystal.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S03021/hub/hub.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S03021/migrate/migrate.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S03021/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S03021_subway_subway.cpp: In function 'void KH::solve__1_8()':\nwork\\compile\\GD-S03021_subway_subway.cpp:13:30: error: 'j' was not declared in this scope\n   13 |  for(int i=1;i<=m;i++) ed[i][j]=0;\n      |                              ^\n"
+  },
+  {
+    "path": "GD-S03142/crystal/crystal.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S03142/hub/hub.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S03142/subway/subway.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S03199/migrate/migrate.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S03199_migrate_migrate.cpp:1:9: fatal error: C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/: Permission denied\n    1 | #include<bits/>\n      |         ^~~~~~~\ncompilation terminated.\r\n"
+  },
+  {
+    "path": "GD-S03219/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S03219_crystal_crystal.cpp:1:9: fatal error: iostrem: No such file or directory\n    1 | #include<iostrem>\n      |         ^~~~~~~~~\ncompilation terminated.\r\n"
+  },
+  {
+    "path": "GD-S03284/crystal/crystal.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S03284/subway/subway.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S03295/hub/hub.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S03295/migrate/migrate.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S03295_migrate_migrate.cpp:6:12: error: extended character 《 is not valid in an identifier\n    6 | 井include 《bits、stdc++。h>\n      |           ^\nwork\\compile\\GD-S03295_migrate_migrate.cpp:6:12: error: extended character 、 is not valid in an identifier\nwork\\compile\\GD-S03295_migrate_migrate.cpp:6:28: error: extended character 。 is not valid in an identifier\n    6 | 井include 《bits、stdc++。h>\n      |                         ^\ncompilation terminated due to -fmax-errors=3.\r\n"
+  },
+  {
+    "path": "GD-S03300/crystal/crystal.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S03300/hub/hub.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S03300/migrate/migrate.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S03300/subway/subway.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S03337/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S03337_crystal_crystal.cpp:4:8: error: expected constructor, destructor, or type conversion before '(' token\n    4 | freopen(\"crystal.in\",\"r\",\"stdin\")\n      |        ^\n"
+  },
+  {
+    "path": "GD-S03337/hub/hub.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S03337_hub_hub.cpp:4:8: error: expected constructor, destructor, or type conversion before '(' token\n    4 | freopen(\"migrate.in\",\"r\",\"stdin\")\n      |        ^\n"
+  },
+  {
+    "path": "GD-S03337/migrate/migrate.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S03337_migrate_migrate.cpp:4:8: error: expected constructor, destructor, or type conversion before '(' token\n    4 | freopen(\"migrate.in\",\"r\",\"stdin\")\n      |        ^\n"
+  },
+  {
+    "path": "GD-S03337/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S03337_subway_subway.cpp:4:8: error: expected constructor, destructor, or type conversion before '(' token\n    4 | freopen(\"subway.in\",\"r\",\"stdin\")\n      |        ^\n"
+  },
+  {
+    "path": "GD-S03359/cystal.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S03359_cystal.cpp:1:10: fatal error: bits/c++.h: No such file or directory\n    1 | #include <bits/c++.h>\n      |          ^~~~~~~~~~~~\ncompilation terminated.\r\n"
+  },
+  {
+    "path": "GD-S03359/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S03359_subway.cpp:1:10: fatal error: bits/c++.h: No such file or directory\n    1 | #include <bits/c++.h>\n      |          ^~~~~~~~~~~~\ncompilation terminated.\r\n"
+  },
+  {
+    "path": "GD-S03407/subway/subway.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S03471/migrate/migrate.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S03471/subway/subway.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S03546/crystal/crystal.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S03546/migrate/migrate.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S03546/subway/subway.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S03573/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S03573_crystal_crystal.cpp: In function 'int main()':\nwork\\compile\\GD-S03573_crystal_crystal.cpp:5:27: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    5 |  freopen(\"crystal.in\",\"r\",\"stdin\");\n      |                           ^~~~~~~\n      |                           |\n      |                           const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S03573_crystal_crystal.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S03573_crystal_crystal.cpp:6:28: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    6 |  freopen(\"crystal.out\",\"w\",\"stdout\");\n      |                            ^~~~~~~~\n      |                            |\n      |                            const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S03573_crystal_crystal.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\n"
+  },
+  {
+    "path": "GD-S03573/hub/hub.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S03573_hub_hub.cpp: In function 'int main()':\nwork\\compile\\GD-S03573_hub_hub.cpp:4:27: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    4 |  freopen(\"crystal.in\",\"r\",\"stdin\");\n      |                           ^~~~~~~\n      |                           |\n      |                           const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S03573_hub_hub.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S03573_hub_hub.cpp:5:28: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    5 |  freopen(\"crystal.out\",\"w\",\"stdout\");\n      |                            ^~~~~~~~\n      |                            |\n      |                            const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S03573_hub_hub.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\n"
+  },
+  {
+    "path": "GD-S03573/migrate/migrate.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S03573_migrate_migrate.cpp: In function 'int main()':\nwork\\compile\\GD-S03573_migrate_migrate.cpp:4:27: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    4 |  freopen(\"crystal.in\",\"r\",\"stdin\");\n      |                           ^~~~~~~\n      |                           |\n      |                           const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S03573_migrate_migrate.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S03573_migrate_migrate.cpp:5:28: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    5 |  freopen(\"crystal.out\",\"w\",\"stdout\");\n      |                            ^~~~~~~~\n      |                            |\n      |                            const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S03573_migrate_migrate.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\n"
+  },
+  {
+    "path": "GD-S03573/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S03573_subway_subway.cpp: In function 'int main()':\nwork\\compile\\GD-S03573_subway_subway.cpp:4:27: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    4 |  freopen(\"crystal.in\",\"r\",\"stdin\");\n      |                           ^~~~~~~\n      |                           |\n      |                           const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S03573_subway_subway.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S03573_subway_subway.cpp:5:28: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    5 |  freopen(\"crystal.out\",\"w\",\"stdout\");\n      |                            ^~~~~~~~\n      |                            |\n      |                            const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S03573_subway_subway.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\n"
+  },
+  {
+    "path": "GD-S03580/migrate/migrate.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S03580_migrate_migrate.cpp:1:10: fatal error: bits.c++/h: No such file or directory\n    1 | #include <bits.c++/h>\n      |          ^~~~~~~~~~~~\ncompilation terminated.\r\n"
+  },
+  {
+    "path": "GD-S03621/hub/hub.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S03621_hub_hub.cpp:1:10: fatal error: bits/stdc++: No such file or directory\n    1 | #include <bits/stdc++>\n      |          ^~~~~~~~~~~~~\ncompilation terminated.\r\n"
+  },
+  {
+    "path": "GD-S03712/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S03712_crystal_crystal.cpp: In function 'int main()':\nwork\\compile\\GD-S03712_crystal_crystal.cpp:5:28: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    5 |   freopen(\"crystal.in\",\"r\",\"stdin\");\n      |                            ^~~~~~~\n      |                            |\n      |                            const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S03712_crystal_crystal.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S03712_crystal_crystal.cpp:6:28: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    6 |  freopen(\"crystal.out\",\"w\",\"stdout\");\n      |                            ^~~~~~~~\n      |                            |\n      |                            const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S03712_crystal_crystal.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\n"
+  },
+  {
+    "path": "GD-S04069/crystal/crystal.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S04182/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04182_crystal_crystal.cpp: In function 'int main()':\nwork\\compile\\GD-S04182_crystal_crystal.cpp:4:27: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    4 |  freopen(\"crystal.in\",\"r\",\"stdin\");\n      |                           ^~~~~~~\n      |                           |\n      |                           const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04182_crystal_crystal.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S04182_crystal_crystal.cpp:5:28: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    5 |  freopen(\"crystal.out\",\"w\",\"stdout\");\n      |                            ^~~~~~~~\n      |                            |\n      |                            const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04182_crystal_crystal.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\n"
+  },
+  {
+    "path": "GD-S04257/hub/hub.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04257_hub_hub.cpp:1:9: fatal error: bits/stdc+++.h: No such file or directory\n    1 | #include<bits/stdc+++.h>\n      |         ^~~~~~~~~~~~~~~~\ncompilation terminated.\r\n"
+  },
+  {
+    "path": "GD-S04391/subway/subawy.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04391_subway_subawy.cpp:1:9: fatal error: bits/std++.h: No such file or directory\n    1 | #include<bits/std++.h>\n      |         ^~~~~~~~~~~~~~\ncompilation terminated.\r\n"
+  },
+  {
+    "path": "GD-S04417/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04417_crystal_crystal.cpp: In function 'int main()':\nwork\\compile\\GD-S04417_crystal_crystal.cpp:5:27: error: 'stdou' was not declared in this scope; did you mean 'stdout'?\n    5 |  freopen(\"subway.out\",\"w\",stdou);\n      |                           ^~~~~\n      |                           stdout\n"
+  },
+  {
+    "path": "GD-S04417/migrate/migrate.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04417_migrate_migrate.cpp: In function 'int main()':\nwork\\compile\\GD-S04417_migrate_migrate.cpp:5:28: error: 'stdou' was not declared in this scope; did you mean 'stdout'?\n    5 |  freopen(\"migrate.out\",\"w\",stdou);\n      |                            ^~~~~\n      |                            stdout\n"
+  },
+  {
+    "path": "GD-S04417/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04417_subway_subway.cpp: In function 'int main()':\nwork\\compile\\GD-S04417_subway_subway.cpp:5:27: error: 'stdou' was not declared in this scope; did you mean 'stdout'?\n    5 |  freopen(\"subway.out\",\"w\",stdou);\n      |                           ^~~~~\n      |                           stdout\n"
+  },
+  {
+    "path": "GD-S04422/hub/hub.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04422_hub_hub.cpp:1:9: fatal error: bits/stdc++: No such file or directory\n    1 | #include<bits/stdc++>\n      |         ^~~~~~~~~~~~~\ncompilation terminated.\r\n"
+  },
+  {
+    "path": "GD-S04422/migrate/migrate.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04422_migrate_migrate.cpp: In function 'int main()':\nwork\\compile\\GD-S04422_migrate_migrate.cpp:4:30: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    4 |     freopen(\"migrate.in\",\"r\",\"stdin\");\n      |                              ^~~~~~~\n      |                              |\n      |                              const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04422_migrate_migrate.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S04422_migrate_migrate.cpp:5:31: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    5 |     freopen(\"mingate.out\",\"w\",\"stdout\");\n      |                               ^~~~~~~~\n      |                               |\n      |                               const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04422_migrate_migrate.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\n"
+  },
+  {
+    "path": "GD-S04422/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04422_subway_subway.cpp: In function 'int main()':\nwork\\compile\\GD-S04422_subway_subway.cpp:6:25: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    6 |  freopen(\"subwa.in\",\"r\",\"stdin\");\n      |                         ^~~~~~~\n      |                         |\n      |                         const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04422_subway_subway.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S04422_subway_subway.cpp:7:28: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    7 |  freopen(\"crystal.out\",\"w\",\"stdout\");\n      |                            ^~~~~~~~\n      |                            |\n      |                            const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04422_subway_subway.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\n"
+  },
+  {
+    "path": "GD-S04428/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04428_subway_subway.cpp: In function 'int main()':\nwork\\compile\\GD-S04428_subway_subway.cpp:34:27: error: 'stdour' was not declared in this scope; did you mean 'stdout'?\n   34 |  freopen(\"subway.out\",\"w\",stdour);\n      |                           ^~~~~~\n      |                           stdout\n"
+  },
+  {
+    "path": "GD-S04475/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04475_subway_subway.cpp: In function 'int main()':\nwork\\compile\\GD-S04475_subway_subway.cpp:6:26: error: 'stdcin' was not declared in this scope; did you mean 'stdin'?\n    6 |  freopen(\"subway.in\",\"r\",stdcin);\n      |                          ^~~~~~\n      |                          stdin\nwork\\compile\\GD-S04475_subway_subway.cpp:16:9: error: 'i' was not declared in this scope\n   16 |    if(a[i/2+1]>b[j]){\n      |         ^\nwork\\compile\\GD-S04475_subway_subway.cpp:20:8: error: 'i' was not declared in this scope\n   20 |   if(a[i]==b[j]){\n      |        ^\n"
+  },
+  {
+    "path": "GD-S04488/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04488_crystal_crystal.cpp:10:20: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]\n   10 |  freopen(\"hub.out\",\"w\"stdout);\n      |                    ^\ncc1plus.exe: error: '::main' must return 'int'\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04488_crystal_crystal.cpp:1:\nwork\\compile\\GD-S04488_crystal_crystal.cpp: In function 'int main()':\nwork\\compile\\GD-S04488_crystal_crystal.cpp:10:23: error: expression cannot be used as a function\n   10 |  freopen(\"hub.out\",\"w\"stdout);\n      |                       ^~~~~~\n"
+  },
+  {
+    "path": "GD-S04492/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04492_crystal_crystal.cpp: In function 'int main()':\nwork\\compile\\GD-S04492_crystal_crystal.cpp:6:30: error: expected primary-expression before '.' token\n    6 |  freopen(\"crystal.in\",\"r\",std.in);\n      |                              ^\nwork\\compile\\GD-S04492_crystal_crystal.cpp:7:31: error: expected primary-expression before '.' token\n    7 |  freopen(\"crystal.out\",\"w\",std.out);\n      |                               ^\n"
+  },
+  {
+    "path": "GD-S04492/hub/hub.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04492_hub_hub.cpp: In function 'void dfs(int)':\nwork\\compile\\GD-S04492_hub_hub.cpp:12:15: error: expected ')' before '{' token\n   12 |  while(a[b]<=d{\n      |       ~       ^\n      |               )\nwork\\compile\\GD-S04492_hub_hub.cpp: In function 'int main()':\nwork\\compile\\GD-S04492_hub_hub.cpp:21:26: error: expected primary-expression before '.' token\n   21 |  freopen(\"hub.in\",\"r\",std.in);\n      |                          ^\nwork\\compile\\GD-S04492_hub_hub.cpp:22:27: error: expected primary-expression before '.' token\n   22 |  freopen(\"hub.out\",\"w\",std.out);\n      |                           ^\n"
+  },
+  {
+    "path": "GD-S04492/migrate/migrate.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04492_migrate_migrate.cpp: In function 'int main()':\nwork\\compile\\GD-S04492_migrate_migrate.cpp:21:26: error: expected primary-expression before '.' token\n   21 |  freopen(\"hub.in\",\"r\",std.in);\n      |                          ^\nwork\\compile\\GD-S04492_migrate_migrate.cpp:22:27: error: expected primary-expression before '.' token\n   22 |  freopen(\"hub.out\",\"w\",std.out);\n      |                           ^\n"
+  },
+  {
+    "path": "GD-S04492/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04492_subway_subway.cpp: In function 'int main()':\nwork\\compile\\GD-S04492_subway_subway.cpp:5:29: error: expected primary-expression before '.' token\n    5 |  freopen(\"subway.in\",\"r\",std.in);\n      |                             ^\nwork\\compile\\GD-S04492_subway_subway.cpp:6:30: error: expected primary-expression before '.' token\n    6 |  freopen(\"subway.out\",\"w\",std.out);\n      |                              ^\n"
+  },
+  {
+    "path": "GD-S04528/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04528_crystal_crystal.cpp:1:10: fatal error: C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/: Permission denied\n    1 | #include <bits/>\n      |          ^~~~~~~\ncompilation terminated.\r\n"
+  },
+  {
+    "path": "GD-S04528/hub/hub.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04528_hub_hub.cpp:1:10: fatal error: C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/: Permission denied\n    1 | #include <bits/>\n      |          ^~~~~~~\ncompilation terminated.\r\n"
+  },
+  {
+    "path": "GD-S04528/migrate/migrate.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04528_migrate_migrate.cpp:1:10: fatal error: C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/: Permission denied\n    1 | #include <bits/>\n      |          ^~~~~~~\ncompilation terminated.\r\n"
+  },
+  {
+    "path": "GD-S04528/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04528_subway_subway.cpp:1:10: fatal error: C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/: Permission denied\n    1 | #include <bits/>\n      |          ^~~~~~~\ncompilation terminated.\r\n"
+  },
+  {
+    "path": "GD-S04572/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04572_crystal_crystal.cpp:10:23: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]\n   10 |  freopen(\"crystal.in\",\"r\"stdin);\n      |                       ^\nwork\\compile\\GD-S04572_crystal_crystal.cpp:11:22: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]\n   11 |  feopen(\"crystal.in\",\"w\"stdout);\n      |                      ^\nwork\\compile\\GD-S04572_crystal_crystal.cpp: In function 'int main()':\nwork\\compile\\GD-S04572_crystal_crystal.cpp:6:2: error: expected initializer before 'int'\n    6 |  int ans;\n      |  ^~~\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04572_crystal_crystal.cpp:1:\nwork\\compile\\GD-S04572_crystal_crystal.cpp:10:26: error: expression cannot be used as a function\n   10 |  freopen(\"crystal.in\",\"r\"stdin);\n      |                          ^~~~~\nwork\\compile\\GD-S04572_crystal_crystal.cpp:11:25: error: expression cannot be used as a function\n   11 |  feopen(\"crystal.in\",\"w\"stdout);\n      |                         ^~~~~~\ncompilation terminated due to -fmax-errors=3.\r\n"
+  },
+  {
+    "path": "GD-S04572/hub/hub.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04572_hub_hub.cpp:4:19: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]\n    4 |  freopen(\"hub.in\",\"r\"stdin);\n      |                   ^\nwork\\compile\\GD-S04572_hub_hub.cpp:5:19: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]\n    5 |  freopen(\"hub.in\",\"w\"stdout);\n      |                   ^\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04572_hub_hub.cpp:1:\nwork\\compile\\GD-S04572_hub_hub.cpp: In function 'int main()':\nwork\\compile\\GD-S04572_hub_hub.cpp:4:22: error: expression cannot be used as a function\n    4 |  freopen(\"hub.in\",\"r\"stdin);\n      |                      ^~~~~\nwork\\compile\\GD-S04572_hub_hub.cpp:5:22: error: expression cannot be used as a function\n    5 |  freopen(\"hub.in\",\"w\"stdout);\n      |                      ^~~~~~\nwork\\compile\\GD-S04572_hub_hub.cpp:6:13: error: expected ';' before '}' token\n    6 |  cout<<\"0 1\"\n      |             ^\n      |             ;\n    7 | }\n      | ~            \n"
+  },
+  {
+    "path": "GD-S04572/migrate/migrate.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04572_migrate_migrate.cpp:4:23: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]\n    4 |  freopen(\"migrate.in\",\"r\"stdin);\n      |                       ^\nwork\\compile\\GD-S04572_migrate_migrate.cpp:5:23: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]\n    5 |  freopen(\"migrate.in\",\"w\"stdout);\n      |                       ^\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04572_migrate_migrate.cpp:1:\nwork\\compile\\GD-S04572_migrate_migrate.cpp: In function 'int main()':\nwork\\compile\\GD-S04572_migrate_migrate.cpp:4:26: error: expression cannot be used as a function\n    4 |  freopen(\"migrate.in\",\"r\"stdin);\n      |                          ^~~~~\nwork\\compile\\GD-S04572_migrate_migrate.cpp:5:26: error: expression cannot be used as a function\n    5 |  freopen(\"migrate.in\",\"w\"stdout);\n      |                          ^~~~~~\nwork\\compile\\GD-S04572_migrate_migrate.cpp:6:13: error: expected ';' before '}' token\n    6 |  cout<<\"0 1\"\n      |             ^\n      |             ;\n    7 | }\n      | ~            \n"
+  },
+  {
+    "path": "GD-S04572/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04572_subway_subway.cpp:4:22: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]\n    4 |  freopen(\"subway.in\",\"r\"stdin);\n      |                      ^\nwork\\compile\\GD-S04572_subway_subway.cpp:5:22: warning: invalid suffix on literal; C++11 requires a space between literal and string macro [-Wliteral-suffix]\n    5 |  freopen(\"subway.in\",\"w\"stdout);\n      |                      ^\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04572_subway_subway.cpp:1:\nwork\\compile\\GD-S04572_subway_subway.cpp: In function 'int main()':\nwork\\compile\\GD-S04572_subway_subway.cpp:4:25: error: expression cannot be used as a function\n    4 |  freopen(\"subway.in\",\"r\"stdin);\n      |                         ^~~~~\nwork\\compile\\GD-S04572_subway_subway.cpp:5:25: error: expression cannot be used as a function\n    5 |  freopen(\"subway.in\",\"w\"stdout);\n      |                         ^~~~~~\nwork\\compile\\GD-S04572_subway_subway.cpp:9:2: error: 'imt' was not declared in this scope; did you mean 'int'?\n    9 |  imt k[10000];\n      |  ^~~\n      |  int\ncompilation terminated due to -fmax-errors=3.\r\n"
+  },
+  {
+    "path": "GD-S04638/hub/hub.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04638_hub_hub.cpp:1:9: fatal error: bits.stdc++.h: No such file or directory\n    1 | #include<bits.stdc++.h>\n      |         ^~~~~~~~~~~~~~~\ncompilation terminated.\r\n"
+  },
+  {
+    "path": "GD-S04638/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04638_subway_subway.cpp:1:9: fatal error: bits.stdc++.h: No such file or directory\n    1 | #include<bits.stdc++.h>\n      |         ^~~~~~~~~~~~~~~\ncompilation terminated.\r\n"
+  },
+  {
+    "path": "GD-S04668/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04668_crystal_crystal.cpp: In function 'int main()':\nwork\\compile\\GD-S04668_crystal_crystal.cpp:4:27: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    4 |  freopen(\"crystal.in\",\"r\",\"stdin\");\n      |                           ^~~~~~~\n      |                           |\n      |                           const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04668_crystal_crystal.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S04668_crystal_crystal.cpp:5:28: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    5 |  freopen(\"crystal.out\",\"w\",\"stdout\");\n      |                            ^~~~~~~~\n      |                            |\n      |                            const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04668_crystal_crystal.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\n"
+  },
+  {
+    "path": "GD-S04668/hub/hub.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04668_hub_hub.cpp: In function 'int main()':\nwork\\compile\\GD-S04668_hub_hub.cpp:4:23: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    4 |  freopen(\"hub.in\",\"r\",\"stdin\");\n      |                       ^~~~~~~\n      |                       |\n      |                       const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04668_hub_hub.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S04668_hub_hub.cpp:5:24: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    5 |  freopen(\"hub.out\",\"w\",\"stdout\");\n      |                        ^~~~~~~~\n      |                        |\n      |                        const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04668_hub_hub.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\n"
+  },
+  {
+    "path": "GD-S04668/migrate/migrate.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04668_migrate_migrate.cpp: In function 'int main()':\nwork\\compile\\GD-S04668_migrate_migrate.cpp:4:27: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    4 |  freopen(\"migrate.in\",\"r\",\"stdin\");\n      |                           ^~~~~~~\n      |                           |\n      |                           const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04668_migrate_migrate.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S04668_migrate_migrate.cpp:5:28: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    5 |  freopen(\"migrate.out\",\"w\",\"stdout\");\n      |                            ^~~~~~~~\n      |                            |\n      |                            const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04668_migrate_migrate.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S04668_migrate_migrate.cpp:12:16: error: ISO C++ forbids comparison between pointer and integer [-fpermissive]\n   12 |   for(int z=0;z<n;z++){\n      |               ~^~\ncompilation terminated due to -fmax-errors=3.\r\n"
+  },
+  {
+    "path": "GD-S04668/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04668_subway_subway.cpp: In function 'int main()':\nwork\\compile\\GD-S04668_subway_subway.cpp:4:26: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    4 |  freopen(\"subway.in\",\"r\",\"stdin\");\n      |                          ^~~~~~~\n      |                          |\n      |                          const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04668_subway_subway.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S04668_subway_subway.cpp:5:27: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    5 |  freopen(\"subway.out\",\"w\",\"stdout\");\n      |                           ^~~~~~~~\n      |                           |\n      |                           const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04668_subway_subway.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\n"
+  },
+  {
+    "path": "GD-S04786/crystal/crystal.cpp",
+    "returncode": 0,
+    "diagnostics": ""
+  },
+  {
+    "path": "GD-S04811/hub/hub.cpp",
+    "returncode": 1,
+    "diagnostics": "cc1plus.exe: error: '::main' must return 'int'\n"
+  },
+  {
+    "path": "GD-S04811/migrate/migrate.cpp",
+    "returncode": 1,
+    "diagnostics": "cc1plus.exe: error: '::main' must return 'int'\n"
+  },
+  {
+    "path": "GD-S04811/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "cc1plus.exe: error: '::main' must return 'int'\n"
+  },
+  {
+    "path": "GD-S04886/hub/hub.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04886_hub_hub.cpp:1:10: fatal error: bits/stdc++/h: No such file or directory\n    1 | #include <bits/stdc++/h>\n      |          ^~~~~~~~~~~~~~~\ncompilation terminated.\r\n"
+  },
+  {
+    "path": "GD-S04938/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04938_crystal_crystal.cpp: In function 'int main()':\nwork\\compile\\GD-S04938_crystal_crystal.cpp:4:27: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    4 |  freopen(\"crystal.in\",\"r\",\"stdin\");\n      |                           ^~~~~~~\n      |                           |\n      |                           const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04938_crystal_crystal.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S04938_crystal_crystal.cpp:5:28: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    5 |  freopen(\"crystal.out\",\"w\",\"stdout\");\n      |                            ^~~~~~~~\n      |                            |\n      |                            const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04938_crystal_crystal.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S04938_crystal_crystal.cpp:12:9: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n   12 |  fclose(\"stdin\");\n      |         ^~~~~~~\n      |         |\n      |         const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04938_crystal_crystal.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:633:28: note:   initializing argument 1 of 'int fclose(FILE*)'\n  633 |   int __cdecl fclose(FILE *_File);\n      |                      ~~~~~~^~~~~\ncompilation terminated due to -fmax-errors=3.\r\n"
+  },
+  {
+    "path": "GD-S04938/hub/hub.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04938_hub_hub.cpp: In function 'int main()':\nwork\\compile\\GD-S04938_hub_hub.cpp:4:23: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    4 |  freopen(\"hub.in\",\"r\",\"stdin\");\n      |                       ^~~~~~~\n      |                       |\n      |                       const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04938_hub_hub.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S04938_hub_hub.cpp:5:24: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    5 |  freopen(\"hub.out\",\"w\",\"stdout\");\n      |                        ^~~~~~~~\n      |                        |\n      |                        const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04938_hub_hub.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S04938_hub_hub.cpp:7:2: error: 'flose' was not declared in this scope; did you mean 'fclose'?\n    7 |  flose(\"stdin\");\n      |  ^~~~~\n      |  fclose\n"
+  },
+  {
+    "path": "GD-S04938/migrate/migrate.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04938_migrate_migrate.cpp: In function 'int main()':\nwork\\compile\\GD-S04938_migrate_migrate.cpp:5:27: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    5 |  freopen(\"migrate.in\",\"r\",\"stdin\")\n      |                           ^~~~~~~\n      |                           |\n      |                           const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04938_migrate_migrate.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S04938_migrate_migrate.cpp:8:2: error: 'flose' was not declared in this scope; did you mean 'fclose'?\n    8 |  flose(\"stdin\")\n      |  ^~~~~\n      |  fclose\n"
+  },
+  {
+    "path": "GD-S04938/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S04938_subway_subway.cpp: In function 'int main()':\nwork\\compile\\GD-S04938_subway_subway.cpp:5:26: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    5 |  freopen(\"subway.in\",\"r\",\"stdin\");\n      |                          ^~~~~~~\n      |                          |\n      |                          const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04938_subway_subway.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S04938_subway_subway.cpp:6:27: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    6 |  freopen(\"subway.out\",\"w\",\"stdout\");\n      |                           ^~~~~~~~\n      |                           |\n      |                           const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04938_subway_subway.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S04938_subway_subway.cpp:8:9: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    8 |  fclose(\"stdin\");\n      |         ^~~~~~~\n      |         |\n      |         const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S04938_subway_subway.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:633:28: note:   initializing argument 1 of 'int fclose(FILE*)'\n  633 |   int __cdecl fclose(FILE *_File);\n      |                      ~~~~~~^~~~~\ncompilation terminated due to -fmax-errors=3.\r\n"
+  },
+  {
+    "path": "GD-S05005/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S05005_crystal_crystal.cpp: In function 'int main()':\nwork\\compile\\GD-S05005_crystal_crystal.cpp:4:27: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    4 |  freopen(\"crystal.in\",\"r\",\"stdin\");\n      |                           ^~~~~~~\n      |                           |\n      |                           const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S05005_crystal_crystal.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S05005_crystal_crystal.cpp:5:28: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    5 |  freopen(\"crystal.out\",\"w\",\"stdout\");\n      |                            ^~~~~~~~\n      |                            |\n      |                            const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S05005_crystal_crystal.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S05005_crystal_crystal.cpp:8:13: error: expected initializer before ',' token\n    8 |     if(int b,b>=n,b++){\n      |             ^\ncompilation terminated due to -fmax-errors=3.\r\n"
+  },
+  {
+    "path": "GD-S05005/hub/hub.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S05005_hub_hub.cpp: In function 'int main()':\nwork\\compile\\GD-S05005_hub_hub.cpp:4:23: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    4 |  freopen(\"hub.in\",\"r\",\"stdin\");\n      |                       ^~~~~~~\n      |                       |\n      |                       const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S05005_hub_hub.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S05005_hub_hub.cpp:5:24: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    5 |  freopen(\"hub.out\",\"w\",\"stdout\");\n      |                        ^~~~~~~~\n      |                        |\n      |                        const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S05005_hub_hub.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S05005_hub_hub.cpp:9:5: error: no match for 'operator>>' (operand types are 'std::istream' {aka 'std::basic_istream<char>'} and 'int [10000]')\n    9 |  cin>>n>>a;\n      |  ~~~^~~\n      |  |    |\n      |  |    int [10000]\n      |  std::istream {aka std::basic_istream<char>}\nIn file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/sstream:38,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/complex:45,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ccomplex:39,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:54,\n                 from work\\compile\\GD-S05005_hub_hub.cpp:1:\nC:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/istream:168:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(bool&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]' (near match)\n  168 |       operator>>(bool& __n)\n      |       ^~~~~~~~\nC:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/istream:168:7: note:   conversion of argument 1 would be ill-formed:\ncompilation terminated due to -fmax-errors=3.\r\n"
+  },
+  {
+    "path": "GD-S05005/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S05005_subway_subway.cpp: In function 'int main()':\nwork\\compile\\GD-S05005_subway_subway.cpp:4:26: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    4 |  freopen(\"subway.in\",\"r\",\"stdin\");\n      |                          ^~~~~~~\n      |                          |\n      |                          const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S05005_subway_subway.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S05005_subway_subway.cpp:5:27: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    5 |  freopen(\"subway.out\",\"w\",\"stdout\");\n      |                           ^~~~~~~~\n      |                           |\n      |                           const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S05005_subway_subway.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S05005_subway_subway.cpp:9:5: error: no match for 'operator>>' (operand types are 'std::istream' {aka 'std::basic_istream<char>'} and 'int [10000]')\n    9 |  cin>>n>>a;\n      |  ~~~^~~\n      |  |    |\n      |  |    int [10000]\n      |  std::istream {aka std::basic_istream<char>}\nIn file included from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/sstream:38,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/complex:45,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ccomplex:39,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:54,\n                 from work\\compile\\GD-S05005_subway_subway.cpp:1:\nC:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/istream:168:7: note: candidate: 'std::basic_istream<_CharT, _Traits>::__istream_type& std::basic_istream<_CharT, _Traits>::operator>>(bool&) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_istream<_CharT, _Traits>::__istream_type = std::basic_istream<char>]' (near match)\n  168 |       operator>>(bool& __n)\n      |       ^~~~~~~~\nC:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/istream:168:7: note:   conversion of argument 1 would be ill-formed:\ncompilation terminated due to -fmax-errors=3.\r\n"
+  },
+  {
+    "path": "GD-S05088/crystal/crystal.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S05088_crystal_crystal.cpp: In function 'int main()':\nwork\\compile\\GD-S05088_crystal_crystal.cpp:8:27: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    8 |  freopen(\"crystal.in\",\"r\",\"stdin\");\n      |                           ^~~~~~~\n      |                           |\n      |                           const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S05088_crystal_crystal.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S05088_crystal_crystal.cpp:9:28: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n    9 |  freopen(\"crystal.out\",\"w\",\"stdout\");\n      |                            ^~~~~~~~\n      |                            |\n      |                            const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S05088_crystal_crystal.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\n"
+  },
+  {
+    "path": "GD-S05088/subway/subway.cpp",
+    "returncode": 1,
+    "diagnostics": "work\\compile\\GD-S05088_subway_subway.cpp: In function 'int main()':\nwork\\compile\\GD-S05088_subway_subway.cpp:41:26: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n   41 |  freopen(\"subway.in\",\"r\",\"stdin\");\n      |                          ^~~~~~~\n      |                          |\n      |                          const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S05088_subway_subway.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\nwork\\compile\\GD-S05088_subway_subway.cpp:42:27: error: cannot convert 'const char*' to 'FILE*' {aka '_iobuf*'}\n   42 |  freopen(\"subway.out\",\"w\",\"stdout\");\n      |                           ^~~~~~~~\n      |                           |\n      |                           const char*\nIn file included from C:/TDM-GCC-64/x86_64-w64-mingw32/include/locale.h:12,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale:42,\n                 from C:/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h:40,\n                 from work\\compile\\GD-S05088_subway_subway.cpp:1:\nC:/TDM-GCC-64/x86_64-w64-mingw32/include/stdio.h:660:113: note:   initializing argument 3 of 'FILE* freopen(const char*, const char*, FILE*)'\n  660 |   FILE *__cdecl freopen(const char * __restrict__ _Filename,const char * __restrict__ _Mode,FILE * __restrict__ _File) __MINGW_ATTRIB_DEPRECATED_SEC_WARN;\n      |                                                                                             ~~~~~~~~~~~~~~~~~~~~^~~~~\n"
+  }
+]
