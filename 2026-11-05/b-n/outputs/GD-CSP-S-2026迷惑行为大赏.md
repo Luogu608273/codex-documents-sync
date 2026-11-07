@@ -748,7 +748,7 @@ int main(){
 	freopen("crystal.out","g",stdout);
 ```
 
-四题的输出模式都写成了 `"g"`，不是标准的写入模式 `"w"`。这类错误不一定引起 CE，而是在打开文件时出问题。
+四题的输出模式都写成了 `"g"`。
 
 ## GD-S04295
 
@@ -782,7 +782,7 @@ int main(){
 
 ## GD-S04492
 
-### stdin 被拆成 std.in
+### std.in std.out
 
 `GD-S04492/crystal/crystal.cpp`，第 5–7 行。
 
@@ -796,7 +796,7 @@ int main(){
 
 ## GD-S04572
 
-### 文件函数和逗号一起消失
+### feopen 与小时的都好
 
 `GD-S04572/crystal/crystal.cpp`，第 8–11 行。
 
