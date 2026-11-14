@@ -1,0 +1,213 @@
+{
+  "snapshot": "operators-2026-11-14.json",
+  "operators": [
+    {
+      "name": "乌尔比安",
+      "snapshot": {
+        "id": "char_4145_ulpia",
+        "name": "乌尔比安",
+        "level": 60,
+        "evolvePhase": 2,
+        "mainSkillLevel": 7,
+        "skills": [
+          {
+            "id": "skchr_ulpia_1",
+            "level": 0
+          },
+          {
+            "id": "skchr_ulpia_2",
+            "level": 3
+          },
+          {
+            "id": "skchr_ulpia_3",
+            "level": 3
+          }
+        ],
+        "equips": [
+          {
+            "id": "uniequip_002_ulpia",
+            "type": "X",
+            "level": 3
+          }
+        ],
+        "potentialRank": 1
+      },
+      "requirements": {
+        "elite": 2,
+        "level": 60,
+        "skill_level": 10,
+        "module": 1
+      },
+      "status": "owned_requirements_met"
+    },
+    {
+      "name": "逻各斯",
+      "snapshot": {
+        "id": "char_4133_logos",
+        "name": "逻各斯",
+        "level": 60,
+        "evolvePhase": 2,
+        "mainSkillLevel": 7,
+        "skills": [
+          {
+            "id": "skchr_logos_1",
+            "level": 3
+          },
+          {
+            "id": "skchr_logos_2",
+            "level": 3
+          },
+          {
+            "id": "skchr_logos_3",
+            "level": 3
+          }
+        ],
+        "equips": [
+          {
+            "id": "uniequip_003_logos",
+            "type": "Y",
+            "level": 0
+          },
+          {
+            "id": "uniequip_002_logos",
+            "type": "D",
+            "level": 3
+          }
+        ],
+        "potentialRank": 1
+      },
+      "requirements": {
+        "elite": 2,
+        "level": 60,
+        "skill_level": 10,
+        "module": 4
+      },
+      "status": "owned_requirements_met"
+    },
+    {
+      "name": "圣聆初雪",
+      "snapshot": {
+        "id": "char_1046_sbell2",
+        "name": "圣聆初雪",
+        "level": 60,
+        "evolvePhase": 2,
+        "mainSkillLevel": 7,
+        "skills": [
+          {
+            "id": "skchr_sbell2_1",
+            "level": 0
+          },
+          {
+            "id": "skchr_sbell2_2",
+            "level": 3
+          },
+          {
+            "id": "skchr_sbell2_3",
+            "level": 3
+          }
+        ],
+        "equips": [
+          {
+            "id": "uniequip_002_sbell2",
+            "type": "Y",
+            "level": 3
+          }
+        ],
+        "potentialRank": 1
+      },
+      "requirements": {
+        "elite": 2,
+        "level": 60,
+        "skill_level": 10,
+        "module": 2
+      },
+      "status": "owned_requirements_met"
+    },
+    {
+      "name": "Mon3tr",
+      "snapshot": {
+        "id": "char_4179_monstr",
+        "name": "Mon3tr",
+        "level": 60,
+        "evolvePhase": 2,
+        "mainSkillLevel": 7,
+        "skills": [
+          {
+            "id": "skchr_monstr_1",
+            "level": 3
+          },
+          {
+            "id": "skchr_monstr_2",
+            "level": 3
+          },
+          {
+            "id": "skchr_monstr_3",
+            "level": 3
+          }
+        ],
+        "equips": [
+          {
+            "id": "uniequip_002_monstr",
+            "type": "X",
+            "level": 3
+          }
+        ],
+        "potentialRank": 1
+      },
+      "requirements": {
+        "elite": 2,
+        "level": 60,
+        "skill_level": 10,
+        "module": 1
+      },
+      "status": "owned_requirements_met"
+    },
+    {
+      "name": "塞雷娅",
+      "snapshot": {
+        "id": "char_202_demkni",
+        "name": "塞雷娅",
+        "level": 60,
+        "evolvePhase": 2,
+        "mainSkillLevel": 7,
+        "skills": [
+          {
+            "id": "skchr_demkni_1",
+            "level": 3
+          },
+          {
+            "id": "skchr_demkni_2",
+            "level": 0
+          },
+          {
+            "id": "skchr_demkni_3",
+            "level": 0
+          }
+        ],
+        "equips": [
+          {
+            "id": "uniequip_002_demkni",
+            "type": "X",
+            "level": 0
+          },
+          {
+            "id": "uniequip_003_demkni",
+            "type": "Y",
+            "level": 0
+          }
+        ],
+        "potentialRank": 1
+      },
+      "requirements": {
+        "elite": 2,
+        "level": 60,
+        "skill_level": 10,
+        "module": 0
+      },
+      "status": "owned_requirements_met"
+    }
+  ],
+  "selected_defender": "塞雷娅",
+  "borrow_count": 0,
+  "combat_verified": false
+}

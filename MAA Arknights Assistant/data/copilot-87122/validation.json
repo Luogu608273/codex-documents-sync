@@ -1,0 +1,117 @@
+{
+  "stage": "act28side_08",
+  "json_and_roster_checks": true,
+  "original_five_positions_directions_and_order_preserved": true,
+  "legal_distinct_deployment_tiles": true,
+  "mon3tr_location": [
+    10,
+    5
+  ],
+  "mon3tr_direction": "Left",
+  "mon3tr_skill": 1,
+  "skill_triggers_in_game": true,
+  "mon3tr_range_maa": [
+    [
+      8,
+      4
+    ],
+    [
+      8,
+      5
+    ],
+    [
+      8,
+      6
+    ],
+    [
+      9,
+      4
+    ],
+    [
+      9,
+      5
+    ],
+    [
+      9,
+      6
+    ],
+    [
+      10,
+      4
+    ],
+    [
+      10,
+      5
+    ],
+    [
+      10,
+      6
+    ],
+    [
+      11,
+      4
+    ],
+    [
+      11,
+      5
+    ],
+    [
+      11,
+      6
+    ]
+  ],
+  "reconstruction_location": [
+    9,
+    4
+  ],
+  "reconstruction_in_healing_range": true,
+  "reconstruction_aura_maa": [
+    [
+      8,
+      3
+    ],
+    [
+      8,
+      4
+    ],
+    [
+      8,
+      5
+    ],
+    [
+      9,
+      3
+    ],
+    [
+      9,
+      4
+    ],
+    [
+      9,
+      5
+    ],
+    [
+      10,
+      3
+    ],
+    [
+      10,
+      4
+    ],
+    [
+      10,
+      5
+    ]
+  ],
+  "buff_targets": [
+    "逻各斯",
+    "乌尔比安",
+    "Mon3tr"
+  ],
+  "deployments": 6,
+  "deployment_limit": 8,
+  "no_summon_in_formation": true,
+  "core_loaded": false,
+  "combat_verified": false,
+  "limits": "Static roster, geometry and JSON checks only; no combat simulation."
+}
