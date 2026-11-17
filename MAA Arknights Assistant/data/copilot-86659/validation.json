@@ -1,0 +1,270 @@
+{
+  "stage": "act33side_ex06",
+  "original_operators_and_actions_preserved": true,
+  "difficulty": 3,
+  "mon3tr_location": [
+    10,
+    5
+  ],
+  "direction": "Up",
+  "normal_tile": "tile_wall",
+  "raid_blocked_tiles": [
+    [
+      6,
+      1
+    ],
+    [
+      6,
+      6
+    ],
+    [
+      7,
+      1
+    ],
+    [
+      7,
+      6
+    ],
+    [
+      8,
+      1
+    ],
+    [
+      8,
+      6
+    ],
+    [
+      9,
+      1
+    ],
+    [
+      9,
+      6
+    ]
+  ],
+  "mon3tr_direct_healing_range": [
+    [
+      9,
+      3
+    ],
+    [
+      9,
+      4
+    ],
+    [
+      9,
+      5
+    ],
+    [
+      9,
+      6
+    ],
+    [
+      10,
+      3
+    ],
+    [
+      10,
+      4
+    ],
+    [
+      10,
+      5
+    ],
+    [
+      10,
+      6
+    ],
+    [
+      11,
+      3
+    ],
+    [
+      11,
+      4
+    ],
+    [
+      11,
+      5
+    ],
+    [
+      11,
+      6
+    ]
+  ],
+  "direct_targets": [
+    "歌蕾蒂娅",
+    "乌尔比安"
+  ],
+  "logos_needs_chain_jump": true,
+  "rope_support_offsets": [
+    [
+      -2,
+      -1
+    ],
+    [
+      -2,
+      0
+    ],
+    [
+      -2,
+      1
+    ],
+    [
+      -1,
+      -2
+    ],
+    [
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      -1,
+      2
+    ],
+    [
+      0,
+      -2
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      2
+    ],
+    [
+      1,
+      -2
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      -1
+    ],
+    [
+      2,
+      0
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "rope_events": [
+    {
+      "name": "歌蕾蒂娅",
+      "location": [
+        10,
+        3
+      ],
+      "tile": "tile_road",
+      "new_edge": null,
+      "rope_counts": {
+        "歌蕾蒂娅": 0
+      }
+    },
+    {
+      "name": "乌尔比安",
+      "location": [
+        9,
+        4
+      ],
+      "tile": "tile_merope",
+      "new_edge": [
+        "歌蕾蒂娅",
+        "乌尔比安"
+      ],
+      "rope_counts": {
+        "歌蕾蒂娅": 1,
+        "乌尔比安": 1
+      }
+    },
+    {
+      "name": "逻各斯",
+      "location": [
+        10,
+        2
+      ],
+      "tile": "tile_wall",
+      "new_edge": [
+        "乌尔比安",
+        "逻各斯"
+      ],
+      "rope_counts": {
+        "歌蕾蒂娅": 1,
+        "乌尔比安": 2,
+        "逻各斯": 1
+      }
+    },
+    {
+      "name": "Mon3tr",
+      "location": [
+        10,
+        5
+      ],
+      "tile": "tile_wall",
+      "new_edge": null,
+      "rope_counts": {
+        "歌蕾蒂娅": 1,
+        "乌尔比安": 2,
+        "逻各斯": 1,
+        "Mon3tr": 0
+      }
+    }
+  ],
+  "rope_edges": [
+    [
+      "歌蕾蒂娅",
+      "乌尔比安"
+    ],
+    [
+      "乌尔比安",
+      "逻各斯"
+    ]
+  ],
+  "rope_counts": {
+    "歌蕾蒂娅": 1,
+    "乌尔比安": 2,
+    "逻各斯": 1,
+    "Mon3tr": 0
+  },
+  "deployments": 4,
+  "deploy_limit": 8,
+  "reconstruction_deployed": false,
+  "core_loaded": false,
+  "combat_verified": false,
+  "limits": "Static connection model assumes all original units remain on field; it does not validate survival or healing-chain target priority."
+}
