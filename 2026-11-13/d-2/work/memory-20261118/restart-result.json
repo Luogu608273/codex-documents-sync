@@ -1,0 +1,25 @@
+﻿{
+    "Before":  {
+                   "Time":  "2026-11-18T15:26:28.4048234+08:00",
+                   "AvailableMiB":  884,
+                   "CommitMiB":  30542,
+                   "NonpagedMiB":  741,
+                   "ProcessObjects":  12219,
+                   "RunningProcesses":  333,
+                   "PcaPid":  10352,
+                   "PcaHandles":  12291,
+                   "PcaState":  "Running"
+               },
+    "After":  {
+                  "Time":  "2026-11-18T15:26:39.6567504+08:00",
+                  "AvailableMiB":  2064,
+                  "CommitMiB":  29325,
+                  "NonpagedMiB":  737,
+                  "ProcessObjects":  377,
+                  "RunningProcesses":  331,
+                  "PcaPid":  58632,
+                  "PcaHandles":  182,
+                  "PcaState":  "Running"
+              },
+    "Error":  null
+}

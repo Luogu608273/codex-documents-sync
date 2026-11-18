@@ -1,0 +1,15 @@
+﻿{
+    "Before":  {
+                   "Name":  "PcaSvc",
+                   "State":  "Running",
+                   "StartMode":  "Manual",
+                   "ProcessId":  58632
+               },
+    "After":  {
+                  "Name":  "PcaSvc",
+                  "State":  "Stopped",
+                  "StartMode":  "Disabled",
+                  "ProcessId":  0
+              },
+    "Error":  null
+}

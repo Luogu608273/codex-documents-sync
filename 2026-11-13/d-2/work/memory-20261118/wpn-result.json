@@ -1,0 +1,30 @@
+﻿{
+    "Before":  {
+                   "Time":  "2026-11-18T15:43:30.5963227+08:00",
+                   "ServiceState":  "Running",
+                   "StartMode":  "Auto",
+                   "ProcessId":  7528,
+                   "Handles":  13259,
+                   "PrivateWSMiB":  13.4,
+                   "CommitMiB":  33.2,
+                   "AvailableMiB":  1803,
+                   "PagedPoolMiB":  1071.6,
+                   "NonpagedPoolMiB":  738.2,
+                   "Events":  137017
+               },
+    "After":  {
+                  "Time":  "2026-11-18T15:43:36.9691778+08:00",
+                  "ServiceState":  "Running",
+                  "StartMode":  "Auto",
+                  "ProcessId":  53284,
+                  "Handles":  459,
+                  "PrivateWSMiB":  7.4,
+                  "CommitMiB":  9.3,
+                  "AvailableMiB":  2108,
+                  "PagedPoolMiB":  1071.6,
+                  "NonpagedPoolMiB":  738,
+                  "Events":  134156
+              },
+    "Later":  null,
+    "Error":  null
+}
