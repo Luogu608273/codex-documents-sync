@@ -25,6 +25,18 @@
                   "NonpagedPoolMiB":  738,
                   "Events":  134156
               },
-    "Later":  null,
+    "Later":  {
+                  "Time":  "2026-11-18T15:44:02.8139064+08:00",
+                  "ServiceState":  "Running",
+                  "StartMode":  "Auto",
+                  "ProcessId":  53284,
+                  "Handles":  454,
+                  "PrivateWSMiB":  7.4,
+                  "CommitMiB":  9.2,
+                  "AvailableMiB":  1907,
+                  "PagedPoolMiB":  1071.4,
+                  "NonpagedPoolMiB":  734.6,
+                  "Events":  135195
+              },
     "Error":  null
 }
