@@ -1,0 +1,90 @@
+{
+  "minimum_required": "v4.0.0",
+  "stage_name": "act39side_ex08",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "斩业星熊",
+      "location": [
+        1,
+        7
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "遥",
+      "location": [
+        10,
+        6
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "歌蕾蒂娅",
+      "location": [
+        10,
+        7
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "圣聆初雪",
+      "location": [
+        8,
+        6
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "乌尔比安",
+      "location": [
+        9,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "EP-EX-8 - 盐海尽头      5人摆完挂机",
+    "details": "参考视频：【【EP-EX-8突袭】 5人摆完挂机】 https://www.bilibili.com/video/BV1ZsqRB5EZY/?share_source=copy_web&vd_source=6d05e552da08eb799fa199065158eb81"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "遥",
+      "skill": 2,
+      "skill_usage": 1
+    },
+    {
+      "name": "斩业星熊",
+      "skill_usage": 0,
+      "skill": 2
+    },
+    {
+      "name": "歌蕾蒂娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "乌尔比安",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "圣聆初雪",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 3
+}

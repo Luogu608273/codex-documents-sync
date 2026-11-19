@@ -1,0 +1,115 @@
+{
+  "minimum_required": "v6.18.0",
+  "stage_name": "act39side_ex08",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "斩业星熊",
+      "location": [
+        1,
+        7
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "Mon3tr",
+      "location": [
+        9,
+        5
+      ],
+      "direction": "Down",
+      "role": "medic"
+    },
+    {
+      "type": "Deploy",
+      "name": "歌蕾蒂娅",
+      "location": [
+        10,
+        7
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "圣聆初雪",
+      "location": [
+        8,
+        6
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "乌尔比安",
+      "location": [
+        9,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "重构体",
+      "location": [
+        9,
+        7
+      ],
+      "direction": "Up",
+      "doc": "满血路径：重构体→初雪→Mon3tr→乌尔比安；歌蕾蒂娅掉血时优先跳向她。"
+    },
+    {
+      "type": "SkillUsage",
+      "name": "Mon3tr",
+      "role": "medic",
+      "skill_usage": 1,
+      "doc": "重构体就位后，Mon3tr二技能好了就开。"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "EP-EX-8 盐海尽头｜Mon3tr二技能链愈适配（待实测）",
+    "details": "参考视频：【【EP-EX-8突袭】 5人摆完挂机】 https://www.bilibili.com/video/BV1ZsqRB5EZY/?share_source=copy_web&vd_source=6d05e552da08eb799fa199065158eb81\n\n本地修改版，基于prts://77980，未覆盖线上原作业。\n遥替换为Mon3tr：精二60、二技能专三、X模组三级，MAA坐标(9,5)朝下。重构体放(9,7)朝上，在原五名干员部署完成后追加。随后启用Mon3tr二技能好了就用，再二倍速挂机。初始skill_usage=0是为了等重构体就位，后续SkillUsage动作改为1，不限制开技次数。\n不要额外部署其他单位或随意改变部署顺序，否则同血比选择和治疗链会改变。\n其他四人坐标与相对顺序不变；用户指定斩业星熊不纳入治疗覆盖目标，仍保留其原阵容与部署。本次只替换遥并新增重构体，不增加其他治疗跳板。\nMon3tr直接治疗范围包含右侧歌蕾蒂娅(10,7)、初雪(8,6)、乌尔比安(9,4)和重构体(9,7)。二技能优先以重构体起链，每跳按低血量比例优先、同血量比例后部署优先，不重复跳已治疗目标。\n保持歌蕾蒂娅先于初雪部署；全员满血/同血比时，重构体先选后部署的初雪，再经Mon3tr本人中转抵达乌尔比安：重构体→初雪→Mon3tr→乌尔比安。若把歌蕾蒂娅移到初雪之后部署，满血时会先跳歌蕾蒂娅并断在右下角。\n歌蕾蒂娅血比更低时会优先走重构体→歌蕾蒂娅，保障掉血地面单位。她仅与重构体相邻，单条链不能从她继续跳到乌尔比安；不能保证每条链同时覆盖两名地面干员。若歌蕾蒂娅轻伤而乌尔比安重伤，重构体仍只能比较其相邻候选，可能先跳歌蕾蒂娅。实际治疗后血量变化、二技能延迟追加链、技能空档和敌方攻击都会改变后续链路。\n重构体邻接初雪和歌蕾蒂娅，提供攻击力增益；Mon3tr与乌尔比安不在其周围八格。重构体是召唤物，仅写部署动作，不加入自动编队名单。\n2026-11-19一图流确认Mon3tr为精二60、S2专三、X模组三级；模组等级需手动核对。当前快照未持有斩业星熊，仍需按原作业准备/借用二技能斩业星熊。歌蕾蒂娅自有一技能7级，原作业未写专精门槛，不能据此确认7级一定可通关。\n比较了251个合法位置/朝向/召唤物组合，并做血比与部署顺序的静态检查；未连接游戏，未实战验证。"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "Mon3tr",
+      "role": "medic",
+      "skill": 2,
+      "skill_usage": 0,
+      "requirements": {
+        "elite": 2,
+        "level": 60,
+        "skill_level": 10,
+        "module": 1
+      }
+    },
+    {
+      "name": "斩业星熊",
+      "skill_usage": 0,
+      "skill": 2
+    },
+    {
+      "name": "歌蕾蒂娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "乌尔比安",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "圣聆初雪",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 3
+}

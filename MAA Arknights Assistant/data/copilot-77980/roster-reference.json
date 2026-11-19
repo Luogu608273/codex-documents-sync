@@ -1,0 +1,36 @@
+{
+  "snapshot": "operators-2026-11-19.json",
+  "count": 240,
+  "raw_sha256": "c2545331f1cd36479deffc0cc1e739a5cd140b39355ae5cc733f7a151f45623f",
+  "Mon3tr": {
+    "id": "char_4179_monstr",
+    "name": "Mon3tr",
+    "level": 60,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_monstr_1",
+        "level": 3
+      },
+      {
+        "id": "skchr_monstr_2",
+        "level": 3
+      },
+      {
+        "id": "skchr_monstr_3",
+        "level": 3
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_monstr",
+        "type": "X",
+        "level": 3
+      }
+    ],
+    "potentialRank": 1
+  },
+  "source": "https://backend.yituliu.cn/open-api/operator/info",
+  "game_sync_time": "not provided"
+}
