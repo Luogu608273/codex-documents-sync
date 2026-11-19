@@ -1,0 +1,14 @@
+{
+  "job": "EP-EX-8-Mon3tr-S1.json",
+  "skill": 1,
+  "skill_type": "AUTO",
+  "automatic_in_game": true,
+  "manual_skill_actions": 0,
+  "owned_requirements_met": true,
+  "deployments_unchanged_from_S2": true,
+  "legal_normal_and_raid_tiles": true,
+  "distinct_deployments": 6,
+  "hoshiguma_excluded_from_healing_objective": true,
+  "s2_token_priority_and_delayed_chain_not_applicable": true,
+  "combat_verified": false
+}

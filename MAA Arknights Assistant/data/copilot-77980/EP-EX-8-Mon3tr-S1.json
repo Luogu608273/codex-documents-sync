@@ -1,0 +1,108 @@
+{
+  "minimum_required": "v6.18.0",
+  "stage_name": "act39side_ex08",
+  "actions": [
+    {
+      "type": "Deploy",
+      "name": "斩业星熊",
+      "location": [
+        1,
+        7
+      ],
+      "direction": "Right"
+    },
+    {
+      "type": "Deploy",
+      "name": "Mon3tr",
+      "location": [
+        9,
+        5
+      ],
+      "direction": "Down",
+      "role": "medic"
+    },
+    {
+      "type": "Deploy",
+      "name": "歌蕾蒂娅",
+      "location": [
+        10,
+        7
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "圣聆初雪",
+      "location": [
+        8,
+        6
+      ],
+      "direction": "Down"
+    },
+    {
+      "type": "Deploy",
+      "name": "乌尔比安",
+      "location": [
+        9,
+        4
+      ],
+      "direction": "Left"
+    },
+    {
+      "type": "Deploy",
+      "name": "重构体",
+      "location": [
+        9,
+        7
+      ],
+      "direction": "Up",
+      "doc": "重构体最后部署于(9,7)，邻接歌蕾蒂娅和圣聆初雪，可参与治疗链与提供增益。"
+    },
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "doc": {
+    "title": "EP-EX-8 盐海尽头｜Mon3tr一技能适配（待实测）",
+    "details": "参考视频：【【EP-EX-8突袭】 5人摆完挂机】 https://www.bilibili.com/video/BV1ZsqRB5EZY/?share_source=copy_web&vd_source=6d05e552da08eb799fa199065158eb81\n\n本地修改版，基于prts://77980，按用户要求将Mon3tr改为一技能。遥替换为医疗Mon3tr：精二60、一技能专三、X模组三级，MAA坐标(9,5)朝下。重构体仍放(9,7)朝上，最后部署；其余四名干员的配置、坐标、朝向及相对顺序保持。\n一技能为攻击回复、自动触发，无需MAA手动点击，skill_usage=0不阻止游戏自动触发。移除原二技能的SkillUsage动作，不再等待重构体落地才开技。\nMon3tr直接治疗范围仍包含歌蕾蒂娅(10,7)、圣聆初雪(8,6)、乌尔比安(9,4)和重构体(9,7)。一技能没有二技能优先治疗重构体与延迟追加治疗链的效果；原二技能以重构体固定起链的说明不适用。实际链路受受伤目标、各次治疗后的血量比例与部署顺序影响，不能保证每次同时覆盖两名地面干员。不要额外部署单位或随意改变部署顺序。\n斩业星熊保留原位，按用户要求不纳入治疗覆盖目标。重构体邻接歌蕾蒂娅和圣聆初雪，不邻接Mon3tr及乌尔比安；召唤物只写部署动作，不加入编队名单。\n2026-11-19一图流快照确认Mon3tr精二60、一技能专三、X模组三级；MAA模组类型设为1。快照未持有斩业星熊，仍需按原作业准备/借用其二技能。歌蕾蒂娅自有一技能7级，原作业未写专精门槛，不能据此确认可通关。\n已检查技能自动触发类型、干员配置、原部署顺序及普通/突袭地块合法性，未实战验证。"
+  },
+  "groups": [],
+  "opers": [
+    {
+      "name": "Mon3tr",
+      "role": "medic",
+      "skill": 1,
+      "skill_usage": 0,
+      "requirements": {
+        "elite": 2,
+        "level": 60,
+        "skill_level": 10,
+        "module": 1
+      }
+    },
+    {
+      "name": "斩业星熊",
+      "skill_usage": 0,
+      "skill": 2
+    },
+    {
+      "name": "歌蕾蒂娅",
+      "skill": 1,
+      "skill_usage": 0
+    },
+    {
+      "name": "乌尔比安",
+      "skill": 2,
+      "skill_usage": 0
+    },
+    {
+      "name": "圣聆初雪",
+      "skill": 2,
+      "skill_usage": 0
+    }
+  ],
+  "difficulty": 3
+}
