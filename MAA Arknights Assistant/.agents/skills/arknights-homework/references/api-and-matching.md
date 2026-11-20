@@ -49,8 +49,10 @@ https://prts.maa.plus/copilot/get/22311
 
 ```text
 GET https://backend.yituliu.cn/open-api/operator/info
-Authorization: <只读密钥原值，不加 Bearer>
+Authorization: Bearer <只读PAT>
 ```
+
+2026-11-20复核：官方测试页面`https://ark.yituliu.cn/dev/open-api-test`当前加载`/assets/open-api-test-Onk8l6nH.js`，会自动给输入令牌添加Bearer前缀，界面标注支持迁移前旧令牌。此前旧令牌以裸格式和Bearer格式均返回`60002：PAT 缺失、无效或已过期`；随后用户提供新只读PAT，本地更新凭据并以Bearer格式成功取得250条记录。遇到认证失败不能覆盖已有快照或当作干员数量为零。此前2026-10-10“直接填写密钥、不加Bearer”的记录已过时。
 
 完整响应：`{code: 200, msg: ..., data: [...]}`。PRTS Plus 本地导入兼容完整响应或纯 `data` 数组。
 

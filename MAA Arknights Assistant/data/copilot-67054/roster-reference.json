@@ -1,0 +1,34 @@
+{
+  "snapshot": "operators-2026-11-19.json",
+  "snapshot_sha256": "59e38a7f5fbf8e99acbc3e68a56ece2325bb086cc534cfdddc703b8cd49981e0",
+  "Mon3tr": {
+    "id": "char_4179_monstr",
+    "name": "Mon3tr",
+    "level": 60,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_monstr_1",
+        "level": 3
+      },
+      {
+        "id": "skchr_monstr_2",
+        "level": 3
+      },
+      {
+        "id": "skchr_monstr_3",
+        "level": 3
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_monstr",
+        "type": "X",
+        "level": 3
+      }
+    ],
+    "potentialRank": 1
+  },
+  "refreshed_this_task": false
+}
