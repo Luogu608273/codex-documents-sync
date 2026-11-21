@@ -1,0 +1,103 @@
+{
+  "stage_name": "act27side_mo01",
+  "minimum_required": "v6.18.0",
+  "doc": {
+    "title": "SL-MO-1 乡间路带我回家｜Mon3tr原位一技能与重构体（待实测）",
+    "details": "【【火山旅梦】SL-MO-1雪遥双核摆完挂机】 https://www.bilibili.com/video/BV1rxqPBrEfE/?share_source=copy_web&vd_source=c535d66b4d4f9ee364e635418080ff6c\n\n本地改写基于prts://96155，未修改线上作业。遥替换为医疗Mon3tr，保持原位(4,2)朝右。配置精二60、一技能专三、X模组三级；MAA模组类型1。一技能由游戏自动触发，skill_usage=0表示MAA无需点击，不禁止自动技能。\nMon3tr落地后立即在(4,1)朝下部署重构体，随后继续原初雪、祥子动作。重构体仅写部署，不加入编队名单。其余三人技能、要求、坐标、方向、相对顺序均保留；凛御银灰三技能仍设好了就开。\n利用重构体持续失血尽可能先治疗重构体。一技能没有二技能强制优先治疗重构体的效果，其他单位血比更低时会先治疗其他单位。Mon3tr直接范围包含银灰(5,1)、祥子(3,1)、初雪(6,3)及重构体(4,1)。重构体周围八格同时覆盖银灰、祥子和Mon3tr。\n从重构体起链、后续候选同血比时：重构体→丰川祥子→Mon3tr→凛御银灰。祥子最后部署，故同血比优先于Mon3tr和银灰；祥子再经Mon3tr连接另一名地面干员银灰。该路线在普通治疗与一技能强化治疗下均有足够目标数，重构体为天赋额外跳跃目标。本布局优先两名地面，不把末端无法连接的初雪虚算进同一条链；初雪受伤时由Mon3tr直接治疗。\n每跳在周围八格按最低生命比例优先、同血比按后部署优先，单条链不重复治疗已经经过的目标。若Mon3tr自身血比最低，重构体可能先跳Mon3tr，再跳祥子后断链，遗漏银灰；不能保证每条链覆盖两名地面。不要额外部署其他单位或随意改顺序。\n关卡初始50费、自然每999秒才回1费，持续产费依赖凛御银灰三技能，不能停用。Mon3tr比遥更贵，并新增3费重构体，初雪与祥子的到场时间可能变化；原作业未部署汽水瓶，本版也不额外加瓶。替换还会失去遥的原攻击/支援效果。\n按精二基础费用、不计潜能减费，银灰13+Mon3tr18+重构体3后剩16费，不足初雪24费；原银灰13+遥13后剩24费。因此新版本可能在初雪尚待部署时触发银灰首次换费，初雪与祥子的换费参与情况会与原版不同，未模拟精确费用时轴。\n按2026-11-20一图流250条快照核对：Mon3tr符合配置；银灰S3专三高于原7级要求，初雪S2专三/Y模组三。丰川祥子未持有，需借原要求的二技能专三、Y模组版本；未擅自降低其要求。MAA只能检查模组类型，三级需手动核对。\n本关为SL-MO-1，原作业未设置difficulty字段，本版保持。已检查地图、技能类型、容量、原站位与静态治疗链，未实战验证。"
+  },
+  "opers": [
+    {
+      "name": "凛御银灰",
+      "skill": 3,
+      "skill_usage": 1,
+      "requirements": {
+        "skill_level": 7
+      }
+    },
+    {
+      "name": "圣聆初雪",
+      "skill": 2,
+      "requirements": {
+        "skill_level": 10,
+        "module": 2
+      }
+    },
+    {
+      "name": "Mon3tr",
+      "role": "medic",
+      "skill": 1,
+      "skill_usage": 0,
+      "requirements": {
+        "elite": 2,
+        "level": 60,
+        "skill_level": 10,
+        "module": 1
+      }
+    },
+    {
+      "name": "丰川祥子",
+      "skill": 2,
+      "requirements": {
+        "skill_level": 10,
+        "module": 2
+      }
+    }
+  ],
+  "groups": [],
+  "actions": [
+    {
+      "type": "SpeedUp"
+    },
+    {
+      "name": "凛御银灰",
+      "location": [
+        5,
+        1
+      ],
+      "direction": "Down",
+      "type": "Deploy"
+    },
+    {
+      "name": "Mon3tr",
+      "location": [
+        4,
+        2
+      ],
+      "direction": "Right",
+      "type": "Deploy",
+      "role": "medic"
+    },
+    {
+      "type": "Deploy",
+      "name": "重构体",
+      "location": [
+        4,
+        1
+      ],
+      "direction": "Down",
+      "doc": "Mon3tr之后立即部署；重构体持续失血，尽可能先治疗它，再串联祥子与银灰。"
+    },
+    {
+      "name": "圣聆初雪",
+      "location": [
+        6,
+        3
+      ],
+      "direction": "Down",
+      "type": "Deploy"
+    },
+    {
+      "name": "丰川祥子",
+      "location": [
+        3,
+        1
+      ],
+      "direction": "Right",
+      "type": "Deploy"
+    },
+    {
+      "type": "SkillDaemon"
+    }
+  ],
+  "version": 3
+}

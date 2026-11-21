@@ -1,0 +1,87 @@
+{
+  "snapshot": "operators-2026-11-20.json",
+  "refreshed_this_task": false,
+  "snapshot_sha256": "b4e77c4a9be3c4040c20effabae29209b1fbab4a9e937f71ac88dc37c87d5991",
+  "Mon3tr": {
+    "id": "char_4179_monstr",
+    "name": "Mon3tr",
+    "level": 60,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_monstr_1",
+        "level": 3
+      },
+      {
+        "id": "skchr_monstr_2",
+        "level": 3
+      },
+      {
+        "id": "skchr_monstr_3",
+        "level": 3
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_monstr",
+        "type": "X",
+        "level": 3
+      }
+    ],
+    "potentialRank": 1
+  },
+  "SilverAsh": {
+    "id": "char_1045_svash2",
+    "name": "凛御银灰",
+    "level": 60,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_svash2_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_svash2_2",
+        "level": 3
+      },
+      {
+        "id": "skchr_svash2_3",
+        "level": 3
+      }
+    ],
+    "equips": [],
+    "potentialRank": 1
+  },
+  "Pramanix": {
+    "id": "char_1046_sbell2",
+    "name": "圣聆初雪",
+    "level": 60,
+    "evolvePhase": 2,
+    "mainSkillLevel": 7,
+    "skills": [
+      {
+        "id": "skchr_sbell2_1",
+        "level": 0
+      },
+      {
+        "id": "skchr_sbell2_2",
+        "level": 3
+      },
+      {
+        "id": "skchr_sbell2_3",
+        "level": 3
+      }
+    ],
+    "equips": [
+      {
+        "id": "uniequip_002_sbell2",
+        "type": "Y",
+        "level": 3
+      }
+    ],
+    "potentialRank": 1
+  },
+  "Sakiko_owned": false
+}
