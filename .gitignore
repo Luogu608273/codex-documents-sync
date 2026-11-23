@@ -1,3 +1,11 @@
+# Large local files: keep out of Git
+*.[rR][mM][pP]
+/2026-11-05/b-n/work/scan.json
+# FileSync: large installers begin
+# Large installers and repair driver/runtime backups; local files are retained
+/2026-11-13/d-2/work/memory-20261121/memory.rmp
+# FileSync: large installers end
+
 # FileSync: excluded extensions begin
 *.[iI][nN]
 *.[eE][xX][eE]
