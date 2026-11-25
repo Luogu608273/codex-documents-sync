@@ -1,0 +1,4 @@
+PASS: all hotkeys, fallback, repeat filtering and MuMu shortcuts.
+PASS: keyboard hook installed on its own thread and reinstalled after two simulated Windows resume messages.
+PASS: hidden command window lookup and command delivery.
+PASS: native opacity 10%-90% -> alpha 255, layered style and color key; no visible test window. Native topmost is not asserted on an invisible window.

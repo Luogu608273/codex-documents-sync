@@ -13,15 +13,12 @@ using System.Windows.Forms;
 [assembly: System.Reflection.AssemblyTitle("virtrite 2")]
 [assembly: System.Reflection.AssemblyProduct("virtrite 2")]
 [assembly: System.Reflection.AssemblyVersion("2.0.0.0")]
-[assembly: System.Reflection.AssemblyFileVersion("2.0.2.0")]
+[assembly: System.Reflection.AssemblyFileVersion("2.0.4.0")]
 
 internal static class Native
 {
     internal const long Layered = 0x80000;
     internal delegate bool EnumCallback(IntPtr window, IntPtr data);
-    internal delegate IntPtr HookCallback(int code, IntPtr message, IntPtr data);
-    [StructLayout(LayoutKind.Sequential)]
-    internal struct KeyboardEvent { internal uint key, scan, flags, time; internal UIntPtr extra; }
     [DllImport("user32.dll")] internal static extern bool EnumWindows(EnumCallback callback, IntPtr data);
     [DllImport("user32.dll")] internal static extern bool IsWindow(IntPtr window);
     [DllImport("user32.dll")] internal static extern bool IsWindowVisible(IntPtr window);
@@ -40,12 +37,11 @@ internal static class Native
     [DllImport("kernel32.dll", CharSet = CharSet.Unicode, SetLastError = true)] internal static extern IntPtr LoadLibrary(string file);
     [DllImport("kernel32.dll", CharSet = CharSet.Ansi, SetLastError = true)] internal static extern IntPtr GetProcAddress(IntPtr module, string name);
     [DllImport("kernel32.dll")] internal static extern bool FreeLibrary(IntPtr module);
-    [DllImport("kernel32.dll", CharSet = CharSet.Unicode)] internal static extern IntPtr GetModuleHandle(string name);
     [DllImport("user32.dll", SetLastError = true)] internal static extern IntPtr SetWindowsHookEx(int type, IntPtr callback, IntPtr module, uint thread);
-    [DllImport("user32.dll", SetLastError = true)] internal static extern IntPtr SetWindowsHookEx(int type, HookCallback callback, IntPtr module, uint thread);
     [DllImport("user32.dll")] internal static extern bool UnhookWindowsHookEx(IntPtr hook);
-    [DllImport("user32.dll")] internal static extern IntPtr CallNextHookEx(IntPtr hook, int code, IntPtr message, IntPtr data);
-    [DllImport("user32.dll")] internal static extern short GetAsyncKeyState(int key);
+    [DllImport("user32.dll", SetLastError = true)] internal static extern bool RegisterHotKey(IntPtr window, int id, uint modifiers, uint key);
+    [DllImport("user32.dll", SetLastError = true)] internal static extern bool UnregisterHotKey(IntPtr window, int id);
+    [DllImport("user32.dll", SetLastError = true)] internal static extern bool PostMessage(IntPtr window, uint message, IntPtr wParam, IntPtr lParam);
     [DllImport("user32.dll", CharSet = CharSet.Unicode)] internal static extern uint RegisterWindowMessage(string text);
     [DllImport("user32.dll", SetLastError = true)] internal static extern IntPtr SendMessageTimeout(IntPtr window, uint message, UIntPtr wParam, IntPtr lParam, uint flags, uint timeout, out UIntPtr result);
     [DllImport("user32.dll", CharSet = CharSet.Unicode)] internal static extern IntPtr GetProp(IntPtr window, string name);
@@ -251,29 +247,127 @@ internal static class WindowActions
     }
 }
 
-internal sealed class ShortcutState
+internal sealed class HotkeyListener : NativeWindow, IDisposable
 {
-    private readonly bool[] held = new bool[256];
-    internal void Seed(int key, bool down) { held[key] = down; }
-    // -2: no action; -1: pin; 0..9: foreground opacity; 100..109: all MuMu.
-    internal int Feed(int key, bool down)
+    internal const int HotkeyMessage = 0x312;
+    private const int PowerBroadcast = 0x218;
+    private const int ResumeAutomatic = 0x12, ResumeInteractive = 0x07, ResumeCritical = 0x06;
+    private const uint StopMessage = 0x8062;
+    private const uint Alt = 1, Control = 2, Shift = 4, NoRepeat = 0x4000;
+    internal sealed class Binding
     {
-        if (key < 0 || key >= held.Length) return -2;
-        bool repeated = held[key];
-        held[key] = down;
-        if (!down || repeated) return -2;
-        bool ctrl = held[0xA2] || held[0xA3];
-        bool shift = held[0xA0] || held[0xA1];
-        bool alt = held[0xA4] || held[0xA5];
-        if (!ctrl || held[0x5B] || held[0x5C]) return -2;
-        if (shift && !alt)
+        internal readonly uint Modifiers, Key;
+        internal readonly int Action;
+        internal readonly string Label;
+
+        internal Binding(uint modifiers, uint key, int action, string label)
         {
-            if (key >= 0x30 && key <= 0x39) return key - 0x30;
-            if (key == 0xBB) return -1;
+            Modifiers = modifiers;
+            Key = key;
+            Action = action;
+            Label = label;
         }
-        if (alt && !shift && key == 0x30) return 0;
-        if (alt && shift && key >= 0x30 && key <= 0x39) return 100 + key - 0x30;
-        return -2;
+    }
+
+    internal static List<Binding> DefaultBindings()
+    {
+        List<Binding> result = new List<Binding>();
+        for (uint digit = 0; digit <= 9; digit++)
+            result.Add(new Binding(Control | Shift, 0x30 + digit, (int)digit, "Ctrl+Shift+" + digit));
+        result.Add(new Binding(Control | Shift, 0xBB, -1, "Ctrl+Shift+加号"));
+        result.Add(new Binding(Control | Alt, 0x30, 0, "Ctrl+Alt+0"));
+        for (uint digit = 0; digit <= 9; digit++)
+            result.Add(new Binding(Control | Alt | Shift, 0x30 + digit, 100 + (int)digit, "Ctrl+Alt+Shift+" + digit));
+        return result;
+    }
+
+    private readonly IList<Binding> bindings;
+    private readonly bool[] registered;
+    private readonly Action<int> shortcut;
+    private readonly Action resumed;
+    private readonly Thread worker;
+    private readonly ManualResetEvent ready = new ManualResetEvent(false);
+    private Exception startupError;
+    internal string MissingShortcuts { get; private set; }
+    internal int RegisteredCount { get; private set; }
+
+    internal HotkeyListener(IList<Binding> bindings, Action<int> shortcut, Action resumed)
+    {
+        this.bindings = bindings;
+        registered = new bool[bindings.Count];
+        this.shortcut = shortcut;
+        this.resumed = resumed;
+        worker = new Thread(Run) { IsBackground = true, Name = "virtrite 2 hotkeys" };
+        worker.SetApartmentState(ApartmentState.STA);
+        worker.Start();
+        ready.WaitOne();
+        ready.Dispose();
+        if (startupError != null) throw new InvalidOperationException("无法启动快捷键。", startupError);
+    }
+
+    private void Run()
+    {
+        try
+        {
+            // A hidden top-level window receives system broadcasts. Message-only windows do not.
+            CreateHandle(new CreateParams { Caption = "virtrite 2.PowerNotifications", Style = unchecked((int)0x80000000) });
+            RegisterMissing();
+        }
+        catch (Exception error) { startupError = error; }
+        finally { ready.Set(); }
+        try { if (startupError == null) Application.Run(); }
+        finally
+        {
+            for (int id = 0; id < registered.Length; id++)
+                if (registered[id]) Native.UnregisterHotKey(Handle, id);
+            if (Handle != IntPtr.Zero) DestroyHandle();
+        }
+    }
+
+    private void RegisterMissing()
+    {
+        List<string> missing = new List<string>();
+        for (int id = 0; id < bindings.Count; id++)
+        {
+            if (registered[id]) continue;
+            Binding binding = bindings[id];
+            if (Native.RegisterHotKey(Handle, id, binding.Modifiers | NoRepeat, binding.Key))
+            {
+                registered[id] = true;
+                RegisteredCount++;
+            }
+            else missing.Add(binding.Label + " (" + Marshal.GetLastWin32Error() + ")");
+        }
+        MissingShortcuts = string.Join("、", missing.ToArray());
+    }
+
+    protected override void WndProc(ref Message message)
+    {
+        if (message.Msg == PowerBroadcast)
+        {
+            int state = message.WParam.ToInt32();
+            if (state == ResumeAutomatic || state == ResumeInteractive || state == ResumeCritical)
+            {
+                RegisterMissing();
+                resumed();
+            }
+            message.Result = new IntPtr(1);
+            return;
+        }
+        if (message.Msg == HotkeyMessage)
+        {
+            int id = message.WParam.ToInt32();
+            if (id >= 0 && id < registered.Length && registered[id]) shortcut(bindings[id].Action);
+            return;
+        }
+        if (message.Msg == StopMessage) { Application.ExitThread(); return; }
+        base.WndProc(ref message);
+    }
+
+    public void Dispose()
+    {
+        if (worker.IsAlive && Native.PostMessage(Handle, StopMessage, IntPtr.Zero, IntPtr.Zero))
+            worker.Join(2000);
     }
 }
 
@@ -313,23 +407,19 @@ internal sealed class TrayContext : ApplicationContext
     private readonly Control dispatch = new Control();
     private readonly NotifyIcon icon = new NotifyIcon();
     private readonly ContextMenuStrip menu = new ContextMenuStrip();
-    private readonly ShortcutState keys = new ShortcutState();
     private readonly Dictionary<IntPtr, uint> touched = new Dictionary<IntPtr, uint>();
     private readonly Dictionary<uint, MuMuPreference> mumuPreferences = new Dictionary<uint, MuMuPreference>();
     private readonly System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
-    private readonly Native.HookCallback callback;
+    private readonly HotkeyListener keyboard;
     private readonly CommandWindow commands;
-    private IntPtr hook;
+    private readonly uint ownProcess = (uint)Process.GetCurrentProcess().Id;
     private int? allMuMuLevel;
     private DateTime lastError = DateTime.MinValue;
 
     internal TrayContext(int? initialMuMuLevel)
     {
         IntPtr ignored = dispatch.Handle;
-        foreach (int key in new int[] { 0xA0, 0xA1, 0xA2, 0xA3, 0xA4, 0xA5, 0x5B, 0x5C }) keys.Seed(key, Native.GetAsyncKeyState(key) < 0);
-        callback = OnKeyboard;
-        hook = Native.SetWindowsHookEx(13, callback, Native.GetModuleHandle(null), 0);
-        if (hook == IntPtr.Zero) throw new Win32Exception(Marshal.GetLastWin32Error());
+        keyboard = new HotkeyListener(HotkeyListener.DefaultBindings(), QueueShortcut, delegate { OnUiThread(ResumeMuMuOpacity); });
         commands = new CommandWindow(OnCommand);
         menu.Items.Add("使用说明", null, delegate { ShowHelp(); });
         ToolStripMenuItem mumu = new ToolStripMenuItem("MuMu 不透明度");
@@ -350,7 +440,12 @@ internal sealed class TrayContext : ApplicationContext
         timer.Tick += delegate { TryAction(KeepMuMuOpacity); };
         timer.Start();
         if (initialMuMuLevel.HasValue) TryAction(delegate { SetAllMuMu(initialMuMuLevel.Value); });
-        Log.Write("Started. Keyboard hook installed; no window was activated.");
+        Log.Write("Started. Windows global hotkeys registered: " + keyboard.RegisteredCount + "/22.");
+        if (keyboard.MissingShortcuts.Length != 0)
+        {
+            Log.Write("Hotkey registration failed: " + keyboard.MissingShortcuts);
+            icon.ShowBalloonTip(5000, "virtrite 2", "以下快捷键未能注册：" + keyboard.MissingShortcuts, ToolTipIcon.Warning);
+        }
     }
     private void ShowHelp()
     {
@@ -465,41 +560,45 @@ internal sealed class TrayContext : ApplicationContext
         if (command == 2) RestoreAll();
         if (command == 3) dispatch.BeginInvoke((MethodInvoker)delegate { ExitThread(); });
     }
-    private IntPtr OnKeyboard(int code, IntPtr message, IntPtr data)
+    private void ResumeMuMuOpacity()
     {
-        if (code >= 0)
+        Log.Write("Resume: Windows global hotkeys registered: " + keyboard.RegisteredCount + "/22. " + keyboard.MissingShortcuts);
+        DateTime retryAfter = DateTime.UtcNow.AddSeconds(1);
+        foreach (MuMuPreference preference in mumuPreferences.Values)
         {
-            int msg = message.ToInt32();
-            if (msg == 0x100 || msg == 0x104 || msg == 0x101 || msg == 0x105)
-            {
-                Native.KeyboardEvent input = (Native.KeyboardEvent)Marshal.PtrToStructure(data, typeof(Native.KeyboardEvent));
-                int action = keys.Feed((int)input.key, msg == 0x100 || msg == 0x104);
-                if (action >= -1)
-                {
-                    IntPtr window = Native.GetForegroundWindow();
-                    uint owner = MuMuWindows.Owner(window);
-                    if (action >= 100 || (window != IntPtr.Zero && owner != (uint)Process.GetCurrentProcess().Id))
-                    {
-                        dispatch.BeginInvoke((MethodInvoker)delegate
-                        {
-                            if (action < 100 && (!Native.IsWindow(window) || MuMuWindows.Owner(window) != owner)) return;
-                            TryAction(delegate
-                            {
-                                if (action >= 100) SetAllMuMu(action - 100);
-                                else if (action == -1) WindowActions.ToggleTopmost(window);
-                                else Apply(window, action);
-                            });
-                        });
-                    }
-                }
-            }
+            preference.RetryAfter = retryAfter;
+            preference.Suspended = false;
+            preference.RecentRepairs.Clear();
         }
-        return Native.CallNextHookEx(hook, code, message, data);
+    }
+    private void OnUiThread(MethodInvoker action)
+    {
+        try { dispatch.BeginInvoke(action); }
+        catch (InvalidOperationException) { } // The UI may already be closing.
+    }
+    private void QueueShortcut(int action)
+    {
+        IntPtr window = Native.GetForegroundWindow();
+        uint owner = MuMuWindows.Owner(window);
+        OnUiThread(delegate
+        {
+            if (action < 100 && (window == IntPtr.Zero || owner == ownProcess || !Native.IsWindow(window) || MuMuWindows.Owner(window) != owner))
+            {
+                Log.Write("Hotkey received, but no eligible foreground window. action=" + action);
+                return;
+            }
+            TryAction(delegate
+            {
+                if (action >= 100) SetAllMuMu(action - 100);
+                else if (action == -1) WindowActions.ToggleTopmost(window);
+                else Apply(window, action);
+            });
+        });
     }
     protected override void ExitThreadCore()
     {
         timer.Stop();
-        if (hook != IntPtr.Zero) { Native.UnhookWindowsHookEx(hook); hook = IntPtr.Zero; }
+        keyboard.Dispose();
         RestoreAll();
         QtBridge.ReleaseAll();
         commands.Dispose();
@@ -515,28 +614,36 @@ internal sealed class TrayContext : ApplicationContext
 
 internal static class Program
 {
+    [DllImport("user32.dll")] private static extern void keybd_event(byte key, byte scan, uint flags, UIntPtr extra);
+
     private static void Require(bool condition, string message) { if (!condition) throw new Exception(message); }
     private static void SelfTest(string report)
     {
         List<string> passed = new List<string>();
-        ShortcutState keys = new ShortcutState();
-        Require(keys.Feed(0x30, true) == -2, "Bare zero");
-        keys.Feed(0x30, false);
-        keys.Feed(0xA2, true); keys.Feed(0xA1, true);
-        for (int i = 0; i <= 9; i++)
+        List<HotkeyListener.Binding> defaults = HotkeyListener.DefaultBindings();
+        Require(defaults.Count == 22 && defaults[0].Action == 0 && defaults[11].Action == 0 && defaults[21].Action == 109, "Retain default shortcut actions");
+        const byte testKey = 0x87; // F24 is used only by the test and changes no windows.
+        int receivedAction = -100;
+        using (AutoResetEvent triggered = new AutoResetEvent(false))
+        using (AutoResetEvent recovered = new AutoResetEvent(false))
+        using (HotkeyListener listener = new HotkeyListener(new[] { new HotkeyListener.Binding(0, testKey, 5, "F24") },
+            delegate(int action) { receivedAction = action; triggered.Set(); }, delegate { recovered.Set(); }))
         {
-            Require(keys.Feed(0x30 + i, true) == i, "Ctrl+Shift+" + i);
-            Require(keys.Feed(0x30 + i, true) == -2, "Repeated key");
-            keys.Feed(0x30 + i, false);
+            Require(listener.RegisteredCount == 1, "Register test hotkey: " + listener.MissingShortcuts);
+            UIntPtr result;
+            for (int i = 0; i < 3; i++)
+            {
+                if (i > 0)
+                {
+                    Require(Native.SendMessageTimeout(listener.Handle, 0x218, new UIntPtr(0x12), IntPtr.Zero, 2, 3000, out result) != IntPtr.Zero && result.ToUInt64() == 1, "Resume message accepted");
+                    Require(recovered.WaitOne(3000), "Received resume callback");
+                }
+                keybd_event(testKey, 0, 0, UIntPtr.Zero);
+                keybd_event(testKey, 0, 2, UIntPtr.Zero);
+                Require(triggered.WaitOne(3000) && receivedAction == 5, "Windows delivered registered shortcut on attempt " + i);
+            }
         }
-        Require(keys.Feed(0xBB, true) == -1, "Topmost shortcut"); keys.Feed(0xBB, false);
-        keys.Feed(0xA1, false); keys.Feed(0xA4, true);
-        Require(keys.Feed(0x30, true) == 0, "Ctrl+Alt+0 fallback"); keys.Feed(0x30, false);
-        keys.Feed(0xA1, true);
-        Require(keys.Feed(0x35, true) == 105, "Background MuMu hotkey"); keys.Feed(0x35, false);
-        keys.Feed(0x5B, true);
-        Require(keys.Feed(0x35, true) == -2, "Windows key ignored");
-        passed.Add("PASS: all hotkeys, fallback, repeat filtering and MuMu shortcuts.");
+        passed.Add("PASS: Windows delivered registered hotkey before and after two simulated resume notifications.");
         int receivedCommand = 0, receivedValue = 0;
         string testCaption = CommandWindow.Caption + ".SelfTest." + Process.GetCurrentProcess().Id;
         using (CommandWindow receiver = new CommandWindow(delegate(int command, int value) { receivedCommand = command; receivedValue = value; }, testCaption))

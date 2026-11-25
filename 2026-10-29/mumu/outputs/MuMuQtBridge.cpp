@@ -8,7 +8,13 @@ static const wchar_t* StatusName = L"Codex.MuMuOpacity.QtBridge.Status.20261030"
 static const wchar_t* AlphaName = L"Codex.MuMuOpacity.QtBridge.RetainedAlpha.20261030";
 static const wchar_t* ResetCountName = L"Codex.MuMuOpacity.QtBridge.PreventedResetCount.20261030";
 static const WPARAM Cookie = 0x4D550000;
-static thread_local bool applying = false;
+// Use a Windows TLS slot for the hook DLL. TDM's emulated thread_local runtime
+// can follow stale process-local state after the hook DLL is loaded again.
+static DWORD applyingSlot = TLS_OUT_OF_INDEXES;
+
+static bool isApplying() {
+    return TlsGetValue(applyingSlot) != nullptr;
+}
 
 static bool matchesOpacity(HWND window, BYTE alpha) {
     DWORD color = 0, flags = 0;
@@ -19,7 +25,7 @@ static bool matchesOpacity(HWND window, BYTE alpha) {
 }
 
 static ULONG_PTR applyQt(HWND window, BYTE alpha) {
-    if (applying) return 4;
+    if (isApplying()) return 4;
     HMODULE widgets = GetModuleHandleW(L"Qt5Widgets.dll");
     typedef void* (*FindWidget)(uint64_t);
     typedef void (*SetOpacity)(void*, double);
@@ -28,7 +34,7 @@ static ULONG_PTR applyQt(HWND window, BYTE alpha) {
     if (!find || !set) return 2;
     void* widget = find(reinterpret_cast<uint64_t>(window));
     if (!widget) return 3;
-    applying = true;
+    if (!TlsSetValue(applyingSlot, reinterpret_cast<void*>(1))) return 4;
     const double opacity = double(alpha) / 255.0;
     set(widget, opacity);
     if (!matchesOpacity(window, alpha)) {
@@ -37,7 +43,7 @@ static ULONG_PTR applyQt(HWND window, BYTE alpha) {
         set(widget, nudge);
         set(widget, opacity);
     }
-    applying = false;
+    TlsSetValue(applyingSlot, nullptr);
     return 1;
 }
 
@@ -47,7 +53,7 @@ static BYTE retainedAlpha(HWND window) {
 }
 
 static void ensureBeforePaint(HWND window) {
-    if (applying) return;
+    if (isApplying()) return;
     const BYTE alpha = retainedAlpha(window);
     if (alpha < 255 && !matchesOpacity(window, alpha)) applyQt(window, alpha);
 }
@@ -69,7 +75,7 @@ extern "C" __declspec(dllexport) LRESULT CALLBACK MuMuOpacityHook(int code, WPAR
                 if (result != 1) RemovePropW(msg->hwnd, AlphaName);
                 SetPropW(msg->hwnd, StatusName, reinterpret_cast<HANDLE>(result));
             }
-        } else if (msg && !applying) {
+        } else if (msg && !isApplying()) {
             if (msg->message == WM_STYLECHANGING && int(msg->wParam) == GWL_EXSTYLE && retainedAlpha(msg->hwnd) < 255) {
                 STYLESTRUCT* styles = reinterpret_cast<STYLESTRUCT*>(msg->lParam);
                 if (styles && !(styles->styleNew & WS_EX_LAYERED)) {
@@ -92,7 +98,7 @@ extern "C" __declspec(dllexport) LRESULT CALLBACK MuMuOpacityHook(int code, WPAR
 }
 
 extern "C" __declspec(dllexport) LRESULT CALLBACK MuMuOpacityAfterHook(int code, WPARAM wp, LPARAM lp) {
-    if (code >= 0 && !applying) {
+    if (code >= 0 && !isApplying()) {
         const CWPRETSTRUCT* msg = reinterpret_cast<const CWPRETSTRUCT*>(lp);
         if (msg && (msg->message == WM_SHOWWINDOW || msg->message == WM_STYLECHANGED || msg->message == WM_WINDOWPOSCHANGED))
             ensureBeforePaint(msg->hwnd);
@@ -100,4 +106,11 @@ extern "C" __declspec(dllexport) LRESULT CALLBACK MuMuOpacityAfterHook(int code,
     return CallNextHookEx(nullptr, code, wp, lp);
 }
 
-BOOL WINAPI DllMain(HINSTANCE, DWORD, LPVOID) { return TRUE; }
+BOOL WINAPI DllMain(HINSTANCE, DWORD reason, LPVOID) {
+    if (reason == DLL_PROCESS_ATTACH) {
+        applyingSlot = TlsAlloc();
+        return applyingSlot != TLS_OUT_OF_INDEXES;
+    }
+    if (reason == DLL_PROCESS_DETACH && applyingSlot != TLS_OUT_OF_INDEXES) TlsFree(applyingSlot);
+    return TRUE;
+}
