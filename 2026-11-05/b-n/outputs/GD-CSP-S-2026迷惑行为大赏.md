@@ -707,7 +707,7 @@ int main(){
 `GD-S03636/crystal/crystal.cpp`，第 39 行（注释）。
 
 ```cpp
-2026 CCF 非专业级软件能力认证CSP-J/S 2026 第二轮提高组时间：2026 年 10 月 31 日 14:30 ∼ 18:30题目名称 能量水晶 地铁 迁徙 研发基地题目类型 传统型 传统型 传统型 传统型目录 crystal subway migrate hub可执行文件名 crystal subway migrate hub输入文件名 crystal.in subway.in …
+2026 CCF 非专业级软件能力认证CSP-J/S 2026 第二轮提高组时间：2026 年 10 月 31 日 14:30 ∼ 18:30题目名称 能量水晶 地铁 迁徙 研发基地题目类 传统型 传统型 传统型 传统型目录 crystal subway migrate hub可执行文件名 crystal subway migrate hub输入文件名 型crystal.in subway.in …
 ```
 
 原行较长，此处截取前 200 字符，省略号为后加。
